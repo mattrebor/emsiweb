@@ -55,7 +55,7 @@
 		<div id="message" class="${message.type}">${message.message}</div>
 	</c:if> 
 	
-	<h2>${labelContactList}</h2>
+	<h2>${labelContactList} aaa</h2>
 	<div>
 		<table id="list">
 			<tr><td/></tr>
