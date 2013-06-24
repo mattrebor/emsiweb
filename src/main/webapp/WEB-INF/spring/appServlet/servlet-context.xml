@@ -26,7 +26,7 @@
 	</beans:bean>
 	 -->
 	
-	<context:component-scan base-package="com.rt.ch17.web.controller" />
+	<context:component-scan base-package="com.rt.ch17.web.controller,org.emsionline.emsiweb.web.controller" />
 	
 	<interceptors>
 		<beans:bean class="org.springframework.web.servlet.theme.ThemeChangeInterceptor"/>
