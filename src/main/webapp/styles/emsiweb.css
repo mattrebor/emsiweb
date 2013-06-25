@@ -72,6 +72,9 @@ footer {
 	padding-top: 10px;
 	width: 57px;
 	min-height: 20px;
+	padding-right: 1px;
+	padding-left: 1px;
+	
 }
 
 #primary-nav li.selected {
@@ -88,6 +91,7 @@ footer {
 #site-nav {
 	color: #777777;
 	float: right;
+	margin-top: 3px;
 	margin-right: 25px;
 	min-height: 25px;
 }
