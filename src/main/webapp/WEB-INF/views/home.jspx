@@ -1,8 +1,7 @@
 <div id="home" xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:spring="http://www.springframework.org/tags"
-		xmlns:fn="http://java.sun.com/jsp/jstl/functions"	
-		xmlns:c="http://java.sun.com/jsp/jstl/core"
-	
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
 	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
@@ -11,133 +10,138 @@
 		<c:set var="plocale">${pageContext.response.locale}</c:set>
 		<c:out value="${fn:replace(plocale, '_', '-')}" default="en" />
 	</c:set>
-	
+
 	<c:choose>
-				<c:when test="${userLocale eq 'zh'}">
-				<a class="title" href="">際神學福音佈道會 (EMSI)</a> <br />
-		<h1 style="font-size: 1.5em">總會設於美國新澤西州多華谷</h1>
-		<img src="images/headquarter.png"
-			style="float: left; margin-right: 20px" />
-			
-<p>
- <br />
-36 Alpine Road, Towaco, NJ 07082 USA
-</p>
-<p>
-創辦人是楊摩西博士<br />
-福音事工遍及歐、美、非、亞四大洲
-</p>
-<p>
-下設三大福音機構：<br />
-國際福音神學院<br />
-國際福音佈道會<br />
-國際福音差傳會
-</p>
-			
-				</c:when>
-				<c:otherwise>
-	<article>
-		<a class="title" href="">Evangelical Mission and Seminary
-			International, Inc. (EMSI)</a> <br />
-		<h1 style="font-size: 1.5em">Introduction to Organization</h1>
-		<img src="images/headquarter.png"
-			style="float: left; margin-right: 20px" />
-
-		<section>
+		<c:when test="${userLocale eq 'zh'}">
+			<a class="title" href="">際神學福音佈道會 (EMSI)</a>
+			<br />
+			<h1 style="font-size: 1.5em">總會設於美國新澤西州多華谷</h1>
+			<img src="images/headquarter.png"
+				style="float: left; margin-right: 20px" />
 
 			<p>
-				Headquartered in Towaco, New Jersey U.S.A. <br />36 Alpine Road,
-				Towaco, NJ 07082.
+				<br /> 36 Alpine Road, Towaco, NJ 07082 USA
 			</p>
-
-			<p>EMSI was founded by Pastor Moses Yang.</p>
-
 			<p>
-				EMSI has branches in 3 continents: <br />Europe <br />North
-				America <br />Africa <br />Asia
+				創辦人是楊摩西博士<br /> 福音事工遍及歐、美、非、亞四大洲
+			</p>
+			<p>
+				下設三大福音機構：<br /> 國際福音神學院<br /> 國際福音佈道會<br /> 國際福音差傳會
 			</p>
 
-			<p>
-				EMSI is made up of the following organizations - <br />Evangelical
-				Bible Institute <br />Christian Evangelical Mission <br />Christian
-				Evangelical Overseas Outreach
-			</p>
-		</section>
-		<br />
-		<hr />
-		<section>
-			<p>Evangelical Mission and Seminary International (E.M.S.I.) was
-				established by the founder, Rev. Moses Yang, in 1968 after
-				"Fellowship of Life" was started. Later it progressively developed
-				into a global evangelical organization. At the present, we have
-				established Gospel ministries in four continents - Europe, Asia,
-				North America, and Africa. The Christian Evangelical Mission was
-				established in West Orange, New Jersey in 1975. And the Evangelical
-				Mission and Seminary International was established in Towaco, New
-				Jersey in 1982. In these forty years (1968-2008), the ministry had
-				expanded to seminaries, churches, mission, literature, and
-				broadcasting, etc. We have a biblically sound Statement of Faith, a
-				clear administrative organization and a strong three-fold Gospel
-				ministry. Through the multi-faceted ministry, the Gospel could
-				spread far and wide.</p>
-			<p>The Mission headquarters is located at 36 Alpine Road, Towaco,
-				New Jersey, U.S.A. The Board of Directors are: John Chuang
-				(Chairman), Moses Yang (Executive Director), Rose Yang (Treasurer),
-				Zion Wu (Secretary), Joseph Chuang, Siti Aminah, Luciana Lu, William
-				Chuang, Saw Sim Kie, Ruth Chandra, Patrick Chang, Micky Yu, Jane
-				Chang, Meelen Lim, Jih-Han Hsieh, and Vicky Yang.</p>
-		</section>
-		<br />
-		<hr />
-		<section>
-			<p>Evangelical Mission and Seminary International (E.M.S.I.) was
-				established by the founder, Rev. Moses Yang, in 1968 after
-				"Fellowship of Life" was started. Later it progressively developed
-				into a global evangelical organization. At the present, we have
-				established Gospel ministries in four continents - Europe, Asia,
-				North America, and Africa. The Christian Evangelical Mission was
-				established in West Orange, New Jersey in 1975. And the Evangelical
-				Mission and Seminary International was established in Towaco, New
-				Jersey in 1982. In these forty years (1968-2008), the ministry had
-				expanded to seminaries, churches, mission, literature, and
-				broadcasting, etc. We have a biblically sound Statement of Faith, a
-				clear administrative organization and a strong three-fold Gospel
-				ministry. Through the multi-faceted ministry, the Gospel could
-				spread far and wide.</p>
-			<p>The Mission headquarters is located at 36 Alpine Road, Towaco,
-				New Jersey, U.S.A. The Board of Directors are: John Chuang
-				(Chairman), Moses Yang (Executive Director), Rose Yang (Treasurer),
-				Zion Wu (Secretary), Joseph Chuang, Siti Aminah, Luciana Lu, William
-				Chuang, Saw Sim Kie, Ruth Chandra, Patrick Chang, Micky Yu, Jane
-				Chang, Meelen Lim, Jih-Han Hsieh, and Vicky Yang.</p>
-		</section>
-		<br />
-		<hr />
-		<section>
-			<p>Evangelical Mission and Seminary International (E.M.S.I.) was
-				established by the founder, Rev. Moses Yang, in 1968 after
-				"Fellowship of Life" was started. Later it progressively developed
-				into a global evangelical organization. At the present, we have
-				established Gospel ministries in four continents - Europe, Asia,
-				North America, and Africa. The Christian Evangelical Mission was
-				established in West Orange, New Jersey in 1975. And the Evangelical
-				Mission and Seminary International was established in Towaco, New
-				Jersey in 1982. In these forty years (1968-2008), the ministry had
-				expanded to seminaries, churches, mission, literature, and
-				broadcasting, etc. We have a biblically sound Statement of Faith, a
-				clear administrative organization and a strong three-fold Gospel
-				ministry. Through the multi-faceted ministry, the Gospel could
-				spread far and wide.</p>
-			<p>The Mission headquarters is located at 36 Alpine Road, Towaco,
-				New Jersey, U.S.A. The Board of Directors are: John Chuang
-				(Chairman), Moses Yang (Executive Director), Rose Yang (Treasurer),
-				Zion Wu (Secretary), Joseph Chuang, Siti Aminah, Luciana Lu, William
-				Chuang, Saw Sim Kie, Ruth Chandra, Patrick Chang, Micky Yu, Jane
-				Chang, Meelen Lim, Jih-Han Hsieh, and Vicky Yang.</p>
-		</section>
-	</article>
-	
-	
-	</c:otherwise>
+		</c:when>
+		<c:otherwise>
+			<article class="content">
+				<a class="title" href="">Evangelical Mission and Seminary
+					International, Inc. (EMSI)</a> <br /> <br />
+				<h1 style="font-size: 1.5em">Introduction to Organization</h1>
+				<img src="images/headquarter.png"
+					style="float: left; margin-right: 20px" />
+
+				<section>
+
+					<p>
+						Headquartered in Towaco, New Jersey U.S.A. <br />36 Alpine Road,
+						Towaco, NJ 07082.
+					</p>
+
+					<p>EMSI was founded by Pastor Moses Yang.</p><p/>
+
+					<p>EMSI has branches in 3 continents:
+					<ul>
+						<li>Europe</li>
+						<li>North America</li>
+						<li>Africa</li>
+						<li>Asia</li>
+					</ul>
+					</p>
+
+					<p>
+						EMSI is made up of the following organizations - <br />Evangelical
+						Bible Institute <br />Christian Evangelical Mission <br />Christian
+						Evangelical Overseas Outreach
+					</p>
+				</section>
+				<br />
+				<hr />
+				<section>
+					<p>Evangelical Mission and Seminary International (E.M.S.I.)
+						was established by the founder, Rev. Moses Yang, in 1968 after
+						"Fellowship of Life" was started. Later it progressively developed
+						into a global evangelical organization. At the present, we have
+						established Gospel ministries in four continents - Europe, Asia,
+						North America, and Africa. The Christian Evangelical Mission was
+						established in West Orange, New Jersey in 1975. And the
+						Evangelical Mission and Seminary International was established in
+						Towaco, New Jersey in 1982. In these forty years (1968-2008), the
+						ministry had expanded to seminaries, churches, mission,
+						literature, and broadcasting, etc. We have a biblically sound
+						Statement of Faith, a clear administrative organization and a
+						strong three-fold Gospel ministry. Through the multi-faceted
+						ministry, the Gospel could spread far and wide.</p>
+						
+						<br/>
+					<p>The Mission headquarters is located at 36 Alpine Road,
+						Towaco, New Jersey, U.S.A. The Board of Directors are: John Chuang
+						(Chairman), Moses Yang (Executive Director), Rose Yang
+						(Treasurer), Zion Wu (Secretary), Joseph Chuang, Siti Aminah,
+						Luciana Lu, William Chuang, Saw Sim Kie, Ruth Chandra, Patrick
+						Chang, Micky Yu, Jane Chang, Meelen Lim, Jih-Han Hsieh, and Vicky
+						Yang.</p>
+				</section>
+				<br />
+				<hr />
+				<section>
+					<p>Evangelical Mission and Seminary International (E.M.S.I.)
+						was established by the founder, Rev. Moses Yang, in 1968 after
+						"Fellowship of Life" was started. Later it progressively developed
+						into a global evangelical organization. At the present, we have
+						established Gospel ministries in four continents - Europe, Asia,
+						North America, and Africa. The Christian Evangelical Mission was
+						established in West Orange, New Jersey in 1975. And the
+						Evangelical Mission and Seminary International was established in
+						Towaco, New Jersey in 1982. In these forty years (1968-2008), the
+						ministry had expanded to seminaries, churches, mission,
+						literature, and broadcasting, etc. We have a biblically sound
+						Statement of Faith, a clear administrative organization and a
+						strong three-fold Gospel ministry. Through the multi-faceted
+						ministry, the Gospel could spread far and wide.</p>
+					<p>The Mission headquarters is located at 36 Alpine Road,
+						Towaco, New Jersey, U.S.A. The Board of Directors are: John Chuang
+						(Chairman), Moses Yang (Executive Director), Rose Yang
+						(Treasurer), Zion Wu (Secretary), Joseph Chuang, Siti Aminah,
+						Luciana Lu, William Chuang, Saw Sim Kie, Ruth Chandra, Patrick
+						Chang, Micky Yu, Jane Chang, Meelen Lim, Jih-Han Hsieh, and Vicky
+						Yang.</p>
+				</section>
+				<br />
+				<hr />
+				<section>
+					<p>Evangelical Mission and Seminary International (E.M.S.I.)
+						was established by the founder, Rev. Moses Yang, in 1968 after
+						"Fellowship of Life" was started. Later it progressively developed
+						into a global evangelical organization. At the present, we have
+						established Gospel ministries in four continents - Europe, Asia,
+						North America, and Africa. The Christian Evangelical Mission was
+						established in West Orange, New Jersey in 1975. And the
+						Evangelical Mission and Seminary International was established in
+						Towaco, New Jersey in 1982. In these forty years (1968-2008), the
+						ministry had expanded to seminaries, churches, mission,
+						literature, and broadcasting, etc. We have a biblically sound
+						Statement of Faith, a clear administrative organization and a
+						strong three-fold Gospel ministry. Through the multi-faceted
+						ministry, the Gospel could spread far and wide.</p>
+					<p>The Mission headquarters is located at 36 Alpine Road,
+						Towaco, New Jersey, U.S.A. The Board of Directors are: John Chuang
+						(Chairman), Moses Yang (Executive Director), Rose Yang
+						(Treasurer), Zion Wu (Secretary), Joseph Chuang, Siti Aminah,
+						Luciana Lu, William Chuang, Saw Sim Kie, Ruth Chandra, Patrick
+						Chang, Micky Yu, Jane Chang, Meelen Lim, Jih-Han Hsieh, and Vicky
+						Yang.</p>
+				</section>
+			</article>
+
+
+		</c:otherwise>
 	</c:choose>
 </div>

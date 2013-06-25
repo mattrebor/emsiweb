@@ -8,9 +8,7 @@
 
 	<tiles:insertAttribute name="menu-content" ignore="false" /> 
 	
-	
-	<!--  end page-nav -->
-	<div class="content">
+	<div class="main-content">
 		 <tiles:insertAttribute name="body-content" ignore="false" /> 
 	</div>
 	<!--  end content -->

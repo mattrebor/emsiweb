@@ -1,11 +1,10 @@
-* {
-	margin: 0;
-	padding: 0;
-}
+
 
 body {
 	background-image: url('../images/emsi_bg.jpg');
 	background =repeat: no-repeat;
+	margin: 0px;
+	padding: 0px;
 }
 
 #main {
@@ -23,7 +22,7 @@ body {
 }
 
 .outer-frame {
-	margin: 50px 0px 0px 0px;
+	margin: 25px 0px 0px 0px;
 	padding: 0px;
 	text-align: center;
 	width: 100%;
@@ -123,6 +122,11 @@ footer {
 	display: inline-block;
 }
 
+.navbar-vertical ul {
+	margin: 0px;
+	padding: 0px;
+}
+
 .navbar-vertical li {
 	list-style-type: none;
 	text-align: left;
@@ -136,6 +140,8 @@ footer {
 .navbar ul {
 	width: auto;
 	list-style: none;
+	margin: 0px;
+	padding: 0px;
 }
 
 .navbar li {
@@ -216,7 +222,7 @@ footer {
 	padding-left: 16px;
 }
 
-.content {
+div.main-content {
 	display: inline-block;
 	margin-left: 25px;
 	margin-top: 25px;
@@ -225,4 +231,16 @@ footer {
 	width: 585px;
 	margin-right: 25px;
 	vertical-align: top;
+}
+
+a.title {
+	font-size: 1.5em;
+	color: #0f5b69
+	font-weight: bold;
+}
+
+article.content h1 {
+	font-weight: normal;
+}
+}
 }
