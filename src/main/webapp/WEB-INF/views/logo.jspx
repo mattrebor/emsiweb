@@ -1,4 +1,4 @@
-<div id="foo"  xmlns:jsp="http://java.sun.com/JSP/Page"
+<div id="logo" xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:spring="http://www.springframework.org/tags"
 	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
@@ -9,7 +9,18 @@
 	<spring:message code="label_welcome" var="labelWelcome" />
 	<spring:url var="logoutUrl" value="/j_spring_security_logout" />
 
-BODY
+	<div id="brown-edge"><jsp:text/></div>
 
-<img src="http://placehold.it/300x700" />
+	<div id="secondary-nav" class="navbar">
+		<ul>
+			<li><a href="#">Who We Are</a></li>
+			<li><a href="#">Find A Church</a></li>
+			<li><a href="#">Seminary</a></li>
+			<li><a href="#">Missions</a></li>
+			<li><a href="#">News</a></li>
+			<li><a href="#">Events</a></li>
+		</ul>
+	</div>
+	<!--  end secondary nav -->
+
 </div>

@@ -1,4 +1,5 @@
-<div id="header" style="height: 30px;" xmlns:jsp="http://java.sun.com/JSP/Page"
+<div id="top-nav-bar" 
+	xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:spring="http://www.springframework.org/tags"
 	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
@@ -10,35 +11,24 @@
 	<spring:url var="logoutUrl" value="/j_spring_security_logout" />
 
 
-	<ul class="menu-top-left">
-		<li><a href="" class="selected">EMSI</a></li>
-		<li><a href="">EBI</a></li>
-		<li><a href="">CEMI</a></li>
-		<li><a href="">CEOM</a></li>
-		<li style="height: 3px; width: 230px; clear: both; display: block"></li>
+	<div id="primary-nav" class="navbar">
+		<ul>
+			<li class="selected"><a href="#">EMSI</a></li>
+			<li><a href="#">EBI</a></li>
+			<li><a href="#">CEMI</a></li>
+			<li><a href="#">CEOM</a></li>
+		</ul>
+	</div>
+	<!--  end primary nav -->
 
-
-		<li style="height: 10px; width: 230px; clear: both; display: block; margin-top: 178px;">
-		</li>
-		
-		<!-- 
-		<li class="menu-left selected"><a href="">Instroduction to
-				Organization</a></li>
-		<li class="menu-left"><a href="">Statement of Faith</a></li>
-		<li class="menu-left"><a href="">Ministry Calendar</a></li>
-		<li class="menu-left"><a href="">Spring of Life</a></li>
-		<li class="menu-left"><a href="">Bread of Life</a></li>
-		<li class="menu-left"><a href="">Life Publishing House</a></li>
-		<li class="menu-left" style="height: 435px;">- footer -</li>
- -->
-	</ul>
-
-	<ul class="menu-top-right">
-		<li><a href="">login</a></li>
-		<li><a href="">contact us</a></li>
-		<li><a href="">sitemap</a></li>
-		<li><a href="">donate</a></li>
-		<li><a href="">中文</a></li>
-	</ul>
-
+	<div id="site-nav" class="navbar">
+		<ul>
+			<li class="first"><a href="#">login</a></li>
+			<li><a href="#">contact us</a></li>
+			<li><a href="#">sitemap</a></li>
+			<li><a href="#">donate</a></li>
+			<li><a href="#">中文</a></li>
+		</ul>
+	</div>
+	<!--  end site nav -->
 </div>

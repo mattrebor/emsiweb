@@ -21,47 +21,10 @@
 	href="${app_css_url}" />
 	 -->
 
-<!-- jQuery and jQuery UI -->
-<spring:url value="/resources/scripts/jquery-1.7.1.js" var="jquery_url" />
-<spring:url value="/resources/scripts/jquery-ui-1.8.16.custom.min.js"
-	var="jquery_ui_url" />
-<spring:url
-	value="/resources/styles/custom-theme/jquery-ui-1.8.16.custom.css"
-	var="jquery_ui_theme_css" />
-<link rel="stylesheet" type="text/css" media="screen"
-	href="${jquery_ui_theme_css}" />
-<script src="${jquery_url}" type="text/javascript">
-	<jsp:text/>
-</script>
-<script src="${jquery_ui_url}" type="text/javascript">
-	<jsp:text/>
-</script>
+<spring:url value="/styles/emsiweb.css" var="app_css_url" />
 
-<!-- CKEditor -->
-<spring:url value="/resources/ckeditor/ckeditor.js" var="ckeditor_url" />
-<spring:url value="/resources/ckeditor/adapters/jquery.js"
-	var="ckeditor_jquery_url" />
-<script type="text/javascript" src="${ckeditor_url}">
-	<jsp:text/>
-</script>
-<script type="text/javascript" src="${ckeditor_jquery_url}">
-	<jsp:text/>
-</script>
-
-<!-- jqGrid -->
-<spring:url value="/resources/jqgrid/css/ui.jqgrid.css" var="jqgrid_css" />
-<spring:url value="/resources/jqgrid/js/i18n/grid.locale-en.js"
-	var="jqgrid_locale_url" />
-<spring:url value="/resources/jqgrid/js/jquery.jqGrid.min.js"
-	var="jqgrid_url" />
 <link rel="stylesheet" type="text/css" media="screen"
-	href="${jqgrid_css}" />
-<script type="text/javascript" src="${jqgrid_locale_url}">
-	<jsp:text/>
-</script>
-<script type="text/javascript" src="${jqgrid_url}">
-	<jsp:text/>
-</script>
+	href="${app_css_url}" />
 
 <!-- Get the user locale from the page context (it was set by Spring MVC's locale resolver) -->
 <c:set var="userLocale">
@@ -73,198 +36,26 @@
 	htmlEscape="false" />
 <title><spring:message code="welcome_h3" arguments="${app_name}" /></title>
 
-<style type="text/css">
-body {
-	background-image: url("resources/images/emsi_bg.jpg");
-	margin: 0px;
-}
 
-div.body {
-	text-align: left;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 0.75em;
-	background-color: #ffffff;
-	min-height: 900px; /*100%*/
-	margin-top: 10px;
-	width: 1000px;
-	/*border-radius: 2em 1em 4em / 0.5em 3em;*/
-	border-top-left-radius: 1.4em 1.9em;
-	border-top-right-radius: 1.4em 1.9em;
-}
-
-ul.menu-top-left {
-	float: left;
-	margin-top: 2px;
-}
-
-ul.menu-top-right {
-	float: right;
-	width: 360px;
-	margin-top: 8px;
-}
-
-ul.menu-top-left li,ul.menu-top-right li {
-	/*display: inline;*/
-	float: left;
-	list-style: none;
-	margin-right: 8px;
-	color: #82817F;
-}
-
-ul.menu-top-left li {
-	width: 57.5px;
-	background-color: #625646;
-	margin: 0px;
-	padding: 0px;
-	text-indent: 0px;
-}
-
-ul.menu-top-right li {
-	border-left: 1px solid #82817F;
-	text-indent: 10px;
-}
-
-ul.menu-top-left li a {
-	color: #ffffff;
-	text-decoration: none;
-	margin-left: 9px;
-	line-height: 30px;
-}
-
-ul.menu-top-left li a.selected {
-	background-color: #CD8E14;
-	b-order: 1px solid #CD8E14;
-	border-top-left-radius: 0.8em 0.8em;
-	border-top-right-radius: 0.8em 0.8em;
-	/*	
-	-webkit-transform: scale(1.1);
-	-moz-transform: scale(1.1);
-*/
-	/*box-shadow: 15px 0px 3px #000;*/
-	/*border-right:3px solid #333;*/
-	line-height: 30px;
-	padding: 9px;
-}
-
-ul.menu-top-right li a {
-	color: #82817F;
-	text-decoration: none;
-}
-
-ul.menu-top-left li.menu-left {
-	clear: both;
-	display: block;
-	line-height: 40px;
-	width: 230px;
-}
-
-ul.menu-top-left li.selected {
-	background-color: #3b3525;
-	border: 1px solid #ffffff;
-	-webkit-transform: scale(1.05);
-	-moz-transform: scale(1.05);
-}
-
-/* logo bar */
-div.logo-bar {
-	height: 160px;
-	margin-top: 5px;
-	background-color: #0F5B69;
-	border-bottom: 18px solid #CD8E14;
-	background-image: url(resources/images/emsi_logo.png);
-	background-repeat: no-repeat;
-	/*
-	-webkit-transform: scale(1.35,1);
-	-moz-transform: scale(1.35,1;
-*/
-}
-/* middle right: menu-content */
-div.menu-content {
-	margin-left: 310px;
-	margin-top: -35px;
-	width: 700px;
-}
-
-div.menu-content ul {
-	width: 690px;
-	height: 30px;
-	margin-left: 30px;
-}
-
-div.menu-content ul li {
-	/*display: inline;*/
-	float: left;
-	list-style: none;
-	margin-right: 2px;
-	background-color: #fff;
-	text-align: center;
-	color: #82817F;
-	line-height: 30px;
-	width: 80px;
-}
-
-div.menu-content ul li.first {
-	border-top-left-radius: 1em 1em;
-}
-
-div.menu-content ul li.last {
-	border-top-right-radius: 1em 1em;
-}
-
-article.content {
-	/*background-color:#ccc;*/
-	margin-left: 310px;
-	margin-top: 20px;
-	text-align: left;
-	padding: 0px;
-	height: 650px;
-	width: 650px;
-}
-
-a.title {
-	font-size: 1.5em;
-	color: #0F5B69;
-	font-weight: bold;
-}
-
-article.content h1 {
-	font-weight: normal;
-}
-
-img.align-left {
-	float: left;
-	margin-right: 20px;
-}
-
-footer {
-	height: 100px;
-	line-height: 150px;
-	background-color: #0F5B69;
-	width: 100%;
-	color: #ffffff;
-	text-decoration: none;
-	font-weight: normal;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size: 0.7em;
-	word-spacing: 3px;
-}
-</style>
 </head>
 
 <body>
-	<center>
-		<div class="body">
 
-			<tiles:insertAttribute name="header" ignore="true" />
-			
-			<div class="logo-bar"><jsp:text> </jsp:text></div>
-			
-			<tiles:insertAttribute name="menu" ignore="true" />
-			
-	    	<tiles:insertAttribute name="body"/> 
-			
-			<tiles:insertAttribute name="footer" ignore="true" />
+	<div class="outer-frame">
+		<div id="main">
+
+			<tiles:insertAttribute name="header" ignore="false" />
+
+			<tiles:insertAttribute name="logo" ignore="false" />
+
+			<tiles:insertAttribute name="main-area" />
 		</div>
-	</center>
+		<!--  end main -->
+
+		<tiles:insertAttribute name="footer" ignore="true" />
+
+	</div>
+	<!--  end outer-frame -->
+
 </body>
 </html>
