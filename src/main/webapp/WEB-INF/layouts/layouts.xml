@@ -11,6 +11,7 @@
     
     <put-attribute name="main-area" value="/WEB-INF/views/main-area.jspx" />
     <put-attribute name="footer" value="/WEB-INF/views/footer.jspx" />
+    
   </definition>
 
 </tiles-definitions>

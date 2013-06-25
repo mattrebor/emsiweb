@@ -1,0 +1,33 @@
+<div id="page-nav" class="navbar-vertical"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+
+
+	<spring:message code="label_test_intro" var="labelTestIntro" />
+	<spring:message code="label_test_statement" var="labelTestStatement" />
+	<spring:message code="label_test_ministry_cal"
+		var="labelTestMinistryCal" />
+	<spring:message code="label_test_spring_of_life"
+		var="labelTestSpringOfLife" />
+	<spring:message code="label_test_bread_of_life"
+		var="labelTestBreadOfLife" />
+	<spring:message code="label_test_life_publishing_house"
+		var="labelTestLifePubHouse" />
+
+
+	<ul>
+		<li class="selected">${labelTestIntro }</li>
+		<li>${labelTestStatement }</li>
+		<li>${labelTestMinistryCal }</li>
+		<li>${labelTestSpringOfLife }</li>
+		<li>${labelTestBreadOfLife }</li>
+		<li>${labelTestLifePubHouse }</li>
+	</ul>
+
+	<!--  end page-nav -->
+
+</div>

@@ -4,10 +4,7 @@
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
 
-	<spring:message code="home_text" var="homeText" />
-	<spring:message code="label_en_US" var="labelEnUs" />
-	<spring:message code="label_zh_HK" var="labelZhHk" />
-	<spring:url value="/contacts" var="homeUrl" />
+
 
 	<div class="footer-inner">
 		<div class="footer-text">EMSI USA Headquarters | 36 Alpine Road

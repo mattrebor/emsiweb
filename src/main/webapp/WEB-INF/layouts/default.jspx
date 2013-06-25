@@ -52,7 +52,7 @@
 		</div>
 		<!--  end main -->
 
-		<tiles:insertAttribute name="footer" ignore="true" />
+		<tiles:insertAttribute name="footer" ignore="false" />
 
 	</div>
 	<!--  end outer-frame -->
