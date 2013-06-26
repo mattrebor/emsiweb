@@ -20,12 +20,12 @@
 
 
 	<ul>
-		<li class="selected">${labelTestIntro }</li>
-		<li>${labelTestStatement }</li>
-		<li>${labelTestMinistryCal }</li>
-		<li>${labelTestSpringOfLife }</li>
-		<li>${labelTestBreadOfLife }</li>
-		<li>${labelTestLifePubHouse }</li>
+		<li class="selected"><a href="#">${labelTestIntro }</a></li>
+		<li><a href="#">${labelTestStatement }</a></li>
+		<li><a href="#">${labelTestMinistryCal }</a></li>
+		<li><a href="#">${labelTestSpringOfLife }</a></li>
+		<li><a href="#">${labelTestBreadOfLife }</a></li>
+		<li><a href="#">${labelTestLifePubHouse }</a></li>
 	</ul>
 
 	<!--  end page-nav -->
