@@ -28,7 +28,7 @@
 		<property name="jpaVendorAdapter">
 			<bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter" />
 		</property>
-		<property name="packagesToScan" value="com.rt.ch17.domain" />
+		<property name="packagesToScan" value="org.emsionline.emsiweb.domain" />
 		<property name="jpaProperties">
 			<props>
 				<prop key="hibernate.dialect">
@@ -44,6 +44,6 @@
 	
 	<context:annotation-config />
 	
-	<jpa:repositories base-package="com.rt.ch17.repository"
+	<jpa:repositories base-package="org.emsionline.emsiweb.repository"
 		entity-manager-factory-ref="emf" transaction-manager-ref="transactionManager" />
 </beans>

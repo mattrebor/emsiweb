@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition extends="default" name="pages/list">
+		<put-attribute name="menu-content" value="/WEB-INF/views/page-menu.jspx"
+			cascade="true" />
+
+		<put-attribute name="body-content" value="/WEB-INF/views/pages/list.jspx"
+			cascade="true" />
+	</definition>
+
+	<definition extends="default" name="pages/show">
+		<put-attribute name="menu-content" value="/WEB-INF/views/page-menu.jspx"
+			cascade="true" />
+
+		<put-attribute name="body-content" value="/WEB-INF/views/pages/show.jspx"
+			cascade="true" />
+	</definition>
+
+
+
+	<definition extends="default" name="pages/update">
+		<put-attribute name="menu-content" value="/WEB-INF/views/page-menu.jspx"
+			cascade="true" />
+
+		<put-attribute name="body-content" value="/WEB-INF/views/pages/edit.jspx" cascade="true" />
+	</definition>
+
+	<definition extends="default" name="pages/create">
+		<put-attribute name="menu-content" value="/WEB-INF/views/page-menu.jspx"
+			cascade="true" />
+
+		<put-attribute name="body-content" value="/WEB-INF/views/pages/edit.jspx" cascade="true" />
+	</definition>
+
+</tiles-definitions>

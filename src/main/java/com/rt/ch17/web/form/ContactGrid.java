@@ -2,14 +2,14 @@ package com.rt.ch17.web.form;
 
 import java.util.List;
 
-import com.rt.ch17.domain.Contact;
+//import com.rt.ch17.domain.Contact;
 
 public class ContactGrid {
 
 	private int totalPages;
 	private int currentPage;
 	private long totalRecords;
-	private List<Contact> contactData;
+	//private List<Contact> contactData;
 	
 	public int getTotalPages() {
 		return totalPages;
@@ -29,12 +29,14 @@ public class ContactGrid {
 	public void setTotalRecords(long totalRecords) {
 		this.totalRecords = totalRecords;
 	}
+	
+	/*
 	public List<Contact> getContactData() {
 		return contactData;
 	}
 	public void setContactData(List<Contact> contactData) {
 		this.contactData = contactData;
 	}
-	
+	*/
 	
 }

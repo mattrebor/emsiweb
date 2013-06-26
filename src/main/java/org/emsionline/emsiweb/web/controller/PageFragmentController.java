@@ -1,4 +1,4 @@
-package com.rt.ch17.web.controller;
+package org.emsionline.emsiweb.web.controller;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -10,6 +10,8 @@ import javax.servlet.http.Part;
 import javax.validation.Valid;
 
 import org.apache.commons.io.IOUtils;
+import org.emsionline.emsiweb.domain.PageFragment;
+import org.emsionline.emsiweb.service.PageFragmentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,59 +30,63 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import com.google.common.collect.Lists;
-import com.rt.ch17.domain.Contact;
-import com.rt.ch17.service.ContactService;
+
 import com.rt.ch17.web.form.ContactGrid;
 import com.rt.ch17.web.form.Message;
 import com.rt.ch17.web.util.UrlUtil;
 
-@RequestMapping("/contacts")
+@RequestMapping("/page")
 @Controller
-public class ContactController {
+public class PageFragmentController {
 
-	final Logger logger = LoggerFactory.getLogger(ContactController.class);
+	final Logger logger = LoggerFactory.getLogger(PageFragmentController.class);
 	
 	@Autowired
-	private ContactService contactService;
+	private PageFragmentService pageFragmentService;
 	
 	@Autowired
 	private MessageSource messageSource;
 	
 	@RequestMapping(method = RequestMethod.GET) 
 	public String list(Model uiModel) { 
-		logger.info("Listing contacts");
-		List<Contact> contacts = contactService.findAll(); 
-		uiModel.addAttribute("contacts", contacts);
-		logger.info("No. of contacts: " + contacts.size());
-		return "contacts/list"; 
+		logger.info("Listing page fragments");
+		List<PageFragment> pageFragments = pageFragmentService.findAll(); 
+		uiModel.addAttribute("pageFragments", pageFragments);
+		logger.info("No. of page fragments: " + pageFragments.size());
+		return "pages/list"; 
 	}
 	
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	public String show(@PathVariable("id") Long id, Model uiModel) {
-		Contact contact = contactService.findById(id);
-		uiModel.addAttribute("contact", contact);
-		return "contacts/show";
+		
+		PageFragment pageFragment = pageFragmentService.findById(id);
+		uiModel.addAttribute("pageFragment", pageFragment);
+		
+		return "pages/show";
 	}
 	
+	
 	@RequestMapping(value ="/{id}", params="form", method = RequestMethod.POST)
-	public String update(@Valid Contact contact, BindingResult bindingResult, 
+	public String update(@Valid PageFragment pageFragment, BindingResult bindingResult, 
 			Model uiModel, HttpServletRequest req, RedirectAttributes redirectAttrs, 
 			Locale locale, @RequestParam(value="file", required=false) Part file) {
-		logger.info("Updating contact");
+		logger.info("Updating page fragment");
 		
 		if (bindingResult.hasErrors()) {
 			uiModel.addAttribute("message", new Message("error", messageSource.getMessage("contact_save_fail", new Object[]{}, locale)));
-			uiModel.addAttribute("contact", contact);
+			uiModel.addAttribute("contact", pageFragment);
 			
-			return "contacts/update";
+			return "pages/update";
 		}
 		
 		uiModel.asMap().clear();
 		
 		redirectAttrs.addFlashAttribute("message", new Message("success", messageSource.getMessage("contact_save_success", new Object[]{}, locale)));
 		
-		logger.info("Contact id: " + contact.getId());
+		logger.info("Page Fragment id: " + pageFragment.getPageFragmentId());
 		
+		
+		/*
 		if (file != null) {
 			logger.info("File name: " + file.getName());
 			logger.info("File size: " + file.getSize());
@@ -102,20 +108,24 @@ public class ContactController {
 			
 			contact.setPhoto(fileContent);
 		}
-		contactService.save(contact);
+		*/
 		
-		return "redirect:/contacts/" + UrlUtil.encodeUrlPathSegment(contact.getId().toString(), req);
+		pageFragmentService.save(pageFragment);
+		
+		return "redirect:/page/" + UrlUtil.encodeUrlPathSegment(pageFragment.getPageFragmentId().toString(), req);
 		
 	}
+	
 	
 	@RequestMapping(value ="/{id}", params="form", method = RequestMethod.GET)
 	public String updateForm(@PathVariable("id") Long id, Model uiModel) {
-		uiModel.addAttribute("contact", contactService.findById(id));
-		return "contacts/update";
+		uiModel.addAttribute("pageFragment", pageFragmentService.findById(id));
+		return "pages/update";
 	}
 	
+	
 	@RequestMapping(params="form", method = RequestMethod.POST)
-	public String create(@Valid Contact contact, BindingResult bindingResult, 
+	public String create(@Valid PageFragment pageFragment, BindingResult bindingResult, 
 			Model uiModel, HttpServletRequest req, RedirectAttributes redirectAttrs, 
 			Locale locale, @RequestParam(value="file", required=false) Part file) {
 		
@@ -123,17 +133,17 @@ public class ContactController {
 		
 		if (bindingResult.hasErrors()) {
 			uiModel.addAttribute("message", new Message("error", messageSource.getMessage("contact_save_fail", new Object[]{}, locale)));
-			uiModel.addAttribute("contact", contact);
+			uiModel.addAttribute("contact", pageFragment);
 			
-			return "contacts/create";
+			return "pages/create";
 		}
 		
 		uiModel.asMap().clear();
 		
 		redirectAttrs.addFlashAttribute("message", new Message("success", messageSource.getMessage("contact_save_success", new Object[]{}, locale)));
 		
-		logger.info("Contact id: " + contact.getId());
-		
+		logger.info("Page Fragment id: " + pageFragment.getPageFragmentId());
+		/*
 		if (file != null) {
 			logger.info("File name: " + file.getName());
 			logger.info("File size: " + file.getSize());
@@ -155,21 +165,24 @@ public class ContactController {
 			
 			contact.setPhoto(fileContent);
 		}
+		*/
 		
-		contactService.save(contact);
+		pageFragmentService.save(pageFragment);
 		
 	
-		return "redirect:/contacts/" + UrlUtil.encodeUrlPathSegment(contact.getId().toString(), req);
+		return "redirect:/page/" + UrlUtil.encodeUrlPathSegment(pageFragment.getPageFragmentId().toString(), req);
 		
 	}	
 	
+	
 	@RequestMapping(params="form", method = RequestMethod.GET)
 	public String createForm(Model uiModel) {
-		Contact contact = new Contact();
-		uiModel.addAttribute("contact", contact);
-		return "contacts/create";
+		PageFragment pageFragment = new PageFragment();
+		uiModel.addAttribute("pageFragment", pageFragment);
+		return "pages/create";
 	}
 	
+	/*
 	@RequestMapping(value = "/listgrid", method = RequestMethod.GET, produces = "application/json")
 	@ResponseBody
 	public ContactGrid listGrid(@RequestParam(value = "page", required = false) Integer page,
@@ -204,22 +217,24 @@ public class ContactController {
 		} else {
 			pageRequest = new PageRequest(page - 1, rows);
 		}
-		Page<Contact> contactPage = contactService.findAllByPage(pageRequest);
+		Page<PageFragment> contactPage = pageFragmentService.findAllByPage(pageRequest);
 		// Construct the grid data that will return as JSON data 
 		ContactGrid contactGrid = new ContactGrid();
 		contactGrid.setCurrentPage(contactPage.getNumber() + 1); 
 		contactGrid.setTotalPages(contactPage.getTotalPages()); 
 		contactGrid.setTotalRecords(contactPage.getTotalElements());
-		contactGrid.setContactData(Lists.newArrayList(contactPage.iterator()));
+		//contactGrid.setContactData(Lists.newArrayList(contactPage.iterator()));
 		
 		return contactGrid;
 	}
+	*/
 	
+	/****
 	@RequestMapping(value = "/photo/{id}", method = RequestMethod.GET)
 	@ResponseBody
 	public byte[] downloadPhoto(@PathVariable("id") Long id) {
 		
-		Contact contact = contactService.findById(id);
+		PageFragment contact = pageFragmentService.findById(id);
 		
 		if (contact.getPhoto() != null) {
 			logger.info("Downloading photo for id: {} with size: {}", contact.getId(), contact.getPhoto().length);
@@ -227,4 +242,5 @@ public class ContactController {
 		
 		return contact.getPhoto();
 	}
+	*****/
 }

@@ -10,3 +10,14 @@ ID INT NOT NULL AUTO_INCREMENT
 , UNIQUE UQ_CONTACT_1 (FIRST_NAME, LAST_NAME)
 , PRIMARY KEY (ID)
 );
+
+
+DROP TABLE IF EXISTS page_fragment;
+create table page_fragment (
+	page_fragment_id int not null auto_increment,
+	title varchar(120) not null,
+	version int not null default 0,
+	body clob,
+	primary key (page_fragment_id)
+);
+

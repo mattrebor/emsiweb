@@ -11,7 +11,7 @@
 	</appender>
 	
 	<!-- Application Loggers -->
-	<logger name="com.rt.ch17">
+	<logger name="org.emsionline.emsiweb">
 		<level value="info" />
 	</logger>
 	
