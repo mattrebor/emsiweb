@@ -52,6 +52,7 @@
 	<script type="text/javascript">
 		$('.carousel').carousel()
 	</script>
+	
 <!-- 
 	<div class="container">
 		<div class="row">
