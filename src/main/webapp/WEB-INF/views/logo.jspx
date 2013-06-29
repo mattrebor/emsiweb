@@ -7,7 +7,7 @@
 
 	<div id="brown-edge"><jsp:text/></div>
 
-	<div id="secondary-nav" class="navbar">
+	<div id="secondary-nav" class="emsi-navbar">
 		<ul>
 			<li><a href="#">Who We Are</a></li>
 			<li><a href="#">Find A Church</a></li>

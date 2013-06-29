@@ -21,10 +21,13 @@
 	href="${app_css_url}" />
 	 -->
 
-<spring:url value="/styles/emsiweb.css" var="app_css_url" />
-
+<spring:url value="/resources/styles/emsiweb.css" var="app_css_url" />
 <link rel="stylesheet" type="text/css" media="screen"
 	href="${app_css_url}" />
+	
+<spring:url value="/resources/styles/bootstrap.css" var="bootstrap_css_url" />
+<link rel="stylesheet" type="text/css" media="screen"
+	href="${bootstrap_css_url}" />	
 
 <!-- jQuery and jQuery UI -->
 <spring:url value="/resources/scripts/jquery-1.7.1.js" var="jquery_url" />
@@ -67,6 +70,14 @@
 <script type="text/javascript" src="${jqgrid_url}">
 	<jsp:text/>
 </script>
+
+<spring:url value="/resources/scripts/bootstrap.js"
+	var="bootstrap_js_url" />
+<script type="text/javascript" src="${bootstrap_js_url}">
+	<jsp:text/>
+</script>
+	
+	
 
 <!-- Get the user locale from the page context (it was set by Spring MVC's locale resolver) -->
 <c:set var="userLocale">

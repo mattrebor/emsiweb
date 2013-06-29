@@ -32,7 +32,7 @@
 	<spring:url var="homeUrl" value="/home"/>
 
 
-	<div id="primary-nav" class="navbar">
+	<div id="primary-nav" class="emsi-navbar">
 		<ul>
 			<li class="selected"><a href="#">${labelNavEmsi}</a></li>
 			<li><a href="#">${labelNavEbi }</a></li>
@@ -42,7 +42,7 @@
 	</div>
 	<!--  end primary nav -->
 
-	<div id="site-nav" class="navbar">
+	<div id="site-nav" class="emsi-navbar">
 		<ul>
 			<li class="first"><a href="#">${labelLogin }</a></li>
 			<li><a href="#">${labelContactus }</a></li>

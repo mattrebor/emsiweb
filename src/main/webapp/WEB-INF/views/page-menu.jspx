@@ -1,4 +1,4 @@
-<div id="page-nav" class="navbar-vertical"
+<div id="page-nav" class="emsi-navbar-vertical"
 	xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:spring="http://www.springframework.org/tags"
 	xmlns:tiles="http://tiles.apache.org/tags-tiles"

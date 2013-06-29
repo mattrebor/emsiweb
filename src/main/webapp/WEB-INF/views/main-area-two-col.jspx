@@ -8,7 +8,7 @@
 
 	<tiles:insertAttribute name="menu-content" ignore="false" /> 
 	
-	<div class="main-content">
+	<div class="main-content-two-col">
 		 <tiles:insertAttribute name="body-content" ignore="false" /> 
 	</div>
 	<!--  end content -->
