@@ -1,22 +1,12 @@
-<div id="logo" xmlns:jsp="http://java.sun.com/JSP/Page"
+<div id="logo-bar" class="row" 
+	xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:spring="http://www.springframework.org/tags"
 	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
 
 
-	<div id="brown-edge"><jsp:text/></div>
 
-	<div id="secondary-nav" class="emsi-navbar">
-		<ul>
-			<li><a href="#">Who We Are</a></li>
-			<li><a href="#">Find A Church</a></li>
-			<li><a href="#">Seminary</a></li>
-			<li><a href="#">Missions</a></li>
-			<li><a href="#">News</a></li>
-			<li><a href="#">Events</a></li>
-		</ul>
-	</div>
-	<!--  end secondary nav -->
+	<div id="logo" class="span24">&amp;nbsp;</div>
 
 </div>

@@ -21,13 +21,15 @@
 	href="${app_css_url}" />
 	 -->
 
-<spring:url value="/resources/styles/emsiweb.css" var="app_css_url" />
+<spring:url value="/resources/styles/bootstrap-emsiweb.css"
+	var="app_css_url" />
 <link rel="stylesheet" type="text/css" media="screen"
 	href="${app_css_url}" />
-	
-<spring:url value="/resources/styles/bootstrap.css" var="bootstrap_css_url" />
+
+<spring:url value="/resources/bootstrap-24col/css/bootstrap.css"
+	var="bootstrap_css_url" />
 <link rel="stylesheet" type="text/css" media="screen"
-	href="${bootstrap_css_url}" />	
+	href="${bootstrap_css_url}" />
 
 <!-- jQuery and jQuery UI -->
 <spring:url value="/resources/scripts/jquery-1.7.1.js" var="jquery_url" />
@@ -71,13 +73,13 @@
 	<jsp:text/>
 </script>
 
-<spring:url value="/resources/scripts/bootstrap.js"
+<spring:url value="/resources/bootstrap-24col/js/bootstrap.js"
 	var="bootstrap_js_url" />
 <script type="text/javascript" src="${bootstrap_js_url}">
 	<jsp:text/>
 </script>
-	
-	
+
+
 
 <!-- Get the user locale from the page context (it was set by Spring MVC's locale resolver) -->
 <c:set var="userLocale">
@@ -94,16 +96,16 @@
 
 <body>
 
-	<div class="outer-frame">
-		<div id="main">
+	<div id="outer-container" class="container">
 
-			<tiles:insertAttribute name="header" ignore="false" />
+		<tiles:insertAttribute name="header" ignore="false" />
 
-			<tiles:insertAttribute name="logo" ignore="false" />
+		<tiles:insertAttribute name="logo" ignore="false" />
+		
+		<tiles:insertAttribute name="secondary-nav" ignore="false"/>
 
-			<tiles:insertAttribute name="main-area" />
-		</div>
-		<!--  end main -->
+		<tiles:insertAttribute name="main-area" />
+
 
 		<tiles:insertAttribute name="footer" ignore="false" />
 

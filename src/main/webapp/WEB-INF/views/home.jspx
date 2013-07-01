@@ -18,7 +18,7 @@
 			<div class="active item">
 				<spring:url value="/resources/images/emsi-banner.png"
 					var="banner_image_url" />
-				<img src="${banner_image_url }" width="850" height="330" alt="" />
+				<img src="${banner_image_url }" width="870" height="330" alt="" />
 				<div class="carousel-caption">
 					<h4>EMSI</h4>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
@@ -27,7 +27,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<img src="http://placehold.it/850x330" alt="" />
+				<img src="http://placehold.it/870x330"  width="870" height="330" alt="" />
 				<div class="carousel-caption">
 					<h4>Place holder 1</h4>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
@@ -36,7 +36,7 @@
 				</div>
 			</div>
 			<div class="item">
-				<img src="http://placehold.it/850x330" alt="" />
+				<img src="http://placehold.it/870x330"  width="870" height="330" alt="" />
 				<div class="carousel-caption">
 					<h4>Place holder 2</h4>
 					<p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.
@@ -52,26 +52,24 @@
 	<script type="text/javascript">
 		$('.carousel').carousel()
 	</script>
-	
-<!-- 
-	<div class="container">
-		<div class="row">
-			<div class="span6">
-				<spring:url value="/resources/images/whats_up.png"
-					var="whats_up_image_url" />
-				<img src="${whats_up_image_url }" alt="" width="400" height="60" />
-			</div>
-			<div class="span6">
-				<spring:url value="/resources/images/bookstore.png"
-					var="banner1_img_url" />
-				<img src="${banner1_img_url }" alt="" width="400" height="125" /> <br />
-				<br />
 
-				<spring:url value="/resources/images/gospel_broadcasting.png"
-					var="banner2_img_url" />
-				<img src="${banner2_img_url }" alt="" width="400" height="125" />
 
-			</div>
+	<div class="row">
+		<div class="span11">
+			<spring:url value="/resources/images/whats_up.png"
+				var="whats_up_image_url" />
+			<img src="${whats_up_image_url }" alt="" width="400" height="60" />
 		</div>
-	</div> -->
+		<div class="span11">
+			<spring:url value="/resources/images/bookstore.png"
+				var="banner1_img_url" />
+			<img src="${banner1_img_url }" alt="" width="400" height="125" /> <br />
+			<br />
+
+			<spring:url value="/resources/images/gospel_broadcasting.png"
+				var="banner2_img_url" />
+			<img src="${banner2_img_url }" alt="" width="400" height="125" />
+
+		</div>
+	</div>
 </div>

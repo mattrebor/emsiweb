@@ -1,16 +1,20 @@
-<div class="two-column-layout" xmlns:jsp="http://java.sun.com/JSP/Page"
+<div id="main-container" class="row"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:spring="http://www.springframework.org/tags"
 	xmlns:tiles="http://tiles.apache.org/tags-tiles"
 	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
-	
 
-	<tiles:insertAttribute name="menu-content" ignore="false" /> 
-	
-	<div class="main-content-two-col">
-		 <tiles:insertAttribute name="body-content" ignore="false" /> 
+	<div class="span1">&amp;nbsp;</div>
+	<div class="span7">
+		<tiles:insertAttribute name="menu-content" ignore="false" />
 	</div>
-	<!--  end content -->
+	<div id="content2" class="span15">
+		<tiles:insertAttribute name="body-content" ignore="false" />
+
+	</div>
+	<div class="span1">&amp;nbsp;</div>
+
 </div>
-<!--  end two column layout -->
+
