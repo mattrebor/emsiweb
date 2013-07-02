@@ -24,6 +24,7 @@ body {
 #content2 {
 	margin-top: 10px;
 	margin-left: 20px;
+	margin-right: 20px;
 }
 
 
@@ -31,6 +32,7 @@ body {
 /**** Primary Nav ****/
 
 #primary-nav {
+	margin-left: 20px;
 	background-color: #625646;
 }
 
@@ -41,7 +43,7 @@ body {
 #primary-nav li {
 	padding-top: 7px;
 	padding-bottom: 3px;
-	width: 60px;
+	width: 50px;
 	min-height: 20px;
 	padding-right: 1px;
 	padding-left: 1px;
@@ -63,6 +65,7 @@ body {
 
 #site-nav {
 	color: #777777;
+	margin-right: 20px;
 }
 
 #site-nav  li {
@@ -106,10 +109,11 @@ body {
 
 /**** Page nav ****/
 #page-nav {
+	margin-left: 20px;
 	background-color: #625646;
 	color: #ffffff;
 	11margin-left: 25px;
-	width: 260px;
+	width: 210px;
 	padding-bottom: 5000px;
 	margin-bottom: -5000px;
 }
@@ -128,14 +132,14 @@ body {
 #page-nav li.selected {
 	background-color: #3b3525;
 	border: 1px solid #ffffff;
-	width: 254px;
+	width: 205px;
 	margin-left: -6px;
 	padding-left: 16px;
 }
 
 #page-nav li a {
 	color: #ffffff;
-	font-size: 1.0em;
+	font-size: 0.9em;
 }
 
 
@@ -240,6 +244,10 @@ body {
 
 @media (max-width: 767px) {
 
+#main-container {
+	overflow: visible;	
+}
+
 #page-nav {
 	margin-bottom: 0px !important; 
 	padding-bottom: 0px !important; 
@@ -251,6 +259,10 @@ body {
 
 @media (min-width: 768px) and (max-width: 979px) {
 
+#main-container {
+	overflow: visible;	
+}
+
 #page-nav {
 	width: 207px !important; 
 	margin-bottom: 0px !important; 
@@ -258,7 +270,7 @@ body {
 }
 
 #page-nav li.selected {
-	width: 214px !important;
+	width: 202px !important;
 }
 
 	

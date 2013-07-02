@@ -33,8 +33,8 @@
 
 
 
-	<div class="span1">&amp;nbsp;</div>
-	<div id="primary-nav-container" class="span7">
+	<!-- <div class="span1">&amp;nbsp;</div>-->
+	<div id="primary-nav-container" class="span6">
 		<div id="primary-nav" class="emsi-navbar">
 			<ul>
 				<li class="selected"><a href="#">${labelNavEmsi}</a></li>
@@ -46,9 +46,8 @@
 		<!--  end primary nav -->
 	</div>
 	
-	<div class="span1">&amp;nbsp;</div>
 	
-	<div id="site-nav-container" class="span14 ">
+	<div id="site-nav-container" class="span18 ">
 		<div id="site-nav" class="emsi-navbar pull-right">
 			<ul>
 				<li class="first"><a href="#">${labelLogin }</a></li>
@@ -66,5 +65,5 @@
 			</ul>
 		</div>
 	</div>
-	<div class="span1">&amp;nbsp;</div>
+	<!-- <div class="span1">&amp;nbsp;</div>-->
 </div>

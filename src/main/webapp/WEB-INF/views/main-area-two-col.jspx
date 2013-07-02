@@ -6,15 +6,14 @@
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
 
-	<div class="span1">&amp;nbsp;</div>
-	<div class="span7">
+	<div class="span6">
 		<tiles:insertAttribute name="menu-content" ignore="false" />
 	</div>
-	<div id="content2" class="span15">
-		<tiles:insertAttribute name="body-content" ignore="false" />
-
+	<div class="span18">
+		<div id="content2">
+			<tiles:insertAttribute name="body-content" ignore="false" />
+		</div>
 	</div>
-	<div class="span1">&amp;nbsp;</div>
 
 </div>
 
