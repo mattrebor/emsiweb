@@ -64,6 +64,7 @@
 
 
 Blah Blah Blah
+			Chui rob dan
 		</div>
 		<div class="span11">
 			<spring:url value="/resources/images/bookstore.png"
