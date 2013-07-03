@@ -61,6 +61,9 @@
 			<img src="${whats_up_image_url }" alt="" width="400" height="60" />
 			
 			Chui
+
+
+Blah Blah Blah
 		</div>
 		<div class="span11">
 			<spring:url value="/resources/images/bookstore.png"
