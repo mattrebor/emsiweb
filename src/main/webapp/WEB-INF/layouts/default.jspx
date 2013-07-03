@@ -79,7 +79,16 @@
 	<jsp:text/>
 </script>
 
-
+<spring:url value="/resources/scripts/app/app.js"
+	var="app_js"/>
+<script type="text/javascript" src="${app_js}">
+	<jsp:text/>
+</script>
+<script type="text/javascript">
+	$(document).ready(function () {
+		App.init();
+	});
+</script>
 
 <!-- Get the user locale from the page context (it was set by Spring MVC's locale resolver) -->
 <c:set var="userLocale">

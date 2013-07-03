@@ -1,0 +1,7 @@
+	<!-- Chinese -->
+	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+		<jsp:directive.page contentType="text/html;charset=UTF-8" />
+		<jsp:output omit-xml-declaration="yes"/>
+		組織簡介
+	</article>
+	<!-- end Chinese -->

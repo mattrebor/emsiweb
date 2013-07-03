@@ -7,7 +7,7 @@
 	<jsp:output omit-xml-declaration="yes" />
 
 
-	<c:set var="userLocale">
+	<c:set var="userLocale" scope="session">
 		<c:set var="plocale">${pageContext.response.locale}</c:set>
 		<c:out value="${fn:replace(plocale, '_', '-')}" default="en" />
 	</c:set>
@@ -30,14 +30,13 @@
 	<spring:url var="logoutUrl" value="/j_spring_security_logout" />
 
 	<spring:url var="homeUrl" value="/home" />
-
-
+	<spring:url var="emsiUrl" value="/emsi/intro" scope="request"/>
 
 	<!-- <div class="span1">&amp;nbsp;</div>-->
 	<div id="primary-nav-container" class="span6">
 		<div id="primary-nav" class="emsi-navbar">
 			<ul>
-				<li class="selected"><a href="#">${labelNavEmsi}</a></li>
+				<li class="selected"><a href="${emsiUrl}">${labelNavEmsi}</a></li>
 				<li><a href="#">${labelNavEbi }</a></li>
 				<li><a href="#">${labelNavCemi }</a></li>
 				<li><a href="#">${labelNavCeom }</a></li>

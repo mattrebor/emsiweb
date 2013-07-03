@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" 
+     xmlns:c="http://java.sun.com/jsp/jstl/core"  
+     xmlns:spring="http://www.springframework.org/tags"
+     xmlns:form="http://www.springframework.org/tags/form"
+     xmlns:joda="http://www.joda.org/joda/time/tags"
+     version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+	
+	<c:set var="thePage">
+		<c:out value="/WEB-INF/views/emsi/intro_"/>
+		<c:out value="${userLocale}"/>
+		<c:out value=".jspx"/>
+	</c:set>
+	<jsp:include page="${thePage}"/>
+	
+</div>
