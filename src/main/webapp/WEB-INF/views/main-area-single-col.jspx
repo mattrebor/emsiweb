@@ -1,0 +1,17 @@
+<div id="main-container" class="row"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+		
+	<div class="span1">&amp;nbsp;</div>
+	<div id="content1" class="span22">
+		 <tiles:insertAttribute name="body-content" ignore="false" /> 	
+	</div>
+	<div class="span1">&amp;nbsp;</div>
+	
+	<!--  end content -->
+</div>
+<!--  end two column layout -->

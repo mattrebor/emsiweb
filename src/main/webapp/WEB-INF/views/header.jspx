@@ -1,0 +1,69 @@
+<div id="top-nav" class="row" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+
+
+	<c:set var="userLocale">
+		<c:set var="plocale">${pageContext.response.locale}</c:set>
+		<c:out value="${fn:replace(plocale, '_', '-')}" default="en" />
+	</c:set>
+
+	<spring:message code="label_nav_emsi" var="labelNavEmsi" />
+	<spring:message code="label_nav_ebi" var="labelNavEbi" />
+	<spring:message code="label_nav_cemi" var="labelNavCemi" />
+	<spring:message code="label_nav_ceom" var="labelNavCeom" />
+
+	<spring:message code="label_login" var="labelLogin" />
+	<spring:message code="label_contactus" var="labelContactus" />
+	<spring:message code="label_sitemap" var="labelSitemap" />
+	<spring:message code="label_donate" var="labelDonate" />
+	<spring:message code="label_en" var="labelEn" />
+	<spring:message code="label_zh" var="labelZh" />
+
+	<spring:message code="header_text" var="headerText" />
+	<spring:message code="label_logout" var="labelLogout" />
+	<spring:message code="label_welcome" var="labelWelcome" />
+	<spring:url var="logoutUrl" value="/j_spring_security_logout" />
+
+	<spring:url var="homeUrl" value="/home" />
+
+
+
+	<!-- <div class="span1">&amp;nbsp;</div>-->
+	<div id="primary-nav-container" class="span6">
+		<div id="primary-nav" class="emsi-navbar">
+			<ul>
+				<li class="selected"><a href="#">${labelNavEmsi}</a></li>
+				<li><a href="#">${labelNavEbi }</a></li>
+				<li><a href="#">${labelNavCemi }</a></li>
+				<li><a href="#">${labelNavCeom }</a></li>
+			</ul>
+		</div>
+		<!--  end primary nav -->
+	</div>
+	
+	
+	<div id="site-nav-container" class="span18 ">
+		<div id="site-nav" class="emsi-navbar pull-right">
+			<ul>
+				<li class="first"><a href="#">${labelLogin }</a></li>
+				<li><a href="#">${labelContactus }</a></li>
+				<li><a href="#">${labelSitemap }</a></li>
+				<li><a href="#">${labelDonate }</a></li>
+				<c:choose>
+					<c:when test="${userLocale eq 'zh'}">
+						<li><a href="${homeUrl}?lang=en">${labelEn }</a></li>
+					</c:when>
+					<c:otherwise>
+						<li><a href="${homeUrl}?lang=zh">${labelZh }</a></li>
+					</c:otherwise>
+				</c:choose>
+			</ul>
+		</div>
+	</div>
+	<!-- <div class="span1">&amp;nbsp;</div>-->
+</div>

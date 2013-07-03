@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+
+<tiles-definitions>
+
+  <definition name="default" template="/WEB-INF/layouts/default.jspx">
+    <put-attribute name="header" value="/WEB-INF/views/header.jspx" />
+    <put-attribute name="logo" value="/WEB-INF/views/logo.jspx" />
+    <put-attribute name="secondary-nav" value="/WEB-INF/views/secondary-nav.jspx" />
+    
+    
+    <put-attribute name="main-area" value="/WEB-INF/views/main-area-single-col.jspx" />
+    <put-attribute name="footer" value="/WEB-INF/views/footer.jspx" />
+    
+  </definition>
+  
+  <definition name="default-two-col" extends="default">
+    <put-attribute name="main-area" value="/WEB-INF/views/main-area-two-col.jspx" />
+  </definition>  
+ 
+
+</tiles-definitions>

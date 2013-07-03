@@ -1,0 +1,12 @@
+<div id="logo-bar" class="row" 
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+
+
+
+	<div id="logo" class="span24">&amp;nbsp;</div>
+
+</div>

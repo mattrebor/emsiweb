@@ -1,0 +1,289 @@
+body {
+	background-image: url('../images/emsi_bg.jpg');
+	background-repeat: repeat;
+	margin: 0px;
+	padding: 0px;
+}
+
+#outer-container.container {
+	margin-top: 10px;
+	background-color: #ffffff;
+	border-top-left-radius: 15px 15px;
+	border-top-right-radius: 15px 15px;
+}
+
+#main-container {
+	overflow: hidden;	
+}
+
+#content1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#content2 {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+
+
+/**** Primary Nav ****/
+
+#primary-nav {
+	margin-left: 20px;
+	background-color: #625646;
+}
+
+#primary-nav ul {
+	
+}
+
+#primary-nav li {
+	padding-top: 7px;
+	padding-bottom: 3px;
+	width: 50px;
+	min-height: 20px;
+	padding-right: 1px;
+	padding-left: 1px;
+	
+}
+
+#primary-nav li.selected {
+	background-color: #cd8e14;
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;
+}
+
+#primary-nav li a {
+	color: #ffffff;
+	font-size: 1.0em;
+}
+
+/**** Site Nav ****/
+
+#site-nav {
+	color: #777777;
+	margin-right: 20px;
+}
+
+#site-nav  li {
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 5px;
+	border-left: 1px #777777 solid
+}
+
+#site-nav  li.first {
+	border-left: 0px #777777 solid
+}
+
+#site-nav li a {
+	color: #777777;
+	font-size: 0.9em;
+}
+
+
+/**** Logo ****/
+#logo {
+	background-image: url('../images/emsi_logo2.png');
+	background-repeat: no-repeat;
+	background-color: #0f5b69;
+	height: 132px;
+}
+
+/**** Brown bar ****/
+.brown-bar {
+	height: 20px;
+	background-color: #cd8e14;
+}
+
+/**** Secondary nav ****/
+#secondary-nav {
+	11display: inline-block;
+	margin-top: -10px;
+	margin-right: 40px;
+}
+
+
+/**** Page nav ****/
+#page-nav {
+	margin-left: 20px;
+	background-color: #625646;
+	color: #ffffff;
+	11margin-left: 25px;
+	width: 210px;
+	padding-bottom: 5000px;
+	margin-bottom: -5000px;
+}
+
+#page-nav ul {
+	margin-top: 10px;
+}
+
+#page-nav li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#page-nav li.selected {
+	background-color: #3b3525;
+	border: 1px solid #ffffff;
+	width: 205px;
+	margin-left: -6px;
+	padding-left: 16px;
+}
+
+#page-nav li a {
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+
+#secondary-nav ul {
+}
+
+#secondary-nav li {
+	padding-top: 7px;
+	padding-bottom: 3px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: #ffffff;
+	border-top-left-radius: 10px 10px;
+	border-top-right-radius: 10px 10px;	
+}
+
+#secondary-nav li a {
+	color: #777777;
+	font-size: 1.0em;
+	
+}
+
+
+/**** Footer ****/
+.footer-frame {
+	margin: 0px 0px;
+	padding: 0px;
+	text-align: center;
+	width: 100%;
+	background-color: #0f5b69; 
+}
+
+.footer-inner {
+	width: 940px;
+	margin: 0px auto;	
+}
+
+.footer-text {
+	text-align: right;
+	margin-right: 25px;
+	color: #cccccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.7em;
+	
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+
+
+
+
+/**** GENERIC STYLE ******/
+
+/**** EMSI Navbar *****/
+.emsi-navbar {
+	display: inline-block;
+}
+
+.emsi-navbar ul {
+	width: auto;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.emsi-navbar li {
+	list-style-type: none;
+	text-align: center;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.emsi-navbar li a {
+	text-decoration: none;
+}
+
+/**** EMSI Vertical Navbar ****/
+.emsi-navbar-vertical {
+	display: inline-block;
+}
+
+.emsi-navbar-vertical ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+.emsi-navbar-vertical li {
+	list-style-type: none;
+	text-align: left;
+	vertical-align: middle;
+}
+
+.emsi-navbar-vertical li a {
+	text-decoration: none;
+}
+
+
+
+
+/**** Media specific styles *****/
+
+@media (max-width: 767px) {
+
+#main-container {
+	overflow: visible;	
+}
+
+#page-nav {
+	margin-bottom: 0px !important; 
+	padding-bottom: 0px !important; 
+}
+
+} /** end max-width: 767px **/
+
+
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+#main-container {
+	overflow: visible;	
+}
+
+#page-nav {
+	width: 207px !important; 
+	margin-bottom: 0px !important; 
+	padding-bottom: 0px !important; 	
+}
+
+#page-nav li.selected {
+	width: 202px !important;
+}
+
+	
+} /** end min-width: 768px and max-width: 979px **/
+
+@media (min-width: 1200px) {
+
+
+#content2 {
+	margin-left: -40px !important;
+}	
+	
+} /** end mid-width: 1200px **/
+
+
+

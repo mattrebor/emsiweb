@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div class="footer-frame" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+
+
+
+	<div class="footer-inner">
+		<div class="footer-text">EMSI USA Headquarters | 36 Alpine Road
+			| Towaco NJ | 973 335 7177 | info@emsionline.org</div>
+
+	</div>
+</div>
