@@ -60,12 +60,7 @@
 				var="whats_up_image_url" />
 			<img src="${whats_up_image_url }" alt="" width="400" height="60" />
 			
-			Chui
-
-
-
-
-			Chui rob dan
+		
 		</div>
 		<div class="span11">
 			<spring:url value="/resources/images/bookstore.png"
