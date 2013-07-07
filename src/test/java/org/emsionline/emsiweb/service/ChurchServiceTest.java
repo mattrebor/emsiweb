@@ -73,9 +73,7 @@ public class ChurchServiceTest {
 		for (String locale : details.keySet()) {
 			logger.info("  [" + locale + "] " + details.get(locale).getChurchId() + " - " + details.get(locale).getChurchName() );
 		}
-		
-		//church.setChurchPath("中文 towaco");
-		
+				
 		//churchService.save(church);
 		
 		Church church2 = churchService.findById(new Long(1));
