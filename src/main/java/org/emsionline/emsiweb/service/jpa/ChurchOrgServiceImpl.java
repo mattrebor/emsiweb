@@ -3,7 +3,6 @@ package org.emsionline.emsiweb.service.jpa;
 import java.util.List;
 import java.util.Set;
 
-import org.apache.log4j.Logger;
 import org.emsionline.emsiweb.domain.Church;
 import org.emsionline.emsiweb.domain.ChurchOrg;
 import org.emsionline.emsiweb.repository.ChurchOrgRepository;
@@ -25,7 +24,6 @@ import com.google.common.collect.Lists;
 @Transactional
 public class ChurchOrgServiceImpl implements ChurchOrgService {
 
-	Logger logger = Logger.getLogger(ChurchOrgServiceImpl.class);
 
 	@Autowired
 	private ChurchOrgRepository churchOrgRepository;
