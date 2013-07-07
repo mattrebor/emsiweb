@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	<definition name="default-cemi" extends="default-two-col">
+		<put-attribute name="primaryNavSelection" value="cemi" cascade="true"/>
+		<put-attribute name="menu-content" value="/WEB-INF/views/cemi/page-menu.jspx"
+			cascade="true" />
+	</definition>
+
+
+	<definition extends="default-cemi" name="church/list">	
+		<put-attribute name="body-content" value="/WEB-INF/views/cemi/list.jspx"
+			cascade="true" />
+	</definition>
+
+	<definition extends="default-two-col" name="church/show">	
+		<put-attribute name="body-content" value="/WEB-INF/views/church/show.jspx"
+			cascade="true" />
+	</definition>
+
+
+
+</tiles-definitions>

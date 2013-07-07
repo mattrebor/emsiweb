@@ -11,9 +11,7 @@ public interface ChurchOrgService {
 	public List<ChurchOrg> findAll();
 	
 	public ChurchOrg findById(Long id);
-	
-	public ChurchOrg findByIdWithChurches(Long id);
-	
+		
 	public ChurchOrg save(ChurchOrg church_org);
 	
 	public Page<ChurchOrg> findAllByPage(Pageable pageable);

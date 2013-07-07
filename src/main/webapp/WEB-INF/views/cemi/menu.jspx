@@ -1,0 +1,38 @@
+<ul xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+
+
+	<c:set var="current_path" value="${new_path}"/>
+	
+	<c:forEach items="${current_org}" var="org">
+
+		<li><input type="checkbox" id="${org.churchOrgPath}" checked="checked"/>
+			<label for="${org.churchOrgPath}">${org.churchOrgDetails[userLocale].churchOrgName}</label>
+
+			<c:choose>
+				<c:when test="${fn:length(org.churchOrgs) > 0}">
+					<c:set var="current_org" value="${org.churchOrgs }" scope="request" />
+					<c:set var="new_path" value="${current_path}/${org.churchOrgPath}" scope="request"/>
+					<jsp:include page="/WEB-INF/views/cemi/menu.jspx" />
+				</c:when>
+				<c:otherwise>
+					<c:if test="${fn:length(org.churches) > 0}">
+						<ul>
+							<c:forEach items="${org.churches }" var="church">
+								<li><a href="${current_path}/${org.churchOrgPath}/${church.churchPath}">${church.churchDetails[userLocale].churchName }</a></li>
+	
+							</c:forEach>
+						</ul>
+					</c:if>
+			
+				</c:otherwise>
+			</c:choose>
+		</li>
+	</c:forEach>
+</ul>

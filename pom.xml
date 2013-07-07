@@ -17,6 +17,8 @@
 		<hibernate-version>3.6.8.Final</hibernate-version>
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.5.10</org.slf4j-version>
+		<eclipselink.version>2.5.0</eclipselink.version>
+		
 	</properties>
 	
 	<dependencies>
@@ -172,16 +174,35 @@
 			<artifactId>joda-time-hibernate</artifactId>
 			<version>${joda-time-hibernate-version}</version>
 		</dependency>
+		<!-- 
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-entitymanager</artifactId>
 			<version>${hibernate-version}</version>
-		</dependency>
+		</dependency>-->
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-validator</artifactId>
 			<version>4.3.1.Final</version>
+		</dependency> 
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>eclipselink</artifactId>
+			<version>${eclipselink.version}</version>
+			<scope>compile</scope>
 		</dependency>
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>org.eclipse.persistence.core</artifactId>
+			<version>${eclipselink.version}</version>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.eclipse.persistence</groupId>
+			<artifactId>org.eclipse.persistence.jpa</artifactId>
+			<version>${eclipselink.version}</version>
+			<scope>compile</scope>
+		</dependency>		
 		<dependency>
 			<groupId>javax.validation</groupId>
 			<artifactId>validation-api</artifactId>

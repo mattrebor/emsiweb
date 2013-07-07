@@ -1,0 +1,77 @@
+<div id="cemi-nav"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"	
+	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+
+
+	<spring:message code="label_test_intro" var="labelTestIntro" />
+	<spring:message code="label_test_statement" var="labelTestStatement" />
+	<spring:message code="label_test_ministry_cal"
+		var="labelTestMinistryCal" />
+	<spring:message code="label_test_spring_of_life"
+		var="labelTestSpringOfLife" />
+	<spring:message code="label_test_bread_of_life"
+		var="labelTestBreadOfLife" />
+	<spring:message code="label_test_life_publishing_house"
+		var="labelTestLifePubHouse" />
+
+	<spring:url var="cemiUrl" value="/cemi" />
+
+	<div class="css-treeview">
+	
+		<c:set var="current_org" value="${church_org.churchOrgs }" scope="request"/>
+		<c:set var="new_path" value="${cemiUrl }" scope="request"/>
+		
+		
+		<jsp:include page="/WEB-INF/views/cemi/menu.jspx"/>
+	
+	
+			<!-- 
+	
+		<ul>
+		
+
+			<li><input type="checkbox" id="item-0" checked="checked" /><label
+				for="item-0">CEMI in America</label>
+				<ul>
+					<li><input type="checkbox" id="item-0-0" /><label
+						for="item-0-0">East Coast</label>
+						<ul>
+							<li><a href="#">Brooklyn, NY</a></li>
+							<li><a href="#">Chinatown, NY</a></li>
+							<li><a href="#">Highland Park, NY</a></li>
+							<li><a href="#">Livingston, NJ</a></li>
+							<li><a href="#">Murray Hill, NJ</a></li>
+							<li><a href="#">Pearl River, NJ</a></li>
+							<li><a href="#">Queens, NY</a></li>
+							<li><a href="#">Towaco, NJ</a></li>
+						</ul></li>
+					<li><input type="checkbox" id="item-0-1" /><label
+						for="item-0-1">West Coast</label>
+						<ul>
+							<li>Brooklyn, NY</li>
+							<li>Chinatown, NY</li>
+							<li>Highland Park, NY</li>
+							<li>Livingston, NJ</li>
+							<li>Murray Hill, NJ</li>
+							<li>Pearl River, NJ</li>
+							<li>Queens, NY</li>
+							<li>Towaco, NJ</li>
+						</ul></li>
+				</ul></li>
+			<li><input type="checkbox" id="item-1" /><label for="item-1">CEMI
+					in Europe</label></li>
+					
+					
+		</ul> -->
+
+	</div>
+
+
+	<!--  end page-nav -->
+
+</div>

@@ -1,9 +1,15 @@
 package org.emsionline.emsiweb.service;
 
+import java.util.Map;
+
 import org.emsionline.emsiweb.domain.Church;
 import org.emsionline.emsiweb.domain.ChurchOrg;
+import org.emsionline.emsiweb.domain.LocalizedChurchDetails;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
@@ -13,6 +19,9 @@ import static org.junit.Assert.*;
 @ContextConfiguration(locations = { "/test-root-context.xml" })
 public class ChurchServiceTest {
 
+	final static Logger logger = LoggerFactory.getLogger(ChurchServiceTest.class);
+
+	
 	@Autowired
 	private ChurchService churchService;
 
@@ -20,14 +29,24 @@ public class ChurchServiceTest {
 	public void testRetrieve() {
 		Church church = churchService.findById(new Long(1));
 
-		assertEquals("towaco", church.getChurchPath());
+		assertEquals("brooklyn", church.getChurchPath());
+		
+		logger.info("church path: " + church.getChurchPath());
+		
+		Map<String, LocalizedChurchDetails> details = church.getChurchDetails();
+		logger.info("church details size: " + details.size());
+		
+		for (String locale : details.keySet()) {
+			logger.info("  [" + locale + "] " + details.get(locale).getChurchId() + " - " + details.get(locale).getChurchName() );
+		}
+		
 
-		church = churchService.findById(new Long(4));
+		//church = churchService.findById(new Long(4));
 
-		assertEquals("rotterdam", church.getChurchPath());
+		//assertEquals("rotterdam", church.getChurchPath());
 	}
 	
-
+	@Ignore
 	@Test
 	public void testRetrieveOrg() {
 		Church church = churchService.findById(new Long(1));
@@ -38,6 +57,33 @@ public class ChurchServiceTest {
 		
 		assertNotNull(org);
 		assertEquals("america-east", org.getChurchOrgPath());
+	}
+	
+	@Test
+	public void testModify() {
+		Church church = churchService.findById(new Long(1));
+
+		assertEquals("towaco", church.getChurchPath());
+		
+		logger.info("church path: " + church.getChurchPath());
+		
+		Map<String, LocalizedChurchDetails> details = church.getChurchDetails();
+		logger.info("church details size: " + details.size());
+		
+		for (String locale : details.keySet()) {
+			logger.info("  [" + locale + "] " + details.get(locale).getChurchId() + " - " + details.get(locale).getChurchName() );
+		}
+		
+		//church.setChurchPath("中文 towaco");
+		
+		//churchService.save(church);
+		
+		Church church2 = churchService.findById(new Long(1));
+		logger.info("church path: " + church2.getChurchPath());
+
+		//church = churchService.findById(new Long(4));
+
+		//assertEquals("rotterdam", church.getChurchPath());
 	}
 
 }

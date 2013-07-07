@@ -1,11 +1,13 @@
 <div id="top-nav" class="row" xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:spring="http://www.springframework.org/tags"
 	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
 	xmlns:c="http://java.sun.com/jsp/jstl/core"
 	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
 
+	<tiles:importAttribute name="primaryNavSelection" ignore="true"/>
 
 	<c:set var="userLocale" scope="session">
 		<c:set var="plocale">${pageContext.response.locale}</c:set>
@@ -31,15 +33,48 @@
 
 	<spring:url var="homeUrl" value="/home" />
 	<spring:url var="emsiUrl" value="/emsi/intro" scope="request"/>
+	<spring:url var="ebiUrl" value="/ebi" scope="request"/>	
+	<spring:url var="cemiUrl" value="/cemi" scope="request"/>	
+	<spring:url var="ceomUrl" value="/ceom" scope="request"/>	
+	
 
 	<!-- <div class="span1">&amp;nbsp;</div>-->
 	<div id="primary-nav-container" class="span6">
 		<div id="primary-nav" class="emsi-navbar">
 			<ul>
-				<li class="selected"><a href="${emsiUrl}">${labelNavEmsi}</a></li>
-				<li><a href="#">${labelNavEbi }</a></li>
-				<li><a href="#">${labelNavCemi }</a></li>
-				<li><a href="#">${labelNavCeom }</a></li>
+				
+				<c:choose>
+					<c:when test="${empty primaryNavSelection or primaryNavSelection eq 'emsi'}">
+						<li class="selected"><a href="${emsiUrl}">${labelNavEmsi}</a></li>
+					</c:when>
+					<c:otherwise>
+						<li><a href="${emsiUrl}">${labelNavEmsi}</a></li>					
+					</c:otherwise>
+				</c:choose>
+				<c:choose>
+					<c:when test="${primaryNavSelection eq 'ebi'}">
+						<li class="selected"><a href="${ebiUrl}">${labelNavEbi}</a></li>
+					</c:when>
+					<c:otherwise>
+						<li><a href="${ebiUrl}">${labelNavEbi}</a></li>					
+					</c:otherwise>
+				</c:choose>
+				<c:choose>
+					<c:when test="${primaryNavSelection eq 'cemi'}">
+						<li class="selected"><a href="${cemiUrl}">${labelNavCemi}</a></li>
+					</c:when>
+					<c:otherwise>
+						<li><a href="${cemiUrl}">${labelNavCemi}</a></li>					
+					</c:otherwise>
+				</c:choose>
+				<c:choose>
+					<c:when test="${primaryNavSelection eq 'ceom'}">
+						<li class="selected"><a href="${ceomUrl}">${labelNavCeom}</a></li>
+					</c:when>
+					<c:otherwise>
+						<li><a href="${ceomUrl}">${labelNavCeom}</a></li>					
+					</c:otherwise>
+				</c:choose>
 			</ul>
 		</div>
 		<!--  end primary nav -->

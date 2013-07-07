@@ -15,7 +15,7 @@ import javax.persistence.Table;
 import javax.persistence.Version;
 import javax.validation.constraints.Size;
 
-import org.hibernate.validator.constraints.NotEmpty;
+//import org.hibernate.validator.constraints.NotEmpty;
 
 @Entity
 @Table(name = "page_fragment")
@@ -55,7 +55,7 @@ public class PageFragment implements Serializable {
 		this.version = version;
 	}
 	
-	@NotEmpty(message="{validation.page_title.not_empty.message}")
+	//@NotEmpty(message="{validation.page_title.not_empty.message}")
 	@Size(min = 3, max = 120, message="{validation.page_title.size.message}")
 	@Column(name = "title")
 	public String getTitle() {

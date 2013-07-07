@@ -4,6 +4,7 @@ import static javax.persistence.GenerationType.IDENTITY;
 
 import java.io.Serializable;
 import java.util.List;
+import java.util.Map;
 import java.util.Set;
 
 import javax.persistence.CascadeType;
@@ -14,7 +15,9 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
+import javax.persistence.MapKey;
 import javax.persistence.OneToMany;
+import javax.persistence.OrderBy;
 import javax.persistence.Table;
 import javax.persistence.Version;
 
@@ -31,8 +34,10 @@ public class ChurchOrg implements Serializable {
 	private Long church_org_id;
 	private String church_org_path;
 	private int version;
-	private Set<ChurchOrg> church_orgs;
-	private Set<Church> churches;
+	private List<ChurchOrg> church_orgs;
+	private List<Church> churches;
+	private int sort_order;
+	private Map<String, LocalizedChurchOrgDetails> church_org_details;
 	
 
 	
@@ -68,35 +73,53 @@ public class ChurchOrg implements Serializable {
 	}
 	
 	
-	@OneToMany(cascade=CascadeType.ALL, fetch=FetchType.EAGER)
-	@JoinTable(name = "church_hierarchy", joinColumns = {
-				@JoinColumn(name="parent_church_org_id", unique = true) },
-				inverseJoinColumns = {
-					@JoinColumn(name="church_org_id")
-		}
+	@OneToMany(cascade=CascadeType.ALL, fetch=FetchType.LAZY)
+	@JoinTable(name = "church_hierarchy", 
+			   joinColumns = { @JoinColumn(name="parent_church_org_id", unique = true) },
+			   inverseJoinColumns = { @JoinColumn(name="church_org_id") }
 	)
-	public Set<ChurchOrg> getChurchOrgs() {
+	@OrderBy("sortOrder")
+	public List<ChurchOrg> getChurchOrgs() {
 		return church_orgs;			
 	}
 	
-	public void setChurchOrgs(Set<ChurchOrg> church_orgs) {
+	public void setChurchOrgs(List<ChurchOrg> church_orgs) {
 		this.church_orgs = church_orgs;
 	}
 	
 	@OneToMany(cascade=CascadeType.ALL, fetch=FetchType.LAZY)
-	@JoinTable(name = "church_hierarchy", joinColumns = {
-				@JoinColumn(name="parent_church_org_id", unique = true) },
-				inverseJoinColumns = {
-					@JoinColumn(name="church_id")
-		}
+	@JoinTable(name = "church_hierarchy", 
+			   joinColumns = { @JoinColumn(name="parent_church_org_id", unique = true) },
+			   inverseJoinColumns = { @JoinColumn(name="church_id") }
 	)
-	public Set<Church> getChurches() {
+	@OrderBy("sortOrder")
+	public List<Church> getChurches() {
 		return churches;			
 	}
 	
-	public void setChurches(Set<Church> churches) {
+	public void setChurches(List<Church> churches) {
 		this.churches = churches;
 	}
 	
+
+	@Column(name = "sort_order")
+	public int getSortOrder() {
+		return sort_order;
+	}
+
+	public void setSortOrder(int sort_order) {
+		this.sort_order = sort_order;
+	}
+	
+	@OneToMany
+	@JoinColumn(name = "church_org_id", referencedColumnName = "church_org_id")
+	@MapKey(name = "locale")
+	public Map<String, LocalizedChurchOrgDetails> getChurchOrgDetails() {
+		return church_org_details;
+	}
+	
+	public void setChurchOrgDetails(Map<String, LocalizedChurchOrgDetails> church_org_details) {
+		this.church_org_details = church_org_details;
+	}	
 	
 }

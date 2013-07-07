@@ -49,35 +49,4 @@ public class ChurchOrgServiceImpl implements ChurchOrgService {
 		return churchOrgRepository.findAll(pageable);
 	}
 
-	@Transactional(readOnly = true)
-	public ChurchOrg findByIdWithChurches(Long id) {
-		ChurchOrg org = findById(id);
-		if (org != null) {
-			Set<Church> churches = org.getChurches();
-			logger.trace("churches.size = " + churches.size());
-
-			recurse(1, org.getChurchOrgs());
-		}
-
-		return org;
-	}
-
-	void recurse(int level, Set<ChurchOrg> orgs) {
-		if (orgs != null & orgs.size() > 0) {
-			for (ChurchOrg org : orgs) {
-
-				logger.trace("level " + level + ": " + org.getChurchOrgPath());
-
-				recurse(level + 1, org.getChurchOrgs());
-
-				Set<Church> churches = org.getChurches();
-
-				for (Church church : churches) {
-					logger.trace("  " + church.getChurchPath());
-				}
-			}
-		}
-
-	}
-
 }

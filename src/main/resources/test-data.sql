@@ -130,31 +130,37 @@ insert into page_fragment(title, body) values ('Page 4', '<article class="conten
 			</article>');
 
 			
-insert into church(church_path) values ('towaco');
-insert into church(church_path) values ('chinatown');
-insert into church(church_path) values ('brooklyn');
-insert into church(church_path) values ('rotterdam');
-
-insert into church_org(church_org_path) values ('cemi');
-
-insert into church_org(church_org_path) values ('america');
-insert into church_org(church_org_path) values ('america-east');
-
-insert into church_org(church_org_path) values ('europe');
-insert into church_org(church_org_path) values ('holland');
+insert into church(church_path, sort_order) values ('towaco', 2);
+insert into church_details(church_id, locale, church_name) values (1, 'en', 'CEM in Towaco');
+insert into church_details(church_id, locale, church_name) values (1, 'zh', 'CEM in Towaco 中文');
 
 
-insert into church_hierarchy(parent_church_org_id, church_org_id, church_id, sort_order) values (null, 1, null, 0); 
-insert into church_hierarchy(parent_church_org_id, church_org_id, church_id, sort_order) values (1, 2, null, 0);
-insert into church_hierarchy(parent_church_org_id, church_org_id, church_id, sort_order) values (2, 3, null, 0);
-insert into church_hierarchy(parent_church_org_id, church_org_id, church_id, sort_order) values (3, null, 1, 0);
-insert into church_hierarchy(parent_church_org_id, church_org_id, church_id, sort_order) values (3, null, 2, -1);
-insert into church_hierarchy(parent_church_org_id, church_org_id, church_id, sort_order) values (3, null, 3, -2);
+insert into church(church_path, sort_order) values ('chinatown', -2);
+insert into church_details(church_id, locale, church_name) values (2, 'en', 'CEM in Chinatown');
 
-insert into church_hierarchy(parent_church_org_id, church_org_id, church_id, sort_order) values (1, 4, null, 0);
-insert into church_hierarchy(parent_church_org_id, church_org_id, church_id, sort_order) values (4, 5, null, 0);
+insert into church(church_path, sort_order) values ('brooklyn', 0);
+insert into church(church_path, sort_order) values ('rotterdam', 0);
 
-insert into church_hierarchy(parent_church_org_id, church_org_id, church_id, sort_order) values (5, null, 4, 0);
+insert into church_org(church_org_path, sort_order) values ('cemi', 0);
+
+insert into church_org(church_org_path, sort_order) values ('america', 1);
+insert into church_org(church_org_path, sort_order) values ('america-east', 2);
+
+insert into church_org(church_org_path, sort_order) values ('europe', 0);
+insert into church_org(church_org_path, sort_order) values ('holland', 1);
+
+
+insert into church_hierarchy(parent_church_org_id, church_org_id, church_id) values (null, 1, null); 
+insert into church_hierarchy(parent_church_org_id, church_org_id, church_id) values (1, 2, null);
+insert into church_hierarchy(parent_church_org_id, church_org_id, church_id) values (2, 3, null);
+insert into church_hierarchy(parent_church_org_id, church_org_id, church_id) values (3, null, 1);
+insert into church_hierarchy(parent_church_org_id, church_org_id, church_id) values (3, null, 2);
+insert into church_hierarchy(parent_church_org_id, church_org_id, church_id) values (3, null, 3);
+
+insert into church_hierarchy(parent_church_org_id, church_org_id, church_id) values (1, 4, null);
+insert into church_hierarchy(parent_church_org_id, church_org_id, church_id) values (4, 5, null);
+
+insert into church_hierarchy(parent_church_org_id, church_org_id, church_id) values (5, null, 4);
 
 
 
