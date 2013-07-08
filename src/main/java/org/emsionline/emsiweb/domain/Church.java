@@ -35,6 +35,7 @@ public class Church implements Serializable {
 	private ChurchOrg church_org;
 	private int sort_order;
 	private Map<String, LocalizedChurchDetails> church_details;
+	private Map<String, LocalizedChurchContent> church_content;
 
 	
 	
@@ -103,4 +104,14 @@ public class Church implements Serializable {
 		this.church_details = church_details;
 	}
 	
+	@OneToMany(fetch=FetchType.LAZY)
+	@JoinColumn(name = "church_id", referencedColumnName = "church_id")
+	@MapKey(name = "locale")
+	public Map<String, LocalizedChurchContent> getChurchContent() {
+		return church_content;
+	}
+	
+	public void setChurchContent(Map<String, LocalizedChurchContent> church_content) {
+		this.church_content = church_content;
+	}	
 }

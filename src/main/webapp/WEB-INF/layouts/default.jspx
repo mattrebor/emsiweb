@@ -101,6 +101,8 @@
 	<c:out value="${fn:replace(plocale, '_', '-')}" default="en" />
 </c:set>
 
+<spring:url value="/cemi" var="cemiUrl" scope="request"/>
+
 <spring:message code="application_name" var="app_name"
 	htmlEscape="false" />
 <title><spring:message code="welcome_h3" arguments="${app_name}" /></title>

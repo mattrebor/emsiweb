@@ -21,44 +21,39 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class ChurchController {
 
 	final Logger logger = LoggerFactory.getLogger(ChurchController.class);
-	
+
 	@Autowired
 	private ChurchService churchService;
-	
+
 	@Autowired
 	private ChurchOrgService churchOrgService;
-	
+
 	@Autowired
 	private MessageSource messageSource;
-	
-	@RequestMapping(method = RequestMethod.GET) 
-	public String list(Model uiModel) { 
-		
+
+	@RequestMapping(method = RequestMethod.GET)
+	public String list(Model uiModel) {
+
 		// TODO: Do a lookup instead of hardcoding to id 1
 		ChurchOrg church_org = churchOrgService.findById(new Long(1));
 		uiModel.addAttribute("church_org", church_org);
-		
-		
-		logger.info("Listing page fragments");
-		List<Church> churches = churchService.findAll(); 
+
+		List<Church> churches = churchService.findAll();
 		uiModel.addAttribute("churches", churches);
 		logger.info("No. of page fragments: " + churches.size());
-		return "church/list"; 
+		return "cemi/list";
 	}
-	
+
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	public String show(@PathVariable("id") Long id, Model uiModel) {
-		
+		// TODO: Do a lookup instead of hardcoding to id 1
+		ChurchOrg church_org = churchOrgService.findById(new Long(1));
+		uiModel.addAttribute("church_org", church_org);
+
 		Church church = churchService.findById(id);
 		uiModel.addAttribute("church", church);
-		
-		return "church/show";
+
+		return "cemi/show";
 	}
-	
-	
-	
-	
-	
-	
-	
+
 }

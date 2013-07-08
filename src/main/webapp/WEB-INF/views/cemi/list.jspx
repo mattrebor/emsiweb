@@ -9,10 +9,10 @@
 
 
 
-	<spring:url value="/church" var="showPageUrl" />
+	<spring:url value="/cemi" var="showPageUrl" />
 
 
-	<h2>List</h2>
+	<h2>All Churches</h2>
 	<div>
 
 		<c:if test="${not empty churches }">

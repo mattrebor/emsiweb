@@ -39,6 +39,15 @@ create table church_details (
 	primary key (church_id, locale)
 );
 
+drop table if exists church_content;
+create table church_content (
+	church_id int not null,
+	locale varchar(10) not null,
+	title varchar(200) not null,
+	body longtext,
+	primary key (church_id, locale)
+);
+
 DROP TABLE IF EXISTS church_org;
 create table church_org (
 	church_org_id int not null auto_increment,

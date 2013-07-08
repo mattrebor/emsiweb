@@ -8,13 +8,13 @@
 	</definition>
 
 
-	<definition extends="default-cemi" name="church/list">	
+	<definition extends="default-cemi" name="cemi/list">	
 		<put-attribute name="body-content" value="/WEB-INF/views/cemi/list.jspx"
 			cascade="true" />
 	</definition>
 
-	<definition extends="default-two-col" name="church/show">	
-		<put-attribute name="body-content" value="/WEB-INF/views/church/show.jspx"
+	<definition extends="default-cemi" name="cemi/show">	
+		<put-attribute name="body-content" value="/WEB-INF/views/cemi/show.jspx"
 			cascade="true" />
 	</definition>
 

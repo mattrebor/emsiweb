@@ -19,7 +19,7 @@
 	<spring:message code="label_test_life_publishing_house"
 		var="labelTestLifePubHouse" />
 
-	<spring:url var="cemiUrl" value="/cemi" />
+	<spring:url var="cemiUrl" value="/cemi" scope="request"/>
 
 	<div class="css-treeview">
 	

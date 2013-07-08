@@ -25,7 +25,8 @@
 					<c:if test="${fn:length(org.churches) > 0}">
 						<ul>
 							<c:forEach items="${org.churches }" var="church">
-								<li><a href="${current_path}/${org.churchOrgPath}/${church.churchPath}">${church.churchDetails[userLocale].churchName }</a></li>
+								<!-- <li><a href="${current_path}/${org.churchOrgPath}/${church.churchPath}">${church.churchDetails[userLocale].churchName }</a></li> -->
+								<li><a href="${cemiUrl}/${church.churchId}">${church.churchDetails[userLocale].churchName }</a></li>
 	
 							</c:forEach>
 						</ul>

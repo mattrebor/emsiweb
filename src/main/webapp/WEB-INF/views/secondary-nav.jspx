@@ -11,7 +11,7 @@
 		<div id="secondary-nav" class="emsi-navbar pull-right">
 			<ul>
 				<li><a href="${emsiUrl}">Who We Are</a></li>
-				<li><a href="#">Find A Church</a></li>
+				<li><a href="${cemiUrl}">Find A Church</a></li>
 				<li><a href="#">Seminary</a></li>
 				<li><a href="#">Missions</a></li>
 				<li><a href="#">News</a></li>

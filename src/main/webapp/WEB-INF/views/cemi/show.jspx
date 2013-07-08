@@ -10,22 +10,25 @@
 
     
 	<spring:url value="/page" var="showPageUrl" />
-
-    <h1>${church.churchPath}</h1>
     
     <c:choose>
     	<c:when test="${not empty church.churchDetails[userLocale]}">
     		<c:set var="details" value="${church.churchDetails[userLocale]}"/>
+    		<c:set var="content" value="${church.churchContent[userLocale]}"/>
     	</c:when>
     	<c:otherwise>
-    	    <c:set var="details" value="${ church.churchDetails['en']}"/>
+    	    <c:set var="details" value="${church.churchDetails['en']}"/>
+    	    <c:set var="content" value="${church.churchContent['en']}"/>
+    	    
     	</c:otherwise>
     
     </c:choose>
     
-    
-    
-	${details.churchName }
+    <h1>${details.churchName}</h1>
+	
+	<div id="church-content">
+		${content.body}
+	</div>
 	
 	<!-- 
     <div id="contactInfo">
@@ -61,10 +64,5 @@
                       
     </div> -->
     
-    <br/><br/>
-        <hr/>
-    
-    <a href="${showPageUrl }">List</a><br/><br/>
-<a href="${showPageUrl}/${church.churchId }?form">Edit</a>
 
 </div>

@@ -14,6 +14,8 @@
 	<jdbc:embedded-database id="dataSource" type="H2">
 		<jdbc:script location="classpath:schema.sql" />
 		<jdbc:script location="classpath:church.sql" encoding="UTF-8" />
+		<jdbc:script location="classpath:emsi-content.sql" encoding="UTF-8" />
+		
 	</jdbc:embedded-database>
 	
 	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">

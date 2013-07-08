@@ -260,7 +260,14 @@ body {
 }
 
 
-
+#church-content .label {
+	color: #000000;
+	background-color: #ffffff;
+	display: table-cell;
+	line-height: 20px;
+	text-shadow: none;
+	border-radius: 0px;
+}
 
 /**** Media specific styles *****/
 
