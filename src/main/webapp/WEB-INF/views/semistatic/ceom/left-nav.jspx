@@ -1,0 +1,39 @@
+<div id="page-nav" class="emsi-navbar-vertical"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<!-- ceom/left-nav -->
+
+	<spring:message code="label_ceom_leftnav_intro" var="labelIntro"/>
+	<spring:message code="label_ceom_leftnav_mission_churches" var="labelMissionChurches"/>
+	<spring:message code="label_ceom_leftnav_mission_ministries" var="labelMissionMinistries"/>
+	<spring:message code="label_ceom_leftnav_mission_activities" var="labelMissionActivities"/>
+	<spring:message code="label_ceom_leftnav_picture_gallery" var="labelPictureGallery"/>
+	<spring:message code="label_ceom_leftnav_prayer_net" var="labelPrayerNet"/>
+	<spring:message code="label_ceom_leftnav_giving_support" var="labelGivingSupport"/>
+	<spring:message code="label_ceom_leftnav_contact_us" var="labelContactUs"/>
+	
+	
+	<spring:url var="ceomChurchesUrl" value="/ceom/churches"/>
+	<spring:url var="ceomMinistriesUrl" value="/ceom/ministries"/>
+	<spring:url var="ceomActivitiesUrl" value="/ceom/activities"/>
+	<spring:url var="ceomGalleryUrl" value="/ceom/gallery"/>
+	<spring:url var="ceomPrayerNetUrl" value="/ceom/prayernet"/>
+	<spring:url var="ceomGivingUrl" value="/ceom/giving"/>
+	<spring:url var="ceomContactUrl" value="/ceom/contact"/>
+	
+	<ul>
+		<li class="selected"><a href="${ceomIntroUrl}">${labelIntro}</a></li>
+		<li><a href="${ceomChurchesUrl}">${labelMissionChurches}</a></li>
+		<li><a href="${ceomMinistriesUrl}">${labelMissionMinistries}</a></li>
+		<li><a href="${ceomActivitiesUrl}">${labelMissionActivities}</a></li>
+		<li><a href="${ceomGalleryUrl}">${labelPictureGallery}</a></li>
+		<li><a href="${ceomPrayerNetUrl}">${labelPrayerNet}</a></li>
+		<li><a href="${ceomGivingUrl}">${labelGivingSupport}</a></li>
+		<li><a href="${ceomContactUrl}">${labelContactUs}</a></li>
+	</ul>
+	<!-- end ceom/left-nav -->
+</div>
