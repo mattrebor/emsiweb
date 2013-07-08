@@ -1,6 +1,7 @@
 body {
 	background-image: url('../images/emsi_bg.jpg');
-	background-repeat: repeat;
+	background-repeat: repeat-x;
+	background-color: #E4D7AB !important;
 	margin: 0px;
 	padding: 0px;
 }
