@@ -12,8 +12,8 @@
 			<ul>
 				<li><a href="${emsiUrl}">Who We Are</a></li>
 				<li><a href="#">Find A Church</a></li>
-				<li><a href="#">Seminary</a></li>
-				<li><a href="#">Missions</a></li>
+				<li><a href="${ebiAmericaUrl}">Seminary</a></li>
+				<li><a href="${ceomIntroUrl}">Missions</a></li>
 				<li><a href="#">News</a></li>
 				<li><a href="#">Events</a></li>
 			</ul>
