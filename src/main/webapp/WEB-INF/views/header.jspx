@@ -11,8 +11,9 @@
 
 	<c:set var="userLocale" scope="session">
 		<c:set var="plocale">${pageContext.response.locale}</c:set>
-		<c:out value="${fn:replace(plocale, '_', '-')}" default="en" />
+		<c:out value="${fn:substringBefore(plocale, '_')}" default="en" />
 	</c:set>
+	
 
 	<spring:message code="label_nav_emsi" var="labelNavEmsi" />
 	<spring:message code="label_nav_ebi" var="labelNavEbi" />
