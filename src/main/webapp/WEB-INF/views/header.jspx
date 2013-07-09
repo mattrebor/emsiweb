@@ -11,10 +11,17 @@
 
 	<c:set var="userLocale" scope="session">
 		<c:set var="plocale">${pageContext.response.locale}</c:set>
-		<c:out value="${fn:substringBefore(plocale, '_')}" default="en" />
+		<c:choose>
+			<c:when test="${fn:indexOf(plocale, '_') > 1}">
+				<c:out value="${fn:substringBefore(plocale, '_')}" default="en" />
+			</c:when>
+			<c:otherwise>
+				<c:out value="${plocale}" default="en" />
+			</c:otherwise>
+		</c:choose>
 	</c:set>
 	
-
+	<!-- - ${userLocale} - ${plocale} - -->
 	<spring:message code="label_nav_emsi" var="labelNavEmsi" />
 	<spring:message code="label_nav_ebi" var="labelNavEbi" />
 	<spring:message code="label_nav_cemi" var="labelNavCemi" />
