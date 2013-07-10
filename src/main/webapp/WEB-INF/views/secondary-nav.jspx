@@ -5,16 +5,23 @@
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
 
-
+	<spring:message code="label_whoweare" var="labelWhoWeAre" />
+	<spring:message code="label_findachurch" var="labelFindAChurch" />
+	<spring:message code="label_seminary" var="labelSeminary" />
+	<spring:message code="label_missions" var="labelMissions" />
+	<spring:message code="label_news" var="labelNews" />
+	<spring:message code="label_events" var="labelEvents" />
+	
 
 	<div class="span24 brown-bar">
 		<div id="secondary-nav" class="emsi-navbar pull-right">
 			<ul>
-				<li><a href="${emsiUrl}">Who We Are</a></li>
-				<li><a href="#">Find A Church</a></li>
-				<li><a href="${ebiAmericaUrl}">Seminary</a></li>
-				<li><a href="${ceomIntroUrl}">Missions</a></li>
-				<li><a href="#">News</a></li>
+				<li><a href="${emsiUrl}">${labelWhoWeAre}</a></li>
+				<li><a href="${cemiUrl}">${labelFindAChurch}</a></li>
+				<li><a href="${ebiAmericaUrl}">${labelSeminary}</a></li>
+				<li><a href="${ceomIntroUrl}">${labelMissions}</a></li>
+				<li><a href="#">${labelNews}</a></li> 
+				<!-- <li><a href="#">${labelEvents}</a></li> -->
 			</ul>
 		</div>
 		<!--  end secondary nav -->

@@ -1,6 +1,7 @@
 body {
 	background-image: url('../images/emsi_bg.jpg');
 	background-repeat: repeat-x;
+	background-position: center top;
 	background-color: #E4D7AB !important;
 	margin: 0px;
 	padding: 0px;
@@ -27,7 +28,6 @@ body {
 	margin-left: 20px;
 	margin-right: 20px;
 }
-
 
 
 /**** Primary Nav ****/
