@@ -19,13 +19,7 @@
 		</c:choose>
 	</c:set>
 
-	chu
-	
 
-	
-	Rob
-
-	HELLO from DAN!
 	
 	<!-- - ${userLocale} - ${plocale} - -->
 	<spring:message code="label_nav_emsi" var="labelNavEmsi" />
