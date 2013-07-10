@@ -1,0 +1,20 @@
+<div id="page-nav" class="emsi-navbar-vertical"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<!-- ebi/left-nav -->
+
+	<spring:message code="label_ebi_leftnav_america" var="labelAmerica"/>
+	<spring:message code="label_ebi_leftnav_europe" var="labelEurope"/>
+	
+	<spring:url var="ebiEuropeUrl" value="/ebi/europe"/>
+
+	<ul>
+		<li class="selected"><a href="${ebiAmericaUrl}">${labelAmerica}</a></li><!-- ${ebiAmericaUrl} defined in header.jspx -->
+		<li><a href="${ebiEuropeUrl}">${labelEurope}</a></li>
+	</ul>
+	<!-- end ebi/left-nav -->
+</div>

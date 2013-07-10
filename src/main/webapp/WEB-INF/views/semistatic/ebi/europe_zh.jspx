@@ -1,0 +1,33 @@
+	<!-- Chinese -->
+	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+		<jsp:directive.page contentType="text/html;charset=UTF-8" />
+		<jsp:output omit-xml-declaration="yes"/>
+		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+			EBI in Europe</span>
+		
+		<p>&#160;</p>
+		
+		<section>
+			<span style="font-size: 14pt; font-family: 文鼎中楷; color: purple">國際福音神學院</span>
+			<span style="font-size: 11pt; font-family: 文鼎中楷; color: purple">歐洲分院</span>
+			<br/>
+			<p></p>
+			<div style="font-size: 10pt;">
+				<p style="font-weight: bold; color: purple">
+					E.B.I. In Euro (Madrid, Spain)
+				</p>
+				<p>Director: Rev. Yueh Yun Li (M.A.)</p>
+				<p>C/Las Carolinas 10, 28039 Madrid Spain</p>
+				<p>Tel: 91-459-5775, 450-7306</p>
+				<p>Fax: 91-459-5844</p>
+				<a href="/">http://www.emsionline.org</a>
+				<br />
+				<p>
+					E-Mail:
+					<a href="mailto:ebiineuro@gmail.com" target="_blank">ebiineuro@gmail.com</a>
+				</p>
+			</div>
+		</section>
+	</article>
+	<!-- end Chinese -->
+	

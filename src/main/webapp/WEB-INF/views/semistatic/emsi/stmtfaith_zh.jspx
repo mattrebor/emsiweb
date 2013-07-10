@@ -1,0 +1,89 @@
+	<!-- Chinese -->
+	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+		<jsp:directive.page contentType="text/html;charset=UTF-8" />
+		<jsp:output omit-xml-declaration="yes"/>
+		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+			信仰告白</span>
+		<br/><br/>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">一、我們相信聖經是聖靈逐句默示的，是上帝的話，毫無錯誤<wbr></wbr>，有絕對的權威。</span> 
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">二、我們相信只有一位真神上帝。祂是三位一神─聖父、聖子、聖靈<wbr></wbr>，永遠存在。三位中之每一位都有完全同等的神聖位格。</span> 
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">三、我們相信耶穌基督是童貞女馬利亞從聖靈感孕而生。祂是真神<wbr></wbr>，也是真人。</span> 
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">四、我們相信耶穌基督為擔當世人的罪被釘在十字架上，受死<wbr></wbr>，第三天身體從死裏復活，然後升天，作為我們的大祭司<wbr></wbr>，每天為我們代求。</span> 
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">五、我們相信耶穌基督的再來，包括教會的被提和祂榮耀的再臨<wbr></wbr>。耶穌第一次再來時教會將被提，這事隨時可能發生<wbr></wbr>，是在大災難和千禧</span><span style="font-size: small; font-family: 細明體">年前。大災難後，耶穌將第二次再來<wbr></wbr>，親自在地上建立肉眼可見的千禧年國度。 </span>
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">六、我們相信聖靈有神聖的位格。世人的悔改、重生和信徒的成聖<wbr></wbr>、蒙保守都是聖靈的工作。 </span>
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">七、我們相信宇宙萬物都是上帝直接創造的。我們相信所有的生物<wbr></wbr>，連人在內都是上帝在六天中創造，正如創世記所載<wbr></wbr>。一天是指24小時。 我們反對自然主義、神化論和進化論。 </span>
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">八、我們相信人是按上帝的形像造的，因著本性和自由意志<wbr></wbr>，落入罪的網羅，成為罪人。人只有藉著聖靈的工作進入基督的救恩<wbr></wbr>，才能恢復成為上帝的兒女。 </span>
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">九、我們相信救恩因著耶穌基督的恩典臨到世人。世人因耶穌的犧牲代<wbr></wbr>贖而得救，與任何善行無關。 </span>
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">十、我們相信「稱義」是上帝的作為，因為祂宣告凡相信接受耶穌基督<wbr></wbr>為救主的罪人必能「因信稱義」。 </span>
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">十一、我們相信「一次得救永遠得救」，因為主愛我們愛到底<wbr></wbr>，救我們救到底。</span> 
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">十二、我們相信「成聖」是信徒藉著神大能的話語和聖靈的工作<wbr></wbr>，在生活見證上分別為聖，榮耀上帝。 </span>
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">十三、我們相信照聖經所記載，有實際的天堂。信耶穌的人得永生上天<wbr></wbr>堂，不信的人下地獄。</span> 
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">十四、我們相信照聖經所記載，有實際的地獄。不信耶穌的人沒有永生<wbr></wbr>，將進入地獄受永刑。</span> 
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">十五、我們相信撒但是一位墮落的受造者，牠反對上帝和上帝的一切聖<wbr></wbr>工，牠註定要受到永遠的懲罰。</span> 
+			</p>
+		</ul>
+		<ul>
+			<p align="justify">
+			<span style="font-size: small; font-family: 細明體">十六、我們相信我們的國度是在天上，我們傳播福音不涉及政治或參加<wbr></wbr>任何黨派之政治活動。</span> 
+			</p>
+		</ul>
+	</article>
+	<!-- end Chinese -->

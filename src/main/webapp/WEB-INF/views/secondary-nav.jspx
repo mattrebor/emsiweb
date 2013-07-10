@@ -18,8 +18,8 @@
 			<ul>
 				<li><a href="${emsiUrl}">${labelWhoWeAre}</a></li>
 				<li><a href="${cemiUrl}">${labelFindAChurch}</a></li>
-				<li><a href="#">${labelSeminary}</a></li>
-				<li><a href="#">${labelMissions}</a></li>
+				<li><a href="${ebiAmericaUrl}">${labelSeminary}</a></li>
+				<li><a href="${ceomIntroUrl}">${labelMissions}</a></li>
 				<li><a href="#">${labelNews}</a></li> 
 				<!-- <li><a href="#">${labelEvents}</a></li> -->
 			</ul>

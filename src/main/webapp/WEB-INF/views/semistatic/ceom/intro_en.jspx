@@ -1,0 +1,37 @@
+	<!-- English -->
+	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+		<jsp:directive.page contentType="text/html;charset=UTF-8" />
+		<jsp:output omit-xml-declaration="yes"/>
+		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+			Christian Evangelical Overseas Mission (CEOM)</span>
+		
+		<p>&#160;</p>
+		
+		<section>
+			<p>
+				<b>MISSION</b>
+				<br/>
+				In accordance with the teachings of the Bible, our mission is to preach the Gospel; 
+				to establish churches; to win souls to Christ, and to train full-time missionaries.
+				Through missions work, we seek to help Church members grow spiritually and to love 
+				the Lord fervently, so that all may bring the Gospel to all the world!
+			</p>
+			<p>
+				<b>MINISTRY</b>
+				<br/>
+				Our ministry is to build up the church by the leading of the Holy Spirit through  
+				pioneering and pastoral work. Our expanding  ministry  is found in every corner of the 
+				world, locally and overseas, and encompasses various aspects of pastoral care, 
+				church planting, and missions. 
+			</p>
+			<p>
+				<b>STRATEGY</b>
+				<br/>
+				Our strategy is to follow in the footsteps of Jesus Christ in preaching the Gospel 
+				to the ends of the earth.  We seek to bear spiritual fruit to Christ wherever there 
+				are Chinese people by preaching, by growing organically, and through self-sufficiency .
+			</p>
+		</section>
+	</article>
+	<!-- end English -->
+	

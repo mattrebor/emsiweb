@@ -5,7 +5,7 @@
 	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
-
+	<!--  emsi/left-nav -->
 
 	<spring:message code="label_test_intro" var="labelTestIntro" />
 	<spring:message code="label_test_statement" var="labelTestStatement" />
@@ -17,16 +17,16 @@
 		var="labelTestBreadOfLife" />
 	<spring:message code="label_test_life_publishing_house"
 		var="labelTestLifePubHouse" />
-
+	
+	<spring:url var="stmtfaith" value="/emsi/stmtfaith"/>
 
 	<ul>
-		<li class="selected"><a href="#">${labelTestIntro }</a></li>
-		<li><a href="#">${labelTestStatement }</a></li>
-		<li><a href="#">${labelTestMinistryCal }</a></li>
-		<li><a href="#">${labelTestSpringOfLife }</a></li>
-		<li><a href="#">${labelTestBreadOfLife }</a></li>
-		<li><a href="#">${labelTestLifePubHouse }</a></li>
+		<li class="selected"><a href="${emsiUrl}">${labelTestIntro}</a></li><!-- ${emsiUrl} defined in header.jspx -->
+		<li><a href="${stmtfaith}">${labelTestStatement}</a></li>
+		<li><a href="#">${labelTestMinistryCal}</a></li>
+		<li><a href="#">${labelTestSpringOfLife}</a></li>
+		<li><a href="#">${labelTestBreadOfLife}</a></li>
+		<li><a href="#">${labelTestLifePubHouse}</a></li>
 	</ul>
-
+	<!-- end emsi/left-nav -->
 </div>
-<!--  end emsi/left-nav -->

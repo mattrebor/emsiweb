@@ -1,0 +1,27 @@
+	<!-- English -->
+	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+		<jsp:directive.page contentType="text/html;charset=UTF-8" />
+		<jsp:output omit-xml-declaration="yes"/>
+		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+			Statement of Faith</span>
+		<br/><br/>
+		<ol>
+			<li>We believe in the verbal and plenary inspiration of the Bible. It is God’s Word, infallible and inerrant, and has the absolute authority.</li>
+			<li>We believe that there is one God, infinite personal perfect and eternally existing as Father, Son and Holy Spirit. Each person in the Trinity is equal in every divine perfection.</li>
+			<li>We believe that Jesus Christ was conceived by the Holy Spirit, was born of the virgin Mary, and He is truly God and truly man.</li>
+			<li>We believe that Jesus Christ died on the cross for our sins and on the third day He resurrected from the dead, ascended into heaven and is daily interceding on our behalf as our high priest.</li>
+			<li>We believe that the return of Christ includes both the rapture of the church and his return in glory. The first return is for His church and is personal, pre-tribulational, pre-millennial, and may occur at any moment. The second is His return to earth to establish His righteous reign over the earth. This coming is visible and personal.</li>
+			<li>We believe that the Holy Spirit is a divine person and works in the conviction of men and in the regeneration, sanctification and preservation of the believers.</li>
+			<li>We believe that God directly created the universe ex nihilo. We believe that all basic types of living things, including man, were made by direct act of God during the creation week as described in Genesis. And one day means 24 hours. We reject both naturalistic and theistic evolution.</li>
+			<li>We believe that man was made sinless, in God’s own image, but because of his nature and freewill, fell into sin. Man is now a sinner. And one can enter into Christ’s salvation thru the work of the Holy Spirit, and restore the relationship in becoming the child of God.</li>
+			<li>We believe that salvation comes to all mankind only by grace through faith in Jesus Christ by means of his substitutionary atoning sacrifice. No human merit contributes to man’s salvation.</li>
+			<li>We believe that justification is an act of God in which he declares the believer to be righteous on the basis of faith in Jesus Christ and the imputation of the righteousness of Christ to the believing sinner.</li>
+			<li>We believe in the eternal security of our salvation, because the Lord loved us eternally and saved us eternally.</li>
+			<li>We believe that sanctification is the setting apart of a believer unto God through the work of the Holy Spirit and the power of His Word. And to live a God-glorifying life.</li>
+			<li>We believe in the actual place called heaven as recorded in the Bible. Those who believe in Jesus will go to heaven and have eternal life. Those who do not believe will go to hell.</li>
+			<li>We believe in the actual place called hell as recorded in the Bible. Those who do not believe in Jesus will go to hell and into eternal condemnation.</li>
+			<li>We believe that Satan is a created and fallen being, opposed to all that is holy and he is destined for eternal punishment.</li>
+			<li>We believe that our Kingdom is in heaven, so as we preach the gospel, we should not be involved in any politics or involved in any political party or activity.</li>
+		</ol>
+	</article>
+	<!-- end English -->
