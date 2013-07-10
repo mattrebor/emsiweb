@@ -20,7 +20,7 @@
 			</c:otherwise>
 		</c:choose>
 	</c:set>
-	
+	chui
 	<!-- - ${userLocale} - ${plocale} - -->
 	<spring:message code="label_nav_emsi" var="labelNavEmsi" />
 	<spring:message code="label_nav_ebi" var="labelNavEbi" />
