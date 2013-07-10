@@ -9,6 +9,7 @@ var App = function() {
 		}
 	};
 	
+	
 	// Setup selected class on left nav.
 	// Will add the 'selected' class to the <li> element if the child <a> href attribute matches current path.
 	var _setupLeftNavSelectedItem = function() {
