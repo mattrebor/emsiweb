@@ -30,6 +30,11 @@
 	var="bootstrap_css_url" />
 <link rel="stylesheet" type="text/css" media="screen"
 	href="${bootstrap_css_url}" />
+	
+<spring:url value="/resources/styles/emsiweb-treeview.css"
+	var="treeview_css_url" />
+<link rel="stylesheet" type="text/css" media="screen"
+	href="${treeview_css_url}" />	
 
 <!-- jQuery and jQuery UI -->
 <spring:url value="/resources/scripts/jquery-1.7.1.js" var="jquery_url" />
@@ -98,6 +103,8 @@
 	<c:set var="plocale">${pageContext.response.locale}</c:set>
 	<c:out value="${fn:replace(plocale, '_', '-')}" default="en" />
 </c:set>
+
+<spring:url value="/cemi" var="cemiUrl" scope="request"/>
 
 <spring:message code="application_name" var="app_name"
 	htmlEscape="false" />

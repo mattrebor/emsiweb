@@ -32,8 +32,7 @@
 	<spring:url var="emsiUrl" value="/emsi/intro" scope="request"/>
 	<spring:url var="ebiAmericaUrl" value="/ebi/america" scope="request"/>
 	<spring:url var="ceomIntroUrl" value="/ceom/intro" scope="request"/>
-	
-	
+
 	<!-- <div class="span1">&amp;nbsp;</div>-->
 	<div id="primary-nav-container" class="span6">
 		<div id="primary-nav" class="emsi-navbar">

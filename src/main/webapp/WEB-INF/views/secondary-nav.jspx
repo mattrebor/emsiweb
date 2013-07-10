@@ -15,7 +15,6 @@
 				<li><a href="${ebiAmericaUrl}">Seminary</a></li>
 				<li><a href="${ceomIntroUrl}">Missions</a></li>
 				<li><a href="#">News</a></li>
-				<li><a href="#">Events</a></li>
 			</ul>
 		</div>
 		<!--  end secondary nav -->
