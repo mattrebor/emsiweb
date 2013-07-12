@@ -2,6 +2,48 @@
 	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
 		<jsp:directive.page contentType="text/html;charset=UTF-8" />
 		<jsp:output omit-xml-declaration="yes"/>
+				<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+			Evangelical Mission and Seminary International, Inc. (EMSI)</span>
+		<h1 style="font-size: 1.5em">Introduction to Organization</h1>
+		<img src="../images/headquarter.png"
+			style="float: left; margin-right: 20px" />
+
+		<section>
+
+			<p>
+				Headquartered in Towaco, New Jersey U.S.A. <br />36 Alpine Road,
+				Towaco, NJ 07082.
+			</p>
+
+			<p>EMSI was founded by Pastor Moses Yang.</p><p/>
+
+			<p>EMSI has branches in 3 continents:
+			<ul>
+				<li>Europe</li>
+				<li>North America</li>
+				<li>Africa</li>
+				<li>Asia</li>
+			</ul>
+			</p>
+
+			<p>
+				EMSI is made up of the following organizations - <br />Evangelical
+				Bible Institute <br />Christian Evangelical Mission <br />Christian
+				Evangelical Overseas Outreach
+			</p>
+		</section>
+		<br />
+		<hr />
+		<section>
+			<p>
 		組織簡介
+		
+		國際神學福音佈道會是創辦人楊摩西牧師一九六八年於美洲紐約市成立「生命團契」之後，逐步發展而成的一個國際性傳福音的機構。目前已於歐洲、亞洲、美洲及非洲四大洲都設有重要的福音事工。一九七五年於美洲新澤西州西橘園成立「國際福音佈道會」；一九八二年於美洲新澤西多華谷成立「國際福音佈道神學院」。一九六八年 迄今，四十餘年來，國際神學福音佈道會的聖工從神學院、教會、植堂、宣教，擴展至文字出版、福音廣播等各個不同的領域。藉著這多樣化的服事，使福音的觸角更廣遠。
+		</p>
+				
+				<br/>
+			<p>國際神學福音佈道會總部設於美洲新澤西州多華谷（36 Alpine Road., Towaco, NJ 07082 U.S.A.）。董事會成員有：莊仲春（董事長）、楊摩西(總幹事) 、陳愛玫(財政)、吳錫安(秘書)、莊仲立、莊淑賢、呂秋萍、莊仲基、紀素心、莊路得、張 雄、楊昭陸、張劍二、林美玲、謝繼珩、楊怡心。
+			</p>
+		</section>
 	</article>
 	<!-- end Chinese -->
