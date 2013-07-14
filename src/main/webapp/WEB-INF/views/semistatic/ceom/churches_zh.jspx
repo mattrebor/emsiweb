@@ -1,0 +1,43 @@
+	<!-- Chinese -->
+	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+		<jsp:directive.page contentType="text/html;charset=UTF-8" />
+		<jsp:output omit-xml-declaration="yes"/>
+		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+			Mission Churches</span>
+		
+		<p>&#160;</p>
+		
+		<section>
+			<p>
+				The main thrusts of the ministry of the Christian Evangelical Oversea Mission 
+				are to spread the Gospel of Christ Jesus and to establish churches that are based 
+				on God’s truth.  Aside from coordinating all missionary work in America, Europe, 
+				Asia, and Africa, the CEOM oversees the establishment of mission churches.  It 
+				also sends out and supervises missionaries in order to meet the needs of the 
+				mission fields.
+			</p> 
+			<p>
+				At the present, the emphasis of the Christian Evangelical Overseas Mission is for
+				the mission churches.  “Mission churches” are 
+				those pioneering mission fields where new Christians are gathered together and 
+				churches are established.  A mission church is the first step in establishing a 
+				C.E.C. It does not matter if one is self-sufficient or if one depends on the 
+				support from the Mission Fund.   Each establishment of a C.E.C. starts out as a 
+				mission church.  Therefore, within the organization of the Christian Evangelical 
+				Overseas Mission, a mission church becomes a foundation for the expansion of the 
+				C.E.C.  If a mission church is self-sufficient and does not need the support from
+				the Mission Fund, then it becomes a self-supporting church. But if a newly 
+				established church is self-supporting, it is still considered a mission church, 
+				because although it is financially independent, it still needs to be unified 
+				with the operation at the Mission Headquarters.  The status of a church will be 
+				determined after a year of evaluation.
+			</p>
+			<p>
+				A mission church is like a new-born baby that needs extra care and nurture.  It 
+				needs financial, manpower, and prayer support from brothers and sisters.  So, in 
+				the mission field, the C.E.O.M. will fully support the pioneering mission field.
+			</p>
+		</section>
+	</article>
+	<!-- end Chinese -->
+	
