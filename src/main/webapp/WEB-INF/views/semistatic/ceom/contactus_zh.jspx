@@ -3,13 +3,17 @@
 		<jsp:directive.page contentType="text/html;charset=UTF-8" />
 		<jsp:output omit-xml-declaration="yes"/>
 		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
-			Contact Us</span>
+			連絡我們</span>
 		
 		<p>&#160;</p>
 		
 		<section>
-			
-		</section>
+		    <p>
+			36 Alpine Road, Towaco, NJ 07082
+			Phone Number聯絡電話: 973-335-7337. 973-335-7177
+			Fax Number傳真電話: 973-335-0535
+			E-mail: emsi@emsionline.org
+			</p>
 	</article>
 	<!-- end Chinese -->
 	

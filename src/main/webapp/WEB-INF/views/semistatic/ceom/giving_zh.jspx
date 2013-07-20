@@ -3,12 +3,23 @@
 		<jsp:directive.page contentType="text/html;charset=UTF-8" />
 		<jsp:output omit-xml-declaration="yes"/>
 		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
-			Giving &amp;amp; Support</span>
+			奉獻與支持</span>
 		
 		<p>&#160;</p>
 		
 		<section>
-			
+			<p>
+				若您願意以金錢來支持我們的宣教事工，上帝會更加倍地賜福與您！
+			</p>	
+			<p>
+			在美國地區者：
+			支票抬頭請寫EMSI，並請郵寄至36 Alpine Road, Towaco NJ 07082
+			</p>
+			<p>
+			在海外者：
+			請與我們各地的生命堂牧者連絡，
+			或與我們總會連絡，Email請至emsi@emsionline.org
+			</p>
 		</section>
 	</article>
 	<!-- end Chinese -->
