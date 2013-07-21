@@ -40,7 +40,7 @@
 	</ul>
 
 
-	<h1>${content.title}</h1>
+	<h2>${content.title}</h2>
 
 	<div id="church-content">
 		${fn:replace(fn:replace(content.body, '/emsi/images/', imgBase), '/emsi/files/', imgBase2)}

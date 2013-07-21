@@ -47,6 +47,20 @@ public class SemiStaticPageController {
 		return strbld.toString();
 	}
 	
+	@RequestMapping({"/donate", "/contactus"})
+	public String serveSemiStaticContentGlobal(
+			Model model
+			, HttpServletRequest request
+			, Locale locale
+			) {
+		String[] pathElements = getPathElements(request.getServletPath());
+		String lang = locale.getLanguage();
+		StringBuilder strbld = new StringBuilder();
+		strbld.append("semistatic").append("/global/")
+			.append(pathElements[0]).append("_").append(lang);
+		return strbld.toString();
+	}
+		
 	
 	private String[] getPathElements(String servletPath) {
 		return StringUtils.split(servletPath, "/");
