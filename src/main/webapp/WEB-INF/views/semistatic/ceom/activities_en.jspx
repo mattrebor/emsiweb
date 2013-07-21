@@ -1,15 +1,115 @@
-	<!-- English -->
-	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
-		<jsp:directive.page contentType="text/html;charset=UTF-8" />
-		<jsp:output omit-xml-declaration="yes"/>
-		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
-			Mission Activities</span>
-		
-		<p>&#160;</p>
-		
-		<section>
-			
-		</section>
-	</article>
-	<!-- end English -->
-	
+
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Mission Activities</span>
+
+	<p>&#160;</p>
+
+	<section>
+		<p></p>
+		<p>
+			<b><u>Evangelical Outreach in the Northeastern Three
+					Provinces of Holland between 2012 and 2013 </u></b>
+		</p>
+		<p>In 2011, CEC Groningen in Holland reached out to the Chinese in
+			the northeastern provinces of Holland to spread Gospel to them and by
+			January 2013, we started monthly worship services, alternating
+			between restaurants in Leeuwarden and in Bolsward. We had 8
+			attendance the first night in Bolsward, and 18 the second night in
+			Leeuwarden. We were greatly encouraged. May God lead us in this
+			service.</p>
+		<p>
+			<b><u>CEC Utrecht in Holland Gospel Outreach between 2009 and
+					2012 </u></b>
+		</p>
+		<p>Veenendaal is about 45 km from Utrecht. Some church members of
+			CEC Utrecht live in Veenendaal, some run business there. There are
+			also many snack bars and restaurants run by Chinese in Veenendaal. In
+			a September 2009 coworkers’ meeting, decision was made to start Bible
+			study classes in Veenendaal. Then in September 2011, the coworkers
+			decided to start a youth fellowship for children of restaurant
+			owners. In 2012, after much prayer, the coworkers decided to start a
+			church in Veenendaal. So on October 11, 2012, they signed a contract
+			to purchase a church building. On October 20, 2012, the church
+			dedication was held, and CEC Veenendaal was formally established.</p>
+		<p>
+			<b><u>Zion Fellowship in Northern Paris</u></b>
+		</p>
+		<p>CEC in Paris is starting its evangelistic outreach program in
+			Northern Paris. Bible study classes are conducted every Thursday, and
+			Saturday. Please invite your friends in the area to attend.</p>
+		<p></p>
+		<p>Contact: Ev. Zong Quan Zhou</p>
+		<p>Address: 38, rue des gardinoux 93300 Aubervilliers, Paris,
+			France</p>
+		<p>Telephone: 33-1-5846-0892</p>
+		<p>Fax: 33-9-5455-0056</p>
+		<p>E-mail: emsifrance@hotmail.com</p>
+		<p>Skype: emsifrance</p>
+		<p></p>
+		<p>Meeting Schedule</p>
+		<table style="border-collapse: collapse; border: medium none"
+			border="1" cellpadding="0" cellspacing="0">
+			<tbody>
+				<tr>
+					<td
+						style="width: 81.9pt; border: 1pt solid windowtext; padding: 0in 5.4pt"
+						valign="top" width="109">
+						<p>Meetings</p>
+					</td>
+					<td
+						style="width: 58.5pt; border-style: solid solid solid none; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; padding: 0in 5.4pt"
+						valign="top" width="78">
+						<p>Weekly</p>
+					</td>
+					<td
+						style="width: 117pt; border-style: solid solid solid none; border-top: 1pt solid windowtext; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; padding: 0in 5.4pt"
+						valign="top" width="156">
+						<p>Time</p>
+					</td>
+				</tr>
+				<tr>
+					<td
+						style="width: 81.9pt; border-style: none solid solid; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; padding: 0in 5.4pt"
+						valign="top" width="109">
+						<p>Bible Study</p>
+					</td>
+					<td
+						style="width: 58.5pt; border-style: none solid solid none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt"
+						valign="top" width="78">
+						<p>Thursday</p>
+					</td>
+					<td
+						style="width: 117pt; border-style: none solid solid none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt"
+						valign="top" width="156">
+						<p>2:00 pm – 3:30 pm</p>
+					</td>
+				</tr>
+				<tr>
+					<td
+						style="width: 81.9pt; border-style: none solid solid; border-right: 1pt solid windowtext; border-bottom: 1pt solid windowtext; border-left: 1pt solid windowtext; padding: 0in 5.4pt"
+						valign="top" width="109">
+						<p>Bible Study</p>
+					</td>
+					<td
+						style="width: 58.5pt; border-style: none solid solid none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt"
+						valign="top" width="78">
+						<p>Saturday</p>
+					</td>
+					<td
+						style="width: 117pt; border-style: none solid solid none; border-bottom: 1pt solid windowtext; border-right: 1pt solid windowtext; padding: 0in 5.4pt"
+						valign="top" width="156">
+						<p>11:00 am – 12:30 pm</p>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+		<p></p>
+	</section>
+</article>
+<!-- end English -->
+

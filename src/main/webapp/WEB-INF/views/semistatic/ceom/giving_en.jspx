@@ -1,15 +1,29 @@
-	<!-- English -->
-	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
-		<jsp:directive.page contentType="text/html;charset=UTF-8" />
-		<jsp:output omit-xml-declaration="yes"/>
-		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
-			Giving &amp;amp; Support</span>
-		
-		<p>&#160;</p>
-		
-		<section>
-			
-		</section>
-	</article>
-	<!-- end English -->
-	
+
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Giving &amp;amp; Support</span>
+
+	<p>&#160;</p>
+
+	<section>
+		<p>
+			In the United States: 
+			<br />Please write your check to “EMSI”, and mail it to 
+			<br />36 Alpine Rd. 
+			<br />Towaco, N.J. 07082;
+		</p>
+		<p>Overseas: 
+			<br/>Please get in touch with the pastors of local CEMC
+			(Christian Evangelical Mission Church) churches; or with the EMSI
+			headquarters in the States at <a href="mailto:emsi@emsionline.org">emsi@emsionline.org</a>.
+		</p>
+		<p>It is more blessed to give than to receive. (Acts 20:35)</p>
+		<p>May God bless you abundantly for supporting our ministry.</p>
+	</section>
+</article>
+<!-- end English -->
+
