@@ -16,59 +16,13 @@
 	<spring:url value="/images/emsi/" var="imgBase"/>
 	<spring:url value="/images/files/" var="imgBase2"/>
 	
+    <c:set var="details" value="${church.churchDetails}"/>
     
-    <c:choose>
-    	<c:when test="${not empty church.churchDetails[userLocale]}">
-    		<c:set var="details" value="${church.churchDetails[userLocale]}"/>
-    		<c:set var="content" value="${church.churchContent[userLocale]}"/>
-    	</c:when>
-    	<c:otherwise>
-    	    <c:set var="details" value="${church.churchDetails['en']}"/>
-    	    <c:set var="content" value="${church.churchContent['en']}"/>
-    	    
-    	</c:otherwise>
-    
-    </c:choose>
-    
-    <h1>${details.churchName}</h1>
+    <h1>${content.title}</h1>
 	
 	<div id="church-content">
 		${fn:replace(fn:replace(content.body, '/emsi/images/', imgBase), '/emsi/files/', imgBase2)}
 	</div>
 	
-	<!-- 
-    <div id="contactInfo">
-
-        <c:if test="${not empty message}">
-            <div id="message" class="${message.type}">${message.message}</div>
-        </c:if>
-
-        <table>
-            <tr>
-                <td>${labelContactFirstName}</td>
-                <td>${contact.firstName}</td>
-            </tr>
-            <tr>
-                <td>${labelContactLastName}</td>
-                <td>${contact.lastName}</td>
-            </tr>   
-            <tr>
-                <td>${labelContactBirthDate}</td>
-                <td><joda:format value="${contact.birthDate}" pattern="${dateFormatPattern}"/></td>
-            </tr>
-            <tr>
-                <td>${labelContactDescription}</td>
-                <td>${contact.description}</td>
-            </tr>
-            <tr>
-                <td>${labelContactPhoto}</td>
-                <td><img src="${contactPhotoUrl}/${contact.id}"></img></td>
-            </tr>                                                                                                         
-        </table>         
-       
-        <a href="${editContactUrl}/${contact.id}?form">${labelContactUpdate}</a>     
-                      
-    </div> -->
-    
 
 </div>

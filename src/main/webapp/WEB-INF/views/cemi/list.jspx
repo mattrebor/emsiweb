@@ -25,8 +25,8 @@
 				<tbody>
 					<c:forEach items="${churches}" var="church">
 						<tr>
-							<td>${church.churchId}</td>
-							<td><a href="${showPageUrl}/${church.churchId}">${church.churchPath}</a></td>
+							<td>${church.id.churchId}</td>
+							<td><a href="${showPageUrl}/${church.id.churchId}">${church.churchPath}</a></td>
 						</tr>
 					</c:forEach>
 					

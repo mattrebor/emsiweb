@@ -3,6 +3,7 @@ package org.emsionline.emsiweb.domain;
 import java.io.Serializable;
 
 import javax.persistence.Column;
+import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Lob;
@@ -10,47 +11,24 @@ import javax.persistence.Table;
 
 @Entity
 @Table(name = "church_content")
-public class LocalizedChurchContent implements Serializable  {
+public class ChurchContent implements Serializable  {
 
 	
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = 2125664998392363235L;
-	private Long church_id;
-	private String page_id;
-	private String locale;
+	private ChurchContentKey id;
 	private String title;
 	private String body;
 	
-	@Id
-	@Column(name = "church_id")
-	public Long getChurchId() {
-		return church_id;
+	@EmbeddedId 
+	public ChurchContentKey getId() {
+		return id;
 	}
 	
-	public void setChurchId(Long church_id) {
-		this.church_id = church_id;
-	}
-	
-	//@Id
-	@Column(name = "page_id")
-	public String getPageId() {
-		return page_id;
-	}
-	
-	public void setPageId(String page_id) {
-		this.page_id = page_id;
-	}
-	
-	@Id
-	@Column(name = "locale")
-	public String getLocale() {
-		return locale;
-	}
-	
-	public void setLocale(String locale) {
-		this.locale = locale;
+	public void setId(ChurchContentKey id) {
+		this.id = id;
 	}
 	
 	@Column(name = "title")

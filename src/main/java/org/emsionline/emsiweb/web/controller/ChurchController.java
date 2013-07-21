@@ -2,10 +2,21 @@ package org.emsionline.emsiweb.web.controller;
 
 import java.util.List;
 
+import javax.servlet.http.HttpSession;
+
 import org.emsionline.emsiweb.domain.Church;
+import org.emsionline.emsiweb.domain.ChurchContent;
+import org.emsionline.emsiweb.domain.ChurchContentKey;
 import org.emsionline.emsiweb.domain.ChurchOrg;
+import org.emsionline.emsiweb.domain.LocalizedChurch;
+import org.emsionline.emsiweb.domain.LocalizedChurchKey;
+import org.emsionline.emsiweb.domain.LocalizedChurchOrg;
+import org.emsionline.emsiweb.domain.LocalizedChurchOrgKey;
+import org.emsionline.emsiweb.service.ChurchContentService;
 import org.emsionline.emsiweb.service.ChurchOrgService;
 import org.emsionline.emsiweb.service.ChurchService;
+import org.emsionline.emsiweb.service.LocalizedChurchOrgService;
+import org.emsionline.emsiweb.service.LocalizedChurchService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,38 +31,48 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class ChurchController {
 
+	// TODO: Do a lookup instead of hardcoding to id 1
+	public static final int CEMI_CHURCH_ORG_ID = 1;
+	
 	final Logger logger = LoggerFactory.getLogger(ChurchController.class);
 
 	@Autowired
-	private ChurchService churchService;
+	private LocalizedChurchService churchService;
+	
 
 	@Autowired
-	private ChurchOrgService churchOrgService;
+	private ChurchContentService churchContentService;
+
+	
+	@Autowired
+	private LocalizedChurchOrgService churchOrgService;
 
 	@Autowired
 	private MessageSource messageSource;
 
 	@RequestMapping(method = RequestMethod.GET)
-	public String list(Model uiModel) {
+	public String list(HttpSession session, Model uiModel) {
 
-		// TODO: Do a lookup instead of hardcoding to id 1
-		ChurchOrg church_org = churchOrgService.findById(new Long(1));
+		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), "en"));
 		uiModel.addAttribute("church_org", church_org);
 
-		List<Church> churches = churchService.findAll();
-		uiModel.addAttribute("churches", churches);
-		logger.info("No. of page fragments: " + churches.size());
+		//List<LocalizedChurch> churches = churchService.findAll();
+		//uiModel.addAttribute("churches", churches);
+		//logger.info("No. of churches: " + churches.size());
 		return "cemi/list";
 	}
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
 	public String show(@PathVariable("id") Long id, Model uiModel) {
-		// TODO: Do a lookup instead of hardcoding to id 1
-		ChurchOrg church_org = churchOrgService.findById(new Long(1));
+		
+		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), "en"));
 		uiModel.addAttribute("church_org", church_org);
 
-		Church church = churchService.findById(id);
+		LocalizedChurch church = churchService.findById(new LocalizedChurchKey(new Long(id), "en"));
 		uiModel.addAttribute("church", church);
+		
+		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), "en", "intro"));
+		uiModel.addAttribute("content", content);
 
 		return "cemi/show";
 	}

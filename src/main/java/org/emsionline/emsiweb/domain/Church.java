@@ -3,9 +3,12 @@ package org.emsionline.emsiweb.domain;
 import static javax.persistence.GenerationType.IDENTITY;
 
 import java.io.Serializable;
+import java.util.List;
 import java.util.Map;
 
+import javax.persistence.CollectionTable;
 import javax.persistence.Column;
+import javax.persistence.ElementCollection;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -34,8 +37,8 @@ public class Church implements Serializable {
 	private int version;
 	private ChurchOrg church_org;
 	private int sort_order;
-	private Map<String, LocalizedChurchDetails> church_details;
-	private Map<String, LocalizedChurchContent> church_content;
+	private Map<String, ChurchDetail> church_details;
+	private Map<String, ChurchContent> church_content;
 
 	
 	
@@ -93,25 +96,30 @@ public class Church implements Serializable {
 		this.sort_order = sort_order;
 	}
 	
-	@OneToMany
-	@JoinColumn(name = "church_id", referencedColumnName = "church_id")
+
+	@ElementCollection
+	@CollectionTable(
+			name = "church_detail",
+			joinColumns = {@JoinColumn(name = "church_id", referencedColumnName = "church_id")})
 	@MapKey(name = "locale")
-	public Map<String, LocalizedChurchDetails> getChurchDetails() {
+	public Map<String, ChurchDetail> getChurchDetails() {
 		return church_details;
 	}
 	
-	public void setChurchDetails(Map<String, LocalizedChurchDetails> church_details) {
+	public void setChurchDetails(Map<String, ChurchDetail> church_details) {
 		this.church_details = church_details;
 	}
+
 	
+	/*
 	@OneToMany(fetch=FetchType.LAZY)
 	@JoinColumn(name = "church_id", referencedColumnName = "church_id")
-	@MapKey(name = "locale")
+	@MapKey(name = "page_id")
 	public Map<String, LocalizedChurchContent> getChurchContent() {
 		return church_content;
 	}
 	
 	public void setChurchContent(Map<String, LocalizedChurchContent> church_content) {
 		this.church_content = church_content;
-	}	
+	}*/	
 }

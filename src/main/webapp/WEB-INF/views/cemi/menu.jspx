@@ -13,7 +13,7 @@
 	<c:forEach items="${current_org}" var="org">
 
 		<li><input type="checkbox" id="${org.churchOrgPath}" checked="checked"/>
-			<label for="${org.churchOrgPath}">${org.churchOrgDetails[userLocale].churchOrgName}</label>
+			<label for="${org.churchOrgPath}">${org.churchOrgDetails['menu_name'].value}</label>
 
 			<c:choose>
 				<c:when test="${fn:length(org.churchOrgs) > 0}">
@@ -26,7 +26,7 @@
 						<ul>
 							<c:forEach items="${org.churches }" var="church">
 								<!-- <li><a href="${current_path}/${org.churchOrgPath}/${church.churchPath}">${church.churchDetails[userLocale].churchName }</a></li> -->
-								<li><a href="${cemiUrl}/${church.churchId}">${church.churchDetails[userLocale].churchName }</a></li>
+								<li><a href="${cemiUrl}/${church.id.churchId}">${church.churchDetails['menu_name'].value}</a></li> 
 	
 							</c:forEach>
 						</ul>
