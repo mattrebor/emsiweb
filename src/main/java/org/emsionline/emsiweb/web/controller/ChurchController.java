@@ -1,7 +1,9 @@
 package org.emsionline.emsiweb.web.controller;
 
 import java.util.List;
+import java.util.Locale;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 
 import org.emsionline.emsiweb.domain.Church;
@@ -26,6 +28,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.servlet.support.RequestContextUtils;
 
 @RequestMapping("/cemi")
 @Controller
@@ -51,11 +54,13 @@ public class ChurchController {
 	private MessageSource messageSource;
 
 	@RequestMapping(method = RequestMethod.GET)
-	public String list(HttpSession session, Model uiModel) {
+	public String list(HttpServletRequest req, Model uiModel) {
+		
+		Locale locale = RequestContextUtils.getLocale(req);
 
-		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), "en"));
+		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), locale.getLanguage()));
 		uiModel.addAttribute("church_org", church_org);
-
+		
 		//List<LocalizedChurch> churches = churchService.findAll();
 		//uiModel.addAttribute("churches", churches);
 		//logger.info("No. of churches: " + churches.size());
@@ -63,18 +68,21 @@ public class ChurchController {
 	}
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	public String show(@PathVariable("id") Long id, Model uiModel) {
-		
-		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), "en"));
+	public String show(HttpServletRequest req, @PathVariable("id") Long id, Model uiModel) {
+		Locale locale = RequestContextUtils.getLocale(req);
+
+		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), locale.getLanguage()));
 		uiModel.addAttribute("church_org", church_org);
 
-		LocalizedChurch church = churchService.findById(new LocalizedChurchKey(new Long(id), "en"));
+		LocalizedChurch church = churchService.findById(new LocalizedChurchKey(new Long(id), locale.getLanguage()));
 		uiModel.addAttribute("church", church);
 		
-		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), "en", "intro"));
+		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), locale.getLanguage(), "intro"));
 		uiModel.addAttribute("content", content);
 
 		return "cemi/show";
 	}
 
+	
+	
 }
