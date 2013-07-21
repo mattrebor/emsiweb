@@ -5,5 +5,4 @@ import org.springframework.data.repository.PagingAndSortingRepository;
 
 
 public interface ChurchOrgRepository extends PagingAndSortingRepository<ChurchOrg, Long> {
-
 }

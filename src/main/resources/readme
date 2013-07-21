@@ -1,0 +1,1 @@
+perl -pe 's/(src=\\"\/emsi\/files\/[^"]+\\")/lc($1)/ge' emsi-content.sql  > emsi-content2.sql

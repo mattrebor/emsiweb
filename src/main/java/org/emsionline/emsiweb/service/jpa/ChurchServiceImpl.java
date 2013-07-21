@@ -14,8 +14,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import com.google.common.collect.Lists;
 
-@Service("jpaChurchService")
-@Repository
+//@Service("jpaChurchService")
+//@Repository
 @Transactional
 public class ChurchServiceImpl implements ChurchService {
 
