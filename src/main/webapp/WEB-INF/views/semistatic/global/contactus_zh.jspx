@@ -1,0 +1,11 @@
+	<!-- English -->
+	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+		<jsp:directive.page contentType="text/html;charset=UTF-8" />
+		<jsp:output omit-xml-declaration="yes"/>
+		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+			連絡我們</span>
+		<br/><br/>
+		
+<br/>
+			</article>
+	<!-- end English -->

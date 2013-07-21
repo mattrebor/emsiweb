@@ -1,0 +1,25 @@
+	<!-- English -->
+	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+		<jsp:directive.page contentType="text/html;charset=UTF-8" />
+		<jsp:output omit-xml-declaration="yes"/>
+		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+			Donate</span>
+		<br/><br/>
+		
+In the United States:<br/>
+<p>
+Please write your check to “EMSI”, and mail it to 36 Alpine Rd., Towaco, N.J. 07082;
+</p>
+<br/>
+Overseas:<br/>
+<p>
+Please get in touch with the pastors of local CEMC (Christian Evangelical Mission Church) churches; or with the EMSI headquarters in the States at emsi@emsionline.org.
+</p>
+<br/>
+<p>
+It is more blessed to give than to receive. (Acts 20:35) 
+May God bless you abundantly for supporting our ministry.
+</p>
+<br/>
+			</article>
+	<!-- end English -->
