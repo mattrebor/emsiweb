@@ -12,8 +12,9 @@
 	<spring:url value="/cemi" var="showPageUrl" />
 
 
-	<h2>All Churches</h2>
+	<h2>Find A Church</h2>
 	<div>
+	<p>Map of churches goes here</p>
 
 		<c:if test="${not empty churches }">
 
@@ -36,7 +37,9 @@
 
 	</div>
 
+<!-- 
 	<br/><br/>
 	<hr/>
 	<a href="${showPageUrl }?form">Create</a>
+	 -->
 </div>

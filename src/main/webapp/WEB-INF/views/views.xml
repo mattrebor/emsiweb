@@ -2,9 +2,14 @@
 <!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
 <tiles-definitions>
 
-    <definition extends="default" name="home">
+    <definition extends="default" name="home_en">
     	<put-attribute name="menu-content" value="/WEB-INF/views/page-menu.jspx" cascade="true"/>
-        <put-attribute name="body-content" value="/WEB-INF/views/home.jspx" cascade="true" />
+        <put-attribute name="body-content" value="/WEB-INF/views/home_en.jspx" cascade="true" />
+    </definition>
+    
+    <definition extends="default" name="home_zh">
+    	<put-attribute name="menu-content" value="/WEB-INF/views/page-menu.jspx" cascade="true"/>
+        <put-attribute name="body-content" value="/WEB-INF/views/home_zh.jspx" cascade="true" />
     </definition>
     
 
