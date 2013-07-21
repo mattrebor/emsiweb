@@ -43,6 +43,10 @@
 	<spring:url var="cemiUrl" value="/cemi" scope="request"/>
 	<spring:url var="ebiAmericaUrl" value="/ebi/america" scope="request"/>
 	<spring:url var="ceomIntroUrl" value="/ceom/intro" scope="request"/>
+	
+	<spring:url var="contactUsUrl" value="/contactus" scope="request"/>
+	<spring:url var="donateUrl" value="/donate" scope="request"/>
+	
 
 	<!-- <div class="span1">&amp;nbsp;</div>-->
 	<div id="primary-nav-container" class="span6">
@@ -62,9 +66,9 @@
 		<div id="site-nav" class="emsi-navbar pull-right">
 			<ul>
 				<!-- <li class="first"><a href="#">${labelLogin }</a></li> -->
-				<li class="first"><a href="#">${labelContactus}</a></li>
+				<li class="first"><a href="${contactUsUrl}">${labelContactus}</a></li>
 				<li><a href="#">${labelSitemap}</a></li>
-				<li><a href="#">${labelDonate}</a></li>
+				<li><a href="${donateUrl}">${labelDonate}</a></li>
 				<c:choose>
 					<c:when test="${userLocale eq 'zh'}">
 						<li><a id="change-lang-en" href="#">${labelEn}</a></li>

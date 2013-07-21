@@ -1,0 +1,24 @@
+	<!-- English -->
+	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+		<jsp:directive.page contentType="text/html;charset=UTF-8" />
+		<jsp:output omit-xml-declaration="yes"/>
+		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+			捐款</span>
+		<br/><br/>
+		<p>
+		若您願意以金錢來支持我們的宣教事工，上帝會更加倍地賜福與您！施 比 受 更 為 有 福。( 使20:35)
+</p>
+
+在美國地區者：<br/>
+<p>
+支票抬頭請寫EMSI，並請郵寄至36 Alpine Road, Towaco NJ 07082
+</p>
+<br/>
+在海外者：<br/>
+<p>
+請與我們各地的生命堂牧者連絡，<br/>
+或與我們總會連絡，Email請至emsi@emsionline.org
+</p>
+<br/>
+			</article>
+	<!-- end English -->
