@@ -315,5 +315,7 @@ body {
 	
 } /** end mid-width: 1200px **/
 
-
+.emsi-carousel-caption {
+	position: static !important;
+}
 

@@ -6,19 +6,14 @@ import java.util.Locale;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
 
-import org.emsionline.emsiweb.domain.Church;
 import org.emsionline.emsiweb.domain.ChurchContent;
 import org.emsionline.emsiweb.domain.ChurchContentKey;
-import org.emsionline.emsiweb.domain.ChurchOrg;
 import org.emsionline.emsiweb.domain.LocalizedChurch;
 import org.emsionline.emsiweb.domain.LocalizedChurchKey;
 import org.emsionline.emsiweb.domain.LocalizedChurchOrg;
 import org.emsionline.emsiweb.domain.LocalizedChurchOrgKey;
 import org.emsionline.emsiweb.service.ChurchContentService;
-import org.emsionline.emsiweb.service.ChurchOrgService;
-import org.emsionline.emsiweb.service.ChurchService;
 import org.emsionline.emsiweb.service.LocalizedChurchOrgService;
 import org.emsionline.emsiweb.service.LocalizedChurchService;
 import org.slf4j.Logger;
