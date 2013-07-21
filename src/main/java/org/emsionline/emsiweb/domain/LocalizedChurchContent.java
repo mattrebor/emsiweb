@@ -18,6 +18,7 @@ public class LocalizedChurchContent implements Serializable  {
 	 */
 	private static final long serialVersionUID = 2125664998392363235L;
 	private Long church_id;
+	private String page_id;
 	private String locale;
 	private String title;
 	private String body;
@@ -30,6 +31,16 @@ public class LocalizedChurchContent implements Serializable  {
 	
 	public void setChurchId(Long church_id) {
 		this.church_id = church_id;
+	}
+	
+	//@Id
+	@Column(name = "page_id")
+	public String getPageId() {
+		return page_id;
+	}
+	
+	public void setPageId(String page_id) {
+		this.page_id = page_id;
 	}
 	
 	@Id
