@@ -23,7 +23,7 @@
 	<spring:url var="ceomGalleryUrl" value="/ceom/gallery"/>
 	<spring:url var="ceomPrayerNetUrl" value="/ceom/prayernet"/>
 	<spring:url var="ceomGivingUrl" value="/ceom/giving"/>
-	<spring:url var="ceomContactUrl" value="/ceom/contact"/>
+	<spring:url var="ceomContactUrl" value="/ceom/contactus"/>
 	
 	<ul>
 		<li class="selected"><a href="${ceomIntroUrl}">${labelIntro}</a></li>
