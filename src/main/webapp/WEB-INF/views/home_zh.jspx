@@ -1,0 +1,84 @@
+<div id="home" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+
+
+	<spring:url value="/resources/images/home/emsi_zh.jpg" var="banner_image_url1" />
+	<spring:url value="/resources/images/home/ebi_zh.jpg" var="banner_image_url2" />
+	<spring:url value="/resources/images/home/ceom_zh.jpg" var="banner_image_url3" />
+	<spring:url value="/resources/images/home/cemi_zh.jpg" var="banner_image_url4" />
+	
+
+	<div id="myCarousel" class="carousel slide">
+		<ol class="carousel-indicators">
+			<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+		</ol>
+		<!-- carousel items -->
+		<div class="carousel-inner">
+			<div class="active item">
+				
+				<img src="${banner_image_url1}" width="870" height="330" alt="" />
+				<div class="carousel-caption emsi-carousel-caption">
+					<!-- <h4>Place holder 0</h4> -->
+					<p>國際總部設於美國新澤西州多華谷 (36 Alpine Road, Towaco, NJ 07082 USA)。創辦人是楊摩西牧師。它在歐、美、非、亞四大洲都有據點。下設三大機構：國際福音神學院、國際福音佈道會、國際福音差傳會。<br/><br/></p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="${banner_image_url2}"  width="870" height="330" alt="" />
+				<div class="carousel-caption emsi-carousel-caption">
+					<!-- <h4>Place holder 1</h4> -->
+					<p>以培養訓練全時間傳道人為主，也栽培平信徒，助其靈命成長，熱心事主。辦有生命出版社：出版生命之泉月刊、書籍、錄音卡帶等；生命之糧福音廣播中心、中文學校、亞棚聖經研議中心、福音書房、聖地講習團等。<br/><br/></p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="${banner_image_url3}"  width="870" height="330" alt="" />
+				<div class="carousel-caption emsi-carousel-caption">
+					<!-- <h4>Place holder 2</h4> -->
+					<p>主要是拓荒並建立教會，差派宣教士到世界各地傳揚福音。 並不定期舉辦各類的宣教活動。<br/><br/><br/></p>
+				</div>
+			</div>
+			<div class="item">
+				<img src="${banner_image_url4}"  width="870" height="330" alt="" />
+				<div class="carousel-caption emsi-carousel-caption">
+					<!-- <h4>Place holder 2</h4> -->
+					<p>下設美洲福音佈道會、歐洲福音佈道會、非洲福音佈道會、亞洲福音佈道會，主要工作是監管教會、牧養羊群和聯合各生命堂舉辦年度聚會。國際福音佈道會已在美東建立八間生命堂、美西五間、荷蘭 十二間、法國巴黎一間、葡萄牙四間、比利時三間、西班牙八間、意大利二間、匈牙利一間、南非二間、日本二間、台灣一間，總共四十九間教會。</p>
+				</div>
+			</div>			
+		</div>
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">&amp;lsaquo;</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">&amp;rsaquo;</a>
+	</div>
+
+	<script type="text/javascript">
+		<!--$('.carousel').carousel()-->
+	</script>
+
+
+	<div class="row">
+		<div class="span11">
+			<spring:url value="/resources/images/whats_up.png"
+				var="whats_up_image_url" />
+			<img src="${whats_up_image_url }" alt="" width="400" height="60" />
+			
+		
+		</div>
+		<div class="span11">
+			<spring:url value="/resources/images/bookstore.png"
+				var="banner1_img_url" />
+			<img src="${banner1_img_url }" alt="" width="400" height="125" /> <br />
+			<br />
+
+			<spring:url value="/resources/images/gospel_broadcasting.png"
+				var="banner2_img_url" />
+			<img src="${banner2_img_url }" alt="" width="400" height="125" />
+
+		</div>
+	</div>
+</div>

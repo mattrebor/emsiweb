@@ -88,7 +88,7 @@ body {
 
 /**** Logo ****/
 #logo {
-	background-image: url('../images/emsi_logo2.png');
+	background-image: url('../images/emsi_logo3.jpg');
 	background-repeat: no-repeat;
 	background-color: #0f5b69;
 	height: 132px;
@@ -315,5 +315,7 @@ body {
 	
 } /** end mid-width: 1200px **/
 
-
+.emsi-carousel-caption {
+	position: static !important;
+}
 
