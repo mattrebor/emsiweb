@@ -6359,6 +6359,7 @@ button.close {
     width: 7px;
   }
 }
+/*
 @media (min-width: 1200px) {
   .row {
     margin-left: -15px;
@@ -7135,6 +7136,7 @@ button.close {
     padding-right: 10px;
   }
 }
+*/
 @media (min-width: 980px) {
   .nav-collapse.collapse {
     height: auto !important;

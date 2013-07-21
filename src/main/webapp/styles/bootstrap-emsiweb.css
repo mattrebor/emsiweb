@@ -270,7 +270,16 @@ body {
 	border-radius: 0px;
 }
 
-/**** Media specific styles *****/
+
+.emsi-carousel-caption {
+	position: static !important;
+}
+
+/**** 
+ ****
+ **** Media specific styles 
+ ****
+ ****/
 
 @media (max-width: 767px) {
 
@@ -306,6 +315,7 @@ body {
 	
 } /** end min-width: 768px and max-width: 979px **/
 
+/*
 @media (min-width: 1200px) {
 
 
@@ -313,9 +323,6 @@ body {
 	margin-left: -40px !important;
 }	
 	
-} /** end mid-width: 1200px **/
+} */ /** end mid-width: 1200px **/
 
-.emsi-carousel-caption {
-	position: static !important;
-}
 
