@@ -4,6 +4,7 @@ import java.util.List;
 
 import org.emsionline.emsiweb.domain.ChurchContent;
 import org.emsionline.emsiweb.domain.ChurchContentKey;
+import org.emsionline.emsiweb.domain.LocalizedChurch;
 import org.emsionline.emsiweb.repository.ChurchContentRepository;
 import org.emsionline.emsiweb.service.ChurchContentService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,26 +23,31 @@ public class ChurchContentServiceImpl implements ChurchContentService {
 
 	
 	@Autowired
-	private ChurchContentRepository churchRepository;
+	private ChurchContentRepository contentRepository;
 	
 	
 	@Transactional(readOnly = true)
 	public List<ChurchContent> findAll() {
-		return Lists.newArrayList(churchRepository.findAll());
+		return Lists.newArrayList(contentRepository.findAll());
 	}
 
 	@Transactional(readOnly = true)
 	public ChurchContent findById(ChurchContentKey id) {
-		return churchRepository.findOne(id);
+		return contentRepository.findOne(id);
 	}
 
 	public ChurchContent save(ChurchContent church) {
-		return churchRepository.save(church);
+		return contentRepository.save(church);
 	}
 
 	@Transactional(readOnly = true)
 	public Page<ChurchContent> findAllByPage(Pageable pageable) {
-		return churchRepository.findAll(pageable);
+		return contentRepository.findAll(pageable);
 	}
-
+	
+	@Override
+	@Transactional(readOnly = true)
+	public List<ChurchContent> findById_ChurchIdAndId_Locale(Long church_id, String locale) {
+		return contentRepository.findById_ChurchIdAndId_Locale(church_id, locale);
+	}
 }
