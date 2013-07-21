@@ -39,4 +39,6 @@ public class LocalizedChurchServiceImpl implements LocalizedChurchService {
 		return churchRepository.findAll(pageable);
 	}
 
+
+
 }

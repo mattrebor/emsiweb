@@ -1,28 +1,50 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<div xmlns:jsp="http://java.sun.com/JSP/Page" 
-     xmlns:c="http://java.sun.com/jsp/jstl/core"  
-     xmlns:spring="http://www.springframework.org/tags"
-     xmlns:form="http://www.springframework.org/tags/form"
-	 xmlns:fn="http://java.sun.com/jsp/jstl/functions"
-     
-     xmlns:joda="http://www.joda.org/joda/time/tags"
-     version="2.0">
-    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
-    <jsp:output omit-xml-declaration="yes"/>
+<div xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:form="http://www.springframework.org/tags/form"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:joda="http://www.joda.org/joda/time/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
 
-    
-	<spring:url value="/page" var="showPageUrl" />
+
+
+	<spring:url value="/images/emsi/" var="imgBase" />
+	<spring:url value="/images/files/" var="imgBase2" />
+
+	<c:set var="details" value="${church.churchDetails}" />
 	
-	<spring:url value="/images/emsi/" var="imgBase"/>
-	<spring:url value="/images/files/" var="imgBase2"/>
+	<spring:message code="label_cemi_brief_history" var="labelCemiBriefHistory" />
+	<spring:message code="label_cemi_minister_intro" var="labelCemiMinisterIntro" />
+	<spring:message code="Label_cemi_church_schedule" var="labelCemiChurchSchedule" />
+	<spring:message code="label_cemi_contact_us" var="labelCemiContactUs" />
 	
-    <c:set var="details" value="${church.churchDetails}"/>
-    
-    <h1>${content.title}</h1>
-	
+
+
+	<spring:url value="/cemi" var="showPageUrl"/>
+	<ul>
+		<c:if test="${not empty contentMap['intro']}">
+			<li><a href="${showPageUrl}/${contentMap['intro'].id.churchId}/${contentMap['intro'].id.pageId}">${labelCemiBriefHistory}</a></li>
+		</c:if>
+		<c:if test="${not empty contentMap['pastor']}">
+			<li><a href="${showPageUrl}/${contentMap['pastor'].id.churchId}/${contentMap['pastor'].id.pageId}">${labelCemiMinisterIntro}</a></li>
+		</c:if>
+		<c:if test="${not empty contentMap['intro']}">
+			<li><a href="${showPageUrl}/${contentMap['schedule'].id.churchId}/${contentMap['schedule'].id.pageId}">${labelCemiChurchSchedule}</a></li>
+		</c:if>
+		<c:if test="${not empty contentMap['intro']}">
+			<li><a href="${showPageUrl}/${contentMap['contactus'].id.churchId}/${contentMap['contactus'].id.pageId}">${labelCemiContactUs}</a></li>
+		</c:if>
+
+	</ul>
+
+
+	<h1>${content.title}</h1>
+
 	<div id="church-content">
 		${fn:replace(fn:replace(content.body, '/emsi/images/', imgBase), '/emsi/files/', imgBase2)}
 	</div>
-	
+
 
 </div>

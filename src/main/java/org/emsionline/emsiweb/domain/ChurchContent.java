@@ -2,9 +2,11 @@ package org.emsionline.emsiweb.domain;
 
 import java.io.Serializable;
 
+import javax.persistence.Basic;
 import javax.persistence.Column;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.Lob;
 import javax.persistence.Table;
@@ -43,6 +45,7 @@ public class ChurchContent implements Serializable  {
 	
 	@Column(name = "body")
 	@Lob
+	@Basic(fetch=FetchType.LAZY)
 	public String getBody() {
 		return body;
 	}

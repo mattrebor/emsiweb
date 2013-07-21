@@ -1,7 +1,9 @@
 package org.emsionline.emsiweb.web.controller;
 
+import java.util.HashMap;
 import java.util.List;
 import java.util.Locale;
+import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
@@ -68,7 +70,13 @@ public class ChurchController {
 	}
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	public String show(HttpServletRequest req, @PathVariable("id") Long id, Model uiModel) {
+	public String showDefault(HttpServletRequest req, @PathVariable("id") Long id, Model uiModel) {
+		return show(req, id, "intro", uiModel);
+	
+	}
+	
+	@RequestMapping(value = "/{id}/{page_id}", method = RequestMethod.GET)
+	public String show(HttpServletRequest req, @PathVariable("id") Long id, @PathVariable("page_id") String page_id, Model uiModel) {
 		Locale locale = RequestContextUtils.getLocale(req);
 
 		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), locale.getLanguage()));
@@ -77,9 +85,23 @@ public class ChurchController {
 		LocalizedChurch church = churchService.findById(new LocalizedChurchKey(new Long(id), locale.getLanguage()));
 		uiModel.addAttribute("church", church);
 		
-		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), locale.getLanguage(), "intro"));
+		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), locale.getLanguage(), page_id));
 		uiModel.addAttribute("content", content);
 
+		
+		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(new Long(id), locale.getLanguage());
+		//uiModel.addAttribute("contentList", contentList);
+		Map<String, ChurchContent> contentMap = new HashMap<String, ChurchContent>();
+
+		for (ChurchContent c : contentList) {
+			contentMap.put(c.getId().getPageId(), c);
+			//logger.info("|" + c.getId().getPageId() + "| " + c.getTitle());
+		}
+		uiModel.addAttribute("contentMap", contentMap);
+
+		
+		
+		
 		return "cemi/show";
 	}
 

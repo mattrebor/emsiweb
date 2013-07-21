@@ -12,6 +12,6 @@ public interface LocalizedChurchService {
 	public List<LocalizedChurch> findAll();
 	
 	public LocalizedChurch findById(LocalizedChurchKey id);
-	
+		
 	public Page<LocalizedChurch> findAllByPage(Pageable pageable);
 }
