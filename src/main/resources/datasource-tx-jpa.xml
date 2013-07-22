@@ -14,8 +14,9 @@
 	<jdbc:embedded-database id="dataSource" type="H2">
 		<jdbc:script location="classpath:schema.sql" />
 		<jdbc:script location="classpath:reference_data.sql" encoding="UTF-8" />
-		<jdbc:script location="classpath:church2.sql" encoding="UTF-8" /> 
-		<jdbc:script location="classpath:emsi-content3.sql" encoding="UTF-8" />
+		<!-- <jdbc:script location="classpath:church2.sql" encoding="UTF-8" />-->
+		<jdbc:script location="classpath:emsi-church-content2.sql" encoding="UTF-8" />
+		<!-- <jdbc:script location="classpath:emsi-content3.sql" encoding="UTF-8" /> -->
 		
 	</jdbc:embedded-database>
 	
@@ -27,6 +28,7 @@
 	
 	<bean id="emf"
 		class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+		<property name="persistenceUnitName" value="emsiweb-pu"/>
 		<property name="dataSource" ref="dataSource" />
 		<property name="jpaVendorAdapter">
 			<bean class="org.springframework.orm.jpa.vendor.EclipseLinkJpaVendorAdapter" >
@@ -34,12 +36,11 @@
 			</bean>
 		</property>
 		<property name="packagesToScan" value="org.emsionline.emsiweb.domain" />
-		<!-- 
+		 <!-- 
 		<property name="loadTimeWeaver">
   			<bean class="org.springframework.instrument.classloading.InstrumentationLoadTimeWeaver"/>
 		</property>
 		 -->
-		
 		<property name="jpaProperties">
 			<props>
 				<prop key="eclipselink.weaving">false</prop>

@@ -27,8 +27,8 @@
 		<c:if test="${not empty contentMap['intro']}">
 			<li><a href="${showPageUrl}/${contentMap['intro'].id.churchId}/${contentMap['intro'].id.pageId}">${labelCemiBriefHistory}</a></li>
 		</c:if>
-		<c:if test="${not empty contentMap['pastor']}">
-			<li><a href="${showPageUrl}/${contentMap['pastor'].id.churchId}/${contentMap['pastor'].id.pageId}">${labelCemiMinisterIntro}</a></li>
+		<c:if test="${not empty contentMap['minister']}">
+			<li><a href="${showPageUrl}/${contentMap['minister'].id.churchId}/${contentMap['minister'].id.pageId}">${labelCemiMinisterIntro}</a></li>
 		</c:if>
 		<c:if test="${not empty contentMap['intro']}">
 			<li><a href="${showPageUrl}/${contentMap['schedule'].id.churchId}/${contentMap['schedule'].id.pageId}">${labelCemiChurchSchedule}</a></li>
