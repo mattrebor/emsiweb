@@ -186,6 +186,45 @@ body {
 }
 
 
+/**** CEMI interior page bav ****/
+
+#cemi-interior-page-nav {
+	111margin-left: 20px;
+	background-color: #0f5b69;
+}
+
+#cemi-interior-page-nav ul {
+	border-top: 4px solid #cd8e14;
+	border-left: 4px solid #0f5b69;
+	border-right: 4px solid #0f5b69;
+	
+}
+
+#cemi-interior-page-nav li {
+	padding-top: 2px;
+	padding-bottom: 1px;
+	min-height: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-left: 1px solid #cd8e14;
+	
+}
+
+#cemi-interior-page-nav li.selected {
+	background-color: #ffffff;
+	
+
+}
+
+#cemi-interior-page-nav li a {
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+#cemi-interior-page-nav li.selected a {
+	color: #0f5b69;
+}
+
 /**** Footer ****/
 .footer-frame {
 	margin: 0px 0px;

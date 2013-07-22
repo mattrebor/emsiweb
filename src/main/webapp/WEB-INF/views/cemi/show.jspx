@@ -20,27 +20,33 @@
 	<spring:message code="Label_cemi_church_schedule" var="labelCemiChurchSchedule" />
 	<spring:message code="label_cemi_contact_us" var="labelCemiContactUs" />
 	
+	<br/>
+	<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">Christian Evangelical Mission International (CEMI)</span>
+
+	<h4>${content.title}</h4>
 
 
 	<spring:url value="/cemi" var="showPageUrl"/>
-	<ul>
-		<c:if test="${not empty contentMap['intro']}">
-			<li><a href="${showPageUrl}/${contentMap['intro'].id.churchId}/${contentMap['intro'].id.pageId}">${labelCemiBriefHistory}</a></li>
-		</c:if>
-		<c:if test="${not empty contentMap['minister']}">
-			<li><a href="${showPageUrl}/${contentMap['minister'].id.churchId}/${contentMap['minister'].id.pageId}">${labelCemiMinisterIntro}</a></li>
-		</c:if>
-		<c:if test="${not empty contentMap['intro']}">
-			<li><a href="${showPageUrl}/${contentMap['schedule'].id.churchId}/${contentMap['schedule'].id.pageId}">${labelCemiChurchSchedule}</a></li>
-		</c:if>
-		<c:if test="${not empty contentMap['intro']}">
-			<li><a href="${showPageUrl}/${contentMap['contactus'].id.churchId}/${contentMap['contactus'].id.pageId}">${labelCemiContactUs}</a></li>
-		</c:if>
+	<div id="cemi-interior-page-nav" class="emsi-navbar">
+		<ul>
+			<c:if test="${not empty contentMap['intro']}">
+				<li><a href="${showPageUrl}/${contentMap['intro'].id.churchId}/${contentMap['intro'].id.pageId}">${labelCemiBriefHistory}</a></li>
+			</c:if>
+			<c:if test="${not empty contentMap['minister']}">
+				<li><a href="${showPageUrl}/${contentMap['minister'].id.churchId}/${contentMap['minister'].id.pageId}">${labelCemiMinisterIntro}</a></li>
+			</c:if>
+			<c:if test="${not empty contentMap['schedule']}">
+				<li><a href="${showPageUrl}/${contentMap['schedule'].id.churchId}/${contentMap['schedule'].id.pageId}">${labelCemiChurchSchedule}</a></li>
+			</c:if>
+			<c:if test="${not empty contentMap['contactus']}">
+				<li><a href="${showPageUrl}/${contentMap['contactus'].id.churchId}/${contentMap['contactus'].id.pageId}">${labelCemiContactUs}</a></li>
+			</c:if>
+	
+		</ul>
+	</div>
 
-	</ul>
-
-
-	<h2>${content.title}</h2>
+	<br/><br/>
+	
 
 	<div id="church-content">
 		${fn:replace(fn:replace(content.body, '/emsi/images/', imgBase), '/emsi/files/', imgBase2)}

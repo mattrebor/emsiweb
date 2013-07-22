@@ -26,6 +26,27 @@ var App = function() {
 		});
 	};
 	
+	// Setup selected class on left nav.
+	// Will add the 'selected' class to the <li> element if the child <a> href attribute matches current path.
+	var _setupCemiInterioNavSelectedItem = function() {
+		var win_pathname = window.location.pathname;
+				
+		var pattern = /\/(\d+)$/;
+		if (pattern.test(win_pathname)) {
+			win_pathname = win_pathname + "/intro";
+		}
+		
+		
+		$('#cemi-interior-page-nav li a').each(function (index) {
+			var $this = $(this);
+			$this.parent().removeClass('selected'); // first initialize all to unselected.
+			var href = $this.attr('href');
+			if (_startsWith(win_pathname, href)) { // see if this href matches the browser's current path
+				$this.parent().addClass('selected');
+			}
+		});
+	};
+	
 	// initialize the change-lang-?? link
 	var _setupChangeLangLink = function() {
 		$('#change-lang-zh').click(function(evt) {
@@ -67,6 +88,7 @@ var App = function() {
 	return {
 		init: function (initObj) {
 			_setupLeftNavSelectedItem();
+			_setupCemiInterioNavSelectedItem();
 			_setupChangeLangLink();
 			_setupLogoClick(initObj);
 		}
