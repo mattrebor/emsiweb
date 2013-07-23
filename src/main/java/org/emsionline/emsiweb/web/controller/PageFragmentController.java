@@ -1,7 +1,5 @@
 package org.emsionline.emsiweb.web.controller;
 
-import java.io.IOException;
-import java.io.InputStream;
 import java.util.List;
 import java.util.Locale;
 
@@ -9,16 +7,12 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.Part;
 import javax.validation.Valid;
 
-import org.apache.commons.io.IOUtils;
 import org.emsionline.emsiweb.domain.PageFragment;
 import org.emsionline.emsiweb.service.PageFragmentService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
-import org.springframework.data.domain.Page;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
@@ -26,14 +20,11 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
-import com.google.common.collect.Lists;
-
-import com.rt.ch17.web.form.ContactGrid;
-import com.rt.ch17.web.form.Message;
-import com.rt.ch17.web.util.UrlUtil;
+//import com.rt.ch17.web.form.ContactGrid;
+//import com.rt.ch17.web.form.Message;
+//import com.rt.ch17.web.util.UrlUtil;
 
 @RequestMapping("/page")
 @Controller
@@ -73,7 +64,7 @@ public class PageFragmentController {
 		logger.info("Updating page fragment");
 		
 		if (bindingResult.hasErrors()) {
-			uiModel.addAttribute("message", new Message("error", messageSource.getMessage("contact_save_fail", new Object[]{}, locale)));
+//			uiModel.addAttribute("message", new Message("error", messageSource.getMessage("contact_save_fail", new Object[]{}, locale)));
 			uiModel.addAttribute("contact", pageFragment);
 			
 			return "pages/update";
@@ -81,7 +72,7 @@ public class PageFragmentController {
 		
 		uiModel.asMap().clear();
 		
-		redirectAttrs.addFlashAttribute("message", new Message("success", messageSource.getMessage("contact_save_success", new Object[]{}, locale)));
+//		redirectAttrs.addFlashAttribute("message", new Message("success", messageSource.getMessage("contact_save_success", new Object[]{}, locale)));
 		
 		logger.info("Page Fragment id: " + pageFragment.getPageFragmentId());
 		
@@ -112,7 +103,7 @@ public class PageFragmentController {
 		
 		pageFragmentService.save(pageFragment);
 		
-		return "redirect:/page/" + UrlUtil.encodeUrlPathSegment(pageFragment.getPageFragmentId().toString(), req);
+		return "redirect:/page/" /*+ UrlUtil.encodeUrlPathSegment(pageFragment.getPageFragmentId().toString(), req)*/;
 		
 	}
 	
@@ -132,7 +123,7 @@ public class PageFragmentController {
 		logger.info("Creating contact");
 		
 		if (bindingResult.hasErrors()) {
-			uiModel.addAttribute("message", new Message("error", messageSource.getMessage("contact_save_fail", new Object[]{}, locale)));
+//			uiModel.addAttribute("message", new Message("error", messageSource.getMessage("contact_save_fail", new Object[]{}, locale)));
 			uiModel.addAttribute("contact", pageFragment);
 			
 			return "pages/create";
@@ -140,7 +131,7 @@ public class PageFragmentController {
 		
 		uiModel.asMap().clear();
 		
-		redirectAttrs.addFlashAttribute("message", new Message("success", messageSource.getMessage("contact_save_success", new Object[]{}, locale)));
+//		redirectAttrs.addFlashAttribute("message", new Message("success", messageSource.getMessage("contact_save_success", new Object[]{}, locale)));
 		
 		logger.info("Page Fragment id: " + pageFragment.getPageFragmentId());
 		/*
@@ -170,7 +161,7 @@ public class PageFragmentController {
 		pageFragmentService.save(pageFragment);
 		
 	
-		return "redirect:/page/" + UrlUtil.encodeUrlPathSegment(pageFragment.getPageFragmentId().toString(), req);
+		return "redirect:/page/" /*+ UrlUtil.encodeUrlPathSegment(pageFragment.getPageFragmentId().toString(), req)*/;
 		
 	}	
 	

@@ -6,8 +6,6 @@ import static org.junit.Assert.assertNotNull;
 import java.util.List;
 import java.util.Map;
 
-import org.emsionline.emsiweb.domain.Church;
-import org.emsionline.emsiweb.domain.ChurchOrg;
 import org.emsionline.emsiweb.domain.ChurchOrgDetail;
 import org.emsionline.emsiweb.domain.LocalizedChurch;
 import org.emsionline.emsiweb.domain.LocalizedChurchOrg;

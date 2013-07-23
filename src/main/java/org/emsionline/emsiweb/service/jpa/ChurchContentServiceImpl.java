@@ -4,7 +4,6 @@ import java.util.List;
 
 import org.emsionline.emsiweb.domain.ChurchContent;
 import org.emsionline.emsiweb.domain.ChurchContentKey;
-import org.emsionline.emsiweb.domain.LocalizedChurch;
 import org.emsionline.emsiweb.repository.ChurchContentRepository;
 import org.emsionline.emsiweb.service.ChurchContentService;
 import org.springframework.beans.factory.annotation.Autowired;

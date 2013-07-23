@@ -4,8 +4,6 @@ import static javax.persistence.GenerationType.IDENTITY;
 
 import java.io.Serializable;
 import java.util.List;
-import java.util.Map;
-import java.util.Set;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -15,7 +13,6 @@ import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
-import javax.persistence.MapKey;
 import javax.persistence.OneToMany;
 import javax.persistence.OrderBy;
 import javax.persistence.Table;
@@ -37,7 +34,7 @@ public class ChurchOrg implements Serializable {
 	private List<ChurchOrg> church_orgs;
 	private List<Church> churches;
 	private int sort_order;
-	private Map<String, ChurchOrgDetail> church_org_details;
+	//private Map<String, ChurchOrgDetail> church_org_details;
 	
 
 	
