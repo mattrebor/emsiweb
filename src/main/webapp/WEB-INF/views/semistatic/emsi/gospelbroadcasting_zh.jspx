@@ -1,0 +1,37 @@
+	<!-- English -->
+	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+		<jsp:directive.page contentType="text/html;charset=UTF-8" />
+		<jsp:output omit-xml-declaration="yes"/>
+		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+			Gospel Broadcasting Ministry</span>
+		
+		<section>
+
+		<h1 style="font-size: 1.5em">Gospel Broadcasting</h1>
+
+<p>
+The Gospel Broadcasting Ministry started in August of 1996. The recording room was set up after the officiating ceremony led by Rev. Moses Yang, Dr. Ben Armstrong and Mr. Henry Wu. Thank the Lord for His bountiful grace and may the Lord continue to help us and give us wisdom to use this tool effectively in crossing time and space for the furtherance of the Gospel.
+</p>
+<p>
+a. Bible Study Series
+</p>
+<p>
+In 1996, EMSI started its recording studio and produced the following audio tapes and discs. They are Genesis, Joshua, Judges, I and II Samuel, II Kings, I and II Corinthians, Romans, Revelation, Exodus, Ephesians, I and II Thessalonians; Acts, Daniel, Deuteronomy, Signs of the Times, and Sunday sermons by Rev. Moses Yang. There are more than 20 sets and these are mainly sermons, Bible studies, and Bible expositions led by Rev. Yang.
+</p>
+<p>
+b. Gospel Hymns: It includes:
+</p>
+<p>
+YAHWEH Thou Art My God cassette tape and CD, My Tribute cassette tape and CD (EBI Choir), Morning Prayer cassette tape and CD, Worship Our Lord cassette tape and CD, Day by Day with Each Passing Moment CD, and Songs of Life CD (Volume 1-2).
+</p>
+<p>
+c. Periodical
+</p>
+<p>
+We produce the monthly "Bread of Life" Broadcasting CD. This is a forty-five minute program, consisting of a main topic with correlated songs. This is to help believers in their spiritual growth.
+For a list of available Gospel Broadcasting CDs, please <a href="javascript:alert('goes to bookstore')">click here</a>.
+</p>
+		</section>
+	</article>
+	<!-- end English -->
+	
