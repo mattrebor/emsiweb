@@ -30,10 +30,6 @@
 		<li><a href="${ceomChurchesUrl}">${labelMissionChurches}</a></li>
 		<li><a href="${ceomMinistriesUrl}">${labelMissionMinistries}</a></li>
 		<li><a href="${ceomActivitiesUrl}">${labelMissionActivities}</a></li>
-		<li><a href="${ceomGalleryUrl}">${labelPictureGallery}</a></li>
-		<li><a href="${ceomPrayerNetUrl}">${labelPrayerNet}</a></li>
-		<li><a href="${ceomGivingUrl}">${labelGivingSupport}</a></li>
-		<li><a href="${ceomContactUrl}">${labelContactUs}</a></li>
 	</ul>
 	<!-- end ceom/left-nav -->
 </div>
