@@ -17,18 +17,22 @@
 		var="labelTestBreadOfLife" />
 	<spring:message code="label_test_life_publishing_house"
 		var="labelTestLifePubHouse" />
+	<spring:message code="label_gospel_broadcasting_ministry"
+		var="labelGospelBroadcastingMinistry" />
+	
 	
 	<spring:url var="stmtfaith" value="/emsi/stmtfaith"/>
 	
 	<spring:url var="lifePubUrl" value="/emsi/lifepubhouse"/>
-
+	
+	<spring:url var="gospelBroadcastingUrl" value="/emsi/gospelbroadcasting"/>
+	
 	<ul>
 		<li class="selected"><a href="${emsiUrl}">${labelTestIntro}</a></li><!-- ${emsiUrl} defined in header.jspx -->
 		<li><a href="${stmtfaith}">${labelTestStatement}</a></li>
 		<li><a href="#">${labelTestMinistryCal}</a></li>
-		<li><a href="#">${labelTestSpringOfLife}</a></li>
-		<li><a href="#">${labelTestBreadOfLife}</a></li>
 		<li><a href="${lifePubUrl}">${labelTestLifePubHouse}</a></li>
+		<li><a href="${gospelBroadcastingUrl}">${labelGospelBroadcastingMinistry}</a></li>
 	</ul>
 	<!-- end emsi/left-nav -->
 </div>
