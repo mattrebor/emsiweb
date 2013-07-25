@@ -1,0 +1,39 @@
+<div id="page-nav" class="emsi-navbar-vertical"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<!--  global/left-nav -->
+
+
+&amp;nbsp;
+<!-- 
+	<spring:message code="label_test_intro" var="labelTestIntro" />
+	<spring:message code="label_test_statement" var="labelTestStatement" />
+	<spring:message code="label_test_ministry_cal"
+		var="labelTestMinistryCal" />
+	<spring:message code="label_test_spring_of_life"
+		var="labelTestSpringOfLife" />
+	<spring:message code="label_test_bread_of_life"
+		var="labelTestBreadOfLife" />
+	<spring:message code="label_test_life_publishing_house"
+		var="labelTestLifePubHouse" />
+	
+	<spring:url var="stmtfaith" value="/emsi/stmtfaith"/>
+	
+	<spring:url var="lifePubUrl" value="/emsi/lifepubhouse"/>
+	 -->
+<!-- 
+	<ul>
+		<li class="selected"><a href="${emsiUrl}">${labelTestIntro}</a></li>
+		<li><a href="${stmtfaith}">${labelTestStatement}</a></li>
+		<li><a href="#">${labelTestMinistryCal}</a></li>
+		<li><a href="#">${labelTestSpringOfLife}</a></li>
+		<li><a href="#">${labelTestBreadOfLife}</a></li>
+		<li><a href="${lifePubUrl}">${labelTestLifePubHouse}</a></li>
+	</ul>
+	 -->
+	<!-- end emsi/left-nav -->
+</div>

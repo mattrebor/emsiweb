@@ -314,6 +314,14 @@ body {
 	position: static !important;
 }
 
+.content2 {
+	padding-bottom: 20px;
+}
+
+article {
+	padding-bottom: 20px;
+}
+
 /**** 
  ****
  **** Media specific styles 

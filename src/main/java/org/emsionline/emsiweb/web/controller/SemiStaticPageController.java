@@ -32,7 +32,7 @@ public class SemiStaticPageController {
 		return "redirect:/ceom/intro";
 	}
 	
-	@RequestMapping({"/emsi/*", "/ebi/*", "/ceom/*"})
+	@RequestMapping({"/emsi/*", "/ebi/*", "/ceom/*", "/news/*"})
 	public String serveSemiStaticContent(
 			Model model
 			, HttpServletRequest request
