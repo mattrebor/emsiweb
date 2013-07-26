@@ -15,6 +15,7 @@ import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
+import javax.persistence.ManyToOne;
 import javax.persistence.MapKey;
 import javax.persistence.OneToMany;
 import javax.persistence.OrderBy;
@@ -39,7 +40,8 @@ public class LocalizedChurchOrg implements Serializable {
 	private List<LocalizedChurch> churches;
 	private int sort_order;
 	private Map<String, ChurchOrgDetail> church_org_details;
-	
+	private LocalizedChurchOrg parentOrg;
+
 
 	
 	
@@ -124,6 +126,20 @@ public class LocalizedChurchOrg implements Serializable {
 	public void setChurches(List<LocalizedChurch> churches) {
 		this.churches = churches;
 	}
+	
+	
+	@ManyToOne(cascade=CascadeType.ALL, fetch=FetchType.LAZY, optional=true)
+	@JoinTable(name = "localized_church_hierarchy", 
+		inverseJoinColumns = { @JoinColumn(name="parent_entity_id", referencedColumnName = "church_org_id"),
+            @JoinColumn(name = "locale", referencedColumnName = "locale")}
+	)
+	public LocalizedChurchOrg getParentOrg() {
+		return parentOrg;
+	}
+	
+	public void setParentOrg(LocalizedChurchOrg parentOrg) {
+		this.parentOrg = parentOrg;
+	}	
 	
 
 	@Override

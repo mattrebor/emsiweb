@@ -2,6 +2,7 @@ package org.emsionline.emsiweb.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 
 import java.util.List;
 import java.util.Map;
@@ -18,6 +19,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.transaction.annotation.Transactional;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(locations = { "/test-root-context.xml" })
@@ -184,4 +186,29 @@ public class ChurchOrgServiceTest {
 			}
 		}
 	}
+	
+	@Test
+	public void testRetrieveParent() throws Exception {
+		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(4), "en"));
+		
+		assertNotNull(church_org);
+		
+		assertEquals("america-west", church_org.getChurchOrgPath());
+				
+		LocalizedChurchOrg parent = church_org.getParentOrg();
+		assertNotNull(parent);
+		
+		assertEquals("america", parent.getChurchOrgPath());
+		
+		LocalizedChurchOrg grandParent = parent.getParentOrg();
+		assertNotNull(grandParent);
+		
+		System.out.println("===" + grandParent.getChurchOrgPath());
+		assertEquals("cemi", grandParent.getChurchOrgPath());	
+		
+		assertNull(grandParent.getParentOrg());
+		
+	
+
+	}	
 }
