@@ -34,6 +34,9 @@ public class LocalizedChurch implements Serializable {
 	private String church_path;
 	private int sortOrder;
 	private int version;
+	private String address;
+	private double latitude;
+	private double longitude;
 	
 	
 	Map<String, ChurchDetail> church_details;
@@ -103,7 +106,36 @@ public class LocalizedChurch implements Serializable {
 	public void setParentOrg(LocalizedChurchOrg parentOrg) {
 		this.parentOrg = parentOrg;
 	}		
+	
+	@Column(name="address")
+	public String getAddress() {
+		return address;
+	}
+	
+	public void setAddress(String address) {
+		this.address = address;
+	}	
 
+	@Column(name="latitude")
+	public double getLatitude() {
+		return latitude;
+	}
+	
+	public void setLatitude(double latitude) {
+		this.latitude = latitude;
+	}
+	
+	@Column(name="longitude")
+	public double getLongitude() {
+		return longitude;
+	}
+	
+	public void setLongitude(double longitude) {
+		this.longitude = longitude;
+	}
+	
+	
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;

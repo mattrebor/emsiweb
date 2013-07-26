@@ -29,6 +29,45 @@ body {
 	margin-right: 20px;
 }
 
+#cemi-map-canvas {
+    margin: 0;
+    padding: 0;	
+	width: 100%;
+	height: 500px;
+}
+
+#cemi-map-canvas img {
+	max-width: none;
+}
+
+.cluster{
+  			color: #FFFFFF;
+  			text-align:center;
+  			font-family: 'Arial, Helvetica';
+  			font-size:11px;
+  			font-weight:bold;
+}
+
+.cluster-1{
+        background-image:url(../images/m1.png);
+        line-height:53px;
+  			width: 53px;
+  			height: 52px;
+}
+
+.cluster-2{
+        background-image:url(../images/m2.png);
+        line-height:53px;
+  			width: 56px;
+  			height: 55px;
+}
+
+.cluster-3{
+        background-image:url(../images/m3.png);
+        line-height:66px;
+  			width: 66px;
+  			height: 65px;
+}
 
 /**** Primary Nav ****/
 

@@ -66,11 +66,9 @@ public class ChurchController {
 		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), locale.getLanguage()));
 		uiModel.addAttribute("church_org", church_org);
 		
-		
-		
-		//List<LocalizedChurch> churches = churchService.findAll();
-		//uiModel.addAttribute("churches", churches);
-		//logger.info("No. of churches: " + churches.size());
+		List<LocalizedChurch> all_churches = churchService.findAllByLocale(locale.getLanguage());
+		uiModel.addAttribute("allChurches", all_churches);
+
 		return "cemi/list";
 	}
 
