@@ -6,12 +6,16 @@ import java.util.Map;
 
 import javax.persistence.Access;
 import javax.persistence.AccessType;
+import javax.persistence.CascadeType;
 import javax.persistence.CollectionTable;
 import javax.persistence.Column;
 import javax.persistence.ElementCollection;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToOne;
 import javax.persistence.MapKey;
 import javax.persistence.Table;
 import javax.persistence.Version;
@@ -33,6 +37,7 @@ public class LocalizedChurch implements Serializable {
 	
 	
 	Map<String, ChurchDetail> church_details;
+	private LocalizedChurchOrg parentOrg;
 		
 	
 	@EmbeddedId 
@@ -85,6 +90,19 @@ public class LocalizedChurch implements Serializable {
 	public void setChurchDetails(Map<String, ChurchDetail> church_details) {
 		this.church_details = church_details;
 	}
+	
+	@ManyToOne(cascade=CascadeType.ALL, fetch=FetchType.LAZY, optional=true)
+	@JoinTable(name = "localized_church_hierarchy", 
+		inverseJoinColumns = { @JoinColumn(name="parent_entity_id", referencedColumnName = "church_org_id"),
+            @JoinColumn(name = "locale", referencedColumnName = "locale")}
+	)
+	public LocalizedChurchOrg getParentOrg() {
+		return parentOrg;
+	}
+	
+	public void setParentOrg(LocalizedChurchOrg parentOrg) {
+		this.parentOrg = parentOrg;
+	}		
 
 	@Override
 	public int hashCode() {

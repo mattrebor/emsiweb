@@ -1,0 +1,30 @@
+<div id="news-item" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		EMSI 45th Anniversary</span> 
+		<br /> <br /> EMSI 45th Anniversary
+	Thanksgiving Service will be held on Aug.11, Sunday, in the Christian
+	Evangelical Mission Church in Towaco. Three hundred pastors and church
+	members of CEC’s in eleven countries over four continents will join the
+	congregation of eight CEC’s in the East Coast to attend the service. It
+	will be followed by a love feast under the pavilion afterwards. <br />
+	<br />
+
+	<spring:url value="/resources/images/announcements/45th-anniversary_en.jpg" var="anniversaryUrl" />
+	
+	<img src="${anniversaryUrl}"/>
+
+
+</article>
+<!-- end English -->
+</div>

@@ -2,9 +2,13 @@ package org.emsionline.emsiweb.service;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNull;
 
 import org.emsionline.emsiweb.domain.Church;
 import org.emsionline.emsiweb.domain.ChurchOrg;
+import org.emsionline.emsiweb.domain.LocalizedChurch;
+import org.emsionline.emsiweb.domain.LocalizedChurchKey;
+import org.emsionline.emsiweb.domain.LocalizedChurchOrg;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -23,6 +27,9 @@ public class ChurchServiceTest {
 	
 	@Autowired
 	private ChurchService churchService;
+	
+	@Autowired
+	private LocalizedChurchService lChurchService;
 
 	@Ignore
 	@Test
@@ -87,6 +94,29 @@ public class ChurchServiceTest {
 		//assertEquals("rotterdam", church.getChurchPath());
 		 
 		 */
+	}
+	
+	@Test
+	public void testParent() {
+		LocalizedChurch church = lChurchService.findById(new LocalizedChurchKey(new Long(8), "en"));
+		
+		System.out.println(church.getChurchPath());
+		assertNotNull(church);	
+		assertEquals("towaco", church.getChurchPath());
+		
+		LocalizedChurchOrg parentOrg = church.getParentOrg();
+		assertNotNull(parentOrg);
+		assertEquals("america-east", parentOrg.getChurchOrgPath());
+		
+		LocalizedChurchOrg grandParent = parentOrg.getParentOrg();
+		assertNotNull(grandParent);
+		
+		assertEquals("america", grandParent.getChurchOrgPath());
+		
+		LocalizedChurchOrg greatGrandParent = grandParent.getParentOrg();
+		assertEquals("cemi", greatGrandParent.getChurchOrgPath());
+		
+		assertNull(greatGrandParent.getParentOrg());				
 	}
 
 }
