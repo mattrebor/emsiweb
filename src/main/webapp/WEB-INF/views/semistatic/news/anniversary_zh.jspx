@@ -10,7 +10,7 @@
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
 	<span
-		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">aaa</span>
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">四十五週年慶典</span>
 		<br/><br/>
 		國際神學福音佈道會慶祝四十五週年感恩崇拜將於八月十一日上午十時半假多華谷基督教生命堂舉行。屆時全球四大洲、十一個國家、各地基督教生命堂三百位牧者及信徒代表將前來與美東各地八間生命堂信徒一同參加慶典。感恩崇拜後將在多華谷基督教生命堂禮堂後面涼棚下共享愛宴。 <br />
 	<br />
