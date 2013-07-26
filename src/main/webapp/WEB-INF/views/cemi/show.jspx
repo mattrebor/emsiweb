@@ -52,5 +52,6 @@
 		${fn:replace(fn:replace(content.body, '/emsi/images/', imgBase), '/emsi/files/', imgBase2)}
 	</div>
 
+	<br/><br/>
 
 </div>
