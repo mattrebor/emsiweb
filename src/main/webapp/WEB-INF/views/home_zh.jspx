@@ -57,7 +57,7 @@
 	</div>
 
 	<script type="text/javascript">
-		<!--$('.carousel').carousel()-->
+		$('.carousel').carousel();
 	</script>
 
 
@@ -70,15 +70,17 @@
 		
 		</div>
 		<div class="span11">
-			<spring:url value="/resources/images/bookstore.png"
+			<spring:url value="/resources/images/home/anniversary_zh.jpg"
 				var="banner1_img_url" />
-			<img src="${banner1_img_url }" alt="" width="400" height="125" /> <br />
+			<spring:url value="/news/anniversary" var="banner1_url"/>
+			<a href="${banner1_url}"><img src="${banner1_img_url}" alt="" width="450" height="125" /></a> <br />
 			<br />
 
-			<spring:url value="/resources/images/gospel_broadcasting.png"
+			<spring:url value="/resources/images/home/bookstore_zh.jpg"
 				var="banner2_img_url" />
-			<img src="${banner2_img_url }" alt="" width="400" height="125" />
-
+			<spring:url value="/emsi/bookstore" var="banner2_url"/>
+				
+			<a href="${banner2_url}"><img src="${banner2_img_url}" alt="" width="450" height="125" /></a>
 		</div>
 	</div>
 </div>
