@@ -271,10 +271,13 @@ body {
 	
 }
 
+#cemi-interior-page-nav li.disabled {
+	color: #cccccc;
+	background-color: #999999;
+}
+
 #cemi-interior-page-nav li.selected {
 	background-color: #ffffff;
-	
-
 }
 
 #cemi-interior-page-nav li a {
