@@ -54,7 +54,7 @@
 	<div id="primary-nav-container" class="span6">
 		<div id="primary-nav" class="emsi-navbar">
 			<ul>
-				<li class="selected"><a href="${emsiUrl}">${labelNavEmsi}</a></li>
+				<li><a href="${emsiUrl}">${labelNavEmsi}</a></li>
 				<li><a href="${ebiAmericaUrl}">${labelNavEbi}</a></li>
 				<li><a href="${cemiUrl}">${labelNavCemi}</a></li>
 				<li><a href="${ceomIntroUrl}">${labelNavCeom}</a></li>

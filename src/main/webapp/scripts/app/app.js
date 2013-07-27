@@ -10,8 +10,55 @@ var App = function() {
 	};
 	
 	
+	// TODO: This can probably be done better. Don't really like it that we are looking explicitly for emsiweb to filter out
+	var _matchesPartial = function(arr1, arr2) {
+		try {
+			var matches = 0;
+			var maxIndex = arr1.length > arr2.length ? arr1.length : arr2.length;
+			
+			//console.log("_matchesPartial");
+			//console.log(arr1);
+			//console.log(arr2);
+			for (var i = 0; i < maxIndex; i++) {
+				if (arr1[i] == arr2[i]) {
+					if (arr1[i] != "emsiweb") { 
+						matches++;
+						
+						//console.log(arr1[i] + "|" + arr2[i]);
+					}
+				}
+				else {
+					break;
+				}
+			}
+			
+			return matches >= 2 ? true : false;
+			
+		} catch (e) {
+			return false;
+		}
+		
+	}
 	
 	
+	
+	// Setup selected class on left nav.
+	// Will add the 'selected' class to the <li> element if the child <a> href attribute matches current path.
+	var _setupPrimaryNavSelectedItem = function() {
+		var win_pathname = window.location.pathname;
+		win_patharray = win_pathname.split("/");
+		
+		$('#primary-nav li a').each(function (index) {
+			var $this = $(this);
+			$this.parent().removeClass('selected'); // first initialize all to unselected.
+			var href = $this.attr('href');
+			href_array = href.split("/");
+			
+			if (_matchesPartial(win_patharray, href_array)) {
+				$this.parent().addClass('selected');			
+			}
+		});
+	};
 	// Setup selected class on left nav.
 	// Will add the 'selected' class to the <li> element if the child <a> href attribute matches current path.
 	var _setupLeftNavSelectedItem = function() {
@@ -46,6 +93,8 @@ var App = function() {
 			}
 		});
 	};
+	
+	
 	
 	// initialize the change-lang-?? link
 	var _setupChangeLangLink = function() {
@@ -87,6 +136,7 @@ var App = function() {
 	
 	return {
 		init: function (initObj) {
+			_setupPrimaryNavSelectedItem();
 			_setupLeftNavSelectedItem();
 			_setupCemiInterioNavSelectedItem();
 			_setupChangeLangLink();
