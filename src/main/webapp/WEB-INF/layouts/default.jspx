@@ -59,8 +59,18 @@
 
 
 <!-- Google Maps -->
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcrMU-ClLgJuECYHc1Axc16HcZ6__sY6U&amp;sensor=false&amp;language=${userLocale}">	<jsp:text/></script>
+<!-- Force Chinese to be traditional chinese (zh-TW) for google maps -->
+<c:set var="googleMapLanguage">
+	<c:choose>
+		<c:when test="${userLocale eq 'zh'}">
+			<c:out value="${userLocale}-TW"/>
+		</c:when>
+		<c:otherwise>
+			<c:out value="${userLocale}" default="en" />
+		</c:otherwise>
+	</c:choose>
+</c:set>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcrMU-ClLgJuECYHc1Axc16HcZ6__sY6U&amp;sensor=false&amp;language=${googleMapLanguage}">	<jsp:text/></script>
 
 
 <!-- GMap3 -->

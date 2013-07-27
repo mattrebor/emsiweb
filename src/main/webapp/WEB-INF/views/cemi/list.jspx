@@ -21,15 +21,19 @@ ${labelFindAChurchDescription}
 
 <br/><br/>
 
-<script>
+<!-- Did this to avoid eclipse from parsing the javascript below and reporting false errors -->
+<jsp:element name="script">
 
 var marks = [
 <c:forEach items="${allChurches}" var="church">
 
-{latLng:[${church.latitude}, ${church.longitude}], data: '<a href="${showPageUrl}/${church.id.churchId}">${church.churchDetails["menu_name"].value}</a><br/>${church.address}'},
+	<c:if test="${not empty church.address}">
+		{latLng:[${church.latitude}, ${church.longitude}], data: '<a href="${showPageUrl}/${church.id.churchId}">${church.churchDetails["menu_name"].value}</a><br/>${church.address}', church_name: '<a href="${showPageUrl}/${church.id.churchId}">${church.churchDetails["menu_name"].value}</a>'},
+	</c:if>
 </c:forEach>
 ];
-
+</jsp:element>
+<script>
 
 $(function(){
 	$("#cemi-map-canvas").gmap3({
@@ -48,7 +52,7 @@ $(function(){
 			},
 			
 			cluster:{
-	              radius: 9,
+	              radius: 10,
 	          		// This style will be used for clusters with more than 0 markers
 	          		0: {
 	          		  content: '<div class="cluster cluster-1">CLUSTER_COUNT</div>',
@@ -66,7 +70,62 @@ $(function(){
 	          		  content: '<div class="cluster cluster-3">CLUSTER_COUNT</div>',
 	          			width: 66,
 	          			height: 65
-	          		}
+	          		},
+	          		events: {
+	                    click: function(cluster, event, context) {
+	                    	var map = $(this).gmap3("get");
+	                    	
+	                    	var infowindow = $(this).gmap3({get:{name:"infowindow"}});
+	                        if (infowindow){
+	                          infowindow.close();
+	                        }
+	                        
+	                        map.setCenter(cluster.main.getPosition());
+	                        map.setZoom(map.getZoom() + 3);
+	                    }, // click
+	          			mouseover: function(cluster, event, context){
+	          				 
+	                        // push content of every markers for the cluster
+	                       var all_data_markers ='';
+	                        $.each(context.data.markers, function(i, element){   
+	                            all_data_markers = all_data_markers + '<li>' + element.church_name + '</li>';
+	                        });
+	                        //alert(all_data_markers);
+	                        // add the infowindow
+	                        
+	                        
+	                        var map = $(this).gmap3("get"),
+	    			        infowindow = $(this).gmap3({get:{name:"infowindow"}});
+	                        
+	                        if (infowindow) {
+	                        	infowindow.close();
+	                        	//console.log("infowindow not null")
+	                        	infowindow.setPosition(cluster.main.getPosition());
+				                infowindow.setContent(all_data_markers);
+	                        	infowindow.open(map);
+
+	                        }
+	                        else {
+	                        	//console.log("infowindow is null")
+		                        $(this).gmap3(
+		                           {
+		                              infowindow:{
+		                                  latLng: cluster.main.getPosition(),
+		                                  options:{
+		                                   content: all_data_markers
+		                                 },
+		                            }
+		                        });
+	                        }
+	                    }, // mouseover
+	                    mouseout: function(){
+	                    	//console.log("closing");
+	                        var infowindow = $(this).gmap3({get:{name:"infowindow"}});
+	                        if (infowindow){
+	                          infowindow.close();
+	                        }
+	                    }, // mouseout
+	                } // events
 	        },		
 			
 			events:{
@@ -75,24 +134,19 @@ $(function(){
 			    
 					var map = $(this).gmap3("get"),
 			        infowindow = $(this).gmap3({get:{name:"infowindow"}});
+
 		            if (infowindow){
 			                infowindow.open(map, marker);
 			                infowindow.setContent(context.data);
-			              } else {
+			        } else {
 			                $(this).gmap3({
 			                  infowindow:{
 			                    anchor:marker, 
 			                    options:{content: context.data}
 			                  }
 			                });
-			              }
-			            },/*
-			     mouseout: function(){
-			              var infowindow = $(this).gmap3({get:{name:"infowindow"}});
-			              if (infowindow){
-			                infowindow.close();
-			              }
-			            }*/
+			        }
+			    }, // mouseover
 			}
 		}
 	});
