@@ -12,6 +12,8 @@
 	<spring:message code="label_news" var="labelNews" />
 	<spring:message code="label_events" var="labelEvents" />
 	
+	<spring:url var="newsUrl" value="/news/latest"/>
+	
 
 	<div class="span24 brown-bar">
 		<div id="secondary-nav" class="emsi-navbar pull-right">
@@ -20,7 +22,7 @@
 				<li><a href="${cemiUrl}">${labelFindAChurch}</a></li>
 				<li><a href="${ebiAmericaUrl}">${labelSeminary}</a></li>
 				<li><a href="${ceomIntroUrl}">${labelMissions}</a></li>
-				<li><a href="#">${labelNews}</a></li> 
+				<li><a href="${newsUrl}">${labelNews}</a></li> 
 				<!-- <li><a href="#">${labelEvents}</a></li> -->
 			</ul>
 		</div>
