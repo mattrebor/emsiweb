@@ -16,15 +16,15 @@ var App = function() {
 			var matches = 0;
 			var maxIndex = arr1.length > arr2.length ? arr1.length : arr2.length;
 			
-			console.log("_matchesPartial");
-			console.log(arr1);
-			console.log(arr2);
+			//console.log("_matchesPartial");
+			//console.log(arr1);
+			//console.log(arr2);
 			for (var i = 0; i < maxIndex; i++) {
 				if (arr1[i] == arr2[i]) {
 					if (arr1[i] != "emsiweb") { 
 						matches++;
 						
-						console.log(arr1[i] + "|" + arr2[i]);
+						//console.log(arr1[i] + "|" + arr2[i]);
 					}
 				}
 				else {
