@@ -334,6 +334,32 @@ body {
 	color: #0f5b69;
 }
 
+.whatsup-date {
+	color: #E1731A;
+}
+
+#whatsup {
+	background-color: #5D5652;
+}
+
+#whatsup ul {
+	margin-left: 50px;
+	margin-right: 10px;
+	padding-top: 10px;
+}
+
+
+#whatsup li {
+	padding-bottom: 15px;
+	color: #E0E0DD;
+	list-style-type: none;
+}
+
+#whatsup li a {
+	color: #E1731A;
+}
+
+
 /**** Footer ****/
 .footer-frame {
 	margin: 0px 0px;
@@ -359,14 +385,7 @@ body {
 	padding-bottom: 10px;
 }
 
-#whatsup ul {
-	padding-top: 10px;
-}
 
-
-#whatsup li {
-	padding-bottom: 10px;
-}
 
 /**** GENERIC STYLE ******/
 
