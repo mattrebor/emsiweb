@@ -1,0 +1,32 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		國際福音神學院</span>
+	<br/>
+	<h4>美洲總院 - 講師</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+	
+		
+	<section>
+		<p>
+陳啟猷牧師 Rev. Hugo Chan  (M.A.)<br /><br />
+
+陳李湘萍傳道 Ev. Erna Lee  (M.A.) 　<br/><br />
+
+李月雲牧師 Rev. Yueh-Yun Li  (M.A.)<br /><br />
+
+楊秀蘭傳道 Ev. Sorina Yang  (B.A.)<br /><br />
+</p>
+	</section>
+</article>
+<!-- end English -->
+	

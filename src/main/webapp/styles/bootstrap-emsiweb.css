@@ -247,7 +247,7 @@ body {
 }
 
 
-/**** CEMI interior page bav ****/
+/**** CEMI interior page nav ****/
 
 #cemi-interior-page-nav {
 	111margin-left: 20px;
@@ -289,6 +289,51 @@ body {
 	color: #0f5b69;
 }
 
+
+/**** Semi-Static interior page nav ****/
+
+#semistatic-interior-page-nav {
+	border-top: 10px solid #ffffff;
+	border-bottom: 25px solid #ffffff;
+	color: #ffffff;
+	background-color: #0f5b69;
+}
+
+#semistatic-interior-page-nav ul {
+	border-top: 4px solid #cd8e14;
+	border-left: 4px solid #0f5b69;
+	border-right: 4px solid #0f5b69;
+	
+}
+
+#semistatic-interior-page-nav li {
+	padding-top: 2px;
+	padding-bottom: 1px;
+	min-height: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-left: 1px solid #cd8e14;
+	
+}
+
+#semistatic-interior-page-nav li.disabled {
+	color: #cccccc;
+	background-color: #999999;
+}
+
+#semistatic-interior-page-nav li.selected {
+	background-color: #ffffff;
+}
+
+#semistatic-interior-page-nav li a {
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+#semistatic-interior-page-nav li.selected a {
+	color: #0f5b69;
+}
+
 /**** Footer ****/
 .footer-frame {
 	margin: 0px 0px;
@@ -314,9 +359,14 @@ body {
 	padding-bottom: 10px;
 }
 
+#whatsup ul {
+	padding-top: 10px;
+}
 
 
-
+#whatsup li {
+	padding-bottom: 10px;
+}
 
 /**** GENERIC STYLE ******/
 

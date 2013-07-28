@@ -1,0 +1,32 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Evangelical Bible Institute (EBI)</span>
+	<br/>
+	<h4>EBI in Europe - About Us</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+	<spring:url var="pageImageUrl" value="/images/ebi/ebi_europe.jpg"/>
+	
+	<img src="${pageImageUrl}" 
+			style="float: left; margin-right: 15px" height="300px" width="400px"/>
+		
+	<section>
+		<p>
+The Evangelical Bible Institute began offering extension courses in Spain early on when the Christian Evangelical Mission in Spain was registered and established in Madrid in1995. From these early efforts came outstanding CEM-in-Europe Pastors like Pastor Hugo Chan, and Pastor Jian Wei Ye, who were early students.
+</p>
+<p>The establishment of the EBI in Europe branch in the Netherlands in 1996 went on to develop a major crop of pastor and ministers. In October of 2000, Mission Headquarters USA purchased a facility in Paris, France, and commissioned it for use on October of 2010, formally establishing the EBI in Europe in Paris. From here came class after class of graduate elite talent.</p>
+
+<p>In 2007, EBI in Europe started classes in Madrid, Spain, continuing the great task of training Christian Soldiers, and developing talent for the Kingdom.		</p>
+	</section>
+</article>
+<!-- end English -->
+	

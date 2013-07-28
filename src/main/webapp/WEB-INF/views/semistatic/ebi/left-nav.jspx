@@ -7,13 +7,21 @@
 	<jsp:output omit-xml-declaration="yes" />
 	<!-- ebi/left-nav -->
 
+	<spring:message code="label_ebi_leftnav_intro" var="labelIntro"/>
+	<spring:message code="label_ebi_leftnav_generalinfo" var="labelGeneralInfo"/>
 	<spring:message code="label_ebi_leftnav_america" var="labelAmerica"/>
 	<spring:message code="label_ebi_leftnav_europe" var="labelEurope"/>
 	
+	<spring:url var="ebiIntroUrl" value="/ebi/intro"/>
+	<spring:url var="ebiGeneralInfoUrl" value="/ebi/info/purpose"/>
+	
+	<spring:url var="ebiAmericaUrl" value="/ebi/america"/>
 	<spring:url var="ebiEuropeUrl" value="/ebi/europe"/>
 
 	<ul>
-		<li class="selected"><a href="${ebiAmericaUrl}">${labelAmerica}</a></li><!-- ${ebiAmericaUrl} defined in header.jspx -->
+		<li><a href="${ebiIntroUrl}">${labelIntro}</a></li>
+		<li><a href="${ebiGeneralInfoUrl}">${labelGeneralInfo}</a></li>
+		<li><a href="${ebiAmericaUrl}">${labelAmerica}</a></li>
 		<li><a href="${ebiEuropeUrl}">${labelEurope}</a></li>
 	</ul>
 	<!-- end ebi/left-nav -->

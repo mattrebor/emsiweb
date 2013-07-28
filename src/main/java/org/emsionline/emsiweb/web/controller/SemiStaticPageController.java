@@ -24,7 +24,17 @@ public class SemiStaticPageController {
 	
 	@RequestMapping({"/ebi"})
 	public String partialPathEBI() {
-		return "redirect:/ebi/america";
+		return "redirect:/ebi/intro";
+	}
+	
+	@RequestMapping({"/ebi/america"})
+	public String partialPathEBIAmerica() {
+		return "redirect:/ebi/america/aboutus";
+	}
+	
+	@RequestMapping({"/ebi/europe"})
+	public String partialPathEBIEurope() {
+		return "redirect:/ebi/europe/aboutus";
 	}
 	
 	@RequestMapping({"/ceom"})
@@ -32,7 +42,9 @@ public class SemiStaticPageController {
 		return "redirect:/ceom/intro";
 	}
 	
-	@RequestMapping({"/emsi/*", "/ebi/*", "/ceom/*", "/news/*"})
+
+	
+	@RequestMapping({"/emsi/*", "/ebi/**", "/ceom/*", "/news/*"})
 	public String serveSemiStaticContent(
 			Model model
 			, HttpServletRequest request
@@ -41,9 +53,20 @@ public class SemiStaticPageController {
 		String[] pathElements = getPathElements(request.getServletPath());
 		String lang = locale.getLanguage();
 		StringBuilder strbld = new StringBuilder();
-		strbld.append("semistatic").append("/")
-			.append(pathElements[0]).append("/")
-			.append(pathElements[1]).append("_").append(lang);
+		
+		
+		strbld.append("semistatic").append("/");
+		
+		for (int i = 0; i < pathElements.length; i++) {
+			if (i < pathElements.length - 1) {
+				strbld.append(pathElements[i]).append("/");
+			}
+			else { // append language for the last part of the path
+				strbld.append(pathElements[i]).append("_").append(lang);
+
+			}
+		}
+		
 		return strbld.toString();
 	}
 	

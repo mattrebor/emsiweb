@@ -1,0 +1,26 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		國際福音神學院</span>
+	<br/>
+	<h4>美洲總院 - 外國學生</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+	
+		
+	<section>
+		<p>
+		本院准許發給外國留學生入學簽證表(即I-20)。
+		</p>
+	</section>
+</article>
+<!-- end English -->
+	

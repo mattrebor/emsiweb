@@ -12,7 +12,7 @@
 	<spring:message code="label_news" var="labelNews" />
 	<spring:message code="label_events" var="labelEvents" />
 	
-	<spring:url var="newsUrl" value="/news/latest"/>
+	<spring:url var="newsUrl" value="/news/latest" scope="request"/>
 	
 
 	<div class="span24 brown-bar">

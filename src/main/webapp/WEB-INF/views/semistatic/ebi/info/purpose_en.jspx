@@ -1,0 +1,26 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Evangelical Bible Institute (EBI)</span>
+	<br/>
+	<h4>General Information - Purpose</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+	<spring:url var="landingPageImageUrl" value="/images/ebi/ebi_landing.jpg"/>
+	
+	<img src="${landingPageImageUrl}" 
+			style="float: left; margin-right: 15px" height="300px" width="300px"/>
+		
+	<section>
+		<p>Text goes here</p>
+		
+	</section>
+</article>
+<!-- end English -->
