@@ -9,7 +9,7 @@
 		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
 	國際福音神學院</span>
 	<br/>
-	<h4>EBI in Europe - About Us (zh)</h4>
+	<h4>EBI in Europe - 關於我們</h4>
 
 	<tiles:insertAttribute name="interior-nav" ignore="false" />
 
@@ -20,9 +20,12 @@
 		
 	<section>
 		<p>
-		Chinese text foes here
+		1995年西班牙福音佈道會在馬德里註冊成立之初，在西班牙就有神學院延伸制課程的設置，在此孕育出本會歐洲幾位傑出的牧者，如早期的神學生陳岳平牧師、葉建偉牧師。接著96年，在荷蘭成立神學院歐洲分院荷蘭延伸部，大力培植一批教牧會人才出來。2000年10月美國總會在法國巴黎購堂，於2001年10月獻堂啟用。美洲總院正式在巴黎成立國際福音神學院歐洲分院，從此更是代代精英人才輩出。2007年歐洲分院在西班牙馬德里上課，繼續孕育天國精兵、培養國度人才的偉大事業。
 		</p>
-		
+		<br/>
+		<br/>
+		<br/>
+		<br/>
 	</section>
 </article>
 <!-- end Chinese -->

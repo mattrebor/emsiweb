@@ -8,16 +8,18 @@
 	
 	<span
 		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
-		國際福音神學院</span>
+		Evangelical Bible Institute (EBI)</span>
 	<br/>
-	<h4>美洲總院 - 使用語言</h4>
+	<h4>EBI in Europe - Contact Us</h4>
 
 	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
 	
+		
 	<section>
 		<p>
-本院採用中、英雙語教學，不需要托福成績。
-		</p>
+TEXT GOES HERE
+</p>
 	</section>
 </article>
 <!-- end English -->
