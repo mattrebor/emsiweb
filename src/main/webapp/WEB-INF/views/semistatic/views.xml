@@ -6,5 +6,10 @@
 		<put-attribute name="menu-content" value="/WEB-INF/views/semistatic/{1}/left-nav.jspx" cascade="true"/>
 		<put-attribute name="body-content" value="/WEB-INF/views/semistatic/{1}/{2}.jspx" cascade="true"/>
 	</definition>
-
+	
+	<definition name="semistatic/*/*/*" extends="default-two-col">
+		<put-attribute name="menu-content" value="/WEB-INF/views/semistatic/{1}/left-nav.jspx" cascade="true"/>
+		<put-attribute name="body-content" value="/WEB-INF/views/semistatic/{1}/{2}/{3}.jspx" cascade="true"/>
+		<put-attribute name="interior-nav" value="/WEB-INF/views/semistatic/{1}/{2}/interior_nav.jspx" cascade="true"/>
+	</definition>
 </tiles-definitions>

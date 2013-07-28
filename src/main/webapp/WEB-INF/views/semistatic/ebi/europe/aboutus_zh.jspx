@@ -1,0 +1,30 @@
+<!-- Chinese -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+	國際福音神學院</span>
+	<br/>
+	<h4>EBI in Europe - About Us (zh)</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+	<spring:url var="pageImageUrl" value="/images/ebi/ebi_europe.jpg"/>
+	
+	<img src="${pageImageUrl}" 
+			style="float: left; margin-right: 15px" height="300px" width="400px"/>
+		
+	<section>
+		<p>
+		Chinese text foes here
+		</p>
+		
+	</section>
+</article>
+<!-- end Chinese -->
+
+	

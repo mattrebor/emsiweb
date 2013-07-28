@@ -73,9 +73,23 @@ var App = function() {
 		});
 	};
 	
+	
+	
+	var _setupInteriorNavSelectedItem = function() {
+		var win_pathname = window.location.pathname;
+		$('#semistatic-interior-page-nav li a').each(function (index) {
+			var $this = $(this);
+			$this.parent().removeClass('selected'); // first initialize all to unselected.
+			var href = $this.attr('href');
+			if (_startsWith(win_pathname, href)) { // see if this href matches the browser's current path
+				$this.parent().addClass('selected');
+			}
+		});
+	};
+	
 	// Setup selected class on left nav.
 	// Will add the 'selected' class to the <li> element if the child <a> href attribute matches current path.
-	var _setupCemiInterioNavSelectedItem = function() {
+	var _setupCemiInteriorNavSelectedItem = function() {
 		var win_pathname = window.location.pathname;
 				
 		var pattern = /\/(\d+)$/;
@@ -138,7 +152,8 @@ var App = function() {
 		init: function (initObj) {
 			_setupPrimaryNavSelectedItem();
 			_setupLeftNavSelectedItem();
-			_setupCemiInterioNavSelectedItem();
+			_setupCemiInteriorNavSelectedItem();
+			_setupInteriorNavSelectedItem();
 			_setupChangeLangLink();
 			_setupLogoClick(initObj);
 		}
