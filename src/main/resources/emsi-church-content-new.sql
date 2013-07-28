@@ -147,4 +147,10 @@ update church_detail
 set value = replace(value, '生命堂', '基督教生命堂')
 where locale = 'zh' 
 	and key = 'menu_name' 
-	and value not like '%基督教%'
+	and value not like '%基督教%';
+	
+update church_detail
+set value = concat(value, '基督教生命堂')
+where church_id = (select church_id from church where church_path = 'portoalto')
+and locale = 'zh'
+and key = 'menu_name';

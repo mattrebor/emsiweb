@@ -314,9 +314,14 @@ body {
 	padding-bottom: 10px;
 }
 
+#whatsup ul {
+	padding-top: 10px;
+}
 
 
-
+#whatsup li {
+	padding-bottom: 10px;
+}
 
 /**** GENERIC STYLE ******/
 
