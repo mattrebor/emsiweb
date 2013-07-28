@@ -1,0 +1,27 @@
+<div id="semistatic-interior-page-nav" class="emsi-navbar"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	<spring:message code="label_ebi_europe_aboutus" var="labelEbiEuropeAboutUs"/>
+	<spring:message code="label_ebi_europe_curriculum" var="labelEbiEuropeCurriculum"/>
+	<spring:message code="label_ebi_europe_lecturers" var="labelEbiEuropeLecturers"/>
+	<spring:message code="label_ebi_europe_faculty" var="labelEbiEuropeFaculty"/>
+	<spring:message code="label_ebi_europe_contactus" var="labelEbiEuropeContactUs"/>
+
+
+	<spring:url var="ebiEuropeUrl" value="/ebi/europe/aboutus"/>	
+	<spring:url var="ebiEuropeCurriculumUrl" value="/ebi/europe/curriculum"/>	
+	<spring:url var="ebiEuropeLecturersUrl" value="/ebi/europe/lecturers"/>	
+	<spring:url var="ebiEuropeFacultyUrl" value="/ebi/europe/faculty"/>	
+	<spring:url var="ebiEuropeContactUsUrl" value="/ebi/europe/contactus"/>	
+	
+	
+	
+	<ul>
+		<li><a href="${ebiEuropeUrl}">${labelEbiEuropeAboutUs}</a></li>
+		<li><a href="${ebiEuropeCurriculumUrl}">${labelEbiEuropeCurriculum}</a></li>
+		<li><a href="${ebiEuropeLecturersUrl}">${labelEbiEuropeLecturers}</a></li>
+		<li><a href="${ebiEuropeFacultyUrl}">${labelEbiEuropeFaculty}</a></li>
+		<li><a href="${ebiEuropeContactUsUrl}">${labelEbiEuropeContactUs}</a></li>		
+	</ul>
+</div>

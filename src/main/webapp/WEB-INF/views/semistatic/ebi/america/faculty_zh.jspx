@@ -1,0 +1,42 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		國際福音神學院</span>
+	<br/>
+	<h4>美洲總院 - 教授團</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+	
+		
+	<section>
+		<p>
+<b>楊摩西院長 Dr. &amp; Rev. Moses Yang (President)</b><br/>
+Columbia International University (M.A., D.D.)<br/><br/>
+
+<b>陳宏博教授 Dr. &amp; Rev. Paul Tan</b><br/>
+Grace Theological Seminary (Th.D.)<br/><br/>
+
+<b>何兆威教授 Dr. &amp; Rev. Stephen Hosea</b><br/>
+Azusa Pacific University (Ph.D.)<br/><br/>
+
+<b>張逸萍教授 Dr. Lois Chan</b><br/>
+Trinity Theological Seminary (Ph.D.)<br/><br/>
+
+<b>區應毓教授 Dr. &amp; Rev. Peter Au</b><br/>
+Dallas Theological Seminary (Ph.D.)<br/><br/>
+
+<b>黃靜教授 Dr. Jing Huang</b><br/>
+State University of New York at Stony Brook (DMA)<br/><br/>
+</p>
+	</section>
+</article>
+<!-- end English -->
+	

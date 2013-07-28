@@ -1,0 +1,42 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Evangelical Bible Institute (EBI)</span>
+	<br/>
+	<h4>EBI in America - Contact Us</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+	
+		
+	<section>
+		<p>
+Evangelical Bible Institute<br/>
+36 Alpine Road, Towaco, NJ 07082<br/>
+<a href="http://www.emsionline.org">http://www.emsionline.org</a><br/>
+E-Mail: <a href="mailto:emsi@emsionline.org">emsi@emsionline.org</a><br/>
+<br/>
+President: Dr. Rev. Moses Yang (D.D.)<br/>
+Tel: (973) 335-7337 分機 209<br/>
+Fax: (973) 335-0535<br/>
+<br/>
+Dean of Academy: Prof. Jing Huang<br/>
+Tel:(973) 335-7337 分機 211<br/>
+Fax: (973) 335-0535<br/>
+<br/>
+Director of Admission: Rev. Zion Wu<br/>
+Tel:(973) 335-7337 分機 202<br/>
+Fax: (973) 335-0535<br/>
+E-Mail: <a href="mailto:emsizionwu@gmail.com">emsizionwu@gmail.com</a>
+</p>
+	</section>
+</article>
+<!-- end English -->
+	

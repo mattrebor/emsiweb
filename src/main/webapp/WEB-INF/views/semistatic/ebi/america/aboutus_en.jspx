@@ -1,0 +1,37 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Evangelical Bible Institute (EBI)</span>
+	<br/>
+	<h4>EBI in America - About Us</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+	<spring:url var="pageImageUrl" value="/images/EBI.jpg"/>
+	
+	<img src="${pageImageUrl}" 
+			style="float: left; margin-right: 15px" height="300px" width="400px"/>
+		
+	<section>
+		<p>
+			The Evangelical Bible Institute was founded in 1979. 
+			It is located in Towaco, NJ, approximately 25 miles from New York City. 
+			Its present campus occupies over 19 acres wherein are facilities 
+			such as the Educational Building, a church, Chinese/English library 
+			which houses in excess of 14,000 books. 
+			Its surrounding wooded area lends much beauty to the campus. 
+			In addition, there are sports facilities such as outdoor basketball,
+			volleyball &amp; tennis courts. This setting is truly conducive to 
+			the spiritual training of the individual students. 
+		</p>
+	</section>
+</article>
+<!-- end English -->
+	

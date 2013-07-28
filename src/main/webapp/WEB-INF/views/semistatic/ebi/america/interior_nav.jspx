@@ -1,0 +1,36 @@
+<div id="semistatic-interior-page-nav" class="emsi-navbar"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	<spring:message code="label_ebi_america_aboutus" var="labelEbiAmericaAboutUs"/>
+	<spring:message code="label_ebi_america_curriculum" var="labelEbiAmericaCurriculum"/>
+	<spring:message code="label_ebi_america_language" var="labelEbiAmericaLanguage"/>
+	<spring:message code="label_ebi_america_foreign_students" var="labelEbiAmericaForeignStudents"/>
+	<spring:message code="label_ebi_america_lecturers" var="labelEbiAmericaLecturers"/>
+	<spring:message code="label_ebi_america_faculty" var="labelEbiAmericaFaculty"/>
+	<spring:message code="label_ebi_america_campus" var="labelEbiAmericaCampus"/>	
+	<spring:message code="label_ebi_america_contactus" var="labelEbiAmericaContactUs"/>
+
+
+	<spring:url var="ebiAmericaUrl" value="/ebi/america/aboutus"/>	
+	<spring:url var="ebiAmericaCurriculumUrl" value="/ebi/america/curriculum"/>	
+	<spring:url var="ebiAmericaLanguageUrl" value="/ebi/america/language"/>	
+	<spring:url var="ebiAmericaForeignStudentsUrl" value="/ebi/america/foreignstudent"/>	
+	<spring:url var="ebiAmericaLecturersUrl" value="/ebi/america/lecturers"/>	
+	<spring:url var="ebiAmericaFacultyUrl" value="/ebi/america/faculty"/>	
+	<spring:url var="ebiAmericaCampusUrl" value="/ebi/america/campus"/>	
+	<spring:url var="ebiAmericaContactUsUrl" value="/ebi/america/contactus"/>	
+	
+	
+	
+	<ul>
+		<li><a href="${ebiAmericaUrl}">${labelEbiAmericaAboutUs}</a></li>
+		<li><a href="${ebiAmericaCurriculumUrl}">${labelEbiAmericaCurriculum}</a></li>
+		<li><a href="${ebiAmericaLanguageUrl}">${labelEbiAmericaLanguage}</a></li>
+		<li><a href="${ebiAmericaForeignStudentsUrl}">${labelEbiAmericaForeignStudents}</a></li>
+		<li><a href="${ebiAmericaLecturersUrl}">${labelEbiAmericaLecturers}</a></li>
+		<li><a href="${ebiAmericaFacultyUrl}">${labelEbiAmericaFaculty}</a></li>
+		<li><a href="${ebiAmericaCampusUrl}">${labelEbiAmericaCampus}</a></li>
+		<li><a href="${ebiAmericaContactUsUrl}">${labelEbiAmericaContactUs}</a></li>		
+	</ul>
+</div>

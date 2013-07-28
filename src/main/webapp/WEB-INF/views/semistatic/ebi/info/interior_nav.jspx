@@ -1,0 +1,19 @@
+<div id="semistatic-interior-page-nav" class="emsi-navbar"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	
+	<spring:message code="label_ebi_info_purpose" var="labelEbiInfoPurpose"/>
+	<spring:message code="label_ebi_info_admissions" var="labelEbiInfoAdmissions"/>
+	<spring:message code="label_ebi_info_entrancereq" var="labelEbiInfoEntraceReq"/>
+	<spring:message code="label_ebi_info_admissionform" var="labelEbiInfoAdmissionForm"/>
+	
+	<spring:url var="ebiGeneralInfoUrl" value="/ebi/info/purpose"/>	
+	
+	<ul>
+		<li><a href="${ebiGeneralInfoUrl}">${labelEbiInfoPurpose}</a></li>
+		<li><a href="/foo">${labelEbiInfoAdmissions}</a></li>
+		<li><a href="/foo">${labelEbiInfoEntraceReq}</a></li>
+		<li><a href="/foo">${labelEbiInfoAdmissionForm}</a></li>
+	</ul>
+</div>
