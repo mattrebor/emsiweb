@@ -63,17 +63,19 @@
 
 	<div class="row">
 		<div class="span11">
-			<spring:url value="/resources/images/whats_up.png"
-				var="whats_up_image_url" />
-			<img src="${whats_up_image_url }" alt="" width="400" height="60" />
-			
-		<ul id="whatsup">
-			<li>ECMSI Pearl River will have a 40th Anniversary Celebration held 9/7-9/8. <a href="${newsUrl}">more</a></li>
-
-			<li>East Coast SPORTS DAY will take place in Towaco church on 8/17. <a href="${newsUrl}">more</a></li>
-
-			<li>EMSI 45th Anniversary Thanksgiving Service will be held on Aug.11, Sunday, in the Christian Evangelical Mission Church in Towaco. <a href="${newsUrl}">more</a></li>
-		</ul>
+			<div id="whatsup">
+				<spring:url value="/resources/images/home/whatsup.jpg"
+					var="whats_up_image_url" />
+				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
+				
+				<ul>
+					<li><span class="whatsup-date">July 11, 2013</span><br/>ECMSI Pearl River will have a 40th Anniversary Celebration held 9/7-9/8.&#160;&#160;<a href="${newsUrl}">Learn more &#9656;</a></li>
+		
+					<li><span class="whatsup-date">July 11, 2013</span><br/>East Coast SPORTS DAY will take place in Towaco church on 8/17.&#160;&#160;<a href="${newsUrl}">Learn more &#9656;</a></li>
+		
+					<li><span class="whatsup-date">July 11, 2013</span><br/>EMSI 45th Anniversary Thanksgiving Service will be held on Aug.11, Sunday, in the Christian Evangelical Mission Church in Towaco.&#160;&#160;<a href="${newsUrl}">Learn more &#9656;</a></li>
+				</ul>
+			</div>
 		</div>
 		<div class="span11">
 			<spring:url value="/resources/images/home/anniversary_en.jpg"
