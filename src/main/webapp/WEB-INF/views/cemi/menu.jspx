@@ -11,8 +11,27 @@
 	<c:set var="current_path" value="${new_path}"/>
 	
 	<c:forEach items="${current_org}" var="org">
+	
+		
+	
 
-		<li><input type="checkbox" id="${org.churchOrgPath}" checked="checked"/>
+		<li>
+			<c:choose>
+				<c:when test="${not empty churchHierarchy}">
+					<c:choose>
+						<c:when test="${not empty churchHierarchy[org.churchOrgPath]}">
+							<input type="checkbox" id="${org.churchOrgPath}" checked="checked"/>
+						</c:when>
+						<c:otherwise>
+							<input type="checkbox" id="${org.churchOrgPath}"/>
+						</c:otherwise>
+					</c:choose>
+				</c:when>
+				<c:otherwise>
+					<input type="checkbox" id="${org.churchOrgPath}" checked="checked"/>
+				</c:otherwise>
+			</c:choose>
+		
 			<label for="${org.churchOrgPath}">${org.churchOrgDetails['menu_name'].value}</label>
 
 			<c:choose>
@@ -24,9 +43,15 @@
 				<c:otherwise>
 					<c:if test="${fn:length(org.churches) > 0}">
 						<ul>
-							<c:forEach items="${org.churches }" var="church">
-								<!-- <li><a href="${current_path}/${org.churchOrgPath}/${church.churchPath}">${church.churchDetails[userLocale].churchName }</a></li> -->
-								<li><a href="${cemiUrl}/${church.id.churchId}">${church.churchDetails['menu_name'].value}</a></li> 
+							<c:forEach items="${org.churches}" var="church">
+								<c:choose>
+									<c:when test="${not empty churchHierarchy[church.churchPath]}">
+										<li class="leaf selected"><a href="${cemiUrl}/${church.id.churchId}">${church.churchDetails['menu_name'].value}</a></li> 
+									</c:when>
+									<c:otherwise>
+										<li class="leaf"><a href="${cemiUrl}/${church.id.churchId}">${church.churchDetails['menu_name'].value}</a></li> 
+									</c:otherwise>
+								</c:choose>							
 	
 							</c:forEach>
 						</ul>

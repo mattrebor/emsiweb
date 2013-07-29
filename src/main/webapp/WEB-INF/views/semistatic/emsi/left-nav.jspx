@@ -20,7 +20,7 @@
 	<spring:message code="label_gospel_broadcasting_ministry"
 		var="labelGospelBroadcastingMinistry" />
 	
-	
+	<spring:url var="emsiInroUrl" value="/emsi/intro"/>
 	<spring:url var="stmtfaith" value="/emsi/stmtfaith"/>
 	
 	<spring:url var="lifePubUrl" value="/emsi/lifepubhouse"/>
@@ -28,7 +28,7 @@
 	<spring:url var="gospelBroadcastingUrl" value="/emsi/gospelbroadcasting"/>
 	
 	<ul>
-		<li class="selected"><a href="${emsiUrl}">${labelTestIntro}</a></li><!-- ${emsiUrl} defined in header.jspx -->
+		<li><a href="${emsiInroUrl}">${labelTestIntro}</a></li><!-- ${emsiUrl} defined in header.jspx -->
 		<li><a href="${stmtfaith}">${labelTestStatement}</a></li>
 		<li><a href="#">${labelTestMinistryCal}</a></li>
 		<li><a href="${lifePubUrl}">${labelTestLifePubHouse}</a></li>

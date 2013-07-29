@@ -1,0 +1,25 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		國際福音神學院</span>
+	<br/>
+	<h4>美洲總院 - 校園</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+	
+		
+	<section>
+		<p>
+本院創立於一九七九年，位於美國新澤西州多華谷，離紐約城西約廿五哩。校院佔地廿六畝，內有教育大樓、教堂、宿舍，圖書館擁有中英文圖書一萬四千冊；林木茂盛，風景幽美，並有籃球場、排球場、網球場等各種運動設施，為求學和靈修的好地方。</p>
+	</section>
+</article>
+<!-- end English -->
+	

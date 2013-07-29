@@ -1,0 +1,29 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Evangelical Bible Institute (EBI) - Introduction</span>
+
+	<p>&#160;</p>
+
+
+	<section>
+		<p>The Evangelical Bible Institute was established by Rev. Moses
+			Yang in 1975. Its mission is to train Bible students to become full
+			time ministers of God to spread Gospel; and to help laymen grow
+			spiritually so to serve God fervently. EBI’s training emphasizes four
+			expectations from the students: to walk in faith in their life and
+			service; to bring forth spiritual children themselves; to preach
+			well; and to lead Bible Study classes so that believers will be
+			edified.</p>
+		<p>The EBI headquarter is set up in Towaco, N.J. also called EBI
+			America. It has branches in Europe and Asia. In Europe, it has
+			established EBI Spain; EBI Extension in Paris; and EBI Extension in
+			Holland. In Asia, it has established EBI Japan and Bible School for
+			Laymen in Taipei. It has also established School for Laymen in
+			California.</p>
+	</section>
+</article>
+<!-- end English -->

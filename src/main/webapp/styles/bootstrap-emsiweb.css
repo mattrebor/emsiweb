@@ -29,6 +29,45 @@ body {
 	margin-right: 20px;
 }
 
+#cemi-map-canvas {
+    margin: 0;
+    padding: 0;	
+	width: 100%;
+	height: 500px;
+}
+
+#cemi-map-canvas img {
+	max-width: none;
+}
+
+.cluster{
+  			color: #FFFFFF;
+  			text-align:center;
+  			font-family: 'Arial, Helvetica';
+  			font-size:11px;
+  			font-weight:bold;
+}
+
+.cluster-1{
+        background-image:url(../images/m1.png);
+        line-height:53px;
+  			width: 53px;
+  			height: 52px;
+}
+
+.cluster-2{
+        background-image:url(../images/m2.png);
+        line-height:53px;
+  			width: 56px;
+  			height: 55px;
+}
+
+.cluster-3{
+        background-image:url(../images/m3.png);
+        line-height:66px;
+  			width: 66px;
+  			height: 65px;
+}
 
 /**** Primary Nav ****/
 
@@ -159,12 +198,34 @@ body {
 	padding-bottom: 10px;	
 }
 
+#cemi-nav li.leaf {
+	border-left: 1px solid #9c9084;
+	padding-top: 3px;
+	padding-bottom: 3px;
+}
+
 #cemi-nav li a {
 	color: #c2b895;
 	font-size: 1.0em;
-	border-left: 1px solid #9c9084;
 	padding-left: 10px;
 }
+
+#cemi-nav li.selected {
+	background-color: #3b3525;
+	border: 1px solid #ffffff;
+	width: 170px;
+	margin-left: -50px;
+	padding-left: 50px;
+}
+
+#cemi-nav li.selected-nocss3 {
+	background-color: #3b3525;
+	border: 1px solid #ffffff;
+	width: 215px;
+	margin-left: -7px;
+	padding-left: 7px;
+}
+
 
 #secondary-nav ul {
 }
@@ -186,7 +247,7 @@ body {
 }
 
 
-/**** CEMI interior page bav ****/
+/**** CEMI interior page nav ****/
 
 #cemi-interior-page-nav {
 	111margin-left: 20px;
@@ -210,10 +271,13 @@ body {
 	
 }
 
+#cemi-interior-page-nav li.disabled {
+	color: #cccccc;
+	background-color: #999999;
+}
+
 #cemi-interior-page-nav li.selected {
 	background-color: #ffffff;
-	
-
 }
 
 #cemi-interior-page-nav li a {
@@ -224,6 +288,77 @@ body {
 #cemi-interior-page-nav li.selected a {
 	color: #0f5b69;
 }
+
+
+/**** Semi-Static interior page nav ****/
+
+#semistatic-interior-page-nav {
+	border-top: 10px solid #ffffff;
+	border-bottom: 25px solid #ffffff;
+	color: #ffffff;
+	background-color: #0f5b69;
+}
+
+#semistatic-interior-page-nav ul {
+	border-top: 4px solid #cd8e14;
+	border-left: 4px solid #0f5b69;
+	border-right: 4px solid #0f5b69;
+	
+}
+
+#semistatic-interior-page-nav li {
+	padding-top: 2px;
+	padding-bottom: 1px;
+	min-height: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	border-left: 1px solid #cd8e14;
+	
+}
+
+#semistatic-interior-page-nav li.disabled {
+	color: #cccccc;
+	background-color: #999999;
+}
+
+#semistatic-interior-page-nav li.selected {
+	background-color: #ffffff;
+}
+
+#semistatic-interior-page-nav li a {
+	color: #ffffff;
+	font-size: 0.9em;
+}
+
+#semistatic-interior-page-nav li.selected a {
+	color: #0f5b69;
+}
+
+.whatsup-date {
+	color: #E1731A;
+}
+
+#whatsup {
+	background-color: #5D5652;
+}
+
+#whatsup ul {
+	margin-left: 50px;
+	margin-right: 10px;
+	padding-top: 10px;
+}
+
+
+#whatsup li {
+	padding-bottom: 15px;
+	color: #E0E0DD;
+	list-style-type: none;
+}
+
+#whatsup li a {
+	color: #E1731A;
+}
+
 
 /**** Footer ****/
 .footer-frame {
@@ -249,8 +384,6 @@ body {
 	padding-top: 40px;
 	padding-bottom: 10px;
 }
-
-
 
 
 
@@ -312,6 +445,14 @@ body {
 
 .emsi-carousel-caption {
 	position: static !important;
+}
+
+.content2 {
+	padding-bottom: 20px;
+}
+
+article {
+	padding-bottom: 20px;
 }
 
 /**** 

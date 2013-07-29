@@ -54,13 +54,21 @@ public class ChurchController {
 	public String list(HttpServletRequest req, Model uiModel) {
 		
 		Locale locale = RequestContextUtils.getLocale(req);
+		
+		String userAgent = req.getHeader("User-Agent");
+		
+		boolean css3TreeSupport = true;
+		if (userAgent.contains("MSIE 7.0") || userAgent.contains("MSIE 8.0")) {
+			css3TreeSupport = false;
+		}
+		uiModel.addAttribute("css3TreeSupport", css3TreeSupport);
 
 		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), locale.getLanguage()));
 		uiModel.addAttribute("church_org", church_org);
 		
-		//List<LocalizedChurch> churches = churchService.findAll();
-		//uiModel.addAttribute("churches", churches);
-		//logger.info("No. of churches: " + churches.size());
+		List<LocalizedChurch> all_churches = churchService.findAllByLocale(locale.getLanguage());
+		uiModel.addAttribute("allChurches", all_churches);
+
 		return "cemi/list";
 	}
 
@@ -72,13 +80,28 @@ public class ChurchController {
 	
 	@RequestMapping(value = "/{id}/{page_id}", method = RequestMethod.GET)
 	public String show(HttpServletRequest req, @PathVariable("id") Long id, @PathVariable("page_id") String page_id, Model uiModel) {
+
+		String userAgent = req.getHeader("User-Agent");
+
+		boolean css3TreeSupport = true;
+		if (userAgent.contains("MSIE 7.0") || userAgent.contains("MSIE 8.0")) {
+			css3TreeSupport = false;
+		}
+		uiModel.addAttribute("css3TreeSupport", css3TreeSupport);
+		
+		
 		Locale locale = RequestContextUtils.getLocale(req);
 
+		
+		
 		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), locale.getLanguage()));
 		uiModel.addAttribute("church_org", church_org);
 
 		LocalizedChurch church = churchService.findById(new LocalizedChurchKey(new Long(id), locale.getLanguage()));
 		uiModel.addAttribute("church", church);
+		
+		Map<String, String> churchHierarchy = retrieveChurchHierarchy(church);
+		uiModel.addAttribute("churchHierarchy", churchHierarchy);
 		
 		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), locale.getLanguage(), page_id));
 		uiModel.addAttribute("content", content);
@@ -98,6 +121,21 @@ public class ChurchController {
 		
 		
 		return "cemi/show";
+	}
+
+	private Map<String, String> retrieveChurchHierarchy(LocalizedChurch church) {
+		
+		Map<String, String> hier = new HashMap<String, String>();
+
+		if (church != null) {
+			hier.put(church.getChurchPath(), church.getChurchPath());
+		
+			for (LocalizedChurchOrg org = church.getParentOrg(); org != null; org = org.getParentOrg()) {
+				hier.put(org.getChurchOrgPath(), org.getChurchOrgPath());
+			}
+		}
+		
+		return hier;
 	}
 
 	

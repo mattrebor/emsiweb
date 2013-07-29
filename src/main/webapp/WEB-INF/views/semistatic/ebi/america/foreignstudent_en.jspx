@@ -1,0 +1,26 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Evangelical Bible Institute (EBI)</span>
+	<br/>
+	<h4>EBI in America - Foreign Students</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+	
+		
+	<section>
+		<p>
+		The EBI has been granted the right by the Department of Immigration to issue I-20's to qualified students.
+		</p>
+	</section>
+</article>
+<!-- end English -->
+	

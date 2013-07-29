@@ -7,39 +7,153 @@
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
 
-
-
 	<spring:url value="/cemi" var="showPageUrl" />
 
+	<spring:message code="label_findachurch" var="labelFindAChurch" />
+	<spring:message code="label_cemi_findachurch_description" var="labelFindAChurchDescription" />
+	
 
-	<h2>Find A Church</h2>
-	<div>
-	<p>Map of churches goes here</p>
+	<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">${labelFindAChurch}</span>
 
-		<c:if test="${not empty churches }">
+<br/><br/>
 
-			<table id="list">
-				<thead>
-					<th>ID</th>
-					<th>Title</th>
-				</thead>
-				<tbody>
-					<c:forEach items="${churches}" var="church">
-						<tr>
-							<td>${church.id.churchId}</td>
-							<td><a href="${showPageUrl}/${church.id.churchId}">${church.churchPath}</a></td>
-						</tr>
-					</c:forEach>
-					
-				</tbody>
-			</table>
-		</c:if>
+${labelFindAChurchDescription}
 
-	</div>
+<br/><br/>
 
-<!-- 
-	<br/><br/>
-	<hr/>
-	<a href="${showPageUrl }?form">Create</a>
-	 -->
+<!-- Did this to avoid eclipse from parsing the javascript below and reporting false errors -->
+<jsp:element name="script">
+
+var marks = [
+<c:forEach items="${allChurches}" var="church">
+
+	<c:if test="${not empty church.address}">
+		{latLng:[${church.latitude}, ${church.longitude}], data: '<a href="${showPageUrl}/${church.id.churchId}">${church.churchDetails["menu_name"].value}</a><br/>${church.address}', church_name: '<a href="${showPageUrl}/${church.id.churchId}">${church.churchDetails["menu_name"].value}</a>'},
+	</c:if>
+</c:forEach>
+];
+</jsp:element>
+<script>
+
+$(function(){
+	$("#cemi-map-canvas").gmap3({
+		 map:{
+	            options:{
+	              center:[28.638352,-41.289063],
+	              zoom: 2,
+	              mapTypeId: google.maps.MapTypeId.TERRAIN
+	            }
+	          },		
+		marker: {
+			values:marks,
+			
+			options:{
+				draggable: false
+			},
+			
+			cluster:{
+	              radius: 10,
+	          		// This style will be used for clusters with more than 0 markers
+	          		0: {
+	          		  content: '<div class="cluster cluster-1">CLUSTER_COUNT</div>',
+	          			width: 53,
+	          			height: 52
+	          		},
+	          		// This style will be used for clusters with more than 20 markers
+	          		20: {
+	          		  content: '<div class="cluster cluster-2">CLUSTER_COUNT</div>',
+	          			width: 56,
+	          			height: 55
+	          		},
+	          		// This style will be used for clusters with more than 50 markers
+	          		50: {
+	          		  content: '<div class="cluster cluster-3">CLUSTER_COUNT</div>',
+	          			width: 66,
+	          			height: 65
+	          		},
+	          		events: {
+	                    click: function(cluster, event, context) {
+	                    	var map = $(this).gmap3("get");
+	                    	
+	                    	var infowindow = $(this).gmap3({get:{name:"infowindow"}});
+	                        if (infowindow){
+	                          infowindow.close();
+	                        }
+	                        
+	                        map.setCenter(cluster.main.getPosition());
+	                        map.setZoom(map.getZoom() + 3);
+	                    }, // click
+	          			mouseover: function(cluster, event, context){
+	          				 
+	                        // push content of every markers for the cluster
+	                       var all_data_markers ='';
+	                        $.each(context.data.markers, function(i, element){   
+	                            all_data_markers = all_data_markers + '<li>' + element.church_name + '</li>';
+	                        });
+	                        //alert(all_data_markers);
+	                        // add the infowindow
+	                        
+	                        
+	                        var map = $(this).gmap3("get"),
+	    			        infowindow = $(this).gmap3({get:{name:"infowindow"}});
+	                        
+	                        if (infowindow) {
+	                        	infowindow.close();
+	                        	//console.log("infowindow not null")
+	                        	infowindow.setPosition(cluster.main.getPosition());
+				                infowindow.setContent(all_data_markers);
+	                        	infowindow.open(map);
+
+	                        }
+	                        else {
+	                        	//console.log("infowindow is null")
+		                        $(this).gmap3(
+		                           {
+		                              infowindow:{
+		                                  latLng: cluster.main.getPosition(),
+		                                  options:{
+		                                   content: all_data_markers
+		                                 },
+		                            }
+		                        });
+	                        }
+	                    }, // mouseover
+	                    mouseout: function(){
+	                    	//console.log("closing");
+	                        var infowindow = $(this).gmap3({get:{name:"infowindow"}});
+	                        if (infowindow){
+	                          infowindow.close();
+	                        }
+	                    }, // mouseout
+	                } // events
+	        },		
+			
+			events:{
+			 
+				mouseover: function(marker, event, context){
+			    
+					var map = $(this).gmap3("get"),
+			        infowindow = $(this).gmap3({get:{name:"infowindow"}});
+
+		            if (infowindow){
+			                infowindow.open(map, marker);
+			                infowindow.setContent(context.data);
+			        } else {
+			                $(this).gmap3({
+			                  infowindow:{
+			                    anchor:marker, 
+			                    options:{content: context.data}
+			                  }
+			                });
+			        }
+			    }, // mouseover
+			}
+		}
+	});
+});
+
+</script>
+
+	<div id="cemi-map-canvas"><jsp:text/></div> 
+
 </div>

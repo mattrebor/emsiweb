@@ -29,19 +29,38 @@
 	<spring:url value="/cemi" var="showPageUrl"/>
 	<div id="cemi-interior-page-nav" class="emsi-navbar">
 		<ul>
-			<c:if test="${not empty contentMap['intro']}">
-				<li><a href="${showPageUrl}/${contentMap['intro'].id.churchId}/${contentMap['intro'].id.pageId}">${labelCemiBriefHistory}</a></li>
-			</c:if>
-			<c:if test="${not empty contentMap['minister']}">
-				<li><a href="${showPageUrl}/${contentMap['minister'].id.churchId}/${contentMap['minister'].id.pageId}">${labelCemiMinisterIntro}</a></li>
-			</c:if>
-			<c:if test="${not empty contentMap['schedule']}">
-				<li><a href="${showPageUrl}/${contentMap['schedule'].id.churchId}/${contentMap['schedule'].id.pageId}">${labelCemiChurchSchedule}</a></li>
-			</c:if>
-			<c:if test="${not empty contentMap['contactus']}">
+			<c:choose>
+				<c:when test="${not empty contentMap['intro']}">
+					<li><a href="${showPageUrl}/${contentMap['intro'].id.churchId}/${contentMap['intro'].id.pageId}">${labelCemiBriefHistory}</a></li>
+				</c:when>
+				<c:otherwise>
+					<li class="disabled">${labelCemiBriefHistory}</li>
+				</c:otherwise>
+			</c:choose>
+			<c:choose>
+				<c:when test="${not empty contentMap['minister']}">
+					<li><a href="${showPageUrl}/${contentMap['minister'].id.churchId}/${contentMap['minister'].id.pageId}">${labelCemiMinisterIntro}</a></li>
+				</c:when>
+				<c:otherwise>
+					<li class="disabled">${labelCemiMinisterIntro}</li>
+				</c:otherwise>
+			</c:choose>
+			<c:choose>
+				<c:when test="${not empty contentMap['schedule']}">
+					<li><a href="${showPageUrl}/${contentMap['schedule'].id.churchId}/${contentMap['schedule'].id.pageId}">${labelCemiChurchSchedule}</a></li>
+				</c:when>
+				<c:otherwise>
+					<li class="disabled">${labelCemiChurchSchedule}</li>
+				</c:otherwise>
+			</c:choose>
+			<c:choose>
+				<c:when test="${not empty contentMap['contactus']}">
 				<li><a href="${showPageUrl}/${contentMap['contactus'].id.churchId}/${contentMap['contactus'].id.pageId}">${labelCemiContactUs}</a></li>
-			</c:if>
-	
+				</c:when>
+				<c:otherwise>
+					<li class="disabled">${labelCemiContactUs}</li>
+				</c:otherwise>
+			</c:choose>
 		</ul>
 	</div>
 
@@ -52,5 +71,6 @@
 		${fn:replace(fn:replace(content.body, '/emsi/images/', imgBase), '/emsi/files/', imgBase2)}
 	</div>
 
+	<br/><br/>
 
 </div>

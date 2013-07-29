@@ -6,12 +6,16 @@ import java.util.Map;
 
 import javax.persistence.Access;
 import javax.persistence.AccessType;
+import javax.persistence.CascadeType;
 import javax.persistence.CollectionTable;
 import javax.persistence.Column;
 import javax.persistence.ElementCollection;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
+import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinTable;
+import javax.persistence.ManyToOne;
 import javax.persistence.MapKey;
 import javax.persistence.Table;
 import javax.persistence.Version;
@@ -30,9 +34,13 @@ public class LocalizedChurch implements Serializable {
 	private String church_path;
 	private int sortOrder;
 	private int version;
+	private String address;
+	private double latitude;
+	private double longitude;
 	
 	
 	Map<String, ChurchDetail> church_details;
+	private LocalizedChurchOrg parentOrg;
 		
 	
 	@EmbeddedId 
@@ -85,7 +93,49 @@ public class LocalizedChurch implements Serializable {
 	public void setChurchDetails(Map<String, ChurchDetail> church_details) {
 		this.church_details = church_details;
 	}
+	
+	@ManyToOne(cascade=CascadeType.ALL, fetch=FetchType.LAZY, optional=true)
+	@JoinTable(name = "localized_church_hierarchy", 
+		inverseJoinColumns = { @JoinColumn(name="parent_entity_id", referencedColumnName = "church_org_id"),
+            @JoinColumn(name = "locale", referencedColumnName = "locale")}
+	)
+	public LocalizedChurchOrg getParentOrg() {
+		return parentOrg;
+	}
+	
+	public void setParentOrg(LocalizedChurchOrg parentOrg) {
+		this.parentOrg = parentOrg;
+	}		
+	
+	@Column(name="address")
+	public String getAddress() {
+		return address;
+	}
+	
+	public void setAddress(String address) {
+		this.address = address;
+	}	
 
+	@Column(name="latitude")
+	public double getLatitude() {
+		return latitude;
+	}
+	
+	public void setLatitude(double latitude) {
+		this.latitude = latitude;
+	}
+	
+	@Column(name="longitude")
+	public double getLongitude() {
+		return longitude;
+	}
+	
+	public void setLongitude(double longitude) {
+		this.longitude = longitude;
+	}
+	
+	
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;

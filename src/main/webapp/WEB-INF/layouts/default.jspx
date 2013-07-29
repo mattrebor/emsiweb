@@ -10,6 +10,11 @@
 <jsp:directive.page contentType="text/html;charset=UTF-8" />
 <jsp:directive.page pageEncoding="UTF-8" />
 
+<c:set var="userLocale">
+	<c:set var="plocale">${pageContext.response.locale}</c:set>
+	<c:out value="${fn:replace(plocale, '_', '-')}" default="en" />
+</c:set>
+
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <!-- <meta http-equiv="X-UA-Compatible" content="IE=8" /> -->
@@ -51,6 +56,29 @@
 <script src="${jquery_ui_url}" type="text/javascript">
 	<jsp:text/>
 </script>
+
+
+<!-- Google Maps -->
+<!-- Force Chinese to be traditional chinese (zh-TW) for google maps -->
+<c:set var="googleMapLanguage">
+	<c:choose>
+		<c:when test="${userLocale eq 'zh'}">
+			<c:out value="${userLocale}-TW"/>
+		</c:when>
+		<c:otherwise>
+			<c:out value="${userLocale}" default="en" />
+		</c:otherwise>
+	</c:choose>
+</c:set>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcrMU-ClLgJuECYHc1Axc16HcZ6__sY6U&amp;sensor=false&amp;language=${googleMapLanguage}">	<jsp:text/></script>
+
+
+<!-- GMap3 -->
+<spring:url value="/resources/scripts/gmap3.js" var="gmap3_url" />
+<script src="${gmap3_url}" type="text/javascript">
+	<jsp:text/>
+</script>
+
 
 <!-- CKEditor -->
 <spring:url value="/resources/ckeditor/ckeditor.js" var="ckeditor_url" />

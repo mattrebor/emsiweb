@@ -1,0 +1,620 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Evangelical Bible Institute (EBI)</span> <br />
+	<h4>EBI in America - Curriculum</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+	<p>
+		國際福音神學院<br /> Evangelical Bible Institute<br /> ACADEMIC Year 2012 –
+		2013 <br />Spring Quarter (3/4/2013 - 5/23/2013)
+	</p>
+	<p style="line-height: 14pt" class="MsoNormal">
+		<b style="line-height: 14pt; font-size: 13px"><span lang="ZH-TW"
+			style="font-family: 華康細圓體">一</span></b><b
+			style="line-height: 14pt; font-size: 13px"><span lang="ZH-CN"
+			style="font-size: 11pt; font-family: SimSun">、</span></b><b
+			style="line-height: 14pt; font-size: 13px"><span lang="ZH-CN"
+			style="font-family: 華康細圓體">課程</span></b><b
+			style="line-height: 14pt; font-size: 13px"><span lang="ZH-CN"
+			style="font-family: 華康細圓體"> </span></b><b
+			style="line-height: 14pt; font-size: 13px"><span
+			style="font-family: Arial, sans-serif">Courses</span></b><b
+			style="line-height: 14pt; font-size: 13px"><span lang="ZH-CN"
+			style="font-family: SimSun">：</span></b>
+	</p>
+	<table class="MsoNormalTable" border="1" cellspacing="0"
+		cellpadding="0" 
+		style="margin-left: 19.4pt; border-collapse: collapse; border: none">
+		<thead>
+			<tr style="height: 31.9pt">
+				<td width="152" valign="top"
+					style="width: 114pt; border: 1pt solid windowtext; padding: 0in 1.4pt; height: 31.9pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<b><span lang="ZH-CN" style="font-family: SimSun">課</span></b><b><span
+							lang="ZH-CN"><br /> </span></b><b><span lang="ZH-CN"
+							style="font-family: SimSun">程</span></b><b></b>
+					</p>
+				</td>
+				<td width="208" valign="top"
+					style="width: 156pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0in 1.4pt; height: 31.9pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<b><span style="font-size: 14pt">Course/Dates</span></b>
+					</p>
+				</td>
+				<td width="204" valign="top"
+					style="width: 153pt; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0in 1.4pt; height: 31.9pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<b><span style="font-size: 14pt">Day/Time</span></b>
+					</p>
+				</td>
+				<td width="168" valign="top"
+					style="width: 1.75in; border-style: solid solid solid none; border-top-color: windowtext; border-right-color: windowtext; border-bottom-color: windowtext; border-top-width: 1pt; border-right-width: 1pt; border-bottom-width: 1pt; padding: 0in 1.4pt; height: 31.9pt">
+					<p class="MsoNormal"
+						style="margin: 0in -28.3pt 0.0001pt 0.25pt; text-indent: -1.55pt; line-height: 14pt">
+						<b><span style="font-size: 14pt"> Professor</span></b><b><span
+							style="font-size: 14pt"></span></b>
+					</p>
+				</td>
+			</tr>
+			<tr style="height: 35.5pt">
+				<td width="152" valign="top"
+					style="width: 114pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0in 1.4pt; height: 35.5pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<span class="shorttext"><span lang="ZH-TW"
+							style="font-family: SimSun">時</span></span><span class="shorttext"><span
+							style="font-family: SimSun"> <span lang="ZH-TW">代</span> <span
+								lang="ZH-TW">論</span></span></span>
+
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<b>(</b><b><span lang="ZH-CN"
+							style="font-size: 10pt; font-family: SimSun">密</span></b><b><span
+							lang="ZH-CN" style="font-size: 10pt"> </span></b><b><span
+							lang="ZH-CN" style="font-size: 10pt; font-family: SimSun">集</span></b><b><span
+							lang="ZH-CN" style="font-size: 10pt"> </span></b><b><span
+							lang="ZH-CN" style="font-size: 10pt; font-family: SimSun">課</span></b><b><span
+							style="font-size: 10pt">)</span></b>
+
+					</p>
+				</td>
+				<td width="208" valign="top"
+					style="width: 156pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 35.5pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						Dispensationalism</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<b>(Intensive Course)</b>
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i>3/11/2013-3/14/2013</i>
+					</p>
+				</td>
+				<td width="204" valign="top"
+					style="width: 153pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 35.5pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<span style="color: #0d0d0d">Monday – Thursday</span>
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i><span style="color: #0d0d0d">9:00 a.m.</span></i><span
+							style="color: #0d0d0d"> </span><i><span
+							style="color: #0d0d0d">– 12:00 noon</span></i>
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i><span style="color: #0d0d0d">1:00 p.m.</span></i><span
+							style="color: #0d0d0d"> </span><i><span
+							style="color: #0d0d0d">– 4:00 p.m.</span></i><i></i>
+					</p>
+				</td>
+				<td width="168" valign="top"
+					style="width: 1.75in; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 35.5pt">
+					<p class="MsoNormal"
+						style="margin-right: -28.3pt; line-height: 14pt">Luis C. Ruiz
+
+					</p>
+				</td>
+			</tr>
+			<tr style="height: 35.5pt">
+				<td width="152" valign="top"
+					style="width: 114pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0in 1.4pt; height: 35.5pt">
+					<p class="MsoNormal" align="center" style="text-align: center">
+						<span lang="ZH-CN" style="font-size: 11pt; font-family: SimSun">耶利米書</span><span
+							style="font-size: 11pt">/</span><span lang="ZH-CN"
+							style="font-size: 11pt; font-family: SimSun">耶利米哀歌</span><span
+							style="font-size: 11pt"></span>
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<b>(</b><b><span lang="ZH-CN"
+							style="font-size: 10pt; font-family: SimSun">密</span></b><b><span
+							lang="ZH-CN" style="font-size: 10pt"> </span></b><b><span
+							lang="ZH-CN" style="font-size: 10pt; font-family: SimSun">集</span></b><b><span
+							lang="ZH-CN" style="font-size: 10pt"> </span></b><b><span
+							lang="ZH-CN" style="font-size: 10pt; font-family: SimSun">課</span></b><b><span
+							style="font-size: 10pt">)</span></b>
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt"></p>
+				</td>
+				<td width="208" valign="top"
+					style="width: 156pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 35.5pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						Jeremiah/Lamentations</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<b>(Intensive Course)</b>
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i>4/8/2013 – 4/12/2013</i>
+					</p>
+				</td>
+				<td width="204" valign="top"
+					style="width: 153pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 35.5pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<span style="color: #0d0d0d">Monday – Friday</span>
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i><span style="color: #0d0d0d">9:00 a.m.</span></i><span
+							style="color: #0d0d0d"> </span><i><span
+							style="color: #0d0d0d">– 12:00 noon</span></i>
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i><span style="color: #0d0d0d">1:00 p.m.</span></i><span
+							style="color: #0d0d0d"> </span><i><span
+							style="color: #0d0d0d">– 3:00 p.m.</span></i><i></i>
+					</p>
+				</td>
+				<td width="168" valign="top"
+					style="width: 1.75in; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 35.5pt">
+					<p class="MsoNormal" align="center" style="text-align: center">
+						Gordon<br /> Franz
+
+					</p>
+				</td>
+			</tr>
+			<tr style="height: 32.35pt">
+				<td width="152" valign="top"
+					style="width: 114pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0in 1.4pt; height: 32.35pt">
+					<p class="MsoNormal">
+						<span class="shorttext"> </span><span class="shorttext"><span
+							lang="ZH-TW" style="font-family: SimSun">羅</span></span><span
+							class="shorttext"><span style="font-family: SimSun">
+								<span lang="ZH-TW">馬</span> <span lang="ZH-TW">書</span>
+						</span></span>
+
+					</p>
+					<p class="MsoNormal" align="center" style="text-align: center">
+						<b>(</b><b><span lang="ZH-CN"
+							style="font-size: 10pt; font-family: SimSun">密</span></b><b><span
+							lang="ZH-CN" style="font-size: 10pt"> </span></b><b><span
+							lang="ZH-CN" style="font-size: 10pt; font-family: SimSun">集</span></b><b><span
+							lang="ZH-CN" style="font-size: 10pt"> </span></b><b><span
+							lang="ZH-CN" style="font-size: 10pt; font-family: SimSun">課</span></b><b><span
+							style="font-size: 10pt">)</span></b>
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<span style="font-size: 10pt"> </span>
+					</p>
+				</td>
+				<td width="208" valign="top"
+					style="width: 156pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 32.35pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						Book of<br /> Romans
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<b>(Intensive Course)</b>
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i>5/13/2013 – 5/17/2013</i>
+					</p>
+				</td>
+				<td width="204" valign="top"
+					style="width: 153pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 32.35pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						Monday <span style="color: #0d0d0d">– </span>Friday
+
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i><span style="color: #0d0d0d">10:00 a.m.</span></i><span
+							style="color: #0d0d0d"> </span><i><span
+							style="color: #0d0d0d">– 12:00 noon</span></i>
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i><span style="color: #0d0d0d">1:00 p.m.</span></i><span
+							style="color: #0d0d0d"> </span><i><span
+							style="color: #0d0d0d">– 4:00 p.m.</span></i><i></i>
+					</p>
+				</td>
+				<td width="168" valign="top"
+					style="width: 1.75in; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 32.35pt">
+					<p class="MsoNormal"
+						style="margin-right: -28.3pt; line-height: 14pt">D. A. Waite</p>
+				</td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr style="height: 32.85pt">
+				<td width="152" valign="top"
+					style="width: 114pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0in 1.4pt; height: 32.85pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<span lang="ZH-TW" style="font-family: SimSun">英</span> <br /> <span
+							lang="ZH-TW" style="font-family: SimSun">語</span>
+
+					</p>
+				</td>
+				<td width="208" valign="top"
+					style="width: 156pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 32.85pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">English</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i>3/4/2013<br /> – 5/20/2013
+						</i>
+					</p>
+				</td>
+				<td width="204" valign="top"
+					style="width: 153pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 32.85pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">Monday</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i>10:00<br /> a.m. – 12:00 noon
+						</i>
+					</p>
+				</td>
+				<td width="168" valign="top"
+					style="width: 1.75in; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 32.85pt">
+					<p class="MsoNormal"
+						style="margin: 0in -28.3pt 0.0001pt 0in; text-indent: -1.3pt; line-height: 14pt">
+						Margaret<br /> Chiang
+
+					</p>
+				</td>
+			</tr>
+		</tbody>
+		<thead>
+			<tr style="height: 31.5pt">
+				<td width="152" valign="top"
+					style="width: 114pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0in 1.4pt; height: 31.5pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<span class="shorttext"><span lang="ZH-TW"
+							style="font-family: SimSun">教會行政</span></span><span class="shorttext"><br />
+							II</span>
+
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt"></p>
+				</td>
+				<td width="208" valign="top"
+					style="width: 156pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 31.5pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						Church<br /> Administration I
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i>3/5/2013-5/21/2013</i>
+					</p>
+				</td>
+				<td width="204" valign="top"
+					style="width: 153pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 31.5pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<span style="color: #0d0d0d">Tuesday</span>
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i><span style="color: #0d0d0d">10:00 a.m.</span></i><span
+							style="color: #0d0d0d"> </span><i><span
+							style="color: #0d0d0d">– 12:00 noon</span></i><i></i>
+					</p>
+				</td>
+				<td width="168" valign="top"
+					style="width: 1.75in; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 31.5pt">
+					<p class="MsoNormal" align="center" style="text-align: center">
+						Chu - Chun<br /> Lin
+
+					</p>
+				</td>
+			</tr>
+			<tr style="height: 31.9pt">
+				<td width="152" valign="top"
+					style="width: 114pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0in 1.4pt; height: 31.9pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<span lang="ZH-CN" style="font-family: SimSun">合</span> <span
+							lang="ZH-CN" style="font-family: SimSun">唱</span>
+
+					</p>
+				</td>
+				<td width="208" valign="top"
+					style="width: 156pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 31.9pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">Chorus</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i>3/7</i><i>/20</i><i>13 –</i><i> 5/23/20</i><i>13</i>
+					</p>
+				</td>
+				<td width="204" valign="top"
+					style="width: 153pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 31.9pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">Thursday</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i>10:00</i><i> a.m. – </i><i>12:00</i><i> noon</i><i></i>
+					</p>
+				</td>
+				<td width="168" valign="top"
+					style="width: 1.75in; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 31.9pt">
+					<p class="MsoNormal"
+						style="margin-right: -28.3pt; line-height: 14pt">Jing Huang</p>
+					<p class="MsoNormal" align="center"
+						style="margin-right: -28.3pt; text-align: center; text-indent: -1.4pt; line-height: 14pt">
+
+					</p>
+				</td>
+			</tr>
+			<tr style="height: 31pt">
+				<td width="152" valign="top"
+					style="width: 114pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0in 1.4pt; height: 31pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<span lang="ZH-CN" style="font-family: SimSun">合</span><span
+							lang="ZH-CN"> </span><span lang="ZH-CN"
+							style="font-family: SimSun">唱</span><span lang="ZH-CN"> </span><span
+							lang="ZH-CN" style="font-family: SimSun">指</span><span
+							lang="ZH-CN"><br /> </span><span lang="ZH-CN"
+							style="font-family: SimSun">揮</span>
+
+					</p>
+				</td>
+				<td width="208" valign="top"
+					style="width: 156pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 31pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						Choral<br /> Conducting
+					</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i>3/7</i><i>/20</i><i>13 –</i><i> 5/23/20</i><i>13</i>
+					</p>
+				</td>
+				<td width="204" valign="top"
+					style="width: 153pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 31pt">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">Thursday</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i>1:00</i><i> p.m.</i><br /> <i>– </i><i>2:00</i><i> </i><i>p.m.</i>
+					</p>
+				</td>
+				<td width="168" valign="top"
+					style="width: 1.75in; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 31pt">
+					<p class="MsoNormal"
+						style="margin-right: -28.3pt; line-height: 14pt">Jing Huang</p>
+				</td>
+			</tr>
+			<tr style="height: 0.5in">
+				<td width="152" valign="top"
+					style="width: 114pt; border-style: none solid solid; border-right-color: windowtext; border-bottom-color: windowtext; border-left-color: windowtext; border-right-width: 1pt; border-bottom-width: 1pt; border-left-width: 1pt; padding: 0in 1.4pt; height: 0.5in">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<span lang="ZH-TW" style="font-family: SimSun">聲</span> <span
+							lang="ZH-TW" style="font-family: SimSun">樂</span>
+
+					</p>
+				</td>
+				<td width="208" valign="top"
+					style="width: 156pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 0.5in">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">Voice</p>
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">
+						<i>3/7</i><i>/20</i><i>13 –</i><i> 5/23/20</i><i>13</i>
+					</p>
+				</td>
+				<td width="204" valign="top"
+					style="width: 153pt; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 0.5in">
+					<p class="MsoNormal" align="center"
+						style="text-align: center; line-height: 14pt">Thursday/Friday</p>
+					<p class="MsoNormal" style="line-height: 14pt">
+						<i> </i><i>(Individually Arranged)</i>
+					</p>
+				</td>
+				<td width="168" valign="top"
+					style="width: 1.75in; border-style: none solid solid none; border-bottom-color: windowtext; border-bottom-width: 1pt; border-right-color: windowtext; border-right-width: 1pt; padding: 0in 1.4pt; height: 0.5in">
+					<p class="MsoNormal"
+						style="margin: 0in -28.3pt 0.0001pt 0in; text-indent: -1.3pt; line-height: 14pt">
+						Jing Huang</p>
+				</td>
+			</tr>
+		</thead>
+	</table>
+	<p class="MsoNormal" style="line-height: 12pt">
+		<b style="line-height: 12pt; text-align: justify; font-size: 13px"><span
+			lang="ZH-TW" style="font-size: 11pt; font-family: 華康細圓體">二</span></b><b
+			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
+			lang="ZH-TW" style="font-size: 11pt; font-family: 華康中楷體">、</span></b><b
+			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
+			lang="ZH-CN" style="font-family: 華康細圓體">聲樂課</span></b><b
+			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
+			style="font-family: Arial, sans-serif">Voice Lessons</span></b><b
+			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
+			lang="ZH-TW" style="font-size: 10pt; font-family: 華康細圓體">：</span></b><span
+			style="line-height: 12pt; text-align: justify; font-size: x-small">
+			一對一的聲樂課是必修課程，請向任課教師報名，並自行與任課教師安排上課時間。 報名費: $55.00。 Individual Voice
+			Lesson (one credit) is a required subject, please register with the
+			instructor. You have to make an appointment for voice lesson with the
+			instructor individually. Registration fee: $55.00.
+			自費學生付學費，不用付報名費；有獎學金的學生付報名費；同工不用付學費, 但付報名費。 Students paying full
+			tuition do not need to pay registration fee but students under
+			scholarship must pay registration fee. Co-workers are free from
+			tuition fee but must pay registration fee.</span>
+	</p>
+	<p class="MsoNormal" style="text-align: justify; line-height: 12pt">
+		<b style="line-height: 12pt; font-size: 13px"><span lang="ZH-CN"
+			style="font-size: 11pt; font-family: SimSun">三</span></b><b
+			style="line-height: 12pt; font-size: 13px"><span lang="ZH-TW"
+			style="font-size: 11pt; font-family: 華康中楷體">、</span></b><b
+			style="line-height: 12pt; font-size: 13px"><span
+			style="font-family: 華康細圓體" lang="ZH-CN">學費</span></b><b
+			style="line-height: 12pt; font-size: 13px"><span
+			style="font-family: Arial, sans-serif">Tuition Fee</span></b><b
+			style="font-size: 13px"><span lang="ZH-TW"
+			style="font-size: 12pt; font-family: SimSun">：</span></b><span
+			lang="ZH-CN"
+			style="line-height: 12pt; font-size: 10pt; font-family: SimSun">全修生每學期</span><span
+			style="line-height: 12pt; font-size: 10pt; font-family: Optane">$</span><span
+			style="line-height: 12pt; font-size: 10pt; font-family: Optane">2</span><span
+			style="line-height: 12pt; font-size: 10pt; font-family: Optane">,</span><span
+			style="line-height: 12pt; font-size: 10pt; font-family: Optane">0</span><span
+			style="line-height: 12pt; font-size: 10pt; font-family: Optane">0</span><span
+			style="line-height: 12pt; font-size: 10pt; font-family: Optane">0.00</span><span
+			lang="ZH-TW"
+			style="line-height: 12pt; font-size: 10pt; font-family: MingLiU">。</span><span
+			style="line-height: 12pt; font-size: 10pt">Full time student </span><span
+			style="line-height: 12pt; font-size: 10pt">each </span><span
+			style="line-height: 12pt; font-size: 10pt">q</span><span
+			style="line-height: 12pt; font-size: 10pt">uarter</span><span
+			style="line-height: 12pt; font-size: 10pt"> $2,000.00.</span><b
+			style="line-height: 12pt; font-size: 13px"><span
+			style="font-size: 11pt; font-family: 華康中楷體"> </span></b>
+	</p>
+	<p class="MsoNormal" style="text-align: justify; line-height: 12pt">
+		<b><span lang="ZH-TW" style="font-size: 11pt; font-family: SimSun">四</span></b><b><span
+			lang="ZH-TW" style="font-size: 11pt; font-family: 華康中楷體">、</span></b><b><span
+			lang="ZH-CN" style="font-family: 華康細圓體">註冊</span></b><b><span
+			style="font-family: Arial, sans-serif">Registration</span></b><b><span
+			lang="ZH-CN" style="font-family: SimSun">：3</span></b><span
+			style="font-size: 10pt; font-family: 'Times New Roman', serif">/4</span><span
+			style="font-size: 10pt; font-family: 'Times New Roman', serif">/</span><span
+			style="font-size: 10pt; font-family: 'Times New Roman', serif">13</span><span
+			style="font-size: 10pt; font-family: 'Times New Roman', serif">
+		</span><span style="font-size: 10pt; font-family: 'Times New Roman', serif">
+			– 5/23/</span><span
+			style="font-size: 10pt; font-family: 'Times New Roman', serif">13</span><span
+			style="font-size: 10pt; font-family: 'Times New Roman', serif">
+		</span><span style="font-size: 10pt; font-family: Optane"> </span><span
+			style="font-size: 10pt; font-family: 華康細圓體" lang="ZH-TW">敬請準時</span><span
+			style="font-size: 10pt; font-family: MingLiU" lang="ZH-TW">。</span><span
+			style="font-size: 10pt; font-family: MingLiU" lang="ZH-TW"> </span><span
+			style="font-size: 10pt; font-family: 'Times New Roman', serif">Please
+			register on time</span><span style="font-size: 11pt; font-family: Optane">.</span><span
+			style="font-size: 11pt; font-family: 華康細圓體" lang="ZH-TW"> </span><b
+			style="font-size: 13px"><u><span
+				style="font-size: 10pt; font-family: 華康細圓體" lang="ZH-TW">罰金</span><span
+				style="font-size: 10pt; font-family: 'Times New Roman', serif">Late
+					Fee: $</span><span
+				style="font-size: 10pt; font-family: 'Times New Roman', serif">5</span><span
+				style="font-size: 10pt; font-family: 'Times New Roman', serif">0.00.</span></u></b>
+	</p>
+	<p class="MsoNormal" style="text-align: justify; line-height: 12pt">
+		<b style="font-size: 13px"><span lang="ZH-TW"
+			style="font-size: 11pt; font-family: SimSun">五</span><span
+			lang="ZH-TW" style="font-size: 11pt; font-family: 華康中楷體">、</span><span
+			lang="ZH-CN"
+			style="font-size: 12pt; letter-spacing: 1.2pt; font-family: 華康細圓體">備註</span><span
+			style="font-size: 12pt; font-family: Arial, sans-serif">Memo</span><span
+			lang="ZH-TW" style="font-size: 12pt; font-family: SimSun">：</span></b><span
+			style="font-size: x-small"><b>1.若您要保留選課資料，請自行影印備份存檔。It is
+				the student’s responsibility to keep his/her own record of the
+				courses taken. 2.関于旁聽：(1)同工最多可旁聽兩門神學課：一門免費；另一門須付50%的學費。Co-workers
+				may audit up to two theology courses: one for free, the other may
+				for 50% off. (2)學生和同工旁聽以前修過的課程，需付10%的學費。Students and co-workers may
+				audit the courses that they have taken previously. The cost for that
+				course is 10% of the regular tuition and no credit will be given
+				again. (3)校外旁聽生一律按學費收費。 External students have to pay the full
+				tuition fee to audit the courses.
+				（注意：所有旁聽者一律須登記注冊或經院長特許,任何人不得擅自進入課室！ Note: All those taking class for
+				audit have to register or receive Verbal Permission from Dr. Rev.
+				Yang!）</b></span>
+	</p>
+	<p class="MsoNormal">
+		<b>Basic Bible Courses </b>
+	</p>
+	<p class="MsoNormal">
+		Old Testament Survey <br /> New Testament Survey <br /> Life of
+		Christ <br /> Gospel of Matthew <br /> Doctrine of Salvation <br />
+		Book of Romans <br /> Book of Hebrews <br /> Basic Doctrines <br />
+		Anthropology <br /> Systematic Theology I <br /> Systematic Theology
+		II <br /> Personal Evangelism <br /> Church History <br /> General
+		Epistles <br /> Gospel of John <br /> Pentateuch <br /> How To Lead
+		a Bible Study
+	</p>
+	<p class="MsoNormal">
+		<b>Elective Courses </b>
+	</p>
+	<p class="MsoNormal">
+		Children, Youth &amp; Adult Christian Education <br /> Introduction
+		to Christian Education <br /> History of Religious Education <br />
+		Educational Psychology <br /> Field Studies <br /> Microteaching <br />
+		Counseling Techniques <br /> Biblical Psychology <br /> Contemporary
+		Psychology <br /> Music Theory <br /> Music History <br /> Church
+		Music <br /> Basic Piano Techniques <br /> Choral Conducting <br />
+		Chorus <br /> Computer <br /> Vocal <br /> Piano
+	</p>
+	<p class="MsoNormal">
+		<b>Advance Bible Courses</b>
+	</p>
+	<p class="MsoNormal">
+		Minor Prophets <br /> Hebrew I <br /> Hebrew II <br /> Greek I <br />
+		Greek II <br /> Contemporary Theology <br /> Bible and Science <br />
+		Hermeneutics <br /> Eschatology <br /> Homiletics <br /> Christian
+		Ethics <br /> Major Prophets <br /> Acts of the Apostles <br />
+		Pastoral Epistles <br /> Prison Epistles <br /> Introduction to
+		Bible <br /> Christian Evidences <br /> Biblical Archaeology <br />
+		I &amp; II Samuel <br /> Psalms <br /> Cults and Religions <br />
+		Educational Ministry <br /> Daniel <br /> Ezekiel <br /> Isaiah (6)<br />
+		Revelation <br /> Old Testament Poetical Books <br /> I &amp; II
+		Kings <br /> Christian Philosophy <br /> Book of Joshua <br />
+		Apologetics <br /> Missionlogy <br /> Biblical Prophecy <br />
+		Pastoral Care <br /> Genesis <br /> Creationism <br /> Pneumatology
+		<br /> Christology <br /> Biblical Geography <br /> Biblical Logic
+		<br /> King James Bible Defense
+	</p>
+	<p>
+		<span lang="EN-US" style="font-size: 13px"><p>
+				<span
+					style="font-size: small; font-family: 'Times New Roman'; color: #000000"><span
+					style="font-size: 13px"> </span> </span>
+			</p></span><span lang="EN-US" style="font-size: 13px"><p>
+				<span
+					style="font-size: small; font-family: 'Times New Roman'; color: #000000">
+				</span>
+			</p></span>
+	</p>
+
+</article>
+<!-- end English -->

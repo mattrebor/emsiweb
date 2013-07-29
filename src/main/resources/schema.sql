@@ -7,7 +7,10 @@ create table church (
 	church_id int not null auto_increment,
 	church_path varchar(120) not null,
 	enabled int default 1,
-	sort_order int not null default 0,	
+	sort_order int not null default 0,
+	address varchar(200),
+	latitude double,
+	longitude double,
 	version int not null default 0,
 	primary key (church_id)
 );
@@ -65,7 +68,7 @@ create table locales (
 
 drop view if exists localized_church;
 create view localized_church
-as select distinct c.church_id, l.locale, c.church_path, c.version, c.enabled, c.sort_order
+as select distinct c.church_id, l.locale, c.church_path, c.address, c.latitude, c.longitude, c.version, c.enabled, c.sort_order
 from church c, locales l;
 
 

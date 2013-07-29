@@ -3,7 +3,6 @@ package org.emsionline.emsiweb.domain;
 import static javax.persistence.GenerationType.IDENTITY;
 
 import java.io.Serializable;
-import java.util.List;
 import java.util.Map;
 
 import javax.persistence.CollectionTable;
@@ -17,7 +16,6 @@ import javax.persistence.JoinColumn;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToOne;
 import javax.persistence.MapKey;
-import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Version;
 
@@ -38,7 +36,7 @@ public class Church implements Serializable {
 	private ChurchOrg church_org;
 	private int sort_order;
 	private Map<String, ChurchDetail> church_details;
-	private Map<String, ChurchContent> church_content;
+	//private Map<String, ChurchContent> church_content;
 
 	
 	

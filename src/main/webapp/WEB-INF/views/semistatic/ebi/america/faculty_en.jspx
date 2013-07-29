@@ -1,0 +1,42 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+	
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Evangelical Bible Institute (EBI)</span>
+	<br/>
+	<h4>EBI in America - Faculty</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+	
+		
+	<section>
+		<p>
+<b>Dr. &amp; Rev. Moses Yang (President)</b><br/>
+Columbia International University (M.A., D.D.)<br/><br/>
+
+<b>Dr. &amp; Rev. Paul Tan</b><br/>
+Grace Theological Seminary (Th.D.)<br/><br/>
+
+<b>Dr. &amp; Rev. Stephen Hosea</b><br/>
+Azusa Pacific University (Ph.D.)<br/><br/>
+
+<b>Dr. Lois Chan</b><br/>
+Trinity Theological Seminary (Ph.D.)<br/><br/>
+
+<b>Dr. &amp; Rev. Peter Au</b><br/>
+Dallas Theological Seminary (Ph.D.)<br/><br/>
+
+<b>Dr. Jing Huang</b><br/>
+State University of New York at Stony Brook (DMA)<br/><br/>
+</p>
+	</section>
+</article>
+<!-- end English -->
+	
