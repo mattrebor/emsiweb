@@ -1,5 +1,7 @@
 var App = function() {
 	
+	var _basePath = ""; // will be set to something like "/emsiweb"
+	
 	// returns true if str1 starts with str2
 	var _startsWith = function(str1, str2) {
 		try {
@@ -9,7 +11,15 @@ var App = function() {
 		}
 	};
 	
-	
+	// returns true if str1 ends with str2
+	var _endsWith = function(str1, str2) {
+		try {
+			var d = str1.length - str2.length;
+			return d >= 0 && str1.lastIndexOf(str2) === d;
+		} catch (e) {
+			return false;
+		}
+	};
 	
 	
 	// Setup selected class on left nav.
@@ -84,6 +94,12 @@ var App = function() {
 		});
 	};
 	
+	var _setupBasePath = function(initObj) {
+		_basePath = initObj.basePath;
+		if (_endsWith(_basePath, "/")) {
+			_basePath = _basePath.substring(0, _basePath.length-1);
+		}
+	};
 	
 	return {
 		init: function (initObj) {
@@ -91,6 +107,11 @@ var App = function() {
 			_setupCemiInterioNavSelectedItem();
 			_setupChangeLangLink();
 			_setupLogoClick(initObj);
+			_setupBasePath(initObj);
+		},
+		
+		getBasePath: function () {
+			return _basePath;
 		}
 	};
 }();

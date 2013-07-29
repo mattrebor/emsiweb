@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+	
+	<definition name="orderform/*" extends="default-two-col">
+		<put-attribute name="menu-content" value="/WEB-INF/views/orderform/left-nav.jspx" cascade="true"/>
+		<put-attribute name="body-content" value="/WEB-INF/views/orderform/{1}.jspx" cascade="true"/>
+	</definition>
+
+</tiles-definitions>
