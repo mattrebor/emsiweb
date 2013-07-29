@@ -115,6 +115,7 @@
 <spring:url value="/resources/scripts/app/app.js"
 	var="app_js"/>
 <spring:url value="/home" var="homeUrl"/>
+<spring:url value="/" var="basePath"/>
 <script type="text/javascript" src="${app_js}">
 	<jsp:text/>
 </script>
@@ -122,6 +123,7 @@
 	$(document).ready(function () {
 		App.init({
 			homeUrl: "${homeUrl}"
+			, basePath: "${basePath}"
 		});
 	});
 </script>
