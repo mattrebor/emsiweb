@@ -17,6 +17,7 @@
 	<spring:message code="label_ceom_leftnav_contact_us" var="labelContactUs"/>
 	
 	
+	<spring:url var="ceomIntroUrl" value="/ceom/intro"/>
 	<spring:url var="ceomChurchesUrl" value="/ceom/churches"/>
 	<spring:url var="ceomMinistriesUrl" value="/ceom/ministries"/>
 	<spring:url var="ceomActivitiesUrl" value="/ceom/activities"/>
@@ -26,7 +27,7 @@
 	<spring:url var="ceomContactUrl" value="/ceom/contactus"/>
 	
 	<ul>
-		<li class="selected"><a href="${ceomIntroUrl}">${labelIntro}</a></li>
+		<li><a href="${ceomIntroUrl}">${labelIntro}</a></li>
 		<li><a href="${ceomChurchesUrl}">${labelMissionChurches}</a></li>
 		<li><a href="${ceomMinistriesUrl}">${labelMissionMinistries}</a></li>
 		<li><a href="${ceomActivitiesUrl}">${labelMissionActivities}</a></li>
