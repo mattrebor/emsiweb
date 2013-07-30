@@ -1,26 +1,47 @@
 <!-- English -->
-<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:tiles="http://tiles.apache.org/tags-tiles"
 	xmlns:spring="http://www.springframework.org/tags">
-	
+
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
 	<span
 		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
-		Evangelical Bible Institute (EBI)</span>
-	<br/>
+		Evangelical Bible Institute (EBI)</span> <br />
 	<h4>General Information - Purpose</h4>
 
 	<tiles:insertAttribute name="interior-nav" ignore="false" />
 
-	<spring:url var="landingPageImageUrl" value="/images/ebi/ebi_landing.jpg"/>
-	
-	<img src="${landingPageImageUrl}" 
-			style="float: left; margin-right: 15px" height="300px" width="300px"/>
-		
+	<spring:url var="landingPageImageUrl"
+		value="/images/ebi/ebi_landing.jpg" />
+
+	<img src="${landingPageImageUrl}"
+		style="float: left; margin-right: 15px" height="300px" width="300px" />
+
 	<section>
-		<p>Text goes here</p>
-		
+		<p>The Evangelical Bible Institute exists to prepare men and women
+			for selected vocations in Christian ministry. It specializes in
+			training pastors, missionaries and Christian educators. In addition
+			to this primary objective, the Evangelical Bible Institute seeks:</p>
+<p>
+		1. To encourage the student to sustain a life of personal and
+		ecclesiastical separation in conformity with biblical principles.<br/>
+		2. To help the student to gain a deep Christian sense of value for his
+		spiritual life and to develop a well-rounded wholesome Christian
+		personality through a greater knowledge of the inspired Word of God.<br/>
+		3. To provide the student with an intensive concentration in the
+		Bible-centered curricula and to stimulate his interest in integrating
+		all knowledge for effective Christian testimony.<br/>
+		4. To acquaint the
+		student with the basic tools and techniques of research ordinarily
+		associated with the field of Bible and theology; to teach him to
+		engage in independent study; to encourage him to interpret his
+		findings within the framework of a biblical world-view and their
+		implications for contemporary life situation.<br/> 
+		5. To challenge the
+		student to practice those particular skills that are necessary in his
+		chosen field of Christian service.
+		</p>
 	</section>
 </article>
 <!-- end English -->

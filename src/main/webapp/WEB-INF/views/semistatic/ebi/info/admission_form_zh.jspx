@@ -1,32 +1,25 @@
 <!-- English -->
-<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:tiles="http://tiles.apache.org/tags-tiles"
 	xmlns:spring="http://www.springframework.org/tags">
-	
+
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
-	
 	<span
 		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
-		Evangelical Bible Institute (EBI)</span>
-	<br/>
-	<h4>EBI in Europe - Lecturers</h4>
+		國際福音神學院</span> <br />
+	<h4>概況 - 入學申請表</h4>
 
 	<tiles:insertAttribute name="interior-nav" ignore="false" />
 
-	
-		
+	<spring:url var="ebiAdmissionFormUrl" value="/resources/images/ebi/EBI_application_form_Chinese.pdf"/>	
+
+
 	<section>
-		<p>
-Rev. Mou-Cheung Chan ( B. A.)<br/>
-<br/>
-Rev. Jian Wei Ye ( B. A.)<br/>
-<br/>
-Rev. Yong Chun Ye ( B. A.)<br/>
-<br/>
-Miss Chu Chun Lin ( B. A.)<br/>
+	<p>美洲總院入學申請表</p>
+	<p>
+請點選此處下載申請表：<a href="${ebiAdmissionFormUrl}">入學申請表</a>
 </p>
 	</section>
 </article>
 <!-- end English -->
-	

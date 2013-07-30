@@ -1,0 +1,37 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Evangelical Bible Institute (EBI)</span> <br />
+	<h4>General Information - Admissions</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+
+
+	<section>
+	<p>
+		INSTRUCTIONS FOR ADMISSION APPLICATION<br/>
+	</p>
+		<ol>
+		
+<li>Complete and return the application form, accompanied by a $100.00 non-refundable application fee. If there’s a rush delivery of the I-20, an additional postage of $100.00 will be charged. ( If the visa is not granted, the application fee and additional postage will not be refunded).</li>
+<li>Enclosed with the application your recent photographs (2”X 2 1/2”), printing on the back of each your name and address.</li>
+<li>Type or print your name in the blank on the Pastor/Church Official Recommendation form and give to your pastor to complete. A pastor or church official can complete the recommendation. This must be mailed to us directly from the person writing the recommendation.</li>
+<li>Submit one brief Personal Testimony essay concerning your conversion to Christ. The testimony should be at least 500 words long.</li>
+<li>Submit a second essay “ The Lord’s Call into Full-Time Christian Ministry Testimony”. Evangelical Bible Institute only accepts for admission those who are clear of God’s call and leading to full-time ministry. The testimony should be at least 500 words long.</li>
+<li>Submit the transcript and diploma of the highest educational attainment that you have received.</li>
+<li>Applicants who are with the F-1 visa are required to be full-time students, serving full-time in Christian ministry. Students are not permitted to seek employment outside of the school.</li>
+<li>Students cannot be absent more than a third of the time to receive credits for any given course.</li>
+<li>In accordance to government regulations, before E.B.I. can issue I-20, the applicant must first furnish evidence of adequate financial resources.</li>
+<li>Before enrollment, the student must notify the school of their visa status.</li>
+<li>The student should submit their health form.</li>
+</ol>
+	</section>
+</article>
+<!-- end English -->

@@ -10,7 +10,7 @@
 		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
 		國際福音神學院</span>
 	<br/>
-	<h4>EBI in Europe (zh) - 聯絡</h4>
+	<h4>歐洲分院 - 聯絡</h4>
 
 	<tiles:insertAttribute name="interior-nav" ignore="false" />
 
@@ -19,7 +19,13 @@
 	<section>
 		<p>
 
-TEXT GOES HERE
+C/Las Carolinas 10,28039 Madrid Spain<br/> 
+<a href="http://www.emsionline.org">http://www.emsionline.org</a> <br/>
+電郵: <a href="mailto:ebiineuro@gmail.com">ebiineuro@gmail.com</a><br/>
+<br/>
+院長: 李月雲牧師<br/>
+電話: 91-459-5775, 450-7306<br/> 
+傳真: 91-459-5844<br/>
 </p>
 	</section>
 </article>

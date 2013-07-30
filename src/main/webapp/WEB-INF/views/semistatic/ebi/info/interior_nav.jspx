@@ -2,18 +2,23 @@
 	xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:spring="http://www.springframework.org/tags">
 	
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
 	
 	<spring:message code="label_ebi_info_purpose" var="labelEbiInfoPurpose"/>
 	<spring:message code="label_ebi_info_admissions" var="labelEbiInfoAdmissions"/>
 	<spring:message code="label_ebi_info_entrancereq" var="labelEbiInfoEntraceReq"/>
 	<spring:message code="label_ebi_info_admissionform" var="labelEbiInfoAdmissionForm"/>
 	
-	<spring:url var="ebiGeneralInfoUrl" value="/ebi/info/purpose"/>	
+	<spring:url var="ebiGeneralInfoPurposeUrl" value="/ebi/info/purpose"/>	
+	<spring:url var="ebiGeneralInfoAdmissionsUrl" value="/ebi/info/admissions"/>	
+	<spring:url var="ebiGeneralInfoEntranceReqUrl" value="/ebi/info/entrance_requirements"/>	
+	<spring:url var="ebiGeneralInfoAdmissionFormUrl" value="/ebi/info/admission_form"/>	
 	
 	<ul>
-		<li><a href="${ebiGeneralInfoUrl}">${labelEbiInfoPurpose}</a></li>
-		<li><a href="/foo">${labelEbiInfoAdmissions}</a></li>
-		<li><a href="/foo">${labelEbiInfoEntraceReq}</a></li>
-		<li><a href="/foo">${labelEbiInfoAdmissionForm}</a></li>
+		<li><a href="${ebiGeneralInfoPurposeUrl}">${labelEbiInfoPurpose}</a></li>
+		<li><a href="${ebiGeneralInfoAdmissionsUrl}">${labelEbiInfoAdmissions}</a></li>
+		<li><a href="${ebiGeneralInfoEntranceReqUrl}">${labelEbiInfoEntraceReq}</a></li>
+		<li><a href="${ebiGeneralInfoAdmissionFormUrl}">${labelEbiInfoAdmissionForm}</a></li>
 	</ul>
 </div>

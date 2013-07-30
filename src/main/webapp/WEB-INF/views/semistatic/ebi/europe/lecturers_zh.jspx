@@ -10,7 +10,7 @@
 		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
 		國際福音神學院</span>
 	<br/>
-	<h4>EBI in Europe - 講師</h4>
+	<h4>歐洲分院 - 講師</h4>
 
 	<tiles:insertAttribute name="interior-nav" ignore="false" />
 
@@ -18,7 +18,17 @@
 		
 	<section>
 		<p>
-TEXT GOES HERE
+陳茂祥牧師<br/>
+聖經研究學士( B. A.)<br/>
+<br/>
+葉建偉牧師<br/> 
+聖經研究學士( B. A.)<br/>
+<br/>
+葉永春牧師<br/> 
+聖經研究學士( B. A.)<br/>
+<br/>
+林竹君講師<br/> 
+聖經研究學士( B. A.)<br/>
 </p>
 	</section>
 </article>
