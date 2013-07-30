@@ -1,32 +1,24 @@
 <!-- English -->
-<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page" 	
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:tiles="http://tiles.apache.org/tags-tiles"
 	xmlns:spring="http://www.springframework.org/tags">
-	
+
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
-	
 	<span
 		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
-		Evangelical Bible Institute (EBI)</span>
-	<br/>
-	<h4>EBI in Europe - Lecturers</h4>
+		Evangelical Bible Institute (EBI)</span> <br />
+	<h4>General Information - Admission Form</h4>
 
 	<tiles:insertAttribute name="interior-nav" ignore="false" />
 
-	
-		
+	<spring:url var="ebiAdmissionFormUrl" value="/resources/images/ebi/EBI English application form.pdf"/>	
+
+
 	<section>
-		<p>
-Rev. Mou-Cheung Chan ( B. A.)<br/>
-<br/>
-Rev. Jian Wei Ye ( B. A.)<br/>
-<br/>
-Rev. Yong Chun Ye ( B. A.)<br/>
-<br/>
-Miss Chu Chun Lin ( B. A.)<br/>
+	<p>
+<a href="${ebiAdmissionFormUrl}">Download Admission Form</a>
 </p>
 	</section>
 </article>
 <!-- end English -->
-	
