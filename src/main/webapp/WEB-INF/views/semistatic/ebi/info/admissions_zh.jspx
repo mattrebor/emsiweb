@@ -1,0 +1,375 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		國際福音神學院</span> <br />
+	<h4>概況 - 註冊須知</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+
+	<section>
+		<p>
+			<span style="color: #000000">
+				<b><span style="font-size: 16pt; line-height: 150%; font-family: 新細明體">美洲總院申請註冊須知</span></b>
+			</span>
+		</p>
+		<p>
+			<span style="color: #000000"><b><span
+					style="font-size: 16pt; line-height: 150%" lang="EN-US"></span></b></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span lang="EN-US"><span><span
+					style="font-family: Times New Roman"><span
+						style="color: #000000"><span style="font-size: small">1.</span><span
+							style="font-family: 'Times New Roman'"> </span></span></span></span></span><span
+				style="font-size: small"><span style="font-family: 新細明體"><span
+					style="color: #000000">填妥入學申請表格，連同報名費</span></span><span
+				style="color: red" lang="EN-US"><span
+					style="font-family: Times New Roman">US$100.00</span></span><span
+				style="color: #000000"><span style="font-family: 新細明體">寄回本院。若需以快郵寄發</span><span
+					lang="EN-US"><span style="font-family: Times New Roman">I-20</span></span><span
+					style="font-family: 新細明體">，請預付郵費</span></span><span style="color: red"
+				lang="EN-US"><span style="font-family: Times New Roman">US$100.00</span></span><span
+				style="color: #000000"><span style="font-family: 新細明體">。</span></span></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span style="font-size: small"><span style="color: #000000"><span
+					style="font-family: 新細明體"> </span><span lang="EN-US"><span
+						style="font-family: Times New Roman">(</span></span><span
+					style="font-family: 新細明體">若入學申請或簽證沒獲准，報名費和郵費恕不退還</span><span
+					lang="EN-US"><span style="font-family: Times New Roman">)
+					</span></span></span></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span lang="EN-US"><span><span
+					style="font-family: Times New Roman"><span
+						style="color: #000000"><span style="font-size: small">2.</span><span
+							style="font-family: 'Times New Roman'"> </span></span></span></span></span><span
+				style="font-family: 新細明體"><span
+				style="font-size: small; color: #000000">附最近半身照片兩張，一張貼在申請表上，一張背面寫上姓名和地址，夾在申請表的左上角。</span></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span lang="EN-US"><span><span
+					style="font-family: Times New Roman"><span
+						style="color: #000000"><span style="font-size: small">3.</span><span
+							style="font-family: 'Times New Roman'"> </span></span></span></span></span><span
+				style="font-family: 新細明體"><span
+				style="font-size: small; color: #000000">用正楷填寫中英文姓名於推薦書上。推薦人必須是牧師或教會長執（非申請人的家屬），推薦書</span></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span style="font-family: 新細明體"><span
+				style="font-size: small; color: #000000"> 由推薦人填寫簽名後直接寄回本院。</span></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span lang="EN-US"><span><span
+					style="font-family: Times New Roman"><span
+						style="color: #000000"><span style="font-size: small">4.</span><span
+							style="font-family: 'Times New Roman'"> </span></span></span></span></span><span
+				style="font-family: 新細明體"><span
+				style="font-size: small; color: #000000">得救見證一份（請用有格稿紙，至少五百字）。</span></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span lang="EN-US"><span><span
+					style="font-family: Times New Roman"><span
+						style="color: #000000"><span style="font-size: small">5.</span><span
+							style="font-family: 'Times New Roman'"> </span></span></span></span></span><span
+				style="font-family: 新細明體"><span
+				style="font-size: small; color: #000000">蒙召見證一份（請用有格稿紙，至少五百字），本院只接受清楚蒙召，全時間事奉的基督徒。</span></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span lang="EN-US"><span><span
+					style="font-family: Times New Roman"><span
+						style="color: #000000"><span style="font-size: small">6.</span><span
+							style="font-family: 'Times New Roman'"> </span></span></span></span></span><span
+				style="font-family: 新細明體"><span
+				style="font-size: small; color: #000000">申請人最高學歷之畢業證書和成績單。</span></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span lang="EN-US"><span><span
+					style="font-family: Times New Roman"><span
+						style="color: #000000"><span style="font-size: small">7.</span><span
+							style="font-family: 'Times New Roman'"> </span></span></span></span></span><span
+				style="font-size: small"><span style="color: #000000"><span
+					style="font-family: 新細明體">持</span><span lang="EN-US"><span
+						style="font-family: Times New Roman">F-1</span></span><span
+					style="font-family: 新細明體">簽證入境者必須是全修生，依據美國移民局規定，不可在校外工作。</span></span></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span lang="EN-US"><span><span
+					style="font-family: Times New Roman"><span
+						style="color: #000000"><span style="font-size: small">8.</span><span
+							style="font-family: 'Times New Roman'"> </span></span></span></span></span><span
+				style="font-family: 新細明體"><span
+				style="font-size: small; color: #000000">學生必須到課滿三分之二以上，才可獲得學分。</span></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span lang="EN-US"><span><span
+					style="font-family: Times New Roman"><span
+						style="color: #000000"><span style="font-size: small">9.</span><span
+							style="font-family: 'Times New Roman'"> </span></span></span></span></span><span
+				style="font-size: small"><span style="color: #000000"><span
+					style="font-family: 新細明體">在本院核發</span><span lang="EN-US"><span
+						style="font-family: Times New Roman">I-20</span></span><span
+					style="font-family: 新細明體">之前，根據政府規定，申請人必須呈繳一份本人或經濟擔保人的本國存款證明書，</span></span></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span style="font-size: small"><span style="color: #000000"><span
+					style="font-family: 新細明體"> 以證明有足夠的財力支持該生在美的生活和學習。</span></span></span><span
+				style="font-size: small"><span style="color: red"
+				lang="EN-US"><span style="font-family: Times New Roman">(</span></span><span
+				style="color: red; font-family: 新細明體">中國大陸學生申請</span><span
+				style="color: red" lang="EN-US"><span
+					style="font-family: Times New Roman">F1</span></span><span
+				style="color: red; font-family: 新細明體">者，必須繳交15,000.00至</span><span
+				style="color: red" lang="EN-US"><span
+					style="font-family: Times New Roman">30,000.00</span></span></span>
+		</p>
+		<p>
+			<span style="font-size: small"><span style="color: red"
+				lang="EN-US"><span style="font-family: Times New Roman">
+				</span></span><span style="color: red; font-family: 新細明體">美金的入學保證金，畢業後無息償還。</span><span
+				style="color: red" lang="EN-US"><span
+					style="font-family: Times New Roman">)</span></span></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span lang="EN-US"><span><span
+					style="font-family: Times New Roman"><span
+						style="color: #000000"><span style="font-size: small">10.</span><span
+							style="font-family: 'Times New Roman'"> </span></span></span></span></span><span
+				style="font-family: 新細明體"><span
+				style="font-size: small; color: #000000">學生入學之前必須聲明是以何身份（簽證）前來或居留美國。</span></span>
+		</p>
+		<p
+			style="text-justify: inter-ideograph; margin: 0cm 0cm 0pt 18pt; text-indent: -18pt; line-height: 150%; text-align: justify; tab-stops: list 18.0pt"
+			class="MsoNormal">
+			<span lang="EN-US"><span><span
+					style="font-family: Times New Roman"><span
+						style="color: #000000"><span style="font-size: small">11.</span><span
+							style="font-family: 'Times New Roman'"> </span></span></span></span></span><span
+				style="font-family: 新細明體"><span
+				style="font-size: small; color: #000000">呈繳醫院正式簽發的「身體健康調查表」。</span></span>
+		</p>
+		<p>
+			<span style="font-size: 16pt; font-family: 文鼎ＰＯＰ－２">
+				<span style="color: #000000">
+					<br /> 國際福音神學院歐洲分院<span lang="EN-US">-</span>西班牙<br />
+				</span>
+			</span>
+			<span style="color: #000000">
+				<b>
+					<span style="font-size: 16pt; font-family: 文鼎中楷簡; border: windowtext 1pt solid; padding: 0cm"><br />
+						招 生 
+					</span>
+				</b>
+			</span>
+		</p>
+		<p>
+			<span style="color: #000000">
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">1.</span>
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡">全修生：<br />
+					申請者必須為重生得救，清楚蒙召，願意獻身事主，具有良<br /> 好品德的基督徒。每年至少修讀
+					<span lang="EN-US">36</span>個學分。申請人除填答本院入學申請<br />
+					書等學籍資料外，必須附上得救見證和蒙召見證各一篇，及由所屬教會<br /> 之牧者推薦，並經院方面議審核通過。 
+				</span>
+			</span>
+		</p>
+		<p>
+			<span style="color: #000000">
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">2.</span>
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡">選修生：<br />
+					在所屬教會擔任聖工職責，且由所屬教會牧者推薦。每年至少修
+				</span>
+			</span>
+			<span style="font-size: 14pt; font-family: 文鼎中楷簡">
+				<span style="color: #000000">讀<span lang="EN-US">6</span>個學分。</span>
+			</span>
+		</p>
+		<p>
+			<span style="color: #000000">
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">3.</span>
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡">旁聽生：<br />
+					有心追求聖經知識的基督徒。 </span>
+			</span>
+		</p>
+		<p>
+			<span style="color: #000000">
+				<b><span style="font-size: 16pt; font-family: 文鼎中楷簡; border: windowtext 1pt solid; padding: 0cm">學<span
+						lang="EN-US"><span> </span></span>費
+				</span></b>
+			</span>
+		</p>
+		<p>
+			一學分<span lang="EN-US">50</span>歐元，一學科<span lang="EN-US">2</span>學分<span
+				lang="EN-US">100</span>歐元，<span lang="EN-US">3</span>學分<span
+				lang="EN-US">150</span>歐元。
+		</p>
+		<p>
+			<span style="color: #000000">
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">1.</span>
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡">全修生：一學年學費<span style="color: black" lang="EN-US">1,500</span>歐元（不包括住宿、膳食）。<br /></span>
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">(</span>
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡">限生命堂會友<span
+					lang="EN-US">,</span>經牧者推薦<span lang="EN-US">,</span>並通過審核及試讀者<span
+					lang="EN-US">) </span>
+				</span>
+			</span>
+		</p>
+		<p>
+			
+			<span style="color: #000000">
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">2.</span>
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡">選修生：一學科<span
+					lang="EN-US">100</span>歐元。 </span>
+			</span>
+		</p>
+		<p>
+			<span style="color: #000000"><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">3.</span><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡">旁聽生：一學科<span
+					lang="EN-US">100</span>歐元，無學分。</span></span> 
+		</p>
+		<p>
+			<span style="color: #000000"><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">4.</span><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡">生命堂會友選修、旁聽，學費減收一半。
+</span></span>
+			
+		</p>
+		<p>
+			<span style="color: #000000"><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">5.</span><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡">選修生、旁聽生，若為本年度的基甸勇士，免學費。
+			</span></span>
+			
+		</p>
+		<p>
+			<span style="color: #000000"><b><span
+					style="font-size: 16pt; font-family: 文鼎中楷簡; border: windowtext 1pt solid; padding: 0cm">獎助學金</span></b><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡"></span></span>
+		</p>
+		<p>本院歡迎熱心愛主人士提供獎助學金，以供全修學生申請。</p>
+		<p>
+			<span style="color: #000000"><b><span
+					style="font-size: 16pt; font-family: 文鼎中楷簡; border: windowtext 1pt solid; padding: 0cm">雜<span
+						lang="EN-US"><span> </span></span>費
+				</span></b><span style="font-size: 14pt; font-family: 文鼎中楷簡"></span></span>
+		</p>
+		<p>講義或指定參考書，依實際需要自付費用。</p>
+		<p>
+			<span style="color: #000000"><b><span
+					style="font-size: 16pt; font-family: 文鼎中楷簡; border: windowtext 1pt solid; padding: 0cm">住宿費
+</span></b></span>
+				
+		</p>
+		<p>
+			<span
+				style="color: #000000"><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">1.</span><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡">國外生命堂會友選修，優先安排住神學院宿舍</span><b><span
+					style="font-size: 14pt; font-family: ???"><span
+						style="font-family: Times New Roman">─</span></span></b><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡">依宿舍管理辦法付費。 </span></span>
+		</p>
+		<p>
+			<span style="color: #000000"><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">2.</span><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡">馬德里大區以外生命堂會友</span><b><span
+					style="font-size: 14pt; font-family: ???"><span
+						style="font-family: Times New Roman">─</span></span></b><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡">若需住宿舍，依管理辦法付費。</span></span> 
+		</p>
+		<p>
+			<span
+				style="color: #000000">3.</span><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡"><span
+				style="color: #000000">外地或國外會友報讀，自付往來交通費及住宿膳食費<span
+					lang="EN-US">(</span>每天
+			</span><span style="color: black">約<span lang="EN-US">25</span>歐元<span
+					lang="EN-US">)</span>。</span></span> 
+		</p>
+		<p>
+			<span style="color: #000000"><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">4.</span><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡">若宿舍住滿，協助安排附近旅館</span><b><span
+					style="font-size: 14pt; font-family: ???"><span
+						style="font-family: Times New Roman">─</span></span></b><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡">自行付費。 </span></span>
+		</p>
+		<p>
+			<span style="color: #000000"><b><span
+					style="font-size: 16pt; font-family: 文鼎中楷簡; border: windowtext 1pt solid; padding: 0cm">學<span
+						lang="EN-US"><span> </span></span>籍</span></b></span> 
+		</p>
+		<p>
+			<span
+				style="color: #000000"><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">1.</span><span
+				style="font-size: 14pt; font-family: 文鼎中楷簡">本分院不授學位，不頒發文憑。</span></span> 
+		</p>
+		<p>
+			<span style="color: #000000">
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">2.</span>
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡">修滿</span>
+				<span lang="EN-US">36</span>學分，可申請至美國總院就讀
+				<span style="font-size: 14pt; color: black; font-family: 文鼎中楷簡">基要聖經證書科</span>
+				<span style="font-size: 14pt; color: black; font-family: 文鼎中楷簡">。 </span>
+			</span>
+		</p>
+		<p>
+			<span
+				style="color: #000000">
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">3.</span>
+				<span style="font-size: 14pt; font-family: 文鼎中楷簡">全修生在學期間，必須至指定的教會見習。修畢本院課程，<br />
+					學校不負責安排實習工場，畢業不負責分派工作。
+				</span>
+			</span> 
+		</p>
+		<p>
+			<span
+				style="font-size: 14pt; font-family: 文鼎中楷簡" lang="EN-US">4.</span>
+			<span
+				style="font-size: 14pt; font-family: 文鼎中楷簡">全修生修畢全部課程，在本會認可的教會實習一年通過，<br />
+					可獲總院</span>
+			<span
+				style="font-size: 14pt; color: black; font-family: 文鼎中楷簡">基要聖經證書</span>
+			<span
+				style="font-size: 14pt; font-family: 文鼎中楷簡">。</span>
+				
+
+		</p>
+
+	</section>
+</article>
+<!-- end English -->

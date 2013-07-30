@@ -9,9 +9,10 @@
 		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
 		國際福音神學院</span>
 	<br/>
-	<h4>概況 - Purpose</h4>
+	<h4>概況 - 宗旨</h4>
 
 	<tiles:insertAttribute name="interior-nav" ignore="false" />
+	<br/>
 
 	<spring:url var="landingPageImageUrl" value="/images/ebi/ebi_landing.jpg"/>
 	
@@ -19,7 +20,14 @@
 			style="float: left; margin-right: 15px" height="300px" width="300px"/>
 		
 	<section>
-		<p>Chinese text goes here</p>
+		<p>本院旨在訓練蒙召獻身事主的基督徒，特別是男女青年信徒，使其成為上帝的僕人，包括牧師、傳教士、教育工作者等。</p>
+<p>
+一、鼓勵學生分別為聖，過符合聖經原則的生活。<br/>
+二、教育學生更深刻地認識做神的僕人的價值，藉著神的道使他們建立完美的屬靈品格。<br/> 
+三、以聖經為中心，教導學生專心致志於作基督的見證人。 <br/>
+四、指導學生研究聖經真理，並應用在現代的基督徒生活中。<br/>
+五、指導學生在事奉上，有效地運用神的恩賜<br/>
+</p>
 		
 	</section>
 </article>

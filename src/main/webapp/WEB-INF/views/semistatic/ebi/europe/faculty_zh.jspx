@@ -10,7 +10,7 @@
 		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
 		國際福音神學院</span>
 	<br/>
-	<h4>EBI in Europe (zh)- 教授團</h4>
+	<h4>歐洲分院- 教授團</h4>
 
 	<tiles:insertAttribute name="interior-nav" ignore="false" />
 
@@ -18,7 +18,44 @@
 		
 	<section>
 		<p>
-TEXT GOES HERE</p>
+楊摩西博士 Dr. Moses Yang (President)<br/>
+Columbia International University (M.A., D. D.)博士<br/>
+<br/>
+陳宏博博士 Dr. Paul Tan<br/> 
+Grace Theological Seminary (Th. D.)神學博士<br/>
+<br/>
+區應毓博士 Dr. Peter Au<br/> 
+Dallas Theological Seminary (Ph. D.)哲學博士<br/>
+<br/>
+何兆威博士 Dr. Stephen Hosea<br/>
+Azusa Pacific University (Ph. D.) 心理學博士<br/>
+<br/>
+黃 靜博士 Dr. Jing Huang<br/> 
+State University of New York at Stony Brook (DMA)音樂博士<br/>
+<br/>
+吳錫安牧師 Rev. Zion Wu<br/> 
+聖經研究碩士 ( M. A.)<br/>
+<br/>
+陳啟猷牧師 Rev. Hugo Chan<br/> 
+聖經研究碩士 ( M. A.)<br/>
+<br/>
+陳李湘萍傳道 Ev. Erna Lee<br/>
+聖經研究碩士 ( M. A.)<br/>
+<br/>
+李月雲牧師 Rev. Yueh-Yun Li<br/>
+聖經研究碩士 ( M. A.)<br/>
+<br/>
+戚厚生牧師 Rev. Hou-Sheng Chi<br/>
+聖經研究碩士 ( M. A.)<br/>
+<br/>
+張秀蘭傳道 Ev. Hsiu Lan Yang<br/>
+聖經研究碩士 ( M. A.)<br/>
+<br/>
+郭惠愛教授 Miss Cara Kuo<br/>
+The Cleveland Institute of Music (M.M.) 音樂碩士 Case Western Reserve University (M.M.) 音樂碩士<br/>
+<br/>
+林豔芳傳道 Ev. Yan Fang Lin<br/>
+</p>
 	</section>
 </article>
 <!-- end English -->

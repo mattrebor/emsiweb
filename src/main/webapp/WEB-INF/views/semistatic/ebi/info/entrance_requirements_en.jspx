@@ -1,0 +1,26 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Evangelical Bible Institute (EBI)</span> <br />
+	<h4>General Information - Admissions</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+
+
+	<section>
+	<p>
+Applicants must be born-again Christians of sound character, clear about God’s call to full-time ministry, and willing to offer themselves to serve God.
+</p>
+<p>
+High school, college or seminary graduates are eligible to apply. Completed applications must be forwarded to the school administration for review. Transfer students may also apply.	</p>
+	
+	</section>
+</article>
+<!-- end English -->
