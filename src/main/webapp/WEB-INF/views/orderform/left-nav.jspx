@@ -1,0 +1,23 @@
+<div id="page-nav" class="emsi-navbar-vertical"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	version="2.0">
+	
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<!-- orderform/left-nav -->
+	
+	<spring:url value="/order/cart" var="cartUrl"/>
+	
+	<ul>
+	<c:forEach items="${catalogTypes}" var="catalogType">
+		<spring:url var="url" value="/order/${catalogType.catalogTypeId}"/>
+		<li><a href="${url}">${catalogType.catalogTypeName}</a></li>
+	</c:forEach>
+		<li><a href="${cartUrl}">訂購單 Order Form (Cart)</a></li>
+	</ul>
+	
+	<!-- end orderform/left-nav -->
+</div>
