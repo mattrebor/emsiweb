@@ -22,7 +22,7 @@
 	<style type="text/css">
 		div#categories table, div#categories th, div#categories td {
 			border: 1px solid black;
-			font-size: 11px;
+			font-size: 12px;
 		}
 		div#categories th, div#categories td {
 			vertical-align: top;
@@ -32,7 +32,7 @@
 		div#categories tr.header-row th.item-code { width: 50px; }
 		div#categories tr.header-row th.item-name {  }
 		div#categories tr.header-row th.num-volumes { width: 15px; }
-		div#categories tr.header-row th.item-author { width: 140px; }
+		div#categories tr.header-row th.item-author { width: 145px; }
 		div#categories tr.header-row th.price { width: 50px; }
 		div#categories tr.header-row th.add { width: 15px; }
 		
