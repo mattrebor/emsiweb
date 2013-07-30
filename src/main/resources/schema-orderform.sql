@@ -4,7 +4,7 @@ create table catalog_item (
 	item_short_descr varchar(50) not null,
 	num_volumes int default 1,
 	sort_order int not null default 0,
-	author varchar(50),
+	author varchar(100),
 	price_us float,
 	active char(1) default 'Y',
 	primary key (item_code)
@@ -50,7 +50,7 @@ drop table if exists order_form;
 create table order_form (
 	order_id int not null,
 	item_code varchar(30) not null,
-	price_at_purchase float not null,
+	price_us_at_purchase float not null,
 	quantity int not null,
 	primary key (order_id, item_code)
 );
