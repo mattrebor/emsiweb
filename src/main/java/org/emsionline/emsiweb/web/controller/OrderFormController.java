@@ -4,12 +4,13 @@ import java.util.List;
 
 import javax.servlet.http.HttpSession;
 
-import org.emsionline.emsiweb.domain.orderform.CartOperationConfirm;
 import org.emsionline.emsiweb.domain.orderform.Cart;
 import org.emsionline.emsiweb.domain.orderform.CartItem;
+import org.emsionline.emsiweb.domain.orderform.CartOperationConfirm;
 import org.emsionline.emsiweb.domain.orderform.CatalogCategory;
 import org.emsionline.emsiweb.domain.orderform.CatalogItem;
 import org.emsionline.emsiweb.domain.orderform.CatalogType;
+import org.emsionline.emsiweb.domain.orderform.CustomerInfo;
 import org.emsionline.emsiweb.service.orderform.CatalogService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -46,6 +47,13 @@ public class OrderFormController {
 	public Cart getCart(HttpSession session) {
 		logger.debug("instantiating a new Cart");
 		return new Cart();
+	}
+	
+	@ModelAttribute("custinfo")
+	public CustomerInfo getCustInfo(HttpSession session) {
+		logger.debug("instantiating a new CustomerInfo obj");
+		CustomerInfo custinfo = new CustomerInfo();
+		return custinfo;
 	}
 	
 	
@@ -115,4 +123,14 @@ public class OrderFormController {
 		}
 	}
 	
+	
+	/**
+	 * Right now, this just pops up a window for the user to print and mail in the form.
+	 * @param custinfo
+	 * @return
+	 */
+	@RequestMapping("/order/submit")
+	public String submit(@ModelAttribute("custinfo") CustomerInfo custinfo) {
+		return "orderform/cart";
+	}
 }
