@@ -1,6 +1,7 @@
 <div class="content" 
 	xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:form="http://www.springframework.org/tags/form"
 	xmlns:c="http://java.sun.com/jsp/jstl/core"
 	xmlns:fmt="http://java.sun.com/jsp/jstl/fmt"
 	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
@@ -38,6 +39,9 @@
 		div#cart td.price { text-align: right; }
 		div#cart td.amount { text-align: right; }
 		div#cart td.delete { text-align: center; }
+		
+		.right { text-align: right; }
+		.rpad15 { padding-right: 15px; }
 	</style>
 	
 	<div id="cart">
@@ -56,19 +60,67 @@
 				書/CD 價<br/>Amount</th>
 			<th class="delete"></th>
 		</tr>
+		<c:set var="subtotal" value="${0}"/>
 		<c:forEach items="${cart.items}" var="item">
 		<tr>
 			<td class="item-code">${item.itemCode}</td>
 			<td class="item-name">${item.itemShortDescr}</td>
 			<td class="quantity">${item.quantity}</td>
-			<td class="price">
+			<td class="price rpad15">
 				<fmt:formatNumber type="currency" value="${item.priceUS}" currencySymbol="$"/></td>
-			<td class="amount">
-				<fmt:formatNumber type="currency" value="${item.quantity * item.priceUS}" currencySymbol="$"/></td>
+			<td class="amount rpad15">
+				<c:set var="amount" value="${item.quantity * item.priceUS}"/>
+				<c:set var="subtotal" value="${subtotal + amount}"/>
+				<fmt:formatNumber type="currency" value="${amount}" currencySymbol="$"/></td>
 			<td class="delete"><a href="javascript:OrderForm.del('${item.itemCode}');">
 				<span style="font-size: 16px;">X</span></a></td>
 		</tr>
 		</c:forEach>
+		<tr>
+			<td colspan="4" class="right"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="4" class="right rpad15">
+				Subtotal
+			</td>
+			<td class="right rpad15">
+				<fmt:formatNumber type="currency" value="${subtotal}" currencySymbol="$"/></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="4" class="right rpad15">
+				Total Discount
+			</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="4" class="right rpad15">
+				Grand Total
+			</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="4" class="right rpad15">
+				Shipping Fee &amp;amp; Handling
+			</td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="4" class="right rpad15">
+				Total
+			</td>
+			<td></td>
+			<td></td>
+		</tr>
 		</table>
+	</div>
+	
+	<div class="row">
+		<jsp:include page="/WEB-INF/views/orderform/custinfo.jspx"/>
 	</div>
 </div>
