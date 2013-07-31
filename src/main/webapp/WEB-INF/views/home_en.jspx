@@ -86,7 +86,7 @@
 
 			<spring:url value="/resources/images/home/bookstore_en.jpg"
 				var="banner2_img_url" />
-			<spring:url value="/emsi/bookstore" var="banner2_url"/>
+			<spring:url value="/order" var="banner2_url"/>
 				
 			<a href="${banner2_url}"><img src="${banner2_img_url }" alt="" width="450" height="125" /></a>
 

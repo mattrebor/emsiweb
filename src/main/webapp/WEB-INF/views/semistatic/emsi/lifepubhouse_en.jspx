@@ -1,7 +1,11 @@
-	<!-- English -->
-	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags">
 		<jsp:directive.page contentType="text/html;charset=UTF-8" />
 		<jsp:output omit-xml-declaration="yes"/>
+		
+		
+		<spring:url value="/order" var="bookstore_url"/>
+		
 		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
 			Life Publishing House</span>
 		<br/><br/>
@@ -24,7 +28,7 @@ Christian Evidences, Creation and Eschatology, The 666 International Code, Proph
 </p>
 
 <p>
-For a list of available Life Publishing House books, please click <a href="#">here</a>. Or, indicate the item code, 
+For a list of available Life Publishing House books, please click <a href="${bookstore_url}">here</a>. Or, indicate the item code, 
 item description, quantity and total and email to emsi@emsionline.org , we will get back to you.
 </p>
 			</article>
