@@ -1,7 +1,7 @@
 drop table if exists catalog_item;
 create table catalog_item (
 	item_code varchar(30) not null,
-	item_short_descr varchar(50) not null,
+	item_short_descr varchar(80) not null,
 	num_volumes int default 1,
 	sort_order int not null default 0,
 	author varchar(100),
