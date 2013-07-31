@@ -88,6 +88,4 @@ public class SemiStaticPageController {
 	private String[] getPathElements(String servletPath) {
 		return StringUtils.split(servletPath, "/");
 	}
-	
-	private String test = null;
 }
