@@ -53,11 +53,5 @@ public class ChurchContent implements Serializable  {
 		this.body = body;
 	}
 
-	public String getEscapedBody() {
-		return getBody().replace("<", "&lt;").replace(">", "&gt;");
-	}
-
-	
-	
 	
 }
