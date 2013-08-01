@@ -25,6 +25,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.support.RequestContextUtils;
 
 @RequestMapping("/cemi")
@@ -78,7 +79,7 @@ public class ChurchController {
 	
 	}
 	
-	@RequestMapping(value = "/{id}/{page_id}", method = RequestMethod.GET)
+	@RequestMapping(value = "/{id}/{page_id}",  method = RequestMethod.GET)
 	public String show(HttpServletRequest req, @PathVariable("id") Long id, @PathVariable("page_id") String page_id, Model uiModel) {
 
 		String userAgent = req.getHeader("User-Agent");
@@ -123,6 +124,66 @@ public class ChurchController {
 		return "cemi/show";
 	}
 
+	
+	@RequestMapping(value = "/{id}", params="edit", method = RequestMethod.GET)
+	public String editDefault(HttpServletRequest req, @RequestParam("edit") String edit, @PathVariable("id") Long id, Model uiModel) {
+		return edit(req, edit, id, "intro", uiModel);
+	
+	}
+	
+	@RequestMapping(value = "/{id}/{page_id}", params="edit", method = RequestMethod.GET)
+	public String edit(HttpServletRequest req, @RequestParam("edit") String edit, @PathVariable("id") Long id, @PathVariable("page_id") String page_id, Model uiModel) {
+		String userAgent = req.getHeader("User-Agent");
+
+		boolean css3TreeSupport = true;
+		if (userAgent.contains("MSIE 7.0") || userAgent.contains("MSIE 8.0")) {
+			css3TreeSupport = false;
+		}
+		uiModel.addAttribute("css3TreeSupport", css3TreeSupport);
+		
+		
+		Locale locale = RequestContextUtils.getLocale(req);
+
+		
+		
+		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), locale.getLanguage()));
+		uiModel.addAttribute("church_org", church_org);
+
+		LocalizedChurch church = churchService.findById(new LocalizedChurchKey(new Long(id), locale.getLanguage()));
+		uiModel.addAttribute("church", church);
+		
+		Map<String, String> churchHierarchy = retrieveChurchHierarchy(church);
+		uiModel.addAttribute("churchHierarchy", churchHierarchy);
+		
+		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), locale.getLanguage(), page_id));
+		uiModel.addAttribute("content", content);
+
+		
+		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(new Long(id), locale.getLanguage());
+		//uiModel.addAttribute("contentList", contentList);
+		Map<String, ChurchContent> contentMap = new HashMap<String, ChurchContent>();
+
+		
+		
+		for (ChurchContent c : contentList) {
+			contentMap.put(c.getId().getPageId(), c);
+			//logger.info("|" + c.getId().getPageId() + "| " + c.getTitle());
+		}
+		uiModel.addAttribute("contentMap", contentMap);
+
+		
+		
+		if (edit.equals("inline")) {
+			return "cemi/edit-inline";
+		}
+		else {
+			return "cemi/edit";
+		}
+		
+	}
+
+	
+	
 	private Map<String, String> retrieveChurchHierarchy(LocalizedChurch church) {
 		
 		Map<String, String> hier = new HashMap<String, String>();
