@@ -19,8 +19,8 @@
 	</definition>
 
 	<definition extends="default-cemi" name="cemi/edit">	
-		<put-attribute name="html-head" value="/WEB-INF/views/cemi/html-head.jspx"
-			cascade="true" />
+		<put-attribute name="html-head" value="/WEB-INF/views/cemi/html-head.jsp"
+			cascade="true" /> <!--  JSP and not JSPX -->
 		<put-attribute name="body-content" value="/WEB-INF/views/cemi/edit.jspx"
 			cascade="true" />
 			
