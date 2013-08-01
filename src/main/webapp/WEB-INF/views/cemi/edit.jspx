@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:form="http://www.springframework.org/tags/form"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions"
+	xmlns:joda="http://www.joda.org/joda/time/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+
+
+
+	<spring:url value="/images/emsi/" var="imgBase" />
+	<spring:url value="/images/files/" var="imgBase2" />
+
+	<c:set var="details" value="${church.churchDetails}" />
+	
+	<spring:message code="label_cemi_brief_history" var="labelCemiBriefHistory" />
+	<spring:message code="label_cemi_minister_intro" var="labelCemiMinisterIntro" />
+	<spring:message code="Label_cemi_church_schedule" var="labelCemiChurchSchedule" />
+	<spring:message code="label_cemi_contact_us" var="labelCemiContactUs" />
+	
+	<br/>
+	<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">Christian Evangelical Mission International (CEMI)</span>
+
+	<h4>${content.title}</h4>
+
+
+	<spring:url value="/cemi" var="showPageUrl"/>
+	<div id="cemi-interior-page-nav" class="emsi-navbar">
+		<ul>
+			<c:choose>
+				<c:when test="${not empty contentMap['intro']}">
+					<li><a href="${showPageUrl}/${contentMap['intro'].id.churchId}/${contentMap['intro'].id.pageId}">${labelCemiBriefHistory}</a></li>
+				</c:when>
+				<c:otherwise>
+					<li class="disabled">${labelCemiBriefHistory}</li>
+				</c:otherwise>
+			</c:choose>
+			<c:choose>
+				<c:when test="${not empty contentMap['minister']}">
+					<li><a href="${showPageUrl}/${contentMap['minister'].id.churchId}/${contentMap['minister'].id.pageId}">${labelCemiMinisterIntro}</a></li>
+				</c:when>
+				<c:otherwise>
+					<li class="disabled">${labelCemiMinisterIntro}</li>
+				</c:otherwise>
+			</c:choose>
+			<c:choose>
+				<c:when test="${not empty contentMap['schedule']}">
+					<li><a href="${showPageUrl}/${contentMap['schedule'].id.churchId}/${contentMap['schedule'].id.pageId}">${labelCemiChurchSchedule}</a></li>
+				</c:when>
+				<c:otherwise>
+					<li class="disabled">${labelCemiChurchSchedule}</li>
+				</c:otherwise>
+			</c:choose>
+			<c:choose>
+				<c:when test="${not empty contentMap['contactus']}">
+				<li><a href="${showPageUrl}/${contentMap['contactus'].id.churchId}/${contentMap['contactus'].id.pageId}">${labelCemiContactUs}</a></li>
+				</c:when>
+				<c:otherwise>
+					<li class="disabled">${labelCemiContactUs}</li>
+				</c:otherwise>
+			</c:choose>
+		</ul>
+	</div>
+
+	<br/><br/>
+	
+	<button id="action" type="button" class="btn btn-success">Edit</button>
+
+	<hr/>
+
+	<div id="church-content">
+		${fn:replace(fn:replace(content.body, '/emsi/images/', imgBase), '/emsi/files/', imgBase2)}
+	</div>
+	<textarea style="visibility: hidden" name="churcheditor1"><jsp:text/>
+	</textarea>
+	
+
+	<br/><br/>
+
+	<script>
+		$(function() {
+			$("button")
+			.button()
+			.click(function (event) {
+				
+				if ($("#action").text() == "Edit") {
+					$("#church-content").hide();
+					$("#action").text("Preview");	
+					$("textarea[name='churcheditor1']").text($("#church-content").html());
+					
+					CKEDITOR.replace('churcheditor1', {
+						height: '900px',
+						startupOutlineBlocks: true,
+						toolbar: [['Source', '-', 'DocProps', 'Preview', 'Print', '-', 'Templates'],
+						          ['Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo'],
+						          ['Find', 'Replace', '-', 'SelectAll', 'Scayt'],
+						          ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript', '-', 'RemoveFormat'],
+						          ['NumberedList', 'BulletedList', '-', 'Outdent', 'Indent', '-', 'Blockquote', 'CreateDiv', '-', 'JustifyLeft', 'JustifyCenter', 'JustifyRight', 'JustifyBlock', ],
+						          ['Link', 'Unlink', 'Anchor'],
+						          ['Image', 'Table', 'HorizontalRule', 'SpecialChar'],
+						          ['Styles', 'Format','Font', 'FontSize'],
+							      ['TextColor', 'BGColor'], ['Maximize', 'ShowBlocks']
+						]
+					
+					});
+				}
+				else {
+					$("#church-content").html(CKEDITOR.instances.churcheditor1.getData());
+					CKEDITOR.instances.churcheditor1.destroy();
+					$("#church-content").show();
+					$("#action").text("Edit");
+					$("textarea[name='churcheditor1']").show();
+					
+				}
+			});
+		});
+	
+		/*
+		*/
+	</script>
+</div>
