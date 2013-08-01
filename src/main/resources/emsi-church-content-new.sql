@@ -154,3 +154,151 @@ set value = concat(value, '基督教生命堂')
 where church_id = (select church_id from church where church_path = 'portoalto')
 and locale = 'zh'
 and key = 'menu_name';
+
+update church_content
+set body = 
+'<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Senior Pastor:</td>
+			<td>Rev. Moses Yang 973-335-7337, ext. 209</td>
+		</tr>
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. SenLiang Lin 917-361-6866</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Lingkin Lui 917-753-7787</td>
+		</tr>
+		<tr>
+			<td class="label"><span style="color: rgb(0, 0, 0); font-family: Arial, helvetica, sans-serif; font-size: small; font-weight: bold; white-space: nowrap;">Evangelist:</span></td>
+			<td><span style="font-family: Helvetica, arial, freesans, clean, sans-serif; line-height: 22px; background-color: rgb(251, 251, 251);">Ev. YongSheng Zhang 973-393-7876</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>248 Grand Street, New York, NY</td>
+		</tr>
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>212-966-5411</td>
+		</tr>
+		<tr>
+			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:chinatown@emsionline.org">chinatown@emsionline.org</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p><span class="label">Established Date: </span>1968</p>
+
+<p><img align="left" alt="view church photo gallery" hspace="5" src="/emsiweb/images/emsi/chinatown2012.jpg" /></p>
+
+<p>In 1968, Rev. Moses Yang rented a second floor apartment at 10 Mott St. in Chinatown, NY. and started the &quot;Fellowship of Life&quot;. This was the very first Bible Study started by Rev. Moses Yang. Then in 1970, it became the Chinese Evengelical Church in Chinatown. Rev. Moses Yang always mentioned the eight college students who started the &quot;Life&quot; family. Later, additional people joined the group. Many brothers and sisters got married and the &quot;Life&quot; grew in size. In 1974, after relocating two times, the church finally, by faith, bought a three-story building at 253 Centre St., NY, NY.</p>
+
+<p>For the past years, the memers of C.E.C. of Chinatown are composed of American- born Chinese. A few members can understand Cantonese, yet many are English-speaking. In the past, they usually use July 4th to hold annual Summer Evangelistic Conferences to reach out to unbelievers. Many of the young people got saved duing these conferences and have become members of the church. That&#39;s why this church was always very young and alive. The church has a great burden for the young people. Aside from the Sunday Service, Sunday School, and Friday Bible Study, the church holds Saturday outreach program such POP (Pathseekers Outreach Program) from 10:00AM to 4:00PM. The young people have Bible lessons, tutorial services, playing ping-pong, and computer games. Currently, aside from reaching out to the young people, the church has a burden to reach out to their parents, too. By providing dinners in a relaxed atmposphere, they share the gospel with their parents.</p>
+
+<p>C.E.C of Chinatown was the first church established by Rev. Yang. Therefore, Rev. Yang holds a special feeling for the church, alike the love for the &quot;first-born&quot; child who gets a &quot;special love&quot; from the father. Rev. Yang likes to joke and say that when Noah and his family, consisting of eight people, left the ark, they started a &quot;new world&quot;. There are &quot;eight&quot; young people who assisted Rev. Yang to start this ministry. So &quot;eight&quot; is a good number. Therefore, Rev. Yang decided to celebrate the anniversary on August 8th in memory of the start of the C.E.M. ministry</p>
+</div>
+'
+where (select church_id from church where church_path = 'chinatown')
+and locale = 'en'
+and page_id = 'intro';
+
+
+update church_content
+set body = 
+'<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">監督:</td>
+			<td>楊摩西 牧師, (973) 335-7337 ext. 209</td>
+		</tr>
+		<tr>
+			<td class="label">牧師:</td>
+			<td>林森良 牧師, (917) 361-6866</td>
+		</tr>
+		<tr>
+			<td class="label">傳道:</td>
+			<td>呂嶺乾 傳道, (917) 753-7787</td>
+		</tr>
+		<tr>
+			<td class="label"><span style="color: rgb(0, 0, 0); font-family: Arial, helvetica, sans-serif, 新細明體; font-size: 14px; font-weight: bold; white-space: nowrap;">傳道:</span></td>
+			<td><span style="font-family: Helvetica, arial, freesans, clean, sans-serif; line-height: 22px; background-color: rgb(251, 251, 251);">張勇生 傳道, (973) 393-7876</span></td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+<table cellpadding="1" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+			<td class="label">地址:</td>
+			<td>248 Grand Street (between Bowery and Chrystie Street) New York, NY 10002, USA</td>
+		</tr>
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+			<td class="label">電話:</td>
+			<td>(212) 966-5411</td>
+		</tr>
+		<tr>
+			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+			<td class="label">電郵:</td>
+			<td><a href="mailto:chinatown@emsionline.org">chinatown@emsionline.org</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p><span class="label">成立日期: </span>1968年</p>
+
+<p><span class="label">簡史: </span><br />
+<img align="left" height="255" hspace="5" src="/emsiweb/images/emsi/church_chinatown.jpg" width="360" />一九六八年，楊牧師在中國城勿街十號（10 Mott St.）租下二樓，成立「生命團契」，這是楊摩西牧師成立的第一間教會，後於一九七○年更名為中國城生命堂。楊摩西牧師常常提起早期大學查經班的八位成員：周靄楣、許娜娜、李珍瑜、曾文鳳、曾文愛、王慕清、林瑞桃及林團鐘長老一家。這八員大將可說是「生命家庭」的開始。後來查經班加入了幾位新人，他們都是研究所的學生：周應彪、吳翩翩、許偉國、郭靄玉、林則寶、陳達堂、潘冀、林國仁、潘重光、向傳仁等。後來林則寶和林珍瑜結為夫婦，其他的弟兄姐妹也分別嫁娶，「生命之家」增加了媳婦和女婿，儼然成為一個大家庭。連續兩次搬遷之後，終於在一九七四年憑信心買下位於中央街的一棟三層樓房（253 Centre St.）。如今，除了林長老回天家，一些弟兄姐妹搬離此地之外，其他的成員和家人都忠心留在東部各生命堂，是楊牧師得力的同工。</p>
+
+<p>長久以來，中國城生命堂的會友絕大多數都是屬於所謂的「ABC」，也就是在美國出生成長的華人。除了少數略懂粵語外，都只能講英語。以往，他們多在美國國慶日時舉辦夏令會，藉此機會傳福音。而那些在夏令會中得救、受洗、加入教會年輕人，也使教會充滿了活力和朝氣。他們對年輕人很有負擔，因此除了主日崇拜、主日學、周五的查經班之外，每周六上午十時至下午四時，教會的設施也開放給附近的年輕人使用，讓他們能夠進來打乒乓、玩電腦遊戲、讀書、做功課，會友們輪流在那兒輔導他們的課業。近幾年，除了傳福音給年輕人，他們也有負擔要傳福音給自己年長的父母，藉著餐會，在溫馨又輕鬆的氣氛中，將福音的好消息帶給只會說家鄉話的父母。</p>
+
+<p>中國城生命堂是楊牧師設立的第一間教會，所以他對這有很特殊的感情，就像是家中的第一個孩子一樣，得到父親許多的關愛。生性幽默、愛開玩笑的楊牧師說：當年挪亞一家八口出方舟，開始了一個新的世界，早期大專生查經班的八位元老也協助推展整個「生命」事工。「八」是個新生的數字，所以他定八月八日為慶祝「生命」事工開展的感恩紀念日。</p>
+</div>
+'
+where (select church_id from church where church_path = 'chinatown')
+and locale = 'zh'
+and page_id = 'intro';
+
