@@ -3,6 +3,7 @@ package org.emsionline.emsiweb.web.controller;
 import java.util.List;
 
 import javax.servlet.http.HttpSession;
+import javax.validation.Valid;
 
 import org.emsionline.emsiweb.domain.orderform.Cart;
 import org.emsionline.emsiweb.domain.orderform.CartItem;
@@ -12,20 +13,25 @@ import org.emsionline.emsiweb.domain.orderform.CatalogItem;
 import org.emsionline.emsiweb.domain.orderform.CatalogType;
 import org.emsionline.emsiweb.domain.orderform.CustomerInfo;
 import org.emsionline.emsiweb.service.orderform.CatalogService;
+import org.emsionline.emsiweb.web.validator.CustInfoValidator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.validation.BindingResult;
+import org.springframework.web.bind.WebDataBinder;
+import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
+import org.springframework.web.bind.support.SessionStatus;
 
 
 @Controller
-@SessionAttributes("cart")
+@SessionAttributes({"cart", "custinfo"})
 public class OrderFormController {
 	
 	final Logger logger = LoggerFactory.getLogger(OrderFormController.class);
@@ -57,9 +63,15 @@ public class OrderFormController {
 	}
 	
 	
+	@InitBinder("custinfo")
+	protected void initBinder(WebDataBinder binder) {
+		binder.setValidator(new CustInfoValidator());
+	}
+	
+	
 	@RequestMapping({"/order"})
 	public String init(Model model) {
-		return "redirect:order/"+DEFAULT_CATALOG_TYPE;
+		return "redirect:/order/"+DEFAULT_CATALOG_TYPE;
 	}
 	
 	
@@ -130,7 +142,41 @@ public class OrderFormController {
 	 * @return
 	 */
 	@RequestMapping("/order/submit")
-	public String submit(@ModelAttribute("custinfo") CustomerInfo custinfo) {
-		return "orderform/cart";
+	public String submit(
+			@Valid @ModelAttribute("custinfo") CustomerInfo custinfo
+			, BindingResult result
+			, @ModelAttribute("cart") Cart cart
+			) {
+		if (result.hasErrors()) {
+			return "orderform/cart";
+		} else {
+			cart.setSubmitted(true);
+			return "redirect:/order/mailinstr";
+		}
+	}
+	
+	@RequestMapping("/order/mailinstr")
+	public String redirectAfterPost() {
+		return "orderform/mailinstr";
+	}
+	
+	@RequestMapping("/order/testcartpopup")
+	@ResponseBody
+	public CartOperationConfirm testCartPopup(@ModelAttribute("cart") Cart cart) {
+		CartOperationConfirm result = new CartOperationConfirm();
+		if (cart.isSubmitted()) {
+			result.setShouldPrint(true);
+			result.setSuccess(true);
+		} else {
+			result.setShouldPrint(false);
+			result.setSuccess(true); // just means the call completed
+		}
+		return result;
+	}
+	
+	@RequestMapping("/order/print")
+	public String print(SessionStatus sessionStatus) {
+		sessionStatus.setComplete();
+		return "orderform/print";
 	}
 }

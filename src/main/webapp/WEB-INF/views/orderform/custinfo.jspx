@@ -13,6 +13,7 @@
 		.form-horizontal .control-group { margin-bottom: 2px; }
 		.form-horizontal .control-label { width: 250px; }
 		#custinfo .control-label, #custinfo .controls .txtbox { font-size: 12px; }
+		.error { font-size: 12px; color: red; position: relative; top: 3px; left: 5px; }
 	</style>
 	
 	<spring:url var="orderSubmitUrl" value="/order/submit"/>
@@ -23,18 +24,21 @@
 			<label for="firstname" class="control-label">名字 Firstname:</label>
 			<div class="controls">
 				<form:input path="firstname" class="txtbox"/>
+				<form:errors path="firstname" cssClass="error"/>
 			</div>
 		</div>
 		<div class="control-group">
 			<label for="lastname" class="control-label">姓 Lastname:</label>
 			<div class="controls">
 				<form:input path="lastname" class="txtbox"/>
+				<form:errors path="lastname" cssClass="error"/>
 			</div>
 		</div>
 		<div class="control-group">
 			<label for="address1" class="control-label">街道地址 Street Address 1:</label>
 			<div class="controls">
 				<form:input path="address1" class="txtbox"/>
+				<form:errors path="address1" cssClass="error"/>
 			</div>
 		</div>
 		<div class="control-group">
@@ -47,30 +51,35 @@
 			<label for="city" class="control-label">城市 City:</label>
 			<div class="controls">
 				<form:input path="city" class="txtbox"/>
+				<form:errors path="city" cssClass="error"/>
 			</div>
 		</div>
 		<div class="control-group">
 			<label for="stateProvince" class="control-label">州 State/Province:</label>
 			<div class="controls">
 				<form:input path="stateProvince" class="txtbox"/>
+				<form:errors path="stateProvince" cssClass="error"/>
 			</div>
 		</div>
 		<div class="control-group">
 			<label for="zipPostalCode" class="control-label">郵政編碼 Zip/Postal Code:</label>
 			<div class="controls">
 				<form:input path="zipPostalCode" class="txtbox"/>
+				<form:errors path="zipPostalCode" cssClass="error"/>
 			</div>
 		</div>
 		<div class="control-group">
 			<label for="countryCode" class="control-label">國家 Country</label>
 			<div class="controls">
 				<form:input path="countryCode" class="txtbox"/>
+				<form:errors path="countryCode" cssClass="error"/>
 			</div>
 		</div>
 		<div class="control-group">
 			<label for="email" class="control-label">電子郵件地址 EMail Address:</label>
 			<div class="controls">
 				<form:input path="email" class="txtbox"/>
+				<form:errors path="email" cssClass="error"/>
 			</div>
 		</div>
 		<div class="control-group">
@@ -81,7 +90,7 @@
 		</div>
 		
 		<div style="text-align: center; margin-top: 10px;">
-			<button type="submit" style="width: 120px;">Print</button>
+			<button id="printOrderBtn" type="submit" style="width: 120px;">Print</button>
 			<button type="submit" style="width: 120px; margin-left: 15px;">Cancel</button>
 		</div>
 	</form:form>

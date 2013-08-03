@@ -6,5 +6,8 @@
 		<put-attribute name="menu-content" value="/WEB-INF/views/orderform/left-nav.jspx" cascade="true"/>
 		<put-attribute name="body-content" value="/WEB-INF/views/orderform/{1}.jspx" cascade="true"/>
 	</definition>
-
+	
+	<definition name="orderform/print" extends="basic">
+		<put-attribute name="body-content" value="/WEB-INF/views/orderform/print.jspx"/>
+	</definition>
 </tiles-definitions>

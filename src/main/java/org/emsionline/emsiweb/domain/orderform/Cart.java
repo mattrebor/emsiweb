@@ -14,7 +14,7 @@ public class Cart implements Serializable {
 	private static final long serialVersionUID = -868901136613891374L;
 	
 	private List<CartItem> items = new ArrayList<CartItem>();
-	
+	private boolean submitted; // used by page after submit
 	
 	public void add(CartItem item) {
 		boolean found = false;
@@ -58,4 +58,7 @@ public class Cart implements Serializable {
 	
 	public List<CartItem> getItems() { return items; }
 	public void setItems(List<CartItem> items) { this.items = items; }
+	
+	public boolean isSubmitted() { return submitted; }
+	public void setSubmitted(boolean submitted) { this.submitted = submitted; }
 }
