@@ -1,0 +1,175 @@
+<div class="content" 
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:form="http://www.springframework.org/tags/form"
+	xmlns:c="http://java.sun.com/jsp/jstl/core"
+	xmlns:fmt="http://java.sun.com/jsp/jstl/fmt"
+	xmlns:fn="http://java.sun.com/jsp/jstl/functions">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes"/>
+	
+	<script type="text/javascript">
+		$(document).ready(function() {
+			window.print();
+		});
+	</script>
+	
+	<style type="text/css">
+		div#cart table, div#cart th, div#cart td {
+			border: 1px solid black;
+			font-size: 11px;
+		}
+		div#cart th { vertical-align: bottom; }
+		div#cart td { vertical-align: top; }
+		div#cart table { width: 100%; }
+		div#cart tr.header-row { background-color: #C0C0C0; }
+		div#cart tr.header-row th.item-code { width: 80px; }
+		div#cart tr.header-row th.item-name {  }
+		div#cart tr.header-row th.quantity { width: 30px; }
+		div#cart tr.header-row th.price { width: 70px; }
+		div#cart tr.header-row th.amount { width: 70px; }
+		div#cart tr.header-row th.delete { width: 15px; }
+		
+		div#cart td.quantity { text-align: center; }
+		div#cart td.price { text-align: right; }
+		div#cart td.amount { text-align: right; }
+		div#cart td.delete { text-align: center; }
+		
+		.right { text-align: right; }
+		.rpad15 { padding-right: 15px; }
+		
+		div#custInfo {
+			margin: 10px auto;
+			width: 410px;
+		}
+		div#custInfo td.lbl { text-align: right; }
+		div#custInfo td { width: 200px; }
+	</style>
+	
+	<div id="cart">
+		<h2 style="font-size: 1.5em">訂購單  Order Form</h2>
+		
+		<p>
+			將訂購單連同付管款金額(支票)寄至: EMSI, 36 Alpine Rd., Towaco, N.J. 07082
+		</p>
+		<p>
+			Mail your order form, and your check to: EMSI, 36 Alpine Rd., Towaco, N.J. 07082.
+		</p>
+		
+		<table>
+		<tr class="header-row">
+			<th class="item-code">
+				編號<br/>Item Code</th>
+			<th class="item-name">
+				書/CD 名 Description</th>
+			<th class="quantity">
+				數量 Qty.</th>
+			<th class="price">
+				單價<br/>Unit Price</th>
+			<th class="amount">
+				書/CD 價<br/>Amount</th>
+		</tr>
+		<c:set var="subtotal" value="${0}"/>
+		<c:forEach items="${cart.items}" var="item">
+		<tr>
+			<td class="item-code">${item.itemCode}</td>
+			<td class="item-name">${item.itemShortDescr}</td>
+			<td class="quantity">${item.quantity}</td>
+			<td class="price rpad15">
+				<fmt:formatNumber type="currency" value="${item.priceUS}" currencySymbol="$"/></td>
+			<td class="amount rpad15">
+				<c:set var="amount" value="${item.quantity * item.priceUS}"/>
+				<c:set var="subtotal" value="${subtotal + amount}"/>
+				<fmt:formatNumber type="currency" value="${amount}" currencySymbol="$"/></td>
+		</tr>
+		</c:forEach>
+		<tr>
+			<td colspan="4" class="right"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="4" class="right rpad15">
+				Subtotal
+			</td>
+			<td class="right rpad15">
+				<fmt:formatNumber type="currency" value="${subtotal}" currencySymbol="$"/></td>
+		</tr>
+		<tr>
+			<td colspan="4" class="right rpad15">
+				Total Discount
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="4" class="right rpad15">
+				Grand Total
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="4" class="right rpad15">
+				Shipping Fee &amp;amp; Handling
+			</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="4" class="right rpad15">
+				Total
+			</td>
+			<td></td>
+		</tr>
+		</table>
+	</div>
+	
+	<div id="custInfo">
+		<table border="1px;">
+		<tr>
+			<td class="lbl">名字 Firstname:</td>
+			<td>${custinfo.firstname}</td>
+		</tr>
+		<tr>
+			<td class="lbl">姓 Lastname:</td>
+			<td>${custinfo.lastname}</td>
+		</tr>
+		<tr>
+			<td class="lbl">街道地址 Street Address 1:</td>
+			<td>${custinfo.address1}</td>
+		</tr>
+		<tr>
+			<td class="lbl">街道地址 Street Address 2:</td>
+			<td>${custinfo.address2}</td>
+		</tr>
+		<tr>
+			<td class="lbl">城市 City:</td>
+			<td>${custinfo.city}</td>
+		</tr>
+		<tr>
+			<td class="lbl">州 State/Province:</td>
+			<td>${custinfo.stateProvince}</td>
+		</tr>
+		<tr>
+			<td class="lbl">郵政編碼 Zip/Postal Code:</td>
+			<td>${custinfo.zipPostalCode}</td>
+		</tr>
+		<tr>
+			<td class="lbl">國家 Country</td>
+			<td>${custinfo.countryCode}</td>
+		</tr>
+		<tr>
+			<td class="lbl">電子郵件地址 EMail Address:</td>
+			<td>${custinfo.email}</td>
+		</tr>
+		<tr>
+			<td class="lbl">教會的名稱（如適用） Church Name (if applicable):</td>
+			<td>${custinfo.churchName}</td>
+		</tr>
+		</table>
+	</div>
+	
+	<p>
+		將訂購單連同付管款金額(支票)寄至: EMSI, 36 Alpine Rd., Towaco, N.J. 07082
+	</p>
+	<p>
+		Mail your order form, and your check to: EMSI, 36 Alpine Rd., Towaco, N.J. 07082.
+	</p>
+</div>
