@@ -18,6 +18,18 @@
 			cascade="true" />
 	</definition>
 
-
+	<definition extends="default-cemi" name="cemi/edit">	
+		<put-attribute name="html-head" value="/WEB-INF/views/cemi/html-head.jsp"
+			cascade="true" /> <!--  JSP and not JSPX -->
+		<put-attribute name="body-content" value="/WEB-INF/views/cemi/edit.jspx"
+			cascade="true" />
+			
+	</definition>
+	
+	<definition extends="cemi/edit" name="cemi/edit-inline">	
+		<put-attribute name="body-content" value="/WEB-INF/views/cemi/edit-inline.jspx"
+			cascade="true" />
+			
+	</definition>	
 
 </tiles-definitions>

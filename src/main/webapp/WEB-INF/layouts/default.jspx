@@ -81,6 +81,7 @@
 
 
 <!-- CKEditor -->
+<!-- 
 <spring:url value="/resources/ckeditor/ckeditor.js" var="ckeditor_url" />
 <spring:url value="/resources/ckeditor/adapters/jquery.js"
 	var="ckeditor_jquery_url" />
@@ -90,8 +91,10 @@
 <script type="text/javascript" src="${ckeditor_jquery_url}">
 	<jsp:text/>
 </script>
-
+ -->
+ 
 <!-- jqGrid -->
+<!-- 
 <spring:url value="/resources/jqgrid/css/ui.jqgrid.css" var="jqgrid_css" />
 <spring:url value="/resources/jqgrid/js/i18n/grid.locale-en.js"
 	var="jqgrid_locale_url" />
@@ -105,7 +108,8 @@
 <script type="text/javascript" src="${jqgrid_url}">
 	<jsp:text/>
 </script>
-
+ -->
+ 
 <spring:url value="/resources/bootstrap-24col/js/bootstrap.js"
 	var="bootstrap_js_url" />
 <script type="text/javascript" src="${bootstrap_js_url}">
@@ -135,6 +139,9 @@
 </c:set>
 
 <spring:url value="/cemi" var="cemiUrl" scope="request"/>
+
+
+<tiles:insertAttribute name="html-head" ignore="true"/>
 
 <spring:message code="application_name" var="app_name"
 	htmlEscape="false" />

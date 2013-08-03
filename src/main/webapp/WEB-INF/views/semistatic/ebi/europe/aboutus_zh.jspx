@@ -9,7 +9,7 @@
 		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
 	國際福音神學院</span>
 	<br/>
-	<h4>EBI in Europe - 關於我們</h4>
+	<h4>歐洲分院 - 關於我們</h4>
 
 	<tiles:insertAttribute name="interior-nav" ignore="false" />
 

@@ -1,0 +1,26 @@
+<!-- English -->
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:spring="http://www.springframework.org/tags">
+
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<span
+		style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		國際福音神學院</span> <br />
+	<h4>概況 - 入學資格</h4>
+
+	<tiles:insertAttribute name="interior-nav" ignore="false" />
+
+
+
+	<section>
+	<p>
+申請者必須為重生得救，清楚蒙召，願意獻身事主，且具有良好品德的基督徒。
+</p>
+<p>
+凡高中、大學或神學院畢業者，皆可填寫申請表格，寄回本院教務處審核。本院亦接受插班生之申請。
+</p>
+	</section>
+</article>
+<!-- end English -->

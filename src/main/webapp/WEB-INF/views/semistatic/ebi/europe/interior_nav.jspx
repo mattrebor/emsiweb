@@ -1,6 +1,9 @@
 <div id="semistatic-interior-page-nav" class="emsi-navbar"
 	xmlns:jsp="http://java.sun.com/JSP/Page"
 	xmlns:spring="http://www.springframework.org/tags">
+
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
 	
 	<spring:message code="label_ebi_europe_aboutus" var="labelEbiEuropeAboutUs"/>
 	<spring:message code="label_ebi_europe_curriculum" var="labelEbiEuropeCurriculum"/>

@@ -13,7 +13,7 @@
 	<spring:message code="label_ebi_leftnav_europe" var="labelEurope"/>
 	
 	<spring:url var="ebiIntroUrl" value="/ebi/intro"/>
-	<spring:url var="ebiGeneralInfoUrl" value="/ebi/info/purpose"/>
+	<spring:url var="ebiGeneralInfoUrl" value="/ebi/info"/>
 	
 	<spring:url var="ebiAmericaUrl" value="/ebi/america"/>
 	<spring:url var="ebiEuropeUrl" value="/ebi/europe"/>

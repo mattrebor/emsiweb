@@ -27,6 +27,11 @@ public class SemiStaticPageController {
 		return "redirect:/ebi/intro";
 	}
 	
+	@RequestMapping({"/ebi/info"})
+	public String partialPathEBIGeneralInfo() {
+		return "redirect:/ebi/info/purpose";
+	}
+	
 	@RequestMapping({"/ebi/america"})
 	public String partialPathEBIAmerica() {
 		return "redirect:/ebi/america/aboutus";

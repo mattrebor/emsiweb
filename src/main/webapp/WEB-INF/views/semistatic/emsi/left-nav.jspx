@@ -30,7 +30,7 @@
 	<ul>
 		<li><a href="${emsiInroUrl}">${labelTestIntro}</a></li><!-- ${emsiUrl} defined in header.jspx -->
 		<li><a href="${stmtfaith}">${labelTestStatement}</a></li>
-		<li><a href="#">${labelTestMinistryCal}</a></li>
+		<!-- <li><a href="#">${labelTestMinistryCal}</a></li> -->
 		<li><a href="${lifePubUrl}">${labelTestLifePubHouse}</a></li>
 		<li><a href="${gospelBroadcastingUrl}">${labelGospelBroadcastingMinistry}</a></li>
 	</ul>

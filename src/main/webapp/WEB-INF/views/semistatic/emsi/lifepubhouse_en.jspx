@@ -1,7 +1,11 @@
-	<!-- English -->
-	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags">
 		<jsp:directive.page contentType="text/html;charset=UTF-8" />
 		<jsp:output omit-xml-declaration="yes"/>
+		
+		
+		<spring:url value="/order" var="bookstore_url"/>
+		
 		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
 			Life Publishing House</span>
 		<br/><br/>
@@ -21,6 +25,11 @@ We have been publishing books since 1993. They are categorized into: Bible Studi
 <p>
 We have translated the following books:<br/>
 Christian Evidences, Creation and Eschatology, The 666 International Code, Prophecy Pocket Series (Volume 1-12), The End of Christian Psychology, Psychology Gone Astray, Seven Dead Men Who Rule the World From the Grave, Defender’s Bible, The Theological Heresies of Wescott and Hort, and Which Bible is God’s Word?.
+</p>
+
+<p>
+For a list of available Life Publishing House books, please click <a href="${bookstore_url}">here</a>. Or, indicate the item code, 
+item description, quantity and total and email to emsi@emsionline.org , we will get back to you.
 </p>
 			</article>
 	<!-- end English -->
