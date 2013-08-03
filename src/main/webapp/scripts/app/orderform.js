@@ -52,6 +52,25 @@ var OrderForm = function() {
 		}
 	};
 	
+	var _popupPrintWindowIfApplicable = function() {
+		var url = _basePath + "/order/testcartpopup";
+		$.ajax({
+			url: url
+			, async: false
+			, success: function(jsonData) {
+				if (jsonData.shouldPrint) {
+					_cart = jsonData.cart;
+					var printUrl = _basePath + "/order/print";
+					var win = window.open(printUrl, "_blank", "width=600,height=500");
+					win.focus();
+				}
+			}
+			, error: function() {
+				alert("error occurred while testing for print page");
+			}
+		});
+	};
+	
 	return {
 		init: function(initObj) {
 			_init(initObj);
@@ -63,6 +82,10 @@ var OrderForm = function() {
 		
 		del: function(itemCode) {
 			_delete(itemCode);
+		},
+		
+		popupPrintWindowIfApplicable: function() {
+			_popupPrintWindowIfApplicable();
 		}
 	};
 }();

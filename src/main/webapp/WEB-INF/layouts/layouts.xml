@@ -19,6 +19,7 @@
   <definition name="default-two-col" extends="default">
     <put-attribute name="main-area" value="/WEB-INF/views/main-area-two-col.jspx" />
   </definition>  
- 
-
+  
+  <definition name="basic" template="/WEB-INF/layouts/basic.jspx">
+  </definition>
 </tiles-definitions>

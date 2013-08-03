@@ -10,6 +10,7 @@ public class CartOperationConfirm implements Serializable {
 	private boolean success;
 	private String message;
 	private Cart cart;
+	private boolean shouldPrint;
 	
 	public boolean isSuccess() { return success; }
 	public void setSuccess(boolean success) { this.success = success; }
@@ -19,4 +20,7 @@ public class CartOperationConfirm implements Serializable {
 	
 	public Cart getCart() { return cart; }
 	public void setCart(Cart cart) { this.cart = cart; }
+	
+	public boolean isShouldPrint() { return shouldPrint; }
+	public void setShouldPrint(boolean shouldPrint) { this.shouldPrint = shouldPrint; }
 }
