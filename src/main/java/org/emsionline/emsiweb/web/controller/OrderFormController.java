@@ -1,7 +1,11 @@
 package org.emsionline.emsiweb.web.controller;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
+import javax.mail.internet.MimeMessage;
 import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 
@@ -12,13 +16,19 @@ import org.emsionline.emsiweb.domain.orderform.CatalogCategory;
 import org.emsionline.emsiweb.domain.orderform.CatalogItem;
 import org.emsionline.emsiweb.domain.orderform.CatalogType;
 import org.emsionline.emsiweb.domain.orderform.CustomerInfo;
+import org.emsionline.emsiweb.mail.EmailService;
 import org.emsionline.emsiweb.service.orderform.CatalogService;
 import org.emsionline.emsiweb.web.validator.CustInfoValidator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.mail.javamail.MimeMessageHelper;
+import org.springframework.mail.javamail.MimeMessagePreparator;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.ui.freemarker.FreeMarkerConfigurationFactoryBean;
+import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
@@ -28,6 +38,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.SessionAttributes;
 import org.springframework.web.bind.support.SessionStatus;
+
+import freemarker.template.Configuration;
 
 
 @Controller
@@ -42,6 +54,21 @@ public class OrderFormController {
 	@Autowired
 	private CatalogService catalogService;
 	
+	@Autowired
+	JavaMailSender mailSender;
+	
+	// TODO: Create an class to hold all these email settings
+	@Autowired
+	String fromAddress;
+	
+	@Autowired
+	String subject;
+	
+	@Autowired
+	String bccAddress;
+	
+	@Autowired
+	FreeMarkerConfigurationFactoryBean configFactory;	
 	
 	@ModelAttribute("catalogTypes")
 	public List<CatalogType> getCatalogTypes() {
@@ -151,6 +178,10 @@ public class OrderFormController {
 			return "orderform/cart";
 		} else {
 			cart.setSubmitted(true);
+			
+			EmailService emailService = new EmailService(mailSender, configFactory);
+			emailService.sendConfirmationEmail(fromAddress, bccAddress, subject, custinfo, cart);
+			
 			return "redirect:/order/mailinstr";
 		}
 	}
@@ -179,4 +210,6 @@ public class OrderFormController {
 		sessionStatus.setComplete();
 		return "orderform/print";
 	}
+	
+
 }
