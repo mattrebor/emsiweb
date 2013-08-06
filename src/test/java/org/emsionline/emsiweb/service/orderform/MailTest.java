@@ -54,15 +54,15 @@ public class MailTest {
 		
 		CatalogItem catItem1 = new CatalogItem();
 		catItem1.setItemCode("1A0001");
-		catItem1.setItemShortDescr("創世與末世");
-		catItem1.setAuthor("亨利．默瑞斯 著 國際福音神學佈道會譯");
+		catItem1.setItemShortDescr("abc");
+		catItem1.setAuthor("XHZ");
 		catItem1.setNumVolumes(1);
 		catItem1.setPriceUS(7.00);
 		
 		CatalogItem catItem2 = new CatalogItem();
 		catItem2.setItemCode("1D0001");
-		catItem2.setItemShortDescr("信仰與科學叢書系列(一)");
-		catItem2.setAuthor("亨利．默瑞斯 著 國際福音神學佈道會譯");
+		catItem2.setItemShortDescr("ABC");
+		catItem2.setAuthor("XYZ");
 		catItem2.setNumVolumes(1);
 		catItem2.setPriceUS(5.00);
 
