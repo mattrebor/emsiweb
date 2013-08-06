@@ -6,6 +6,8 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.1.xsd">
 		
 	<import resource="classpath:datasource-tx-jpa.xml" />
+	<import resource="classpath:mail-context.xml" />
+	
 	
 	<context:component-scan base-package="org.emsionline.emsiweb.service.jpa" />
 	<context:component-scan base-package="org.emsionline.emsiweb.service.orderform.jpa"/>
