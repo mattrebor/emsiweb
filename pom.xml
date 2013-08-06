@@ -17,8 +17,10 @@
 		<hibernate-version>3.6.8.Final</hibernate-version>
 		<org.aspectj-version>1.6.10</org.aspectj-version>
 		<org.slf4j-version>1.5.10</org.slf4j-version>
-		<eclipselink.version>2.5.0</eclipselink.version>
-		
+		<eclipselink-version>2.5.0</eclipselink-version>
+		<freemarker-version>2.3.20</freemarker-version>
+		<javax.mail-version>1.4.3</javax.mail-version>
+		<jasypt-version>1.9.0</jasypt-version>
 	</properties>
 	
 	<dependencies>
@@ -40,6 +42,18 @@
 			<artifactId>spring-webmvc</artifactId>
 			<version>${org.springframework-version}</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>${freemarker-version}</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>javax.mail</groupId>
+		    <artifactId>mail</artifactId>
+		    <version>${javax.mail-version}</version>
+	    </dependency>
 
 		<!-- AspectJ -->
 		<dependency>
@@ -189,19 +203,19 @@
 		<dependency>
 			<groupId>org.eclipse.persistence</groupId>
 			<artifactId>eclipselink</artifactId>
-			<version>${eclipselink.version}</version>
+			<version>${eclipselink-version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.persistence</groupId>
 			<artifactId>org.eclipse.persistence.core</artifactId>
-			<version>${eclipselink.version}</version>
+			<version>${eclipselink-version}</version>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.eclipse.persistence</groupId>
 			<artifactId>org.eclipse.persistence.jpa</artifactId>
-			<version>${eclipselink.version}</version>
+			<version>${eclipselink-version}</version>
 			<scope>compile</scope>
 		</dependency>		
 		<dependency>
@@ -259,6 +273,20 @@
 			<artifactId>cglib</artifactId>
 			<version>2.2</version>
 		</dependency>
+		
+		
+		<dependency>
+      		<groupId>org.jasypt</groupId>
+		    <artifactId>jasypt</artifactId>
+		    <version>${jasypt-version}</version>
+		    <scope>compile</scope>
+    	</dependency>
+		<dependency>
+      		<groupId>org.jasypt</groupId>
+		    <artifactId>jasypt-spring31</artifactId>
+		    <version>${jasypt-version}</version>
+		    <scope>compile</scope>
+    	</dependency>    	
 	</dependencies>
 	<build>
 		<plugins>
