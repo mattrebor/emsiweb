@@ -17,8 +17,9 @@
 運費 Shipping Fee:
 累計金額 Total:
 
-將訂購單連同付管款金額(支票)寄至: EMSI, 36 Alpine Rd., Towaco, N.J. 07082
 
-Mail your order form, and your check to: EMSI, 36 Alpine Rd., Towaco, N.J. 07082.
+US$為美國國內售價。The price (in US$) are for U.S. customers only.
 
-US$為美國國內售價。國外訂購，請函emsi@emsionline.org; 或電詢 973-335-7177。 The price (in US$) are for U.S. customers only. Others may send inquiry to emsi@emsionline.org; or call 973-335-7177.
+美國國內: 將訂購單連同付款金額(支票)寄至: EMSI, 36 Alpine Rd., Towaco, N.J. 07082. 支票抬頭請寫:EMSI.　In the States: Mail your order form, and your check to: EMSI, 36 Alpine Rd., Towaco, N.J. 07082. Make check payable to: EMSI.
+
+國外訂購單，請函 publisher@emsionline.org; 或電詢 973-335-7177。Others may send inquiry to publisher@emsionline.org; or call 973-335-7177.
