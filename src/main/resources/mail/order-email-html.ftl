@@ -15,13 +15,13 @@
 			<th style="font-size: 11px; vertical-align: bottom; width: 80px; border: 1px solid black;" valign="bottom">
 				&#32232;&#34399;<br>Item Code</th>
 			<th style="font-size: 11px; vertical-align: bottom; border: 1px solid black;" valign="bottom">
-				&#26360;/CD &#21517; Description</th>
+				訂購項目 Description</th>
 			<th style="font-size: 11px; vertical-align: bottom; width: 30px; border: 1px solid black;" valign="bottom">
-				&#25976;&#37327; Qty.</th>
+				數量 Qty.</th>
 			<th style="font-size: 11px; vertical-align: bottom; width: 70px; border: 1px solid black;" valign="bottom">
-				&#21934;&#20729;<br>Unit Price</th>
+				單價<br>Unit Price</th>
 			<th style="font-size: 11px; vertical-align: bottom; width: 70px; border: 1px solid black;" valign="bottom">
-				&#26360;/CD &#20729;<br>Amount</th>
+				總計<br>Amount</th>
 		</tr>
 
 		<#assign subtotal=0>
@@ -46,32 +46,26 @@
 		</tr>
 		<tr>
 			<td colspan="4" style="font-size: 11px; vertical-align: top; text-align: right; padding-right: 15px; border: 1px solid black;" align="right" valign="top">
-				Subtotal
+				小計 Subtotal
 			</td>
 			<td style="font-size: 11px; vertical-align: top; text-align: right; padding-right: 15px; border: 1px solid black;" align="right" valign="top">
 				${subtotal?string.currency}</td>
 		</tr>
 		<tr>
 			<td colspan="4" style="font-size: 11px; vertical-align: top; text-align: right; padding-right: 15px; border: 1px solid black;" align="right" valign="top">
-				Total Discount
+				折扣共計 Total Discount
 			</td>
 			<td style="font-size: 11px; vertical-align: top; border: 1px solid black;" valign="top"></td>
 		</tr>
 		<tr>
 			<td colspan="4" style="font-size: 11px; vertical-align: top; text-align: right; padding-right: 15px; border: 1px solid black;" align="right" valign="top">
-				Grand Total
+				運費 Shipping Fee
 			</td>
 			<td style="font-size: 11px; vertical-align: top; border: 1px solid black;" valign="top"></td>
 		</tr>
 		<tr>
 			<td colspan="4" style="font-size: 11px; vertical-align: top; text-align: right; padding-right: 15px; border: 1px solid black;" align="right" valign="top">
-				Shipping Fee &amp; Handling
-			</td>
-			<td style="font-size: 11px; vertical-align: top; border: 1px solid black;" valign="top"></td>
-		</tr>
-		<tr>
-			<td colspan="4" style="font-size: 11px; vertical-align: top; text-align: right; padding-right: 15px; border: 1px solid black;" align="right" valign="top">
-				Total
+				累計金額 Total
 			</td>
 			<td style="font-size: 11px; vertical-align: top; border: 1px solid black;" valign="top"></td>
 		</tr>
@@ -132,6 +126,9 @@
 		</p>
 		<p>
 			Mail your order form, and your check to: EMSI, 36 Alpine Rd., Towaco, N.J. 07082.
+		</p>
+		<p>
+			US$為美國國內售價。國外訂購，請函emsi@emsionline.org; 或電詢 973-335-7177。 The price (in US$) are for U.S. customers only. Others may send inquiry to emsi@emsionline.org; or call 973-335-7177.
 		</p>
 	</div>
 </div>
