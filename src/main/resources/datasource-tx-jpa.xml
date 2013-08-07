@@ -15,7 +15,6 @@
 		<jdbc:script location="classpath:schema.sql" />
 		<jdbc:script location="classpath:reference_data.sql" encoding="UTF-8" />
 		<jdbc:script location="classpath:emsi-church-content2.sql" encoding="UTF-8" />
-		<!-- <jdbc:script location="classpath:emsi-content3.sql" encoding="UTF-8" /> -->
 		<jdbc:script location="classpath:emsi-church-content-new.sql" encoding="UTF-8" />		
 		
 		<jdbc:script location="classpath:schema-orderform.sql"/>
