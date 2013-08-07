@@ -7,6 +7,9 @@ import javax.mail.internet.MimeMessage;
 
 import org.emsionline.emsiweb.domain.orderform.Cart;
 import org.emsionline.emsiweb.domain.orderform.CustomerInfo;
+import org.emsionline.emsiweb.web.controller.ChurchController;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.mail.javamail.MimeMessageHelper;
@@ -16,52 +19,71 @@ import org.springframework.ui.freemarker.FreeMarkerTemplateUtils;
 
 import freemarker.template.Configuration;
 
-
 // TODO: Make this a real service.
 
 public class EmailService {
 	JavaMailSender mailSender;
-	
-	FreeMarkerConfigurationFactoryBean configFactory;	
 
-	public EmailService(JavaMailSender mailSender, FreeMarkerConfigurationFactoryBean configFactory) {
+	FreeMarkerConfigurationFactoryBean configFactory;
+
+	final Logger logger = LoggerFactory.getLogger(EmailService.class);
+
+	public EmailService(JavaMailSender mailSender,
+			FreeMarkerConfigurationFactoryBean configFactory) {
 		this.mailSender = mailSender;
 		this.configFactory = configFactory;
 	}
-	
+
 	public void sendConfirmationEmail(final String fromAddress, final String bccAddress, final String subject, final CustomerInfo custInfo, final Cart cart) {
 		
 		//System.out.println("fromAddress: " + fromAddress);
 		//System.out.println("subject: " + subject);
 		
+		logger.info("fromAddress: " + fromAddress);
+		logger.info("bccAddress: " + bccAddress);
+		logger.info("subject: " + subject);
+		
 		MimeMessagePreparator preparator = new MimeMessagePreparator() {
 	         public void prepare(MimeMessage mimeMessage) throws Exception {
-	            MimeMessageHelper message = new MimeMessageHelper(mimeMessage, true, "UTF-8");
-	            
-	            message.setTo(custInfo.getEmail());
-	            message.setFrom(fromAddress);
-	            if (bccAddress != null && bccAddress.length() > 1) {
-	            	message.setBcc(bccAddress);
-	            }
-	            message.setSubject(subject);
-	            
-	            StringBuffer content = new StringBuffer();
-	    		Configuration configuration = configFactory.createConfiguration();
-	    		configuration.setDefaultEncoding("UTF-8");
-	    		
-	    		Map<String, Object> order = new HashMap<String, Object>();
-	    		order.put("custInfo", custInfo);
-	    		order.put("cart", cart);
-	    		
-	    			
-	    		String htmlText = content.append(FreeMarkerTemplateUtils.processTemplateIntoString(configuration.getTemplate("order-email-html.ftl"), order)).toString();
-	    		content.setLength(0);
-	    		String plainText = content.append(FreeMarkerTemplateUtils.processTemplateIntoString(configuration.getTemplate("order-email-text.ftl"), order)).toString();
-	    		//System.out.println(plainText);
+	        	 
+	        	 
+	        	 
+				MimeMessageHelper message = new MimeMessageHelper(mimeMessage, true, "UTF-8");
 
-	            message.setText(plainText, htmlText);
+				message.setTo(custInfo.getEmail());
+				message.setFrom(fromAddress);
+				if (bccAddress != null && bccAddress.length() > 1) {
+					message.setBcc(bccAddress);
+				}
+				message.setSubject(subject);
+
+				StringBuffer content = new StringBuffer();
+				Configuration configuration = configFactory.createConfiguration();
+				configuration.setDefaultEncoding("UTF-8");
+
+				Map<String, Object> order = new HashMap<String, Object>();
+				order.put("custInfo", custInfo);
+				order.put("cart", cart);
+
+				String htmlText = content.append(
+						FreeMarkerTemplateUtils.processTemplateIntoString(
+								configuration
+										.getTemplate("order-email-html.ftl"),
+								order)).toString();
+				content.setLength(0);
+				String plainText = content.append(
+						FreeMarkerTemplateUtils.processTemplateIntoString(
+								configuration
+										.getTemplate("order-email-text.ftl"),
+								order)).toString();
+
+				logger.info(plainText);
+				message.setText(plainText, htmlText);
 	         }
 	      };
 	      this.mailSender.send(preparator);		
+	      
+	      logger.info("sent email to | " + custInfo.getEmail() + "|");
+
 	}
 }
