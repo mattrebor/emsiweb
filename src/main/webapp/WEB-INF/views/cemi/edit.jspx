@@ -103,7 +103,9 @@
 						          ['Styles', 'Format','Font', 'FontSize'],
 							      ['TextColor', 'BGColor'], ['Maximize', 'ShowBlocks']
 						],
-						filebrowserImageBrowseUrl: '/treetest'
+						filebrowserImageBrowseUrl: '/treetest',
+						filebrowserImageUploadUrl: '/treetest'
+
 					
 					});
 				}
