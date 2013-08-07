@@ -51,13 +51,13 @@
 			<th class="item-code">
 				編號<br/>Item Code</th>
 			<th class="item-name">
-				書/CD 名 Description</th>
+				訂購項目<br/>Description</th>
 			<th class="quantity">
 				數量 Qty.</th>
 			<th class="price">
 				單價<br/>Unit Price</th>
 			<th class="amount">
-				書/CD 價<br/>Amount</th>
+				總計<br/>Amount</th>
 			<th class="delete"></th>
 		</tr>
 		<c:set var="subtotal" value="${0}"/>
@@ -83,7 +83,7 @@
 		</tr>
 		<tr>
 			<td colspan="4" class="right rpad15">
-				Subtotal
+				小計 Subtotal
 			</td>
 			<td class="right rpad15">
 				<fmt:formatNumber type="currency" value="${subtotal}" currencySymbol="$"/></td>
@@ -91,28 +91,21 @@
 		</tr>
 		<tr>
 			<td colspan="4" class="right rpad15">
-				Total Discount
+				折扣共計 Total Discount
 			</td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
 			<td colspan="4" class="right rpad15">
-				Grand Total
+				運費 Shipping Fee
 			</td>
 			<td></td>
 			<td></td>
 		</tr>
 		<tr>
 			<td colspan="4" class="right rpad15">
-				Shipping Fee &amp;amp; Handling
-			</td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td colspan="4" class="right rpad15">
-				Total
+				累計金額 Total
 			</td>
 			<td></td>
 			<td></td>
