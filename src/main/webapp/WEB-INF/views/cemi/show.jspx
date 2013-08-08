@@ -15,13 +15,14 @@
 
 	<c:set var="details" value="${church.churchDetails}" />
 	
+	<spring:message code="label_cemi_title" var="labelCemiTitle" />
 	<spring:message code="label_cemi_brief_history" var="labelCemiBriefHistory" />
 	<spring:message code="label_cemi_minister_intro" var="labelCemiMinisterIntro" />
 	<spring:message code="Label_cemi_church_schedule" var="labelCemiChurchSchedule" />
 	<spring:message code="label_cemi_contact_us" var="labelCemiContactUs" />
 	
 	<br/>
-	<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">Christian Evangelical Mission International (CEMI)</span>
+	<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">${labelCemiTitle}</span>
 
 	<h4>${content.title}</h4>
 
