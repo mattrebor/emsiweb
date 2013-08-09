@@ -61,13 +61,13 @@
 			<th class="item-code">
 				編號<br/>Item Code</th>
 			<th class="item-name">
-				書/CD 名 Description</th>
+				訂購項目<br/>Description</th>
 			<th class="quantity">
-				數量 Qty.</th>
+				數量<br/>Qty.</th>
 			<th class="price">
 				單價<br/>Unit Price</th>
 			<th class="amount">
-				書/CD 價<br/>Amount</th>
+				總計<br/>Amount</th>
 		</tr>
 		<c:set var="subtotal" value="${0}"/>
 		<c:forEach items="${cart.items}" var="item">
