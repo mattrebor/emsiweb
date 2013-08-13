@@ -56,6 +56,11 @@ public class ChurchController {
 		
 		Locale locale = RequestContextUtils.getLocale(req);
 		
+		String lang = locale.getLanguage();
+		if (!(lang.equals("en") || lang.equals("zh"))) {
+			lang = "en";
+		}
+		
 		String userAgent = req.getHeader("User-Agent");
 		
 		boolean css3TreeSupport = true;
@@ -64,10 +69,10 @@ public class ChurchController {
 		}
 		uiModel.addAttribute("css3TreeSupport", css3TreeSupport);
 
-		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), locale.getLanguage()));
+		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), lang));
 		uiModel.addAttribute("church_org", church_org);
 		
-		List<LocalizedChurch> all_churches = churchService.findAllByLocale(locale.getLanguage());
+		List<LocalizedChurch> all_churches = churchService.findAllByLocale(lang);
 		uiModel.addAttribute("allChurches", all_churches);
 
 		return "cemi/list";
@@ -93,22 +98,26 @@ public class ChurchController {
 		
 		Locale locale = RequestContextUtils.getLocale(req);
 
+		String lang = locale.getLanguage();
+		if (!(lang.equals("en") || lang.equals("zh"))) {
+			lang = "en";
+		}
 		
 		
-		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), locale.getLanguage()));
+		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), lang));
 		uiModel.addAttribute("church_org", church_org);
 
-		LocalizedChurch church = churchService.findById(new LocalizedChurchKey(new Long(id), locale.getLanguage()));
+		LocalizedChurch church = churchService.findById(new LocalizedChurchKey(new Long(id), lang));
 		uiModel.addAttribute("church", church);
 		
 		Map<String, String> churchHierarchy = retrieveChurchHierarchy(church);
 		uiModel.addAttribute("churchHierarchy", churchHierarchy);
 		
-		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), locale.getLanguage(), page_id));
+		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), lang, page_id));
 		uiModel.addAttribute("content", content);
 
 		
-		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(new Long(id), locale.getLanguage());
+		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(new Long(id), lang);
 		//uiModel.addAttribute("contentList", contentList);
 		Map<String, ChurchContent> contentMap = new HashMap<String, ChurchContent>();
 
@@ -143,23 +152,27 @@ public class ChurchController {
 		
 		
 		Locale locale = RequestContextUtils.getLocale(req);
-
+		// TODO: Need to make the language selection more generic
+		String lang = locale.getLanguage();
+		if (!(lang.equals("en") || lang.equals("zh"))) {
+			lang = "en";
+		}
 		
 		
-		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), locale.getLanguage()));
+		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), lang));
 		uiModel.addAttribute("church_org", church_org);
 
-		LocalizedChurch church = churchService.findById(new LocalizedChurchKey(new Long(id), locale.getLanguage()));
+		LocalizedChurch church = churchService.findById(new LocalizedChurchKey(new Long(id), lang));
 		uiModel.addAttribute("church", church);
 		
 		Map<String, String> churchHierarchy = retrieveChurchHierarchy(church);
 		uiModel.addAttribute("churchHierarchy", churchHierarchy);
 		
-		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), locale.getLanguage(), page_id));
+		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), lang, page_id));
 		uiModel.addAttribute("content", content);
 
 		
-		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(new Long(id), locale.getLanguage());
+		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(new Long(id), lang);
 		//uiModel.addAttribute("contentList", contentList);
 		Map<String, ChurchContent> contentMap = new HashMap<String, ChurchContent>();
 
