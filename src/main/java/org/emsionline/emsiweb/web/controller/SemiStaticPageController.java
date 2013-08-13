@@ -57,6 +57,9 @@ public class SemiStaticPageController {
 			) {
 		String[] pathElements = getPathElements(request.getServletPath());
 		String lang = locale.getLanguage();
+		if (!(lang.equals("en") || lang.equals("zh"))) {
+			lang = "en";
+		}
 		StringBuilder strbld = new StringBuilder();
 		
 		

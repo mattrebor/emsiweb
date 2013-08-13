@@ -27,6 +27,10 @@ public class HomeController {
 	public String home(HttpServletRequest req, Model uiModel) { 
 		Locale locale = RequestContextUtils.getLocale(req);
 
-		return "home_" + locale.getLanguage(); 
+		String lang = locale.getLanguage();
+		if (!(lang.equals("en") || lang.equals("zh"))) {
+			lang = "en";
+		}
+		return "home_" + lang; 
 	}
 }
