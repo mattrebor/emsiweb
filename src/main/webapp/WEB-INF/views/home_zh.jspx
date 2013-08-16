@@ -82,7 +82,7 @@
 			<spring:url value="/resources/images/home/banner_45thSlideshow_zh.jpg"
 				var="banner1_img_url" />
 			<spring:url value="/news/anniversary" var="banner1_url"/>
-			<a href="http://www.youtube.com/watch?v=Cjszhz_s9C0"><img src="${banner1_img_url}" alt="" width="450" height="125" /></a> <br />
+			<a href="http://www.youtube.com/watch?v=Cjszhz_s9C0" target="_blank"><img src="${banner1_img_url}" alt="" width="450" height="125" /></a> <br />
 			<br />
 
 			<spring:url value="/resources/images/home/bookstore_zh.jpg"
