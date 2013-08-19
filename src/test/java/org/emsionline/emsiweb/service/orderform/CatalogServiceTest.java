@@ -47,13 +47,13 @@ public class CatalogServiceTest {
 	
 	@Test
 	public void testRetrieveCategoriesByCatalogType() {
-		List<CatalogCategory> list = catalogService.findCategoriesByCatalogType("BOOK");
+		List<CatalogCategory> list = catalogService.findCategoriesByCatalogType("book");
 		assertTrue(list.size() > 0);
 	}
 	
 	@Test
 	public void testRetrieveCatalogItemsByCategoryCode() {
-		List<CatalogItem> list = catalogService.findCatalogItemsByCategoryCode("1A");
+		List<CatalogItem> list = catalogService.findCatalogItemsByCategoryCode("cat_1A");
 		assertTrue(list.size() > 0);
 	}
 }

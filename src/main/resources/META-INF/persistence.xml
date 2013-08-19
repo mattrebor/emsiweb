@@ -6,7 +6,6 @@
 
 	<persistence-unit name="emsiweb-pu" transaction-type="RESOURCE_LOCAL">
 
-		
 	</persistence-unit>
 	
 
