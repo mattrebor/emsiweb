@@ -57,6 +57,7 @@ public class SLF4JLogger extends AbstractSessionLog {
         }
         return DEFAULT_LOGGER;
     }
+    
 
     /**
      * {@inheritDoc}
