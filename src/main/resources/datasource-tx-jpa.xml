@@ -45,7 +45,8 @@
 		<property name="jpaProperties">
 			<props>
 				<prop key="eclipselink.weaving">false</prop>
-			
+				<prop key="eclipselink.logging.logger">org.eclipse.persistence.logging.SLF4JLogger</prop>
+
 			<!-- 
 				<prop key="hibernate.dialect">
 					org.hibernate.dialect.H2Dialect

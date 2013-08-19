@@ -4,6 +4,8 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
 
+import java.util.List;
+
 import org.emsionline.emsiweb.domain.Church;
 import org.emsionline.emsiweb.domain.ChurchOrg;
 import org.emsionline.emsiweb.domain.LocalizedChurch;
@@ -119,4 +121,12 @@ public class ChurchServiceTest {
 		assertNull(greatGrandParent.getParentOrg());				
 	}
 
+	@Test
+	public void retrieveAll() {
+		List<LocalizedChurch> churches = lChurchService.findAllByLocale("en");
+		
+		for (LocalizedChurch church : churches) {
+			System.out.println(church.getId().getChurchId() + "," + church.getChurchPath());
+		}
+	}
 }
