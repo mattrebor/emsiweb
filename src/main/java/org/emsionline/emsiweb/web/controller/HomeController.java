@@ -28,6 +28,8 @@ public class HomeController {
 		Locale locale = RequestContextUtils.getLocale(req);
 
 		String lang = locale.getLanguage();
+		
+		logger.info("Home page - " + lang);
 		if (!(lang.equals("en") || lang.equals("zh"))) {
 			lang = "en";
 		}
