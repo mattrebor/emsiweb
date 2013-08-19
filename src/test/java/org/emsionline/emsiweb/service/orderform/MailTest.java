@@ -7,6 +7,7 @@ import org.emsionline.emsiweb.domain.orderform.CartItem;
 import org.emsionline.emsiweb.domain.orderform.CatalogItem;
 import org.emsionline.emsiweb.domain.orderform.CustomerInfo;
 import org.emsionline.emsiweb.mail.EmailService;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,6 +39,7 @@ public class MailTest {
 	String subject;
 	
 	@Test
+	@Ignore
 	public void testFreemarkHtmlMessage() throws IOException, TemplateException {
 		
 		CatalogItem catItem1 = new CatalogItem();
