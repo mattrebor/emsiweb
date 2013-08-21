@@ -18,3 +18,4 @@ public interface LocalizedChurchService {
 	public List<LocalizedChurch> findAllByLocale(String locale);
 
 }
+

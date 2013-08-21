@@ -59,6 +59,7 @@ public class ChurchController {
 		String lang = locale.getLanguage();
 		if (!(lang.equals("en") || lang.equals("zh"))) {
 			lang = "en";
+			locale = Locale.US;
 		}
 		
 		String userAgent = req.getHeader("User-Agent");
@@ -74,7 +75,10 @@ public class ChurchController {
 		
 		List<LocalizedChurch> all_churches = churchService.findAllByLocale(lang);
 		uiModel.addAttribute("allChurches", all_churches);
-
+		
+		uiModel.addAttribute("page_title", messageSource.getMessage("label_cemi_title", new Object[]{}, locale));
+		uiModel.addAttribute("meta_description", messageSource.getMessage("label_cemi_title", new Object[]{}, locale));
+		
 		return "cemi/list";
 	}
 
@@ -101,6 +105,7 @@ public class ChurchController {
 		String lang = locale.getLanguage();
 		if (!(lang.equals("en") || lang.equals("zh"))) {
 			lang = "en";
+			locale = Locale.US;
 		}
 		
 		
@@ -128,6 +133,8 @@ public class ChurchController {
 		uiModel.addAttribute("contentMap", contentMap);
 
 		
+		uiModel.addAttribute("page_title", content.getTitle());
+		uiModel.addAttribute("meta_description", content.getTitle());
 		
 		
 		return "cemi/show";
