@@ -7,6 +7,8 @@ import javax.servlet.http.HttpServletRequest;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -16,6 +18,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class SemiStaticPageController {
 	
 	final Logger logger = LoggerFactory.getLogger(SemiStaticPageController.class);
+	
+	@Autowired
+	private MessageSource messageSource;
 	
 	@RequestMapping({"/emsi"})
 	public String partialPathEMSI() {
@@ -59,6 +64,7 @@ public class SemiStaticPageController {
 		String lang = locale.getLanguage();
 		if (!(lang.equals("en") || lang.equals("zh"))) {
 			lang = "en";
+			locale = Locale.US;
 		}
 		StringBuilder strbld = new StringBuilder();
 		
@@ -73,6 +79,18 @@ public class SemiStaticPageController {
 				strbld.append(pathElements[i]).append("_").append(lang);
 
 			}
+		}
+		
+		// TODO: Need to make page title determination more generic
+		logger.info("pathElements[0] = |" + pathElements[0] + "|");
+		if ("ebi".equals(pathElements[0]) ||
+			"ceom".equals(pathElements[0]) ||
+			"news".equals(pathElements[0])) {
+
+			
+			model.addAttribute("page_title", messageSource.getMessage("label_" + pathElements[0], new Object[]{}, locale));
+			model.addAttribute("meta_description", messageSource.getMessage("label_" + pathElements[0], new Object[]{}, locale));
+			
 		}
 		
 		return strbld.toString();
