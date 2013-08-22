@@ -26,6 +26,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.mvc.multiaction.NoSuchRequestHandlingMethodException;
 import org.springframework.web.servlet.support.RequestContextUtils;
 
 @RequestMapping("/cemi")
@@ -83,13 +84,13 @@ public class ChurchController {
 	}
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	public String showDefault(HttpServletRequest req, @PathVariable("id") Long id, Model uiModel) {
+	public String showDefault(HttpServletRequest req, @PathVariable("id") Long id, Model uiModel) throws NoSuchRequestHandlingMethodException {
 		return show(req, id, "intro", uiModel);
 	
 	}
 	
 	@RequestMapping(value = "/{id}/{page_id}",  method = RequestMethod.GET)
-	public String show(HttpServletRequest req, @PathVariable("id") Long id, @PathVariable("page_id") String page_id, Model uiModel) {
+	public String show(HttpServletRequest req, @PathVariable("id") Long id, @PathVariable("page_id") String page_id, Model uiModel) throws NoSuchRequestHandlingMethodException {
 
 		String userAgent = req.getHeader("User-Agent");
 
@@ -119,7 +120,11 @@ public class ChurchController {
 		uiModel.addAttribute("churchHierarchy", churchHierarchy);
 		
 		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), lang, page_id));
+		if (content == null) {
+			throw new NoSuchRequestHandlingMethodException("show", ChurchController.class);
+		}
 		uiModel.addAttribute("content", content);
+		
 
 		
 		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(new Long(id), lang);
