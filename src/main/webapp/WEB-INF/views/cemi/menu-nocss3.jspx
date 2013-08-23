@@ -26,10 +26,10 @@
 							<c:forEach items="${org.churches}" var="church">
 								<c:choose>
 									<c:when test="${not empty churchHierarchy[church.churchPath]}">
-										<li class="leaf selected-nocss3"><a href="${cemiUrl}/${church.id.churchId}">${church.churchDetails['menu_name'].value}</a></li> 
+										<li class="leaf selected-nocss3"><a href="${cemiUrl}/${church.churchPath}">${church.churchDetails['menu_name'].value}</a></li> 
 									</c:when>
 									<c:otherwise>
-										<li class="leaf"><a href="${cemiUrl}/${church.id.churchId}">${church.churchDetails['menu_name'].value}</a></li> 
+										<li class="leaf"><a href="${cemiUrl}/${church.churchPath}">${church.churchDetails['menu_name'].value}</a></li> 
 									</c:otherwise>
 								</c:choose>							
 	

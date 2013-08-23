@@ -84,13 +84,13 @@ public class ChurchController {
 	}
 
 	@RequestMapping(value = "/{id}", method = RequestMethod.GET)
-	public String showDefault(HttpServletRequest req, @PathVariable("id") Long id, Model uiModel) throws NoSuchRequestHandlingMethodException {
+	public String showDefault(HttpServletRequest req, @PathVariable("id") String id, Model uiModel) throws NoSuchRequestHandlingMethodException {
 		return show(req, id, "intro", uiModel);
 	
 	}
 	
 	@RequestMapping(value = "/{id}/{page_id}",  method = RequestMethod.GET)
-	public String show(HttpServletRequest req, @PathVariable("id") Long id, @PathVariable("page_id") String page_id, Model uiModel) throws NoSuchRequestHandlingMethodException {
+	public String show(HttpServletRequest req, @PathVariable("id") String id, @PathVariable("page_id") String page_id, Model uiModel) throws NoSuchRequestHandlingMethodException {
 
 		
 		
@@ -106,13 +106,27 @@ public class ChurchController {
 		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), lang));
 		uiModel.addAttribute("church_org", church_org);
 
-		LocalizedChurch church = churchService.findById(new LocalizedChurchKey(new Long(id), lang));
+		LocalizedChurch church = null;
+		try {
+			church = churchService.findById(new LocalizedChurchKey(new Long(id), lang));
+		}
+		catch (NumberFormatException e) {
+			// Ignore
+		}
+		
+		if (church == null) {
+			church = churchService.findById_LocaleAndChurchPath(lang, id);
+		}
+		
+		if (church == null) {
+			throw new NoSuchRequestHandlingMethodException("show", ChurchController.class);
+		}
 		uiModel.addAttribute("church", church);
 		
 		Map<String, String> churchHierarchy = retrieveChurchHierarchy(church);
 		uiModel.addAttribute("churchHierarchy", churchHierarchy);
 		
-		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), lang, page_id));
+		ChurchContent content = churchContentService.findById(new ChurchContentKey(church.getId().getChurchId(), lang, page_id));
 		if (content == null) {
 			//throw new NoSuchRequestHandlingMethodException("show", ChurchController.class);
 			return "redirect:/cemi/" + id;
@@ -121,7 +135,7 @@ public class ChurchController {
 		
 
 		
-		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(new Long(id), lang);
+		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(church.getId().getChurchId(), lang);
 		//uiModel.addAttribute("contentList", contentList);
 		Map<String, ChurchContent> contentMap = new HashMap<String, ChurchContent>();
 

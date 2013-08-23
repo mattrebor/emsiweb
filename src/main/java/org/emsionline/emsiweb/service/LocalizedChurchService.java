@@ -12,7 +12,9 @@ public interface LocalizedChurchService {
 	public List<LocalizedChurch> findAll();
 	
 	public LocalizedChurch findById(LocalizedChurchKey id);
-		
+	
+	public LocalizedChurch findById_LocaleAndChurchPath(String locale, String churchPath);
+
 	public Page<LocalizedChurch> findAllByPage(Pageable pageable);
 	
 	public List<LocalizedChurch> findAllByLocale(String locale);

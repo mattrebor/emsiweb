@@ -129,4 +129,17 @@ public class ChurchServiceTest {
 			System.out.println(church.getId().getChurchId() + "," + church.getChurchPath());
 		}
 	}
+	
+	@Test
+	public void retrieveByChurchPathAndLocale() {
+		LocalizedChurch church = lChurchService.findById_LocaleAndChurchPath("en", "towaco");
+		
+		assertNotNull(church);
+		assertEquals("CEMC in Towaco", church.getChurchDetails().get("menu_name").getValue());
+		
+		church = lChurchService.findById_LocaleAndChurchPath("zh", "towaco");
+		
+		assertNotNull(church);
+		//assertEquals("CEMC in Towaco", church.getChurchDetails().get("menu_name").getValue());
+	}
 }
