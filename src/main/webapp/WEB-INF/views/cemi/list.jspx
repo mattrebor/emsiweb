@@ -28,7 +28,7 @@ var marks = [
 <c:forEach items="${allChurches}" var="church">
 
 	<c:if test="${not empty church.address}">
-		{latLng:[${church.latitude}, ${church.longitude}], data: '<a href="${showPageUrl}/${church.id.churchId}">${church.churchDetails["menu_name"].value}</a><br/>${church.address}', church_name: '<a href="${showPageUrl}/${church.id.churchId}">${church.churchDetails["menu_name"].value}</a>'},
+		{latLng:[${church.latitude}, ${church.longitude}], data: '<a href="${showPageUrl}/${church.churchPath}">${church.churchDetails["menu_name"].value}</a><br/>${church.address}', church_name: '<a href="${showPageUrl}/${church.churchPath}">${church.churchDetails["menu_name"].value}</a>'},
 	</c:if>
 </c:forEach>
 ];

@@ -44,5 +44,10 @@ public class LocalizedChurchServiceImpl implements LocalizedChurchService {
 		return churchRepository.findAllById_Locale(locale);
 	}
 
+	@Transactional(readOnly = true)
+	public LocalizedChurch findById_LocaleAndChurchPath(String locale, String churchPath) {
+		return churchRepository.findById_LocaleAndChurchPath(locale, churchPath);
+	}
+
 
 }

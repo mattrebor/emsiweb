@@ -32,7 +32,7 @@
 		<ul>
 			<c:choose>
 				<c:when test="${not empty contentMap['intro']}">
-					<li><a href="${showPageUrl}/${contentMap['intro'].id.churchId}/${contentMap['intro'].id.pageId}">${labelCemiBriefHistory}</a></li>
+					<li><a href="${showPageUrl}/${church.churchPath}/${contentMap['intro'].id.pageId}">${labelCemiBriefHistory}</a></li>
 				</c:when>
 				<c:otherwise>
 					<li class="disabled">${labelCemiBriefHistory}</li>
@@ -40,7 +40,7 @@
 			</c:choose>
 			<c:choose>
 				<c:when test="${not empty contentMap['minister']}">
-					<li><a href="${showPageUrl}/${contentMap['minister'].id.churchId}/${contentMap['minister'].id.pageId}">${labelCemiMinisterIntro}</a></li>
+					<li><a href="${showPageUrl}/${church.churchPath}/${contentMap['minister'].id.pageId}">${labelCemiMinisterIntro}</a></li>
 				</c:when>
 				<c:otherwise>
 					<li class="disabled">${labelCemiMinisterIntro}</li>
@@ -48,7 +48,7 @@
 			</c:choose>
 			<c:choose>
 				<c:when test="${not empty contentMap['schedule']}">
-					<li><a href="${showPageUrl}/${contentMap['schedule'].id.churchId}/${contentMap['schedule'].id.pageId}">${labelCemiChurchSchedule}</a></li>
+					<li><a href="${showPageUrl}/${church.churchPath}/${contentMap['schedule'].id.pageId}">${labelCemiChurchSchedule}</a></li>
 				</c:when>
 				<c:otherwise>
 					<li class="disabled">${labelCemiChurchSchedule}</li>
@@ -56,7 +56,7 @@
 			</c:choose>
 			<c:choose>
 				<c:when test="${not empty contentMap['contactus']}">
-				<li><a href="${showPageUrl}/${contentMap['contactus'].id.churchId}/${contentMap['contactus'].id.pageId}">${labelCemiContactUs}</a></li>
+				<li><a href="${showPageUrl}/${church.churchPath}/${contentMap['contactus'].id.pageId}">${labelCemiContactUs}</a></li>
 				</c:when>
 				<c:otherwise>
 					<li class="disabled">${labelCemiContactUs}</li>
