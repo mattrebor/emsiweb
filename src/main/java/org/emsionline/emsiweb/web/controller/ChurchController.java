@@ -92,13 +92,6 @@ public class ChurchController {
 	@RequestMapping(value = "/{id}/{page_id}",  method = RequestMethod.GET)
 	public String show(HttpServletRequest req, @PathVariable("id") Long id, @PathVariable("page_id") String page_id, Model uiModel) throws NoSuchRequestHandlingMethodException {
 
-		String userAgent = req.getHeader("User-Agent");
-
-		boolean css3TreeSupport = true;
-		if (userAgent.contains("MSIE 7.0") || userAgent.contains("MSIE 8.0")) {
-			css3TreeSupport = false;
-		}
-		uiModel.addAttribute("css3TreeSupport", css3TreeSupport);
 		
 		
 		Locale locale = RequestContextUtils.getLocale(req);
@@ -121,7 +114,8 @@ public class ChurchController {
 		
 		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), lang, page_id));
 		if (content == null) {
-			throw new NoSuchRequestHandlingMethodException("show", ChurchController.class);
+			//throw new NoSuchRequestHandlingMethodException("show", ChurchController.class);
+			return "redirect:/cemi/" + id;
 		}
 		uiModel.addAttribute("content", content);
 		
@@ -139,8 +133,16 @@ public class ChurchController {
 
 		
 		uiModel.addAttribute("page_title", content.getTitle());
-		uiModel.addAttribute("meta_description", content.getTitle());
+		uiModel.addAttribute("meta_description", content.getTitle() + " Chinese Christian Evengelical Church Seminary International");
 		
+
+		String userAgent = req.getHeader("User-Agent");
+
+		boolean css3TreeSupport = true;
+		if (userAgent.contains("MSIE 7.0") || userAgent.contains("MSIE 8.0")) {
+			css3TreeSupport = false;
+		}
+		uiModel.addAttribute("css3TreeSupport", css3TreeSupport);
 		
 		return "cemi/show";
 	}
