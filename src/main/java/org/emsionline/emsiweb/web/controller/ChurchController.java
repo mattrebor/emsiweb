@@ -163,13 +163,13 @@ public class ChurchController {
 
 	
 	@RequestMapping(value = "/{id}", params="edit", method = RequestMethod.GET)
-	public String editDefault(HttpServletRequest req, @RequestParam("edit") String edit, @PathVariable("id") Long id, Model uiModel) {
+	public String editDefault(HttpServletRequest req, @RequestParam("edit") String edit, @PathVariable("id") String id, Model uiModel) throws NoSuchRequestHandlingMethodException {
 		return edit(req, edit, id, "intro", uiModel);
 	
 	}
 	
 	@RequestMapping(value = "/{id}/{page_id}", params="edit", method = RequestMethod.GET)
-	public String edit(HttpServletRequest req, @RequestParam("edit") String edit, @PathVariable("id") Long id, @PathVariable("page_id") String page_id, Model uiModel) {
+	public String edit(HttpServletRequest req, @RequestParam("edit") String edit, @PathVariable("id") String id, @PathVariable("page_id") String page_id, Model uiModel) throws NoSuchRequestHandlingMethodException {
 		String userAgent = req.getHeader("User-Agent");
 
 		boolean css3TreeSupport = true;
@@ -190,17 +190,31 @@ public class ChurchController {
 		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), lang));
 		uiModel.addAttribute("church_org", church_org);
 
-		LocalizedChurch church = churchService.findById(new LocalizedChurchKey(new Long(id), lang));
+		LocalizedChurch church = null;
+		try {
+			church = churchService.findById(new LocalizedChurchKey(new Long(id), lang));
+		}
+		catch (NumberFormatException e) {
+			// Ignore
+		}
+		
+		if (church == null) {
+			church = churchService.findById_LocaleAndChurchPath(lang, id);
+		}
+		
+		if (church == null) {
+			throw new NoSuchRequestHandlingMethodException("show", ChurchController.class);
+		}
 		uiModel.addAttribute("church", church);
 		
 		Map<String, String> churchHierarchy = retrieveChurchHierarchy(church);
 		uiModel.addAttribute("churchHierarchy", churchHierarchy);
 		
-		ChurchContent content = churchContentService.findById(new ChurchContentKey(new Long(id), lang, page_id));
+		ChurchContent content = churchContentService.findById(new ChurchContentKey(church.getId().getChurchId(), lang, page_id));
 		uiModel.addAttribute("content", content);
 
 		
-		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(new Long(id), lang);
+		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(church.getId().getChurchId(), lang);
 		//uiModel.addAttribute("contentList", contentList);
 		Map<String, ChurchContent> contentMap = new HashMap<String, ChurchContent>();
 

@@ -12,6 +12,8 @@
 
 	<spring:url value="/images/emsi/" var="imgBase" />
 	<spring:url value="/images/files/" var="imgBase2" />
+	<spring:url value="/images/" var="imgBase3"/>
+	
 
 	<c:set var="details" value="${church.churchDetails}" />
 	
@@ -71,7 +73,7 @@
 	<hr/>
 
 	<div id="church-content">
-		${fn:replace(fn:replace(content.body, '/emsi/images/', imgBase), '/emsi/files/', imgBase2)}
+		${fn:replace(fn:replace(fn:replace(content.body, '/emsi/images/', imgBase), '/emsi/files/', imgBase2), '/IMAGE-REL-PATH/', imgBase3)}
 	</div>
 	<textarea style="visibility: hidden" name="churcheditor1"><jsp:text/>
 	</textarea>
