@@ -73,7 +73,7 @@
 	<hr/>
 
 	<div id="church-content">
-		${fn:replace(fn:replace(fn:replace(content.body, '/emsi/images/', imgBase), '/emsi/files/', imgBase2), '/IMAGE-REL-PATH/', imgBase3)}
+		${fn:replace(fn:replace(fn:replace(content.body, '/emsi/images/', imgBase), '/emsi/files/', imgBase2), '/emsiweb/images/', imgBase3)}
 	</div>
 	<textarea style="visibility: hidden" name="churcheditor1"><jsp:text/>
 	</textarea>
