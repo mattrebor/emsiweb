@@ -439,3 +439,274 @@ set value = '三籓市基督教生命堂'
 where church_id = 11
 and locale = 'zh'
 and key = 'menu_name';
+
+update church_content set body = '<p>&nbsp;</p>
+
+<p style="margin: 0.6em 0px 1.2em; padding: 0px"><b>Sunday Worship</b>&nbsp;<b style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px">| Sunday 5:30PM</b></p>
+
+<p style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px; margin: 0.6em 0px 1.2em; padding: 0px">&nbsp;</p>
+
+<hr id="null" style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px; height: 1px; background-color: #5294c1; border-style: none; padding: 0px; margin: 0px" />
+<p><br />
+<b style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px">Church Services Schedule</b></p>
+
+<table align="center" border="0" style="text-align: center">
+	<tbody>
+		<tr>
+			<td style="text-align: center"><b>Content</b></td>
+			<td style="text-align: center"><b>Time&nbsp;</b></td>
+			<td style="text-align: center"><b>Location&nbsp;</b></td>
+		</tr>
+		<tr>
+			<td style="text-align: center">Chinese school&nbsp;</td>
+			<td style="text-align: center">&nbsp;Sunday 1:30 PM</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;Sunday Worship</td>
+			<td style="text-align: center">&nbsp;Sunday 5:30 PM</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;Big Choir</td>
+			<td style="text-align: center">&nbsp; Sunday 7:15 PM&nbsp;</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;Youth fellowship</td>
+			<td style="text-align: center">&nbsp;Thursday 6:30 PM&nbsp;</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;Testimonies, Prayer meeting</td>
+			<td style="text-align: center">Thursday 9:30 PM</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;Student Fellowship</td>
+			<td style="text-align: center">Friday 6:00 PM</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;Bible study, Fellowship</td>
+			<td style="text-align: center">Saturday 6:00 PM&nbsp;</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">Small Choir</td>
+			<td style="text-align: center">Saturday 7:00 PM</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+
+<p style="text-align: center; font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px; margin: 0.6em 0px 1.2em; padding: 0px">&nbsp;</p>
+
+<p style="margin: 0.6em 0px 1.2em; padding: 0px"><b>Culto Dominical</b> <b style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px">| Domingos 17:30</b></p>
+
+<p style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px; margin: 0.6em 0px 1.2em; padding: 0px">&nbsp;</p>
+
+<hr id="null" style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px; height: 1px; background-color: #5294c1; border-style: none; padding: 0px; margin: 0px" />
+<p><br />
+<b style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px">Horario de las Actividades de la Iglesia</b></p>
+
+<table align="center" border="0" height="183" style="text-align: center" width="635">
+	<tbody>
+		<tr>
+			<td style="text-align: center"><b>Actividad</b></td>
+			<td style="text-align: center"><b>Horiario</b></td>
+			<td style="text-align: center"><b>Localizaci&oacute;n </b></td>
+		</tr>
+		<tr>
+			<td style="text-align: center">Escuela china</td>
+			<td style="text-align: center">Domingo 13:30</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">&nbsp;Culto Dominical</td>
+			<td style="text-align: center">Domingo 17:30</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">Coro grande</td>
+			<td style="text-align: center">&nbsp;Domingo 19:15</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">Reuni&oacute;n de adolescentes y j&oacute;venes</td>
+			<td style="text-align: center">&nbsp;Jueves 18:30</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">Testimonios, Reuni&oacute;n de oraci&oacute;n</td>
+			<td style="text-align: center">Jueves 21:30</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">Estudiantes Reuni&oacute;n</td>
+			<td style="text-align: center">Viernes 18:00</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">Escuela B&iacute;blica, Reuniones (hnos y hnas)</td>
+			<td style="text-align: center">S&aacute;bado 18:00</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+		<tr>
+			<td style="text-align: center">Coro peque&ntilde;o</td>
+			<td style="text-align: center">S&aacute;bado 19:00</td>
+			<td style="text-align: center">&nbsp;</td>
+		</tr>
+	</tbody>
+</table>
+'	where church_id = (select church_id from church where church_path = 'madrid')
+	and locale = 'en'
+	and page_id = 'schedule';
+
+	
+update church_content set body = '<p><b>主日崇拜 | 週日下午5:30PM</b></p>
+
+<p>&nbsp;</p>
+
+<hr id="null" />
+<p><br />
+<b>聚會日程</b></p>
+
+<p>&nbsp;</p>
+
+<table border="0">
+	<tbody>
+		<tr>
+			<td align="center"><span style="font-size: small"><b><span style="font-size: small"><span style="font-size: medium">&nbsp;内容</span></span></b></span></td>
+			<td align="center"><span style="font-size: small"><b><span style="font-size: small"><span style="font-size: medium">&nbsp;時間</span></span></b></span></td>
+			<td align="center"><span style="font-size: small"><b><span style="font-size: small"><span style="font-size: medium">地點&nbsp;</span></span></b></span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">中文學校</span></span></td>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">週日下午 1:30PM&nbsp;</span></span></td>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">主日崇拜</span></span></span></td>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">週日下午 5:30PM</span>&nbsp;</span></span></td>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">大詩班</span></span></td>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">週日下午 7:15PM&nbsp;</span></span></td>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">青少年團契</span></span></td>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">週四下午 6:30 PM&nbsp;</span></span></td>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">見證, 禱告會</span></span></span></td>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">週四晚間 9:30PM</span>&nbsp;</span></span></td>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">&nbsp;留學生團契</span></span></td>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">週五下午 6:00 PM</span></span></span></td>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">&nbsp;查經班, 團契</span></span></td>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">週六下午 5:30PM</span></span></span></td>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-size: medium">&nbsp;</span><span style="font-size: x-small"><span style="font-size: medium">小</span></span><span style="font-size: x-small"><span style="font-size: medium">詩班</span></span></td>
+			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">週六下午 7:00PM</span></span></span><span style="font-size: medium"> </span></td>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+		</tr>
+		<tr>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'madrid')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+	
+	
+update church_content set body = '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">牧師:</td>
+			<td>李月雲 牧師, 34-629-035-717</td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+<table cellpadding="1" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+			<td class="label">地址:</td>
+			<td>C/ Las Carolinas 10, 28039 Madrid, Spain</td>
+		</tr>
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+			<td class="label">電話:</td>
+			<td>34-91-459-5775, 34-91-450-7306</td>
+		</tr>
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+			<td class="label">傳真:</td>
+			<td>34-91-459-5844</td>
+		</tr>
+		<tr>
+			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+			<td class="label">電郵:</td>
+			<td><a href="mailto:iglesiamadrid@telefonica.net">iglesiamadrid@telefonica.net</a></td>
+		</tr>
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_skype.gif" width="16" /></td>
+			<td class="label">Skype:</td>
+			<td>yueh2004</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p><span class="label">成立日期: </span>1996年 4月7日</p>
+
+<p><span class="label">簡史: </span><br />
+<img align="left" height="255" hspace="5" src="/emsiweb/images/files/madrid/madrid.jpg" width="360" />一九九五年十一月一日李月雲傳道再度奉派抵西，正式展開本會在歐洲的事工。進駐空蕩無物的佈道會後，即動手裝修、添購傢俱和設備，並分別海陸空運 聖經、聖詩、歌本和圖書。一個月後「福音佈道會」對外開放，藉著查經班、神學課、音樂班的學習、個別關懷輔導和探訪，帶領慕道友、造就信徒、培訓同工，使 建立教會的基礎逐漸成熟。一九九六年四月七日本會西班牙第一間教會「馬德里基督教生命堂」成立，開始主日崇拜。&nbsp;</p>
+二00一年五月九日購堂，成為西班牙佈道會辦公和宣教中心。新堂地址: C/CAROLINAS,10(在地鐵1線Alvarado站)佔地733㎡
+
+<p>十二月二日在新堂首次崇拜, 當天有成人182人、兒童18人出席, 25人受洗。</p>
+
+<p>二00<span style="font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體;">二</span>年三月十日舉行馬德里生命堂六週年慶暨獻堂感恩崇拜, 共有350多人參加, 33人受洗</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'madrid')
+	and locale = 'zh'
+	and page_id = 'intro';	
