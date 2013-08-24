@@ -710,3 +710,181 @@ p span.label {font-weight: bold;}
 '	where church_id = (select church_id from church where church_path = 'madrid')
 	and locale = 'zh'
 	and page_id = 'intro';	
+	
+	
+update church_content set body = '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Jian Wei Ye</td>
+		</tr>
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+<table cellpadding="1" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>C / Alguacil 8, 28038 Madrid, Spain</td>
+		</tr>
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>34-91-025-6831</td>
+		</tr>
+		<tr>
+			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:iglesia.m.sur@hotmail.com">iglesia.m.sur@hotmail.com</a></td>
+		</tr>
+		<tr>
+			<td><img height="16" src="/emsiweb/images/emsi/icon_skype.gif" width="16" /></td>
+			<td class="label">Skype:</td>
+			<td>iglesia.m.sur</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p><span class="label">Established Date: </span>February 28, 2004</p>
+
+<div style="float: left">&nbsp;</div>
+
+<p><img align="left" alt="CEC South Madrid" height="258" hspace="5" src="/IMAGE-REL-PATH/southmadrid/SMadrid8_18_13.jpg" title="CEC South Madrid" width="344" />Madrid is the capital city of Spain and it is the center for politics, finance and culture. North Madrid is mainly financial and cultural, and people are more affluent than those in South Madrid. Houses in South Madrid are less expensive and many Chinese lived in this area. The CEC in Madrid South is situated in this area. The CEC Spain headquarters is in North Madrid, and it is not convenient to travel to North Madrid. We had plans to establish the South Madrid church for quite some time. Thank God that the CEC in Madrid South was established in 2004. Rev. Yang assigned Ev. Sophia Wang to help pastor the church, but because of the need in Barcelona, she was transferred to Barcelona. The CEC in Madrid South CEC in S Madridstarted constructing the church building in 2006, and the renovation and expansion was finished in 2007. By God&rsquo;s guidance, the work of the ministry was expanded due to the unity of the co-workers and the total commitment of the church members. The church attendance has increased, but we need to continue to work hard and fulfill the commission set by our Lord.</p>
+
+<p>When we started the CEC in Madrid South, we did not have any co-workers to serve, and only a few Christians. The CEC in North Madrid came to help for two years until we have our church building and services at the same time. Then our south Madrid church needed to have our own co-workers. Thank the Lord that He raised up a number of co-workers, everyone worked and served together harmoniously. When the church was dedicated in October 2006, we found out that the space was not enough. It can only seat 70 people. We need more space to expand the ministry; it is good that both sides of our building have empty space, but we can not find the landowner. Until one day a Spaniard came to sell chairs, although I hesitated first, but then decided to buy ten chairs to be put on stage. He then told me that his father own the empty house on the right. His father came to see us in December and we were able to rent the place at a reasonable price, and immediately did the renovation. By March of 2007, we were able to finish the expansion.</p>
+
+<p>The CEC in Madrid South is a very young church and the CEC in North Madrid have supported us and we have grown steadily. During the four years, our church members are growing not only in number, but also in spiritual life. Our lives, careers, and families were blessed. The Psalmist David said: &ldquo;Except the LORD build the house, they labour in vain that build it: except the LORD keep the city, the watchman waketh but in vain&rdquo; (Psalm 127:1). Therefore, we will have abundant lives in Him. May the CEC Christians serve our eternal and True God in one heart, and have abundant blessings!</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'southmadrid')
+	and locale = 'en'
+	and page_id = 'intro';		
+	
+	
+update church_content set body = '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">牧師:</td>
+			<td>葉建偉 牧師</td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+<table cellpadding="1" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+			<td class="label">地址:</td>
+			<td>C / Alguacil 8, 28038 Madrid, Spain (地鐵1線 Nueva Numancia站, Albufera impares(s) 出口右轉)</td>
+		</tr>
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+			<td class="label">電話:</td>
+			<td>34- 91 - 025 &ndash; 6831</td>
+		</tr>
+		<tr>
+			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+			<td class="label">電郵:</td>
+			<td><a href="mailto:iglesia.m.sur@hotmail.com">iglesia.m.sur@hotmail.com</a></td>
+		</tr>
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_skype.gif" width="16" /></td>
+			<td class="label">Skype:</td>
+			<td>iglesia.m.sur</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p><span class="label">成立日期: </span>2004年 2月28日</p>
+
+<p><span class="label">簡史: </span><br />
+<img align="left" alt="CEC South Madrid" height="258" hspace="5" src="/IMAGE-REL-PATH/southmadrid/SMadrid8_18_13.jpg" title="CEC South Madrid" width="344" />馬德里是西班牙的首都、政治、經濟、文化中心，而馬德里的北邊是以經濟文化為主，多屬已發展的城市；相較以工商業為主的南邊則屬正在發展中的區域，所以南邊住房的價格就相對比較低，也是許多華人集中區，而馬德里南區生命堂即坐落於此。馬德里的總會地處北邊，以至於對南區的人來講，自然就有許多不便之處；因此我們早就計劃在馬德里南區建教會。感謝主，二○○四年馬德里南區生命堂成立。當時楊摩西牧師派王艷華傳道來幫助牧養，後因巴塞羅那事工之需又派其前往。馬德里南區生命堂在二○○六年建堂，二○○七年擴建完畢，蒙主的帶領，福音工作如期展開。同工們的同心配搭，盡心盡力擺上，人數一天天增長，但我們知道仍要繼續努力，完成主的托付。<br />
+馬德里南區生命堂的開始，我們還沒有自己的 事奉同工，信徒也不多。一開始是北區來支援兩年的時間，直到建堂後，兩邊同時間聚會，南堂必須有自己的事奉人員。感謝主，一批批的同工就產生了，大家同心合意，興旺福音。二○○六年十月獻堂後，由於場地不大，只有一百坪米，七十人就坐滿了。為了更好地發展，我們需要空間，而剛好我們當初買這教堂時，位在中間，左右兩邊還有兩間是空的。當時我們找過房東，但沒找到，而就在獻堂時，有位西班牙人向我們推銷椅子，本來我們不打算買，但我想買十張椅子放在講台上用，結果他送來的時侯告訴我，我們右邊空房子是他父親的，我一聽：「啊！原來如此。」當時我們不急用，直到十二月他父親來找我，我們用很便宜的租金租下來，馬上開始裝修。二○○七年的三月，我們擴建完畢。<br />
+馬德里南區生命堂是很年輕的堂會，在北堂(總會)的愛心護養下慢慢地成長。感謝主，回顧馬德里南區生命堂成立四年來，不但人數增長，弟兄姐妹們的靈命也成長許多；而更看到不論是我們的生活、事業和家庭都蒙主賜福。詩人大衛說：「若不是耶和華建造房屋，建造的人就枉然勞力；若不是耶和華看守城池，看守的人就枉然儆醒。」(詩一二七1) 所以，我們的生命與生活都是在主裡得豐富。願馬德里南區生命堂的信徒同心事奉永生的真神，並同蒙主豐厚的賜福！</p>
+</div>	
+'	where church_id = (select church_id from church where church_path = 'southmadrid')
+	and locale = 'zh'
+	and page_id = 'intro';		
+
+	
+insert into church_content (church_id, locale, page_id, title, body) values (32, 'en', 'schedule', 'CEC in South Madrid - Church Services Schedule',
+'<table border="1" cellpadding="5">
+<tr>
+	<td>Worship Service & Choir</td>
+	<td>Sunday 5:30 pm</td>
+</tr>
+<tr>
+	<td>Youth Fellowship</td>
+	<td>Thursday 5:30 pm</td>
+</tr>
+<tr>
+	<td>Bible Study & Prayer Meeting</td>
+	<td>Friday 5:30 pm</td>
+</tr>
+<tr>
+	<td>Sister Fellowship</td>
+	<td>Last Saturday of a month 6 pm</td>
+</tr>
+<tr>
+	<td>Chinese School</td>
+	<td>Sunday 6 pm</td>
+</tr>
+</table>');	
+
+
+update church_content set body = '<table border="1" cellpadding="5">
+<tr>
+	<td>中文學校</td>
+	<td>禮拜日上午10:00</td>
+</tr>
+<tr>
+	<td>主日崇拜，詩班</td>
+	<td>禮拜日下午5:30</td>
+</tr>
+<tr>
+	<td>青少年團契</td>
+	<td>禮拜四下午5:30</td>
+</tr>
+<tr>
+	<td>查經禱告會</td>
+	<td>禮拜五下午5:30</td>
+</tr>
+<tr>
+	<td>姐妹團契</td>
+	<td>每月最後一個禮拜六下午6:00</td>
+</tr>
+</table>
+'	where church_id = (select church_id from church where church_path = 'southmadrid')
+	and locale = 'zh'
+	and page_id = 'schedule';	
