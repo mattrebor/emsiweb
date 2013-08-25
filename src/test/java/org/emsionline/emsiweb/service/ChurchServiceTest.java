@@ -132,14 +132,31 @@ public class ChurchServiceTest {
 	
 	@Test
 	public void retrieveByChurchPathAndLocale() {
+		
+		// First Church
 		LocalizedChurch church = lChurchService.findById_LocaleAndChurchPath("en", "towaco");
 		
 		assertNotNull(church);
 		assertEquals("CEMC in Towaco", church.getChurchDetails().get("menu_name").getValue());
 		
+		logger.info("First church received: |{}| |{}|", church.getId().getLocale(), church.getChurchPath());
+		
+		// Second Church
 		church = lChurchService.findById_LocaleAndChurchPath("zh", "towaco");
 		
 		assertNotNull(church);
 		//assertEquals("CEMC in Towaco", church.getChurchDetails().get("menu_name").getValue());
+
+		logger.info("Second church received: |{}| |{}|", church.getId().getLocale(), church.getChurchPath());
+		
+		
+		// Third Church
+		church = lChurchService.findById_LocaleAndChurchPath("en", "towaco");
+		
+		assertNotNull(church);
+		assertEquals("CEMC in Towaco", church.getChurchDetails().get("menu_name").getValue());
+		
+		logger.info("Third church received: |{}| |{}|", church.getId().getLocale(), church.getChurchPath());
+
 	}
 }
