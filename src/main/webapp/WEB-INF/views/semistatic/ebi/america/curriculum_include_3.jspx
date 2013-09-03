@@ -1,0 +1,85 @@
+<div xmlns:jsp="http://java.sun.com/JSP/Page">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+
+	<p class="MsoNormal" style="line-height: 12pt">
+		<b style="line-height: 12pt; text-align: justify; font-size: 13px"><span
+			lang="ZH-TW" style="font-size: 11pt; font-family: 華康細圓體">二</span></b><b
+			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
+			lang="ZH-TW" style="font-size: 11pt; font-family: 華康中楷體">、</span></b><b
+			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
+			lang="ZH-CN" style="font-family: 華康細圓體">聲樂課</span></b><b
+			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
+			style="font-family: Arial, sans-serif">Voice Lessons</span></b><b
+			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
+			lang="ZH-TW" style="font-size: 10pt; font-family: 華康細圓體">：</span></b><span
+			style="line-height: 12pt; text-align: justify; font-size: x-small">
+			一對一的聲樂課是必修課程，請向任課教師報名，並自行與任課教師安排上課時間。 報名費: $55.00。 Individual Voice
+			Lesson (one credit) is a required subject, please register with the
+			instructor. You have to make an appointment for voice lesson with the
+			instructor individually. Registration fee: $55.00.
+			自費學生付學費，不用付報名費；有獎學金的學生付報名費；同工不用付學費, 但付報名費。 Students paying full
+			tuition do not need to pay registration fee but students under
+			scholarship must pay registration fee. Co-workers are free from
+			tuition fee but must pay registration fee.</span>
+	</p>
+	<p class="MsoNormal" style="text-align: justify; line-height: 12pt">
+		<b style="line-height: 12pt; font-size: 13px">
+			<span lang="ZH-CN" style="font-size: 11pt; font-family: SimSun">三</span></b>
+		<b style="line-height: 12pt; font-size: 13px">
+			<span lang="ZH-TW" style="font-size: 11pt; font-family: 華康中楷體">、</span></b>
+		<b style="line-height: 12pt; font-size: 13px">
+			<span style="font-family: 華康細圓體" lang="ZH-CN">學費</span></b>
+		<b style="line-height: 12pt; font-size: 13px">
+			<span style="font-family: Arial, sans-serif">Tuition Fee</span></b>
+		<b style="font-size: 13px">
+			<span lang="ZH-TW" style="font-size: 12pt; font-family: SimSun">：</span></b>
+		<span lang="ZH-CN"
+			style="line-height: 12pt; font-size: 10pt; font-family: SimSun">全修生每學期</span>
+		<span style="line-height: 12pt; font-size: 10pt; font-family: Optane">$2,000.00</span>
+		<span lang="ZH-TW"
+			style="line-height: 12pt; font-size: 10pt; font-family: MingLiU">。</span>
+		<span style="line-height: 12pt; font-size: 10pt">Full time student each quarter $2,000.00.</span>
+	</p>
+	<p class="MsoNormal" style="text-align: justify; line-height: 12pt">
+		<b><span lang="ZH-TW" style="font-size: 11pt; font-family: SimSun">四</span></b>
+		<b><span lang="ZH-TW" style="font-size: 11pt; font-family: 華康中楷體">、</span></b>
+		<b><span lang="ZH-CN" style="font-family: 華康細圓體">註冊</span></b>
+		<b><span style="font-family: Arial, sans-serif">Registration:</span></b>
+		&amp;nbsp;
+		<span style="font-size: 10pt; font-family: 'Times New Roman', serif">9/3/13 (Tue.) – 9/4/13 (Wed.)</span>
+		&amp;nbsp;
+		<span style="font-size: 10pt; font-family: 華康細圓體" lang="ZH-TW">敬請準時。</span>
+		&amp;nbsp;
+		<span style="font-size: 10pt; font-family: 'Times New Roman', serif">Please register on time.</span>
+		&amp;nbsp;
+		<b style="font-size: 13px">
+			<u>
+				<span style="font-size: 10pt; font-family: 華康細圓體" lang="ZH-TW">罰金</span>
+				<span style="font-size: 10pt; font-family: 'Times New Roman', serif">
+					Late Fee: $50.00</span>
+			</u>
+		</b>
+	</p>
+	<p class="MsoNormal" style="text-align: justify; line-height: 12pt">
+		<b style="font-size: 13px"><span lang="ZH-TW"
+			style="font-size: 11pt; font-family: SimSun">五</span><span
+			lang="ZH-TW" style="font-size: 11pt; font-family: 華康中楷體">、</span><span
+			lang="ZH-CN"
+			style="font-size: 12pt; letter-spacing: 1.2pt; font-family: 華康細圓體">備註</span><span
+			style="font-size: 12pt; font-family: Arial, sans-serif">Memo</span><span
+			lang="ZH-TW" style="font-size: 12pt; font-family: SimSun">：</span></b><span
+			style="font-size: x-small"><b>1.若您要保留選課資料，請自行影印備份存檔。It is
+				the student’s responsibility to keep his/her own record of the
+				courses taken. 2.関于旁聽：(1)同工最多可旁聽兩門神學課：一門免費；另一門須付50%的學費。Co-workers
+				may audit up to two theology courses: one for free, the other may
+				for 50% off. (2)學生和同工旁聽以前修過的課程，需付10%的學費。Students and co-workers may
+				audit the courses that they have taken previously. The cost for that
+				course is 10% of the regular tuition and no credit will be given
+				again. (3)校外旁聽生一律按學費收費。 External students have to pay the full
+				tuition fee to audit the courses.
+				（注意：所有旁聽者一律須登記注冊或經院長特許,任何人不得擅自進入課室！ Note: All those taking class for
+				audit have to register or receive Verbal Permission from Dr. Rev.
+				Yang!）</b></span>
+	</p>
+</div>
