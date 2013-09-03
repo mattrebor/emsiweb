@@ -1,0 +1,184 @@
+<div xmlns:jsp="http://java.sun.com/JSP/Page">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+
+	<style type="text/css">
+		table#courses th { font-size: 14pt; height: 40px; }
+		.chinese-font { font-family: SimSun; }
+		
+		table#courses td {
+			line-height: 14pt;
+			text-align: center;
+			vertical-align: top;
+			padding: 7px;
+		}
+		table#courses .date-or-time { font-style: italic; }
+		table#courses .emphasis { font-weight: bold; }
+	</style>
+	
+	<table id="courses" border="1px" style="width: 100%; border-collapse: collapse;">
+		<tr>
+			<th lang="zh-tw" class="chinese-font">課 程</th>
+			<th>Course/Dates</th>
+			<th>Day/Time</th>
+			<th>Professor</th>
+		</tr>
+		<tr>
+			<td lang="zh-tw" class="chinese-font">
+				基 要 真 理
+			</td>
+			<td>
+				Basic Doctrine (3)
+				<br/>
+				<span class="date-or-time">9/3/2013 – 9/12/2013</span>
+			</td>
+			<td>
+				Monday – Thursday
+				<br/>
+				<span class="date-or-time">10:00 a.m. – 12:00 noon</span>
+			</td>
+			<td>Moses Yang</td>
+		</tr>
+		<tr>
+			<td lang="zh-tw" class="chinese-font">
+				末 世 論
+			</td>
+			<td>
+				Eschatology (3)
+				<br/>
+				<span class="date-or-time">9/16/2013 – 9/26/2013</span>
+			</td>
+			<td>
+				Monday – Thursday
+				<br/>
+				<span class="date-or-time">10:00 a.m. – 12:00 noon</span>
+			</td>
+			<td>Moses Yang</td>
+		</tr>
+		<tr>
+			<td lang="zh-tw" class="chinese-font">
+				釋 經 學
+			</td>
+			<td>
+				Hermeneutics (3)
+				<br/>
+				<span class="date-or-time">9/30/2013 –10/10/13</span>
+			</td>
+			<td>
+				Monday – Thursday
+				<br/>
+				<span class="date-or-time">10:00 a.m. – 12:00 noon</span>
+			</td>
+			<td>Moses Yang</td>
+		</tr>
+		<tr>
+			<td lang="zh-tw" class="chinese-font">
+				講 道 學
+			</td>
+			<td>
+				Homiletics (2)
+				<br/>
+				<span class="date-or-time">9/6/2013 –10/11/13</span>
+			</td>
+			<td>
+				Friday
+				<br/>
+				<span class="date-or-time">10:00 a.m. – 12:00 noon</span>
+			</td>
+			<td>Moses Yang</td>
+		</tr>
+		<tr>
+			<td lang="zh-tw" class="chinese-font">
+				以 賽 亞 書 1
+				<br/>
+				<span class="emphasis">(密 集 課)</span>
+			</td>
+			<td>
+				Isaiah 1 (3)
+				<br/>
+				<span class="emphasis">(Intensive Course)</span>
+				<br/>
+				<span class="date-or-time">10/21/2013 – 10/25/2013</span>
+			</td>
+			<td>
+				Monday – Friday
+				<br/>
+				<span class="date-or-time">9:00 a.m. – 12:00 noon</span>
+				<br/>
+				<span class="date-or-time">1:00 p.m. – 3:00 p.m.</span>
+			</td>
+			<td>Gordon Franz</td>
+		</tr>
+		<tr>
+			<td lang="zh-tw" class="chinese-font">
+				聖 經 的 分 別 論
+				<br/>
+				<span class="emphasis">(密 集 課)</span>
+			</td>
+			<td>
+				Biblical Separation from
+				<br/>Apostasy &amp;amp; False Brethren (3)
+				<br/>
+				<span class="emphasis">(Intensive Course)</span>
+				<br/>
+				<span class="date-or-time">11/4/2013 – 11/8/2013</span>
+			</td>
+			<td>
+				Monday – Friday
+				<br/>
+				<span class="date-or-time">9:00 a.m. – 12:00 noon</span>
+				<br/>
+				<span class="date-or-time">1:00 p.m. – 3:00 p.m.</span>
+			</td>
+			<td>D. A. Waite</td>
+		</tr>
+		<tr>
+			<td lang="zh-tw" class="chinese-font">
+				合 唱
+			</td>
+			<td>
+				Chorus (1)
+				<br/>
+				<span class="date-or-time">10/17/2013 – 11/21/2013</span>
+			</td>
+			<td>
+				Thursday
+				<br/>
+				<span class="date-or-time">10:00 a.m. – 12:00 noon</span>
+			</td>
+			<td>Jing Huang</td>
+		</tr>
+		<tr>
+			<td lang="zh-tw" class="chinese-font">
+				基 本 樂 理
+			</td>
+			<td>
+				Basic Music Theory (1)
+				<br/>
+				<span class="date-or-time">9/5/2013 – 11/21/2013</span>
+			</td>
+			<td>
+				Thursday
+				<br/>
+				<span class="date-or-time">1:00 p.m. – 2:00 p.m.</span>
+			</td>
+			<td>Jing Huang</td>
+		</tr>
+		<tr>
+			<td lang="zh-tw" class="chinese-font">
+				聲 樂
+			</td>
+			<td>
+				Voice (1)
+				<br/>
+				<span class="date-or-time">9/5/2013 – 11/21/2013</span>
+			</td>
+			<td>
+				Thursday/Friday
+				<br/>
+				<span class="date-or-time">(Individually Arranged)</span>
+			</td>
+			<td>Jing Huang</td>
+		</tr>
+	</table>
+</div>
