@@ -1,0 +1,17 @@
+<div xmlns:jsp="http://java.sun.com/JSP/Page">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+		
+	<p>
+		國際福音神學院
+		<br /> Evangelical Bible Institute
+		<br /> Academic Year 2013 – 2014
+		<br /> Fall Quarter (9/3/2013 - 11/21/2013)
+	</p>
+	<p style="font-weight: bold; font-size: 13px; line-height: 14pt;">
+		<span lang="ZH-TW" style="font-family: 華康細圓體">一</span>
+		<span lang="ZH-CN" style="font-size: 11pt; font-family: SimSun">、</span>
+		<span lang="ZH-CN" style="font-family: 華康細圓體">課程</span>
+		Courses:
+	</p>
+</div>
