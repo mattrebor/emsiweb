@@ -79,10 +79,10 @@
 		
 		</div>
 		<div class="span11">
-			<spring:url value="/resources/images/home/banner_45thSlideshow_zh.jpg"
+			<spring:url value="/resources/images/home/broadcasting_zh.jpg"
 				var="banner1_img_url" />
-			<spring:url value="/news/anniversary" var="banner1_url"/>
-			<a href="http://www.youtube.com/watch?v=Cjszhz_s9C0" target="_blank"><img src="${banner1_img_url}" alt="" width="450" height="125" /></a> <br />
+			<spring:url value="/emsi/gospelbroadcasting" var="banner1_url"/>
+			<a href="${banner1_url}" target="_blank"><img src="${banner1_img_url}" alt="" width="450" height="125" /></a> <br />
 			<br />
 
 			<spring:url value="/resources/images/home/bookstore_zh.jpg"
