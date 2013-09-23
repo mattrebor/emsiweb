@@ -28,7 +28,7 @@ update church set address='36 Alpine Road, Towaco, NJ 07082, USA', latitude = 40
 update church set address='2111 Camino Del Rio South, San Diego, CA 92108, USA', latitude = 32.767192, longitude = -117.142511 where church_path = 'sandiego';
 update church set address='539 North Sunset Avenue, Azusa, CA 91702, USA', latitude = 34.131395, longitude = -117.911747 where church_path = 'losangeles';
 update church set address='400 Brussels Street, San Francisco, CA 94134, USA', latitude = 37.726874, longitude = -122.4056077 where church_path = 'sanfrancisco';
-update church set address='660 West Campbell Avenue, Campbell, CA 95008, USA', latitude = 37.2869291, longitude = -121.9614152 where church_path = 'sanjose';
+update church set address='600 West Campbell Avenue, Campbell, CA 95008, USA', latitude = 37.2869291, longitude = -121.9614152 where church_path = 'sanjose';
 update church set address='6656 Park Riviera Way, Sacramento, CA 95831, USA', latitude = 38.506565, longitude = -121.550272 where church_path = 'sacramento';
 update church set address='1087 Budapest, Kőbányai Way 21, Hungary', latitude = 47.4887822, longitude = 19.0959066 where church_path = 'budapest';
 update church set address='Geograaf 13, Centerpoort-Nieuwgraaf, 6921 EW Duiven, The Netherlands', latitude = 51.9628456, longitude = 6.0057757 where church_path = 'amhem';
@@ -71,7 +71,80 @@ update church set address='Osaka, Osaka Prefecture, Japan', latitude = 34.693737
 
 
 -- update paris intro page
-update church_content set body = STRINGDECODE('<style>\r\n.contact-content {\r\nFONT-FAMILY: Arial,helvetica,sans-serif\r\n}\r\n.contact-content TD {\r\nPADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px: \r\n}\r\nTD.label {\r\nWIDTH: 1%; WHITE-SPACE: nowrap; FONT-WEIGHT: bold\r\n}\r\nP SPAN.label {\r\nFONT-WEIGHT: bold\r\n}\r\n.main-content {\r\nFONT-FAMILY: Arial, MingLiU, Helvetica, san-serif; COLOR: #333; FONT-SIZE: 13px\r\n}\r\n.borderless-table {\r\nBORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px\r\n}</style>\r\n<div class=\"contact-content\">\r\n<div style=\"color: #000000; font-size: small\">\r\n<table cellpadding=\"0\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\">Pastor:</td>\r\n\t\t\t<td>Rev. Mix Chan</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\" rowspan=\"2\" valign=\"top\">Resident Evangelists:</td>\r\n\t\t\t<td>Ev. Zong Quan Zhou</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Ev. Edwidge Chung</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n<div style=\"margin-left: 20px\">\r\n<table cellpadding=\"1\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Address:</td>\r\n\t\t\t<td>73, Avenue de Verdun, 94200 Ivry sur Seine, Paris, France</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Tel#:</td>\r\n\t\t\t<td>33-1-5846-0892</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Fax#:</td>\r\n\t\t\t<td>33-9-5455-0056</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Email:</td>\r\n\t\t\t<td><a href=\"mailto:emsifrance@hotmail.com\">emsifrance@hotmail.com</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_skype.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Skype:</td>\r\n\t\t\t<td>emsifrance</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n<hr align=\"center\" size=\"1\" width=\"100%\" />\r\n</div>\r\n<div class=\"main-content\">\r\n<p>\r\n<span class=\"label\">Established Date: </span>October 2001 \r\n</p>\r\n<p>\r\n<img src=\"/emsi/files/parissmall_0.jpg\" alt=\"CEC in Paris\" title=\"CEC in Paris\" height=\"239\" hspace=\"5\" align=\"left\" width=\"360\" />In April 2000, Rev. Moses Yang had a vision for a gospel ministry in Paris; he then organized a short-term mission trip from the CEM Headquarter in America. With the aid of C.E.C. in Holland and devoted believers in Paris, two musical evangelistic meetings were held in a church in District thirteen in Paris, resulting in forty some people accepting Christ.<br /><br />In July 2000, Bible students Mix and Anny Chan were sent by Rev. Moses Yang to Paris during the summer break to gain experience on how to establish C.E.C. churches. For the following three months, Rev. Zion Wu, Ev. Sorina Yang and Rev. Hosea Chi took turns to lead the church in Paris, with assistance from Rev. and Mrs. Hugo Chan and brothers and sisters from Holland.<br /><br />In the early part of 2001, the CEM Headquarter in America purchased the current CEC Paris church building by faith. In June 2001, Rev. Moses Yang sent three Bible students, Ev. Mix and Anny Chan and Ev. Paul Ye to shepherd the CEC in Paris. In October 2001, the renovation of the building was completed and is being used for both E.B.I. and C.E.C. in Paris. It then became the regular meeting place and home for the Paris congregation.\r\n</p>\r\n</div>\r\n')
+update church_content set body = '<style>
+.contact-content {
+FONT-FAMILY: Arial,helvetica,sans-serif
+}
+.contact-content TD {
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px: 
+}
+TD.label {
+WIDTH: 1%; WHITE-SPACE: nowrap; FONT-WEIGHT: bold
+}
+P SPAN.label {
+FONT-WEIGHT: bold
+}
+.main-content {
+FONT-FAMILY: Arial, MingLiU, Helvetica, san-serif; COLOR: #333; FONT-SIZE: 13px
+}
+.borderless-table {
+BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Mix Chan</td>
+		</tr>
+		<tr>
+			<td class="label" rowspan="2" valign="top">Resident Evangelists:</td>
+			<td>Ev. Zong Quan Zhou</td>
+		</tr>
+		<tr>
+			<td>Ev. Edwidge Chung</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>73, Avenue de Verdun, 94200 Ivry sur Seine, Paris, France</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>33-1-5846-0892</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td>33-9-5455-0056</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsifrance@hotmail.com">emsifrance@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>October 2001 
+</p>
+<p>
+<img src="/emsi/files/parissmall_0.jpg" alt="CEC in Paris" title="CEC in Paris" height="239" hspace="5" align="left" width="360" />In April 2000, Rev. Moses Yang had a vision for a gospel ministry in Paris; he then organized a short-term mission trip from the CEM Headquarter in America. With the aid of C.E.C. in Holland and devoted believers in Paris, two musical evangelistic meetings were held in a church in District thirteen in Paris, resulting in forty some people accepting Christ.<br /><br />In July 2000, Bible students Mix and Anny Chan were sent by Rev. Moses Yang to Paris during the summer break to gain experience on how to establish C.E.C. churches. For the following three months, Rev. Zion Wu, Ev. Sorina Yang and Rev. Hosea Chi took turns to lead the church in Paris, with assistance from Rev. and Mrs. Hugo Chan and brothers and sisters from Holland.<br /><br />In the early part of 2001, the CEM Headquarter in America purchased the current CEC Paris church building by faith. In June 2001, Rev. Moses Yang sent three Bible students, Ev. Mix and Anny Chan and Ev. Paul Ye to shepherd the CEC in Paris. In October 2001, the renovation of the building was completed and is being used for both E.B.I. and C.E.C. in Paris. It then became the regular meeting place and home for the Paris congregation.
+</p>
+</div>
+'
 	where church_id = (select church_id from church where church_path = 'paris')
 	and locale = 'en'
 	and page_id = 'intro';
@@ -1025,4 +1098,645 @@ Subway: #2 line, # 5 line getting off at Sagrada Familia station, #2 line: exit 
 '	where church_id = (select church_id from church where church_path = 'barcelona')
 	and locale = 'en'
 	and page_id = 'intro';	
-	
+
+
+update church_content set body = STRINGDECODE('<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Senior Pastor:</td>
+			<td>Rev. Stephen Hosea, 415-309-5661</td>
+		</tr>
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Timotius Tjing, 510-972-0473</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>600 West Campbell Avenue, Campbell, CA 95008</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>510-972-0473</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:timotiuschuang@yahoo.com">timotiuschuang@yahoo.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>September 22, 1985
+</p>
+<p>
+<a href="/emsi/gallery/?g2_itemId=131"><img src="/emsi/images/church_sanjose.jpg" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" /></a> C.E.C. in San Jose was officially established on September 22, 1985, under the need and request of fellow Indonesians and the support of E.M.S.I.<br />
+When the church was first formed, the attendance was in the teens.  As the church ministry expanded, God continually added to our congregation with new Christians.  As the number of attendants increased, our meeting place had relocated.  In these 24 years, we have been renting churches for our services.  But in November 1990, we moved into our first newly purchased church building.  But in the last ten years, due to the increase in Sunday Worship Service and Sunday school attendance, we didn\u2019t have sufficient space for ministry.  Therefore, in the last few years, we had to use the Government sponsored Senior Citizens place for our Wednesday Prayer Meeting and Friday Youth Group.  We also used another church and their classrooms for our Sunday Service and activities.  Facing these difficulties, we continually prayed that God  may be gracious to us, granting us a bigger church to expand His ministry.  Right now, we are in the process of looking for a more suitable place to purchase and that we have our own church building and expand His ministry.<br />
+We have expanded our church ministries to mission, discipleship, evangelism, caring and Laymen\u2019s Institute.  The brothers and sisters actively participate and are very supportive.  Every year we could see that the Lord has given us new believers.  Not only do we have Indonesian Worship Service, but started the English Service too.<br />
+Thanks and praises to the Lord!  For the past 24 years, God\u2019s wondrous working is clearly manifested in the church, leading many to salvation, and growing spiritually with steadfastness.  Just as the Bible says, \u201cNow unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us, Unto him be glory in the church by Christ Jesus throughout all ages, world without end. Amen.\u201d (Ephesians 3:20-21). 
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'sanjose')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Chung-Chia Li (Jacob Li)</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Jing Huang</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>
+			725 Mountain Avenue, Berkeley Heights NJ 07922</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>862-207-1705</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:jacobli0407@gmail.com">jacobli0407@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>1984
+</p>
+<p>
+<img src="/emsi/files/murrayhill/murrayhill.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />Christian Evangelical Church in Murray Hill was established by the Christian Evangelical Mission in 1984 in New Jersey to serve the people working in the neighborhood factories and large companies. <br />
+In the early days, the Sunday Worship service was located in a Sunday School classroom of a Methodist Church on Diamond Hill Road in Murray Hill. Because it has limited space, it was difficult to develop ministry. Even so, there were still a number of faithful church members who continued and persistently prayed for the day to have a church and a spiritual home of their own.<br />
+On January 3, 2010, the Lord led us to move into a new church location at725 Mountain Avenue, Berkeley Heights, NJ 07922. We have a new beginning in the New Year. We believe this is the first step God is going to revive CEC Murray Hill. We cordially invite you to join with us to walk with our Lord, and to be in one accord with our Lord, to have our church revived by the Lord! 
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'murrayhill')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Grace Zheng</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Office Address:</td>
+			<td>Via Stresa 3, 20125 Milano, Italy</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Worship Address:</td>
+			<td>Via Melchiorre Gioia 193, 20125 Milano, Italy</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>(0039) 02–7862-4031 / Cell: (0039) 331-728-1265</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:gracez.777@gmail.com"> gracez.777@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>June 17, 2008
+</p>
+<p>
+\u201cServe the Lord with fear, and rejoice with trembling\u201d (Psalm 2:11)
+</p>
+<img src="/emsi/files/milan2011.jpg" alt="CEC Milan" title="CEC Milan" height="240" align="left" hspace="5" width="360" />
+<p>
+Thank God! CEM in Milan started its first worship on August 3rd, 2008. During the 6 months CEC Milanperiod, there were 36 people who accepted Jesus as their Savior, and 20 people were baptized at our church. The past experience of CEM in Milan can best be said in the Bible verse: \u201cThis is the Lord\u2019s doing; it is marvelous in our eyes\u201d (Psalm 118:23).
+</p>
+<p>
+Leading: One day in April 2007, I got an early phone call at 6:00am from Rev. Moses Yang \u2013the president of EMSI. He said, \u201cI am in Italy now. There are lots of Chinese here, lots of northern Chinese here. We would like to assign you to serve in Italy.\u201d I felt peaceful the moment I heard it. I answered him in a simple sentence: \u201cIf it\u2019s God\u2019s will, I will obey it. Please pray for me.\u201d Thank God! After continual praying and with the help of the pastor from Spain, I did not have any problems with the application process. God was doing His wonderful work with me. In mid June 2008, Rev. Moses Yang, Rev. Zion Wu, Rev. Hosea Chi and I met in Milan for 3 days. With the assistance of a local Chinese sister, we searched street by street for a real estate agent and/or suitable house. Just one night prior to the pastors\u2019 departure, the Lord prepared a worship place far better than what we had asked for or imagined. Recalling all these things now, I understand it is the vision that God gave to Rev. Yang concerning the gospel work needed in Milan. There was the calling from Macedonia.
+</p>
+<p>
+Thanksgiving: Thank God! He raised many brothers, sisters and families who truly love God in CEC in Milan. As a result, the gospel work can be increased and expanded. He moved the brothers and sisters to have hearts that seek truth from the Bible and to admire the Lord\u2019s words. He touched many brothers and sisters to be willing to devote themselves to participate in church and partner in spreading the gospel. All pastors, brothers and sisters support us by praying hard and providing financial help so we can fully experience the grace of the Lord.
+</p>
+<p>
+Counting the Lord\u2019s grace, I cannot express my praises and thanksgivings to God in words. \u201cWhat shall I render unto the Lord for all his benefits toward me? I will take the cup of salvation, and call upon the name of the Lord\u201d (Psalm 116:12-13).
+</p>
+<p>
+- Ev. Grace Zheng
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'milan')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<style>
+.contact-content {
+font-family: Arial,helvetica,sans-serif
+}
+.contact-content td {
+padding-bottom: 2px; padding-left: 2px; padding-right: 2px; font-size: small; padding-top: 2px; 3px: 
+}
+td.label {
+width: 1%; white-space: nowrap; font-weight: bold
+}
+p span.label {
+font-weight: bold
+}
+.main-content {
+font-family: Arial, MingLiU, Helvetica, san-serif; color: #333; font-size: 13px
+}
+.borderless-table {
+border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px
+}</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Chi Fan Chung</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Andy Chu</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Ka Man Chu-Ng</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>Marokkodreef 3, 3564 EV , Utrecht, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>0031-30-261-6167 / 0031-65-065-2284</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsiutrecht@gmail.com">emsiutrecht@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>October 24, 1981 
+</p>
+<p>
+<img src="/emsi/files/utrechtsmall_0.jpg" alt="CEC in Utrecht" title="CEC in Utrecht" align="left" height="270" hspace="5" width="360" />On a Saturday morning on August 1978, Pastor Hugo Chen drove the gospel bus &quot;Heavenly Journey&quot; to a parking lot near the Utrecht\u2019s train station to start the first youth fellowship in Utrecht for those who recently accepted Lord as Savior in a Gospel camp. We were grateful to the Lord that shortly afterwards, He prepared for us a church fellowship hall at Onder Marieplaats 22 as the meeting place. 
+</p>
+<p>
+God blessed this small group of young people. In three years, they grew spiritually, and their desires to spread the gospel increased. The number of participants in the fellowship also increased. In the summer of 1981, we found a two-stories building at 1e Atjestraat 18 as our church building. On October 24, the church Dedication Ceremony was held. This was the beginning of the third CEM church in Netherlands. 
+</p>
+<p>
+With a church site, we immediately began with Chinese school ministry, and developed various fellowships. The number of believers increased, and the church building space became insufficient. On November 12, 1989, God prepared a Dutch church building at Krommerijn 1, Utrecht for us to rent for worship and Sunday school. Other group activities remained at the old venue. At the end of December 2003 the church needed to find a new place for gathering as the Dutch church had been sold. So we rented College Blaukapel at Winklierlaan 373, Utrecht for worship in 2004 and 2005. 
+</p>
+<p>
+On December 26, 2005 God wonderfully helped us buy our current church premises at Marokkodreef 3, Utrecht to continue the Gospel ministry, so to enable more people to turn to God. 
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'utrecht')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Linda Chiu</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>Teteringsedijk 89C, 4817 MB Breda, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>31-76-571-8456 / 31-62-454-2277</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsibreda@gmail.com">emsibreda@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>September 1999
+</p>
+<p>
+<img src="/emsi/files/BredaSmallD.jpg" align="left" width="360" height="255" hspace="5"/>
+</p><p>On July of 1997, Rev. Moses Yang led several seminary students and co-workers from the North American CEM Headquarters to the Netherlands for a short term mission''s trip. The trip included a three days visitation to families and one night evangelical meeting. The Holy Spirit worked wonders and moved those who were visited and those attended the meeting. They either accepted Christ or were revived. With the encouragement of Rev. Yang,  CEC in Rotterdam offered to send evangelist Tang Kam Fung, and Mr. and Mrs. Kan Yun Tat, to assist Rev. Chan to develop the evangelical work in Breda. The Lord also moved Mr. and Mrs Lim Wuchiang to offer their restaurant as a place for worship. Some of the brothers and sisters from Breda in CEC in Rotterdam also followed to serve. In September, the CEC in Breda began to have Sunday worship and Sunday School.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'breda')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<style>
+.contact-content {
+FONT-FAMILY: Arial,helvetica,sans-serif
+}
+.contact-content TD {
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px: 
+}
+TD.label {
+WIDTH: 1%; WHITE-SPACE: nowrap; FONT-WEIGHT: bold
+}
+P SPAN.label {
+FONT-WEIGHT: bold
+}
+.main-content {
+FONT-FAMILY: Arial, MingLiU, Helvetica, san-serif; COLOR: #333; FONT-SIZE: 13px
+}
+.borderless-table {
+BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellPadding="0" cellSpacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Zuquan Lai</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellPadding="1" cellSpacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>C/ Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>34-965-123-563</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsi-alicante@hotmail.com">emsi-alicante@hotmail.com</a></td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_skype.gif" height="16" width="16" /></td>
+			<td class="label">Skype:</td>
+			<td>emsialicante</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" SIZE="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>December 25, 2002 
+</p>
+<p>
+<img hspace="5" src="/emsi/files/alicante2008med.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />The Ministries of Benidorm and Alicante began about the same time in May 1997. With God\u2019s leading, Benodorm was the first established. Because the driving time between Benidorm to Alicante is 40 minutes, Alicante Brothers and Sisters came to Benidorm to worship. 
+</p>
+<p>
+After 5 years, the CEC in Alicante in Christmas of 2002 was established. In 2005 February, an apartment in the center of Alicante behind the bus stations was leased for living and worship. Evangelist Li Suxin was sent from the Paris Seminary School in MAY to the CEC in Alicante to establish the missionary work for the Church for CEC in Alicante. 
+</p>
+<p>
+In 2005 September, Evangelist Li Suxin became ill and went to China for treatment. During this time, Evangelist Pan Saopin began to minister temporarily. Evangelist Lai Zuquan continued to minister the Church till January 2006. Evangelist Li Suxin returned but returned to China in the beginning of July 2006 for treatment. Subsequently, Evangelist Lai Zuquan resume the responsibilities of the Church again. 
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'alicante')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Louis Chung</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Worship Address:</td>
+			<td>Nieuwe Schoolweg 2, 7514 CG Enschede, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Office Address:</td>
+			<td>Deurningerstraat 39A, 7514 BD Enschede , The Netherlands</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>0031-(0)2-310-798 / 0031-(0)65-065-2284</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsienschede@gmail.com">emsienschede@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>September 6, 2009
+</p>
+<p>
+<a href="/emsi/gallery/?g2_itemId=1034"><img src="/emsi/images/church_enschede.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /> </a>Enschede is in the northernmost part of the Nethelands bordering of Germany. The city is home to many Universities. There are many overseas Chinese Students studying here, and also many restaurants nearby. In 2003, the Mission Board sent Sister Pan xx to Enschede for summer training, and upon her graduation in 2004, she was sent to start a Gospel Ministry among college students. Through the support of a college professor, she started a weekly bible study in the dining hall of a dormitory, and many overseas students came to know Christ through this ministry. In the ensuing five years that we have been in Enschede, we have longed to start Sunday Worship Services. In 2009, we started to diligently search for a place, and to pray. The Lord ultimately provided for us unexpectedly good news. A catholic church in the city center was willing to let us hold services there. Within a very short one week span, they agreed to let us use a part of the church for Sunday services and Sunday school at a rental we could afford. On Sept 6, 2009, we held our first Sunday Worship and Baptism Service. We call our church CEC in Enschede 
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'enschede')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<p>
+<b>Address: </b>36 Alpine Road, Towaco, NJ 07082 
+</p>
+<p>
+<b>Phone #:</b>\u00a0 973-331-0545 | 973-331-0546 
+</p>
+<p>
+<b>E-mail:\u00a0<span style="color: #0062a0"><u>cemc.towaco@gmail.com</u></span>\u00a0</b> 
+</p>
+<b>\u00a0 
+<table cellpadding="0" cellspacing="0" border="1" style="border-collapse: collapse; border: medium none" class="MsoTableGrid">
+	<tbody>
+		<tr>
+			<td style="padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border: 1pt solid windowtext" valign="top" width="139"><span lang="EN-US"><o:p><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">\u00a0</span></o:p></span></td>
+			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Office Phone Extenstion</span></span> 
+			</p>
+			</td>
+			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Cell Phone</span></span> 
+			</p>
+			</td>
+			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">e-mail</span></span> 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Pastor Moses Yang</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 209</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">201-650-1923</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><a href="mailto:emsimoses@optonline.net"><span style="font-size: small; font-family: ''Times New Roman''">bishop_mosesyang@yahoo.com</span></a></span> 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Mrs. Rose Yang</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 208</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-919-6456</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><a href="mailto:roseayang@gmail.com"><span style="font-size: small; font-family: ''Times New Roman''">roseayang@gmail.com</span></a></span> 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Pastor Zion Wu</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 202</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-768-5805</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><a href="mailto:hoseachi@hotmail.com"><span style="font-size: small; font-family: ''Times New Roman''">zionwu@hotmail.com</span></a></span> 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Mrs. Judy Wu</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 200</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-941-1873</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><a href="mailto:jalin7@hotmail.com"><span style="font-size: small; font-family: ''Times New Roman''">wujudy2008@gmail.com</span></a></span> 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ev. Patty Chien</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 233</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">201-993-3043</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">pattym33@juno.com</span></span></span> 
+			</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</b>
+<hr />
+<b>Directions:</b> 
+<p>
+<iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=36+Alpine+Road,+Towaco,+NJ+07082&amp;sll=40.794806,-74.34828&amp;sspn=0.0109,0.019698&amp;ie=UTF8&amp;hq=&amp;hnear=36+Alpine+Rd,+Towaco,+Morris,+New+Jersey+07082&amp;ll=40.930829,-74.318218&amp;spn=0.031126,0.054932&amp;z=14&amp;output=embed" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" height="480" width="640"></iframe><br />
+<small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=36+Alpine+Road,+Towaco,+NJ+07082&amp;sll=40.794806,-74.34828&amp;sspn=0.0109,0.019698&amp;ie=UTF8&amp;hq=&amp;hnear=36+Alpine+Rd,+Towaco,+Morris,+New+Jersey+07082&amp;ll=40.930829,-74.318218&amp;spn=0.031126,0.054932&amp;z=14" style="text-align: left; color: #0000ff">View Larger Map</a></small> <b><i>By car</i> </b>
+</p>
+<ol>
+	<li><u>From NY City<br />
+	</u>Take Rt. 80(W) till Exit 53, follow Rt. 23(N) to Lincoln Park, proceed on Rt. 202(S).\u00a0 <br />
+	Make a left turn onto Rose Court, keep straight on to the end of the road. </li>
+	<li><u>From South NJ<br />
+	</u>Take Rt. 287(N) till Exit 47. At the end of the ramp turn left onto Rt. 202 North.<br />
+	Make a right turn at the 3rd traffic light (Firehouse Rd), then a left turn at the next traffic light. <br />
+	Make a right turn\u00a0past the\u00a0Gulf Gas Station onto Rose Court, and proceed on to the end of the road</li>
+</ol>
+')	where church_id = (select church_id from church where church_path = 'towaco')
+	and locale = 'en'
+	and page_id = 'contactus';
