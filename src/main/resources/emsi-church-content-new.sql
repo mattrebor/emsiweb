@@ -536,12 +536,12 @@ update church_content set body = '<p>&nbsp;</p>
 			<td style="text-align: center">&nbsp;</td>
 		</tr>
 		<tr>
-			<td style="text-align: center">&nbsp;Sunday Worship</td>
+			<td style="text-align: center">&nbsp;Worship Service</td>
 			<td style="text-align: center">&nbsp;Sunday 5:30 PM</td>
 			<td style="text-align: center">&nbsp;</td>
 		</tr>
 		<tr>
-			<td style="text-align: center">&nbsp;Big Choir</td>
+			<td style="text-align: center">&nbsp;Senior Choir</td>
 			<td style="text-align: center">&nbsp; Sunday 7:15 PM&nbsp;</td>
 			<td style="text-align: center">&nbsp;</td>
 		</tr>
@@ -551,22 +551,22 @@ update church_content set body = '<p>&nbsp;</p>
 			<td style="text-align: center">&nbsp;</td>
 		</tr>
 		<tr>
-			<td style="text-align: center">&nbsp;Testimonies, Prayer meeting</td>
+			<td style="text-align: center">&nbsp;Prayer &amp; Testimonial Service</td>
 			<td style="text-align: center">Thursday 9:30 PM</td>
 			<td style="text-align: center">&nbsp;</td>
 		</tr>
 		<tr>
-			<td style="text-align: center">&nbsp;Student Fellowship</td>
+			<td style="text-align: center">&nbsp;Oversea Student Fellowship</td>
 			<td style="text-align: center">Friday 6:00 PM</td>
 			<td style="text-align: center">&nbsp;</td>
 		</tr>
 		<tr>
 			<td style="text-align: center">&nbsp;Bible study, Fellowship</td>
-			<td style="text-align: center">Saturday 6:00 PM&nbsp;</td>
+			<td style="text-align: center">Saturday 5:30 PM&nbsp;</td>
 			<td style="text-align: center">&nbsp;</td>
 		</tr>
 		<tr>
-			<td style="text-align: center">Small Choir</td>
+			<td style="text-align: center">Junior Choir</td>
 			<td style="text-align: center">Saturday 7:00 PM</td>
 			<td style="text-align: center">&nbsp;</td>
 		</tr>
