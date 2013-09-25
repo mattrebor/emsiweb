@@ -622,7 +622,7 @@ update church_content set body = '<p>&nbsp;</p>
 		</tr>
 		<tr>
 			<td style="text-align: center">Escuela B&iacute;blica, Reuniones (hnos y hnas)</td>
-			<td style="text-align: center">S&aacute;bado 18:00</td>
+			<td style="text-align: center">S&aacute;bado 17:30</td>
 			<td style="text-align: center">&nbsp;</td>
 		</tr>
 		<tr>
@@ -1740,3 +1740,20 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'towaco')
 	and locale = 'en'
 	and page_id = 'contactus';
+
+
+
+update church_content set body = '<table width="500px">
+<tr>
+	<th style="width: 50%">Activity</th>
+	<th style="width: 50%">Time</th>
+</tr>
+<tr>
+	<td style="text-align: center;">Office hours:</td>
+	<td style="text-align: center;">Tuesday - Saturday 2:00pm - 6:00pm</td>
+</tr>
+</table>
+'	where church_id = (select church_id from church where church_path = 'prato')
+	and locale = 'en'
+	and page_id = 'schedule';
+
