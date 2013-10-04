@@ -69,6 +69,10 @@ update church set address='Via Stresa, 3, 20125 Milan, Italy', latitude = 45.492
 update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prato, Italy', latitude = 43.88184649999999, longitude = 11.09375730 where church_path = 'prato';
 update church set address='Osaka, Osaka Prefecture, Japan', latitude = 34.69373780, longitude = 135.50216510 where church_path = 'osaka';
 
+--update Brooklyn intro page
+
+
+
 
 -- update paris intro page
 update church_content set body = '<style>
@@ -1384,7 +1388,75 @@ On December 26, 2005 God wonderfully helped us buy our current church premises a
 	and locale = 'en'
 	and page_id = 'intro';
 
-
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>鍾志勳 牧師</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>朱洪順 傳道</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>朱吳嘉敏 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Marokkodreef 3, 3564 EV, Utrecht, The Netherlands  </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td>0031-30-261-6167 / 0031-65-065-2284</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:emsiutrecht@gmail.com\">emsiutrecht@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1981年 10月24日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/utrechtsmall.jpg\" align=\"left\" height=\"255\" width=\"360\" />一九七八年八月的一個週六早上，為跟進幾位來自烏特勒地區在剛過的青年福音營信主的年輕人，陳啟猷牧師駕駛福音車「天程」號到該市火車站的一個停車場，開始第一次的青年團契聚會。很感謝主，這次聚會後，父神隨即在附近的Onder Marieplaats 22 ,一間教會的副堂為他們預備了團契聚會的地方。</p>
+<p>
+主祝福這小群的年輕人，經過三年左右的團契生活，不但靈命大有成長，更擁有一顆熱愛傳福音的心，参加的人數也大有增長。在一九八一年夏天，我們覓得位於1e Atjestraat 18 的一棟兩層樓宇作為教會。同年十月廿四日舉行獻堂禮，也就是荷蘭第三間生命堂的開始了！</p>
+<p>
+有了會址立刻開始中文學校事工接觸橋胞及發展不同類型團契,信主人數漸增地方已經不夠應用,於1989年11月12日 上帝又為我們預備租用一間荷蘭人教會Krommerijn 1 Utrecht 作崇拜及主日學之用,其如小組活動仍保持在舊會址。直至2003年12月底因西人教會己出賣,本堂急需另尋地方聚會。</p>
+<p>
+2004年-2005年的12月19日差不多兩年的時間租用一所中學College Blaukapel 在Winklierlaan 373 Utrecht 舉行崇拜及主日學。
+<p>
+在2005年12月26日 上帝奇妙的成就為我們購得現今的會址 Marokkodreef 3 Utrecht 繼續發展福音事工,使更多人歸向真神。</p></div>
+')	where church_id = (select church_id from church where church_path = 'utrecht')
+	and locale = 'zh'
+	and page_id = 'intro';
+	
+	
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
