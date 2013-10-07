@@ -1805,7 +1805,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:ecmsiinqueens@gmail.com">ecmsiinqueens@gmail.com</a><br />
+			<td><a href="mailto:emsilisboa@hotmail.com">emsilisboa@hotmail.com</a><br />
 			</td>
 		</tr>
 	</tbody>
@@ -1931,6 +1931,169 @@ update church_content set body = STRINGDECODE('<p>
 
 ----------------- porto alto
 
+---------------------update porto  pages
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> Rua Chã n°117, 4 Andar - Porto, Portugal</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> (cell) 351-965-333-777 </td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td> 351-218-868-370</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsiporto@hotmail.com">emsiporto@hotmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>January 22, 2002
+</p>
+<p>
+<img src="/emsi/files/porto68small_0.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />
+CEC in Lisbon co-workers usually reciprocates CEC Holland Churches generosity. During the 2nd year anniversary, CEC Lisbon decided to do a Missionary trip in Porto, following CEC Holland’s footsteps. So during Christmas 2001, Evangelist Chan and co-workers went to Porto to visit Chinese Christians and Chinese non-believers and invited them to attend the first worship service. There was an enthusiastic response, the co-workers decided to continue this worship service.
+CEC Headquarters in North America upon hearing this good news immediately sent group of 
+missionaries to Porto to spread the Gospel in a revival meeting in January, 2002. The North American Short Missionary Group with Pastor Moses Yang witnessed the establishment of the CEC in Porto on January 22nd, 2002.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'porto')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Rua Chã n°117, 4 Andar - Porto, Portugal</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td>  (手機) 351-965-333-777 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> 351-218-868-370 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsiporto@hotmail.com"> emsiporto@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2002年1月22日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/porto68small_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />里斯本生命堂同工們一向願意回饋荷蘭各生命堂對他們的愛心，因此他們成立兩周年之際，決定組隊前往波爾圖宣教，以效法荷蘭的榜樣。
+</p>
+<p>
+二○○一年的聖誕，陳傳道領了一隊同工前往波爾圖，探訪信徒及未信的華人，邀請他們參加第一次的聚會；反應十分熱烈，使同工們不得不計劃接下來的聚會。
+</p>
+<p>
+北美總會欣聞此喜訊，亦立時組隊於二○○二年一月前往該地佈道。一月廿二日在北美短宣隊和楊牧師共證下，波爾圖生命堂便正式成立了。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'porto')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Address: </b>Rua Chã n°117, 4 Andar - Porto, Portugal
+</p>
+<p>
+<b>Tel #: </b> (cell) 351-965-333-777
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Ch%C3%A3+117,+4+Andar+-+Porto,+Portugal&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Ch%C3%A3+117,+Porto,+Portugal&amp;gl=us&amp;t=m&amp;z=14&amp;ll=41.144229,-8.609701&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Rua+Ch%C3%A3+117,+4+Andar+-+Porto,+Portugal&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Ch%C3%A3+117,+Porto,+Portugal&amp;gl=us&amp;t=m&amp;z=14&amp;ll=41.144229,-8.609701&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'porto')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>地址: </b>Rua Chã n°117, 4 Andar - Porto, Portugal
+</p>
+<p>
+<b>電話:</b>  (手機) 351-965-333-777 
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Ch%C3%A3+117,+4+Andar+-+Porto,+Portugal&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Ch%C3%A3+117,+Porto,+Portugal&amp;gl=us&amp;t=m&amp;z=14&amp;ll=41.144229,-8.609701&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Rua+Ch%C3%A3+117,+4+Andar+-+Porto,+Portugal&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Ch%C3%A3+117,+Porto,+Portugal&amp;gl=us&amp;t=m&amp;z=14&amp;ll=41.144229,-8.609701&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'porto')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+----------------- end porto
+
+	
+	
+	
+	
 update church_content set body = STRINGDECODE('<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
