@@ -170,7 +170,185 @@ update church_content set body = STRINGDECODE('<p>
 	
 	
 ------------end  brooklyn
+---------------------update queens pages
 
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td> Rev. SenLiang Lin, (C) 917-361-6866</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> 35-26 Union St. Flushing, NY 11354, USA</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> (C) 917-361-6866</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:ecmsiinqueens@gmail.com">ecmsiinqueens@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>May 10, 1985
+</p>
+<p>
+<img src="/emsi/images/church_queens.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />
+Since 1985, the CEC in Queens (official name, Evangelical Church Mission and Seminary International in Queens) had been led by 7 pastors in the past. At the present, Rev. Moses Lin is shepherding this church.
+</p>
+<p>
+
+It has been through numerous difficulties and it relocated many times. Yet, because of the unselfish participation, involvements, and joint efforts of the members, many unbelievers have come to the church. Members mostly come from Asian regions (Philippines, Taiwan, Indonesia, Malaysia, Hong Kong, and Mainland China …)
+</p>
+<p>
+
+Every Sunday morning, the church has Sunday Service, Children Sunday School, and Basic Doctrine Class. The church also hosts Sisters and Brothers Fellowship every other week. There is a Family Worship on Wednesdays, prayer meeting on Thursdays, and Mandarin Bible Studies every Friday.Consequently, special services are provided to celebrate various events.
+</p>
+<p>
+
+Praise the Lord that through Bible Studies, prayer meetings and different services, brothers and sisters are motivated to love and serve the Lord, and also to build a closer relationship within the spiritual family.
+</p>
+<p>
+
+Praise the Lord. He guided the CEC in Queens all the way. He strengthened brothers’ and sisters’ spiritual growth and we experienced God’s wonderful blessings. May God use us and we give all the glory to God!
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'queens')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師 :</td>
+			<td>林森良 牧師, (手機) 917-361-6866 </td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 35-26 Union St. Flushing, NY 11354, USA</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> (手機)917-361-6866</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: ecmsiinqueens@gmail.com"> ecmsiinqueens@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1985年 5月 10日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/images/church_queens.jpg" align=\"left\" height=\"255\" width=\"360\" />一九八四年秋，紐約市皇后區成立了一個閩南語查經班。當時每星期五晚上有一群弟兄姐妹聚集在一起唱詩、禱告、查經。隨著人數的增加，深深感到需要一位受過神學訓練的傳道人來帶領查經。
+</p>
+<p>
+一九八五年，查經班邀請到楊摩西牧師，這是第一位傳道人。不到一個月的時間，上帝又預備了謝天育牧師出來全時間帶領。這兩位牧師為教會找著一個固定的聚會場地。終於，在一九八五年五月十日，皇后區基督教生命堂正式成立，並舉行了首次主日崇拜。
+</p>
+<p>
+成立以來，主先後預備了幾位傳道人。一九八五至一九八九年黃世嘉牧師在此負責。一九八九至一九九三年，有黃宋來牧師、曾玉珊傳道及神學生林正仁，一九九四年至二OO八年，則有吳錫安牧師夫婦的同心牧養;自二OO八年至今, 林森良牧師在此負責。
+</p>
+<p>
+教會曾經歷多次的搬遷，也經歷過許多的困難，但每位弟兄姐妹都能同心合意地事奉主，帶領未信的人加入教會。隨著聖工的發展，皇后區生命堂也日益具有國際色彩，會友來自亞洲各地，有菲律賓、台灣、印尼、馬來西亞、香港和中國大陸等。
+</p>
+<p>
+教會現況：除了週日上午的主日崇拜外，還設有兒童主日學、詩班、姐妹團契、聖經分享、週三家庭禮拜、週四禱告會和監督楊摩西牧師所帶領的週五查經班。感謝神的恩典，藉著查經與禱告會，挑旺了眾弟兄姊妹的心，使更多的人願意出來服事主。我們除了每週的崇拜，另外，在各節慶日也都有特別的聚會；甚至夏天也經常舉行郊遊野餐、海邊釣魚、抓螃蟹等活動，使弟兄姐妹們不但能夠藉著敬拜來親近神，也能藉著各項活動使彼此間的關係更加親蜜。
+</p>
+<p>
+最後，讓我們再次獻上衷心的感謝；感謝主，一路帶領我們皇后區生命堂，不但使每位弟兄姊妹的身心靈能夠日益茁壯，更讓我們時常經歷神的恩典；願主使用我們每一個人，讓榮耀歸給主。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'queens')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Address: </b>35-26 Union St. Flushing, NY 11354, USA
+</p>
+<p>
+<b>Tel #: </b> (C) 917-361-6866
+</p>
+<p>
+<iframe scrolling=\"no\" marginWidth=\"0\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=35-26+Union+St.+Flushing,+NY+11354&amp;aq=&amp;sll=40.764656,-73.828315&amp;sspn=0.012043,0.01487&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=35-26+Union+St,+Queens,+New+York+11354&amp;t=m&amp;ll=40.764681,-73.828297&amp;spn=0.031204,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" height=\"480\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=35-26+Union+St.+Flushing,+NY+11354&amp;aq=&amp;sll=40.764656,-73.828315&amp;sspn=0.012043,0.01487&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=35-26+Union+St,+Queens,+New+York+11354&amp;t=m&amp;ll=40.764681,-73.828297&amp;spn=0.031204,0.054932&amp;z=14&amp;iwloc=A\" style=\"text-align: left; color: #0000ff\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'queens')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>地址: </b>35-26 Union St. Flushing, NY 11354, USA
+</p>
+<p>
+<b>電話:</b> (手機)917-361-6866
+</p>
+<p>
+<iframe scrolling=\"no\" marginWidth=\"0\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=35-26+Union+St.+Flushing,+NY+11354&amp;aq=&amp;sll=40.764656,-73.828315&amp;sspn=0.012043,0.01487&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=35-26+Union+St,+Queens,+New+York+11354&amp;t=m&amp;ll=40.764681,-73.828297&amp;spn=0.031204,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" height=\"480\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=35-26+Union+St.+Flushing,+NY+11354&amp;aq=&amp;sll=40.764656,-73.828315&amp;sspn=0.012043,0.01487&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=35-26+Union+St,+Queens,+New+York+11354&amp;t=m&amp;ll=40.764681,-73.828297&amp;spn=0.031204,0.054932&amp;z=14&amp;iwloc=A\" style=\"text-align: left; color: #0000ff\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'queens')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+------------end queens
 ---------------------update murrayhill  pages
 
 update church_content set body = '<style>
