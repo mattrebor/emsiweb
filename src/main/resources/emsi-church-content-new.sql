@@ -1768,7 +1768,168 @@ Thanks and praises to the Lord!  For the past 24 years, God\u2019s wondrous work
 	and locale = 'en'
 	and page_id = 'intro';
 
+---------------------update porto alto - portugal pages
 
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> 351-263-658-466/(cell)351-965-077-777 </td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td> 351-218-868-370</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:ecmsiinqueens@gmail.com">ecmsiinqueens@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>January 31, 2010
+</p>
+<p>
+<img src="/emsi/files/portoaltosmall_0.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />
+There was a question from a non christian friend as to with all the CEM churches around why was there not one for Porto Alto when Pastor Chen visited Porto Alto on December 30, 2009. There are over thousand Chinese in Porto Alto. On January 2nd, 2010, Pastor Chen and sister Chen Xiao Ping visited Porto Alto again. During that visit, Pastor Chen felt deeply the need to spread gospel in Porto Alto as there is a longing of brothers and sisters for God’s words. A few people told us they would attend church services in Lisbon, if they did not have to work on Sunday and that it would be wonderful to them if we would start a church in Porto Alto.
+</p>
+<p>
+That evening in the prayer meeting of CEC in Lisbon, Pastor Chen shared with everyone the need to spread Gospel in Porto Alto. Many were moved. One sister gave ten thousand dollars for Gospel work in Porto Alto. Another offered Bible, hymn books. Many brothers and sisters also offered to give to start a church there On January 3rd,after a coworkers’ meeting after the church service, it was decided that we will start the CEC in Porto Alto on January 31st.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'portoalto')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 3351-263-658-466/(手機) 351-965-077-777 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> 351-218-868-370 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsilisboa@hotmail.com"> emsilisboa@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2010年 1月30日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/portoaltosmall_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />2009年12月30日陳岳平牧師與一位社團的負責人去PORTO ALTO辦事，席間一位未信主的朋友告知PORTO ALTO已有1000左右的華人，這位朋友並建議我們在PORTO ALTO建立教會。神竟然讓一個未信主的人發出馬其頓的呼聲！
+</p>
+<p>
+在回里斯本的路上，陳牧師為PORTO ALTO 新工場禱告，尋求神的旨意。 2010年1月2日 陳牧師和陳小萍姐妹去PORTO ALTO實地考察探訪。在探訪的過程中，深深的感受到當地福音的需要及當地弟兄姐妹的渴慕。
+</p>
+<p>
+2010年2日的晚上在里斯本生命堂禱告會中，陳牧師把PORTO ALTO福音的需要告訴大家。禱告會後有個姐妹奉獻一萬歐元作為PORTO ALTO新福音工場的啟動基金; 另一位姐妹願意奉獻聖經、聖詩; 也有很多弟兄姊妹願為PORTO ALTO作開堂奉獻。
+</p>
+<p>
+2010年1月3日禮拜天崇拜之後同工會議，決定在2010年1月31日禮拜天正式成立播道歐多基督教生命堂。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'portoalto')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Address: </b>Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal
+</p>
+<p>
+<b>Tel #: </b> 351-263-658-466/(cell)351-965-077-777
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'portoalto')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>地址: </b>Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal
+</p>
+<p>
+<b>電話:</b> 3351-263-658-466/(手機) 351-965-077-777 
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'portoalto')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+----------------- porto alto
 
 update church_content set body = STRINGDECODE('<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
