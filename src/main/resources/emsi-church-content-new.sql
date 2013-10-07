@@ -83,11 +83,11 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>林森良 牧師 , (手機) 917-361-6866</td>
+			<td>林森良 牧師 , (手機)917-361-6866</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>陳松曦 傳道, (手機) 917-361-0823</td>
+			<td>陳松曦 傳道, (手機)917-361-0823</td>
 		</tr>
 	</tbody>
 </table>
@@ -158,7 +158,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>4609 8th Avenue, Brooklyn, NY 11220, USA
 </p>
 <p>
-牧師: 林森良 牧師, (手機) 917-361-6866 </br>
+牧師: 林森良 牧師, (手機)917-361-6866 </br>
 傳道: 陳松曦 傳道, (手機)917-361-0823
 </p>
 <p>
@@ -172,6 +172,66 @@ update church_content set body = STRINGDECODE('<p>
 ------------end  brooklyn
 
 ---------------------update murrayhill intro page
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Jing Huang</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>
+			725 Mountain Avenue, Berkeley Heights NJ 07922</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>917-488-8610</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:jhuang277@gmail.com">jhuang277@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>1984
+</p>
+<p>
+<img src="/emsi/files/murrayhill/murrayhill.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />Christian Evangelical Church in Murray Hill was established by the Christian Evangelical Mission in 1984 in New Jersey to serve the people working in the neighborhood factories and large companies. <br />
+In the early days, the Sunday Worship service was located in a Sunday School classroom of a Methodist Church on Diamond Hill Road in Murray Hill. Because it has limited space, it was difficult to develop ministry. Even so, there were still a number of faithful church members who continued and persistently prayed for the day to have a church and a spiritual home of their own.<br />
+On January 3, 2010, the Lord led us to move into a new church location at725 Mountain Avenue, Berkeley Heights, NJ 07922. We have a new beginning in the New Year. We believe this is the first step God is going to revive CEC Murray Hill. We cordially invite you to join with us to walk with our Lord, and to be in one accord with our Lord, to have our church revived by the Lord! 
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'murrayhill')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -236,6 +296,23 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'murrayhill')
 	and locale = 'zh'
 	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Address: </b>725 Mountain Avenue, Berkeley Heights, NJ 07922, USA
+</p>
+<p>
+<b>Tel #:</b> 917-488-8610
+</p>
+<p>
+<iframe scrolling=\"no\" marginHeight=\"0\" marginWidth=\"0\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=725+Mountain+Ave,+Berkeley+Heights,+NJ+07922,+USA&amp;sll=40.498169,-74.428124&amp;sspn=0.009676,0.016801&amp;ie=UTF8&amp;hq=&amp;hnear=725+Mountain+Ave,+Berkeley+Heights,+Union,+New+Jersey+07922&amp;ll=40.6691,-74.439003&amp;spn=0.007812,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" height=\"480\" width=\"640\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=725+Mountain+Ave,+Berkeley+Heights,+NJ+07922,+USA&amp;sll=40.498169,-74.428124&amp;sspn=0.009676,0.016801&amp;ie=UTF8&amp;hq=&amp;hnear=725+Mountain+Ave,+Berkeley+Heights,+Union,+New+Jersey+07922&amp;ll=40.6691,-74.439003&amp;spn=0.007812,0.013733&amp;z=16&amp;iwloc=A\" style=\"text-align: left; color: #0000ff\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'murrayhill')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
 	
 	
 update church_content set body = STRINGDECODE('<p>
@@ -422,7 +499,7 @@ where church_id = (select church_id from church where church_path = 'portoalto')
 and locale = 'zh'
 and key = 'menu_name';
 
-
+--------  Chinatown
 update church_content
 set body = 
 '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -438,19 +515,19 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Senior Pastor:</td>
-			<td>Rev. Moses Yang 973-335-7337, ext. 209</td>
+			<td>Rev. Moses Yang 973-335-7337, ext. 209, (C) 201-650-1923</td>
 		</tr>
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. SenLiang Lin 917-361-6866</td>
+			<td>Rev. SenLiang Lin (C) 917-361-6866</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Lingkin Lui 917-753-7787</td>
+			<td>Ev. Lingkin Lui (C) 917-753-7787</td>
 		</tr>
 		<tr>
-			<td class="label"><span style="color: rgb(0, 0, 0); font-family: Arial, helvetica, sans-serif; font-size: small; font-weight: bold; white-space: nowrap;">Evangelist:</span></td>
-			<td><span style="font-family: Helvetica, arial, freesans, clean, sans-serif; line-height: 22px; background-color: rgb(251, 251, 251);">Ev. YongSheng Zhang 973-393-7876</span></td>
+			<td class="label">Evangelist:</td>
+			<td>Ev. YongSheng Zhang, (C) 973-393-7876</td>
 		</tr>
 	</tbody>
 </table>
@@ -511,20 +588,20 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">監督:</td>
-			<td>楊摩西 牧師, (973) 335-7337 ext. 209</td>
+			<td class="label">主任牧師:</td>
+			<td>楊摩西 牧師, 973-335-7337 ext. 209, (手機)201-650-1923</td>
 		</tr>
 		<tr>
 			<td class="label">牧師:</td>
-			<td>林森良 牧師, (917) 361-6866</td>
+			<td>林森良 牧師,  (手機)917-361-6866</td>
 		</tr>
 		<tr>
 			<td class="label">傳道:</td>
-			<td>呂嶺乾 傳道, (917) 753-7787</td>
+			<td>呂嶺乾 傳道, (手機)917-753-7787</td>
 		</tr>
 		<tr>
-			<td class="label"><span style="color: rgb(0, 0, 0); font-family: Arial, helvetica, sans-serif, 新細明體; font-size: 14px; font-weight: bold; white-space: nowrap;">傳道:</span></td>
-			<td><span style="font-family: Helvetica, arial, freesans, clean, sans-serif; line-height: 22px; background-color: rgb(251, 251, 251);">張勇生 傳道, (973) 393-7876</span></td>
+			<td class="label">傳道:</td>
+			<td>張勇生 傳道, (手機)973-393-7876</td>
 		</tr>
 	</tbody>
 </table>
@@ -570,6 +647,7 @@ where church_id = (select church_id from church where church_path = 'chinatown')
 and locale = 'zh'
 and page_id = 'intro';
 
+------------  ends chinatown
 
 insert into church_content (CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(34, 'intro', 'en', 'CEC in Fuenlabrada - Brief History', '
 <style>
@@ -1355,68 +1433,6 @@ Thanks and praises to the Lord!  For the past 24 years, God\u2019s wondrous work
 	and page_id = 'intro';
 
 
-update church_content set body = '<style>
-.contact-content {font-family: Arial,helvetica,sans-serif;}
-.contact-content td {font-size: small; padding: 2px; 3px;}
-td.label {font-weight: bold; width: 1%; white-space: nowrap;}
-p span.label {font-weight: bold;}
-.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
-.borderless-table {border-width: 0px;}
-</style>
-<div class="contact-content">
-<div style="color: #000000; font-size: small">
-<table cellpadding="0px" cellspacing="0px">
-	<tbody class="borderless-table">
-		<tr>
-			<td class="label">Pastor:</td>
-			<td>Rev. Chung-Chia Li (Jacob Li)</td>
-		</tr>
-		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Jing Huang</td>
-		</tr>
-	</tbody>
-</table>
-<div style="margin-left: 20px">
-<table cellpadding="1px" cellspacing="0px">
-	<tbody class="borderless-table">
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
-			<td class="label">Address:</td>
-			<td>
-			725 Mountain Avenue, Berkeley Heights NJ 07922</td>
-		</tr>
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">Tel#:</td>
-			<td>862-207-1705</td>
-		</tr>
-		<tr>
-			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
-			<td class="label">Email:</td>
-			<td><a href="mailto:jacobli0407@gmail.com">jacobli0407@gmail.com</a><br />
-			</td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
-<hr align="center" size="1" width="100%" />
-</div>
-<div class="main-content">
-<p>
-<span class="label">Established Date: </span>1984
-</p>
-<p>
-<img src="/emsi/files/murrayhill/murrayhill.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />Christian Evangelical Church in Murray Hill was established by the Christian Evangelical Mission in 1984 in New Jersey to serve the people working in the neighborhood factories and large companies. <br />
-In the early days, the Sunday Worship service was located in a Sunday School classroom of a Methodist Church on Diamond Hill Road in Murray Hill. Because it has limited space, it was difficult to develop ministry. Even so, there were still a number of faithful church members who continued and persistently prayed for the day to have a church and a spiritual home of their own.<br />
-On January 3, 2010, the Lord led us to move into a new church location at725 Mountain Avenue, Berkeley Heights, NJ 07922. We have a new beginning in the New Year. We believe this is the first step God is going to revive CEC Murray Hill. We cordially invite you to join with us to walk with our Lord, and to be in one accord with our Lord, to have our church revived by the Lord! 
-</p>
-</div>
-'	where church_id = (select church_id from church where church_path = 'murrayhill')
-	and locale = 'en'
-	and page_id = 'intro';
-
 
 update church_content set body = STRINGDECODE('<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -1843,7 +1859,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Address: </b>36 Alpine Road, Towaco, NJ 07082 
 </p>
 <p>
-<b>Phone #:</b>\u00a0 973-331-0545 | 973-331-0546 
+<b>Tel #:</b>\u00a0 973-331-0545 | 973-331-0546 
 </p>
 <p>
 <b>E-mail:\u00a0<span style="color: #0062a0"><u>cemc.towaco@gmail.com</u></span>\u00a0</b> 
