@@ -1928,9 +1928,197 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
-
 ----------------- porto alto
 
+	
+---------------------update lisbon  pages
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Yue Ping Chen, (cell) 351-963-333-777</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> (cell) 351-963-333-777</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td> 351-218-868-370</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsilisboa@hotmail.com">emsilisboa@hotmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>October 21, 1999
+</p>
+<p>
+<img src="/emsi/files/6%20-%20001448bsmall_0.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />The Portuguese church, CEC in Lisbon, was founded on October 21, 1999 by Rev. Moses Yang.
+</p>
+<p>
+In July, 1999 Evangelist Yueing Chen was serving in Valencia, Spain. He received acall from his sister Xiao Li Chen. She told him that Lisbon urgently needed the Gospel. After many prayers and discussions with the CEM headquarters in North America, brothers from CEM in the United States and him went to visit the Christians in Lisbon and have an appreciation the need of the gospel there.Evangelist Chen was then transferred to Lisbon in September for starting a church/ministry there with the support of CEC Europe. There were a number of loving Christian families participated in the ministry. A sister in Lord then offered 
+her restaurant as a meeting place. On October 3rd, 1999, the first worship service was held. Later on October 21st, Rev. Yang and Rev. Chi went to formally establish the CEC in Lisbon, followed by visitation of Rev. and Mrs. Chan on November 14th to initiate the first co-workers meeting. On December 5th, Sunday Worship was moved to the rented church in Lisbon.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'lisbon')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">會牧:</td>
+			<td>陳岳平 牧師</td>
+		</tr>
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>陳岳平 牧師, (手機) 351-963-333-777</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> (手機) 351-963-333-777 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> 351-218-868-370 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsilisboa@hotmail.com"> emsilisboa@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1999年 10月21日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/6%20-%20001448bsmall_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />一九九九年七月正在西班牙瓦倫西亞生命堂牧會的陳岳平傳道接到他的胞妹陳小麗電話，得悉在里斯本 的福音迫切需要，經禱告和與北美總會磋商後，隨即帶同在由美國去西班牙短宣的弟兄前往葡萄牙里斯本探望信徒。經過多方面去了解真相和考察，確知按真理的原則，實在有必要在該市成立生命堂，以幫助信徒傳揚纯正的真道。回到瓦倫西亞後，陳傳道向總會提出報告，並在九月得總會調派葡萄牙，負責葡萄牙福音佈道會開拓的工作。歐洲福音佈道會亦願意支持陳傳道在該市開展福音事工。剛起步便有幾個愛主的家庭參與一起事奉，他們是阮高華、季建峰、潘光亮、陳小萍及陳玲香等。佈道會得這幾個熱心的家庭同心一起事奉，很快便籌劃開始聚會。陳小萍姐妹願意借出她的餐館「宏發酒家」作崇拜之用；同年十月三日開始了第一次的崇拜，十月廿一日楊摩西牧師和戚厚生牧師來里斯本正式成立生命堂；十一月十四日陳啟猷牧師及師母亦前來探望，並按立第一屆的同工；十二月五日主日崇拜遷到租用的葡萄牙教堂舉行。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'lisbon')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Pastor: </b>Rev. Yue Ping Chen, (cell) 351-963-333-777
+</p>
+<p>
+<b>Address: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+</p>
+<p>
+<b>Tel #: </b>(cell) 351-963-333-777
+</p>
+<p>
+<b>Fax #: </b>351-218-868-370
+</p>
+<p>
+<b>Email: </b>emsilisboa@hotmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'lisbon')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>牧師:</b> 陳岳平 牧師,(手機) 351-963-333-777
+</p>
+<p>
+<b>地址: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+</p>
+<p>
+<b>電話:</b> (手機) 351-963-333-777
+</p>
+<p>
+<b>傳真: </b>351-218-868-370
+</p>
+<p>
+<b>電郵: </b>emsilisboa@hotmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'lisbon')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+----------------- end Lisbon
+
+	
+	
+	
+	
 ---------------------update porto  pages
 
 update church_content set body = '<style>
