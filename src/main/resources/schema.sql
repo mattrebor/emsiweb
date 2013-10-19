@@ -9,9 +9,9 @@ create table church (
 	church_path varchar(120) not null,
 	enabled int default 1,
 	sort_order int not null default 0,
-	--address varchar(200),
-	--latitude double,
-	--longitude double,
+	address varchar(200),
+	latitude double,
+	longitude double,
 	version int not null default 0,
 	primary key (church_id)
 );
@@ -22,7 +22,7 @@ drop table if exists church_detail;
 create table church_detail (
 	church_id int not null,
 	locale varchar(10) not null,
-	church_detail_key varchar(30) not null,
+	key varchar(30) not null,
 	value varchar(255) not null,
 	last_mod_by varchar(20),
 	last_mod_date date,
@@ -44,12 +44,16 @@ create table church_detail (
 --   church_detail_fax
 --   church_detail_email
 --   church_detail_skype
+--   meta_description_tag01
+--   meta_description_tag02
+--   ...
+--   meta_description_tag10
 drop table if exists church_detail_key;
 create table church_detail_key (
 	church_detail_key varchar(30) not null,
 	descr varchar(255) not null,
 	mandatory int default 1,
-	primary key (key)
+	primary key (church_detail_key)
 );
 
 -- create minister table
@@ -72,7 +76,7 @@ create table minister_detail(
 	value varchar(255) not null,
 	last_mod_by varchar(20),
 	last_mod_date date,
-	primary key (minister_id, locale, key)
+	primary key (minister_id, locale, minister_detail_key)
 );
 
 -- create minister_detail_key table
@@ -88,7 +92,7 @@ create table minister_detail_key (
 	minister_detail_key varchar(30) not null,
 	descr varchar(255) not null,
 	mandatory int default 1,
-	primary key (key)
+	primary key (minister_detail_key)
 );
 
 
@@ -101,7 +105,7 @@ create table church_minister (
 	church_id int not null,
 	minister_id int not null,
 	position_id varchar(20) not null,
-	order int not null default 0,
+	sort_order int not null default 0,
 	last_mod_by varchar(20),
 	last_mod_date date,
 	primary key (church_id, minister_id, position_id)
@@ -145,7 +149,7 @@ create table church_content (
 drop table if exists page_id_key;
 create table page_id_key (
 	page_id varchar(30) not null,
-	order int not null default 0,
+	sort_order int not null default 0,
 	primary key (page_id)
 );
 
@@ -210,7 +214,7 @@ from church_org c, locales l;
 drop view if exists localized_church_hierarchy;
 create view localized_church_hierarchy
 as select distinct l.locale, h.parent_entity_id, h.church_org_id, h.church_id
-from church_hierarchy h, locales l
+from church_hierarchy h, locales l;
 
 
 -- news

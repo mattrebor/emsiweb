@@ -1,2 +1,2 @@
-insert into locales values ('zh');
-insert into locales values ('en');
+insert into locales (locale, default) values ('zh', 0);
+insert into locales (locale, default) values ('en', 1);
