@@ -16,16 +16,20 @@ import org.emsionline.emsiweb.domain.LocalizedChurchOrgKey;
 import org.emsionline.emsiweb.service.ChurchContentService;
 import org.emsionline.emsiweb.service.LocalizedChurchOrgService;
 import org.emsionline.emsiweb.service.LocalizedChurchService;
+import org.emsionline.emsiweb.web.controller.domain.ChurchPage;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.MessageSource;
+import org.springframework.http.HttpRequest;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.mvc.multiaction.NoSuchRequestHandlingMethodException;
 import org.springframework.web.servlet.support.RequestContextUtils;
 
@@ -57,12 +61,8 @@ public class ChurchController {
 		
 		Locale locale = RequestContextUtils.getLocale(req);
 		
-		String lang = locale.getLanguage();
-		if (!(lang.equals("en") || lang.equals("zh"))) {
-			lang = "en";
-			locale = Locale.US;
-		}
-		
+		String lang = resolveLanguage(req);
+
 		String userAgent = req.getHeader("User-Agent");
 		
 		boolean css3TreeSupport = true;
@@ -91,33 +91,16 @@ public class ChurchController {
 	
 	@RequestMapping(value = "/{id}/{page_id}",  method = RequestMethod.GET)
 	public String show(HttpServletRequest req, @PathVariable("id") String id, @PathVariable("page_id") String page_id, Model uiModel) throws NoSuchRequestHandlingMethodException {
-
-		
 		
 		Locale locale = RequestContextUtils.getLocale(req);
 
-		String lang = locale.getLanguage();
-		if (!(lang.equals("en") || lang.equals("zh"))) {
-			lang = "en";
-			locale = Locale.US;
-		}
-		
+		String lang = resolveLanguage(req);
 		
 		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), lang));
 		uiModel.addAttribute("church_org", church_org);
 
-		LocalizedChurch church = null;
-		try {
-			church = churchService.findById(new LocalizedChurchKey(new Long(id), lang));
-		}
-		catch (NumberFormatException e) {
-			// Ignore
-		}
 		
-		if (church == null) {
-			church = churchService.findById_LocaleAndChurchPath(lang, id);
-		}
-		
+		LocalizedChurch church = findChurch(id, lang);
 		if (church == null) {
 			throw new NoSuchRequestHandlingMethodException("show", ChurchController.class);
 		}
@@ -179,39 +162,25 @@ public class ChurchController {
 		uiModel.addAttribute("css3TreeSupport", css3TreeSupport);
 		
 		
-		Locale locale = RequestContextUtils.getLocale(req);
-		// TODO: Need to make the language selection more generic
-		String lang = locale.getLanguage();
-		if (!(lang.equals("en") || lang.equals("zh"))) {
-			lang = "en";
-		}
-		
+		String lang = resolveLanguage(req);
 		
 		LocalizedChurchOrg church_org = churchOrgService.findById(new LocalizedChurchOrgKey(new Long(CEMI_CHURCH_ORG_ID), lang));
-		uiModel.addAttribute("church_org", church_org);
+		uiModel.addAttribute("church_org", church_org);		
 
-		LocalizedChurch church = null;
-		try {
-			church = churchService.findById(new LocalizedChurchKey(new Long(id), lang));
-		}
-		catch (NumberFormatException e) {
-			// Ignore
-		}
-		
+		LocalizedChurch church = findChurch(id, lang);		
 		if (church == null) {
-			church = churchService.findById_LocaleAndChurchPath(lang, id);
-		}
-		
-		if (church == null) {
-			throw new NoSuchRequestHandlingMethodException("show", ChurchController.class);
-		}
+			throw new NoSuchRequestHandlingMethodException("edit", ChurchController.class);
+		}		
+
 		uiModel.addAttribute("church", church);
 		
 		Map<String, String> churchHierarchy = retrieveChurchHierarchy(church);
+		logger.info(churchHierarchy.toString());
 		uiModel.addAttribute("churchHierarchy", churchHierarchy);
 		
 		ChurchContent content = churchContentService.findById(new ChurchContentKey(church.getId().getChurchId(), lang, page_id));
 		uiModel.addAttribute("content", content);
+		logger.info(content.getBody());
 
 		
 		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(church.getId().getChurchId(), lang);
@@ -237,7 +206,53 @@ public class ChurchController {
 		
 	}
 
+	@RequestMapping(value = "/{id}/save", headers = {"Accept=application/json"}, method = RequestMethod.POST)
+	public @ResponseBody ChurchPage save(HttpServletRequest req, @PathVariable("id") String id, @RequestBody ChurchPage page) throws NoSuchRequestHandlingMethodException {
+		return save(req, id,  "intro", page);
+	}
+
 	
+	@RequestMapping(value = "/{id}/{page_id}/save", headers = {"Accept=application/json"}, method = RequestMethod.POST)
+	public @ResponseBody ChurchPage save(HttpServletRequest req, @PathVariable("id") String id, @PathVariable("page_id") String page_id, @RequestBody ChurchPage page) throws NoSuchRequestHandlingMethodException {
+		
+		logger.info("remote ip=" + req.getRemoteAddr());
+		logger.info("context_path=" + req.getContextPath());
+		logger.info("id=" + id);
+		logger.info("page_id=" + page_id);
+		
+		// Reverse path conversion
+		String body = page.getBody();
+		
+		/*
+		${fn:replace(fn:replace(fn:replace(content.body, '/emsi/images/', imgBase), '/emsi/files/', imgBase2), '/emsiweb/images/', imgBase3)}
+		<spring:url value="/images/emsi/" var="imgBase" />
+		<spring:url value="/images/files/" var="imgBase2" />
+		<spring:url value="/images/" var="imgBase3"/>
+		*/
+		
+		body = body.replaceAll(req.getContextPath() + "/images/emsi/", "/emsi/images/");
+		body = body.replaceAll(req.getContextPath() + "/images/files/", "/emsi/files/");
+		body = body.replaceAll(req.getContextPath() + "/images/", "/emsiweb/images/");
+		
+		
+		logger.info("page.body=|" + body + "|");
+		
+		String lang = resolveLanguage(req);
+
+		LocalizedChurch church = findChurch(id, lang);
+		if (church == null) {
+			throw new NoSuchRequestHandlingMethodException("save", ChurchController.class);
+		}		
+		
+		ChurchContent content = churchContentService.findById(new ChurchContentKey(church.getId().getChurchId(), lang, page_id));
+		content.setBody(body);
+		
+		
+		churchContentService.save(content);
+		
+		page.setBody("Save successful");
+		return page;
+	}
 	
 	private Map<String, String> retrieveChurchHierarchy(LocalizedChurch church) {
 		
@@ -255,5 +270,31 @@ public class ChurchController {
 	}
 
 	
+	public String resolveLanguage(HttpServletRequest req) {
+		Locale locale = RequestContextUtils.getLocale(req);
+		// TODO: Need to make the language selection more generic
+		String lang = locale.getLanguage();
+		if (!(lang.equals("en") || lang.equals("zh"))) {
+			lang = "en";
+		}
+		
+		return lang;
+	}
 	
+	public LocalizedChurch findChurch(String id, String lang) {
+		LocalizedChurch church = null;
+		try {
+			church = churchService.findById(new LocalizedChurchKey(new Long(id), lang));
+		}
+		catch (NumberFormatException e) {
+			// Ignore
+		}
+		
+		if (church == null) {
+			church = churchService.findById_LocaleAndChurchPath(lang, id);
+		}
+		
+		return church;
+
+	}
 }
