@@ -11,6 +11,20 @@
 	http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa-1.0.xsd 
 	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd">
 	
+	<!-- 
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+		<property name="driverClassName" value="org.h2.Driver"/>
+		<property name="url" value="jdbc:h2:file:~/emsiwebdb;INIT=runscript from 'classpath:schema.sql'\;runscript from 'classpath:reference_data.sql'\;runscript from 'classpath:emsi-church-content2.sql'\;runscript from 'classpath:emsi-church-content-new.sql'\;runscript from 'classpath:schema-orderform.sql'\;runscript from 'classpath:orderform-content.sql'\;"/>
+		 -->
+		<!-- 
+		<property name="url" value="jdbc:h2:mem:emsiwebdb;INIT=runscript from 'classpath:schema.sql'\;runscript from 'classpath:reference_data.sql'\;runscript from 'classpath:emsi-church-content2.sql'\;runscript from 'classpath:emsi-church-content-new.sql'\;runscript from 'classpath:schema-orderform.sql'\;runscript from 'classpath:orderform-content.sql'\;"/>
+		 -->
+		 
+		 <!-- 
+	    <property name="username" value="sa"/>
+	    <property name="password" value="sa"/> 
+	</bean> -->
+	
 	<jdbc:embedded-database id="dataSource" type="H2">
 		<jdbc:script location="classpath:schema.sql" />
 		<jdbc:script location="classpath:reference_data.sql" encoding="UTF-8" />
@@ -20,7 +34,7 @@
 		<jdbc:script location="classpath:schema-orderform.sql"/>
 		<jdbc:script location="classpath:orderform-content.sql"/>
 	</jdbc:embedded-database>
-	
+	 
 	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
 		<property name="entityManagerFactory" ref="emf" />
 	</bean>
