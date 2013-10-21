@@ -230,12 +230,14 @@ public class ChurchController {
 		<spring:url value="/images/" var="imgBase3"/>
 		*/
 		
+		logger.info("page.body.before=|" + body + "|");
+
 		body = body.replaceAll(req.getContextPath() + "/images/emsi/", "/emsi/images/");
 		body = body.replaceAll(req.getContextPath() + "/images/files/", "/emsi/files/");
 		body = body.replaceAll(req.getContextPath() + "/images/", "/emsiweb/images/");
 		
 		
-		logger.info("page.body=|" + body + "|");
+		logger.info("page.body.after=|" + body + "|");
 		
 		String lang = resolveLanguage(req);
 
