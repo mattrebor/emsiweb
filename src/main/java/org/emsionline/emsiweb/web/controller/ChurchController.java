@@ -180,7 +180,7 @@ public class ChurchController {
 		
 		ChurchContent content = churchContentService.findById(new ChurchContentKey(church.getId().getChurchId(), lang, page_id));
 		uiModel.addAttribute("content", content);
-		logger.info(content.getBody());
+		logger.info("body.edit=" + content.getBody());
 
 		
 		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(church.getId().getChurchId(), lang);
@@ -232,9 +232,9 @@ public class ChurchController {
 		
 		logger.info("page.body.before=|" + body + "|");
 
-		body = body.replaceAll(req.getContextPath() + "/images/emsi/", "/emsi/images/");
-		body = body.replaceAll(req.getContextPath() + "/images/files/", "/emsi/files/");
-		body = body.replaceAll(req.getContextPath() + "/images/", "/emsiweb/images/");
+		body = body.replaceAll("\"" + req.getContextPath() + "/images/emsi/", "\"/emsi/images/");
+		body = body.replaceAll("\"" + req.getContextPath() + "/images/files/", "\"/emsi/files/");
+		body = body.replaceAll("\"" + req.getContextPath() + "/images/", "\"/emsiweb/images/");
 		
 		
 		logger.info("page.body.after=|" + body + "|");
