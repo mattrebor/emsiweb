@@ -180,8 +180,9 @@ public class ChurchController {
 		
 		ChurchContent content = churchContentService.findById(new ChurchContentKey(church.getId().getChurchId(), lang, page_id));
 		uiModel.addAttribute("content", content);
-		logger.info("body.edit=" + content.getBody());
-
+		if (content != null) {
+			logger.info("body.edit=" + content.getBody());
+		}
 		
 		List<ChurchContent> contentList = churchContentService.findById_ChurchIdAndId_Locale(church.getId().getChurchId(), lang);
 		//uiModel.addAttribute("contentList", contentList);
@@ -220,6 +221,18 @@ public class ChurchController {
 		logger.info("id=" + id);
 		logger.info("page_id=" + page_id);
 		
+		if ("intro".equals(page_id) ||
+			"minister".equals(page_id) ||
+			"schedule".equals(page_id) ||
+			"contactus".equals(page_id)) {
+			// do nothing
+		}
+		else {
+			logger.info("invalid page_id: " + page_id);
+			throw new NoSuchRequestHandlingMethodException("save", ChurchController.class);		
+
+		}
+		
 		// Reverse path conversion
 		String body = page.getBody();
 		
@@ -247,7 +260,16 @@ public class ChurchController {
 		}		
 		
 		ChurchContent content = churchContentService.findById(new ChurchContentKey(church.getId().getChurchId(), lang, page_id));
-		content.setBody(body);
+		if (content != null) {
+			content.setBody(body);
+		}
+		else {
+			ChurchContentKey key = new ChurchContentKey(church.getId().getChurchId(), lang, page_id);
+			content = new ChurchContent();
+			content.setId(key);
+			content.setTitle(page_id);
+			content.setBody(body);
+		}
 		
 		
 		churchContentService.save(content);
