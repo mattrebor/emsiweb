@@ -56,11 +56,16 @@ create table church_detail_key (
 	primary key (church_detail_key)
 );
 
+
+-- create sequence for minister table
+drop sequence if exists minister_id_seq;
+create sequence minister_id_seq;
+
 -- create minister table
 -- with primary key minister_id and locale
 drop table if exists minister;
 create table minister (
-	minister_id int not null auto_increment,
+	minister_id int not null,
 	enabled int default 1,
 	primary key (minister_id)
 );
@@ -73,7 +78,7 @@ create table minister_detail(
 	minister_id int not null,
 	locale varchar(10) not null,
 	minister_detail_key varchar(30) not null,
-	value varchar(255) not null,
+	value varchar(255) null,
 	last_mod_by varchar(20),
 	last_mod_date date,
 	primary key (minister_id, locale, minister_detail_key)
@@ -90,8 +95,12 @@ create table minister_detail(
 drop table if exists minister_detail_key;
 create table minister_detail_key (
 	minister_detail_key varchar(30) not null,
-	descr varchar(255) not null,
+	short_descr varchar(20) not null,
+	long_descr varchar(255) not null,
+	display_order int default 0,
+	edit_htmlctrl_type varchar(20) default 'text',
 	mandatory int default 1,
+	language_agnostic int default 0,
 	primary key (minister_detail_key)
 );
 

@@ -19,6 +19,8 @@
 		
 		<jdbc:script location="classpath:schema-orderform.sql"/>
 		<jdbc:script location="classpath:orderform-content.sql"/>
+		
+		<jdbc:script location="classpath:minister-content.sql"/>
 	</jdbc:embedded-database>
 	
 	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">

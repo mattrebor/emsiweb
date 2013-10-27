@@ -1,0 +1,86 @@
+<div 
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:form="http://www.springframework.org/tags/form"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes"/>
+	
+	<spring:url value="/resources/scripts/app/minister.js" var="minister_js"/>
+	
+	<script type="text/javascript" src="${minister_js}"><jsp:text/></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			Minister.init({
+				basePath: App.getBasePath()
+			});
+			
+			<c:if test="${not empty readonly}">
+			$(':input[type="text"]').prop("disabled", true);
+			</c:if>
+		});
+	</script>
+	
+	<style type="text/css">
+		.control-group .mytxtbox {
+			font-size: 11px;
+			margin-right: 10px;
+		}
+	</style>
+	
+	<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69; border: 1px solid red;">
+		Minister Details</span>
+		
+	<p>&#160;</p>
+	
+	<spring:url var="saveUrl" value="/minister/${saveAction}/${minister.id}"/>
+	
+	<form:form method="POST" action="${saveUrl}" modelAttribute="minister"
+		class="form-horizontal row" accept-charset="utf-8"
+		style="border: 1px solid yellow;">
+		<div style="border: 1px dotted pink;" class="row">
+			<span class="span4">&#160;</span>
+			<c:forEach items="${minister.languages}" var="lang">
+				<span class="span6" style="padding-left: 10px;">${lang}</span>
+			</c:forEach>
+		</div>
+		<c:forEach items="${keyList}" var="mdk">
+			<div class="control-group" style="border: 1px solid cyan;">
+				<div class="row" style="border: 1px solid red;">
+					<label class="control-label span4" style="margin-right: 10px;">${mdk.shortDescr}:</label>
+					<c:forEach items="${minister.languages}" var="lang">
+						<input type="text" class="mytxtbox span6" maxlength="255"
+							name="details[${lang}][${mdk.ministerDetailKey}]"
+							value="${minister.details[lang][mdk.ministerDetailKey]}"
+							/>
+					</c:forEach>
+				</div>
+			</div>
+		</c:forEach>
+		<!--
+		<div class="row">
+			<div class="control-group">
+				<label class="control-label">Name:</label>
+				<div class="controls">
+					<input type="text" class="input" maxlength="255" name="details['en']['name']" value="${minister.details['en']['name']}"/>
+					<input type="text" class="input" maxlength="255" name="details['zh']['name']" value="${minister.details['zh']['name']}"/>
+				</div>
+			</div>
+		</div>
+		-->
+		<c:if test="${empty readonly}">
+			<div>
+				<button type="submit" class="btn btn-primary" style="">Save</button>
+				<button type="button" class="btn">Cancel</button>
+			</div>
+		</c:if>
+		<c:if test="${not empty readonly}">
+			<div>
+				<button type="button" id="editBtn" class="btn">Edit</button>
+				<button type="button" id="backToListBtn" class="btn">Back to List</button>
+			</div>
+		</c:if>
+		<input type="hidden" name="hiddenId" value="${minister.id}"/>
+	</form:form>
+	
+</div>

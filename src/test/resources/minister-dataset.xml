@@ -1,0 +1,10 @@
+<dataset>
+	<minister minister_id="1"/>
+	<minister minister_id="2"/>
+	
+	<minister_detail minister_id="1" locale="en" minister_detail_key="name" value="Moses Yang"/>
+	<minister_detail minister_id="1" locale="zh" minister_detail_key="name" value="Moses Yang (Chinese)"/>
+	
+	<minister_detail minister_id="1" locale="en" minister_detail_key="title_id" value="REV"/>
+	<minister_detail minister_id="1" locale="zh" minister_detail_key="title_id" value="REV (CHINESE)"/>
+</dataset>
