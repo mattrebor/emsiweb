@@ -11,7 +11,22 @@
 	http://www.springframework.org/schema/data/jpa http://www.springframework.org/schema/data/jpa/spring-jpa-1.0.xsd 
 	http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.1.xsd">
 	
-	<jdbc:embedded-database id="dataSource" type="H2">
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.SimpleDriverDataSource">
+		<property name="driverClass" value="org.h2.Driver"/>
+		<property name="url" value="jdbc:h2:mem:db1;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE"/>
+		<property name="username" value="sa"/>
+		<property name="password" value=""/>
+	</bean>
+	
+	<bean id="org.h2.tools.Server-WebServer" class="org.h2.tools.Server"
+		factory-method="createWebServer"
+		init-method="start"
+		destroy-method="stop"
+		lazy-init="false">
+		<constructor-arg value="-web,-webAllowOthers,true,-webPort,8082"/>
+	</bean>
+	
+	<jdbc:initialize-database data-source="dataSource">
 		<jdbc:script location="classpath:schema.sql" />
 		<jdbc:script location="classpath:reference_data.sql" encoding="UTF-8" />
 		<jdbc:script location="classpath:emsi-church-content2.sql" encoding="UTF-8" />
@@ -21,7 +36,7 @@
 		<jdbc:script location="classpath:orderform-content.sql"/>
 		
 		<jdbc:script location="classpath:minister-content.sql"/>
-	</jdbc:embedded-database>
+	</jdbc:initialize-database>
 	
 	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
 		<property name="entityManagerFactory" ref="emf" />
