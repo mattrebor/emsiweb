@@ -1,0 +1,41 @@
+<div 
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:form="http://www.springframework.org/tags/form"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes"/>
+	
+	<spring:url value="/resources/scripts/app/minister.js" var="minister_js"/>
+	
+	<script type="text/javascript" src="${minister_js}"><jsp:text/></script>
+	<script type="text/javascript">
+		$(document).ready(function () {
+			Minister.init({
+				basePath: App.getBasePath()
+			});
+		});
+	</script>
+	
+	<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Minister List</span>
+		
+	<p>&#160;</p>
+	
+	<form:form class="row">
+		<table class="table">
+		<tr>
+			<td>Title</td>
+			<td>Name</td>
+			<td>Email</td>
+		</tr>
+		<c:forEach items="${ministerList}" var="item" varStatus="idx">
+			<tr>
+				<td>${item.details['title']}</td>
+				<td>${item.details['name']}</td>
+				<td>${item.details['email']}</td>
+			</tr>
+		</c:forEach>
+		</table>
+	</form:form>
+</div>

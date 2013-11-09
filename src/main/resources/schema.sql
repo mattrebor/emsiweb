@@ -1,3 +1,10 @@
+-- needed the following drop statements moved up here when
+-- adding the h2 tools web server to view data
+drop view if exists localized_church;
+
+drop view if exists localized_church_org;
+
+drop view if exists localized_church_hierarchy;
 
 
 
@@ -209,18 +216,15 @@ create table locales (
 	primary key (locale)
 );
 
-drop view if exists localized_church;
 create view localized_church
 as select distinct c.church_id, l.locale, c.church_path, c.address, c.latitude, c.longitude, c.version, c.enabled, c.sort_order
 from church c, locales l;
 
 
-drop view if exists localized_church_org;
 create view localized_church_org
 as select distinct c.church_org_id, l.locale, c.church_org_path, c.version, c.enabled, c.sort_order
 from church_org c, locales l;
 
-drop view if exists localized_church_hierarchy;
 create view localized_church_hierarchy
 as select distinct l.locale, h.parent_entity_id, h.church_org_id, h.church_id
 from church_hierarchy h, locales l;

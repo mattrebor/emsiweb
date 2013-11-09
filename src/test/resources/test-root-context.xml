@@ -9,8 +9,9 @@
 	<import resource="classpath:mail-context.xml" />
 	
 	
-	<context:component-scan base-package="org.emsionline.emsiweb.service.jpa" />
+	<context:component-scan base-package="org.emsionline.emsiweb.service" />
+	<!--
 	<context:component-scan base-package="org.emsionline.emsiweb.service.orderform.jpa"/>
-	<context:component-scan base-package="org.emsionline.emsiweb.service.minister.jpa"/>
-	
+	<context:component-scan base-package="org.emsionline.emsiweb.service.minister.impl"/>
+	-->
 </beans>

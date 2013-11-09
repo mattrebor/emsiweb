@@ -19,6 +19,13 @@ public class MinisterDetailPK implements Serializable {
 	private String  ministerDetailKey;
 	
 	
+	public MinisterDetailPK() {}
+	public MinisterDetailPK(Integer ministerId, String locale, String ministerDetailKey) {
+		this.ministerId = ministerId;
+		this.locale = locale;
+		this.ministerDetailKey = ministerDetailKey;
+	}
+	
 	
 	@Column(name="minister_id")
 	public Integer getMinisterId() { return ministerId; }

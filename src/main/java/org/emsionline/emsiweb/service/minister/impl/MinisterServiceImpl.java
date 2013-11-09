@@ -1,4 +1,4 @@
-package org.emsionline.emsiweb.service.minister.jpa;
+package org.emsionline.emsiweb.service.minister.impl;
 
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -21,7 +21,7 @@ import org.springframework.stereotype.Service;
 import com.google.common.collect.Lists;
 
 
-@Service("jpaMinisterService")
+@Service("MinisterService")
 @Repository
 public class MinisterServiceImpl implements MinisterService {
 	
@@ -85,5 +85,13 @@ public class MinisterServiceImpl implements MinisterService {
 			}
 		});
 		return languages;
+	}
+	
+	
+	@Override
+	public Integer getNextMinisterId() {
+		String sql = 
+				"call next value for minister_id_seq";
+		return namedParameterJdbcTemplate.queryForInt(sql, (Map<String,?>) null);
 	}
 }

@@ -7,4 +7,9 @@
 		<put-attribute name="body-content" value="/WEB-INF/views/minister/detail.jspx" cascade="true"/>
 	</definition>
 
+	<definition name="minister/list" extends="default-two-col">
+		<put-attribute name="menu-content" value="/WEB-INF/views/minister/left-nav.jspx" cascade="true"/>
+		<put-attribute name="body-content" value="/WEB-INF/views/minister/list.jspx" cascade="true"/>
+	</definition>
+
 </tiles-definitions>

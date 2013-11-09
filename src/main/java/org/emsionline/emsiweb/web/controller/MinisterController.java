@@ -1,15 +1,20 @@
 package org.emsionline.emsiweb.web.controller;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.HashSet;
 import java.util.List;
+import java.util.Set;
 
 import javax.servlet.http.HttpSession;
 
 import org.emsionline.emsiweb.domain.minister.Minister;
 import org.emsionline.emsiweb.domain.minister.MinisterDetail;
 import org.emsionline.emsiweb.domain.minister.MinisterDetailKey;
-import org.emsionline.emsiweb.domain.minister.MinisterForm;
+import org.emsionline.emsiweb.domain.minister.MinisterDetailPK;
 import org.emsionline.emsiweb.service.minister.MinisterService;
+import org.emsionline.emsiweb.web.controller.helper.MinisterForm;
+import org.emsionline.emsiweb.web.controller.helper.MinisterListItem;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -78,6 +83,33 @@ public class MinisterController {
 	}
 	
 	
+	@RequestMapping("/minister/addnew")
+	public String addnew(
+			@ModelAttribute("minister") MinisterForm minister
+			, Model model
+			) {
+		minister.clear();
+		minister.setId(0);
+		model.addAttribute("saveAction", "create");
+		return "minister/detail";
+	}
+	
+	
+	@RequestMapping("/minister/create/{id}")
+	public String create(
+			@PathVariable Integer id // we ignore this parameter.  kept here to keep jspx the same.
+			, @ModelAttribute("minister") MinisterForm form
+			, Model model
+			) {
+		
+		Minister entity = new Minister();
+		createEntityFromForm(entity, form);
+		entity = ministerService.save(entity);
+		
+		return "redirect:/minister/readonly/"+entity.getMinisterId();
+	}
+	
+	
 	@RequestMapping("/minister/readonly/{id}")
 	public String readonly(
 			@PathVariable Integer id
@@ -90,6 +122,18 @@ public class MinisterController {
 		model.addAttribute("saveAction", "none");
 		
 		return "minister/detail";
+	}
+	
+	
+	@RequestMapping("/ministers")
+	public String list(Model model) {
+		List<Minister> ministers = ministerService.findAllMinisters();
+		List<MinisterListItem> ministerList = new ArrayList<MinisterListItem>();
+		for (Minister m : ministers) {
+			ministerList.add(new MinisterListItem(m));
+		}
+		model.addAttribute("ministerList", ministerList);
+		return "minister/list";
 	}
 	
 	
@@ -129,5 +173,33 @@ public class MinisterController {
 			detail.setLastModDate(now);
 			detail.setLastModBy(getUserId());
 		}
+	}
+	
+	
+	// entity is brand new
+	private void createEntityFromForm(Minister entity, MinisterForm form) {
+		Date now = new Date(System.currentTimeMillis());
+		String userId = getUserId();
+		Integer ministerId = ministerService.getNextMinisterId();
+		
+		entity.setMinisterId(ministerId);
+		entity.setEnabled(1);
+		
+		Set<MinisterDetail> ministerDetails = new HashSet<MinisterDetail>();
+		
+		for (String lang : form.getLanguages()) {
+			List<MinisterDetailKey> keys = getMinisterDetailKeys(null);
+			for (MinisterDetailKey key : keys) {
+				MinisterDetail detail = new MinisterDetail();
+				detail.setId(new MinisterDetailPK(ministerId, lang, key.getMinisterDetailKey()));
+				detail.setValue(form.getDetails().get(lang).get(key.getMinisterDetailKey()));
+				detail.setMinister(entity);
+				detail.setLastModDate(now);
+				detail.setLastModBy(userId);
+				ministerDetails.add(detail);
+			}
+		}
+		
+		entity.setMinisterDetails(ministerDetails);
 	}
 }

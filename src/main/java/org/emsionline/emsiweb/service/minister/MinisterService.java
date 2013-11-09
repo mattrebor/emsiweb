@@ -19,4 +19,6 @@ public interface MinisterService {
 	public List<MinisterDetailKey> findAllMinisterDetailKeys();
 	
 	public List<String> getLanguages();
+	
+	public Integer getNextMinisterId();
 }

@@ -7,11 +7,12 @@ import javax.persistence.Basic;
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.FetchType;
 import javax.persistence.Id;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import org.eclipse.persistence.annotations.BatchFetch;
+import org.eclipse.persistence.annotations.BatchFetchType;
 import org.eclipse.persistence.annotations.PrivateOwned;
 
 
@@ -38,7 +39,8 @@ public class Minister implements Serializable {
 	public void setEnabled(Integer enabled) { this.enabled = enabled; }
 	
 	// bi-directional one-to-many association to MinisterDetail
-	@OneToMany(cascade=CascadeType.ALL, mappedBy="minister", fetch=FetchType.EAGER)
+	@OneToMany(cascade=CascadeType.ALL, mappedBy="minister"/*, fetch=FetchType.EAGER*/)
+	@BatchFetch(BatchFetchType.IN)
 	@PrivateOwned
 	public Set<MinisterDetail> getMinisterDetails() { return ministerDetails; }
 	public void setMinisterDetails(Set<MinisterDetail> ministerDetails) { this.ministerDetails = ministerDetails; }

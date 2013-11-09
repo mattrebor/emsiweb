@@ -1,4 +1,4 @@
-package org.emsionline.emsiweb.domain.minister;
+package org.emsionline.emsiweb.web.controller.helper;
 
 import java.io.Serializable;
 import java.util.HashMap;
@@ -20,6 +20,13 @@ public class MinisterForm implements Serializable {
 	
 	public MinisterForm(List<String> languages) {
 		this.languages = languages;
+		for (String lang : languages) {
+			details.put(lang, new HashMap<String, String>());
+		}
+	}
+	
+	public void clear() {
+		details.clear();
 		for (String lang : languages) {
 			details.put(lang, new HashMap<String, String>());
 		}
