@@ -69,7 +69,611 @@ update church set address='Via Stresa, 3, 20125 Milan, Italy', latitude = 45.492
 update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prato, Italy', latitude = 43.88184649999999, longitude = 11.09375730 where church_path = 'prato';
 update church set address='Osaka, Osaka Prefecture, Japan', latitude = 34.69373780, longitude = 135.50216510 where church_path = 'osaka';
 
+---------------------update Brooklyn intro page
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>林森良 牧師 , (手機)917-361-6866</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>陳松曦 傳道, (手機)917-361-0823</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 4609 8th Avenue, Brooklyn, NY 11220, USA</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td>(手機)917-361-0823</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:chen_paul0620@yahoo.com">chen_paul0620@yahoo.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2009年 8月3日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+布路倫生命堂成立于2009年8月3日。生命堂總監督楊摩西牧師看見布路倫地區華人越來越多,因而開拓此間教會。
+</p>
+<p>
+目前除了每週崇拜聚會外，還有查經班。聚會時間如下：
+</p>
+<p>
+崇拜時間： 每週—下午5:30—6:45 P.M.
+</p>
+<p>
+查經禱告會: 每週—下午5:30—7:00 P.M.
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'brooklyn')
+	and locale = 'zh'
+	and page_id = 'intro';
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<b>Address: </b>4609 8th Avenue, Brooklyn, NY 11220, USA
+</p>
+<p>
+Pastor #: Rev. SenLiang Lin, (cell) 917-361-6866 </br>
+Evangelist #: Ev. Paul Cheng, (cell) 917-361-0823
+</p>
+<b>Directions:</b> 
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'brooklyn')
+	and locale = 'en'
+	and page_id = 'contactus';
 
+	
+update church_content set body = STRINGDECODE('<p>
+<b>地址: </b>4609 8th Avenue, Brooklyn, NY 11220, USA
+</p>
+<p>
+牧師: 林森良 牧師, (手機)917-361-6866 </br>
+傳道: 陳松曦 傳道, (手機)917-361-0823
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.map/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'brooklyn')
+	and locale = 'zh'
+	and page_id = 'contactus';
+	
+	
+------------end  brooklyn
+---------------------update queens pages
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td> Rev. SenLiang Lin, (C) 917-361-6866</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> 35-26 Union St. Flushing, NY 11354, USA</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> (C) 917-361-6866</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:ecmsiinqueens@gmail.com">ecmsiinqueens@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>May 10, 1985
+</p>
+<p>
+<img src="/emsi/images/church_queens.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />
+Since 1985, the CEC in Queens (official name, Evangelical Church Mission and Seminary International in Queens) had been led by 7 pastors in the past. At the present, Rev. Moses Lin is shepherding this church.
+</p>
+<p>
+
+It has been through numerous difficulties and it relocated many times. Yet, because of the unselfish participation, involvements, and joint efforts of the members, many unbelievers have come to the church. Members mostly come from Asian regions (Philippines, Taiwan, Indonesia, Malaysia, Hong Kong, and Mainland China …)
+</p>
+<p>
+
+Every Sunday morning, the church has Sunday Service, Children Sunday School, and Basic Doctrine Class. The church also hosts Sisters and Brothers Fellowship every other week. There is a Family Worship on Wednesdays, prayer meeting on Thursdays, and Mandarin Bible Studies every Friday.Consequently, special services are provided to celebrate various events.
+</p>
+<p>
+
+Praise the Lord that through Bible Studies, prayer meetings and different services, brothers and sisters are motivated to love and serve the Lord, and also to build a closer relationship within the spiritual family.
+</p>
+<p>
+
+Praise the Lord. He guided the CEC in Queens all the way. He strengthened brothers’ and sisters’ spiritual growth and we experienced God’s wonderful blessings. May God use us and we give all the glory to God!
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'queens')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師 :</td>
+			<td>林森良 牧師, (手機) 917-361-6866 </td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 35-26 Union St. Flushing, NY 11354, USA</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> (手機)917-361-6866</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: ecmsiinqueens@gmail.com"> ecmsiinqueens@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1985年 5月 10日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/images/church_queens.jpg" align=\"left\" height=\"255\" width=\"360\" />一九八四年秋，紐約市皇后區成立了一個閩南語查經班。當時每星期五晚上有一群弟兄姐妹聚集在一起唱詩、禱告、查經。隨著人數的增加，深深感到需要一位受過神學訓練的傳道人來帶領查經。
+</p>
+<p>
+一九八五年，查經班邀請到楊摩西牧師，這是第一位傳道人。不到一個月的時間，上帝又預備了謝天育牧師出來全時間帶領。這兩位牧師為教會找著一個固定的聚會場地。終於，在一九八五年五月十日，皇后區基督教生命堂正式成立，並舉行了首次主日崇拜。
+</p>
+<p>
+成立以來，主先後預備了幾位傳道人。一九八五至一九八九年黃世嘉牧師在此負責。一九八九至一九九三年，有黃宋來牧師、曾玉珊傳道及神學生林正仁，一九九四年至二OO八年，則有吳錫安牧師夫婦的同心牧養;自二OO八年至今, 林森良牧師在此負責。
+</p>
+<p>
+教會曾經歷多次的搬遷，也經歷過許多的困難，但每位弟兄姐妹都能同心合意地事奉主，帶領未信的人加入教會。隨著聖工的發展，皇后區生命堂也日益具有國際色彩，會友來自亞洲各地，有菲律賓、台灣、印尼、馬來西亞、香港和中國大陸等。
+</p>
+<p>
+教會現況：除了週日上午的主日崇拜外，還設有兒童主日學、詩班、姐妹團契、聖經分享、週三家庭禮拜、週四禱告會和監督楊摩西牧師所帶領的週五查經班。感謝神的恩典，藉著查經與禱告會，挑旺了眾弟兄姊妹的心，使更多的人願意出來服事主。我們除了每週的崇拜，另外，在各節慶日也都有特別的聚會；甚至夏天也經常舉行郊遊野餐、海邊釣魚、抓螃蟹等活動，使弟兄姐妹們不但能夠藉著敬拜來親近神，也能藉著各項活動使彼此間的關係更加親蜜。
+</p>
+<p>
+最後，讓我們再次獻上衷心的感謝；感謝主，一路帶領我們皇后區生命堂，不但使每位弟兄姊妹的身心靈能夠日益茁壯，更讓我們時常經歷神的恩典；願主使用我們每一個人，讓榮耀歸給主。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'queens')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Address: </b>35-26 Union St. Flushing, NY 11354, USA
+</p>
+<p>
+<b>Tel #: </b> (C) 917-361-6866
+</p>
+<p>
+<iframe scrolling=\"no\" marginWidth=\"0\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=35-26+Union+St.+Flushing,+NY+11354&amp;aq=&amp;sll=40.764656,-73.828315&amp;sspn=0.012043,0.01487&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=35-26+Union+St,+Queens,+New+York+11354&amp;t=m&amp;ll=40.764681,-73.828297&amp;spn=0.031204,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" height=\"480\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=35-26+Union+St.+Flushing,+NY+11354&amp;aq=&amp;sll=40.764656,-73.828315&amp;sspn=0.012043,0.01487&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=35-26+Union+St,+Queens,+New+York+11354&amp;t=m&amp;ll=40.764681,-73.828297&amp;spn=0.031204,0.054932&amp;z=14&amp;iwloc=A\" style=\"text-align: left; color: #0000ff\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'queens')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>地址: </b>35-26 Union St. Flushing, NY 11354, USA
+</p>
+<p>
+<b>電話:</b> (手機)917-361-6866
+</p>
+<p>
+<iframe scrolling=\"no\" marginWidth=\"0\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=35-26+Union+St.+Flushing,+NY+11354&amp;aq=&amp;sll=40.764656,-73.828315&amp;sspn=0.012043,0.01487&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=35-26+Union+St,+Queens,+New+York+11354&amp;t=m&amp;ll=40.764681,-73.828297&amp;spn=0.031204,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" height=\"480\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=35-26+Union+St.+Flushing,+NY+11354&amp;aq=&amp;sll=40.764656,-73.828315&amp;sspn=0.012043,0.01487&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=35-26+Union+St,+Queens,+New+York+11354&amp;t=m&amp;ll=40.764681,-73.828297&amp;spn=0.031204,0.054932&amp;z=14&amp;iwloc=A\" style=\"text-align: left; color: #0000ff\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'queens')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+------------end queens
+---------------------update murrayhill  pages
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Jing Huang</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>
+			725 Mountain Avenue, Berkeley Heights NJ 07922</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>917-488-8610</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:jhuang277@gmail.com">jhuang277@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>1984
+</p>
+<p>
+<img src="/emsi/files/murrayhill/murrayhill.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />Christian Evangelical Church in Murray Hill was established by the Christian Evangelical Mission in 1984 in New Jersey to serve the people working in the neighborhood factories and large companies. <br />
+In the early days, the Sunday Worship service was located in a Sunday School classroom of a Methodist Church on Diamond Hill Road in Murray Hill. Because it has limited space, it was difficult to develop ministry. Even so, there were still a number of faithful church members who continued and persistently prayed for the day to have a church and a spiritual home of their own.<br />
+On January 3, 2010, the Lord led us to move into a new church location at725 Mountain Avenue, Berkeley Heights, NJ 07922. We have a new beginning in the New Year. We believe this is the first step God is going to revive CEC Murray Hill. We cordially invite you to join with us to walk with our Lord, and to be in one accord with our Lord, to have our church revived by the Lord! 
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'murrayhill')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧 者:</td>
+			<td>黃靜 傳道 </td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">會 址:</td>
+			<td> 725 Mountain Avenue, Berkeley Heights, NJ 07922, USA</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td>917-488-8610</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: jhuang277@gmail.com"> jhuang277@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1984 年
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/murrayhill/murrayhill.jpg\" align=\"left\" height=\"255\" width=\"360\" />(一)1984年茉莉山生命堂成立</p>
+<p>
+茉莉山生命堂位於新澤西州的Berkeley Heights，在佈道會總部多華谷（Towaco）以南約30英里的地方，成立於1984年。當時Lucent 和 AT&T兩大公司在教會所在地附近，集聚了許多華人專業人士。因中國人甚多，總監督楊摩西牧師看到開展聖工的需要，於是在黃宇銘弟兄的協助下，找到了教會聚會的地方，成立了教會。
+</p>
+<p>
+(二)茉莉山生命堂現況
+</p>
+<p>
+教會二十八年來先後已由十餘位牧者傳道人牧養。早期傳道人因為沒有掌握「拓荒三寶」（即個人佈道、查經、講道）致使教會沒能很好地成長，及至姚亨利牧師回菲律賓以後，停止了聚會。教會同工因看到本教會聖工多年無進展，建議不如關閉，以免浪費財力人力。但佈道會總部考慮到當地中國人多，有福音的需要，於是決定將教會的福音工作繼續做下去。
+</p>
+<p>
+2012年八月派神學院的黃靜教授負責本教會的事工，重新拓荒。目前已看到略有起色。雖然聚會人數還很不穩定，但相信主必保守這個堅持真理的教會，使這教會成為周圍華人的祝福。
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'murrayhill')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Address: </b>725 Mountain Avenue, Berkeley Heights, NJ 07922, USA
+</p>
+<p>
+<b>Tel #:</b> 917-488-8610
+</p>
+<p>
+<iframe scrolling=\"no\" marginHeight=\"0\" marginWidth=\"0\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=725+Mountain+Ave,+Berkeley+Heights,+NJ+07922,+USA&amp;sll=40.498169,-74.428124&amp;sspn=0.009676,0.016801&amp;ie=UTF8&amp;hq=&amp;hnear=725+Mountain+Ave,+Berkeley+Heights,+Union,+New+Jersey+07922&amp;ll=40.6691,-74.439003&amp;spn=0.007812,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" height=\"480\" width=\"640\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=725+Mountain+Ave,+Berkeley+Heights,+NJ+07922,+USA&amp;sll=40.498169,-74.428124&amp;sspn=0.009676,0.016801&amp;ie=UTF8&amp;hq=&amp;hnear=725+Mountain+Ave,+Berkeley+Heights,+Union,+New+Jersey+07922&amp;ll=40.6691,-74.439003&amp;spn=0.007812,0.013733&amp;z=16&amp;iwloc=A\" style=\"text-align: left; color: #0000ff\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'murrayhill')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+歡迎聯絡我們，有關信仰的一切問題！
+</p>
+<b>地址: </b>725 Mountain Avenue, Berkeley Heights, NJ 07922, USA
+</p>
+<p>
+<b>電話:</b> 917-488-8610
+</p>
+<p>
+距離美東超市及梅山中文學校(Murray Hill Chinese School)開車約十分鐘
+</p>
+<p>
+<iframe scrolling=\"no\" marginHeight=\"0\" marginWidth=\"0\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=725+Mountain+Ave,+Berkeley+Heights,+NJ+07922,+USA&amp;sll=40.498169,-74.428124&amp;sspn=0.009676,0.016801&amp;ie=UTF8&amp;hq=&amp;hnear=725+Mountain+Ave,+Berkeley+Heights,+Union,+New+Jersey+07922&amp;ll=40.6691,-74.439003&amp;spn=0.007812,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" height=\"480\" width=\"640\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=725+Mountain+Ave,+Berkeley+Heights,+NJ+07922,+USA&amp;sll=40.498169,-74.428124&amp;sspn=0.009676,0.016801&amp;ie=UTF8&amp;hq=&amp;hnear=725+Mountain+Ave,+Berkeley+Heights,+Union,+New+Jersey+07922&amp;ll=40.6691,-74.439003&amp;spn=0.007812,0.013733&amp;z=16&amp;iwloc=A\" style=\"text-align: left; color: #0000ff\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'murrayhill')
+	and locale = 'zh'
+	and page_id = 'contactus';
+	
+	
+-------------end  murrayhill
+
+------------- Highland park
+
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Andrew Wong, (C) 732-910-7431</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> 23 South 2nd Ave. Highland Park, NJ 08904</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>732-750-0897</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:cemhpnj@gmail.com">cemhpnj@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>1978
+</p>
+<p>
+<img src="/emsi/files/highlandpark.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />About a decade ago, a group of devoted members initiated the Zion Fellowship in order to cultivate spiritual growth and carry out evangelical missions. The fellowship takes turns meeting at the homes of our brothers and sisters. The hosts are hardworking and more than willing to open their houses as their sacrifice to the Lord. They never complained about overtime and their efforts in serving God. Furthermore, they invited neighbors and friends to the fellowship meetings. Some people don’t like to come to the church, but like to come to our fellowship gatherings. The meetings inspire them. Some newcomers accepted Jesus Christ as their personal Savior and later, participated actively in serving the Lord to glorify God’s name. 
+In the earlier days, our restaurant Bible-study meetings were attended by two large families and held, in turn, at their homes. Recently, the senior of another large family accepted Jesus Christ as the Lord and led her brother and sister-in-law to be Christians. Now we have three large families attending our restaurant Bible-study meetings. The relatives and friends of those family members also attend often. We can see a growing number of attendants coming to the weekly meetings. Whenever we have a pot-luck lunch, the brothers and sisters of the restaurant Bible-study group are always willing to prepare food for us. I would like to give special thanks to a grandma, who brings home-made cakes and snacks every week to the church for us to share. 
+Praise the Lord! In recent years, CEMC in Highland Park realized the need of our new generation and they established an English worship service for the youth group. During special occasions, we hold English and Chinese combined service so that all groups gather to worship the Lord and share our joy in Christ. Our Sunday school is also under the loving care of the Lord. The devoted teachers train our children to know Jesus Christ ever since they learned to talk. With more and more people involving themselves in our choir, it has become another pride that we take in glorifying God’s name.
+Apostle Paul thanked God upon every remembrance of the church at Philippi. Why did he thank God? There were a lot of occurrences at Philippi for Paul to be thankful. Likewise, upon every remembrance of CEM in Highland Park, I am thankful. I was extremely inspired by a few recently baptized new believers and their Christian pilgrimage of faith.
+First of all, I would like to share the story of Uncle Jung. A sister Evelyn from our church met Uncle Jung when they were walking leisurely in their own community. She brought him to the church and thus opened the opportunity for him to listen to the Gospel. He then accepted Jesus Christ as the Lord. Uncle Jung had read a few Christian articles before. His heart was prepared and the seed of the Gospel was able to take root and grow promptly in his heart. Praise the Lord for His wonderful work!
+Sister Chen is a senior. She was also brought to our church by senior sister Lee. As soon as she had the opportunity to hear the Gospel, she opened her heart and accepted Jesus Christ as her personal savior. It is amazing that she turned out to have such a craving for God’s Word. She actively participates in Bible studies and has experienced unremitting spiritual growth. Sister Chen is from mainland China and she was not able to listen to the Gospel there freely. Her background of being raised in a traditionally large family also resulted in huge burdens and responsibilities. Now that she is in America, her hunger and thirst for the truth can be satisfied without restraint. Praise the Lord!
+Last but not least, is our sister Lim. She has been attending worship services for many years. However, she had been experiencing inner struggles which kept putting off her commitment to God. Surprisingly, she showed her dedication in front of all her relatives and friends by choosing to be baptized on Christmas. There are a lot of problems that we can not resolve by ourselves. We should come humbly before God and accept the Lord as our personal Savior. This is the one and only choice for us because Christ is the only way (John 14:6).
+We are thankful that CEMC in Highland Park is blessed. Just like the verses in the hymn, ‘Higher Ground’: 
+“I’m pressing on the upward way, new heights I’m gaining everyday; still praying as I’m onward bound, ‘Lord, plant my feet on higher ground.’ Lord lift me up and let me stand. By faith on heaven’s tableland, A higher plane than I have found: Lord, plant my feet on higher ground.”</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'highlandpark')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師 :</td>
+			<td>黃宋來 牧師, (手機)732-910-7431 </td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 23 South 2nd Ave. Highland Park, NJ 08904, USA</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td>732-750-0897</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: cemhpnj@gmail.com"> cemhpnj@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1978 年
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/highlandpark.jpg" align=\"left\" height=\"255\" width=\"360\" />高原地生命堂的成立，是源於高原地的餐館查經班。當時一位姐妹搬至高原地，有感於家中開餐館不能正常參加主日崇拜，而感到非常難過。就在她最困惑的時候，上帝差遣了楊摩西牧師。幾經商討，他們討論出一個兩全其美的辦法──於每個禮拜一晚十二時以後聚會，使禮拜日忙碌的人，也有機會親近主、讚美主、感謝主。「只要大家方便，我無所謂，隨時都可以來！」楊牧師堅定地說。
+</p>
+<p>
+從此以後，每當聚會的時間，楊牧師總是不辭勞苦地來到查經班，把主的教導和信息告訴大家。離開的時候，往往都是深夜兩點多了。這樣的情況一直到一九七七年，終於開始了正式的主日崇拜聚會。
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'highlandpark')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Address: </b>23 South 2nd Ave. Highland Park, NJ 08904, USA
+</p>
+<p>
+<b>Tel #:</b> 732-750-0897, (C) 732-910-7431
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=23+South+2nd+Ave.,+Highland+Park,+NJ+08904+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=23+S+2nd+Ave,+Highland+Park,+Middlesex,+New+Jersey+08904&amp;ll=40.497908,-74.429541&amp;spn=0.007832,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=23+South+2nd+Ave.,+Highland+Park,+NJ+08904+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=23+S+2nd+Ave,+Highland+Park,+Middlesex,+New+Jersey+08904&amp;ll=40.497908,-74.429541&amp;spn=0.007832,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'highlandpark')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>地址: </b>23 South 2nd Ave. Highland Park, NJ 08904, USA
+</p>
+<p>
+<b>電話:</b> 732-750-0897, (手機)732-910-7431
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=23+South+2nd+Ave.,+Highland+Park,+NJ+08904+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=23+S+2nd+Ave,+Highland+Park,+Middlesex,+New+Jersey+08904&amp;ll=40.497908,-74.429541&amp;spn=0.007832,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=23+South+2nd+Ave.,+Highland+Park,+NJ+08904+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=23+S+2nd+Ave,+Highland+Park,+Middlesex,+New+Jersey+08904&amp;ll=40.497908,-74.429541&amp;spn=0.007832,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'highlandpark')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+	
+------------- end Highland park
+
+	
 -- update paris intro page
 update church_content set body = '<style>
 .contact-content {
@@ -231,6 +835,7 @@ where church_id = (select church_id from church where church_path = 'portoalto')
 and locale = 'zh'
 and key = 'menu_name';
 
+--------  Chinatown
 update church_content
 set body = 
 '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -246,19 +851,19 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Senior Pastor:</td>
-			<td>Rev. Moses Yang 973-335-7337, ext. 209</td>
+			<td>Rev. Moses Yang 973-335-7337, ext. 209, (C) 201-650-1923</td>
 		</tr>
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. SenLiang Lin 917-361-6866</td>
+			<td>Rev. SenLiang Lin (C) 917-361-6866</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Lingkin Lui 917-753-7787</td>
+			<td>Ev. Lingkin Lui (C) 917-753-7787</td>
 		</tr>
 		<tr>
-			<td class="label"><span style="color: rgb(0, 0, 0); font-family: Arial, helvetica, sans-serif; font-size: small; font-weight: bold; white-space: nowrap;">Evangelist:</span></td>
-			<td><span style="font-family: Helvetica, arial, freesans, clean, sans-serif; line-height: 22px; background-color: rgb(251, 251, 251);">Ev. YongSheng Zhang 973-393-7876</span></td>
+			<td class="label">Evangelist:</td>
+			<td>Ev. YongSheng Zhang, (C) 973-393-7876</td>
 		</tr>
 	</tbody>
 </table>
@@ -319,20 +924,20 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">監督:</td>
-			<td>楊摩西 牧師, (973) 335-7337 ext. 209</td>
+			<td class="label">主任牧師:</td>
+			<td>楊摩西 牧師, 973-335-7337 ext. 209, (手機)201-650-1923</td>
 		</tr>
 		<tr>
 			<td class="label">牧師:</td>
-			<td>林森良 牧師, (917) 361-6866</td>
+			<td>林森良 牧師,  (手機)917-361-6866</td>
 		</tr>
 		<tr>
 			<td class="label">傳道:</td>
-			<td>呂嶺乾 傳道, (917) 753-7787</td>
+			<td>呂嶺乾 傳道, (手機)917-753-7787</td>
 		</tr>
 		<tr>
-			<td class="label"><span style="color: rgb(0, 0, 0); font-family: Arial, helvetica, sans-serif, 新細明體; font-size: 14px; font-weight: bold; white-space: nowrap;">傳道:</span></td>
-			<td><span style="font-family: Helvetica, arial, freesans, clean, sans-serif; line-height: 22px; background-color: rgb(251, 251, 251);">張勇生 傳道, (973) 393-7876</span></td>
+			<td class="label">傳道:</td>
+			<td>張勇生 傳道, (手機)973-393-7876</td>
 		</tr>
 	</tbody>
 </table>
@@ -378,6 +983,7 @@ where church_id = (select church_id from church where church_path = 'chinatown')
 and locale = 'zh'
 and page_id = 'intro';
 
+------------  ends chinatown
 
 insert into church_content (CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(34, 'intro', 'en', 'CEC in Fuenlabrada - Brief History', '
 <style>
@@ -1162,6 +1768,170 @@ Thanks and praises to the Lord!  For the past 24 years, God\u2019s wondrous work
 	and locale = 'en'
 	and page_id = 'intro';
 
+---------------------update porto alto - portugal pages
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> 351-263-658-466/(cell)351-965-077-777 </td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td> 351-218-868-370</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsilisboa@hotmail.com">emsilisboa@hotmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>January 31, 2010
+</p>
+<p>
+<img src="/emsi/files/portoaltosmall_0.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />
+There was a question from a non christian friend as to with all the CEM churches around why was there not one for Porto Alto when Pastor Chen visited Porto Alto on December 30, 2009. There are over thousand Chinese in Porto Alto. On January 2nd, 2010, Pastor Chen and sister Chen Xiao Ping visited Porto Alto again. During that visit, Pastor Chen felt deeply the need to spread gospel in Porto Alto as there is a longing of brothers and sisters for God’s words. A few people told us they would attend church services in Lisbon, if they did not have to work on Sunday and that it would be wonderful to them if we would start a church in Porto Alto.
+</p>
+<p>
+That evening in the prayer meeting of CEC in Lisbon, Pastor Chen shared with everyone the need to spread Gospel in Porto Alto. Many were moved. One sister gave ten thousand dollars for Gospel work in Porto Alto. Another offered Bible, hymn books. Many brothers and sisters also offered to give to start a church there On January 3rd,after a coworkers’ meeting after the church service, it was decided that we will start the CEC in Porto Alto on January 31st.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'portoalto')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 3351-263-658-466/(手機) 351-965-077-777 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> 351-218-868-370 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsilisboa@hotmail.com"> emsilisboa@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2010年 1月30日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/portoaltosmall_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />2009年12月30日陳岳平牧師與一位社團的負責人去PORTO ALTO辦事，席間一位未信主的朋友告知PORTO ALTO已有1000左右的華人，這位朋友並建議我們在PORTO ALTO建立教會。神竟然讓一個未信主的人發出馬其頓的呼聲！
+</p>
+<p>
+在回里斯本的路上，陳牧師為PORTO ALTO 新工場禱告，尋求神的旨意。 2010年1月2日 陳牧師和陳小萍姐妹去PORTO ALTO實地考察探訪。在探訪的過程中，深深的感受到當地福音的需要及當地弟兄姐妹的渴慕。
+</p>
+<p>
+2010年2日的晚上在里斯本生命堂禱告會中，陳牧師把PORTO ALTO福音的需要告訴大家。禱告會後有個姐妹奉獻一萬歐元作為PORTO ALTO新福音工場的啟動基金; 另一位姐妹願意奉獻聖經、聖詩; 也有很多弟兄姊妹願為PORTO ALTO作開堂奉獻。
+</p>
+<p>
+2010年1月3日禮拜天崇拜之後同工會議，決定在2010年1月31日禮拜天正式成立播道歐多基督教生命堂。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'portoalto')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Address: </b>Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal
+</p>
+<p>
+<b>Tel #: </b> 351-263-658-466/(cell)351-965-077-777
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'portoalto')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>地址: </b>Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal
+</p>
+<p>
+<b>電話:</b> 3351-263-658-466/(手機) 351-965-077-777 
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'portoalto')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+----------------- porto alto
+
+	
+---------------------update lisbon  pages
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -1177,11 +1947,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. Chung-Chia Li (Jacob Li)</td>
-		</tr>
-		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Jing Huang</td>
+			<td>Rev. Yue Ping Chen, (cell) 351-963-333-777</td>
 		</tr>
 	</tbody>
 </table>
@@ -1191,18 +1957,22 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>
-			725 Mountain Avenue, Berkeley Heights NJ 07922</td>
+			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>862-207-1705</td>
+			<td> (cell) 351-963-333-777</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td> 351-218-868-370</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:jacobli0407@gmail.com">jacobli0407@gmail.com</a><br />
+			<td><a href="mailto:emsilisboa@hotmail.com">emsilisboa@hotmail.com</a><br />
 			</td>
 		</tr>
 	</tbody>
@@ -1213,19 +1983,305 @@ p span.label {font-weight: bold;}
 </div>
 <div class="main-content">
 <p>
-<span class="label">Established Date: </span>1984
+<span class="label">Established Date: </span>October 21, 1999
 </p>
 <p>
-<img src="/emsi/files/murrayhill/murrayhill.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />Christian Evangelical Church in Murray Hill was established by the Christian Evangelical Mission in 1984 in New Jersey to serve the people working in the neighborhood factories and large companies. <br />
-In the early days, the Sunday Worship service was located in a Sunday School classroom of a Methodist Church on Diamond Hill Road in Murray Hill. Because it has limited space, it was difficult to develop ministry. Even so, there were still a number of faithful church members who continued and persistently prayed for the day to have a church and a spiritual home of their own.<br />
-On January 3, 2010, the Lord led us to move into a new church location at725 Mountain Avenue, Berkeley Heights, NJ 07922. We have a new beginning in the New Year. We believe this is the first step God is going to revive CEC Murray Hill. We cordially invite you to join with us to walk with our Lord, and to be in one accord with our Lord, to have our church revived by the Lord! 
+<img src="/emsi/files/6%20-%20001448bsmall_0.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />The Portuguese church, CEC in Lisbon, was founded on October 21, 1999 by Rev. Moses Yang.
+</p>
+<p>
+In July, 1999 Evangelist Yueing Chen was serving in Valencia, Spain. He received acall from his sister Xiao Li Chen. She told him that Lisbon urgently needed the Gospel. After many prayers and discussions with the CEM headquarters in North America, brothers from CEM in the United States and him went to visit the Christians in Lisbon and have an appreciation the need of the gospel there.Evangelist Chen was then transferred to Lisbon in September for starting a church/ministry there with the support of CEC Europe. There were a number of loving Christian families participated in the ministry. A sister in Lord then offered 
+her restaurant as a meeting place. On October 3rd, 1999, the first worship service was held. Later on October 21st, Rev. Yang and Rev. Chi went to formally establish the CEC in Lisbon, followed by visitation of Rev. and Mrs. Chan on November 14th to initiate the first co-workers meeting. On December 5th, Sunday Worship was moved to the rented church in Lisbon.
 </p>
 </div>
-'	where church_id = (select church_id from church where church_path = 'murrayhill')
+'	where church_id = (select church_id from church where church_path = 'lisbon')
 	and locale = 'en'
 	and page_id = 'intro';
 
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">會牧:</td>
+			<td>陳岳平 牧師</td>
+		</tr>
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>陳岳平 牧師, (手機) 351-963-333-777</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> (手機) 351-963-333-777 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> 351-218-868-370 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsilisboa@hotmail.com"> emsilisboa@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1999年 10月21日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/6%20-%20001448bsmall_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />一九九九年七月正在西班牙瓦倫西亞生命堂牧會的陳岳平傳道接到他的胞妹陳小麗電話，得悉在里斯本 的福音迫切需要，經禱告和與北美總會磋商後，隨即帶同在由美國去西班牙短宣的弟兄前往葡萄牙里斯本探望信徒。經過多方面去了解真相和考察，確知按真理的原則，實在有必要在該市成立生命堂，以幫助信徒傳揚纯正的真道。回到瓦倫西亞後，陳傳道向總會提出報告，並在九月得總會調派葡萄牙，負責葡萄牙福音佈道會開拓的工作。歐洲福音佈道會亦願意支持陳傳道在該市開展福音事工。剛起步便有幾個愛主的家庭參與一起事奉，他們是阮高華、季建峰、潘光亮、陳小萍及陳玲香等。佈道會得這幾個熱心的家庭同心一起事奉，很快便籌劃開始聚會。陳小萍姐妹願意借出她的餐館「宏發酒家」作崇拜之用；同年十月三日開始了第一次的崇拜，十月廿一日楊摩西牧師和戚厚生牧師來里斯本正式成立生命堂；十一月十四日陳啟猷牧師及師母亦前來探望，並按立第一屆的同工；十二月五日主日崇拜遷到租用的葡萄牙教堂舉行。
+</p>
 
+</div>
+')	where church_id = (select church_id from church where church_path = 'lisbon')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Pastor: </b>Rev. Yue Ping Chen, (cell) 351-963-333-777
+</p>
+<p>
+<b>Address: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+</p>
+<p>
+<b>Tel #: </b>(cell) 351-963-333-777
+</p>
+<p>
+<b>Fax #: </b>351-218-868-370
+</p>
+<p>
+<b>Email: </b>emsilisboa@hotmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'lisbon')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>牧師:</b> 陳岳平 牧師,(手機) 351-963-333-777
+</p>
+<p>
+<b>地址: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+</p>
+<p>
+<b>電話:</b> (手機) 351-963-333-777
+</p>
+<p>
+<b>傳真: </b>351-218-868-370
+</p>
+<p>
+<b>電郵: </b>emsilisboa@hotmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'lisbon')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+----------------- end Lisbon
+
+	
+	
+	
+	
+---------------------update porto  pages
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> Rua Chã n°117, 4 Andar - Porto, Portugal</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> (cell) 351-965-333-777 </td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td> 351-218-868-370</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsiporto@hotmail.com">emsiporto@hotmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>January 22, 2002
+</p>
+<p>
+<img src="/emsi/files/porto68small_0.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />
+CEC in Lisbon co-workers usually reciprocates CEC Holland Churches generosity. During the 2nd year anniversary, CEC Lisbon decided to do a Missionary trip in Porto, following CEC Holland’s footsteps. So during Christmas 2001, Evangelist Chan and co-workers went to Porto to visit Chinese Christians and Chinese non-believers and invited them to attend the first worship service. There was an enthusiastic response, the co-workers decided to continue this worship service.
+CEC Headquarters in North America upon hearing this good news immediately sent group of 
+missionaries to Porto to spread the Gospel in a revival meeting in January, 2002. The North American Short Missionary Group with Pastor Moses Yang witnessed the establishment of the CEC in Porto on January 22nd, 2002.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'porto')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Rua Chã n°117, 4 Andar - Porto, Portugal</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td>  (手機) 351-965-333-777 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> 351-218-868-370 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsiporto@hotmail.com"> emsiporto@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2002年1月22日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/porto68small_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />里斯本生命堂同工們一向願意回饋荷蘭各生命堂對他們的愛心，因此他們成立兩周年之際，決定組隊前往波爾圖宣教，以效法荷蘭的榜樣。
+</p>
+<p>
+二○○一年的聖誕，陳傳道領了一隊同工前往波爾圖，探訪信徒及未信的華人，邀請他們參加第一次的聚會；反應十分熱烈，使同工們不得不計劃接下來的聚會。
+</p>
+<p>
+北美總會欣聞此喜訊，亦立時組隊於二○○二年一月前往該地佈道。一月廿二日在北美短宣隊和楊牧師共證下，波爾圖生命堂便正式成立了。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'porto')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Address: </b>Rua Chã n°117, 4 Andar - Porto, Portugal
+</p>
+<p>
+<b>Tel #: </b> (cell) 351-965-333-777
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Ch%C3%A3+117,+4+Andar+-+Porto,+Portugal&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Ch%C3%A3+117,+Porto,+Portugal&amp;gl=us&amp;t=m&amp;z=14&amp;ll=41.144229,-8.609701&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Rua+Ch%C3%A3+117,+4+Andar+-+Porto,+Portugal&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Ch%C3%A3+117,+Porto,+Portugal&amp;gl=us&amp;t=m&amp;z=14&amp;ll=41.144229,-8.609701&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'porto')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>地址: </b>Rua Chã n°117, 4 Andar - Porto, Portugal
+</p>
+<p>
+<b>電話:</b>  (手機) 351-965-333-777 
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Ch%C3%A3+117,+4+Andar+-+Porto,+Portugal&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Ch%C3%A3+117,+Porto,+Portugal&amp;gl=us&amp;t=m&amp;z=14&amp;ll=41.144229,-8.609701&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Rua+Ch%C3%A3+117,+4+Andar+-+Porto,+Portugal&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Ch%C3%A3+117,+Porto,+Portugal&amp;gl=us&amp;t=m&amp;z=14&amp;ll=41.144229,-8.609701&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'porto')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+----------------- end porto
+
+	
+	
+	
+	
 update church_content set body = STRINGDECODE('<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -1384,7 +2440,75 @@ On December 26, 2005 God wonderfully helped us buy our current church premises a
 	and locale = 'en'
 	and page_id = 'intro';
 
-
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>鍾志勳 牧師</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>朱洪順 傳道</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>朱吳嘉敏 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Marokkodreef 3, 3564 EV, Utrecht, The Netherlands  </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td>0031-30-261-6167 / 0031-65-065-2284</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:emsiutrecht@gmail.com\">emsiutrecht@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1981年 10月24日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/utrechtsmall.jpg\" align=\"left\" height=\"255\" width=\"360\" />一九七八年八月的一個週六早上，為跟進幾位來自烏特勒地區在剛過的青年福音營信主的年輕人，陳啟猷牧師駕駛福音車「天程」號到該市火車站的一個停車場，開始第一次的青年團契聚會。很感謝主，這次聚會後，父神隨即在附近的Onder Marieplaats 22 ,一間教會的副堂為他們預備了團契聚會的地方。</p>
+<p>
+主祝福這小群的年輕人，經過三年左右的團契生活，不但靈命大有成長，更擁有一顆熱愛傳福音的心，参加的人數也大有增長。在一九八一年夏天，我們覓得位於1e Atjestraat 18 的一棟兩層樓宇作為教會。同年十月廿四日舉行獻堂禮，也就是荷蘭第三間生命堂的開始了！</p>
+<p>
+有了會址立刻開始中文學校事工接觸橋胞及發展不同類型團契,信主人數漸增地方已經不夠應用,於1989年11月12日 上帝又為我們預備租用一間荷蘭人教會Krommerijn 1 Utrecht 作崇拜及主日學之用,其如小組活動仍保持在舊會址。直至2003年12月底因西人教會己出賣,本堂急需另尋地方聚會。</p>
+<p>
+2004年-2005年的12月19日差不多兩年的時間租用一所中學College Blaukapel 在Winklierlaan 373 Utrecht 舉行崇拜及主日學。
+<p>
+在2005年12月26日 上帝奇妙的成就為我們購得現今的會址 Marokkodreef 3 Utrecht 繼續發展福音事工,使更多人歸向真神。</p></div>
+')	where church_id = (select church_id from church where church_path = 'utrecht')
+	and locale = 'zh'
+	and page_id = 'intro';
+	
+	
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -1578,15 +2702,177 @@ p span.label {font-weight: bold;}
 	and locale = 'en'
 	and page_id = 'intro';
 
+----------- Towaco pages
+update church_content set body = STRINGDECODE('<p>
+<b>地址: </b>36 Alpine Road, Towaco, NJ 07082, USA 
+</p>
+<p>
+<b>電話:</b>\u00a0 973-331-0545 | 973-331-0546 
+</p>
+<p>
+<b>電郵:\u00a0<span style="color: #0062a0"><u>cemc.towaco@gmail.com</u></span>\u00a0</b> 
+</p>
+<b>\u00a0 
+<table cellpadding="0" cellspacing="0" border="1" style="border-collapse: collapse; border: medium none" class="MsoTableGrid">
+	<tbody>
+		<tr>
+			<td style="padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border: 1pt solid windowtext" valign="top" width="139"><span lang="EN-US"><o:p><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">\u00a0</span></o:p></span></td>
+			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">辦公室電話分機</span></span> 
+			</p>
+			</td>
+			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">手機</span></span> 
+			</p>
+			</td>
+			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: 新細明體,''Times New Roman''; color: #000000">電子郵件</span></span> 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family:,新細明體 ''Times New Roman''; color: #000000">楊摩西牧師</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 209</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">201-650-1923</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><a href="mailto:emsimoses@optonline.net"><span style="font-size: small; font-family: ''Times New Roman''">bishop_mosesyang@yahoo.com</span></a></span> 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">楊陳愛玫師母</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 208</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-919-6456</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><a href="mailto:roseayang@gmail.com"><span style="font-size: small; font-family: ''Times New Roman''">roseayang@gmail.com</span></a></span> 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">吳錫安牧師</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 202</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-768-5805</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><a href="mailto:hoseachi@hotmail.com"><span style="font-size: small; font-family: ''Times New Roman''">zionwu@hotmail.com</span></a></span> 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: 新細明體,''Times New Roman''; color: #000000">吳周麗華師母</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 200</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-941-1873</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><a href="mailto:jalin7@hotmail.com"><span style="font-size: small; font-family: ''Times New Roman''">wujudy2008@gmail.com</span></a></span> 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">錢舜傳道</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 233</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">201-993-3043</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">pattym33@juno.com</span></span></span> 
+			</p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</b>
+<hr />
+<b>路線:</b> 
+<p>
+<iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=36+Alpine+Road,+Towaco,+NJ+07082&amp;sll=40.794806,-74.34828&amp;sspn=0.0109,0.019698&amp;ie=UTF8&amp;hq=&amp;hnear=36+Alpine+Rd,+Towaco,+Morris,+New+Jersey+07082&amp;ll=40.930829,-74.318218&amp;spn=0.031126,0.054932&amp;z=14&amp;output=embed" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" height="480" width="640"></iframe><br />
+<small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=36+Alpine+Road,+Towaco,+NJ+07082&amp;sll=40.794806,-74.34828&amp;sspn=0.0109,0.019698&amp;ie=UTF8&amp;hq=&amp;hnear=36+Alpine+Rd,+Towaco,+Morris,+New+Jersey+07082&amp;ll=40.930829,-74.318218&amp;spn=0.031126,0.054932&amp;z=14" style="text-align: left; color: #0000ff">View Larger Map</a></small> <b><i>By car</i> </b>
+</p>
+<ol>
+	<li><u>由紐約市出發<br />
+	</u>取道 Rt.80(W) 到 53 號出口，依循 Rt. 23(N) 進入 Lincoln Park，再走 Rt. 202(S)  <br />
+	向左轉上 Rose Court 直走上坡至底。</li>
+	<li><u>由新澤西南部出發<br />
+	</u>取道Rt. 287(N) 到47 號出口，接 Rt. 202(N)，在第三個紅綠燈向右轉，下一個紅 綠燈向左轉走 Rt. 202(N)，<br />
+	 看到 Delta加油站時，注意在下一條街右轉上 Rose Court 直走上坡到底。 <br />
+	</li>
+</ol>
+')	where church_id = (select church_id from church where church_path = 'towaco')
+	and locale = 'en'
+	and page_id = 'contactus';
 
 update church_content set body = STRINGDECODE('<p>
-<b>Address: </b>36 Alpine Road, Towaco, NJ 07082 
+<b>Address: </b>36 Alpine Road, Towaco, NJ 07082, USA 
 </p>
 <p>
-<b>Phone #:</b>\u00a0 973-331-0545 | 973-331-0546 
+<b>Tel #:</b>\u00a0 973-331-0545 | 973-331-0546 
 </p>
 <p>
-<b>E-mail:\u00a0<span style="color: #0062a0"><u>cemc.towaco@gmail.com</u></span>\u00a0</b> 
+<b>Email:\u00a0<span style="color: #0062a0"><u>cemc.towaco@gmail.com</u></span>\u00a0</b> 
 </p>
 <b>\u00a0 
 <table cellpadding="0" cellspacing="0" border="1" style="border-collapse: collapse; border: medium none" class="MsoTableGrid">
@@ -1733,15 +3019,15 @@ update church_content set body = STRINGDECODE('<p>
 	</u>Take Rt. 80(W) till Exit 53, follow Rt. 23(N) to Lincoln Park, proceed on Rt. 202(S).\u00a0 <br />
 	Make a left turn onto Rose Court, keep straight on to the end of the road. </li>
 	<li><u>From South NJ<br />
-	</u>Take Rt. 287(N) till Exit 47. At the end of the ramp turn left onto Rt. 202 North.<br />
-	Make a right turn at the 3rd traffic light (Firehouse Rd), then a left turn at the next traffic light. <br />
-	Make a right turn\u00a0past the\u00a0Gulf Gas Station onto Rose Court, and proceed on to the end of the road</li>
+	</u>Take Rt. 287(N) till Exit 47. get into Rt. 202(N).<br />
+	Make a right turn at the 3rd traffic light, then a left turn at the next traffic light. <br />
+	Make a right turn\u00a0past the\u00a0Delta Gas Station onto Rose Court, and proceed on to the end of the road</li>
 </ol>
 ')	where church_id = (select church_id from church where church_path = 'towaco')
 	and locale = 'en'
 	and page_id = 'contactus';
-
-
+		
+-----------------  end Towaco
 
 update church_content set body = '<table width="500px">
 <tr>
@@ -1757,3 +3043,98 @@ update church_content set body = '<table width="500px">
 	and locale = 'en'
 	and page_id = 'schedule';
 
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(39, 'schedule', 'en', 'CEC in Paris - Church Services Schedule', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Worship Service</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">3:15 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Prayer Meeting</td>
+			<td style="padding: 0px 10px 0px 10px">1<sup>st</sup> Sunday of the month</td>
+			<td style="padding: 0px 10px 0px 10px">5:45 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Youth Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">5:45 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Jabez Fellowship*</td>
+			<td style="padding: 0px 10px 0px 10px">Tuesday</td>
+			<td style="padding: 0px 10px 0px 10px">3:30 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Joy Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
+			<td style="padding: 0px 10px 0px 10px">3:30 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Chinese Bible Study</td>
+			<td style="padding: 0px 10px 0px 10px">Friday</td>
+			<td style="padding: 0px 10px 0px 10px">7:30 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Teenage Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">Saturday</td>
+			<td style="padding: 0px 10px 0px 10px">2:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+* Jabez fellowship is held at the restaurant "Fu Yuan Feng" at 22 rue de Trévisse, 7509 Paris.
+'));
+
+	
+update PUBLIC.CHURCH_CONTENT
+set body = '
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">主日崇拜</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:15</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">禱告會</td>
+			<td style="padding: 0px 10px 0px 10px">每月第一個星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 5:45</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">青年團契</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 5:45</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">雅比斯 團契 *</td>
+			<td style="padding: 0px 10px 0px 10px">星期二</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:30</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">喜樂團契</td>
+			<td style="padding: 0px 10px 0px 10px">星期三</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:30</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">中文查經</td>
+			<td style="padding: 0px 10px 0px 10px">星期五</td>
+			<td style="padding: 0px 10px 0px 10px">晚 7:30</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">少年團契</td>
+			<td style="padding: 0px 10px 0px 10px">星期六</td>
+			<td style="padding: 0px 10px 0px 10px">下午 2:00</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+* 雅比斯 團契聚會地址: Fu Yuan Feng福源豐餐館, 巴黎九區22 rue de Trévisse, 7509 Paris, 地鐵7 號線Cadet 站. 
+'
+where church_id = 39
+and page_id = 'schedule'
+and locale = 'zh';
