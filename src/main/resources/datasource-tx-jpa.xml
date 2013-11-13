@@ -33,6 +33,9 @@
 		
 		<jdbc:script location="classpath:schema-orderform.sql"/>
 		<jdbc:script location="classpath:orderform-content.sql"/>
+		
+		<jdbc:script location="classpath:schema-ebi-courses.sql"/>
+		<jdbc:script location="classpath:ebi-courses-content.sql" encoding="UTF-8"/>
 	</jdbc:embedded-database>
 	 
 	<bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
