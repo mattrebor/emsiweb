@@ -71,7 +71,7 @@
 				<li class="first"><a href="${homeUrl}">${labelHome}</a></li>
 				<li><a href="${contactUsUrl}">${labelContactus}</a></li>
 				<!--<li><a href="#">${labelSitemap}</a></li>-->
-				<li><a href="${donateUrl}">${labelDonate}</a></li>
+				<!--<li><a href="${donateUrl}">${labelDonate}</a></li>-->
 				<c:choose>
 					<c:when test="${userLocale eq 'zh'}">
 						<li><a id="change-lang-en" href="#">${labelEn}</a></li>
