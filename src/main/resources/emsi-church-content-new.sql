@@ -3138,3 +3138,77 @@ set body = '
 where church_id = 39
 and page_id = 'schedule'
 and locale = 'zh';
+
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Stephen Lim 973-335-7337, ext. 204</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Eunice Lim 973-335-7337, ext. 203</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>
+			71 Old Road, Livingston, N. J. 07039</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>973-994-0079</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td>973-335-0535</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:ceclinfo@gmail.com">ceclinfo@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>1974
+</p>
+<p>
+<a href="/emsi/gallery/?g2_itemId=119"><img src="/emsi/images/church_livingston.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /></a>
+</p>
+<p>
+The CEC in Livingston (former name: CEC in West Orange) is the first CEC in New Jersey.  Because of the requests of some Chinese Christian families who lived in New Jersey, the preparations for the establishement of the CEC in West Orange were underway in 1973.  During that time, Rev. Moses Yang had a car accident and was hurt.  From this, he thought to himself that this would not be God''s will to establish the West Orange Church.  So he knelt and prayed to the Lord for clear direction.  The Lord revealed to Rev. Yang a Bible verse from Psalm 66:12, &quot;Thou hast caused men to ride over our heads; we went through fire and through water; but thou broughtest us out into a wealthy place&quot;.  This verse clearly revealed God''s will to Rev. Yang.  With great faith, the church was established in early 1974. 
+</p>
+<p>
+The church has a diverse congregational mix.  Its members are overseas Chinese from the Philippines, Taiwan, China, Hong Kong, Indonesia, &amp; Malaysia; Caucasians; American-born Chinese; and Filipinos. The languages used in the Sunday Worship Service are English and Mandarin.  The ministries consist of prayer meeting, Bible study groups,  youth group, young professional group, Sunday School classes, and Choir. 
+</p>
+<p>
+The church bought a church property in April, 2006 in Livingston and had its dedication on June 3, 2006. <b></b> 
+</p>
+</div>
+' where church_id = (select church_id from church where church_path = 'livingston')
+	and locale = 'en'
+	and page_id = 'intro';
