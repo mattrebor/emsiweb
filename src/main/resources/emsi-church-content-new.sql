@@ -2703,6 +2703,86 @@ p span.label {font-weight: bold;}
 	and page_id = 'intro';
 
 ----------- Towaco pages
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Senior Pastor:</td>
+			<td>Rev. Moses Yang, 973-331-0545 ext. 209, (C) 201-650-1923</td>
+		</tr>
+		<tr>
+			<td class="label">Associate Pastor:</td>
+			<td>Rev. Zion Wu, 973-331-0545 ext. 202, (C) 973-768-5805</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Patty Chien, 973-331-0545 ext. 233, (C) 973-768-5805</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" width="16" height="16" /></td>
+			<td class="label">Address:</td>
+			<td><a href="http://maps.google.com/maps?q=36+Alpine+Rd,+Towaco,+NJ+07082&amp;hl=en&amp;ll=40.922398,-74.322445&amp;spn=0.006396,0.013894&amp;sll=40.9022,-74.551001&amp;sspn=0.012796,0.027788&amp;oq=36+Alpine+Road,+Towaco,+NJ+07082&amp;hnear=36+Alpine+Rd,+Towaco,+New+Jersey+07082&amp;t=m&amp;z=17" target="_blank">36 Alpine Road, Towaco, NJ 07082</a></td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" width="16" height="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>973-331-0545, 973-331-0546</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" width="16" height="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:cemc.towaco@gmail.com">cemc.towaco@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>1980
+</p>
+<p>
+<img src="/emsi/files/towacochurch_1.jpg" align="left" width="360" height="255" hspace="5" />
+</p>
+<p>
+Christian Evangelical Mission Church (CEMC) in Towaco was first established in 1980 by a small group of believers gathering together to pray, worship, and fellowship at Waughaw Road in Towaco. In 1982, CEMC in Towaco along with Evangelical Bible Institute moved to our current location at 36 Alpine Road, Towaco, NJ. This is a 26 acre campus and facility which provides the seminary students and the congregation with many indoor and outdoor activities such as basketball, handball, softball, table tennis, tennis, volleyball and etc\u2026 After 30 years since the birth of CEMC in Towaco, today the congregation has grown to approximately 300 people. The congregation is composed of mostly Chinese from Burma, China, Hong Kong, Indonesia, Malaysia, Philippines, Singapore, Taiwan, American born Chinese, and a small number of Americans. Many live within ten miles of Towaco, including Lincoln Park, Montville, Parsippany, Pine Brook, Pompton Lakes, Wayne and etc\u2026 But some even come as far as Trenton, Pennsylvania, upstate New York, and Connecticut.
+</p>
+<p>
+We have two separate Sunday Worship Services, one in Mandarin with English translation and one in English with no translation.  During the week, we also have many gatherings including various bible studies and fellowship in English, Mandarin and other Chinese dialects. Please see the Ministries &amp; Fellowships section for more detail. 
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+</div>
+' 	where church_id = (select church_id from church where church_path = 'towaco')
+	and locale = 'en'
+	and page_id = 'intro';
+
 update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>36 Alpine Road, Towaco, NJ 07082, USA 
 </p>
@@ -2864,8 +2944,12 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'towaco')
 	and locale = 'en'
 	and page_id = 'contactus';
+-- chui, 2 lines above, this is supposed to be: locale = 'zh', no?
 
 update church_content set body = STRINGDECODE('<p>
+Christian Evangelical Mission Church in Towaco
+</p>
+<p>
 <b>Address: </b>36 Alpine Road, Towaco, NJ 07082, USA 
 </p>
 <p>
@@ -3138,3 +3222,77 @@ set body = '
 where church_id = 39
 and page_id = 'schedule'
 and locale = 'zh';
+
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Stephen Lim 973-335-7337, ext. 204, (C) 973-960-6088</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Eunice Lim 973-335-7337, ext. 203, (C) 973-216-5009</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>
+			71 Old Road, Livingston, N. J. 07039</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>973-994-0079</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td>973-335-0535</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:ceclinfo@gmail.com">ceclinfo@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>1974
+</p>
+<p>
+<a href="/emsi/gallery/?g2_itemId=119"><img src="/emsi/images/church_livingston.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /></a>
+</p>
+<p>
+The CEC in Livingston (former name: CEC in West Orange) is the first CEC in New Jersey.  Because of the requests of some Chinese Christian families who lived in New Jersey, the preparations for the establishement of the CEC in West Orange were underway in 1973.  During that time, Rev. Moses Yang had a car accident and was hurt.  From this, he thought to himself that this would not be God''s will to establish the West Orange Church.  So he knelt and prayed to the Lord for clear direction.  The Lord revealed to Rev. Yang a Bible verse from Psalm 66:12, &quot;Thou hast caused men to ride over our heads; we went through fire and through water; but thou broughtest us out into a wealthy place&quot;.  This verse clearly revealed God''s will to Rev. Yang.  With great faith, the church was established in early 1974. 
+</p>
+<p>
+The church has a diverse congregational mix.  Its members are overseas Chinese from the Philippines, Taiwan, China, Hong Kong, Indonesia, &amp; Malaysia; Caucasians; American-born Chinese; and Filipinos. The languages used in the Sunday Worship Service are English and Mandarin.  The ministries consist of prayer meeting, Bible study groups,  youth group, young professional group, Sunday School classes, and Choir. 
+</p>
+<p>
+The church bought a church property in April, 2006 in Livingston and had its dedication on June 3, 2006. <b></b> 
+</p>
+</div>
+' where church_id = (select church_id from church where church_path = 'livingston')
+	and locale = 'en'
+	and page_id = 'intro';
