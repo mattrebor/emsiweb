@@ -38,6 +38,20 @@
 	<form:form method="POST" action="${saveUrl}" modelAttribute="minister"
 		class="form-horizontal row" accept-charset="utf-8"
 		style="border: 1px solid yellow;">
+		
+		<c:if test="${empty readonly}">
+			<div>
+				<button type="submit" id="saveBtnTop" class="btn btn-primary">Save</button>
+				<button type="button" id="cancelBtnTop" class="btn" style="margin-left: 10px;">Cancel</button>
+			</div>
+		</c:if>
+		<c:if test="${not empty readonly}">
+			<div>
+				<button type="button" id="editBtnTop" class="btn btn-primary">Edit</button>
+				<button type="button" id="backToListBtnTop" class="btn" style="margin-left: 10px;">Back to List</button>
+			</div>
+		</c:if>
+		
 		<div style="border: 1px dotted pink;" class="row">
 			<span class="span4">&#160;</span>
 			<c:forEach items="${minister.languages}" var="lang">
@@ -57,27 +71,17 @@
 				</div>
 			</div>
 		</c:forEach>
-		<!--
-		<div class="row">
-			<div class="control-group">
-				<label class="control-label">Name:</label>
-				<div class="controls">
-					<input type="text" class="input" maxlength="255" name="details['en']['name']" value="${minister.details['en']['name']}"/>
-					<input type="text" class="input" maxlength="255" name="details['zh']['name']" value="${minister.details['zh']['name']}"/>
-				</div>
-			</div>
-		</div>
-		-->
+		
 		<c:if test="${empty readonly}">
 			<div>
-				<button type="submit" class="btn btn-primary" style="">Save</button>
-				<button type="button" class="btn">Cancel</button>
+				<button type="submit" id="saveBtnBottom" class="btn btn-primary">Save</button>
+				<button type="button" id="cancelBtnBottom" class="btn" style="margin-left: 10px;">Cancel</button>
 			</div>
 		</c:if>
 		<c:if test="${not empty readonly}">
 			<div>
-				<button type="button" id="editBtn" class="btn">Edit</button>
-				<button type="button" id="backToListBtn" class="btn">Back to List</button>
+				<button type="button" id="editBtnBottom" class="btn btn-primary">Edit</button>
+				<button type="button" id="backToListBtnBottom" class="btn" style="margin-left: 10px;">Back to List</button>
 			</div>
 		</c:if>
 		<input type="hidden" name="hiddenId" value="${minister.id}"/>

@@ -33,7 +33,7 @@
 		<ul>
 			<c:choose>
 				<c:when test="${not empty contentMap['intro']}">
-					<li><a href="${showPageUrl}/${contentMap['intro'].id.churchId}/${contentMap['intro'].id.pageId}">${labelCemiBriefHistory}</a></li>
+					<li><a href="${showPageUrl}/${church.churchPath}/${contentMap['intro'].id.pageId}">${labelCemiBriefHistory}</a></li>
 				</c:when>
 				<c:otherwise>
 					<li class="disabled">${labelCemiBriefHistory}</li>
@@ -41,7 +41,7 @@
 			</c:choose>
 			<c:choose>
 				<c:when test="${not empty contentMap['minister']}">
-					<li><a href="${showPageUrl}/${contentMap['minister'].id.churchId}/${contentMap['minister'].id.pageId}">${labelCemiMinisterIntro}</a></li>
+					<li><a href="${showPageUrl}/${church.churchPath}/${contentMap['minister'].id.pageId}">${labelCemiMinisterIntro}</a></li>
 				</c:when>
 				<c:otherwise>
 					<li class="disabled">${labelCemiMinisterIntro}</li>
@@ -49,7 +49,7 @@
 			</c:choose>
 			<c:choose>
 				<c:when test="${not empty contentMap['schedule']}">
-					<li><a href="${showPageUrl}/${contentMap['schedule'].id.churchId}/${contentMap['schedule'].id.pageId}">${labelCemiChurchSchedule}</a></li>
+					<li><a href="${showPageUrl}/${church.churchPath}/${contentMap['schedule'].id.pageId}">${labelCemiChurchSchedule}</a></li>
 				</c:when>
 				<c:otherwise>
 					<li class="disabled">${labelCemiChurchSchedule}</li>
@@ -57,7 +57,7 @@
 			</c:choose>
 			<c:choose>
 				<c:when test="${not empty contentMap['contactus']}">
-				<li><a href="${showPageUrl}/${contentMap['contactus'].id.churchId}/${contentMap['contactus'].id.pageId}">${labelCemiContactUs}</a></li>
+				<li><a href="${showPageUrl}/${church.churchPath}/${contentMap['contactus'].id.pageId}">${labelCemiContactUs}</a></li>
 				</c:when>
 				<c:otherwise>
 					<li class="disabled">${labelCemiContactUs}</li>
@@ -68,7 +68,10 @@
 
 	<br/><br/>
 	
-	<button id="action" type="button" class="btn btn-success">Edit</button>
+
+		<button id="action" type="button" class="btn btn-primary">Edit</button>
+		
+		<button id="cancel" type="button" class="btn btn-danger" >Cancel</button>
 
 	<hr/>
 
@@ -83,13 +86,26 @@
 
 	<script>
 		$(function() {
-			$("button")
+			$("#cancel")
+			.button().
+			hide()
+			.click(function (event) {
+				CKEDITOR.instances.churcheditor1.destroy();
+				$("#church-content").show();
+				$("#action").text("Edit");
+				$("textarea[name='churcheditor1']").hide();
+				$("#cancel").hide();				
+			});
+			
+			
+			$("#action")
 			.button()
 			.click(function (event) {
 				
 				if ($("#action").text() == "Edit") {
 					$("#church-content").hide();
-					$("#action").text("Preview");	
+					$("#action").text("Save");	
+					$("#cancel").show();
 					$("textarea[name='churcheditor1']").text($("#church-content").html());
 					
 					CKEDITOR.replace('churcheditor1', {
@@ -105,19 +121,36 @@
 						          ['Styles', 'Format','Font', 'FontSize'],
 							      ['TextColor', 'BGColor'], ['Maximize', 'ShowBlocks']
 						],
-						filebrowserImageBrowseUrl: '/treetest',
-						filebrowserImageUploadUrl: '/treetest'
+						//filebrowserImageBrowseUrl: '/treetest',
+						//filebrowserImageUploadUrl: '/treetest'
 
 					
 					});
 				}
-				else {
+				else { // Save
 					$("#church-content").html(CKEDITOR.instances.churcheditor1.getData());
+					var pageJson = jQuery.toJSON({body: CKEDITOR.instances.churcheditor1.getData()});
+
 					CKEDITOR.instances.churcheditor1.destroy();
 					$("#church-content").show();
 					$("#action").text("Edit");
-					$("textarea[name='churcheditor1']").show();
-					
+					$("textarea[name='churcheditor1']").hide();
+					$("#cancel").hide();
+	
+					$.ajax({
+						url: $(location).attr('pathname') + "/save",
+						type: 'POST',
+						dataType: 'json',
+						data: pageJson,
+						contentType: 'application/json',
+						mimeType: 'application/json',
+					    success: function(data) { 
+					        alert(data.body);
+					    },
+					    error:function(data,status,er) { 
+					        alert("error: "+data+" status: "+status+" er:"+er);
+					    }
+					})
 				}
 			});
 		});

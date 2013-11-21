@@ -13,39 +13,10 @@
 
 	<tiles:insertAttribute name="interior-nav" ignore="false" />
 
-<section>
-Intensive course for Spain – July, 2008<br/>
-<br/>
-<p>
-Enrollee –These two courses are offered exclusively for developing preaching talent in the CEM churches worldwide, and is available only to full-time EBI students; local CEM church Pastors’ wife ; and assistant preaching personnel selected, supervised, and trained by the church pastor.
-</p>
+	<jsp:include page="/WEB-INF/views/semistatic/ebi/europe/curriculum_include_1.jspx"/>
+	
+	<jsp:include page="/WEB-INF/views/semistatic/ebi/europe/curriculum_include_2.jspx"/>
 
-<p>
-Enrollee must be grounded in Basic Doctrine, must have a foundation in Systematic Theology; and believe fully in the Mission’s Statement of faith.
-</p>
-
-Not open for Audit and Electives<br/>
-</section>
-<br/>
-<section>
-Homiletics<br/>
-<br/>
-Date: July 21 to 25 ( Monday to Friday)<br/>
-Time: Morning Class - 10 AM to 1 PM ; Afternoon Class – 4:30 to 6:30 PM<br/>
-Lecturer: Pastor Lee YueYin<br/>
-Credits : 2<br/>
-Course fee : 100 Euros<br/>
-</section>
-<br/>
-<section>
-Hermeneutics<br/>
-<br/>
-Date: July 28 to August 1 ( Monday to Friday)<br/>
-Time: Morning Class - 10 AM to 1 PM ; Afternoon Class – 4:30 to 6:30 PM<br/>
-Lecturer: Pastor Lee YueYin<br/>
-Credits : 2<br/>
-Course fee : 100 Euros<br/>
-</section>
 <br/>
 <section>
 Morning Prayer Meeting: 9:30 AM Daily; All students must attend , lead, and lecture.<br/>

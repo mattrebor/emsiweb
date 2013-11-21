@@ -13,14 +13,18 @@ public class MinisterListItem implements Serializable {
 	
 	private static final long serialVersionUID = 983968296665559598L;
 	
+	private Integer ministerId;
+	
 	private Map<String, String> details = new HashMap<String, String>();
 	
 	public MinisterListItem(Minister minister) {
+		this.ministerId = minister.getMinisterId();
 		Set<MinisterDetail> ministerDetails = minister.getMinisterDetails();
 		for (MinisterDetail m : ministerDetails) {
 			details.put(m.getId().getMinisterDetailKey(), m.getValue());
 		}
 	}
-
+	
+	public Integer getMinisterId() { return ministerId; }
 	public Map<String, String> getDetails() { return details; }
 }

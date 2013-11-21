@@ -6,6 +6,15 @@
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes"/>
 	
+	<style type="text/css">
+	table.table tbody tr:first-child td {
+		border-top: 1px solid black;
+	}
+	.table-hover tbody tr:hover > td {
+		cursor: pointer
+	}
+	</style>
+	
 	<spring:url value="/resources/scripts/app/minister.js" var="minister_js"/>
 	
 	<script type="text/javascript" src="${minister_js}"><jsp:text/></script>
@@ -22,20 +31,26 @@
 		
 	<p>&#160;</p>
 	
-	<form:form class="row">
-		<table class="table">
-		<tr>
-			<td>Title</td>
-			<td>Name</td>
-			<td>Email</td>
-		</tr>
-		<c:forEach items="${ministerList}" var="item" varStatus="idx">
-			<tr>
-				<td>${item.details['title']}</td>
-				<td>${item.details['name']}</td>
-				<td>${item.details['email']}</td>
-			</tr>
-		</c:forEach>
-		</table>
+	<form:form id="ministerListForm" class="row" method="GET">
+		<div>
+			<table id="ministersTable" class="table table-hover">
+			<thead>
+				<tr>
+					<th>Title</th>
+					<th>Name</th>
+					<th>Email</th>
+				</tr>
+			</thead>
+			<tbody>
+			<c:forEach items="${ministerList}" var="item" varStatus="idx"> <!-- item is of type MinisterListItem -->
+				<tr id="minister_${item.ministerId}">
+					<td>${item.details['title']}</td>
+					<td>${item.details['name']}</td>
+					<td>${item.details['email']}</td>
+				</tr>
+			</c:forEach>
+			</tbody>
+			</table>
+		</div>
 	</form:form>
 </div>
