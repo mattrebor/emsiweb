@@ -364,8 +364,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Jing Huang</td>
+			<td class="label">Pastor:</td>
+			<td>Prof. Jing Huang</td>
 		</tr>
 	</tbody>
 </table>
@@ -399,10 +399,22 @@ p span.label {font-weight: bold;}
 <p>
 <span class="label">Established Date: </span>1984
 </p>
+
+<img src="/emsi/files/murrayhill/murrayhill.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />
 <p>
-<img src="/emsi/files/murrayhill/murrayhill.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />Christian Evangelical Church in Murray Hill was established by the Christian Evangelical Mission in 1984 in New Jersey to serve the people working in the neighborhood factories and large companies. <br />
-In the early days, the Sunday Worship service was located in a Sunday School classroom of a Methodist Church on Diamond Hill Road in Murray Hill. Because it has limited space, it was difficult to develop ministry. Even so, there were still a number of faithful church members who continued and persistently prayed for the day to have a church and a spiritual home of their own.<br />
-On January 3, 2010, the Lord led us to move into a new church location at725 Mountain Avenue, Berkeley Heights, NJ 07922. We have a new beginning in the New Year. We believe this is the first step God is going to revive CEC Murray Hill. We cordially invite you to join with us to walk with our Lord, and to be in one accord with our Lord, to have our church revived by the Lord! 
+1984 - CEC in Murray Hill established 
+</p>
+<p>
+The CEC in Murray Hill is located in Berkeley Heights, New Jersey.  It is located thirty miles south of Towaco, the headquarter.  The church was established in 1984.  There were two big companies – Lucent and AT & T that were located near the church at that time.  There were many Chinese professionals employed in this area.  Because of the big population of Chinese here, Rev. Moses Yang saw the need of developing the ministry.  Through the assistance of Dr. James Huang, they were able to find a place and start the church.
+</p>
+<p>
+The present condition of the church
+</p>
+<p>
+The church has been pastured by more than ten pastors in the past twenty eight years.  The previous pastors did not take hold of the “three precious areas in developing a church” – personal evangelism, Bible study and preaching, and so the church cannot grow successfully.  After Rev. Henry Yao left for the Philippines, the worship services were stopped.  The church’s co-workers did not see much progress in the church and suggested to close down the church, so as not to waste manpower and money.  But EMSI believed that there are many Chinese in this area and there’s the need for the gospel.  It was decided that the church should continue on.
+</p>
+<p>
+In August, 2012, EMSI sent Prof. Jing Huang to be responsible for the church ministries and continue to develop the church.  At the present, we saw some improvements.  Although the attendance is still not stable, yet we believe that the Lord will preserve the church that preaches the truth.  May this church bring blessings to the Chinese surrounding this area.
 </p>
 </div>
 '	where church_id = (select church_id from church where church_path = 'murrayhill')
