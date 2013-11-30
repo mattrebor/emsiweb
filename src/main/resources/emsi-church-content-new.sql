@@ -3252,10 +3252,6 @@ p span.label {font-weight: bold;}
 			<td class="label">Pastor:</td>
 			<td>Rev. Stephen Lim 973-335-7337, ext. 204, (C) 973-960-6088</td>
 		</tr>
-		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Eunice Lim 973-335-7337, ext. 203, (C) 973-216-5009</td>
-		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -3307,4 +3303,71 @@ The church bought a church property in April, 2006 in Livingston and had its ded
 </div>
 ' where church_id = (select church_id from church where church_path = 'livingston')
 	and locale = 'en'
+	and page_id = 'intro';
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellPadding="0" cellSpacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">牧師:</td>
+			<td>林耀奇 牧師, (973) 335-7337 ext. 204, (手機) (973) 960-6088</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<div style="margin-left: 20px">
+<table cellPadding="1" cellSpacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">地址:</td>
+			<td> 71 Old Road Livingston NJ 07039, USA  </td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">電話:</td>
+			<td>(973) 994-0079</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">傳真:</td>
+			<td>(973) 335-0535</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">電郵:</td>
+			<td><a href="mailto:ceclinfo@gmail.com">ceclinfo@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" SIZE="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">成立日期: </span>1974年 
+</p>
+<p>
+<span class="label">簡史: </span><br />
+<img hspace="5" src="/emsi/images/church_livingston.jpg" align="left" height="255" width="360" />活石園基督教生命堂 (前名: 西橘園基督教生命堂) 是本會在新澤西州設立的第一個教會。一九七三年底，楊摩西牧師因應新澤西州信徒的要求，籌備成立西橘園生命堂。正當緊鑼密鼓地籌備時，楊牧師發生了一次車禍，頭部受傷。他想，也許上帝對成立西橘園生命堂不喜悅，進行攔阻。於是跪下迫切禱告，盼望主明示旨意。上帝給他的經文是詩篇六十六篇十二節：「你使人坐車，軋我們的頭，我們經過水火，你卻使我們到豐富之地。」這節經文十分清楚地把上帝的旨意告訴楊牧師，於是，他信心十足地繼續籌備工作。一九七四年初，西橘園生命堂誕生了。 
+</p>
+<p>
+活石園生命堂是個多元化的教會。教會會友以華人佔多數，分別來自菲律賓、印尼、香港、馬來西亞、台灣和中國。除此以外，也有美國人。主日崇拜是中、英語並用，此外尚有禱告會、查經班、青少年團契、社青小組及各級主日學、詩班等。 
+</p>
+<p>
+本會於二零零六年四月在李文斯頓鎮Livingston 購堂, 並於當年六月三日舉行獻堂禮。 
+</p>
+</div>
+' where church_id = (select church_id from church where church_path = 'livingston')
+	and locale = 'zh'
 	and page_id = 'intro';
