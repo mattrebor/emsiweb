@@ -2290,6 +2290,181 @@ update church_content set body = STRINGDECODE('<p>
 
 ----------------- end porto
 
+-----------------starts Mindelo
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Chang Yu Zhou</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> 351-252-612-642/ (C) 351-962-222-221</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td> 351-218-868-370</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsimindelo@hotmail.com">emsimindelo@hotmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>June 11, 2006
+</p>
+<p>
+CEC in Mindelo was established on June 11, 2006 in the Mindelo Warehouse Wholesale district in Porto. At the time the warehouse wholesale business in Porto had expanded quickly to Mindelo and many Chinese went to Mindelo to start the wholesale business there. There are around 100 stores in the Mindelo warehouse district and the population reached up to a thousand. It is a great gospel field so the CEM in Portugal decided to start the CEC in Mindelo.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'mindelo')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>周長宇 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 351-252-612-642/ (C) 351-962-222-221 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> 351-218-868-370 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsimindelo@hotmail.com"> emsimindelo@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2006 年  六月十一日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />近年來，葡萄牙波爾圖開發明德路倉庫批發區，發展相當迅速，有一部份中國人馬上跟進，邁向明德路倉庫批發區開拓市場。明德路倉庫批發區約有一百多家店面，人口近千人，是一個較大的福音禾場；所以，葡萄牙福音佈道會根據實際的需要，在二○○六年六月十一日在葡萄牙波爾圖明德路倉庫批發區成立了明德路基督教生命堂。
+這間生命堂的成立，有很多感人的見證，是主的大能感動弟兄姐妹們一個個願意奉獻！感謝主，哈利路亞！願主大大地使用明德路生命堂！願聚會的人數天天加增！把一切的榮耀歸給我們的主耶穌基督！阿們。
+
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'mindelo')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Chang Yu Zhou
+</p>
+<p>
+<b>Address: </b>Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal
+</p>
+<p>
+<b>Tel #: </b> 351-252-612-642/ (C) 351-962-222-221
+</p>
+<p>
+<b>Fax #: </b>351-218-868-370
+</p>
+<p>
+<b>Email: </b>emsimindelo@hotmail.com
+</p>
+<p>
+</p>
+')	where church_id = (select church_id from church where church_path = 'mindelo')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道 :</b> 周長宇 傳道 
+</p>
+<p>
+<b>地址: </b>Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal
+</p>
+<p>
+<b>電話:</b> 351-252-612-642/ (C) 351-962-222-221
+</p>
+<p>
+<b>傳真: </b>351-218-868-370
+</p>
+<p>
+<b>電郵: </b>emsimindelo@hotmail.com
+</p>
+<p>
+</p>
+')	where church_id = (select church_id from church where church_path = 'mindelo')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+
+-----------------ends Mindelo
 	
 	
 	
