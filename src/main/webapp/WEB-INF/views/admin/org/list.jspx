@@ -27,7 +27,7 @@
 		
 	<p>&#160;</p>
 	
-	<c:set var="current_org" value="${org.churchOrgs}" scope="request"/>
+	<c:set var="current_org" value="${org}" scope="request"/>
 	<jsp:include page="/WEB-INF/views/admin/church/sub-list.jspx" />
 	
 	

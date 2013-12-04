@@ -62,6 +62,8 @@ import freemarker.template.utility.Collections12;
 public class ChurchOrgAdminController {
 	
 		
+	private static final Long CEMI_CHURCH_ORG_ID = new Long(1);;
+
 	final Logger logger = LoggerFactory.getLogger(ChurchOrgAdminController.class);
 
 	@Autowired
@@ -83,6 +85,7 @@ public class ChurchOrgAdminController {
 	public void initBinder(WebDataBinder binder) {
 		//binder.setValidator(new ChurchOrgFormValidator());
 	}
+	
 	@ModelAttribute
 	public ChurchOrg getChurchOrg(@PathVariable(value="churchOrgId") Long churchOrgId) {
 		logger.info("GG: churchOrgId=" + churchOrgId);
@@ -98,6 +101,28 @@ public class ChurchOrgAdminController {
 		
 		return org;
 	}
+	
+	@RequestMapping(method = RequestMethod.GET, value= "")
+	public String list(Model uiModel) {
+		
+		ChurchOrg org = churchOrgService.findById(CEMI_CHURCH_ORG_ID);
+		
+		logger.info(org.getChurchOrgPath());
+		
+		uiModel.addAttribute("org",org);
+		
+		//logger.info("size=" + org.getChurchOrgs().size());
+		
+		Map<ChurchOrgDetailKey, ChurchOrgDetail> details = org.getChurchOrgDetails();
+		for (ChurchOrgDetailKey key : details.keySet()) {
+			logger.info(key.toString() + ": " + details.get(key).getValue());
+			
+		}
+		
+		return "admin/org/list";
+		
+	}
+	
 	
 	@RequestMapping(method = RequestMethod.GET, value = "/{churchOrgId}", params = "edit")
 	public String edit(ChurchOrg org, Model uiModel) {
