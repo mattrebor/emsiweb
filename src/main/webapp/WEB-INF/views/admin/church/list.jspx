@@ -1,0 +1,22 @@
+<div 
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:form="http://www.springframework.org/tags/form"
+	xmlns:c="http://java.sun.com/jsp/jstl/core">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes"/>
+	
+	<spring:url value="/admin/org" var="showOrgUrl" scope="request"/>
+	<spring:url value="/admin/church" var="showChurchUrl" scope="request"/>
+	
+	 
+	<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
+		Edit Church</span>
+		
+	<p>&#160;</p>
+	
+	
+	<c:set var="current_org" value="${org}" scope="request"/>
+	<jsp:include page="/WEB-INF/views/admin/church/sub-list.jspx" />
+	
+</div>

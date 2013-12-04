@@ -2,21 +2,22 @@ package org.emsionline.emsiweb.domain;
 
 
 import java.io.Serializable;
+import java.util.HashMap;
 import java.util.Map;
 
 import javax.persistence.Access;
 import javax.persistence.AccessType;
 import javax.persistence.CascadeType;
-import javax.persistence.CollectionTable;
 import javax.persistence.Column;
-import javax.persistence.ElementCollection;
 import javax.persistence.EmbeddedId;
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.JoinColumn;
+import javax.persistence.JoinColumns;
 import javax.persistence.JoinTable;
 import javax.persistence.ManyToOne;
 import javax.persistence.MapKey;
+import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.persistence.Version;
 
@@ -39,7 +40,7 @@ public class LocalizedChurch implements Serializable {
 	private double longitude;
 	
 	
-	Map<String, ChurchDetail> church_details;
+	Map<ChurchDetailKey, ChurchDetail> church_details;
 	private LocalizedChurchOrg parentOrg;
 		
 	
@@ -80,19 +81,32 @@ public class LocalizedChurch implements Serializable {
 		this.version = version;
 	}	
 
-	@ElementCollection
-	@CollectionTable(
-			name = "church_detail",
-			joinColumns = {@JoinColumn(name = "church_id", referencedColumnName = "church_id"),
-					@JoinColumn(name = "locale", referencedColumnName = "locale")})
-	@MapKey(name = "key")
-	public Map<String, ChurchDetail> getChurchDetails() {
+	@OneToMany
+	@JoinColumns({
+		@JoinColumn(name = "church_id", referencedColumnName = "church_id"),
+		@JoinColumn(name = "locale", referencedColumnName = "locale")})
+	@MapKey
+	public Map<ChurchDetailKey, ChurchDetail> getChurchDetails() {
 		return church_details;
 	}
 	
-	public void setChurchDetails(Map<String, ChurchDetail> church_details) {
+	public void setChurchDetails(Map<ChurchDetailKey, ChurchDetail> church_details) {
 		this.church_details = church_details;
 	}
+	
+	
+	public Map<String, ChurchDetail> getChurchDetailsMap() {
+		
+		Map<ChurchDetailKey, ChurchDetail> details = getChurchDetails();
+		Map<String, ChurchDetail> detailMap = new HashMap<String, ChurchDetail>();
+		
+		for (ChurchDetailKey key : details.keySet()) {
+			detailMap.put(key.getKey(), details.get(key));
+		}
+		
+		return detailMap;
+	}
+
 	
 	@ManyToOne(cascade=CascadeType.ALL, fetch=FetchType.LAZY, optional=true)
 	@JoinTable(name = "localized_church_hierarchy", 

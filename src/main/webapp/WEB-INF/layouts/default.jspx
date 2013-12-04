@@ -119,7 +119,7 @@
  -->
  
 <!-- jqGrid -->
-<!-- 
+ 
 <spring:url value="/resources/jqgrid/css/ui.jqgrid.css" var="jqgrid_css" />
 <spring:url value="/resources/jqgrid/js/i18n/grid.locale-en.js"
 	var="jqgrid_locale_url" />
@@ -133,7 +133,7 @@
 <script type="text/javascript" src="${jqgrid_url}">
 	<jsp:text/>
 </script>
- -->
+
  
 <spring:url value="/resources/bootstrap-24col/js/bootstrap.js"
 	var="bootstrap_js_url" />

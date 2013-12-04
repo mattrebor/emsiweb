@@ -8,6 +8,7 @@ import java.util.List;
 import java.util.Map;
 
 import org.emsionline.emsiweb.domain.ChurchOrgDetail;
+import org.emsionline.emsiweb.domain.ChurchOrgDetailKey;
 import org.emsionline.emsiweb.domain.LocalizedChurch;
 import org.emsionline.emsiweb.domain.LocalizedChurchOrg;
 import org.emsionline.emsiweb.domain.LocalizedChurchOrgKey;
@@ -36,7 +37,7 @@ public class ChurchOrgServiceTest {
 
 		assertEquals("cemi", church_org.getChurchOrgPath());
 
-		Map<String, ChurchOrgDetail> details = church_org.getChurchOrgDetails();
+		Map<ChurchOrgDetailKey, ChurchOrgDetail> details = church_org.getChurchOrgDetails();
 		
 		logger.info(details.get("menu_name").getValue());
 		

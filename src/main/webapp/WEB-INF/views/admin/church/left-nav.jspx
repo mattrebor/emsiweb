@@ -1,0 +1,18 @@
+<div id="page-nav" class="emsi-navbar-vertical"
+	xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags"
+	xmlns:tiles="http://tiles.apache.org/tags-tiles"
+	xmlns:sec="http://www.springframework.org/security/tags" version="2.0">
+	<jsp:directive.page contentType="text/html;charset=UTF-8" />
+	<jsp:output omit-xml-declaration="yes" />
+	<!-- minister/left-nav -->
+
+	<spring:message code="home_text" var="labelHome"/>
+	
+	<spring:url var="homeUrl" value="/home"/>
+
+	<ul>
+		<li><a href="${homeUrl}">${labelHome}</a></li>
+	</ul>
+	<!-- end church/left-nav -->
+</div>

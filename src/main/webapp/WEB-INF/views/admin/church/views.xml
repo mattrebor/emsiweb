@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE tiles-definitions PUBLIC "-//Apache Software Foundation//DTD Tiles Configuration 2.1//EN" "http://tiles.apache.org/dtds/tiles-config_2_1.dtd">
+<tiles-definitions>
+
+
+	
+	<definition name="admin/church/detail" extends="default-two-col">
+		<put-attribute name="menu-content" value="/WEB-INF/views/admin/church/left-nav.jspx" cascade="true"/>
+		<put-attribute name="body-content" value="/WEB-INF/views/admin/church/detail.jspx" cascade="true"/>
+	</definition>
+
+	<definition name="admin/church/list" extends="default-two-col">
+		<put-attribute name="menu-content" value="/WEB-INF/views/admin/church/left-nav.jspx" cascade="true"/>
+		<put-attribute name="body-content" value="/WEB-INF/views/admin/church/list.jspx" cascade="true"/>
+	</definition>
+	<definition name="admin/church/edit" extends="default-two-col">
+		<put-attribute name="menu-content" value="/WEB-INF/views/admin/church/left-nav.jspx" cascade="true"/>
+		<put-attribute name="body-content" value="/WEB-INF/views/admin/church/edit.jspx" cascade="true"/>
+	</definition>	
+
+</tiles-definitions>

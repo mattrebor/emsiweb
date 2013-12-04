@@ -32,7 +32,7 @@
 				</c:otherwise>
 			</c:choose>
 		
-			<label for="${org.churchOrgPath}">${org.churchOrgDetails['menu_name'].value}</label>
+			<label for="${org.churchOrgPath}">${org.churchOrgDetailsMap['menu_name'].value}</label>
 
 			<c:choose>
 				<c:when test="${fn:length(org.churchOrgs) > 0}">
@@ -46,10 +46,10 @@
 							<c:forEach items="${org.churches}" var="church">
 								<c:choose>
 									<c:when test="${not empty churchHierarchy[church.churchPath]}">
-										<li class="leaf selected"><a href="${cemiUrl}/${church.churchPath}">${church.churchDetails['menu_name'].value}</a></li> 
+										<li class="leaf selected"><a href="${cemiUrl}/${church.churchPath}">${church.churchDetailsMap['menu_name'].value}</a></li> 
 									</c:when>
 									<c:otherwise>
-										<li class="leaf"><a href="${cemiUrl}/${church.churchPath}">${church.churchDetails['menu_name'].value}</a></li> 
+										<li class="leaf"><a href="${cemiUrl}/${church.churchPath}">${church.churchDetailsMap['menu_name'].value}</a></li> 
 									</c:otherwise>
 								</c:choose>							
 	
