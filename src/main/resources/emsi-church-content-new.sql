@@ -2456,6 +2456,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>電郵: </b>emsimindelo@hotmail.com
 </p>
+---test
 <p>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'mindelo')
@@ -2463,9 +2464,167 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 
-
 -----------------ends Mindelo
+
+-----------------starts budapest
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Angela Chen</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> 1107 Budapest, Monori u.1-3. E12-1 Hungary</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> 36-30-408-6398, 36-70-501-3123</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsibudapest@gmail.com">emsibudapest@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>October 18, 2010
+</p>
+<p>
+<img src="/emsi/files/biblestudydec2011.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />On October 18, 2010, Christian Evangelical Mission International sent Ev. Angela Chen to Budapest, Hungary as a missionary. After four months of labor, CEMC in Budapest is established. This is the 47th CEM church established by the Evangelical Mission and Seminary International under the leadership of Rev. Moses Yang. It is also the 28th CEM church established by the CEMI in Europe.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'budapest')
+	and locale = 'en'
+	and page_id = 'intro';
+
 	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>陈宝珩 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 1107 Budapest, Monori u.1-3. E12-1 Hungary</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 36-30-408-6398, 36-70-501-3123 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsibudapest@gmail.com"> emsibudapest@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2011年 3月
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/biblestudydec2011.jpg\" align=\"left\" height=\"255\" width=\"360\" />2010年10月18日陈宝珩傳道受美国国际神学福音布道会差派，来到匈牙利布达佩斯开始新工场的开拓。经过四个多月耕耘撒种的前期工作，总会现在决定正式成立布达佩斯基督教生命堂。这是由杨摩西牧师领导下的美国国际神学福音佈道会属下的第47间生命堂，也是欧洲分会的第28间生命堂。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'budapest')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Angela Chen
+</p>
+<p>
+<b>Address: </b>1107 Budapest, Monori u.1-3. E12-1 Hungary
+</p>
+<p>
+<b>Tel #: </b>36-30-408-6398, 36-70-501-3123
+</p>
+<p>
+<b>Email: </b>emsibudapest@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1107+Budapest,+Monori+u.1-3.+E12-1+Hungary&ie=UTF8&ll=47.480553,19.128056&spn=0.020129,0.038023&hnear=1101+Budapest,+X.+ker%C3%BClet,+Monori+utca+1,+Hungary&gl=us&t=m&z=14;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Ramp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'budapest')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b>陈宝珩 傳道
+</p>
+<p>
+<b>地址: </b>1107 Budapest, Monori u.1-3. E12-1 Hungary
+</p>
+<p>
+<b>電話:</b> 36-30-408-6398, 36-70-501-3123
+</p>
+<p>
+<b>電郵: </b>emsibudapest@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1107+Budapest,+Monori+u.1-3.+E12-1+Hungary&ie=UTF8&ll=47.480553,19.128056&spn=0.020129,0.038023&hnear=1101+Budapest,+X.+ker%C3%BClet,+Monori+utca+1,+Hungary&gl=us&t=m&z=14;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Ramp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'budapest')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+-----------------ends budapest
 	
 	
 	
