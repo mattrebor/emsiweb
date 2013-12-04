@@ -34,6 +34,9 @@ public class Church implements Serializable {
 	private Long church_id;
 	private String church_path;
 	private int version;
+	private String address;
+	private double latitude;
+	private double longitude;
 	private ChurchOrg parentOrg;
 
 	private int sort_order;
@@ -156,6 +159,34 @@ public class Church implements Serializable {
 		
 		return contentMap;
 	}		
+	
+	
+	@Column(name = "address")
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+	@Column(name = "latitude")
+	public double getLatitude() {
+		return latitude;
+	}
+
+	public void setLatitude(double latitude) {
+		this.latitude = latitude;
+	}
+
+	@Column(name = "longitude")
+	public double getLongitude() {
+		return longitude;
+	}
+	
+	public void setLongitude(double longitude) {
+		this.longitude = longitude;
+	}
 
 	@Override
 	public int hashCode() {

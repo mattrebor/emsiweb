@@ -6,29 +6,181 @@
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes"/>
 	
-	<spring:url value="/admin/org" var="showOrgUrl" scope="request"/>
-	<spring:url value="/admin/church" var="showChurchUrl" scope="request"/>
+	<spring:url value="/admin/church" var="churchAdminUrl" scope="request"/>
 	
-	<!-- 
-	<spring:url value="/resources/scripts/app/minister.js" var="minister_js"/>
+	<spring:url value="/cemi" var="churchUrl" scope="request"/>
 	
-	<script type="text/javascript" src="${minister_js}"><jsp:text/></script>
-	<script type="text/javascript">
-		$(document).ready(function () {
-			Minister.init({
-				basePath: App.getBasePath()
-			});
-		});
-	</script>
-	 -->
+
 	 
 	<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
-		Church</span>
+		Edit Church</span>
 		
 	<p>&#160;</p>
 	
-	<c:set var="current_org" value="${org}" scope="request"/>
-	<jsp:include page="/WEB-INF/views/admin/church/sub-list.jspx" />
-	
+	<div id="churchUpdate">
+		<form:form modelAttribute="churchForm" id="churchUpdateForm" method="post">
+			
+			
+			<form:label path="name['en']">English Name</form:label>
+			<form:input path="name['en']" />
+			<div>
+				<form:errors path="name['en']" cssClass="error" />
+			</div>
+			<p/>
+			
+			<form:label path="name['zh']">Chinese Name</form:label>
+			<form:input path="name['zh']" />
+			<div>
+				<form:errors path="name['zh']" cssClass="error" />
+			</div>
+			<p/>
+
+			<form:label path="address">Address</form:label>
+			<form:input path="address" />
+			<div>
+				<form:errors path="address" cssClass="error" />
+			</div>
+			<p/>
+
+			<form:label path="longitude">Longitude</form:label>
+			<form:input path="longitude" />
+			<div>
+				<form:errors path="longitude" cssClass="error" />
+			</div>
+			<p/>
+
+			<form:label path="latitude">Latitude</form:label>
+			<form:input path="latitude" />
+			<div>
+				<form:errors path="latitude" cssClass="error" />
+			</div>
+			<p/>
+
+			
+			<p/><p/>
+			<br/><br/>
+			
+		
+			
+			<button type="submit">Save</button> <button type="reset">Reset</button>
+		</form:form>
+		
+		<hr />
+		
+		<script type="text/javascript">
+    	//<![CDATA[
+
+        $(document).ready(function () {
+            'use strict';
+             var contentGrid = $("#contentGrid");             
+             function myLinkFormatter (cellvalue, options, rowObject) {
+            	    return '<a href = "${churchUrl}/' + rowObject.churchId + '/' + rowObject.pageId + '?edit&lang=' + rowObject.locale + '">Edit &#9656;</a>';
+             }
+             
+             contentGrid.jqGrid({
+                datatype: 'json',
+                mtype: 'GET',
+                url: '${churchAdminUrl}/${church.churchId}/content',
+                jsonReader: {
+                	root: 'contents',
+                	page: 'page',
+                	total: 'total',
+                	records: 'records',
+                	repeatitems: false,
+                	id: 'churchId',
+                },
+                colNames: ['Key', 'Page Id', 'Locale', 'Title', 'Edit Page'],
+                colModel: [
+                    {name: 'key', hidden: true, key: true},
+					{name: 'pageId', width: 80, edittype: 'select', formatter: 'select', editoptions: {value: "intro:Introduction;contactus:Contact Us;ministers:Ministers;schedule:Schedule"}, editrules:{edithidden: true, required: true}, editable: true, },
+					{name: 'locale', width: 60, edittype: 'select', formatter: 'select', editoptions: {value: "en:English;zh:Chinese"},editrules:{edithidden: true, required: true}, editable: true},
+					
+					{name: 'title', width: 120, editrules:{required: true}, editable: true},
+					{name: 'edit', width: 60, editable: false, formatter: myLinkFormatter},
+					
+                ],
+                
+				gridview: true,             
+				rownumbers: false,
+				width: 600,
+                rowNum: 15,
+                //altRows: true,
+                hidegrid: false,
+                pager: '#contentGridPager',
+                pgbuttons: false,
+                pginput: false,
+                caption: 'Pages',
+                height: '100%',
+              
+            }).navGrid('#contentGridPager', 
+            		{refresh: false, search:false},
+            		// edit
+            		{width: 500,
+            		 recreateForm: true,
+            		 closeAfterEdit: true, 
+            		 viewPagerButtons: false,
+            		 ajaxEditOptions:{ contentType:"application/json" },
+            		 serializeEditData:function(data) {
+                    	 console.log(data);
+
+            			 return JSON.stringify({
+	                         churchId: parseInt(data.id, 10),
+	                         pageId: data.pageId,
+	                         locale: data.locale,
+	                         title: data.title                
+	                     });
+            		 },
+            		 mtype: 'POST',
+            		 url: '${churchAdminUrl}/${church.churchId}/content?edit'
+            		},
+             		// add
+             		{width: 500, 
+            			recreateForm: true,
+            		 closeAfterAdd: true, 
+             		 viewPagerButtons: false,
+             		 beforeInitData: function(formid) {
+             			console.log("beforeInitData - " + formid);
+             			contentGrid.jqGrid('setColProp','churchPath',{editable: true});
+             			contentGrid.jqGrid('setColProp','name.en',{editable: true});
+             			contentGrid.jqGrid('setColProp','name.zh',{editable: true});
+             		 },
+            		 afterShowForm: function(formid) {
+            			 console.log("afterShowForm - " + formid);
+            			 contentGrid.jqGrid('setColProp','churchPath',{editable: false});
+            			 contentGrid.jqGrid('setColProp','name.en',{editable: false});
+            			 contentGrid.jqGrid('setColProp','name.zh',{editable: false});
+       	        		 
+            		 },
+             		 ajaxEditOptions:{ contentType:"application/json" },
+             		 serializeEditData:function(data) {
+                     	 console.log(data);
+
+             			 return JSON.stringify({
+ 	                         sortOrder: data.sortOrder,
+ 	                         churchPath: data.churchPath,
+ 	                         name: {en: data['name.en'], zh: data['name.zh']},                 
+ 	                     });
+             		 },
+             		 mtype: 'POST',
+             		 url: '${churchOrgAdminUrl}/${churchOrg.churchOrgId}/church?new'
+             		},
+             		// delete
+             		{width: 500, 
+             		 mtype: 'POST',
+             		 url: '${churchOrgAdminUrl}/${churchOrg.churchOrgId}/church?delete'
+             		}            
+             	);
+        });
+        
+        
+    	//]]>
+    	</script>
+    	
+		<table id="contentGrid"><jsp:text/></table>
+		<div id="contentGridPager"><jsp:text/></div>
+		
+		<br />
+		<br />				
+	</div>
 	
 </div>

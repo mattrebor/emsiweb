@@ -1,11 +1,14 @@
 package org.emsionline.emsiweb.web.admin.controller;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 import javax.persistence.EntityManagerFactory;
 import javax.servlet.http.HttpServletRequest;
+import javax.validation.Valid;
 
 import org.emsionline.emsiweb.domain.Church;
 import org.emsionline.emsiweb.domain.ChurchContent;
@@ -16,11 +19,16 @@ import org.emsionline.emsiweb.domain.ChurchOrg;
 import org.emsionline.emsiweb.domain.ChurchOrgDetail;
 import org.emsionline.emsiweb.domain.ChurchOrgDetailKey;
 import org.emsionline.emsiweb.repository.ChurchRepository;
+import org.emsionline.emsiweb.service.ChurchContentService;
 import org.emsionline.emsiweb.service.ChurchOrgService;
 import org.emsionline.emsiweb.service.ChurchService;
+import org.emsionline.emsiweb.web.admin.form.ChurchContentDTO;
+import org.emsionline.emsiweb.web.admin.form.ChurchContentListDTO;
 import org.emsionline.emsiweb.web.admin.form.ChurchDTO;
+import org.emsionline.emsiweb.web.admin.form.ChurchForm;
 import org.emsionline.emsiweb.web.admin.form.ChurchListDTO;
 import org.emsionline.emsiweb.web.admin.form.ChurchOrgDTO;
+import org.emsionline.emsiweb.web.admin.form.ChurchOrgForm;
 import org.emsionline.emsiweb.web.admin.form.ChurchOrgListDTO;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -35,6 +43,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.mvc.support.RedirectAttributes;
+
+import com.google.common.primitives.Ints;
 
 
 @RequestMapping("/admin/church")
@@ -54,29 +65,15 @@ public class ChurchAdminController {
 	private ChurchService churchService;
 	
 	@Autowired
+	private ChurchContentService churchContentService;
+	
+	@Autowired
 	private EntityManagerFactory emf; 	
 	
 	@Autowired
 	private ChurchRepository churchRepository;
 	
-	/*
-	@ModelAttribute
-	public ChurchOrg getChurchOrg(@PathVariable(value="churchOrgId") Long churchOrgId) {
-		logger.info("GG: churchOrgId=" + churchOrgId);
-		ChurchOrg org = churchOrgService.findById(churchOrgId);
-		
-		if (org != null) {
-			logger.info("GG: " + org.getChurchOrgPath());
-		
-		}
-		else {
-			logger.info("GG: org is NULL");
-		}
-		
-		return org;
-	}	*/
-	
-	/*
+
 	@ModelAttribute
 	public Church getChurch(@PathVariable(value="churchId") Long churchId) {
 		logger.info("GG: churchId=" + churchId);
@@ -91,42 +88,147 @@ public class ChurchAdminController {
 		}
 		
 		return church;
-	}		*/
+	}		
 	
-	@RequestMapping(method = RequestMethod.GET)
-	public String list(HttpServletRequest req, Model uiModel) {
-		ChurchOrg org = churchOrgService.findById(CEMI_CHURCH_ORG_ID);
-		
-		logger.info(org.getChurchOrgPath());
-		
-		uiModel.addAttribute("org",org);
-		
-		//logger.info("size=" + org.getChurchOrgs().size());
-		
-		Map<ChurchOrgDetailKey, ChurchOrgDetail> details = org.getChurchOrgDetails();
-		for (ChurchOrgDetailKey key : details.keySet()) {
-			logger.info(key.toString() + ": " + details.get(key).getValue());
-			
-		}
-		
-		return "admin/church/list";
-	}
 
 	
 
-
 	
-	
-
-	/*
 	@RequestMapping(method = RequestMethod.GET, value = "/{churchId}", params = "edit")
-	public String editChurch(@PathVariable(value="churchId") Long churchId, Model uiModel) {
+	public String editChurch(Church church, Model uiModel) {
 
 		logger.info("*** editChurch ***");
-		logger.info("churchId=" + churchId);
+		logger.info("church.churchId=" + church.getChurchId());
+		logger.info("church.churchPath=" + church.getChurchPath());
+		
+		Map<String, Map<String, ChurchDetail>> detailsMap = church.getChurchDetailsMap();
 
+		ChurchForm churchForm = new ChurchForm();
+		churchForm.getName().put("en", detailsMap.get("menu_name").get("en").getValue());
+		churchForm.getName().put("zh", detailsMap.get("menu_name").get("zh").getValue());
+		churchForm.setAddress(church.getAddress());
+		churchForm.setLongitude(church.getLongitude());
+		churchForm.setLatitude(church.getLatitude());
+		
+		uiModel.addAttribute("churchForm", churchForm);
 		
 		return "admin/church/edit";
 
-	}	*/
+	}
+	
+	
+	@RequestMapping(method = RequestMethod.POST, value = "/{churchId}", params = "edit")
+	public String updateChurch(Church church, @Valid ChurchForm churchForm, BindingResult bindingResult, Model uiModel, HttpServletRequest httpServletRequest, RedirectAttributes redirectAttributes) {
+		logger.info("updateChurch: " + church.getChurchPath());
+		
+		logger.info("bindingResult.hasErrors = " + bindingResult.hasErrors());
+
+		// TODO: Handle church not found
+		
+		
+		//bindingResult.
+		
+		logger.info(churchForm.getName().get("en"));
+		logger.info(churchForm.getName().get("zh"));
+		
+		//uiModel.addAttribute("orgForm", orgForm);
+		
+
+		
+
+
+		
+		
+		ChurchDetailKey key = new ChurchDetailKey();
+		key.setChurchId(church.getChurchId());
+		key.setKey("menu_name");
+		key.setLocale("en");
+		
+		ChurchDetail dt = church.getChurchDetails().get(key);
+		dt.setValue(churchForm.getName().get("en"));
+		
+		key.setLocale("zh");
+		dt = church.getChurchDetails().get(key);
+		dt.setValue(churchForm.getName().get("zh"));
+		
+
+		church.setAddress(churchForm.getAddress());
+		church.setLongitude(churchForm.getLongitude());
+		church.setLatitude(churchForm.getLatitude());
+
+		
+		churchService.save(church);
+		
+		emf.getCache().evictAll();
+		
+		uiModel.asMap().clear();
+		//uiModel.addAttribute("churchOrgId", org.getChurchOrgId());
+		//return "admin/org/edit";
+		
+		return "redirect:/admin/church/" + church.getChurchId() + "?edit";
+	}	
+	
+	@RequestMapping(method = RequestMethod.GET, value = "/{churchId}/content", produces="application/json")
+	public @ResponseBody ChurchContentListDTO listContent(Church church, Model uiModel) {
+		
+		logger.info("listContent");
+		
+		ChurchContentListDTO listDTO = new ChurchContentListDTO();
+		listDTO.contents = new ArrayList<ChurchContentDTO>();
+		
+		// TODO: Handle org not found
+		if (church != null) {
+			logger.info(church.getChurchPath());
+		
+			listDTO.page = 1;
+			listDTO.total = 1;
+			listDTO.records =  church.getChurchContent().size();
+		
+			for (ChurchContent content : church.getChurchContent().values()) {
+				ChurchContentDTO dto = new ChurchContentDTO();
+				dto.setChurchId(content.getId().getChurchId());
+				dto.setLocale(content.getId().getLocale());
+				dto.setPageId(content.getId().getPageId());
+				dto.setTitle(content.getTitle());
+
+				
+				listDTO.contents.add(dto);
+			}
+
+			
+
+		}
+		else {
+			logger.info("org is NULL");
+		}
+
+		return listDTO;
+	}
+	
+	@RequestMapping(method = RequestMethod.POST, value = "/{churchId}/content", params = "edit", produces="text/plain")
+	public @ResponseBody String saveContent(Church church, @RequestBody ChurchContentDTO dto, Model uiModel) {
+
+		logger.info("*** saveContent ***");
+		logger.info("org.path=" + church.getChurchPath());
+		logger.info("dto.id=" + dto.getChurchId());
+		logger.info("dto.title=" + dto.getTitle());
+		
+		// TODO: What if dto.churchId != church.churchId
+		ChurchContentKey key = new ChurchContentKey();
+		key.setChurchId(church.getChurchId());
+		key.setPageId(dto.getPageId());
+		key.setLocale(dto.getLocale());
+		
+		ChurchContent content = churchContentService.findById(key);
+		
+		content.setTitle(dto.getTitle());
+		
+		churchContentService.save(content);
+
+		
+		emf.getCache().evictAll();
+
+		
+		return "Saved successfully";
+	}
 }
