@@ -364,8 +364,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Jing Huang</td>
+			<td class="label">Pastor:</td>
+			<td>Prof. Jing Huang</td>
 		</tr>
 	</tbody>
 </table>
@@ -399,10 +399,22 @@ p span.label {font-weight: bold;}
 <p>
 <span class="label">Established Date: </span>1984
 </p>
+
+<img src="/emsi/files/murrayhill/murrayhill.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />
 <p>
-<img src="/emsi/files/murrayhill/murrayhill.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />Christian Evangelical Church in Murray Hill was established by the Christian Evangelical Mission in 1984 in New Jersey to serve the people working in the neighborhood factories and large companies. <br />
-In the early days, the Sunday Worship service was located in a Sunday School classroom of a Methodist Church on Diamond Hill Road in Murray Hill. Because it has limited space, it was difficult to develop ministry. Even so, there were still a number of faithful church members who continued and persistently prayed for the day to have a church and a spiritual home of their own.<br />
-On January 3, 2010, the Lord led us to move into a new church location at725 Mountain Avenue, Berkeley Heights, NJ 07922. We have a new beginning in the New Year. We believe this is the first step God is going to revive CEC Murray Hill. We cordially invite you to join with us to walk with our Lord, and to be in one accord with our Lord, to have our church revived by the Lord! 
+1984 - CEC in Murray Hill established 
+</p>
+<p>
+The CEC in Murray Hill is located in Berkeley Heights, New Jersey.  It is located thirty miles south of Towaco, the headquarter.  The church was established in 1984.  There were two big companies – Lucent and AT & T that were located near the church at that time.  There were many Chinese professionals employed in this area.  Because of the big population of Chinese here, Rev. Moses Yang saw the need of developing the ministry.  Through the assistance of Dr. James Huang, they were able to find a place and start the church.
+</p>
+<p>
+The present condition of the church
+</p>
+<p>
+The church has been pastured by more than ten pastors in the past twenty eight years.  The previous pastors did not take hold of the “three precious areas in developing a church” – personal evangelism, Bible study and preaching, and so the church cannot grow successfully.  After Rev. Henry Yao left for the Philippines, the worship services were stopped.  The church’s co-workers did not see much progress in the church and suggested to close down the church, so as not to waste manpower and money.  But EMSI believed that there are many Chinese in this area and there’s the need for the gospel.  It was decided that the church should continue on.
+</p>
+<p>
+In August, 2012, EMSI sent Prof. Jing Huang to be responsible for the church ministries and continue to develop the church.  At the present, we saw some improvements.  Although the attendance is still not stable, yet we believe that the Lord will preserve the church that preaches the truth.  May this church bring blessings to the Chinese surrounding this area.
 </p>
 </div>
 '	where church_id = (select church_id from church where church_path = 'murrayhill')
@@ -3240,10 +3252,6 @@ p span.label {font-weight: bold;}
 			<td class="label">Pastor:</td>
 			<td>Rev. Stephen Lim 973-335-7337, ext. 204, (C) 973-960-6088</td>
 		</tr>
-		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Eunice Lim 973-335-7337, ext. 203, (C) 973-216-5009</td>
-		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -3295,4 +3303,71 @@ The church bought a church property in April, 2006 in Livingston and had its ded
 </div>
 ' where church_id = (select church_id from church where church_path = 'livingston')
 	and locale = 'en'
+	and page_id = 'intro';
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellPadding="0" cellSpacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">牧師:</td>
+			<td>林耀奇 牧師, (973) 335-7337 ext. 204, (手機) (973) 960-6088</td>
+		</tr>
+	</tbody>
+</table>
+<br />
+<div style="margin-left: 20px">
+<table cellPadding="1" cellSpacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">地址:</td>
+			<td> 71 Old Road Livingston NJ 07039, USA  </td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">電話:</td>
+			<td>(973) 994-0079</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">傳真:</td>
+			<td>(973) 335-0535</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">電郵:</td>
+			<td><a href="mailto:ceclinfo@gmail.com">ceclinfo@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" SIZE="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">成立日期: </span>1974年 
+</p>
+<p>
+<span class="label">簡史: </span><br />
+<img hspace="5" src="/emsi/images/church_livingston.jpg" align="left" height="255" width="360" />活石園基督教生命堂 (前名: 西橘園基督教生命堂) 是本會在新澤西州設立的第一個教會。一九七三年底，楊摩西牧師因應新澤西州信徒的要求，籌備成立西橘園生命堂。正當緊鑼密鼓地籌備時，楊牧師發生了一次車禍，頭部受傷。他想，也許上帝對成立西橘園生命堂不喜悅，進行攔阻。於是跪下迫切禱告，盼望主明示旨意。上帝給他的經文是詩篇六十六篇十二節：「你使人坐車，軋我們的頭，我們經過水火，你卻使我們到豐富之地。」這節經文十分清楚地把上帝的旨意告訴楊牧師，於是，他信心十足地繼續籌備工作。一九七四年初，西橘園生命堂誕生了。 
+</p>
+<p>
+活石園生命堂是個多元化的教會。教會會友以華人佔多數，分別來自菲律賓、印尼、香港、馬來西亞、台灣和中國。除此以外，也有美國人。主日崇拜是中、英語並用，此外尚有禱告會、查經班、青少年團契、社青小組及各級主日學、詩班等。 
+</p>
+<p>
+本會於二零零六年四月在李文斯頓鎮Livingston 購堂, 並於當年六月三日舉行獻堂禮。 
+</p>
+</div>
+' where church_id = (select church_id from church where church_path = 'livingston')
+	and locale = 'zh'
 	and page_id = 'intro';
