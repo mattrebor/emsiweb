@@ -501,7 +501,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧 者:</td>
-			<td>黃靜 傳道 </td>
+			<td>黃靜 教授  </td>
 		</tr>
 	</tbody>
 </table>
