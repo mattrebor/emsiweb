@@ -3398,6 +3398,10 @@ p span.label {font-weight: bold;}
 			<td class="label">Evangelist:</td>
 			<td>Ev. Patty Chien, 973-331-0545 ext. 233, (C) 973-768-5805</td>
 		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Ev. Jonathan Poon, 973-331-0545 ext. 203, (C) 973-979-1950</td>
+		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -3453,6 +3457,82 @@ We have two separate Sunday Worship Services, one in Mandarin with English trans
 ' 	where church_id = (select church_id from church where church_path = 'towaco')
 	and locale = 'en'
 	and page_id = 'intro';
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">主任牧師:</td>
+			<td>楊摩西 牧師, 973-331-0545 ext. 209, (手機) 201-650-1923</td>
+		</tr>
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>吳錫安 牧師, 973-331-0545 ext. 202, (手機) 973-768-5805</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>錢舜 傳道, 973-331-0545 ext. 233, (手機) 973-768-5805</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>潘逸豪 傳道, 973-331-0545 ext. 203, (手機) 973-979-1950</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 36 Alpine Rd., Towaco, NJ 07082, USA </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td>(973) 331-0545, (973) 331-0546</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:cemc.towaco@gmail.com\">cemc.towaco@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1980年
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/towacochurch_1.jpg\" align=\"left\" height=\"255\" width=\"360\" />多華谷生命堂的誕生是一個意外。當年國際福音佈道會之下已有三間生命堂。一在紐約市中國城，一在紐約州Nanuet（珍珠河生命堂前身），一在新澤西的西橘園。楊牧師並無意在多華谷設立分堂，他的計畫是創辦神學院。但是向政府申請辦學時才知道，神學院必須附屬在教會之下，於是多華谷生命堂於一九八○年應運而生。
+</p>
+<p>
+建堂之初，會友只有二十人左右，都是西橘園生命堂的會友，為支持神學教育而轉來的。經過二十多年的聖工發展，目前已有近三百名會友，分別來自台灣、越南、香港、新加坡、菲律賓、印尼、馬來西亞、中國大陸等地，也有少數美國人。一九八二年，多華谷生命堂隨著神學院一同遷至亞棚。神學院廣大的校園和各種運動設施，為會友提供了休閒場所。
+</p>
+<p>
+多華谷生命堂的主日崇拜通常是國語證道，英語翻譯。另外同時間有英語崇拜和成人主日學。此外，每周的聚會活動也很多，有禱告會、迦勒團契、弟兄團契、姐妹團契、青年團契，國語、台語、粵語、英語查經班、特別專題講座、大專學生英語查經班……等。迦勒團契就是專門為一些年長的弟兄姐妹所設立。別看他們年紀較長，他們可是非常活躍又令人羨慕的團契喔！每月有兩次聚會。
+</p>
+<p>
+本堂的另一個特色是逢年過節，兩、三百人的聚餐。本堂有一個大廚房，烹煮食物非常方便，所以每遇節慶，必定聚餐同樂。來自不同地方的會友們輪流掌廚，可以吃到不同風味的料理。此外，每主日崇拜之後，也有聚餐。會友們一面吃飯，一面聊天，達到團契的目的；住在遠處的會友，不必餓著肚子上路；願意留下來運動的朋友也因此有足夠的體力。教會願意提供這樣的服務固然值得稱許，而會友們願意輪流掌廚，且多年來從不間斷，更是令人敬佩的服事精神。
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'towaco')
+	and locale = 'zh'
+	and page_id = 'intro';
+	
 
 update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>36 Alpine Road, Towaco, NJ 07082, USA 
@@ -3594,6 +3674,28 @@ update church_content set body = STRINGDECODE('<p>
 			</p>
 			</td>
 		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">潘逸豪傳道</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 203</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-979-1950</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">jc1jj2@gmail.com</span></span></span> 
+			</p>
+			</td>
+		</tr>
 	</tbody>
 </table>
 </b>
@@ -3613,9 +3715,10 @@ update church_content set body = STRINGDECODE('<p>
 	</li>
 </ol>
 ')	where church_id = (select church_id from church where church_path = 'towaco')
-	and locale = 'en'
+	and locale = 'zh'
 	and page_id = 'contactus';
 -- chui, 2 lines above, this is supposed to be: locale = 'zh', no?
+--yes, corrected
 
 update church_content set body = STRINGDECODE('<p>
 Christian Evangelical Mission Church in Towaco
@@ -3757,6 +3860,28 @@ Christian Evangelical Mission Church in Towaco
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">pattym33@juno.com</span></span></span> 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ev. Jonathan Poon</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 203</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-979-1950</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">jc1jj2@gmail.com</span></span></span> 
 			</p>
 			</td>
 		</tr>
