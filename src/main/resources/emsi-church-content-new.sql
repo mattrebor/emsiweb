@@ -70,6 +70,65 @@ update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prat
 update church set address='Osaka, Osaka Prefecture, Japan', latitude = 34.69373780, longitude = 135.50216510 where church_path = 'osaka';
 
 ---------------------update Brooklyn intro page
+
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td> Ev. Paul Cheng, (c) 917-361-0823</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> 4609 8th Avenue, Brooklyn, NY 11220 USA</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> (C) 917-361-0823</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:chen_paul0620@yahoo.com">chen_paul0620@yahoo.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>August 3, 2009
+</p>
+<p>
+CEM Church in Brooklyn was established on August 3, 2009 when CEM Bishop Moses Yang noted the increasing Chinese population in Brooklyn.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'brooklyn')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -81,10 +140,6 @@ p span.label {font-weight: bold;}
 <div style=\"color: #000000; font-size: small\">
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
-		<tr>
-			<td class=\"label\">牧師:</td>
-			<td>林森良 牧師 , (手機)917-361-6866</td>
-		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
 			<td>陳松曦 傳道, (手機)917-361-0823</td>
@@ -138,14 +193,19 @@ p span.label {font-weight: bold;}
 	and page_id = 'intro';
 	
 	
-update church_content set body = STRINGDECODE('<p>
-<b>Address: </b>4609 8th Avenue, Brooklyn, NY 11220, USA
+update church_content set body = STRINGDECODE('
+<p>
+<b>Evangelist: </b>Ev. Paul Cheng, (c) 917-361-0823
 </p>
 <p>
-Pastor #: Rev. SenLiang Lin, (cell) 917-361-6866 </br>
-Evangelist #: Ev. Paul Cheng, (cell) 917-361-0823
+<b>Address: </b>1107 4609 8th Avenue, Brooklyn, NY 11220, USA
 </p>
-<b>Directions:</b> 
+<p>
+<b>Tel #: </b>(c) 917-361-0823
+</p>
+<p>
+<b>Email: </b>chen_paul0620@yahoo.com
+</p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
@@ -154,12 +214,18 @@ Evangelist #: Ev. Paul Cheng, (cell) 917-361-0823
 	and page_id = 'contactus';
 
 	
-update church_content set body = STRINGDECODE('<p>
-<b>地址: </b>4609 8th Avenue, Brooklyn, NY 11220, USA
+update church_content set body = STRINGDECODE('
+<p>
+<b>傳道: </b>陳松曦 傳道, (手機)917-361-0823
 </p>
 <p>
-牧師: 林森良 牧師, (手機)917-361-6866 </br>
-傳道: 陳松曦 傳道, (手機)917-361-0823
+<b>地址: </b>1107 4609 8th Avenue, Brooklyn, NY 11220, USA
+</p>
+<p>
+<b>電話: </b>(手機) 917-361-0823
+</p>
+<p>
+<b>電郵: </b>chen_paul0620@yahoo.com
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.map/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
