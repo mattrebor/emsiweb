@@ -70,6 +70,65 @@ update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prat
 update church set address='Osaka, Osaka Prefecture, Japan', latitude = 34.69373780, longitude = 135.50216510 where church_path = 'osaka';
 
 ---------------------update Brooklyn intro page
+
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td> Ev. Paul Cheng, (c) 917-361-0823</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> 4609 8th Avenue, Brooklyn, NY 11220 USA</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> (C) 917-361-0823</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:chen_paul0620@yahoo.com">chen_paul0620@yahoo.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>August 3, 2009
+</p>
+<p>
+CEM Church in Brooklyn was established on August 3, 2009 when CEM Bishop Moses Yang noted the increasing Chinese population in Brooklyn.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'brooklyn')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -81,10 +140,6 @@ p span.label {font-weight: bold;}
 <div style=\"color: #000000; font-size: small\">
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
-		<tr>
-			<td class=\"label\">牧師:</td>
-			<td>林森良 牧師 , (手機)917-361-6866</td>
-		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
 			<td>陳松曦 傳道, (手機)917-361-0823</td>
@@ -138,14 +193,19 @@ p span.label {font-weight: bold;}
 	and page_id = 'intro';
 	
 	
-update church_content set body = STRINGDECODE('<p>
-<b>Address: </b>4609 8th Avenue, Brooklyn, NY 11220, USA
+update church_content set body = STRINGDECODE('
+<p>
+<b>Evangelist: </b>Ev. Paul Cheng, (c) 917-361-0823
 </p>
 <p>
-Pastor #: Rev. SenLiang Lin, (cell) 917-361-6866 </br>
-Evangelist #: Ev. Paul Cheng, (cell) 917-361-0823
+<b>Address: </b>1107 4609 8th Avenue, Brooklyn, NY 11220, USA
 </p>
-<b>Directions:</b> 
+<p>
+<b>Tel #: </b>(c) 917-361-0823
+</p>
+<p>
+<b>Email: </b>chen_paul0620@yahoo.com
+</p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
@@ -154,12 +214,18 @@ Evangelist #: Ev. Paul Cheng, (cell) 917-361-0823
 	and page_id = 'contactus';
 
 	
-update church_content set body = STRINGDECODE('<p>
-<b>地址: </b>4609 8th Avenue, Brooklyn, NY 11220, USA
+update church_content set body = STRINGDECODE('
+<p>
+<b>傳道: </b>陳松曦 傳道, (手機)917-361-0823
 </p>
 <p>
-牧師: 林森良 牧師, (手機)917-361-6866 </br>
-傳道: 陳松曦 傳道, (手機)917-361-0823
+<b>地址: </b>1107 4609 8th Avenue, Brooklyn, NY 11220, USA
+</p>
+<p>
+<b>電話: </b>(手機) 917-361-0823
+</p>
+<p>
+<b>電郵: </b>chen_paul0620@yahoo.com
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.map/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -435,7 +501,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧 者:</td>
-			<td>黃靜 傳道 </td>
+			<td>黃靜 教授  </td>
 		</tr>
 	</tbody>
 </table>
@@ -2626,6 +2692,265 @@ update church_content set body = STRINGDECODE('<p>
 
 -----------------ends budapest
 	
+-----------------starts osaka
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Chao, Yong Ning, 0081-080311-88434</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> 0081-6-6714-5337</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsi_osaka@hotmail.co.jp">emsi_osaka@hotmail.co.jp</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>October 18, 2010
+</p>
+<p>
+<img src="/emsi/files/osaka_small[1].jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />Pastor Yang was burdened with Gospel outreach in Osaka in October 2009. We prayed earnestly for a church building. A rental property became our purchase target in in February 2010.
+</p>
+<p>It was not a smooth process to purchase a church building. The negotiation to purchase the first building failed. God’s will exceeded our expectation. He gave us a church building better than the first one. On September 3, 2010, Bishop Rev. Moses Yang came to Japan to sign the contract to purchase the building. On October 10, 2010 we held our first Worship service in a room on the third floor which required no renovation. It took us three months to renovate the building. On December 5, 2010, Superintendent Rev. Moses Yang presided over the Thanksgiving ceremony for the completion of the Japan Asia EMSI building renovation and the Osaka CEM church. There were sixteen overseas visitors attending the meeting.
+</p>
+<p>
+</p>
+
+</div>
+'	where church_id = (select church_id from church where church_path = 'osaka')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>曹永寧 傳道, 0081-080311-88434</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 日本大阪市阿倍野區天王寺町北 1丁目2-2</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 0081-6-6714-5337 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsi_osaka@hotmail.co.jp"> emsi_osaka@hotmail.co.jp</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2011年 3月
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/osaka_small[1].jpg\" align=\"left\" height=\"255\" width=\"360\" />2009年10月楊牧師有感動要在大阪發展聖工，成立教會。然而租借聚會地方的道路卻屢屢受阻。經過迫切地禱告，2010年2月一間肯租給我們當教會的地方成為我們購堂的對象。 
+購堂過程並不順利，第一間預定購買的禮拜堂買賣終止。神的旨意卻超乎所求所想，將一間更好的禮拜堂賜給我們，2010年 9月3日總監督楊摩西牧師來日本親自簽約; 簽約後開始為期約3個月的準備及裝修， 2010年10月10日我們在三樓不用裝修的房間首次禮拜; 2010年12月5日總監督楊摩西牧師親臨主持日本亞洲宣教大樓落成暨大阪基督教生命堂啟用剪彩與獻堂感恩禮拜。
+</p>
+<p>購堂過程並不順利，第一間預定購買的禮拜堂買賣終止。神的旨意卻超乎所求所想，將一間更好的禮拜堂賜給我們，2010年 9月3日總監督楊摩西牧師來日本親自簽約; 簽約後開始為期約3個月的準備及裝修， 2010年10月10日我們在三樓不用裝修的房間首次禮拜; 2010年12月5日總監督楊摩西牧師親臨主持日本亞洲宣教大樓落成暨大阪基督教生命堂啟用剪彩與獻堂感恩禮拜。
+</p>
+<p>當天海外各生命堂來賓計 16人
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'osaka')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Chao, Yong Ning, 0081-080311-88434
+</p>
+<p>
+<b>Address: </b>Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan
+</p>
+<p>
+<b>Tel #: </b>0081-6-6714-5337
+</p>
+<p>
+<b>Email: </b>emsi_osaka@hotmail.co.jp
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E6%97%A5%E6%9C%AC%E5%A4%A7%E9%98%AA%E5%B8%82%E9%98%BF%E5%80%8D%E9%87%8E%E5%8D%80%E5%A4%A9%E7%8E%8B%E5%AF%BA%E7%94%BA%E5%8C%97+1%E4%B8%81%E7%9B%AE2-2&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+%C5%8Csaka-fu,+%C5%8Csaka-shi,+Abeno-ku,+Tenn%C5%8Djich%C5%8Dkita,+%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%E2%88%92%EF%BC%92&amp;gl=us&amp;t=m&amp;z=14&amp;ll=34.646304,135.522001&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=%E6%97%A5%E6%9C%AC%E5%A4%A7%E9%98%AA%E5%B8%82%E9%98%BF%E5%80%8D%E9%87%8E%E5%8D%80%E5%A4%A9%E7%8E%8B%E5%AF%BA%E7%94%BA%E5%8C%97+1%E4%B8%81%E7%9B%AE2-2&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+%C5%8Csaka-fu,+%C5%8Csaka-shi,+Abeno-ku,+Tenn%C5%8Djich%C5%8Dkita,+%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%E2%88%92%EF%BC%92&amp;gl=us&amp;t=m&amp;z=14&amp;ll=34.646304,135.522001&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'osaka')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b>曹永寧 傳道, 0081-080311-88434
+</p>
+<p>
+<b>地址: </b>日本大阪市阿倍野區天王寺町北 1丁目2-2
+</p>
+<p>
+<b>電話:</b> 0081-6-6714-5337
+</p>
+<p>
+<b>電郵: </b>emsi_osaka@hotmail.co.jp
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E6%97%A5%E6%9C%AC%E5%A4%A7%E9%98%AA%E5%B8%82%E9%98%BF%E5%80%8D%E9%87%8E%E5%8D%80%E5%A4%A9%E7%8E%8B%E5%AF%BA%E7%94%BA%E5%8C%97+1%E4%B8%81%E7%9B%AE2-2&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+%C5%8Csaka-fu,+%C5%8Csaka-shi,+Abeno-ku,+Tenn%C5%8Djich%C5%8Dkita,+%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%E2%88%92%EF%BC%92&amp;gl=us&amp;t=m&amp;z=14&amp;ll=34.646304,135.522001&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=%E6%97%A5%E6%9C%AC%E5%A4%A7%E9%98%AA%E5%B8%82%E9%98%BF%E5%80%8D%E9%87%8E%E5%8D%80%E5%A4%A9%E7%8E%8B%E5%AF%BA%E7%94%BA%E5%8C%97+1%E4%B8%81%E7%9B%AE2-2&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+%C5%8Csaka-fu,+%C5%8Csaka-shi,+Abeno-ku,+Tenn%C5%8Djich%C5%8Dkita,+%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%E2%88%92%EF%BC%92&amp;gl=us&amp;t=m&amp;z=14&amp;ll=34.646304,135.522001&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'osaka')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(47, 'schedule', 'en', 'CEC in Osaka - Church Services Schedule', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Sunday Worship</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">11 am</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Sunday School</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">11 am</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Choir Practice</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">9:30 am</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Prayer Meeting</td>
+			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
+			<td style="padding: 0px 10px 0px 10px">7:30 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Bible Study</td>
+			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
+			<td style="padding: 0px 10px 0px 10px">8 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Japanese Bible Study</td>
+			<td style="padding: 0px 10px 0px 10px">Saturday</td>
+			<td style="padding: 0px 10px 0px 10px">7:30 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Zion Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">3rd Sunday of the month</td>
+			<td style="padding: 0px 10px 0px 10px">2 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+'));
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(47, 'schedule', 'zh', '大阪基督教生命堂 - 聚會時間', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">主日崇拜</td>
+			<td style="padding: 0px 10px 0px 10px">毎週日</td>
+			<td style="padding: 0px 10px 0px 10px">上午11点</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">兒童主日學</td>
+			<td style="padding: 0px 10px 0px 10px">毎週日</td>
+			<td style="padding: 0px 10px 0px 10px">上午11点</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">詩班練習</td>
+			<td style="padding: 0px 10px 0px 10px">毎週日</td>
+			<td style="padding: 0px 10px 0px 10px">上午9点30</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">祷告會</td>
+			<td style="padding: 0px 10px 0px 10px">毎週三</td>
+			<td style="padding: 0px 10px 0px 10px">晩上7点30分</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">査経班</td>
+			<td style="padding: 0px 10px 0px 10px">毎週三</td>
+			<td style="padding: 0px 10px 0px 10px">晩上8点</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">日語讀經班　</td>
+			<td style="padding: 0px 10px 0px 10px">毎週六</td>
+			<td style="padding: 0px 10px 0px 10px">晩上7点30分</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">鍚安圑契</td>
+			<td style="padding: 0px 10px 0px 10px">毎月第三主日</td>
+			<td style="padding: 0px 10px 0px 10px">下午2点</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+'));
+
+
+-----------------ends osaka
 	
 	
 update church_content set body = STRINGDECODE('<style>
