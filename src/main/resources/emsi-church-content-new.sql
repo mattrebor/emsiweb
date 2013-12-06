@@ -4426,19 +4426,65 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 	
 	
-update church_content set body = '<table width="500px">
-<tr>
-	<th style="width: 50%">Activity</th>
-	<th style="width: 50%">Time</th>
-</tr>
-<tr>
-	<td style="text-align: center;">Office hours:</td>
-	<td style="text-align: center;">Tuesday - Saturday 2:00pm - 6:00pm</td>
-</tr>
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(43, 'schedule', 'en', 'CEMC in Prato - Church Services Schedule', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Office hours</td>
+			<td style="padding: 0px 10px 0px 10px">Tuesday - Saturday</td>
+			<td style="padding: 0px 10px 0px 10px">2:00 pm – 6:00 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Worship Service</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">4:00 pm – 5:00 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Bible Study & Prayer Meeting</td>
+			<td style="padding: 0px 10px 0px 10px">Wednesday </td>
+			<td style="padding: 0px 10px 0px 10px">3:30 pm – 4:30 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Youth Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">The second and fourth Friday of the month</td>
+			<td style="padding: 0px 10px 0px 10px">3:30 pm – 4:30 pm</td>
+		</tr>
+	</tbody>
 </table>
-'	where church_id = (select church_id from church where church_path = 'prato')
-	and locale = 'en'
-	and page_id = 'schedule';
+
+<br/>
+'));
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(43, 'schedule', 'zh', '普拉托基督教生命堂 - 聚會時間', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">开 放 时 间</td>
+			<td style="padding: 0px 10px 0px 10px">星期二至六</td>
+			<td style="padding: 0px 10px 0px 10px">下午14:00至18:00</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">崇 拜 时 间</td>
+			<td style="padding: 0px 10px 0px 10px">礼拜天</td>
+			<td style="padding: 0px 10px 0px 10px">下午16:00至17:00</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">查 经 祷 告</td>
+			<td style="padding: 0px 10px 0px 10px">星期三</td>
+			<td style="padding: 0px 10px 0px 10px">下午15:30至16:30</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">少 年 团 契</td>
+			<td style="padding: 0px 10px 0px 10px">每月第2和第4个星期五</td>
+			<td style="padding: 0px 10px 0px 10px">下午15:30至16:30</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+'));
+
+
 -----------------ends Italy - prato
 	
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(39, 'schedule', 'en', 'CEC in Paris - Church Services Schedule', STRINGDECODE('
