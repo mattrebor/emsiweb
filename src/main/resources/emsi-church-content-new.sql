@@ -2197,7 +2197,7 @@ update church_content set body = STRINGDECODE('<p>
 	
 	
 	
----------------------update porto  pages
+---------------------update Portugal - porto  pages
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -2354,9 +2354,9 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 
------------------ end porto
+----------------- end Portugal - porto
 
------------------starts Mindelo
+-----------------starts Portugal - Mindelo
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -2530,9 +2530,9 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 
------------------ends Mindelo
+-----------------ends Portugal - Mindelo
 
------------------starts budapest
+-----------------starts Hungary - budapest
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -2690,9 +2690,56 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 
------------------ends budapest
+-----------------ends Hungary - budapest
+
+-----------------starts kobe
 	
------------------starts osaka
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Yahui Xie
+</p>
+<p>
+<b>Address: </b>Kobe-shi Chuo-ku Motomachi-dori 2-9-1 Shitsu [Room] 703, Japan
+</p>
+<p>
+<b>Tel #: </b>81-78-381-9837, (C) 81-90-1963-2717
+</p>
+<p>
+<b>Email: </b>emsi_kobe@hotmail.co.jp
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E7%A5%9E%E6%88%B6%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8D%80%E5%85%83%E7%94%BA%E9%80%9A+2-9-1+%E5%85%83%E7%94%BA+703%E5%AE%A4&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+Hy%C5%8Dgo-ken,+K%C5%8Dbe-shi,+Ch%C5%AB%C5%8D-ku,+Motomachid%C5%8Dri,+%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91+%E5%85%83%E7%94%BA%E3%83%97%E3%83%A9%E3%82%B6&amp;gl=us&amp;ll=34.688923,135.186962&amp;spn=0.006616,0.011351&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=%E7%A5%9E%E6%88%B6%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8D%80%E5%85%83%E7%94%BA%E9%80%9A+2-9-1+%E5%85%83%E7%94%BA+703%E5%AE%A4&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+Hy%C5%8Dgo-ken,+K%C5%8Dbe-shi,+Ch%C5%AB%C5%8D-ku,+Motomachid%C5%8Dri,+%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91+%E5%85%83%E7%94%BA%E3%83%97%E3%83%A9%E3%82%B6&amp;gl=us&amp;ll=34.688923,135.186962&amp;spn=0.006616,0.011351&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'kobe')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 謝雅惠 傳道
+</p>
+<p>
+<b>地址: </b>神戶市中央區元町通 2-9-1 元町 703室
+</p>
+<p>
+<b>電話:</b> 81-78-381-9837, 手机: 81-90-1963-2717
+</p>
+<p>
+<b>電郵: </b>emsi_kobe@hotmail.co.jp
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E7%A5%9E%E6%88%B6%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8D%80%E5%85%83%E7%94%BA%E9%80%9A+2-9-1+%E5%85%83%E7%94%BA+703%E5%AE%A4&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+Hy%C5%8Dgo-ken,+K%C5%8Dbe-shi,+Ch%C5%AB%C5%8D-ku,+Motomachid%C5%8Dri,+%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91+%E5%85%83%E7%94%BA%E3%83%97%E3%83%A9%E3%82%B6&amp;gl=us&amp;ll=34.688923,135.186962&amp;spn=0.006616,0.011351&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=%E7%A5%9E%E6%88%B6%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8D%80%E5%85%83%E7%94%BA%E9%80%9A+2-9-1+%E5%85%83%E7%94%BA+703%E5%AE%A4&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+Hy%C5%8Dgo-ken,+K%C5%8Dbe-shi,+Ch%C5%AB%C5%8D-ku,+Motomachid%C5%8Dri,+%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91+%E5%85%83%E7%94%BA%E3%83%97%E3%83%A9%E3%82%B6&amp;gl=us&amp;ll=34.688923,135.186962&amp;spn=0.006616,0.011351&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'kobe')
+	and locale = 'zh'
+	and page_id = 'contactus';
+	
+-----------------ends kobe
+	
+-----------------starts Japan - osaka
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -2950,9 +2997,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 '));
 
 
------------------ends osaka
+-----------------ends Japan - osaka
 	
------------------starts taipei
+-----------------starts Taiwan - taipei
 
 
 update church_content set body = '<style>
@@ -3131,7 +3178,7 @@ update church_content set body = STRINGDECODE('<p>
 
 
 
------------------ends taipei
+-----------------ends Taiwan - taipei
 
 update church_content set body = STRINGDECODE('<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -3207,8 +3254,102 @@ Counting the Lord\u2019s grace, I cannot express my praises and thanksgivings to
 ')	where church_id = (select church_id from church where church_path = 'milan')
 	and locale = 'en'
 	and page_id = 'intro';
+	
+	
+----------  starts Holland - arnhem
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Leung Ming Wong
+</p>
+<p>
+<b>Address: </b>Geograaf 13, 6921 EW Duiven, The Netherlands
+</p>
+<p>
+<b>Tel #: </b>00-31-6-1296-5512
+</p>
+<p>
+<b>Email: </b>emsiamsterdam@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Geograaf+13,+6921+EW+Duiven,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Geograaf+13,+6921+EW+Duiven,+Gelderland,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=51.962846,6.005776&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Geograaf+13,+6921+EW+Duiven,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Geograaf+13,+6921+EW+Duiven,+Gelderland,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=51.962846,6.005776&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'arnhem')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 黃良明 傳道
+</p>
+<p>
+<b>地址: </b>Geograaf 13, 6921 EW Duiven, The Netherlands
+</p>
+<p>
+<b>電話:</b> 00-31-6-1296-5512
+</p>
+<p>
+<b>電郵: </b>emsiamsterdam@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Geograaf+13,+6921+EW+Duiven,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Geograaf+13,+6921+EW+Duiven,+Gelderland,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=51.962846,6.005776&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Geograaf+13,+6921+EW+Duiven,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Geograaf+13,+6921+EW+Duiven,+Gelderland,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=51.962846,6.005776&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'arnhem')
+	and locale = 'zh'
+	and page_id = 'contactus';
 
+----------  ends Holland - arnhem
 
+----------  starts Holland - veenendaal
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Andy Chu, Ev. Ka Man Chu-Ng
+</p>
+<p>
+<b>Address: </b>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands
+</p>
+<p>
+<b>Tel #: </b>+31(0)318-76-9144 / +31(0)627-22-1338
+</p>
+<p>
+<b>Email: </b>emsiveenendaal@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Zandstraat+103,+3905+EB,+Veenendaal+,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Zandstraat+103,+3905+EB+Veenendaal,+Utrecht,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=52.028785,5.551582&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Zandstraat+103,+3905+EB,+Veenendaal+,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Zandstraat+103,+3905+EB+Veenendaal,+Utrecht,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=52.028785,5.551582&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'veenendaal')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 朱洪順 傳道, 朱吳嘉敏 傳道
+</p>
+<p>
+<b>地址: </b>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands
+</p>
+<p>
+<b>電話:</b> +31(0)318-76-9144 / +31(0)627-22-1338
+</p>
+<p>
+<b>電郵: </b>emsiveenendaal@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Zandstraat+103,+3905+EB,+Veenendaal+,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Zandstraat+103,+3905+EB+Veenendaal,+Utrecht,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=52.028785,5.551582&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Zandstraat+103,+3905+EB,+Veenendaal+,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Zandstraat+103,+3905+EB+Veenendaal,+Utrecht,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=52.028785,5.551582&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'veenendaal')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+----------  ends Holland - veenendaal
+
+---------------------starts Holland - Utrecht
 update church_content set body = STRINGDECODE('<style>
 .contact-content {
 font-family: Arial,helvetica,sans-serif
@@ -3358,7 +3499,7 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'utrecht')
 	and locale = 'zh'
 	and page_id = 'intro';
-	
+-------------- ends Holland - Utrecht	
 	
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -3553,7 +3694,7 @@ p span.label {font-weight: bold;}
 	and locale = 'en'
 	and page_id = 'intro';
 
------------ Towaco pages
+----------- USA - Towaco pages
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -4087,7 +4228,7 @@ Christian Evangelical Mission Church in Towaco
 	and locale = 'en'
 	and page_id = 'contactus';
 		
------------------  end Towaco
+-----------------  end USA - Towaco
 ----------------- starts Italy - prato	
 	
 update church_content set body = STRINGDECODE('<p>
@@ -4098,7 +4239,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Address: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
 </p>
 <p>
-<b>Tel #: </b>0039 057 4831203, (C) 0039 327 7533773
+<b>Tel #: </b>0039-057-483-1203, (C) 0039-327-753-3773
 </p>
 <p>
 <b>Email: </b>cecprato@gmail.com
@@ -4114,13 +4255,13 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b>丁業新 傳道
+<b>傳道:</b> 丁業新 傳道
 </p>
 <p>
 <b>地址: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
 </p>
 <p>
-<b>電話:</b> 0039 057 4831203, (C) 0039 327 7533773
+<b>電話:</b> 0039-057-483-1203, (C) 0039-327-753-3773
 </p>
 <p>
 <b>電郵: </b>cecprato@gmail.com
@@ -4128,12 +4269,6 @@ update church_content set body = STRINGDECODE('<p>
 
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
-</p>
-
-
-
-<p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'prato')
 	and locale = 'zh'
@@ -4250,7 +4385,7 @@ where church_id = 39
 and page_id = 'schedule'
 and locale = 'zh';
 
---------------------------starts livingston
+--------------------------starts USA - livingston
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -4387,9 +4522,9 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 	
--------- ends livingston
+-------- ends USA - livingston
 
------------------starts antwerpen
+-----------------starts Belgium - antwerpen
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -4562,4 +4697,4 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 	
-----------------  ends  antwerpen
+----------------  ends  Belgium - antwerpen
