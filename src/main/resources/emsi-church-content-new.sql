@@ -2852,7 +2852,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>陈宝珩 傳道</td>
+			<td>陳寶珩 傳道</td>
 		</tr>
 	</tbody>
 </table>
@@ -2886,7 +2886,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/biblestudydec2011.jpg\" align=\"left\" height=\"255\" width=\"360\" />2010年10月18日陈宝珩傳道受美国国际神学福音布道会差派，来到匈牙利布达佩斯开始新工场的开拓。经过四个多月耕耘撒种的前期工作，总会现在决定正式成立布达佩斯基督教生命堂。这是由杨摩西牧师领导下的美国国际神学福音佈道会属下的第47间生命堂，也是欧洲分会的第28间生命堂。
+<img hspace=\"5\" src=\"/emsi/files/biblestudydec2011.jpg\" align=\"left\" height=\"255\" width=\"360\" />2010年10月18日陳寶珩傳道受美國國際神學福音佈道會差派，來到匈牙利布達佩斯開始新工場的開拓。經過四個多月耕耘撒種的前期工作，總會決定正式成立布達佩斯基督教生命堂。這是由楊摩西牧師領導下的美國國際神學福音佈道會屬下的第47間生命堂，也是歐洲分會的第28間生命堂。
 </p>
 
 </div>
@@ -2920,7 +2920,7 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b>陈宝珩 傳道
+<b>傳道:</b>陳寶珩 傳道
 </p>
 <p>
 <b>地址: </b>1107 Budapest, Monori u.1-3. E12-1 Hungary
