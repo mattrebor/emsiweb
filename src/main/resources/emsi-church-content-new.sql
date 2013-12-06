@@ -831,11 +831,78 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 	and locale = 'en'
 	and page_id = 'intro';
 	
-update church_content set body = STRINGDECODE('<style>\r\n.contact-content {font-family: Arial,helvetica,sans-serif,\u65b0\u7d30\u660e\u9ad4 ;}\r\n.contact-content td {font-size: 14px; padding: 2px; 3px;}\r\ntd.label {font-weight: bold; width: 1%; white-space: nowrap;}\r\np span.label {font-weight: bold;}\r\n.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, \u65b0\u7d30\u660e\u9ad4; font-size: 13px; color: #333;}\r\n.borderless-table {border-width: 0px;}\r\n</style>\r\n<div class=\"contact-content\">\r\n<div style=\"color: #000000; font-size: small\">\r\n<table cellpadding=\"0\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\">\u6703\u7267:</td>\r\n\t\t\t<td>\u9673\u8302\u7965 \u7267\u5e2b</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\">\u99d0\u5802\u50b3\u9053:</td>\r\n\t\t\t<td>\u5468\u5b97\u6cc9 \u50b3\u9053, \u65b9\u654f\u83ef \u50b3\u9053</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n<br />\r\n<div style=\"margin-left: 20px\">\r\n<table cellpadding=\"1\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u5730\u5740:</td>\r\n\t\t\t<td> 73, Avenue de Verdun, 94200 Ivry sur Seine, France</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u96fb\u8a71:</td>\r\n\t\t\t<td>33-1-5846-0892</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u50b3\u771f:</td>\r\n\t\t\t<td>33-9-5455-0056</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u96fb\u90f5:</td>\r\n\t\t\t<td><a href=\"mailto:emsifrance@hotmail.com\">emsifrance@hotmail.com</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_skype.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Skype:</td>\r\n\t\t\t<td>emsifrance </td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n<hr align=\"center\" size=\"1\" width=\"100%\" />\r\n</div>\r\n<div class=\"main-content\">\r\n<p>\r\n<span class=\"label\">\u6210\u7acb\u65e5\u671f: </span>2001\u5e74 10\u6708\r\n</p>\r\n<p>\r\n<span class=\"label\">\u7c21\u53f2: </span><br />\r\n<img hspace=\"5\" src=\"/emsi/files/parissmall.jpg\" align=\"left\" height=\"255\" width=\"360\" />二○○○年四月楊摩西牧師看見巴黎福音事工的異象，從美國神學院總部組織短宣隊到巴黎佈道，在荷蘭生命堂和巴黎一些特別熱心的基督徒協助下，於十三區的一間教堂舉行兩場音樂佈道會，共有四十多人決志信主。<br/><br/>2000年七月楊摩西牧師派遣還在就讀的神學生陳茂祥夫婦於暑期間到巴黎兩場實習嘗試開拓建立生命堂的工作。陳傳道夫婦回美國繼續學習。此後，有三個月分别由吳錫安牧師、張秀蘭傳道、戚厚生牧師來巴黎短期帶領教會，期間還有荷蘭陳啟猷牧師和陳師母並一些弟兄姐妹經常來協助。<br/><br/>2001年年初美國總會憑信心購得巴黎生命堂現在使用的會所。 同年六月楊牧師差派陳茂祥夫婦和葉永春等三位神學生往巴黎生命堂開展教會，2001年10月會所裝修完畢,舉行獻堂典禮,供神學院及巴黎生命堂使用。從此，巴黎生命堂有了固定的聚會地方，屬於自己的家。<br/><br/></p>\r\n</div>\r\n')
-	where church_id = (select church_id from church where church_path = 'paris')
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">會牧:</td>
+			<td>陳茂祥 牧師</td>
+		</tr>
+		<tr>
+			<td class=\"label\">駐堂傳道:</td>
+			<td>周宗泉 傳道, 方敏華 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 73, Avenue de Verdun, 94200 Ivry sur Seine, Paris, France</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 33-1-5846-0892 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> 33-9-5455-0056 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsifrance@hotmail.com"> emsifrance@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2001年 10月
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/parissmall_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />二○○○年四月楊摩西牧師看見巴黎福音事工的異象，從美國神學院總部組織短宣隊到巴黎佈道，在荷蘭生命堂和巴黎一些特別熱心的基督徒協助下，於十三區的一間教堂舉行兩場音樂佈道會，共有四十多人決志信主。
+</p>
+<p>2000年七月楊摩西牧師派遣還在就讀的神學生陳茂祥夫婦於暑期間到巴黎兩場實習嘗試開拓建立生命堂的工作。陳傳道夫婦回美國繼續學習。此後，有三個月分别由吳錫安牧師、張秀蘭傳道、戚厚生牧師來巴黎短期帶領教會，期間還有荷蘭陳啟猷牧師和陳師母並一些弟兄姐妹經常來協助。
+</p>
+<p>2001年年初美國總會憑信心購得巴黎生命堂現在使用的會所。 同年六月楊牧師差派陳茂祥夫婦和葉永春等三位神學生往巴黎生命堂開展教會，2001年10月會所裝修完畢,舉行獻堂典禮,供神學院及巴黎生命堂使用。從此，巴黎生命堂有了固定的聚會地方，屬於自己的家。
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'paris')
 	and locale = 'zh'
 	and page_id = 'intro';
 
+	
+----------ends paris
 	
 -- North Paris
 INSERT INTO PUBLIC.CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(51, 'northparis', 1, 1, 0);  
