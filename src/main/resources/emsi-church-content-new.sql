@@ -2042,13 +2042,13 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 			<td style="padding: 0px 10px 0px 10px">10 am</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Young Adult & Professional Fellowship</td>
-			<td style="padding: 0px 10px 0px 10px">Friday</td>
+			<td style="padding: 0px 10px 0px 10px">Prayer Meeting</td>
+			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
 			<td style="padding: 0px 10px 0px 10px">7 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Prayer Meeting</td>
-			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
+			<td style="padding: 0px 10px 0px 10px">Young Adult & Professional Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">Friday</td>
 			<td style="padding: 0px 10px 0px 10px">7 pm</td>
 		</tr>
 		<tr>
@@ -2061,6 +2061,37 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 <br/>
 '));
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(12, 'schedule', 'zh', '聖河水基督教生命堂 - 聚會時間', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">主日崇拜 (中文, 印尼文)</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">上午 十 時</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">禱告會</td>
+			<td style="padding: 0px 10px 0px 10px">星期三</td>
+			<td style="padding: 0px 10px 0px 10px">晚上 七 時</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">青年及專業人士團契</td>
+			<td style="padding: 0px 10px 0px 10px">星期五</td>
+			<td style="padding: 0px 10px 0px 10px">晚 上七 時</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">南灣及東灣團契</td>
+			<td style="padding: 0px 10px 0px 10px">星期六</td>
+			<td style="padding: 0px 10px 0px 10px">下午 五時</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+'));
+
+
 
 --------------------ends sanjose
 
@@ -3398,6 +3429,8 @@ update church_content set body = STRINGDECODE('<p>
 
 -----------------ends Taiwan - taipei
 
+	
+-----------------starts Italy - milan
 update church_content set body = STRINGDECODE('<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -3472,7 +3505,75 @@ Counting the Lord\u2019s grace, I cannot express my praises and thanksgivings to
 ')	where church_id = (select church_id from church where church_path = 'milan')
 	and locale = 'en'
 	and page_id = 'intro';
-	
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>鄭恩惠 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">佈道會地址:</td>
+			<td> Via Stresa 3，20125 Milano, Italy</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">主日崇拜:</td>
+			<td> Via Melchiorre Gioia 193, 20125 Milano, Italy </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> (0039)02–7862-4031, 手机：(0039) 331-728-1265 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: gracez.777@gmail.com"> gracez.777@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2008年6月17日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/milan2011.jpg\" align=\"left\" height=\"255\" width=\"360\" />2007年3月25日，國際神學福音佈道會總監楊摩西牧師，看到福音事工的需要，與戚厚生牧師、葉建偉牧師前往意大利考察福音工場。在短短的五天內決定在意大利開展米​​蘭福音事工，並差派在美國總院畢業已回中國服事的鄭恩惠傳道，到米蘭開展拓荒工作。 （米蘭有300多萬人口，華人具體數目不清楚。）
+</p>
+<p>2008年6月，總監楊摩西牧師與吳錫安牧師、戚厚生牧師、鄭恩惠傳道在米蘭機場會合。僅僅三天的時間，租輛車子到處找聚會場所和住處，就在三位牧師要離開米蘭的前一晚，上帝給米蘭生命堂預備了超過我們所求所想的聚會場地。離米蘭中央火車站步行十幾分鐘，交通十分方便。
+</p>
+<p>2008年7月18日，楊牧師再一次到米蘭與房東簽好了合同。 7月21日進入聚會場所。 8月3日開始第一個主日禮拜，同年12月14日有20名弟兄姊妹接受洗禮。
+</p>
+<p>為了更好的開展福音事工，楊牧師決定要有大一些的場地聚會，上帝垂聽了我們的禱告，2011年2月米蘭政府批准，借用天主教堂下面的一個場地聚會，能容納200多人，離佈道會步行5分鐘的路程，上帝預備的總是超過我們所求所想。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'milan')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+
+----------ends Italy - milan
 	
 ----------  starts Holland - arnhem
 	
@@ -4447,7 +4548,81 @@ Christian Evangelical Mission Church in Towaco
 	and page_id = 'contactus';
 		
 -----------------  end USA - Towaco
+
+	
 ----------------- starts Italy - prato	
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>丁業新 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Piazza San Domenico 10, 59100, Prato (PO), Italy</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 0039-057-483-1203, (C) 0039-327-753-3773 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: cecprato@gmail.com"> cecprato@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2010年 8月8日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/prato_small_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />讚美全能的上帝帶領義大利普拉托生命堂走過了兩年。2011年八月7日普拉托生命堂慶祝成立週年，感謝上帝在過去一年的引領及賜福！
+</p>
+<p>2010年初，陳啟猷牧師夫婦發現義大利普拉托有很多華人。於是，2010年七月5日，國際福音佈道會差派短宣隊由陳啟猷牧師及師母帶領，從荷蘭到義大利普拉托。隊員包括荷蘭高寧根生命堂的于洪友、馮洁琳一對年輕的夫婦及我。
+</p>
+<p>短宣隊主要的目的是向華人傳福音, 同時尋找主日聚會的場地及傳道人的住處。短宣隊的禱告是，如果上帝要國際神學福音佈道會在普拉托成立生命堂，那麼短宣隊就應該會在兩到三個月內找到這兩個場地。
+</p>
+<p>感謝上帝帶領，陳牧師夫婦很快地就遇見一位能說英文的房屋仲介，這位仲介很快地就幫我找到了住所，並在Piazza San Domenico找到一間可為教會所用的地方。這些事都是在短宣隊到達普拉托的第一個星期發生。感謝主，事情有了進展，因此我們更有信心向前，也看見上帝的旨意相當清楚了。
+</p>
+<p>一個星期後，陳牧師夫婦離開普拉托，繼續他們其他的事工。我、于洪友及馮洁琳夫婦三人繼續在普拉托的工作。2010年八月初，上帝差派烏特勒生命堂的丁業新弟兄來協助我們一個月。而普拉托生命堂就在八月的第一個主日，八月八日正式於Piazza San Domenico成立，有五位會友參加第一次主日崇拜。十月底妻子舒祺來普拉托, 我們全家終於一起事奉；教會的人數很快地增長，平均主日的人數約有十人左右(不包括孩童) 。
+</p>
+<p>2010年成立 一年，普拉托生命堂聚會的人數平均已有十五人了。感謝主，藉著普拉托生命堂已帶領超過一百人接受基督的福音了。
+</p>
+<p>過去兩年中，許多人忠心地為普拉托宣教事工禱告。不論是國際福音神學院的學生和同工每天早晨的跪地禱告、海牙生命堂青年團契和同工的禱告，以及知道宣教教會重要，而自動地為我們的代禱，都震動了上帝大能的手。謝謝大家的代禱，也請弟兄姐妹們繼續為普拉托生命堂有更豐盛的福音收穫禱告！
+</p>
+<p>於是對門徒說：要收的莊稼多，做工的人少。所以，你們當求莊稼的主打發工人出去收他的莊稼。 (馬太福音九章37-38)
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'prato')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
