@@ -1964,6 +1964,37 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
+	
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(12, 'schedule', 'en', 'IEC in San Jose - Church Services Schedule', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Sunday Services (Indonesian & English)</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">10 am</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Young Adult & Professional Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">Friday</td>
+			<td style="padding: 0px 10px 0px 10px">7 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Prayer Meeting</td>
+			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
+			<td style="padding: 0px 10px 0px 10px">7 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">South Bay & East Bay Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">Saturday</td>
+			<td style="padding: 0px 10px 0px 10px">5 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+'));
+
 --------------------ends sanjose
 
 ---------------------update porto alto - portugal pages
@@ -3814,7 +3845,7 @@ p span.label {font-weight: bold;}
 	and locale = 'en'
 	and page_id = 'intro';
 
------------ USA - Towaco pages
+----------- starts USA - Towaco pages
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
