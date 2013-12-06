@@ -2024,7 +2024,7 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Pastor:</td>
+			<td class="label">Senior Pastor:</td>
 			<td>Rev. Yue Ping Chen, (cell) 351-963-333-777</td>
 		</tr>
 	</tbody>
@@ -2144,7 +2144,7 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor: </b>Rev. Yue Ping Chen, (cell) 351-963-333-777
+<b>Senior Pastor: </b>Rev. Yue Ping Chen, (cell) 351-963-333-777
 </p>
 <p>
 <b>Address: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
@@ -4088,7 +4088,58 @@ Christian Evangelical Mission Church in Towaco
 	and page_id = 'contactus';
 		
 -----------------  end Towaco
+----------------- starts Italy - prato	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Martin Ding
+</p>
+<p>
+<b>Address: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
+</p>
+<p>
+<b>Tel #: </b>0039 057 4831203, (C) 0039 327 7533773
+</p>
+<p>
+<b>Email: </b>cecprato@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'prato')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b>丁業新 傳道
+</p>
+<p>
+<b>地址: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
+</p>
+<p>
+<b>電話:</b> 0039 057 4831203, (C) 0039 327 7533773
+</p>
+<p>
+<b>電郵: </b>cecprato@gmail.com
+</p>
 
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+
+
+
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'prato')
+	and locale = 'zh'
+	and page_id = 'contactus';
+	
+	
 update church_content set body = '<table width="500px">
 <tr>
 	<th style="width: 50%">Activity</th>
@@ -4102,7 +4153,7 @@ update church_content set body = '<table width="500px">
 '	where church_id = (select church_id from church where church_path = 'prato')
 	and locale = 'en'
 	and page_id = 'schedule';
-
+-----------------ends Italy - prato
 	
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(39, 'schedule', 'en', 'CEC in Paris - Church Services Schedule', STRINGDECODE('
 <table  border="1">
@@ -4353,7 +4404,7 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Senior Pastor:</td>
+			<td class="label">Pastor:</td>
 			<td>Rev. Mix Chan</td>
 		</tr>
 	</tbody>
@@ -4464,7 +4515,7 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Senior Pastor: </b>Rev. Mix Chan
+<b>Pastor: </b>Rev. Mix Chan
 </p>
 <p>
 <b>Address: </b>Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium
