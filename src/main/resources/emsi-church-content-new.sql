@@ -1783,7 +1783,7 @@ Subway: #2 line, # 5 line getting off at Sagrada Familia station, #2 line: exit 
 	and locale = 'en'
 	and page_id = 'intro';	
 
-
+------------starts sanjose
 update church_content set body = STRINGDECODE('<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -1812,7 +1812,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>600 West Campbell Avenue, Campbell, CA 95008</td>
+			<td>600 West Campbell Avenue, Campbell CA 95008  USA</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -1845,6 +1845,126 @@ Thanks and praises to the Lord!  For the past 24 years, God\u2019s wondrous work
 ')	where church_id = (select church_id from church where church_path = 'sanjose')
 	and locale = 'en'
 	and page_id = 'intro';
+	
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">主任牧師:</td>
+			<td>何兆威 牧師, 415-309-5661</td>
+		</tr>
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>莊恭進 牧師, 510-972-0473</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 600 West Campbell Avenue, Campbell CA 95008 USA</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 510-972-0473 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: timotiuschuang@yahoo.com"> timotiuschuang@yahoo.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1985年 9月 22日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/images/church_sanjose.jpg\" align=\"left\" height=\"255\" width=\"360\" />聖河水基督教生命堂，在印尼同胞的需求和國際神學福音佈道會支持下，於一九八五年九月廿二日正式成立。
+</p>
+<p>當教會初成立時， 參與崇拜的人數不過十幾人，隨著教會聖工的日漸發展，上帝不斷把得救人數加添給我們。聚會場地也隨著人數的增長而幾經更遷。廿四年當中，我們曾經租用別人的地方，但於一九九○年十一月遷入第一個屬於自己的禮拜堂，然而十年後，禮拜堂再度因為聚會人數增添， 兒童主日學和少年團契人數增加而不敷使用。因此，近幾年來，每週三和週五晚上，我們需租用市政府老人中心舉行禱告會和青年團契，每週日需租用美國安息日會的禮堂和教室聚會。面對這些困難，我們持續不斷地禱告，求主開恩，讓我們可以早日得到更大的禮拜堂發展聖工。如今我們不斷地觀察， 盼望可以看到適合的地方購作自己的禮拜堂，拓展神的聖工。
+</p>
+<p>本教會的事工發展包括差傳佈道、門徒訓練、關懷培談、及平信徒聖經學校。弟兄姐妹在這幾方面的事工非常積極地參與及支持，每年都看見上帝把得救人數加添在我們的教會裡。目前教會不單用印尼文崇拜，也開始了英文崇拜。
+</p>
+<p>感謝讚美主！廿四年來，看見祂奇妙的作為顯明在我們當中，使教會裡多人得救，信徒靈性得堅固和造就。正如經文所說：「上帝能照著運行在我們心裡的大力，充充足足的成就一切，超過我們所求所想的，但願他在教會中，並在基督耶穌裡，得著榮耀，直到世世代代、永永遠遠，阿們！」
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'sanjose')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Senior Pastor: </b>Rev. Stephen Hosea, 415-309-5661
+</p>
+<p>
+<b>Pastor: </b>Rev. Timotius Tjing, 510-972-0473
+</p>
+<p>
+<b>Address: </b>600 West Campbell Avenue, Campbell CA 95008 USA
+</p>
+<p>
+<b>Tel #: </b>510-972-0473
+</p>
+<p>
+<b>Email: </b>timotiuschuang@yahoo.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=600+West+Campbell+Avenue,+Campbell+CA+95008+USA&hnear=600+W+Campbell+Ave,+Campbell,+California+95008&gl=us&t=m&z=16&amp;z=17&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=600+West+Campbell+Avenue,+Campbell+CA+95008+USA&hnear=600+W+Campbell+Ave,+Campbell,+California+95008&gl=us&t=m&z=16&amp;z=17&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'sanjose')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>主任牧師:</b> 	何兆威 牧師,  415-309-5661
+</p>
+<p>
+<b>牧師:</b> 莊恭進 牧師,  510-972-0473
+</p>
+<p>
+<b>地址: </b>600 West Campbell Avenue, Campbell CA 95008 USA
+</p>
+<p>
+<b>電話:</b> 510-972-0473
+</p>
+<p>
+<b>電郵: </b>timotiuschuang@yahoo.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=600+West+Campbell+Avenue,+Campbell+CA+95008+USA&hnear=600+W+Campbell+Ave,+Campbell,+California+95008&gl=us&t=m&z=16&amp;z=17&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=600+West+Campbell+Avenue,+Campbell+CA+95008+USA&hnear=600+W+Campbell+Ave,+Campbell,+California+95008&gl=us&t=m&z=16&amp;z=17&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'sanjose')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+--------------------ends sanjose
 
 ---------------------update porto alto - portugal pages
 
