@@ -70,6 +70,65 @@ update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prat
 update church set address='Osaka, Osaka Prefecture, Japan', latitude = 34.69373780, longitude = 135.50216510 where church_path = 'osaka';
 
 ---------------------update Brooklyn intro page
+
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td> Ev. Paul Cheng, (c) 917-361-0823</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> 4609 8th Avenue, Brooklyn, NY 11220 USA</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> (C) 917-361-0823</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:chen_paul0620@yahoo.com">chen_paul0620@yahoo.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>August 3, 2009
+</p>
+<p>
+CEM Church in Brooklyn was established on August 3, 2009 when CEM Bishop Moses Yang noted the increasing Chinese population in Brooklyn.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'brooklyn')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -81,10 +140,6 @@ p span.label {font-weight: bold;}
 <div style=\"color: #000000; font-size: small\">
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
-		<tr>
-			<td class=\"label\">牧師:</td>
-			<td>林森良 牧師 , (手機)917-361-6866</td>
-		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
 			<td>陳松曦 傳道, (手機)917-361-0823</td>
@@ -127,10 +182,10 @@ p span.label {font-weight: bold;}
 目前除了每週崇拜聚會外，還有查經班。聚會時間如下：
 </p>
 <p>
-崇拜時間： 每週—下午5:30—6:45 P.M.
+崇拜 : 每週一下午2:00—3:30 P.M.
 </p>
 <p>
-查經禱告會: 每週—下午5:30—7:00 P.M.
+查經禱告會: 每週一下午3:30—4:00 P.M.
 </p>
 </div>
 ')	where church_id = (select church_id from church where church_path = 'brooklyn')
@@ -138,14 +193,19 @@ p span.label {font-weight: bold;}
 	and page_id = 'intro';
 	
 	
-update church_content set body = STRINGDECODE('<p>
-<b>Address: </b>4609 8th Avenue, Brooklyn, NY 11220, USA
+update church_content set body = STRINGDECODE('
+<p>
+<b>Evangelist: </b>Ev. Paul Cheng, (c) 917-361-0823
 </p>
 <p>
-Pastor #: Rev. SenLiang Lin, (cell) 917-361-6866 </br>
-Evangelist #: Ev. Paul Cheng, (cell) 917-361-0823
+<b>Address: </b>1107 4609 8th Avenue, Brooklyn, NY 11220, USA
 </p>
-<b>Directions:</b> 
+<p>
+<b>Tel #: </b>(c) 917-361-0823
+</p>
+<p>
+<b>Email: </b>chen_paul0620@yahoo.com
+</p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
@@ -154,12 +214,18 @@ Evangelist #: Ev. Paul Cheng, (cell) 917-361-0823
 	and page_id = 'contactus';
 
 	
-update church_content set body = STRINGDECODE('<p>
-<b>地址: </b>4609 8th Avenue, Brooklyn, NY 11220, USA
+update church_content set body = STRINGDECODE('
+<p>
+<b>傳道: </b>陳松曦 傳道, (手機)917-361-0823
 </p>
 <p>
-牧師: 林森良 牧師, (手機)917-361-6866 </br>
-傳道: 陳松曦 傳道, (手機)917-361-0823
+<b>地址: </b>1107 4609 8th Avenue, Brooklyn, NY 11220, USA
+</p>
+<p>
+<b>電話: </b>(手機) 917-361-0823
+</p>
+<p>
+<b>電郵: </b>chen_paul0620@yahoo.com
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.map/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -423,7 +489,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧 者:</td>
-			<td>黃靜 傳道 </td>
+			<td>黃靜 教授  </td>
 		</tr>
 	</tbody>
 </table>
@@ -753,11 +819,78 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 	and locale = 'en'
 	and page_id = 'intro';
 	
-update church_content set body = STRINGDECODE('<style>\r\n.contact-content {font-family: Arial,helvetica,sans-serif,\u65b0\u7d30\u660e\u9ad4 ;}\r\n.contact-content td {font-size: 14px; padding: 2px; 3px;}\r\ntd.label {font-weight: bold; width: 1%; white-space: nowrap;}\r\np span.label {font-weight: bold;}\r\n.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, \u65b0\u7d30\u660e\u9ad4; font-size: 13px; color: #333;}\r\n.borderless-table {border-width: 0px;}\r\n</style>\r\n<div class=\"contact-content\">\r\n<div style=\"color: #000000; font-size: small\">\r\n<table cellpadding=\"0\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\">\u6703\u7267:</td>\r\n\t\t\t<td>\u9673\u8302\u7965 \u7267\u5e2b</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\">\u99d0\u5802\u50b3\u9053:</td>\r\n\t\t\t<td>\u5468\u5b97\u6cc9 \u50b3\u9053, \u65b9\u654f\u83ef \u50b3\u9053</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n<br />\r\n<div style=\"margin-left: 20px\">\r\n<table cellpadding=\"1\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u5730\u5740:</td>\r\n\t\t\t<td> 73, Avenue de Verdun, 94200 Ivry sur Seine, France</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u96fb\u8a71:</td>\r\n\t\t\t<td>33-1-5846-0892</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u50b3\u771f:</td>\r\n\t\t\t<td>33-9-5455-0056</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u96fb\u90f5:</td>\r\n\t\t\t<td><a href=\"mailto:emsifrance@hotmail.com\">emsifrance@hotmail.com</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_skype.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Skype:</td>\r\n\t\t\t<td>emsifrance </td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n<hr align=\"center\" size=\"1\" width=\"100%\" />\r\n</div>\r\n<div class=\"main-content\">\r\n<p>\r\n<span class=\"label\">\u6210\u7acb\u65e5\u671f: </span>2001\u5e74 10\u6708\r\n</p>\r\n<p>\r\n<span class=\"label\">\u7c21\u53f2: </span><br />\r\n<img hspace=\"5\" src=\"/emsi/files/parissmall.jpg\" align=\"left\" height=\"255\" width=\"360\" />二○○○年四月楊摩西牧師看見巴黎福音事工的異象，從美國神學院總部組織短宣隊到巴黎佈道，在荷蘭生命堂和巴黎一些特別熱心的基督徒協助下，於十三區的一間教堂舉行兩場音樂佈道會，共有四十多人決志信主。<br/><br/>2000年七月楊摩西牧師派遣還在就讀的神學生陳茂祥夫婦於暑期間到巴黎兩場實習嘗試開拓建立生命堂的工作。陳傳道夫婦回美國繼續學習。此後，有三個月分别由吳錫安牧師、張秀蘭傳道、戚厚生牧師來巴黎短期帶領教會，期間還有荷蘭陳啟猷牧師和陳師母並一些弟兄姐妹經常來協助。<br/><br/>2001年年初美國總會憑信心購得巴黎生命堂現在使用的會所。 同年六月楊牧師差派陳茂祥夫婦和葉永春等三位神學生往巴黎生命堂開展教會，2001年10月會所裝修完畢,舉行獻堂典禮,供神學院及巴黎生命堂使用。從此，巴黎生命堂有了固定的聚會地方，屬於自己的家。<br/><br/></p>\r\n</div>\r\n')
-	where church_id = (select church_id from church where church_path = 'paris')
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">會牧:</td>
+			<td>陳茂祥 牧師</td>
+		</tr>
+		<tr>
+			<td class=\"label\">駐堂傳道:</td>
+			<td>周宗泉 傳道, 方敏華 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 73, Avenue de Verdun, 94200 Ivry sur Seine, Paris, France</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 33-1-5846-0892 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> 33-9-5455-0056 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsifrance@hotmail.com"> emsifrance@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2001年 10月
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/parissmall_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />二○○○年四月楊摩西牧師看見巴黎福音事工的異象，從美國神學院總部組織短宣隊到巴黎佈道，在荷蘭生命堂和巴黎一些特別熱心的基督徒協助下，於十三區的一間教堂舉行兩場音樂佈道會，共有四十多人決志信主。
+</p>
+<p>2000年七月楊摩西牧師派遣還在就讀的神學生陳茂祥夫婦於暑期間到巴黎兩場實習嘗試開拓建立生命堂的工作。陳傳道夫婦回美國繼續學習。此後，有三個月分别由吳錫安牧師、張秀蘭傳道、戚厚生牧師來巴黎短期帶領教會，期間還有荷蘭陳啟猷牧師和陳師母並一些弟兄姐妹經常來協助。
+</p>
+<p>2001年年初美國總會憑信心購得巴黎生命堂現在使用的會所。 同年六月楊牧師差派陳茂祥夫婦和葉永春等三位神學生往巴黎生命堂開展教會，2001年10月會所裝修完畢,舉行獻堂典禮,供神學院及巴黎生命堂使用。從此，巴黎生命堂有了固定的聚會地方，屬於自己的家。
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'paris')
 	and locale = 'zh'
 	and page_id = 'intro';
 
+	
+----------ends paris
 	
 -- North Paris
 INSERT INTO PUBLIC.CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(51, 'northparis', 1, 1, 0);  
@@ -1705,7 +1838,7 @@ Subway: #2 line, # 5 line getting off at Sagrada Familia station, #2 line: exit 
 	and locale = 'en'
 	and page_id = 'intro';	
 
-
+------------starts sanjose
 update church_content set body = STRINGDECODE('<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -1734,7 +1867,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>600 West Campbell Avenue, Campbell, CA 95008</td>
+			<td>600 West Campbell Avenue, Campbell CA 95008  USA</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -1767,6 +1900,188 @@ Thanks and praises to the Lord!  For the past 24 years, God\u2019s wondrous work
 ')	where church_id = (select church_id from church where church_path = 'sanjose')
 	and locale = 'en'
 	and page_id = 'intro';
+	
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">主任牧師:</td>
+			<td>何兆威 牧師, 415-309-5661</td>
+		</tr>
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>莊恭進 牧師, 510-972-0473</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 600 West Campbell Avenue, Campbell CA 95008 USA</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 510-972-0473 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: timotiuschuang@yahoo.com"> timotiuschuang@yahoo.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1985年 9月 22日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/images/church_sanjose.jpg\" align=\"left\" height=\"255\" width=\"360\" />聖河水基督教生命堂，在印尼同胞的需求和國際神學福音佈道會支持下，於一九八五年九月廿二日正式成立。
+</p>
+<p>當教會初成立時， 參與崇拜的人數不過十幾人，隨著教會聖工的日漸發展，上帝不斷把得救人數加添給我們。聚會場地也隨著人數的增長而幾經更遷。廿四年當中，我們曾經租用別人的地方，但於一九九○年十一月遷入第一個屬於自己的禮拜堂，然而十年後，禮拜堂再度因為聚會人數增添， 兒童主日學和少年團契人數增加而不敷使用。因此，近幾年來，每週三和週五晚上，我們需租用市政府老人中心舉行禱告會和青年團契，每週日需租用美國安息日會的禮堂和教室聚會。面對這些困難，我們持續不斷地禱告，求主開恩，讓我們可以早日得到更大的禮拜堂發展聖工。如今我們不斷地觀察， 盼望可以看到適合的地方購作自己的禮拜堂，拓展神的聖工。
+</p>
+<p>本教會的事工發展包括差傳佈道、門徒訓練、關懷培談、及平信徒聖經學校。弟兄姐妹在這幾方面的事工非常積極地參與及支持，每年都看見上帝把得救人數加添在我們的教會裡。目前教會不單用印尼文崇拜，也開始了英文崇拜。
+</p>
+<p>感謝讚美主！廿四年來，看見祂奇妙的作為顯明在我們當中，使教會裡多人得救，信徒靈性得堅固和造就。正如經文所說：「上帝能照著運行在我們心裡的大力，充充足足的成就一切，超過我們所求所想的，但願他在教會中，並在基督耶穌裡，得著榮耀，直到世世代代、永永遠遠，阿們！」
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'sanjose')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Senior Pastor: </b>Rev. Stephen Hosea, 415-309-5661
+</p>
+<p>
+<b>Pastor: </b>Rev. Timotius Tjing, 510-972-0473
+</p>
+<p>
+<b>Address: </b>600 West Campbell Avenue, Campbell CA 95008 USA
+</p>
+<p>
+<b>Tel #: </b>510-972-0473
+</p>
+<p>
+<b>Email: </b>timotiuschuang@yahoo.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=600+West+Campbell+Avenue,+Campbell+CA+95008+USA&hnear=600+W+Campbell+Ave,+Campbell,+California+95008&gl=us&t=m&z=16&amp;z=17&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=600+West+Campbell+Avenue,+Campbell+CA+95008+USA&hnear=600+W+Campbell+Ave,+Campbell,+California+95008&gl=us&t=m&z=16&amp;z=17&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'sanjose')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>主任牧師:</b> 	何兆威 牧師,  415-309-5661
+</p>
+<p>
+<b>牧師:</b> 莊恭進 牧師,  510-972-0473
+</p>
+<p>
+<b>地址: </b>600 West Campbell Avenue, Campbell CA 95008 USA
+</p>
+<p>
+<b>電話:</b> 510-972-0473
+</p>
+<p>
+<b>電郵: </b>timotiuschuang@yahoo.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=600+West+Campbell+Avenue,+Campbell+CA+95008+USA&hnear=600+W+Campbell+Ave,+Campbell,+California+95008&gl=us&t=m&z=16&amp;z=17&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=600+West+Campbell+Avenue,+Campbell+CA+95008+USA&hnear=600+W+Campbell+Ave,+Campbell,+California+95008&gl=us&t=m&z=16&amp;z=17&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'sanjose')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+	
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(12, 'schedule', 'en', 'IEC in San Jose - Church Services Schedule', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Sunday Services (Indonesian & English)</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">10 am</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Prayer Meeting</td>
+			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
+			<td style="padding: 0px 10px 0px 10px">7 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Young Adult & Professional Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">Friday</td>
+			<td style="padding: 0px 10px 0px 10px">7 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">South Bay & East Bay Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">Saturday</td>
+			<td style="padding: 0px 10px 0px 10px">5 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+'));
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(12, 'schedule', 'zh', '聖河水基督教生命堂 - 聚會時間', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">主日崇拜 (中文, 印尼文)</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">上午 十 時</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">禱告會</td>
+			<td style="padding: 0px 10px 0px 10px">星期三</td>
+			<td style="padding: 0px 10px 0px 10px">晚上 七 時</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">青年及專業人士團契</td>
+			<td style="padding: 0px 10px 0px 10px">星期五</td>
+			<td style="padding: 0px 10px 0px 10px">晚 上七 時</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">南灣及東灣團契</td>
+			<td style="padding: 0px 10px 0px 10px">星期六</td>
+			<td style="padding: 0px 10px 0px 10px">下午 五時</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+'));
+
+
+
+--------------------ends sanjose
 
 ---------------------update porto alto - portugal pages
 
@@ -1946,7 +2261,7 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Pastor:</td>
+			<td class="label">Senior Pastor:</td>
 			<td>Rev. Yue Ping Chen, (cell) 351-963-333-777</td>
 		</tr>
 	</tbody>
@@ -2066,7 +2381,7 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor: </b>Rev. Yue Ping Chen, (cell) 351-963-333-777
+<b>Senior Pastor: </b>Rev. Yue Ping Chen, (cell) 351-963-333-777
 </p>
 <p>
 <b>Address: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
@@ -2119,7 +2434,7 @@ update church_content set body = STRINGDECODE('<p>
 	
 	
 	
----------------------update porto  pages
+---------------------update Portugal - porto  pages
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -2276,12 +2591,834 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 
------------------ end porto
+----------------- end Portugal - porto
+
+-----------------starts Portugal - Mindelo
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Chang Yu Zhou</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> 351-252-612-642/ (C) 351-962-222-221</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td> 351-218-868-370</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsimindelo@hotmail.com">emsimindelo@hotmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>June 11, 2006
+</p>
+<p>
+CEC in Mindelo was established on June 11, 2006 in the Mindelo Warehouse Wholesale district in Porto. At the time the warehouse wholesale business in Porto had expanded quickly to Mindelo and many Chinese went to Mindelo to start the wholesale business there. There are around 100 stores in the Mindelo warehouse district and the population reached up to a thousand. It is a great gospel field so the CEM in Portugal decided to start the CEC in Mindelo.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'mindelo')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>周長宇 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 351-252-612-642/ (C) 351-962-222-221 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> 351-218-868-370 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsimindelo@hotmail.com"> emsimindelo@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2006 年  六月十一日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />近年來，葡萄牙波爾圖開發明德路倉庫批發區，發展相當迅速，有一部份中國人馬上跟進，邁向明德路倉庫批發區開拓市場。明德路倉庫批發區約有一百多家店面，人口近千人，是一個較大的福音禾場；所以，葡萄牙福音佈道會根據實際的需要，在二○○六年六月十一日在葡萄牙波爾圖明德路倉庫批發區成立了明德路基督教生命堂。
+這間生命堂的成立，有很多感人的見證，是主的大能感動弟兄姐妹們一個個願意奉獻！感謝主，哈利路亞！願主大大地使用明德路生命堂！願聚會的人數天天加增！把一切的榮耀歸給我們的主耶穌基督！阿們。
+
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'mindelo')
+	and locale = 'zh'
+	and page_id = 'intro';
 
 	
 	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Chang Yu Zhou
+</p>
+<p>
+<b>Address: </b>Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal
+</p>
+<p>
+<b>Tel #: </b> 351-252-612-642/ (C) 351-962-222-221
+</p>
+<p>
+<b>Fax #: </b>351-218-868-370
+</p>
+<p>
+<b>Email: </b>emsimindelo@hotmail.com
+</p>
+<p>
+</p>
+')	where church_id = (select church_id from church where church_path = 'mindelo')
+	and locale = 'en'
+	and page_id = 'contactus';
 	
 	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道 :</b> 周長宇 傳道 
+</p>
+<p>
+<b>地址: </b>Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal
+</p>
+<p>
+<b>電話:</b> 351-252-612-642/ (C) 351-962-222-221
+</p>
+<p>
+<b>傳真: </b>351-218-868-370
+</p>
+<p>
+<b>電郵: </b>emsimindelo@hotmail.com
+</p>
+---test
+<p>
+</p>
+')	where church_id = (select church_id from church where church_path = 'mindelo')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+-----------------ends Portugal - Mindelo
+
+-----------------starts Hungary - budapest
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Angela Chen</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> 1107 Budapest, Monori u.1-3. E12-1 Hungary</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> 36-30-408-6398, 36-70-501-3123</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsibudapest@gmail.com">emsibudapest@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>October 18, 2010
+</p>
+<p>
+<img src="/emsi/files/biblestudydec2011.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />On October 18, 2010, Christian Evangelical Mission International sent Ev. Angela Chen to Budapest, Hungary as a missionary. After four months of labor, CEMC in Budapest is established. This is the 47th CEM church established by the Evangelical Mission and Seminary International under the leadership of Rev. Moses Yang. It is also the 28th CEM church established by the CEMI in Europe.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'budapest')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>陳寶珩 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 1107 Budapest, Monori u.1-3. E12-1 Hungary</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 36-30-408-6398, 36-70-501-3123 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsibudapest@gmail.com"> emsibudapest@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2011年 3月
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/biblestudydec2011.jpg\" align=\"left\" height=\"255\" width=\"360\" />2010年10月18日陳寶珩傳道受美國國際神學福音佈道會差派，來到匈牙利布達佩斯開始新工場的開拓。經過四個多月耕耘撒種的前期工作，總會決定正式成立布達佩斯基督教生命堂。這是由楊摩西牧師領導下的美國國際神學福音佈道會屬下的第47間生命堂，也是歐洲分會的第28間生命堂。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'budapest')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Angela Chen
+</p>
+<p>
+<b>Address: </b>1107 Budapest, Monori u.1-3. E12-1 Hungary
+</p>
+<p>
+<b>Tel #: </b>36-30-408-6398, 36-70-501-3123
+</p>
+<p>
+<b>Email: </b>emsibudapest@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1107+Budapest,+Monori+u.1-3.+E12-1+Hungary&ie=UTF8&ll=47.480553,19.128056&spn=0.020129,0.038023&hnear=1101+Budapest,+X.+ker%C3%BClet,+Monori+utca+1,+Hungary&gl=us&t=m&z=14;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Ramp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'budapest')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b>陳寶珩 傳道
+</p>
+<p>
+<b>地址: </b>1107 Budapest, Monori u.1-3. E12-1 Hungary
+</p>
+<p>
+<b>電話:</b> 36-30-408-6398, 36-70-501-3123
+</p>
+<p>
+<b>電郵: </b>emsibudapest@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1107+Budapest,+Monori+u.1-3.+E12-1+Hungary&ie=UTF8&ll=47.480553,19.128056&spn=0.020129,0.038023&hnear=1101+Budapest,+X.+ker%C3%BClet,+Monori+utca+1,+Hungary&gl=us&t=m&z=14;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Ramp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'budapest')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+-----------------ends Hungary - budapest
+
+-----------------starts kobe
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Yahui Xie
+</p>
+<p>
+<b>Address: </b>Kobe-shi Chuo-ku Motomachi-dori 2-9-1 Shitsu [Room] 703, Japan
+</p>
+<p>
+<b>Tel #: </b>81-78-381-9837, (C) 81-90-1963-2717
+</p>
+<p>
+<b>Email: </b>emsi_kobe@hotmail.co.jp
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E7%A5%9E%E6%88%B6%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8D%80%E5%85%83%E7%94%BA%E9%80%9A+2-9-1+%E5%85%83%E7%94%BA+703%E5%AE%A4&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+Hy%C5%8Dgo-ken,+K%C5%8Dbe-shi,+Ch%C5%AB%C5%8D-ku,+Motomachid%C5%8Dri,+%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91+%E5%85%83%E7%94%BA%E3%83%97%E3%83%A9%E3%82%B6&amp;gl=us&amp;ll=34.688923,135.186962&amp;spn=0.006616,0.011351&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=%E7%A5%9E%E6%88%B6%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8D%80%E5%85%83%E7%94%BA%E9%80%9A+2-9-1+%E5%85%83%E7%94%BA+703%E5%AE%A4&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+Hy%C5%8Dgo-ken,+K%C5%8Dbe-shi,+Ch%C5%AB%C5%8D-ku,+Motomachid%C5%8Dri,+%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91+%E5%85%83%E7%94%BA%E3%83%97%E3%83%A9%E3%82%B6&amp;gl=us&amp;ll=34.688923,135.186962&amp;spn=0.006616,0.011351&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'kobe')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 謝雅惠 傳道
+</p>
+<p>
+<b>地址: </b>神戶市中央區元町通 2-9-1 元町 703室
+</p>
+<p>
+<b>電話:</b> 81-78-381-9837, 手机: 81-90-1963-2717
+</p>
+<p>
+<b>電郵: </b>emsi_kobe@hotmail.co.jp
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E7%A5%9E%E6%88%B6%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8D%80%E5%85%83%E7%94%BA%E9%80%9A+2-9-1+%E5%85%83%E7%94%BA+703%E5%AE%A4&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+Hy%C5%8Dgo-ken,+K%C5%8Dbe-shi,+Ch%C5%AB%C5%8D-ku,+Motomachid%C5%8Dri,+%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91+%E5%85%83%E7%94%BA%E3%83%97%E3%83%A9%E3%82%B6&amp;gl=us&amp;ll=34.688923,135.186962&amp;spn=0.006616,0.011351&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=%E7%A5%9E%E6%88%B6%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8D%80%E5%85%83%E7%94%BA%E9%80%9A+2-9-1+%E5%85%83%E7%94%BA+703%E5%AE%A4&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+Hy%C5%8Dgo-ken,+K%C5%8Dbe-shi,+Ch%C5%AB%C5%8D-ku,+Motomachid%C5%8Dri,+%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91+%E5%85%83%E7%94%BA%E3%83%97%E3%83%A9%E3%82%B6&amp;gl=us&amp;ll=34.688923,135.186962&amp;spn=0.006616,0.011351&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'kobe')
+	and locale = 'zh'
+	and page_id = 'contactus';
+	
+-----------------ends kobe
+	
+-----------------starts Japan - osaka
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Chao, Yong Ning, 0081-080311-88434</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> 0081-6-6714-5337</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsi_osaka@hotmail.co.jp">emsi_osaka@hotmail.co.jp</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>October 18, 2010
+</p>
+<p>
+<img src="/emsi/files/osaka_small[1].jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />Pastor Yang was burdened with Gospel outreach in Osaka in October 2009. We prayed earnestly for a church building. A rental property became our purchase target in in February 2010.
+</p>
+<p>It was not a smooth process to purchase a church building. The negotiation to purchase the first building failed. God’s will exceeded our expectation. He gave us a church building better than the first one. On September 3, 2010, Bishop Rev. Moses Yang came to Japan to sign the contract to purchase the building. On October 10, 2010 we held our first Worship service in a room on the third floor which required no renovation. It took us three months to renovate the building. On December 5, 2010, Superintendent Rev. Moses Yang presided over the Thanksgiving ceremony for the completion of the Japan Asia EMSI building renovation and the Osaka CEM church. There were sixteen overseas visitors attending the meeting.
+</p>
+<p>
+</p>
+
+</div>
+'	where church_id = (select church_id from church where church_path = 'osaka')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>曹永寧 傳道, 0081-080311-88434</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 日本大阪市阿倍野區天王寺町北 1丁目2-2</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 0081-6-6714-5337 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsi_osaka@hotmail.co.jp"> emsi_osaka@hotmail.co.jp</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2011年 3月
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/osaka_small[1].jpg\" align=\"left\" height=\"255\" width=\"360\" />2009年10月楊牧師有感動要在大阪發展聖工，成立教會。然而租借聚會地方的道路卻屢屢受阻。經過迫切地禱告，2010年2月一間肯租給我們當教會的地方成為我們購堂的對象。 
+購堂過程並不順利，第一間預定購買的禮拜堂買賣終止。神的旨意卻超乎所求所想，將一間更好的禮拜堂賜給我們，2010年 9月3日總監督楊摩西牧師來日本親自簽約; 簽約後開始為期約3個月的準備及裝修， 2010年10月10日我們在三樓不用裝修的房間首次禮拜; 2010年12月5日總監督楊摩西牧師親臨主持日本亞洲宣教大樓落成暨大阪基督教生命堂啟用剪彩與獻堂感恩禮拜。
+</p>
+<p>購堂過程並不順利，第一間預定購買的禮拜堂買賣終止。神的旨意卻超乎所求所想，將一間更好的禮拜堂賜給我們，2010年 9月3日總監督楊摩西牧師來日本親自簽約; 簽約後開始為期約3個月的準備及裝修， 2010年10月10日我們在三樓不用裝修的房間首次禮拜; 2010年12月5日總監督楊摩西牧師親臨主持日本亞洲宣教大樓落成暨大阪基督教生命堂啟用剪彩與獻堂感恩禮拜。
+</p>
+<p>當天海外各生命堂來賓計 16人
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'osaka')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Chao, Yong Ning, 0081-080311-88434
+</p>
+<p>
+<b>Address: </b>Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan
+</p>
+<p>
+<b>Tel #: </b>0081-6-6714-5337
+</p>
+<p>
+<b>Email: </b>emsi_osaka@hotmail.co.jp
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E6%97%A5%E6%9C%AC%E5%A4%A7%E9%98%AA%E5%B8%82%E9%98%BF%E5%80%8D%E9%87%8E%E5%8D%80%E5%A4%A9%E7%8E%8B%E5%AF%BA%E7%94%BA%E5%8C%97+1%E4%B8%81%E7%9B%AE2-2&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+%C5%8Csaka-fu,+%C5%8Csaka-shi,+Abeno-ku,+Tenn%C5%8Djich%C5%8Dkita,+%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%E2%88%92%EF%BC%92&amp;gl=us&amp;t=m&amp;z=14&amp;ll=34.646304,135.522001&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=%E6%97%A5%E6%9C%AC%E5%A4%A7%E9%98%AA%E5%B8%82%E9%98%BF%E5%80%8D%E9%87%8E%E5%8D%80%E5%A4%A9%E7%8E%8B%E5%AF%BA%E7%94%BA%E5%8C%97+1%E4%B8%81%E7%9B%AE2-2&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+%C5%8Csaka-fu,+%C5%8Csaka-shi,+Abeno-ku,+Tenn%C5%8Djich%C5%8Dkita,+%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%E2%88%92%EF%BC%92&amp;gl=us&amp;t=m&amp;z=14&amp;ll=34.646304,135.522001&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'osaka')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b>曹永寧 傳道, 0081-080311-88434
+</p>
+<p>
+<b>地址: </b>日本大阪市阿倍野區天王寺町北 1丁目2-2
+</p>
+<p>
+<b>電話:</b> 0081-6-6714-5337
+</p>
+<p>
+<b>電郵: </b>emsi_osaka@hotmail.co.jp
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E6%97%A5%E6%9C%AC%E5%A4%A7%E9%98%AA%E5%B8%82%E9%98%BF%E5%80%8D%E9%87%8E%E5%8D%80%E5%A4%A9%E7%8E%8B%E5%AF%BA%E7%94%BA%E5%8C%97+1%E4%B8%81%E7%9B%AE2-2&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+%C5%8Csaka-fu,+%C5%8Csaka-shi,+Abeno-ku,+Tenn%C5%8Djich%C5%8Dkita,+%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%E2%88%92%EF%BC%92&amp;gl=us&amp;t=m&amp;z=14&amp;ll=34.646304,135.522001&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=%E6%97%A5%E6%9C%AC%E5%A4%A7%E9%98%AA%E5%B8%82%E9%98%BF%E5%80%8D%E9%87%8E%E5%8D%80%E5%A4%A9%E7%8E%8B%E5%AF%BA%E7%94%BA%E5%8C%97+1%E4%B8%81%E7%9B%AE2-2&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+%C5%8Csaka-fu,+%C5%8Csaka-shi,+Abeno-ku,+Tenn%C5%8Djich%C5%8Dkita,+%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%92%E2%88%92%EF%BC%92&amp;gl=us&amp;t=m&amp;z=14&amp;ll=34.646304,135.522001&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'osaka')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(47, 'schedule', 'en', 'CEC in Osaka - Church Services Schedule', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Sunday Worship</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">11 am</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Sunday School</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">11 am</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Choir Practice</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">9:30 am</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Prayer Meeting</td>
+			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
+			<td style="padding: 0px 10px 0px 10px">7:30 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Bible Study</td>
+			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
+			<td style="padding: 0px 10px 0px 10px">8 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Japanese Bible Study</td>
+			<td style="padding: 0px 10px 0px 10px">Saturday</td>
+			<td style="padding: 0px 10px 0px 10px">7:30 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Zion Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">3rd Sunday of the month</td>
+			<td style="padding: 0px 10px 0px 10px">2 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+'));
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(47, 'schedule', 'zh', '大阪基督教生命堂 - 聚會時間', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">主日崇拜</td>
+			<td style="padding: 0px 10px 0px 10px">毎週日</td>
+			<td style="padding: 0px 10px 0px 10px">上午11点</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">兒童主日學</td>
+			<td style="padding: 0px 10px 0px 10px">毎週日</td>
+			<td style="padding: 0px 10px 0px 10px">上午11点</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">詩班練習</td>
+			<td style="padding: 0px 10px 0px 10px">毎週日</td>
+			<td style="padding: 0px 10px 0px 10px">上午9点30</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">祷告會</td>
+			<td style="padding: 0px 10px 0px 10px">毎週三</td>
+			<td style="padding: 0px 10px 0px 10px">晩上7点30分</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">査経班</td>
+			<td style="padding: 0px 10px 0px 10px">毎週三</td>
+			<td style="padding: 0px 10px 0px 10px">晩上8点</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">日語讀經班　</td>
+			<td style="padding: 0px 10px 0px 10px">毎週六</td>
+			<td style="padding: 0px 10px 0px 10px">晩上7点30分</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">鍚安圑契</td>
+			<td style="padding: 0px 10px 0px 10px">毎月第三主日</td>
+			<td style="padding: 0px 10px 0px 10px">下午2点</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+'));
+
+
+-----------------ends Japan - osaka
+	
+-----------------starts Taiwan - taipei
+
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Teddy Chen, +886-978-600-153</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> 1st Fl, #29, Alley 25, Lane 113, Sec. 3 Mingsheng E. Rd., Taipei, Taiwan</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>+886-2-2713-3769</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td>+886-2-2713-3769</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsitaipei@hotmail.com">emsitaipei@hotmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>Sept 23, 2007
+</p>
+<p>
+<img src="/emsi/images/church_taipei.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />The C.E.C. in Taipei was officially established on September 23, 2007. C.E.M. then commissioned Rev. and Mrs. Chan from Holland to pastor the church on a short-term basis. In August, 2008, Pastor and Mrs. Zion Wu was sent to Taipei to shepherding CEC in Taipei. In February, 2010, Pastor Hosea Chi replace Pastor Wu as the pastor of in CEC in Taipei.
+</p>
+
+</div>
+'	where church_id = (select church_id from church where church_path = 'taipei')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>陳俊年傳道, +886-9-7860-0153</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 台北市民生東路三段113巷25弄29號1樓</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> +886-2-2713-3769 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> +886-2-2713-3769 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsitaipei@hotmail.com"> emsitaipei@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2007年 9月23日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/images/church_taipei.jpg\" align=\"left\" height=\"255\" width=\"360\" />2007年，在楊摩西牧師的感動下開始了台灣拓荒宣教事工，同年九月廿三日成立教會，總部特由歐洲調派陳啟猷牧師夫婦前往短期協助牧會。2007年11月遷入台北市松山區敦化環球名廈的大樓裡。2008年4月教會人數倍增，故遷入新址，即台北市松山區民生東路3段113巷25弄29號一樓現址，開展教會事工。2008年9月差派吳錫安牧師夫婦牧會。2010年2月由戚厚生牧師繼續牧養羊群。
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'taipei')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Teddy Chen, +886-978-600-153
+</p>
+<p>
+<b>Address: </b>1st Fl, #29, Alley 25, Lane 113, Sec. 3 Mingsheng E. Rd., Taipei, Taiwan
+</p>
+<p>
+<b>Tel #: </b>+886-2-2713-3769
+</p>
+<p>
+<b>Fax #: </b>+886-2-2713-3769
+</p>
+<p>
+<b>Email: </b>emsitaipei@hotmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E5%8F%B0%E5%8C%97%E5%B8%82%E6%B0%91%E7%94%9F%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5113%E5%B7%B725%E5%BC%8429%E8%99%9F1%E6%A8%93&amp;sll=25.059427,121.547108&amp;sspn=0.007211,0.013915&amp;ie=UTF8&amp;hq=&amp;hnear=Alley+25,+Lane+113,+Section+3,+M%C3%ADnSh%C4%93ng+East+Rd,+Songshan+District,+Taipei+City,+Taiwan+105&amp;ll=25.059429,121.547112&amp;spn=0.004665,0.006866&amp;z=17&amp;iwloc=A&amp;output=embed\"></iframe><br /><small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=%E5%8F%B0%E5%8C%97%E5%B8%82%E6%B0%91%E7%94%9F%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5113%E5%B7%B725%E5%BC%8429%E8%99%9F1%E6%A8%93&amp;sll=25.059427,121.547108&amp;sspn=0.007211,0.013915&amp;ie=UTF8&amp;hq=&amp;hnear=Alley+25,+Lane+113,+Section+3,+M%C3%ADnSh%C4%93ng+East+Rd,+Songshan+District,+Taipei+City,+Taiwan+105&amp;ll=25.059429,121.547112&amp;spn=0.004665,0.006866&amp;z=17&amp;iwloc=A\" style=\"color:#0000FF;text-align:left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'taipei')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 陳俊年傳道, +886-9-7860-0153
+</p>
+<p>
+<b>地址: </b>台北市民生東路三段113巷25弄29號1樓
+</p>
+<p>
+<b>電話:</b> +886-2-2713-3769
+</p>
+<p>
+<b>傳真:</b> +886-2-2713-3769
+</p>
+<p>
+<b>電郵: </b>emsitaipei@hotmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E5%8F%B0%E5%8C%97%E5%B8%82%E6%B0%91%E7%94%9F%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5113%E5%B7%B725%E5%BC%8429%E8%99%9F1%E6%A8%93&amp;sll=25.059427,121.547108&amp;sspn=0.007211,0.013915&amp;ie=UTF8&amp;hq=&amp;hnear=Alley+25,+Lane+113,+Section+3,+M%C3%ADnSh%C4%93ng+East+Rd,+Songshan+District,+Taipei+City,+Taiwan+105&amp;ll=25.059429,121.547112&amp;spn=0.004665,0.006866&amp;z=17&amp;iwloc=A&amp;output=embed\"></iframe><br /><small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=%E5%8F%B0%E5%8C%97%E5%B8%82%E6%B0%91%E7%94%9F%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5113%E5%B7%B725%E5%BC%8429%E8%99%9F1%E6%A8%93&amp;sll=25.059427,121.547108&amp;sspn=0.007211,0.013915&amp;ie=UTF8&amp;hq=&amp;hnear=Alley+25,+Lane+113,+Section+3,+M%C3%ADnSh%C4%93ng+East+Rd,+Songshan+District,+Taipei+City,+Taiwan+105&amp;ll=25.059429,121.547112&amp;spn=0.004665,0.006866&amp;z=17&amp;iwloc=A\" style=\"color:#0000FF;text-align:left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'taipei')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+
+
+-----------------ends Taiwan - taipei
+
+	
+-----------------starts Italy - milan
 update church_content set body = STRINGDECODE('<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -2357,7 +3494,169 @@ Counting the Lord\u2019s grace, I cannot express my praises and thanksgivings to
 	and locale = 'en'
 	and page_id = 'intro';
 
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>鄭恩惠 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">佈道會地址:</td>
+			<td> Via Stresa 3，20125 Milano, Italy</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">主日崇拜:</td>
+			<td> Via Melchiorre Gioia 193, 20125 Milano, Italy </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> (0039)02–7862-4031, 手机：(0039) 331-728-1265 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: gracez.777@gmail.com"> gracez.777@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2008年6月17日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/milan2011.jpg\" align=\"left\" height=\"255\" width=\"360\" />2007年3月25日，國際神學福音佈道會總監楊摩西牧師，看到福音事工的需要，與戚厚生牧師、葉建偉牧師前往意大利考察福音工場。在短短的五天內決定在意大利開展米​​蘭福音事工，並差派在美國總院畢業已回中國服事的鄭恩惠傳道，到米蘭開展拓荒工作。 （米蘭有300多萬人口，華人具體數目不清楚。）
+</p>
+<p>2008年6月，總監楊摩西牧師與吳錫安牧師、戚厚生牧師、鄭恩惠傳道在米蘭機場會合。僅僅三天的時間，租輛車子到處找聚會場所和住處，就在三位牧師要離開米蘭的前一晚，上帝給米蘭生命堂預備了超過我們所求所想的聚會場地。離米蘭中央火車站步行十幾分鐘，交通十分方便。
+</p>
+<p>2008年7月18日，楊牧師再一次到米蘭與房東簽好了合同。 7月21日進入聚會場所。 8月3日開始第一個主日禮拜，同年12月14日有20名弟兄姊妹接受洗禮。
+</p>
+<p>為了更好的開展福音事工，楊牧師決定要有大一些的場地聚會，上帝垂聽了我們的禱告，2011年2月米蘭政府批准，借用天主教堂下面的一個場地聚會，能容納200多人，離佈道會步行5分鐘的路程，上帝預備的總是超過我們所求所想。
+</p>
 
+</div>
+')	where church_id = (select church_id from church where church_path = 'milan')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+
+----------ends Italy - milan
+	
+----------  starts Holland - arnhem
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Leung Ming Wong
+</p>
+<p>
+<b>Address: </b>Geograaf 13, 6921 EW Duiven, The Netherlands
+</p>
+<p>
+<b>Tel #: </b>00-31-6-1296-5512
+</p>
+<p>
+<b>Email: </b>emsiamsterdam@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Geograaf+13,+6921+EW+Duiven,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Geograaf+13,+6921+EW+Duiven,+Gelderland,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=51.962846,6.005776&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Geograaf+13,+6921+EW+Duiven,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Geograaf+13,+6921+EW+Duiven,+Gelderland,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=51.962846,6.005776&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'arnhem')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 黃良明 傳道
+</p>
+<p>
+<b>地址: </b>Geograaf 13, 6921 EW Duiven, The Netherlands
+</p>
+<p>
+<b>電話:</b> 00-31-6-1296-5512
+</p>
+<p>
+<b>電郵: </b>emsiamsterdam@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Geograaf+13,+6921+EW+Duiven,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Geograaf+13,+6921+EW+Duiven,+Gelderland,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=51.962846,6.005776&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Geograaf+13,+6921+EW+Duiven,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Geograaf+13,+6921+EW+Duiven,+Gelderland,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=51.962846,6.005776&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'arnhem')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+----------  ends Holland - arnhem
+
+----------  starts Holland - veenendaal
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Andy Chu, Ev. Ka Man Chu-Ng
+</p>
+<p>
+<b>Address: </b>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands
+</p>
+<p>
+<b>Tel #: </b>+31(0)318-76-9144 / +31(0)627-22-1338
+</p>
+<p>
+<b>Email: </b>emsiveenendaal@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Zandstraat+103,+3905+EB,+Veenendaal+,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Zandstraat+103,+3905+EB+Veenendaal,+Utrecht,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=52.028785,5.551582&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Zandstraat+103,+3905+EB,+Veenendaal+,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Zandstraat+103,+3905+EB+Veenendaal,+Utrecht,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=52.028785,5.551582&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'veenendaal')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 朱洪順 傳道, 朱吳嘉敏 傳道
+</p>
+<p>
+<b>地址: </b>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands
+</p>
+<p>
+<b>電話:</b> +31(0)318-76-9144 / +31(0)627-22-1338
+</p>
+<p>
+<b>電郵: </b>emsiveenendaal@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Zandstraat+103,+3905+EB,+Veenendaal+,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Zandstraat+103,+3905+EB+Veenendaal,+Utrecht,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=52.028785,5.551582&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Zandstraat+103,+3905+EB,+Veenendaal+,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Zandstraat+103,+3905+EB+Veenendaal,+Utrecht,+The+Netherlands&amp;gl=us&amp;t=m&amp;z=14&amp;ll=52.028785,5.551582&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'veenendaal')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+----------  ends Holland - veenendaal
+
+---------------------starts Holland - Utrecht
 update church_content set body = STRINGDECODE('<style>
 .contact-content {
 font-family: Arial,helvetica,sans-serif
@@ -2507,7 +3806,7 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'utrecht')
 	and locale = 'zh'
 	and page_id = 'intro';
-	
+-------------- ends Holland - Utrecht	
 	
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -2702,7 +4001,7 @@ p span.label {font-weight: bold;}
 	and locale = 'en'
 	and page_id = 'intro';
 
------------ Towaco pages
+----------- starts USA - Towaco pages
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -2726,6 +4025,10 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label">Evangelist:</td>
 			<td>Ev. Patty Chien, 973-331-0545 ext. 233, (C) 973-768-5805</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Ev. Jonathan Poon, 973-331-0545 ext. 203, (C) 973-979-1950</td>
 		</tr>
 	</tbody>
 </table>
@@ -2782,6 +4085,82 @@ We have two separate Sunday Worship Services, one in Mandarin with English trans
 ' 	where church_id = (select church_id from church where church_path = 'towaco')
 	and locale = 'en'
 	and page_id = 'intro';
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">主任牧師:</td>
+			<td>楊摩西 牧師, 973-331-0545 ext. 209, (手機) 201-650-1923</td>
+		</tr>
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>吳錫安 牧師, 973-331-0545 ext. 202, (手機) 973-768-5805</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>錢舜 傳道, 973-331-0545 ext. 233, (手機) 973-768-5805</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>潘逸豪 傳道, 973-331-0545 ext. 203, (手機) 973-979-1950</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 36 Alpine Rd., Towaco, NJ 07082, USA </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td>(973) 331-0545, (973) 331-0546</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:cemc.towaco@gmail.com\">cemc.towaco@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1980年
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/towacochurch_1.jpg\" align=\"left\" height=\"255\" width=\"360\" />多華谷生命堂的誕生是一個意外。當年國際福音佈道會之下已有三間生命堂。一在紐約市中國城，一在紐約州Nanuet（珍珠河生命堂前身），一在新澤西的西橘園。楊牧師並無意在多華谷設立分堂，他的計畫是創辦神學院。但是向政府申請辦學時才知道，神學院必須附屬在教會之下，於是多華谷生命堂於一九八○年應運而生。
+</p>
+<p>
+建堂之初，會友只有二十人左右，都是西橘園生命堂的會友，為支持神學教育而轉來的。經過二十多年的聖工發展，目前已有近三百名會友，分別來自台灣、越南、香港、新加坡、菲律賓、印尼、馬來西亞、中國大陸等地，也有少數美國人。一九八二年，多華谷生命堂隨著神學院一同遷至亞棚。神學院廣大的校園和各種運動設施，為會友提供了休閒場所。
+</p>
+<p>
+多華谷生命堂的主日崇拜通常是國語證道，英語翻譯。另外同時間有英語崇拜和成人主日學。此外，每周的聚會活動也很多，有禱告會、迦勒團契、弟兄團契、姐妹團契、青年團契，國語、台語、粵語、英語查經班、特別專題講座、大專學生英語查經班……等。迦勒團契就是專門為一些年長的弟兄姐妹所設立。別看他們年紀較長，他們可是非常活躍又令人羨慕的團契喔！每月有兩次聚會。
+</p>
+<p>
+本堂的另一個特色是逢年過節，兩、三百人的聚餐。本堂有一個大廚房，烹煮食物非常方便，所以每遇節慶，必定聚餐同樂。來自不同地方的會友們輪流掌廚，可以吃到不同風味的料理。此外，每主日崇拜之後，也有聚餐。會友們一面吃飯，一面聊天，達到團契的目的；住在遠處的會友，不必餓著肚子上路；願意留下來運動的朋友也因此有足夠的體力。教會願意提供這樣的服務固然值得稱許，而會友們願意輪流掌廚，且多年來從不間斷，更是令人敬佩的服事精神。
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'towaco')
+	and locale = 'zh'
+	and page_id = 'intro';
+	
 
 update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>36 Alpine Road, Towaco, NJ 07082, USA 
@@ -2923,6 +4302,28 @@ update church_content set body = STRINGDECODE('<p>
 			</p>
 			</td>
 		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">潘逸豪傳道</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 203</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-979-1950</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">jc1jj2@gmail.com</span></span></span> 
+			</p>
+			</td>
+		</tr>
 	</tbody>
 </table>
 </b>
@@ -2942,9 +4343,10 @@ update church_content set body = STRINGDECODE('<p>
 	</li>
 </ol>
 ')	where church_id = (select church_id from church where church_path = 'towaco')
-	and locale = 'en'
+	and locale = 'zh'
 	and page_id = 'contactus';
 -- chui, 2 lines above, this is supposed to be: locale = 'zh', no?
+--yes, corrected
 
 update church_content set body = STRINGDECODE('<p>
 Christian Evangelical Mission Church in Towaco
@@ -3089,6 +4491,28 @@ Christian Evangelical Mission Church in Towaco
 			</p>
 			</td>
 		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ev. Jonathan Poon</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 203</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-979-1950</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">jc1jj2@gmail.com</span></span></span> 
+			</p>
+			</td>
+		</tr>
 	</tbody>
 </table>
 </b>
@@ -3111,22 +4535,187 @@ Christian Evangelical Mission Church in Towaco
 	and locale = 'en'
 	and page_id = 'contactus';
 		
------------------  end Towaco
+-----------------  end USA - Towaco
 
-update church_content set body = '<table width="500px">
-<tr>
-	<th style="width: 50%">Activity</th>
-	<th style="width: 50%">Time</th>
-</tr>
-<tr>
-	<td style="text-align: center;">Office hours:</td>
-	<td style="text-align: center;">Tuesday - Saturday 2:00pm - 6:00pm</td>
-</tr>
+	
+----------------- starts Italy - prato	
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>丁業新 傳道</td>
+		</tr>
+	</tbody>
 </table>
-'	where church_id = (select church_id from church where church_path = 'prato')
-	and locale = 'en'
-	and page_id = 'schedule';
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Piazza San Domenico 10, 59100, Prato (PO), Italy</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 0039-057-483-1203, (C) 0039-327-753-3773 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: cecprato@gmail.com"> cecprato@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2010年 8月8日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/prato_small_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />讚美全能的上帝帶領義大利普拉托生命堂走過了兩年。2011年八月7日普拉托生命堂慶祝成立週年，感謝上帝在過去一年的引領及賜福！
+</p>
+<p>2010年初，陳啟猷牧師夫婦發現義大利普拉托有很多華人。於是，2010年七月5日，國際福音佈道會差派短宣隊由陳啟猷牧師及師母帶領，從荷蘭到義大利普拉托。隊員包括荷蘭高寧根生命堂的于洪友、馮洁琳一對年輕的夫婦及我。
+</p>
+<p>短宣隊主要的目的是向華人傳福音, 同時尋找主日聚會的場地及傳道人的住處。短宣隊的禱告是，如果上帝要國際神學福音佈道會在普拉托成立生命堂，那麼短宣隊就應該會在兩到三個月內找到這兩個場地。
+</p>
+<p>感謝上帝帶領，陳牧師夫婦很快地就遇見一位能說英文的房屋仲介，這位仲介很快地就幫我找到了住所，並在Piazza San Domenico找到一間可為教會所用的地方。這些事都是在短宣隊到達普拉托的第一個星期發生。感謝主，事情有了進展，因此我們更有信心向前，也看見上帝的旨意相當清楚了。
+</p>
+<p>一個星期後，陳牧師夫婦離開普拉托，繼續他們其他的事工。我、于洪友及馮洁琳夫婦三人繼續在普拉托的工作。2010年八月初，上帝差派烏特勒生命堂的丁業新弟兄來協助我們一個月。而普拉托生命堂就在八月的第一個主日，八月八日正式於Piazza San Domenico成立，有五位會友參加第一次主日崇拜。十月底妻子舒祺來普拉托, 我們全家終於一起事奉；教會的人數很快地增長，平均主日的人數約有十人左右(不包括孩童) 。
+</p>
+<p>2010年成立 一年，普拉托生命堂聚會的人數平均已有十五人了。感謝主，藉著普拉托生命堂已帶領超過一百人接受基督的福音了。
+</p>
+<p>過去兩年中，許多人忠心地為普拉托宣教事工禱告。不論是國際福音神學院的學生和同工每天早晨的跪地禱告、海牙生命堂青年團契和同工的禱告，以及知道宣教教會重要，而自動地為我們的代禱，都震動了上帝大能的手。謝謝大家的代禱，也請弟兄姐妹們繼續為普拉托生命堂有更豐盛的福音收穫禱告！
+</p>
+<p>於是對門徒說：要收的莊稼多，做工的人少。所以，你們當求莊稼的主打發工人出去收他的莊稼。 (馬太福音九章37-38)
+</p>
 
+</div>
+')	where church_id = (select church_id from church where church_path = 'prato')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Martin Ding
+</p>
+<p>
+<b>Address: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
+</p>
+<p>
+<b>Tel #: </b>0039-057-483-1203, (C) 0039-327-753-3773
+</p>
+<p>
+<b>Email: </b>cecprato@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'prato')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 丁業新 傳道
+</p>
+<p>
+<b>地址: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
+</p>
+<p>
+<b>電話:</b> 0039-057-483-1203, (C) 0039-327-753-3773
+</p>
+<p>
+<b>電郵: </b>cecprato@gmail.com
+</p>
+
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'prato')
+	and locale = 'zh'
+	and page_id = 'contactus';
+	
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(43, 'schedule', 'en', 'CEMC in Prato - Church Services Schedule', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Office hours</td>
+			<td style="padding: 0px 10px 0px 10px">Tuesday - Saturday</td>
+			<td style="padding: 0px 10px 0px 10px">2:00 pm – 6:00 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Worship Service</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">4:00 pm – 5:00 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Bible Study & Prayer Meeting</td>
+			<td style="padding: 0px 10px 0px 10px">Wednesday </td>
+			<td style="padding: 0px 10px 0px 10px">3:30 pm – 4:30 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Youth Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">The second and fourth Friday of the month</td>
+			<td style="padding: 0px 10px 0px 10px">3:30 pm – 4:30 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+'));
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(43, 'schedule', 'zh', '普拉托基督教生命堂 - 聚會時間', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">开 放 时 间</td>
+			<td style="padding: 0px 10px 0px 10px">星期二至六</td>
+			<td style="padding: 0px 10px 0px 10px">下午14:00至18:00</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">崇 拜 时 间</td>
+			<td style="padding: 0px 10px 0px 10px">礼拜天</td>
+			<td style="padding: 0px 10px 0px 10px">下午16:00至17:00</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">查 经 祷 告</td>
+			<td style="padding: 0px 10px 0px 10px">星期三</td>
+			<td style="padding: 0px 10px 0px 10px">下午15:30至16:30</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">少 年 团 契</td>
+			<td style="padding: 0px 10px 0px 10px">每月第2和第4个星期五</td>
+			<td style="padding: 0px 10px 0px 10px">下午15:30至16:30</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+'));
+
+
+-----------------ends Italy - prato
 	
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(39, 'schedule', 'en', 'CEC in Paris - Church Services Schedule', STRINGDECODE('
 <table  border="1">
@@ -3223,7 +4812,7 @@ where church_id = 39
 and page_id = 'schedule'
 and locale = 'zh';
 
-
+--------------------------starts USA - livingston
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -3296,3 +4885,180 @@ The church bought a church property in April, 2006 in Livingston and had its ded
 ' where church_id = (select church_id from church where church_path = 'livingston')
 	and locale = 'en'
 	and page_id = 'intro';
+	
+-------- ends USA - livingston
+
+-----------------starts Belgium - antwerpen
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Mix Chan</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> +32(0)3-707 1707 / +32(0)484-148682</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsibelgium@hotmail.com">emsibelgium@hotmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>November 9, 2003
+</p>
+<p>
+<img src="/emsi/files/ant828small_0.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />The EMSI short term mission to Belgium in the spring of 2000 covered Antwerpen and Brussels. We saw the need for the Gospel in Brussels there and established the CEC in Brussels in May 2004. We have morning service in Antwerpen and afternoon service in Brussels. God raised up godly members who came to serve with us from Antwerpen to Brussels. Their faithfulness really encouraged us greatly
+</p>
+<p>Pictured: CEC in Antwerpen purchased a new church building.</p>
+<p>
+</p>
+
+</div>
+'	where church_id = (select church_id from church where church_path = 'antwerpen')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>陳茂祥 牧師</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> +32(0)3-707 1707 / +32(0)484-148682 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsibelgium@hotmail.com"> emsibelgium@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2011年 3月
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/ant828small_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />感謝主帶領我們在二○○○年的春天，有機會參予國際神學福音佈道會的短宣隊前往法國和比利時短宣；二○○一年自神學院畢業後，我與妻子被差派前往法國巴黎生命堂實習。在法國的兩年裡多次聽聞比利時需要工人，所以我們經常為此事禱告，希望比利時能盡快找到傳道人。然而，經過一段時間，上帝給我們一個感動，因為比利時是荷、法雙語的國家，若懂當地語言相對來說是比較方便；而我們都是在荷蘭長大受教育，又曾在法國居住過兩年，好像這些都是有利的基本條件，最後我們確定是上帝的呼召，便順服祂的旨意。
+</p>
+<p我們對比利時的環境並不了解，只抱著一顆傳福音的心志，二○○三年的夏天踏進這個陌生的地方。上帝為我們預備了一對愛主的夫婦(程伯君夫婦)與我們一起開始了開荒的工作。雖不容易，但終於在同年的十一月在安特衛普市成立了「安慰城基督教生命堂」。當時是從一些留學生工作開始，也不斷嘗試透過各種的途徑來傳福音，上帝慢慢地帶領不同的家庭、小孩子和青少年人來到我們當中，大家在主的愛裏感到非常溫馨，弟兄姐妹的靈命也在聖經的真理中漸漸成長。當我們踏進第四個年頭時，看見上帝極大的恩典臨到安慰城的弟兄姐妹，因著各國生命堂的支持與關懷，我們能夠有自己的會所，為此向主獻上衷心感謝和讚美；而更叫我們不敢浪費一分一秒的時間，要加倍地努力傳揚福音，回報主恩及大家的愛心。
+</p>
+<p>圖:二○一二年八月二十八日購新堂簽約
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'antwerpen')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Pastor: </b>Rev. Mix Chan
+</p>
+<p>
+<b>Address: </b>Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium
+</p>
+<p>
+<b>Tel #: </b>+32(0)3-707 1707 / +32(0)484-148682
+</p>
+<p>
+<b>Email: </b>emsibelgium@hotmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Franklin+Rooseveltplaats+9,+2060+Antwerpen,+Belgium&hnear=Franklin+Rooseveltplaats+9,+Antwerpen+2060+Antwerpen,+Vlaams+Gewest,+Belgium&gl=us&t=m&z=16;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Franklin+Rooseveltplaats+9,+2060+Antwerpen,+Belgium&hnear=Franklin+Rooseveltplaats+9,+Antwerpen+2060+Antwerpen,+Vlaams+Gewest,+Belgium&gl=us&t=m&z=16;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'antwerpen')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>牧師: </b>陳茂祥 牧師
+</p>
+<p>
+<b>地址: </b>Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium
+</p>
+<p>
+<b>電話:</b> +32(0)3-707 1707 / +32(0)484-148682
+</p>
+<p>
+<b>電郵: </b>emsibelgium@hotmail.com
+</p>
+
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Franklin+Rooseveltplaats+9,+2060+Antwerpen,+Belgium&hnear=Franklin+Rooseveltplaats+9,+Antwerpen+2060+Antwerpen,+Vlaams+Gewest,+Belgium&gl=us&t=m&z=16;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Franklin+Rooseveltplaats+9,+2060+Antwerpen,+Belgium&hnear=Franklin+Rooseveltplaats+9,+Antwerpen+2060+Antwerpen,+Vlaams+Gewest,+Belgium&gl=us&t=m&z=16;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+
+
+
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'antwerpen')
+	and locale = 'zh'
+	and page_id = 'contactus';
+	
+----------------  ends  Belgium - antwerpen
