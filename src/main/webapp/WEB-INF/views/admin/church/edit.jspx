@@ -87,11 +87,11 @@
                 	total: 'total',
                 	records: 'records',
                 	repeatitems: false,
-                	id: 'churchId',
+                	id: 'key',
                 },
                 colNames: ['Key', 'Page Id', 'Locale', 'Title', ''],
                 colModel: [
-                    {name: 'key', hidden: true, key: true},
+                    {name: 'key', hidden: false},
 					{name: 'pageId', width: 80, edittype: 'select', formatter: 'select', editoptions: {value: "intro:Introduction;contactus:Contact Us;minister:Ministers;schedule:Schedule"}, editrules:{edithidden: true, required: true}, editable: true, },
 					{name: 'locale', width: 60, edittype: 'select', formatter: 'select', editoptions: {value: "en:English;zh:Chinese"},editrules:{edithidden: true, required: true}, editable: true},
 					
@@ -169,16 +169,17 @@
              		{width: 500, 
              		 mtype: 'POST',
              		 url: '${churchAdminUrl}/${church.churchId}/content?delete',
+             				 /*
+             		 ajaxEditOptions:{ contentType:"application/json" },
+             				 
               		 serializeDelData:function(data) {
                     	 console.log(data);
 
             			 return JSON.stringify({
-	                         churchId: parseInt(data.id, 10),
-	                         pageId: data.pageId,
-	                         locale: data.locale,
-	                         title: data.title                
+	                         key: data.id,
+             
 	                     });
-             		 },             				 
+             		 },         */    				 
              				 
              		}            
              	);

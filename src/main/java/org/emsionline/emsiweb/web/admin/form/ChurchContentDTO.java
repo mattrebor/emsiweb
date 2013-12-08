@@ -32,6 +32,15 @@ public class ChurchContentDTO {
 		this.title = title;
 	}
 	
+	public String getKey() {
+		return churchId + "|" + page_id + "|" + locale; 
+	}
 	
-	
+	public void setKey(String key) {
+		String arr[] = key.split("|");
+		
+		setChurchId(new Long(arr[0]));
+		setPageId(arr[1]);
+		setLocale(arr[2]);
+	}
 }

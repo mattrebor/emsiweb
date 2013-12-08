@@ -18,6 +18,7 @@ import org.emsionline.emsiweb.domain.ChurchDetailKey;
 import org.emsionline.emsiweb.domain.ChurchOrg;
 import org.emsionline.emsiweb.domain.ChurchOrgDetail;
 import org.emsionline.emsiweb.domain.ChurchOrgDetailKey;
+import org.emsionline.emsiweb.repository.ChurchContentRepository;
 import org.emsionline.emsiweb.repository.ChurchRepository;
 import org.emsionline.emsiweb.service.ChurchContentService;
 import org.emsionline.emsiweb.service.ChurchOrgService;
@@ -66,6 +67,9 @@ public class ChurchAdminController {
 	
 	@Autowired
 	private ChurchContentService churchContentService;
+	
+	@Autowired
+	private ChurchContentRepository churchContentRepository;
 	
 	@Autowired
 	private EntityManagerFactory emf; 	
@@ -266,33 +270,27 @@ public class ChurchAdminController {
 	}
 	
 	@RequestMapping(method = RequestMethod.POST, value = "/{churchId}/content", params = "delete", produces="text/plain")
-	public @ResponseBody String deleteContent(Church church, @RequestBody ChurchContentDTO dto, Model uiModel) {
+	public @ResponseBody String deleteContent(Church church, @RequestParam(value="id") String id, Model uiModel) {
 
-		logger.info("*** createContent ***");
-		logger.info("org.path=" + church.getChurchPath());
-		logger.info("dto.id=" + dto.getChurchId());
-		logger.info("dto.pageId=" + dto.getPageId());
-		logger.info("dto.locale=" + dto.getLocale());
-		logger.info("dto.title=" + dto.getTitle());
-		
-		// TODO: What if dto.churchId != church.churchId
+		logger.info("*** deleteContent ***");
+		logger.info("id=" + id);
+
+		String arr[] = id.split("\\|");
+		logger.info("arr[0]=" + arr[0]);
+		logger.info("arr[1]=" + arr[1]);
+		logger.info("arr[2]=" + arr[2]);
+
 		ChurchContentKey key = new ChurchContentKey();
-		key.setChurchId(church.getChurchId());
-		key.setPageId(dto.getPageId());
-		key.setLocale(dto.getLocale());
+		key.setChurchId(new Long(arr[0]));
+		key.setPageId(arr[1]);
+		key.setLocale(arr[2]);
 		
-		ChurchContent content = new ChurchContent();
-		
-		content.setId(key);
-		content.setTitle(dto.getTitle());
-		content.setBody("Coming soon..."); // TODO: Need to load up a template here
-		
-		churchContentService.save(content);
 
+		churchContentRepository.delete(key);
 		
 		emf.getCache().evictAll();
 
 		
-		return "Saved successfully";
+		return "Deleted successfully";
 	}	
 }
