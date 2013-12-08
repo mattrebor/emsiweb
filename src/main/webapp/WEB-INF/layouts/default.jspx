@@ -68,6 +68,8 @@
 
 <!-- jQuery and jQuery UI -->
 <spring:url value="/resources/scripts/jquery-1.7.1.js" var="jquery_url" />
+<spring:url value="/resources/scripts/jquery.json-2.4.min.js" var="jquery_json_url" />
+
 <spring:url value="/resources/scripts/jquery-ui-1.8.16.custom.min.js"
 	var="jquery_ui_url" />
 <spring:url
@@ -81,7 +83,9 @@
 <script src="${jquery_ui_url}" type="text/javascript">
 	<jsp:text/>
 </script>
-
+<script src="${jquery_json_url}" type="text/javascript">
+	<jsp:text/>
+</script>
 
 <!-- Google Maps -->
 <!-- Force Chinese to be traditional chinese (zh-TW) for google maps -->

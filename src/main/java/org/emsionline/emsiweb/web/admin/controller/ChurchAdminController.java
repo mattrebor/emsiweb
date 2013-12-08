@@ -211,6 +211,8 @@ public class ChurchAdminController {
 		logger.info("*** saveContent ***");
 		logger.info("org.path=" + church.getChurchPath());
 		logger.info("dto.id=" + dto.getChurchId());
+		logger.info("dto.pageId=" + dto.getPageId());
+		logger.info("dto.locale=" + dto.getLocale());
 		logger.info("dto.title=" + dto.getTitle());
 		
 		// TODO: What if dto.churchId != church.churchId
@@ -231,4 +233,66 @@ public class ChurchAdminController {
 		
 		return "Saved successfully";
 	}
+	
+	@RequestMapping(method = RequestMethod.POST, value = "/{churchId}/content", params = "new", produces="text/plain")
+	public @ResponseBody String createContent(Church church, @RequestBody ChurchContentDTO dto, Model uiModel) {
+
+		logger.info("*** createContent ***");
+		logger.info("org.path=" + church.getChurchPath());
+		logger.info("dto.id=" + dto.getChurchId());
+		logger.info("dto.pageId=" + dto.getPageId());
+		logger.info("dto.locale=" + dto.getLocale());
+		logger.info("dto.title=" + dto.getTitle());
+		
+		// TODO: What if dto.churchId != church.churchId
+		ChurchContentKey key = new ChurchContentKey();
+		key.setChurchId(church.getChurchId());
+		key.setPageId(dto.getPageId());
+		key.setLocale(dto.getLocale());
+		
+		ChurchContent content = new ChurchContent();
+		
+		content.setId(key);
+		content.setTitle(dto.getTitle());
+		content.setBody("Coming soon..."); // TODO: Need to load up a template here
+		
+		churchContentService.save(content);
+
+		
+		emf.getCache().evictAll();
+
+		
+		return "Saved successfully";
+	}
+	
+	@RequestMapping(method = RequestMethod.POST, value = "/{churchId}/content", params = "delete", produces="text/plain")
+	public @ResponseBody String deleteContent(Church church, @RequestBody ChurchContentDTO dto, Model uiModel) {
+
+		logger.info("*** createContent ***");
+		logger.info("org.path=" + church.getChurchPath());
+		logger.info("dto.id=" + dto.getChurchId());
+		logger.info("dto.pageId=" + dto.getPageId());
+		logger.info("dto.locale=" + dto.getLocale());
+		logger.info("dto.title=" + dto.getTitle());
+		
+		// TODO: What if dto.churchId != church.churchId
+		ChurchContentKey key = new ChurchContentKey();
+		key.setChurchId(church.getChurchId());
+		key.setPageId(dto.getPageId());
+		key.setLocale(dto.getLocale());
+		
+		ChurchContent content = new ChurchContent();
+		
+		content.setId(key);
+		content.setTitle(dto.getTitle());
+		content.setBody("Coming soon..."); // TODO: Need to load up a template here
+		
+		churchContentService.save(content);
+
+		
+		emf.getCache().evictAll();
+
+		
+		return "Saved successfully";
+	}	
 }

@@ -972,7 +972,7 @@ p span.label {font-weight: bold;}
 <p><span class="label">成立日期: </span>1968年</p>
 
 <p><span class="label">簡史: </span><br />
-<img align="left" height="255" hspace="5" src="/emsi/images/church_chinatown.jpg" width="360" />一九六八年，楊牧師在中國城勿街十號（10 Mott St.）租下二樓，成立「生命團契」，這是楊摩西牧師成立的第一間教會，後於一九七○年更名為中國城生命堂。楊摩西牧師常常提起早期大學查經班的八位成員：周靄楣、許娜娜、李珍瑜、曾文鳳、曾文愛、王慕清、林瑞桃及林團鐘長老一家。這八員大將可說是「生命家庭」的開始。後來查經班加入了幾位新人，他們都是研究所的學生：周應彪、吳翩翩、許偉國、郭靄玉、林則寶、陳達堂、潘冀、林國仁、潘重光、向傳仁等。後來林則寶和林珍瑜結為夫婦，其他的弟兄姐妹也分別嫁娶，「生命之家」增加了媳婦和女婿，儼然成為一個大家庭。連續兩次搬遷之後，終於在一九七四年憑信心買下位於中央街的一棟三層樓房（253 Centre St.）。如今，除了林長老回天家，一些弟兄姐妹搬離此地之外，其他的成員和家人都忠心留在東部各生命堂，是楊牧師得力的同工。</p>
+<img align="left" hspace="5" src="/emsi/images/chinatown2012.jpg" />一九六八年，楊牧師在中國城勿街十號（10 Mott St.）租下二樓，成立「生命團契」，這是楊摩西牧師成立的第一間教會，後於一九七○年更名為中國城生命堂。楊摩西牧師常常提起早期大學查經班的八位成員：周靄楣、許娜娜、李珍瑜、曾文鳳、曾文愛、王慕清、林瑞桃及林團鐘長老一家。這八員大將可說是「生命家庭」的開始。後來查經班加入了幾位新人，他們都是研究所的學生：周應彪、吳翩翩、許偉國、郭靄玉、林則寶、陳達堂、潘冀、林國仁、潘重光、向傳仁等。後來林則寶和林珍瑜結為夫婦，其他的弟兄姐妹也分別嫁娶，「生命之家」增加了媳婦和女婿，儼然成為一個大家庭。連續兩次搬遷之後，終於在一九七四年憑信心買下位於中央街的一棟三層樓房（253 Centre St.）。如今，除了林長老回天家，一些弟兄姐妹搬離此地之外，其他的成員和家人都忠心留在東部各生命堂，是楊牧師得力的同工。</p>
 
 <p>長久以來，中國城生命堂的會友絕大多數都是屬於所謂的「ABC」，也就是在美國出生成長的華人。除了少數略懂粵語外，都只能講英語。以往，他們多在美國國慶日時舉辦夏令會，藉此機會傳福音。而那些在夏令會中得救、受洗、加入教會年輕人，也使教會充滿了活力和朝氣。他們對年輕人很有負擔，因此除了主日崇拜、主日學、周五的查經班之外，每周六上午十時至下午四時，教會的設施也開放給附近的年輕人使用，讓他們能夠進來打乒乓、玩電腦遊戲、讀書、做功課，會友們輪流在那兒輔導他們的課業。近幾年，除了傳福音給年輕人，他們也有負擔要傳福音給自己年長的父母，藉著餐會，在溫馨又輕鬆的氣氛中，將福音的好消息帶給只會說家鄉話的父母。</p>
 
@@ -2703,6 +2703,86 @@ p span.label {font-weight: bold;}
 	and page_id = 'intro';
 
 ----------- Towaco pages
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Senior Pastor:</td>
+			<td>Rev. Moses Yang, 973-331-0545 ext. 209, (C) 201-650-1923</td>
+		</tr>
+		<tr>
+			<td class="label">Associate Pastor:</td>
+			<td>Rev. Zion Wu, 973-331-0545 ext. 202, (C) 973-768-5805</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Patty Chien, 973-331-0545 ext. 233, (C) 973-768-5805</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" width="16" height="16" /></td>
+			<td class="label">Address:</td>
+			<td><a href="http://maps.google.com/maps?q=36+Alpine+Rd,+Towaco,+NJ+07082&amp;hl=en&amp;ll=40.922398,-74.322445&amp;spn=0.006396,0.013894&amp;sll=40.9022,-74.551001&amp;sspn=0.012796,0.027788&amp;oq=36+Alpine+Road,+Towaco,+NJ+07082&amp;hnear=36+Alpine+Rd,+Towaco,+New+Jersey+07082&amp;t=m&amp;z=17" target="_blank">36 Alpine Road, Towaco, NJ 07082</a></td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" width="16" height="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>973-331-0545, 973-331-0546</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" width="16" height="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:cemc.towaco@gmail.com">cemc.towaco@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>1980
+</p>
+<p>
+<img src="/emsi/files/towacochurch_1.jpg" align="left" width="360" height="255" hspace="5" />
+</p>
+<p>
+Christian Evangelical Mission Church (CEMC) in Towaco was first established in 1980 by a small group of believers gathering together to pray, worship, and fellowship at Waughaw Road in Towaco. In 1982, CEMC in Towaco along with Evangelical Bible Institute moved to our current location at 36 Alpine Road, Towaco, NJ. This is a 26 acre campus and facility which provides the seminary students and the congregation with many indoor and outdoor activities such as basketball, handball, softball, table tennis, tennis, volleyball and etc\u2026 After 30 years since the birth of CEMC in Towaco, today the congregation has grown to approximately 300 people. The congregation is composed of mostly Chinese from Burma, China, Hong Kong, Indonesia, Malaysia, Philippines, Singapore, Taiwan, American born Chinese, and a small number of Americans. Many live within ten miles of Towaco, including Lincoln Park, Montville, Parsippany, Pine Brook, Pompton Lakes, Wayne and etc\u2026 But some even come as far as Trenton, Pennsylvania, upstate New York, and Connecticut.
+</p>
+<p>
+We have two separate Sunday Worship Services, one in Mandarin with English translation and one in English with no translation.  During the week, we also have many gatherings including various bible studies and fellowship in English, Mandarin and other Chinese dialects. Please see the Ministries &amp; Fellowships section for more detail. 
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+<p>
+&nbsp;
+</p>
+</div>
+' 	where church_id = (select church_id from church where church_path = 'towaco')
+	and locale = 'en'
+	and page_id = 'intro';
+
 update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>36 Alpine Road, Towaco, NJ 07082, USA 
 </p>
@@ -2864,8 +2944,12 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'towaco')
 	and locale = 'en'
 	and page_id = 'contactus';
+-- chui, 2 lines above, this is supposed to be: locale = 'zh', no?
 
 update church_content set body = STRINGDECODE('<p>
+Christian Evangelical Mission Church in Towaco
+</p>
+<p>
 <b>Address: </b>36 Alpine Road, Towaco, NJ 07082, USA 
 </p>
 <p>
@@ -3043,3 +3127,172 @@ update church_content set body = '<table width="500px">
 	and locale = 'en'
 	and page_id = 'schedule';
 
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(39, 'schedule', 'en', 'CEC in Paris - Church Services Schedule', STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Worship Service</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">3:15 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Prayer Meeting</td>
+			<td style="padding: 0px 10px 0px 10px">1<sup>st</sup> Sunday of the month</td>
+			<td style="padding: 0px 10px 0px 10px">5:45 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Youth Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">5:45 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Jabez Fellowship*</td>
+			<td style="padding: 0px 10px 0px 10px">Tuesday</td>
+			<td style="padding: 0px 10px 0px 10px">3:30 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Joy Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
+			<td style="padding: 0px 10px 0px 10px">3:30 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Chinese Bible Study</td>
+			<td style="padding: 0px 10px 0px 10px">Friday</td>
+			<td style="padding: 0px 10px 0px 10px">7:30 pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Teenage Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">Saturday</td>
+			<td style="padding: 0px 10px 0px 10px">2:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+* Jabez fellowship is held at the restaurant "Fu Yuan Feng" at 22 rue de Trévisse, 7509 Paris.
+'));
+
+	
+update PUBLIC.CHURCH_CONTENT
+set body = '
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">主日崇拜</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:15</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">禱告會</td>
+			<td style="padding: 0px 10px 0px 10px">每月第一個星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 5:45</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">青年團契</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 5:45</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">雅比斯 團契 *</td>
+			<td style="padding: 0px 10px 0px 10px">星期二</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:30</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">喜樂團契</td>
+			<td style="padding: 0px 10px 0px 10px">星期三</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:30</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">中文查經</td>
+			<td style="padding: 0px 10px 0px 10px">星期五</td>
+			<td style="padding: 0px 10px 0px 10px">晚 7:30</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">少年團契</td>
+			<td style="padding: 0px 10px 0px 10px">星期六</td>
+			<td style="padding: 0px 10px 0px 10px">下午 2:00</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+* 雅比斯 團契聚會地址: Fu Yuan Feng福源豐餐館, 巴黎九區22 rue de Trévisse, 7509 Paris, 地鐵7 號線Cadet 站. 
+'
+where church_id = 39
+and page_id = 'schedule'
+and locale = 'zh';
+
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Stephen Lim 973-335-7337, ext. 204, (C) 973-960-6088</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Eunice Lim 973-335-7337, ext. 203, (C) 973-216-5009</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>
+			71 Old Road, Livingston, N. J. 07039</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>973-994-0079</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td>973-335-0535</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:ceclinfo@gmail.com">ceclinfo@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>1974
+</p>
+<p>
+<a href="/emsi/gallery/?g2_itemId=119"><img src="/emsi/images/church_livingston.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /></a>
+</p>
+<p>
+The CEC in Livingston (former name: CEC in West Orange) is the first CEC in New Jersey.  Because of the requests of some Chinese Christian families who lived in New Jersey, the preparations for the establishement of the CEC in West Orange were underway in 1973.  During that time, Rev. Moses Yang had a car accident and was hurt.  From this, he thought to himself that this would not be God''s will to establish the West Orange Church.  So he knelt and prayed to the Lord for clear direction.  The Lord revealed to Rev. Yang a Bible verse from Psalm 66:12, &quot;Thou hast caused men to ride over our heads; we went through fire and through water; but thou broughtest us out into a wealthy place&quot;.  This verse clearly revealed God''s will to Rev. Yang.  With great faith, the church was established in early 1974. 
+</p>
+<p>
+The church has a diverse congregational mix.  Its members are overseas Chinese from the Philippines, Taiwan, China, Hong Kong, Indonesia, &amp; Malaysia; Caucasians; American-born Chinese; and Filipinos. The languages used in the Sunday Worship Service are English and Mandarin.  The ministries consist of prayer meeting, Bible study groups,  youth group, young professional group, Sunday School classes, and Choir. 
+</p>
+<p>
+The church bought a church property in April, 2006 in Livingston and had its dedication on June 3, 2006. <b></b> 
+</p>
+</div>
+' where church_id = (select church_id from church where church_path = 'livingston')
+	and locale = 'en'
+	and page_id = 'intro';

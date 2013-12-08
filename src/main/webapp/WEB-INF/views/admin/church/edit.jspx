@@ -74,7 +74,7 @@
             'use strict';
              var contentGrid = $("#contentGrid");             
              function myLinkFormatter (cellvalue, options, rowObject) {
-            	    return '<a href = "${churchUrl}/' + rowObject.churchId + '/' + rowObject.pageId + '?edit&lang=' + rowObject.locale + '">Edit &#9656;</a>';
+            	    return '<a href = "${churchUrl}/' + rowObject.churchId + '/' + rowObject.pageId + '?edit&lang=' + rowObject.locale + '">Edit Page &#9656;</a>';
              }
              
              contentGrid.jqGrid({
@@ -89,10 +89,10 @@
                 	repeatitems: false,
                 	id: 'churchId',
                 },
-                colNames: ['Key', 'Page Id', 'Locale', 'Title', 'Edit Page'],
+                colNames: ['Key', 'Page Id', 'Locale', 'Title', ''],
                 colModel: [
                     {name: 'key', hidden: true, key: true},
-					{name: 'pageId', width: 80, edittype: 'select', formatter: 'select', editoptions: {value: "intro:Introduction;contactus:Contact Us;ministers:Ministers;schedule:Schedule"}, editrules:{edithidden: true, required: true}, editable: true, },
+					{name: 'pageId', width: 80, edittype: 'select', formatter: 'select', editoptions: {value: "intro:Introduction;contactus:Contact Us;minister:Ministers;schedule:Schedule"}, editrules:{edithidden: true, required: true}, editable: true, },
 					{name: 'locale', width: 60, edittype: 'select', formatter: 'select', editoptions: {value: "en:English;zh:Chinese"},editrules:{edithidden: true, required: true}, editable: true},
 					
 					{name: 'title', width: 120, editrules:{required: true}, editable: true},
@@ -121,7 +121,7 @@
             		 viewPagerButtons: false,
             		 ajaxEditOptions:{ contentType:"application/json" },
             		 serializeEditData:function(data) {
-                    	 console.log(data);
+                    	 //console.log(data);
 
             			 return JSON.stringify({
 	                         churchId: parseInt(data.id, 10),
@@ -152,22 +152,34 @@
        	        		 
             		 },
              		 ajaxEditOptions:{ contentType:"application/json" },
-             		 serializeEditData:function(data) {
-                     	 console.log(data);
+            		 serializeEditData:function(data) {
+                    	 console.log(data);
 
-             			 return JSON.stringify({
- 	                         sortOrder: data.sortOrder,
- 	                         churchPath: data.churchPath,
- 	                         name: {en: data['name.en'], zh: data['name.zh']},                 
- 	                     });
+            			 return JSON.stringify({
+	                         churchId: parseInt(data.id, 10),
+	                         pageId: data.pageId,
+	                         locale: data.locale,
+	                         title: data.title                
+	                     });
              		 },
              		 mtype: 'POST',
-             		 url: '${churchOrgAdminUrl}/${churchOrg.churchOrgId}/church?new'
+             		 url: '${churchAdminUrl}/${church.churchId}/content?new'
              		},
              		// delete
              		{width: 500, 
              		 mtype: 'POST',
-             		 url: '${churchOrgAdminUrl}/${churchOrg.churchOrgId}/church?delete'
+             		 url: '${churchAdminUrl}/${church.churchId}/content?delete',
+              		 serializeDelData:function(data) {
+                    	 console.log(data);
+
+            			 return JSON.stringify({
+	                         churchId: parseInt(data.id, 10),
+	                         pageId: data.pageId,
+	                         locale: data.locale,
+	                         title: data.title                
+	                     });
+             		 },             				 
+             				 
              		}            
              	);
         });
