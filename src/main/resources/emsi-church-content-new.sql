@@ -2079,7 +2079,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 			<td style="padding: 0px 10px 0px 10px">青年及專業人士團契</td>
 			<td style="padding: 0px 10px 0px 10px">星期五</td>
 			<td style="padding: 0px 10px 0px 10px">晚 上七 時</td>
-		</tr>
+		</tr> 
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">南灣及東灣團契</td>
 			<td style="padding: 0px 10px 0px 10px">星期六</td>
@@ -2087,7 +2087,6 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		</tr>
 	</tbody>
 </table>
-
 <br/>
 '));
 
@@ -2828,7 +2827,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class="main-content">
 <p>
-<span class="label">Established Date: </span>October 18, 2010
+<span class="label">Established Date: </span>April 2011
 </p>
 <p>
 <img src="/emsi/files/biblestudydec2011.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />On October 18, 2010, Christian Evangelical Mission International sent Ev. Angela Chen to Budapest, Hungary as a missionary. After four months of labor, CEMC in Budapest is established. This is the 47th CEM church established by the Evangelical Mission and Seminary International under the leadership of Rev. Moses Yang. It is also the 28th CEM church established by the CEMI in Europe.
@@ -2882,7 +2881,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2011年 3月
+<span class=\"label\">成立日期: </span>2011年  4月
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
