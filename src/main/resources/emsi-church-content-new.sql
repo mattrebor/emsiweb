@@ -227,6 +227,38 @@ update church_content set body = STRINGDECODE('
 ')	where church_id = (select church_id from church where church_path = 'brooklyn')
 	and locale = 'zh'
 	and page_id = 'contactus';
+
+
+update church_content set body = '<table border="1" cellpadding="5">
+<tr>
+	<td>Worship Service</td>
+	<td>Sunday 2:00—3:30pm</td>
+</tr>
+<tr>
+	<td>Bible Study</td>
+	<td>Sunday 3:30—4:00pm</td>
+</tr>
+</table>
+'	where church_id = (select church_id from church where church_path = 'brooklyn')
+	and locale = 'en'
+	and page_id = 'schedule';	
+	
+
+	
+update church_content set body = '<table border="1" cellpadding="5">
+<tr>
+	<td>主日崇拜</td>
+	<td>禮拜日下午2:00—3:30</td>
+</tr>
+<tr>
+	<td>查經禱告會</td>
+	<td>禮拜日下午3:30—4:00</td>
+</tr>
+</table>
+'	where church_id = (select church_id from church where church_path = 'brooklyn')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+	
 	
 	
 ------------end  brooklyn
@@ -936,7 +968,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(51, 'schedule', 'zh', '巴黎北區基督教生命堂 - 聚會時間', '
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(51, 'schedule', 'zh', '巴黎北區基督教生命堂 - 聚會日程', '
 <table cellPadding="0" border="0" style="width: 100%" class="MsoNormalTable" width="100%">
 	<tbody>
 		<tr>
@@ -2056,7 +2088,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <br/>
 '));
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(12, 'schedule', 'zh', '聖河水基督教生命堂 - 聚會時間', STRINGDECODE('
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(12, 'schedule', 'zh', '聖河水基督教生命堂 - 聚會日程', STRINGDECODE('
 <table  border="1">
 	<tbody>
 		<tr>
@@ -3194,7 +3226,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <br/>
 '));
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(47, 'schedule', 'zh', '大阪基督教生命堂 - 聚會時間', STRINGDECODE('
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(47, 'schedule', 'zh', '大阪基督教生命堂 - 聚會日程', STRINGDECODE('
 <table  border="1">
 	<tbody>
 		<tr>
@@ -4690,7 +4722,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <br/>
 '));
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(43, 'schedule', 'zh', '普拉托基督教生命堂 - 聚會時間', STRINGDECODE('
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(43, 'schedule', 'zh', '普拉托基督教生命堂 - 聚會日程', STRINGDECODE('
 <table  border="1">
 	<tbody>
 		<tr>
