@@ -96,7 +96,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> 4609 8th Avenue, Brooklyn, NY 11220 USA</td>
+			<td> 733 47th Street, Brooklyn, New York 11220, USA</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -152,7 +152,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> 4609 8th Avenue, Brooklyn, NY 11220, USA</td>
+			<td> 733 47th Street, Brooklyn, New York 11220, USA</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -179,13 +179,7 @@ p span.label {font-weight: bold;}
 布路倫生命堂成立于2009年8月3日。生命堂總監督楊摩西牧師看見布路倫地區華人越來越多,因而開拓此間教會。
 </p>
 <p>
-目前除了每週崇拜聚會外，還有查經班。聚會時間如下：
-</p>
-<p>
-崇拜 : 每週一下午2:00—3:30 P.M.
-</p>
-<p>
-查經禱告會: 每週一下午3:30—4:00 P.M.
+目前除了每週崇拜聚會外，還有查經班。
 </p>
 </div>
 ')	where church_id = (select church_id from church where church_path = 'brooklyn')
@@ -198,7 +192,7 @@ update church_content set body = STRINGDECODE('
 <b>Evangelist: </b>Ev. Paul Cheng, (c) 917-361-0823
 </p>
 <p>
-<b>Address: </b>1107 4609 8th Avenue, Brooklyn, NY 11220, USA
+<b>Address: </b>733 47th Street, Brooklyn, New York 11220, USA
 </p>
 <p>
 <b>Tel #: </b>(c) 917-361-0823
@@ -207,7 +201,7 @@ update church_content set body = STRINGDECODE('
 <b>Email: </b>chen_paul0620@yahoo.com
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=733+47th+St.,+Brooklyn,+New+York+11220.&hnear=733+47th+St,+Brooklyn,+New+York+11220&gl=us&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=733+47th+St.,+Brooklyn,+New+York+11220.&hnear=733+47th+St,+Brooklyn,+New+York+11220&gl=us&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'brooklyn')
 	and locale = 'en'
@@ -219,7 +213,7 @@ update church_content set body = STRINGDECODE('
 <b>傳道: </b>陳松曦 傳道, (手機)917-361-0823
 </p>
 <p>
-<b>地址: </b>1107 4609 8th Avenue, Brooklyn, NY 11220, USA
+<b>地址: </b>733 47th Street, Brooklyn, New York 11220, USA
 </p>
 <p>
 <b>電話: </b>(手機) 917-361-0823
@@ -228,7 +222,7 @@ update church_content set body = STRINGDECODE('
 <b>電郵: </b>chen_paul0620@yahoo.com
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.map/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=4609+8th+Avenue,+Brooklyn,+NY+11220,+USA&amp;sll=37.0625,-95.677068&amp;sspn=41.139534,52.558594&amp;ie=UTF8&amp;hq=&amp;hnear=4609+8th+Ave,+Brooklyn,+Kings,+New+York+11220&amp;ll=40.644633,-73.998928&amp;spn=0.007815,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=733+47th+St.,+Brooklyn,+New+York+11220.&hnear=733+47th+St,+Brooklyn,+New+York+11220&gl=us&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=733+47th+St.,+Brooklyn,+New+York+11220.&hnear=733+47th+St,+Brooklyn,+New+York+11220&gl=us&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'brooklyn')
 	and locale = 'zh'
