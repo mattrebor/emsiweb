@@ -2832,7 +2832,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> 1107 Budapest, Monori u.1-3. E12-1 Hungary</td>
+			<td> 1107 Budapest, Monori u.2-4. E12-12 Hungary</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -2887,7 +2887,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> 1107 Budapest, Monori u.1-3. E12-1 Hungary</td>
+			<td> 1107 Budapest, Monori u.2-4. E12-12 Hungary</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -2926,7 +2926,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Angela Chen
 </p>
 <p>
-<b>Address: </b>1107 Budapest, Monori u.1-3. E12-1 Hungary
+<b>Address: </b>1107 Budapest, Monori u.2-4. E12-12 Hungary
 </p>
 <p>
 <b>Tel #: </b>36-30-408-6398, 36-70-501-3123
@@ -2948,7 +2948,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道:</b>陳寶珩 傳道
 </p>
 <p>
-<b>地址: </b>1107 Budapest, Monori u.1-3. E12-1 Hungary
+<b>地址: </b>1107 Budapest, Monori u.2-4. E12-12 Hungary
 </p>
 <p>
 <b>電話:</b> 36-30-408-6398, 36-70-501-3123
@@ -3211,7 +3211,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 			<td style="padding: 0px 10px 0px 10px">8 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Japanese Bible Study</td>
+			<td style="padding: 0px 10px 0px 10px">Japanese Bible Reading</td>
 			<td style="padding: 0px 10px 0px 10px">Saturday</td>
 			<td style="padding: 0px 10px 0px 10px">7:30 pm</td>
 		</tr>
