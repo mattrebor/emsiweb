@@ -4061,7 +4061,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Patty Chien, 973-331-0545 ext. 233, (C) 973-768-5805</td>
+			<td>Ev. Patty Chien, 973-331-0545 ext. 233, (C) 201-993-3043</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
@@ -4144,7 +4144,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>錢舜 傳道, 973-331-0545 ext. 233, (手機) 973-768-5805</td>
+			<td>錢舜 傳道, 973-331-0545 ext. 233, (手機) 201-993-3043</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
