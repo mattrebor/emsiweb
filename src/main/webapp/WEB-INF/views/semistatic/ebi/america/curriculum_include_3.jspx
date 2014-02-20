@@ -10,7 +10,7 @@
 			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
 			lang="ZH-CN" style="font-family: 華康細圓體">聲樂課</span></b><b
 			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
-			style="font-family: Arial, sans-serif">Voice Lessons</span></b><b
+			style="font-family: Times New Roman, sans-serif">Voice Lessons</span></b><b
 			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
 			lang="ZH-TW" style="font-size: 10pt; font-family: 華康細圓體">：</span></b><span
 			style="line-height: 12pt; text-align: justify; font-size: x-small">
@@ -31,21 +31,25 @@
 		<b style="line-height: 12pt; font-size: 13px">
 			<span style="font-family: 華康細圓體" lang="ZH-CN">學費</span></b>
 		<b style="line-height: 12pt; font-size: 13px">
-			<span style="font-family: Arial, sans-serif">Tuition Fee</span></b>
+			<span style="font-family: Times New Roman, sans-serif">Tuition Fee</span></b>
 		<b style="font-size: 13px">
 			<span lang="ZH-TW" style="font-size: 12pt; font-family: SimSun">：</span></b>
 		<span lang="ZH-CN"
 			style="line-height: 12pt; font-size: 10pt; font-family: SimSun">全修生每學期</span>
-		<span style="line-height: 12pt; font-size: 10pt; font-family: Optane">$2,000.00</span>
+		<span style="line-height: 12pt; font-size: 10pt; font-family: Optane">$2,000.00, </span>
+		<span lang="ZH-CN"
+			style="line-height: 12pt; font-size: 10pt; font-family: SimSun">選修生每學分</span>
+		<span style="line-height: 12pt; font-size: 10pt; font-family: Optane">$200.00</span>
 		<span lang="ZH-TW"
 			style="line-height: 12pt; font-size: 10pt; font-family: MingLiU">。</span>
-		<span style="line-height: 12pt; font-size: 10pt">Full time student each quarter $2,000.00.</span>
+		<span style="line-height: 12pt; font-size: 10pt;font-family: 'Times New Roman', serif">Full time student each quarter $2,000.00; part time student $200.00 per credit. </span>
+		
 	</p>
 	<p class="MsoNormal" style="text-align: justify; line-height: 12pt">
 		<b><span lang="ZH-TW" style="font-size: 11pt; font-family: SimSun">四</span></b>
 		<b><span lang="ZH-TW" style="font-size: 11pt; font-family: 華康中楷體">、</span></b>
 		<b><span lang="ZH-CN" style="font-family: 華康細圓體">註冊</span></b>
-		<b><span style="font-family: Arial, sans-serif">Registration:</span></b>
+		<b><span style="font-family: Times New Roman, sans-serif">Registration:</span></b>
 		&amp;nbsp;
 		<span style="font-size: 10pt; font-family: 'Times New Roman', serif">2/10/14 (Mon.) –2/11/14 (Tue.)</span>
 		&amp;nbsp;
@@ -66,9 +70,9 @@
 			style="font-size: 11pt; font-family: SimSun">五</span><span
 			lang="ZH-TW" style="font-size: 11pt; font-family: 華康中楷體">、</span><span
 			lang="ZH-CN"
-			style="font-size: 12pt; letter-spacing: 1.2pt; font-family: 華康細圓體">備註</span><span
-			style="font-size: 12pt; font-family: Arial, sans-serif">Memo</span><span
-			lang="ZH-TW" style="font-size: 12pt; font-family: SimSun">：</span></b><span
+			style="font-size: 11pt; letter-spacing: 1.2pt; font-family: 華康細圓體">備註</span><span
+			style="font-size: 11pt; font-family: Times New Roman, sans-serif">Memo</span><span
+			lang="ZH-TW" style="font-size: 11pt; font-family: SimSun">：</span></b><span
 			style="font-size: x-small"><b>1.若您要保留選課資料，請自行影印備份存檔。It is
 				the student’s responsibility to keep his/her own record of the
 				courses taken. 2.関于旁聽：(1)同工最多可旁聽兩門神學課：一門免費；另一門須付50%的學費。Co-workers
