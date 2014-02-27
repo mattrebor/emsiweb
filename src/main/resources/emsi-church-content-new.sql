@@ -120,7 +120,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>August 3, 2009
 </p>
 <p>
-CEM Church in Brooklyn was established on August 3, 2009 when CEM Bishop Moses Yang noted the increasing Chinese population in Brooklyn.
+<img hspace="5" src="/emsi/images/Brooklyn Church small.JPG" align="left" height="255" width="360" />CEM Church in Brooklyn was established on August 3, 2009 when CEM Bishop Moses Yang noted the increasing Chinese population in Brooklyn.
 </p>
 </div>
 '	where church_id = (select church_id from church where church_path = 'brooklyn')
@@ -176,6 +176,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
+<img hspace="5" src="/emsi/images/Brooklyn Church small.JPG" align="left" height="255" width="360" />
 布路倫生命堂成立于2009年8月3日。生命堂總監督楊摩西牧師看見布路倫地區華人越來越多,因而開拓此間教會。
 </p>
 <p>
