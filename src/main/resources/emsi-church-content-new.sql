@@ -2774,6 +2774,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Email: </b>emsimindelo@hotmail.com
 </p>
 <p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=41.333965,+-8.720221&amp;aq=&amp;sll=41.334996,-8.723702&amp;sspn=0.008249,0.015664&amp;ie=UTF8&amp;ll=41.334996,-8.723702&amp;spn=0.008249,0.015664&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=41.333965,+-8.720221&amp;aq=&amp;sll=41.334996,-8.723702&amp;sspn=0.008249,0.015664&amp;ie=UTF8&amp;ll=41.334996,-8.723702&amp;spn=0.008249,0.015664&amp;t=m&amp;z=14;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'mindelo')
 	and locale = 'en'
@@ -2796,9 +2797,9 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>電郵: </b>emsimindelo@hotmail.com
-</p>
----test
+</p> 
 <p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=41.333965,+-8.720221&amp;aq=&amp;sll=41.334996,-8.723702&amp;sspn=0.008249,0.015664&amp;ie=UTF8&amp;ll=41.334996,-8.723702&amp;spn=0.008249,0.015664&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=41.333965,+-8.720221&amp;aq=&amp;sll=41.334996,-8.723702&amp;sspn=0.008249,0.015664&amp;ie=UTF8&amp;ll=41.334996,-8.723702&amp;spn=0.008249,0.015664&amp;t=m&amp;z=14;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'mindelo')
 	and locale = 'zh'
