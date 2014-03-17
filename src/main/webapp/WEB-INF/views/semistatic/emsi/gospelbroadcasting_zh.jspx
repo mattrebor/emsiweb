@@ -1,7 +1,12 @@
 	<!-- English -->
-	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page"
+		xmlns:spring="http://www.springframework.org/tags">
 		<jsp:directive.page contentType="text/html;charset=UTF-8" />
 		<jsp:output omit-xml-declaration="yes"/>
+
+		<spring:url value="/order/audio_cd" var="audiostore_url"/>
+		
+		
 		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
 			福音廣播中心</span>
 		
@@ -18,7 +23,7 @@
 <br/>
 (3). 生命之糧福音廣播光碟 - 每月定期製作。這是一個四十五分鐘的節目，每次有一個特定的主題，信息和詩歌都與主題相配合，為的是幫助信徒靈命的增長。<br/>
 <br/>
-<a href="#">點擊這裡</a>下載 光碟單及訂購單. 或 寫明您想要購買的光碟編號、書名/內容、數量和價錢，寫電郵至emsi@emsionline.org , 我們將會與您連絡！
+<a href="${audiostore_url}">點擊這裡</a>下載 光碟單及訂購單. 或 寫明您想要購買的光碟編號、書名/內容、數量和價錢，寫電郵至emsi@emsionline.org , 我們將會與您連絡！
 		</section>
 	</article>
 	<!-- end English -->

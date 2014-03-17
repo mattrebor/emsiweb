@@ -1,7 +1,11 @@
 	<!-- Chinese -->
-	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page">
+	<article class="content" xmlns:jsp="http://java.sun.com/JSP/Page"
+	xmlns:spring="http://www.springframework.org/tags">
 		<jsp:directive.page contentType="text/html;charset=UTF-8" />
 		<jsp:output omit-xml-declaration="yes"/>
+		
+		<spring:url value="/order/audio_cd" var="audiostore_url"/>
+		
 		<span style="font-size: 20px; font-weight: bold; text-decoration: underline; color: #0f5b69;">
 			Gospel Broadcasting Ministry</span>
 		
@@ -28,7 +32,7 @@ c. Periodical
 </p>
 <p>
 We produce the monthly "Bread of Life" Broadcasting CD. This is a forty-five minute program, consisting of a main topic with correlated songs. This is to help believers in their spiritual growth.
-For a list of available Gospel Broadcasting CDs, please <a href="#">click here</a>.
+For a list of available Gospel Broadcasting CDs, please <a href="${audiostore_url}">click here</a>.
 </p>
 
 
