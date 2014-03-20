@@ -596,7 +596,7 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'en'
 	and page_id = 'contactus';
 	
-	
+
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
@@ -616,12 +616,177 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'murrayhill')
 	and locale = 'zh'
 	and page_id = 'contactus';
+
+	
+update church_content set body = STRINGDECODE('
+
+<b>Sunday Worship│Sunday 2:00PM </b>
+<br/>
+Currently our Sunday Worship service is conducted in Mandarin with simultaneous English and
+Cantonese translation available (in a separate area).
+<br/><br/>
+<b>Meeting Schedule</b>
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Sunday Worship</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">2:00pm - 3:00pm <br/>(Transportation can be arranged)</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Sunday Prayer Meeting</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:00pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Sunday Bible Study</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">4:00pm - 5:00pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Children’s Sunday School</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">2:00pm - 3:00pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Cantonese Fellowship</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:30pm</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Weekday Bible Study</td>
+			<td style="padding: 0px 10px 0px 10px">Friday</td>
+			<td style="padding: 0px 10px 0px 10px">7:00pm - 9:00pm<br/>(Supper will be served prior to bible study)</td>
+		</tr>
+	</tbody>
+</table>
+
+<br/>
+
+<b>Class Schedule</b>
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">English Class</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">1:00pm - 2:00pm (No Age Limit)</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Chinese Class</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">3:30pm - 5:00pm (Traditional & Simplified)</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Music Class</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:30pm<br/>(Piano, voice and guitar lessons plus learning how to read music)</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Art Class</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:30pm<br/>(For children aged 2-7 years old)</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Computer Class</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">3:30pm - 5:00pm (No Age Limit)</td>
+		</tr>
+	</tbody>
+</table>
+
+Church is planning to open the tutoring class for students in middle and primary schools.
+
+')	where church_id = (select church_id from church where church_path = 'murrayhill')
+	and locale = 'en'
+	and page_id = 'schedule';
 	
 	
+update church_content set body = STRINGDECODE('
+
+<b>主日崇拜│週日下午2:00 PM</b>
+<br/>
+<br/>
+教會目前只有中文國語崇拜，備有英文和粵語台下同步翻譯。
+<br/>
+<br/>
+
+<b>聚會日程</b>
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">主日崇拜</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 2:00 - 3:00 （可安排接送）</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">主日禱告會</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 4:00</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">主日查經班</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 4:00 - 5:00</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">兒童主日學</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 2:00 - 3:00</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">廣東團契</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 4:30</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">週間查經班 & 禱告會</td>
+			<td style="padding: 0px 10px 0px 10px">星期五</td>
+			<td style="padding: 0px 10px 0px 10px">晚上 7:00 - 9:00 （免費聚餐）</td>
+		</tr>
+	</tbody>
+</table>
+<br/>
+<br/>
+<b>學習班</b>
+<table  border="1">
+	<tbody>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">英文班</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 1:00 - 2:00 （年齡不限)</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">中文班</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 5:00 （繁、簡體）</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">音樂班</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 5:00 （鋼琴、聲樂、吉他、識譜)</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">美術班</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 4:30 （主要針對2-7 歲兒童）</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">電腦班</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 5:00 （年齡不限）</td>
+		</tr>
+	</tbody>
+</table>
+教會正計劃開設中小學生課後補習班
+
+')	where church_id = (select church_id from church where church_path = 'murrayhill')
+	and locale = 'zh'
+	and page_id = 'schedule';
+
+
 -------------end  murrayhill
 
 ------------- Highland park
-
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
