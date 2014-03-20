@@ -599,9 +599,6 @@ update church_content set body = STRINGDECODE('<p>
 
 	
 update church_content set body = STRINGDECODE('<p>
-<p>
-歡迎聯絡我們，有關信仰的一切問題！
-</p>
 <b>地址: </b>725 Mountain Avenue, Berkeley Heights, NJ 07922, USA
 </p>
 <p>
