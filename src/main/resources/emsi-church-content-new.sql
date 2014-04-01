@@ -5449,7 +5449,7 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'antwerpen')
 	and locale = 'zh'
 	and page_id = 'intro';
-	
+
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
