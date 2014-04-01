@@ -4065,6 +4065,182 @@ p span.label {font-weight: bold;}
 	and page_id = 'intro';
 
 
+----------  starts Holland - bergenopzoom
+update church_content set body = STRINGDECODE('<style>
+.contact-content {
+font-family: Arial,helvetica,sans-serif
+}
+.contact-content td {
+padding-bottom: 2px; padding-left: 2px; padding-right: 2px; font-size: small; padding-top: 2px; 3px: 
+}
+td.label {
+width: 1%; white-space: nowrap; font-weight: bold
+}
+p span.label {
+font-weight: bold
+}
+.main-content {
+font-family: Arial, MingLiU, Helvetica, san-serif; color: #333; font-size: 13px
+}
+.borderless-table {
+border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px
+}</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Kwok On Lam (Eric Lam)</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>0031 - (0)164 78 58 22</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:ekolam@hotmail.com">ekolam@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>September 12, 1999
+</p>
+<p>
+<img hspace="5" src="/emsi/images/BergenOpZoom.JPG" align="left" height="255" width="360" />The launching of CEC in Bergen Op Zoom and CEC in Breda are very similar. Both were the results of the North American CEM Headquarter''s short term mission trip in July, 1997. The foundation for the church was established after three days of visiting families and three mornings of evangelical meetings. In the beginning, brother Yu Changhan and his wife offered their restaurant as a place for worship. The Lam brothers from Rotterdam also took up the difficult task of establishing the church.
+</p>
+<p>
+After the church was established, brother Lam Kowk On decided to take a one year seminary courses at the North America Headquarters. He returned to the Netherlands, and later was transferred to the Paris campus for continuing studies while assuming the heavy duty of pastoring the church. By the Grace of God, soon after the church was established, they were able to rent a Netherland church in front of brother Yu''s restaurant for Sunday worship, Sunday school and Thursday Bible studies.
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'bergenopzoom')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>林國安 牧師</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td>Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherlands  </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td>0031 - (0)164 78 58 22</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href="mailto:ekolam@hotmail.com">ekolam@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1999年 9月
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace="5" src="/emsi/images/BergenOpZoom.JPG" align="left" height="255" width="360" />百合山生命堂與百利達生命堂成立經過相似，也是北美總會一九九七年七月來荷短宣的成果。經過那次三天逐家探訪和三個早上的佈道會，奠定了教會的開始。剛起步的時間，邱長興弟兄夫婦樂意借出他們的餐館作各聚會之用。
+<p>
+原在鹿特丹聚會的林氏兄弟們也願意負起開拓的挑戰，當中林國安弟兄在教會成立後決定前往北美總會神學院修讀一年神學課程，後回荷一面再到巴黎分院選讀，一面負責牧養教會的重任。教會成立不久，在神豐富預備，他們租到位於邱弟兄餐館對面的荷蘭教堂用作主日崇拜、主日學和周四查經聚會的地方。
+<p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'bergenopzoom')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Rev. Kwok On Lam (Eric Lam)
+</p>
+<p>
+<b>Address: </b>Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherlands
+</p>
+<p>
+<b>Tel #: </b>0031 - (0)164 78 58 22
+</p>
+<p>
+<b>Email: </b>ekolam@hotmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rozenstraat+2&amp;ie=UTF8&amp;hq=&amp;hnear=Rozenstraat+2,+4613+AJ+Bergen+op+Zoom,+The+Netherlands&amp;z=14&amp;ll=51.502719,4.282703&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Rozenstraat+2&amp;ie=UTF8&amp;hq=&amp;hnear=Rozenstraat+2,+4613+AJ+Bergen+op+Zoom,+The+Netherlands&amp;z=14&amp;ll=51.502719,4.282703&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'bergenopzoom')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 林國安 牧師
+</p>
+<p>
+<b>地址: </b>Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherlands
+</p>
+<p>
+<b>電話:</b> 0031 - (0)164 78 58 22
+</p>
+<p>
+<b>電郵: </b>ekolam@hotmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rozenstraat+2&amp;ie=UTF8&amp;hq=&amp;hnear=Rozenstraat+2,+4613+AJ+Bergen+op+Zoom,+The+Netherlands&amp;z=14&amp;ll=51.502719,4.282703&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Rozenstraat+2&amp;ie=UTF8&amp;hq=&amp;hnear=Rozenstraat+2,+4613+AJ+Bergen+op+Zoom,+The+Netherlands&amp;z=14&amp;ll=51.502719,4.282703&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'bergenopzoom')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+----------  ends Holland - bergenopzoom
+
+	
+	
+	
 update church_content set body = STRINGDECODE('<style>
 .contact-content {
 FONT-FAMILY: Arial,helvetica,sans-serif
@@ -5202,7 +5378,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>November 9, 2003
 </p>
 <p>
-<img src="/emsi/files/ant828small_0.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />The EMSI short term mission to Belgium in the spring of 2000 covered Antwerpen and Brussels. We saw the need for the Gospel in Brussels there and established the CEC in Brussels in May 2004. We have morning service in Antwerpen and afternoon service in Brussels. God raised up godly members who came to serve with us from Antwerpen to Brussels. Their faithfulness really encouraged us greatly
+<img hspace="5" src="/emsi/images/BelgiumBSmall10_31_13.JPG" align="left" height="255" width="360" />The EMSI short term mission to Belgium in the spring of 2000 covered Antwerpen and Brussels. We saw the need for the Gospel in Brussels there and established the CEC in Brussels in May 2004. We have morning service in Antwerpen and afternoon service in Brussels. God raised up godly members who came to serve with us from Antwerpen to Brussels. Their faithfulness really encouraged us greatly
 </p>
 <p>Pictured: CEC in Antwerpen purchased a new church building.</p>
 <p>
@@ -5213,7 +5389,7 @@ p span.label {font-weight: bold;}
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -5261,7 +5437,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/ant828small_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />感謝主帶領我們在二○○○年的春天，有機會參予國際神學福音佈道會的短宣隊前往法國和比利時短宣；二○○一年自神學院畢業後，我與妻子被差派前往法國巴黎生命堂實習。在法國的兩年裡多次聽聞比利時需要工人，所以我們經常為此事禱告，希望比利時能盡快找到傳道人。然而，經過一段時間，上帝給我們一個感動，因為比利時是荷、法雙語的國家，若懂當地語言相對來說是比較方便；而我們都是在荷蘭長大受教育，又曾在法國居住過兩年，好像這些都是有利的基本條件，最後我們確定是上帝的呼召，便順服祂的旨意。
+<img hspace="5" src="/emsi/images/BelgiumBSmall10_31_13.JPG" align="left" height="255" width="360" />感謝主帶領我們在二○○○年的春天，有機會參予國際神學福音佈道會的短宣隊前往法國和比利時短宣；二○○一年自神學院畢業後，我與妻子被差派前往法國巴黎生命堂實習。在法國的兩年裡多次聽聞比利時需要工人，所以我們經常為此事禱告，希望比利時能盡快找到傳道人。然而，經過一段時間，上帝給我們一個感動，因為比利時是荷、法雙語的國家，若懂當地語言相對來說是比較方便；而我們都是在荷蘭長大受教育，又曾在法國居住過兩年，好像這些都是有利的基本條件，最後我們確定是上帝的呼召，便順服祂的旨意。
 </p>
 <p我們對比利時的環境並不了解，只抱著一顆傳福音的心志，二○○三年的夏天踏進這個陌生的地方。上帝為我們預備了一對愛主的夫婦(程伯君夫婦)與我們一起開始了開荒的工作。雖不容易，但終於在同年的十一月在安特衛普市成立了「安慰城基督教生命堂」。當時是從一些留學生工作開始，也不斷嘗試透過各種的途徑來傳福音，上帝慢慢地帶領不同的家庭、小孩子和青少年人來到我們當中，大家在主的愛裏感到非常溫馨，弟兄姐妹的靈命也在聖經的真理中漸漸成長。當我們踏進第四個年頭時，看見上帝極大的恩典臨到安慰城的弟兄姐妹，因著各國生命堂的支持與關懷，我們能夠有自己的會所，為此向主獻上衷心感謝和讚美；而更叫我們不敢浪費一分一秒的時間，要加倍地努力傳揚福音，回報主恩及大家的愛心。
 </p>
