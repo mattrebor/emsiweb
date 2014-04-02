@@ -5139,7 +5139,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 * Jabez fellowship is held at the restaurant "Fu Yuan Feng" at 22 rue de Trévisse, 7509 Paris.
 '));
 
-	
+
 update PUBLIC.CHURCH_CONTENT
 set body = '
 <table  border="1">
