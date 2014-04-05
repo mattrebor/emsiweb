@@ -4124,7 +4124,7 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 <span class="label">Established Date: </span>September 12, 1999
 </p>
 <p>
-<img hspace="5" src="/emsi/images/BergenOpZoom.JPG" align="left" height="255" width="360" />The launching of CEC in Bergen Op Zoom and CEC in Breda are very similar. Both were the results of the North American CEM Headquarter''s short term mission trip in July, 1997. The foundation for the church was established after three days of visiting families and three mornings of evangelical meetings. In the beginning, brother Yu Changhan and his wife offered their restaurant as a place for worship. The Lam brothers from Rotterdam also took up the difficult task of establishing the church.
+<img hspace="5" src="/emsi/images/BergenOpZoom2.JPG" align="left" height="255" width="360" />The launching of CEC in Bergen Op Zoom and CEC in Breda are very similar. Both were the results of the North American CEM Headquarter''s short term mission trip in July, 1997. The foundation for the church was established after three days of visiting families and three mornings of evangelical meetings. In the beginning, brother Yu Changhan and his wife offered their restaurant as a place for worship. The Lam brothers from Rotterdam also took up the difficult task of establishing the church.
 </p>
 <p>
 After the church was established, brother Lam Kowk On decided to take a one year seminary courses at the North America Headquarters. He returned to the Netherlands, and later was transferred to the Paris campus for continuing studies while assuming the heavy duty of pastoring the church. By the Grace of God, soon after the church was established, they were able to rent a Netherland church in front of brother Yu''s restaurant for Sunday worship, Sunday school and Thursday Bible studies.
@@ -4182,7 +4182,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace="5" src="/emsi/images/BergenOpZoom.JPG" align="left" height="255" width="360" />百合山生命堂與百利達生命堂成立經過相似，也是北美總會一九九七年七月來荷短宣的成果。經過那次三天逐家探訪和三個早上的佈道會，奠定了教會的開始。剛起步的時間，邱長興弟兄夫婦樂意借出他們的餐館作各聚會之用。
+<img hspace="5" src="/emsi/images/BergenOpZoom2.JPG" align="left" height="255" width="360" />百合山生命堂與百利達生命堂成立經過相似，也是北美總會一九九七年七月來荷短宣的成果。經過那次三天逐家探訪和三個早上的佈道會，奠定了教會的開始。剛起步的時間，邱長興弟兄夫婦樂意借出他們的餐館作各聚會之用。
 <p>
 原在鹿特丹聚會的林氏兄弟們也願意負起開拓的挑戰，當中林國安弟兄在教會成立後決定前往北美總會神學院修讀一年神學課程，後回荷一面再到巴黎分院選讀，一面負責牧養教會的重任。教會成立不久，在神豐富預備，他們租到位於邱弟兄餐館對面的荷蘭教堂用作主日崇拜、主日學和周四查經聚會的地方。
 <p>
