@@ -5492,7 +5492,6 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 
 
-
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?text-align: left\">View Larger Map</a></small>
 </p>
