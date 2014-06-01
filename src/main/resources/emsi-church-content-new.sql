@@ -3649,7 +3649,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Worship Address:</td>
-			<td>Via Melchiorre Gioia 193, 20125 Milano, Italy</td>
+			<td>Via Melchiorre Gioia 193, Milano, Italy</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -3723,7 +3723,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">主日崇拜:</td>
-			<td> Via Melchiorre Gioia 193, 20125 Milano, Italy </td>
+			<td> Via Melchiorre Gioia 193, Milano, Italy </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -4276,7 +4276,7 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>C/ Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain</td>
+			<td>C/ Pintor Aparicio 9, Local-IZ 03003 Alicante, Spain</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -5500,3 +5500,225 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 	
 ----------------  ends  Belgium - antwerpen
+
+---------- TOKYO ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(52, 'tokyo', 1, 1, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(52, 'en', 'menu_name', 'CEC in Tokyo');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(52, 'zh', 'menu_name', '東京基督教生命堂');            
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 52);          
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'intro', 'en', 'CEC in Tokyo - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Sau Lan Fong, 81-90-9700-4895</td>
+		</tr>
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>701F SS1BIRU 3-20-5 Minamiool, Sinagawa-ku, Tokyo, Japan</td>
+		</tr>
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>81-3-6423-1773</td>
+		</tr>
+		<tr>
+			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p><span class="label">Established Date: </span>2012</p>
+
+<br/>
+<p><b>March 2012 - Evangelistic Ministry began</b><br />
+<br />
+Tokyo is the capital of Japan. It is the place where most Chinese gather in Japan. Although there are a lot of churches there, there are still a lot of lost souls who have yet to receive the gospel. Sister Lin Yun Fang and her husband moved from Osaka to a place nearby Tokyo (about a 40 minutes ride away) about three years ago. After they arrived, they looked for a church hoping to get spiritually fed. But they still felt spiritually hungry. So they prayed to God earnestly hoping that CEM will open up a church in Tokyo. In March 2012, after Sister Lin and her husband purchased a new house, they opened their house for the Lord&rsquo;s use. They told Ev. Fong about their conviction; and Ev. Fong in turn told Rev. Yang. So by the end of April 2012, Rev. Yang went to Tokyo to start the first family service.
+</p>
+<br/>
+
+<p><b>June 2012 - CEM Church established</b><br />
+<br />
+Rev. Yang asked the Lord for a sign that there would be at least 20 people in the first meeting. And Ev. Fong also asked for sign that there would be at least three people received Christ in the first meeting. It turned out that both signs came true. There were 24 adults and 6 children; and five of them were unbelievers. That day three people received Christ. Thank the Lord that CEM in Tokyo was officially established. On June 2012, Rev. Yang sent Ev. Fong temporarily to Sister Lin&rsquo;s house once a month to lead worship service there. In August 2013, we rented an office so the brothers and sisters in Tokyo finally have a spiritual home of our own. On September 29, 2013, Rev. Hosea Chi officiated the Inaugural Thanksgiving Service.</p>
+<br/>
+
+<p><b>Present Situation</b><br />
+<br />
+CEM in Tokyo is in a residential area. The church had about 10 regular members in the beginning when we rented the place. There are many Chinese nearby. Through our prayers and everyone working together, God opens a door for us, and we have new people coming every week.</p>
+</div>
+');    
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'intro', 'zh', '東京生命堂 - 牧師介紹', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">牧者:</td>
+			<td>方秀蘭傳道, 81-90-9700-4895</td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+<table cellpadding="1" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+			<td class="label">地址:</td>
+			<td>東京都品川區南大井 3-20-5 ＳＳ１大樓 701室。</td>
+		</tr>
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+			<td class="label">電話:</td>
+			<td>81-3-6423-1773</td>
+		</tr>
+		<tr>
+			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+			<td class="label">電郵:</td>
+			<td><a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p><span class="label">成立日期: </span>2012年</p>
+
+<p><b>2012年三月福音事工開展</b><br />
+<br />
+東京是日本的首都，聚集的中國人也是全日本最多的。儘管有許多華人教會，但還是有許多失喪的靈魂正等著基督耶穌的福音。 林雲芳夫婦早在三年前舉家從大阪搬遷到東京的附近(坐車四十分鐘左右可達東京)，到了當地後便找教會，原希望能在教會得到些靈裏的餵養，但卻始終覺得靈裏乾渴。因此迫切向上帝禱告，希望生命堂能在東京開展。 2012年三月，雲芳夫婦經過禱告購得新房後，願意開放家庭為主所用。他們將此感動傳達給方傳道，方傳道與楊牧師匯報後，2012年四月底，楊牧師來到東京視察，並開始了第一次的家庭聚會。</p>
+&nbsp;
+
+<p><b>2012年六月 教會成立</b><br />
+<br />
+楊牧師曾為東京的福音事工求印證，第一次要有二十多人來參加，而方傳道求的印證是至少三人信主。結果29日當天兩個印證都實現，首次聚會大人二十四位，小孩六位，其中五位未信主，當日有三位慕道友歸主。感謝主，東京基督教生命堂正式成立。 楊牧師差派方傳道從2012年六月開始暫時一個月一次到雲芳夫婦家帶領崇拜。 2013年八月，租借到一間事務所，東京的弟兄姐妹終於有了屬於自己的家。2013年九月29日，戚厚生牧師主持了「東京基督教生命堂」成立感恩崇拜。</p>
+&nbsp;
+
+<p><b>教會現況</b><br />
+<br />
+東京生命堂位於住宅區，附近有不少的中國人。正式開始崇拜時有近十人的固定弟兄姐妹參加，在代禱與弟兄姐妹共同地努力下，上帝為我們開路，幾乎每週都有新朋友來到我們當中。</p>
+</div>');         
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'schedule', 'en', 'CEC in Tokyo - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Worship Service</td>
+			<td>Sunday</td>
+			<td>11:00am ~ 12:30pm</td>
+		</tr>
+		<tr>
+			<td>Sunday School</td>
+			<td>Sunday</td>
+			<td>11:00am ~ 12:30pm</td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting</td>
+			<td>Wednesday</td>
+			<td>7:30pm ~ 8:00pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study</td>
+			<td>Wednesday</td>
+			<td>8:00pm ~ 9:00pm</td>
+		</tr>
+		<tr>
+			<td>Sisters&#39; Fellowship</td>
+			<td>Second Friday of the Month</td>
+			<td>7:00pm ~ 8:30pm</td>
+		</tr>
+		<tr>
+			<td>Japanese Language Class</td>
+			<td>Saturday</td>
+			<td>7:00pm ~ 8:30pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'schedule', 'zh', '東京基督教生命堂 - 聚會時間', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</td>
+			<td>星期日上午</td>
+			<td>11:00am ~ 12:30pm</td>
+		</tr>
+		<tr>
+			<td>主日學</td>
+			<td>星期日上午</td>
+			<td>11:00am ~ 12:30pm</td>
+		</tr>
+		<tr>
+			<td>禱告會</td>
+			<td>星期三晚上</td>
+			<td>7:30pm ~ 8:00pm</td>
+		</tr>
+		<tr>
+			<td>查經班</td>
+			<td>星期三晚上</td>
+			<td>8:00pm ~ 9:00pm</td>
+		</tr>
+		<tr>
+			<td>姐妹團契</td>
+			<td>每月第二週 星期五晚</td>
+			<td>7:00pm ~ 8:30pm</td>
+		</tr>
+		<tr>
+			<td>日語班</td>
+			<td>星期六晚上</td>
+			<td>7:00pm ~ 8:30pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');             
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'en', 'CEC in Tokyo - Contact Us', 'Christian Evangelical Church in Tokyo<br><br>
+
+<b>Pastor</b>: Ev. Sau Lan Fong, 81-90-9700-4895<br>
+<b>Address</b>: 701F SS1BIRU 3-20-5 Minamiool, Sinagawa-ku, Tokyo, Japan<br>
+
+<b>Tel. #:</b> 81-3-6423-1773<br>
+<b>Email:</b> <a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</a>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'zh', '東京基督教生命堂 - 連絡我們',
+'<b>牧 者：</b>方秀蘭傳道, 81-90-9700-4895<br>
+<b>地 址：</b> 東京都品川區南大井 3-20-5 ＳＳ１大樓 701室。<br>
+<b>電 話:</b> 81-3-6423-1773 <br>
+<b>電 郵:</b> <a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</a>'
+);          
+
+update church set address='701F SS1BIRU 3-20-5 Minamiool, Sinagawa-ku, Tokyo, Japan', latitude = 35.673343, longitude = 139.710388 where church_path = 'tokyo';
+
+------------ CEC TOKYO end ----------
