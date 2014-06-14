@@ -5246,13 +5246,13 @@ p span.label {font-weight: bold;}
 <a href="/emsi/gallery/?g2_itemId=119"><img src="/emsi/images/church_livingston.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /></a>
 </p>
 <p>
-The CEC in Livingston (former name: CEC in West Orange) is the first CEC in New Jersey.  Because of the requests of some Chinese Christian families who lived in New Jersey, the preparations for the establishement of the CEC in West Orange were underway in 1973.  During that time, Rev. Moses Yang had a car accident and was hurt.  From this, he thought to himself that this would not be God''s will to establish the West Orange Church.  So he knelt and prayed to the Lord for clear direction.  The Lord revealed to Rev. Yang a Bible verse from Psalm 66:12, &quot;Thou hast caused men to ride over our heads; we went through fire and through water; but thou broughtest us out into a wealthy place&quot;.  This verse clearly revealed God''s will to Rev. Yang.  With great faith, the church was established in early 1974. 
+The CEC in Livingston (former name: CEC in West Orange) is the first CEC in New Jersey. Because of the requests of some Chinese Christian families who lived in New Jersey, the preparation to establish the CEC in West Orange was set in motion in 1973. During that time, Rev. Moses Yang had a car accident and was hurt. From this incident, he thought to himself that this could not be God&#39s will to establish the West Orange Church. So, he knelt and prayed to the Lord for clear direction. The Lord revealed to him a Bible verse from Psalm 66:12: &#39Thou hast caused men to ride over our heads; we went through fire and through water; 
+but thou broughtest us out into a wealthy place.&#39 This verse revealed God&#39s will to Rev. Yang. With great faith, the church was established in early 1974.</p>
+<p>
+Currently the church has a diverse congregational mix. We welcome people from all walks of life.
 </p>
 <p>
-The church has a diverse congregational mix.  Its members are overseas Chinese from the Philippines, Taiwan, China, Hong Kong, Indonesia, &amp; Malaysia; Caucasians; American-born Chinese; and Filipinos. The languages used in the Sunday Worship Service are English and Mandarin.  The ministries consist of prayer meeting, Bible study groups,  youth group, young professional group, Sunday School classes, and Choir. 
-</p>
-<p>
-The church bought a church property in April, 2006 in Livingston and had its dedication on June 3, 2006. <b></b> 
+By the grace of God, He has provided us with a property for His work. Our building dedication was held on June 3, 2006 with the presence of the Mayor of the Township of Livingston.
 </p>
 </div>
 ' where church_id = (select church_id from church where church_path = 'livingston')
@@ -5325,6 +5325,109 @@ p span.label {font-weight: bold;}
 ' where church_id = (select church_id from church where church_path = 'livingston')
 	and locale = 'zh'
 	and page_id = 'intro';
+	
+
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>Worship Service</td>
+			<td>Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>Sunday School(Youth & Children)</td>
+			<td>Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>Restaurant Bible Study</td>
+			<td>Monday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>English Bible Study/Church Prayer Meeting</td>
+			<td>Friday</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth / Junior Fellowship</td>
+			<td>Friday</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>Chinese Bible Study</td>
+			<td>Every 1st, 3rd Saturday</td>
+			<td>11:00 am</td>
+		</tr>
+		<tr>
+			<td>Men&#39; Fellowship</td>
+			<td>Every 2nd Saturday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>Women&#39; Fellowship</td>
+			<td>Every 2nd Saturday</td>
+			<td>10:30 am</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'livingston')
+	and locale = 'en'
+	and page_id = 'schedule';	
+	
+	
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>主日崇拜</td>
+			<td>星期日上午</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>主日學(青少年與兒童)</td>
+			<td>星期日上午</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>餐館查經</td>
+			<td>星期一上午</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>英文查經 /禱告會</td>
+			<td>星期五晚上</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>青年 , 少年團契</td>
+			<td>星期五晚上</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>中文查經</td>
+			<td>每月第一，第三 星期六上午</td>
+			<td>11:00 am</td>
+		</tr>
+		<tr>
+			<td>弟兄團契</td>
+			<td>每月第二星期六上午</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>姊妹團契</td>
+			<td>每月第二星期六上午</td>
+			<td>10:30 am</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'livingston')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+
 	
 -------- ends USA - livingston
 
