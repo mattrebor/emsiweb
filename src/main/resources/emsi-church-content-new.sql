@@ -5806,21 +5806,46 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 <p>&nbsp;</p>
 ');             
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'en', 'CEC in Tokyo - Contact Us', 'Christian Evangelical Church in Tokyo<br><br>
 
-<b>Pastor</b>: Ev. Sau Lan Fong, 81-90-9700-4895<br>
-<b>Address</b>: 701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan<br>
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'en', 'CEC in Tokyo - Contact Us','Christian Evangelical Church in Tokyo<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'zh', '東京 基督教生命堂 - 連絡我們','');          
 
-<b>Tel. #:</b> 81-3-6423-1773<br>
-<b>Email:</b> <a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</a>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'zh', '東京基督教生命堂 - 連絡我們',
-'<b>牧 者：</b>方秀蘭傳道, 81-90-9700-4895<br>
-<b>地 址：</b> 東京都品川區南大井 3-20-5 ＳＳ１大樓 701室。<br>
-<b>電 話:</b> 81-3-6423-1773 <br>
-<b>電 郵:</b> <a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</a>'
-);          
 
-update church set address='701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan', latitude = 35.673343, longitude = 139.710388 where church_path = 'tokyo';
+update church set address='343 Kinderkamack Road, Oradell, NJ 07649 USA', latitude = 40.9521361, longitude = -74.0320762 where church_path = 'oradell';
+
+update church_content set body = STRINGDECODE('<p>
+<b>Evangelist: </b>Ev. Sau Lan Fong</p>
+<p>
+<b>Address: </b>701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan</p>
+<p>
+<b>Tel #: </b>81-3-6423-1773</p>
+<p>
+<b>Email: </b> <a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</p>
+
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E3%80%92140-0013+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;t=m&amp;z=14&amp;ll=35.589223,139.735285&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=%E3%80%92140-0013+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;t=m&amp;z=14&amp;ll=35.589223,139.735285&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'tokyo')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<b>傳道: </b>方秀蘭傳道, 81-90-9700-4895</p>
+<p>
+<b>地 址: </b>東京都品川區南大井 3-20-5 ＳＳ１大樓 701室</p>
+<p>
+<b>電 話: </b>81-3-6423-1773</p>
+<p>
+<b>電 郵: </b><a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E3%80%92140-0013+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;t=m&amp;z=14&amp;ll=35.589223,139.735285&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=%E3%80%92140-0013+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;t=m&amp;z=14&amp;ll=35.589223,139.735285&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'tokyo')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+
+update church set address='701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan', latitude = 35.589223, longitude = 139.735285 where church_path = 'tokyo';
 
 ------------ CEC TOKYO end ----------
 
@@ -5878,6 +5903,27 @@ p span.label {font-weight: bold;}
 <p>
 <img hspace="5" src="/emsi/images/OradellChurch.JPG" align="left" height="255" width="360" />
 </p>
+<p>
+<b>Bible Study Classes Started</b>
+</p>
+<p>
+A couple of years ago, there was apparent shortage of space for all the ministries of the Pearl River church. At that time a sister serious with God’s Commission to spread the Gospel reminded us the need of Gospel message among Chinese in the Bergen County. So after prayers, we began looking for a church in the Bergen County. We looked at a few churches in the area, and started praying for a suitable church earnestly. We thank the Lord our God who led us to the Annunciation church in Oradell. They agreed for us to use their church. In December 2012 we put out posters. In January 2013 we began planning and inviting people to attend Bible Study classes.
+We started with two Bible study classes, one on Wednesdays at 7:45 pm for career people; one on Friday mornings at 11:00am for the believers who did not go to work during the day. We also started working among students. Through the Bible Study classes, we hope Lord bring Gospel into the hearts of Chinese people in Bergen, so that they will enjoy the salvation of our Lord Jesus with us.
+</p>
+<p>
+Mt. 9:36-38
+But when he saw the multitudes, he was moved with compassion on them, because they fainted, and were scattered abroad, as sheep having no shepherd. Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few; Pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest.
+</p>
+<p>
+
+<b>CEC Oradell began Worship Services</b>
+</p>
+<p>
+After a year of Bible study, we discovered that it was impossible to retain people if there are no worship services, so we started planning on worship services. At the time the Annunciation Church went through major renovations. At every step of renovation, the church needed a permit to proceed. So we waited patiently till the end of April 2014 when they informed us that they have received the permit to use the church building. Meanwhile there was a Korean church wanting to rent this space. We could only pray for Lord’s guidance what to do.
+On the third Tuesday night of May, Ev. Sorina Yang went their board meeting, and told them our vision and our practice. During the Wednesday night Bible study the following day, pastor Archie told me: “Congratulations! They chose you over the Korean church..!”
+We truly thank the Lord. God opened the door no one can shut. Time was pressing on; we decided to start worship service on June 1st. which was presided by Pastor Moses Yang t. We look forward to the days Oradell community will become blessed from our evangelistic endeavor.
+</p>
+
 </div>
 ');
 
@@ -5957,8 +6003,7 @@ p span.label {font-weight: bold;}
 </p>
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'en', 'CEC in Oradell - Contact Us', 
-'Christian Evangelical Church in Oradell<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'en', 'CEC in Oradell - Contact Us', 'Christian Evangelical Church in Oradell<br><br>');          
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'zh', '俄備得 基督教生命堂 - 連絡我們','');          
 
 
@@ -5973,12 +6018,11 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Email: </b>emsilan2013@gmail.com</p>
 
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&gl=us&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&gl=us&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?sll=40.9521347,-74.0320579&amp;sspn=0.0062231,0.0109864&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&amp;t=m&amp;z=14&amp;ll=40.952136,-74.032076&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'oradell')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
 	
 update church_content set body = STRINGDECODE('<p>
 <b>傳道: </b>楊張秀蘭傳道, (H)973-331-0438</p>
@@ -5988,7 +6032,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電 話: </b>(973) 335-7337 ext. 220, (C) (973) 699-3223</p>
 <p>
 <b>電 郵: </b>emsilan2013@gmail.com</p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&gl=us&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&gl=us&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?sll=40.9521347,-74.0320579&amp;sspn=0.0062231,0.0109864&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&amp;t=m&amp;z=14&amp;ll=40.952136,-74.032076&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'oradell')
 	and locale = 'zh'
