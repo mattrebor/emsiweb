@@ -2220,8 +2220,6 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
-	
-	
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(12, 'schedule', 'en', 'IEC in San Jose - Church Services Schedule', STRINGDECODE('
 <table  border="1">
 	<tbody>
@@ -5634,7 +5632,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>701F SS1BIRU 3-20-5 Minamiool, Sinagawa-ku, Tokyo, Japan</td>
+			<td>701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan</td>
 		</tr>
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -5673,7 +5671,7 @@ Rev. Yang asked the Lord for a sign that there would be at least 20 people in th
 CEM in Tokyo is in a residential area. The church had about 10 regular members in the beginning when we rented the place. There are many Chinese nearby. Through our prayers and everyone working together, God opens a door for us, and we have new people coming every week.</p>
 </div>
 ');    
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'intro', 'zh', '東京生命堂 - 牧師介紹', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'intro', 'zh', '東京生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
@@ -5771,7 +5769,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 <p>&nbsp;</p>
 ');            
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'schedule', 'zh', '東京基督教生命堂 - 聚會時間', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'schedule', 'zh', '東京基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
 			<td>主日崇拜</td>
@@ -5811,7 +5809,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'en', 'CEC in Tokyo - Contact Us', 'Christian Evangelical Church in Tokyo<br><br>
 
 <b>Pastor</b>: Ev. Sau Lan Fong, 81-90-9700-4895<br>
-<b>Address</b>: 701F SS1BIRU 3-20-5 Minamiool, Sinagawa-ku, Tokyo, Japan<br>
+<b>Address</b>: 701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan<br>
 
 <b>Tel. #:</b> 81-3-6423-1773<br>
 <b>Email:</b> <a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</a>');          
@@ -5822,6 +5820,178 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <b>電 郵:</b> <a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</a>'
 );          
 
-update church set address='701F SS1BIRU 3-20-5 Minamiool, Sinagawa-ku, Tokyo, Japan', latitude = 35.673343, longitude = 139.710388 where church_path = 'tokyo';
+update church set address='701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan', latitude = 35.673343, longitude = 139.710388 where church_path = 'tokyo';
 
 ------------ CEC TOKYO end ----------
+
+---------- Oradell ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(53, 'oradell', 1, 9, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(53, 'en', 'menu_name', 'CEC in Oradell');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(53, 'zh', 'menu_name', '俄備得基督教生命堂');            
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 53);          
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'intro', 'en', 'CEC in Oradell - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+<tbody class="borderless-table">
+<tr>
+<td class="label">Evangelist:</td>
+<td>Ev. Sorina Yang, (H) 973-331-0438</td>
+</tr>
+</tbody>
+</table>
+
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+<tbody class="borderless-table">
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+<td class="label">Address:</td>
+<td>343 Kinderkamack Road, Oradell, NJ 07649 USA</td>
+</tr>
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+<td class="label">Tel#:</td>
+<td> (973) 335-7337 ext. 220, (C) (973) 699-3223 </td>
+</tr>
+<tr>
+<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+<td class="label">Email:</td>
+<td><a href="mailto: emsilan2013@gmail.com"> emsilan2013@gmail.com</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p><span class="label">Established Date: </span>June 1, 2014</p>
+<p>
+<img hspace="5" src="/emsi/images/OradellChurch.JPG" align="left" height="255" width="360" />
+</p>
+</div>
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'intro', 'zh', '俄備得 生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+<tbody class="borderless-table">
+<tr>
+<td class="label">傳道:</td>
+<td>楊張秀蘭傳道, (H)973-331-0438</td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+<table cellpadding="1" cellspacing="0">
+<tbody class="borderless-table">
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+<td class="label">地址:</td>
+<td>343 Kinderkamack Road, Oradell, NJ 07649 USA</td>
+</tr>
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+<td class="label">電話:</td>
+<td> (973) 335-7337 ext. 220, (C) (973) 699-3223 </td>
+</tr>
+<tr>
+<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+<td class="label">電郵:</td>
+<td><a href="mailto: emsilan2013@gmail.com"> emsilan2013@gmail.com</a></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<span class=\"label\">成立日期: </span>2014 年 6 月 1 日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace="5" src="/emsi/images/OradellChurch.JPG" align="left" height="255" width="360" />
+<p><b>俄備得查經班 開始</b>  </p>
+
+<p>因著珍珠河教會的空間漸漸有不敷使用的現象，又因著一位姐妹對福音的使命感，提到Bergen County 有許多的華人需要福音。讓我想到楊牧師曾一直希望在這裡建立一個福音的據點。 於是經過禱告以後，我們就先找地方。當我們觀察了幾間教會以後，就為這幾間教會的選擇迫切的禱告。感謝主，最後，主就帶領我們到Oradell的 Annunciation church借用他們教會的場地。他們同意給我們使用。於是我們于2012年12月開始貼廣告，於2013年一月開始籌畫並邀請人來參加查經班。
+&nbsp;
+</p>
+<p>我們於是設立了兩個查經班，一個是週三晚上7:45；是針對上班族而設立的查經班。 另一個是週五早上11:00，是為沒有上班的信徒們預備的查經班。目前我們也開始進行學生工作。求主藉著查經班，把福音帶進住在Bergan的華人心中，讓他們和我們一起享受主耶穌的救恩。
+</p>
+<p>< 馬太福音9:36-38>
+</p>
+<p>
+<b>俄備得生命堂開始崇拜 </b>
+</p>
+<p>
+ 經過一年多的查經，我真的發現若是不開始有崇拜，就不可能留住人，所以就著手開始崇拜的計劃。 但因為Annunciation教會在大裝修，每一樣裝修都需要拿到許可使用的證書。因此我耐心等候，直到2014年四月底，他們通知我已經拿到許可使用證書。同時有另一個韓國教會要來租這個場地，我只有禱告求主指示，我該怎麼作。
+</p>
+<p>
+ 到了五月的第三個星期的星期二晚上，我去參加他們的董事會議，把我們的異象及作法告訴他們。第二天是星期三晚上有查經班，Archie牧師告訴我： 恭喜你！ 他們選擇讓你們留下來，拒絕了韓國人…！
+</p>
+<p>
+ 真的感謝主，上帝開的路就沒有人能關。時間緊迫，我們就決定六月一日開始崇拜。六月一日的第一個主日由楊牧師來主領崇拜。 我們期待著Oradell的社區，真的能因著我們的福音工作而成為一塊蒙福之地。
+</p>
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'en', 'CEC in Oradell - Contact Us', 
+'Christian Evangelical Church in Oradell<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'zh', '俄備得 基督教生命堂 - 連絡我們','');          
+
+
+update church set address='343 Kinderkamack Road, Oradell, NJ 07649 USA', latitude = 40.9521361, longitude = -74.0320762 where church_path = 'oradell';
+
+update church_content set body = STRINGDECODE('<p>
+<b>Evangelist: </b>Ev. Sorina Yang, (H)973-331-0438</p>
+<p>
+<b>Address: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
+<p>
+<b>Tel #: </b>(973) 335-7337 ext. 220, (C) (973) 699-3223</p>
+<p>
+<b>Email: </b>emsilan2013@gmail.com</p>
+
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&gl=us&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&gl=us&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'oradell')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<b>傳道: </b>楊張秀蘭傳道, (H)973-331-0438</p>
+<p>
+<b>地 址: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
+<p>
+<b>電 話: </b>(973) 335-7337 ext. 220, (C) (973) 699-3223</p>
+<p>
+<b>電 郵: </b>emsilan2013@gmail.com</p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&gl=us&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&gl=us&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'oradell')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+-----------------------end Oradell
