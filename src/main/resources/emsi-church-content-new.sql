@@ -6005,6 +6005,80 @@ p span.label {font-weight: bold;}
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'en', 'CEC in Oradell - Contact Us', 'Christian Evangelical Church in Oradell<br><br>');          
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'zh', '俄備得 基督教生命堂 - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'schedule', 'en', 'CEC in Oradell - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>New-life Fellowship</td>
+			<td>Sunday</td>
+			<td>1:00pm</td>
+		</tr>
+		<tr>
+			<td>Sunday Worship</td>
+			<td>Sunday</td>
+			<td>2:00pm</td>
+		</tr>
+		<tr>
+			<td>Sunday School </td>
+			<td>Sunday</td>
+			<td>2:00pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study</td>
+			<td>Wednesday</td>
+			<td>7:45pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study</td>
+			<td>Friday</td>
+			<td>11:00am</td>
+		</tr>
+		<tr>
+			<td>English Class</td>
+			<td>Friday</td>
+			<td>1:00pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'schedule', 'zh', '俄備得基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>新生命團契 </td>
+			<td>星期日 下午</td>
+			<td>1:00pm</td>
+		</tr>
+		<tr>
+			<td>主日崇拜 </td>
+			<td>星期日 下午</td>
+			<td>2:00pm</td>
+		</tr>
+		<tr>
+			<td>兒童主日學 </td>
+			<td>星期日 下午</td>
+			<td>2:00pm</td>
+		</tr>
+		<tr>
+			<td>週三查經班</td>
+			<td>星期三 晚</td>
+			<td>7:45pm</td>
+		</tr>
+		<tr>
+			<td>週五查經班</td>
+			<td>星期五上午 </td>
+			<td>11:00am</td>
+		</tr>
+		<tr>
+			<td>英文會話課 </td>
+			<td>星期五下午</td>
+			<td>1:00pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');             
 
 
 update church set address='343 Kinderkamack Road, Oradell, NJ 07649 USA', latitude = 40.9521361, longitude = -74.0320762 where church_path = 'oradell';
