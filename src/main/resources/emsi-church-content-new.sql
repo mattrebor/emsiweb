@@ -17,7 +17,7 @@ update church_hierarchy
 	where parent_entity_id = 16
 	and church_id is not null;
 
-update church set address='4609 8th Avenue, Brooklyn, NY 11220, USA', latitude = 40.642993, longitude = -74.001361 where church_path = 'brooklyn';
+update church set address='733 47th Street, Brooklyn, NY 11220, USA', latitude =  40.643776, longitude = -74.003064 where church_path = 'brooklyn';
 update church set address='248 Grand Street, New York, NY 10002, USA', latitude = 40.71841, longitude = -73.994011 where church_path = 'chinatown';
 update church set address='35-26 Union Street, Queens, NY 11354, USA', latitude = 40.764656, longitude = -73.828315 where church_path = 'queens';
 update church set address='23 South 2nd Avenue, Highland Park, NJ 08904, USA', latitude = 40.4976633, longitude = -74.4299261 where church_path = 'highlandpark';
@@ -30,7 +30,7 @@ update church set address='539 North Sunset Avenue, Azusa, CA 91702, USA', latit
 update church set address='400 Brussels Street, San Francisco, CA 94134, USA', latitude = 37.726874, longitude = -122.4056077 where church_path = 'sanfrancisco';
 update church set address='600 West Campbell Avenue, Campbell, CA 95008, USA', latitude = 37.2869291, longitude = -121.9614152 where church_path = 'sanjose';
 update church set address='6656 Park Riviera Way, Sacramento, CA 95831, USA', latitude = 38.506565, longitude = -121.550272 where church_path = 'sacramento';
-update church set address='1087 Budapest, Kőbányai Way 21, Hungary', latitude = 47.4887822, longitude = 19.0959066 where church_path = 'budapest';
+update church set address='1107 Budapest, Monori u.2-4. E12-12 Hungary', latitude = 47.4818745, longitude = 19.122065  where church_path = 'budapest';
 update church set address='Geograaf 13, Centerpoort-Nieuwgraaf, 6921 EW Duiven, The Netherlands', latitude = 51.9628456, longitude = 6.0057757 where church_path = 'amhem';
 update church set address='Zandstraat 103, 3905 EB Veenendaal, The Netherlands', latitude = 52.0287846, longitude = 5.5515824 where church_path = 'veenendaal';
 update church set address='Vrijheidsplein 1, 8924 JN Leeuwarden, The Netherlands', latitude = 53.2125302, longitude = 5.8147687 where church_path = 'leeuwarden';
@@ -42,32 +42,32 @@ update church set address='Marokkodreef 3, 3564 EV Utrecht, The Netherlands', la
 update church set address='Anton Waldorpstraat 90, 1062 AZ Amsterdam, The Netherlands', latitude = 52.3616378, longitude = 4.8410256 where church_path = 'amsterdam';
 update church set address='Esdoornstraat 25, 8021 WB Zwolle, The Netherlands', latitude = 52.521532, longitude = 6.0963997 where church_path = 'zwolle';
 update church set address='Teteringsedijk 89C, 4817 MB Breda, The Netherlands', latitude = 51.5941052, longitude = 4.7962561 where church_path = 'breda';
-update church set address='Williamstraat 7, 4611 CN Bergen op Zoom, The Netherlands', latitude = 51.4964194, longitude = 4.2923472 where church_path = 'bergenopzoom';
+update church set address='Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherlands', latitude = 51.502719, longitude = 4.282703  where church_path = 'bergenopzoom';
 update church set address='Calle Carolinas, 10, 28039 Madrid, Spain', latitude = 40.4512378, longitude = -3.7048897 where church_path = 'madrid';
 update church set address='C/ Cura Femenia, 1, 46006 Valencia, Spain', latitude = 39.4619848, longitude = -0.3717682 where church_path = 'valencia';
-update church set address='Benidorm, Alicante, Spain', latitude = 38.5410566, longitude = -0.1224937 where church_path = 'benidorm';
-update church set address='03003 Alicante, Spain', latitude = 38.3379395, longitude = -0.4915329 where church_path = 'alicante';
+update church set address='Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante ', latitude = 38.54177, longitude = -0.122675 where church_path = 'benidorm';
+update church set address='C/ Pintor Aparicio 9, Local-IZ 03003 Alicante, Spain', latitude = 38.339698, longitude = -0.489878 where church_path = 'alicante';
 update church set address='Calle Honduras, 3, 35110 Santa Lucía de Tirajana, Las Palmas, Spain', latitude = 27.8620257, longitude = -15.4366301 where church_path = 'canaria';
 update church set address='Calle Alguacil, 8, 28038 Madrid, Spain', latitude = 40.3960213, longitude = -3.6630519 where church_path = 'southmadrid';
 update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', latitude = 41.3709592, longitude = 2.1374551 where church_path = 'barcelona';
 update church set address='Calle León, 24, 28947 Fuenlabrada, Madrid, Spain', latitude = 40.2636947, longitude = -3.74496 where church_path = 'fuenlabrada';
-update church set address='Alto, 4600-661, Portugal', latitude = 41.2524401, longitude = -8.071536 where church_path = 'portoalto';
+update church set address='Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal', latitude = 38.711997, longitude = -8.980867 where church_path = 'portoalto';
 update church set address='Rua Francisco Sanches 17, 1170-140 Lisbon, Portugal', latitude = 38.7306258, longitude = -9.1339151 where church_path = 'lisbon';
-update church set address='Travessa da Rua Chá 4, 4000-167 Porto, Portugal', latitude = 41.143804, longitude = -8.6095262 where church_path = 'porto';
-update church set address='4480-622 Árvore, Portugal', latitude = 41.3314142, longitude = -8.7185014 where church_path = 'mindelo';
+update church set address='Rua Chã n°117, 4 Andar - Porto, Portugal', latitude = 41.144229, longitude = -8.609701 where church_path = 'porto';
+update church set address='Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal', latitude = 41.334609, longitude = -8.722397 where church_path = 'mindelo';
 update church set address='73 Avenue de Verdun, 94200 Ivry-sur-Seine, France', latitude = 48.8135227, longitude = 2.3702061 where church_path = 'paris';
-update church set address='Kipdorpvest 40, 2000 Antwerpen, Belgium', latitude = 51.2179457, longitude = 4.4140022 where church_path = 'antwerpen';
+update church set address='Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium', latitude = 51.219508, longitude = 4.417894 where church_path = 'antwerpen';
 update church set address='Rue du Fossé aux Loups 32, 1000 Brussels, Belgium', latitude = 50.8503111, longitude = 4.3546746 where church_path = 'brussels';
 update church set address='Ledebergplein 2, 9050 Ledeberg (Gent), Belgium', latitude = 51.0370008, longitude = 3.7411437 where church_path = 'gent';
-update church set address='Kobe, Hyogo Prefecture, Japan', latitude = 34.690083, longitude = 135.1955112 where church_path = 'kobe';
+update church set address='Kobe-shi Chuo-ku Motomachi-dori 2-9-1 Shitsu [Room] 703, Japan', latitude = 34.688923, longitude = 135.186962 where church_path = 'kobe';
 update church set address='Alley 25, Lane 113, Section 3, Mínshēng East Road, Songshan District, Taipei City, Taiwan 105', latitude = 25.0593059, longitude = 121.547255 where church_path = 'taipei';
-update church set address='1 Theal Street, Cape Town 7500, South Africa', latitude = -33.8889491, longitude = 18.5828211 where church_path = 'parownorth';
+update church set address='71 Theal Street, Parow North 7500, South Africa', latitude = -33.883021, longitude = 18.583653where church_path = 'parownorth';
 update church set address='94 Campground Road, Cape Town 7700, South Africa', latitude = -33.965856, longitude = 18.474988 where church_path = 'capetown';
 
 update church set address='Geograaf 13, Centerpoort-Nieuwgraaf, 6921 EW Duiven, The Netherlands', latitude = 51.96284559999999, longitude = 6.00577570 where church_path = 'arnhem';
 update church set address='Via Stresa, 3, 20125 Milan, Italy', latitude = 45.49278710, longitude = 9.2040530 where church_path = 'milan';
 update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prato, Italy', latitude = 43.88184649999999, longitude = 11.09375730 where church_path = 'prato';
-update church set address='Osaka, Osaka Prefecture, Japan', latitude = 34.69373780, longitude = 135.50216510 where church_path = 'osaka';
+update church set address='Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan', latitude = 34.646304, longitude = 135.522001  where church_path = 'osaka';
 
 ---------------------update Brooklyn intro page
 
