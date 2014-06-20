@@ -5566,7 +5566,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Email: </b>emsibelgium@hotmail.com
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Franklin+Rooseveltplaats+9,+2060+Antwerpen,+Belgium&hnear=Franklin+Rooseveltplaats+9,+Antwerpen+2060+Antwerpen,+Vlaams+Gewest,+Belgium&gl=us&t=m&z=16;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Franklin+Rooseveltplaats+9,+2060+Antwerpen,+Belgium&hnear=Franklin+Rooseveltplaats+9,+Antwerpen+2060+Antwerpen,+Vlaams+Gewest,+Belgium&gl=us&t=m&z=16;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Franklin+Rooseveltplaats+12&amp;ie=UTF8&amp;hq=&amp;hnear=Franklin+Rooseveltplaats+12,+Antwerpen+2060+Antwerpen,+Belgium&amp;t=m&amp;z=14&amp;ll=51.219508,4.417894&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Franklin+Rooseveltplaats+12&amp;ie=UTF8&amp;hq=&amp;hnear=Franklin+Rooseveltplaats+12,+Antwerpen+2060+Antwerpen,+Belgium&amp;t=m&amp;z=14&amp;ll=51.219508,4.417894&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'antwerpen')
 	and locale = 'en'
@@ -5589,13 +5589,9 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Franklin+Rooseveltplaats+9,+2060+Antwerpen,+Belgium&hnear=Franklin+Rooseveltplaats+9,+Antwerpen+2060+Antwerpen,+Vlaams+Gewest,+Belgium&gl=us&t=m&z=16;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Franklin+Rooseveltplaats+9,+2060+Antwerpen,+Belgium&hnear=Franklin+Rooseveltplaats+9,+Antwerpen+2060+Antwerpen,+Vlaams+Gewest,+Belgium&gl=us&t=m&z=16;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Franklin+Rooseveltplaats+12&amp;ie=UTF8&amp;hq=&amp;hnear=Franklin+Rooseveltplaats+12,+Antwerpen+2060+Antwerpen,+Belgium&amp;t=m&amp;z=14&amp;ll=51.219508,4.417894&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Franklin+Rooseveltplaats+12&amp;ie=UTF8&amp;hq=&amp;hnear=Franklin+Rooseveltplaats+12,+Antwerpen+2060+Antwerpen,+Belgium&amp;t=m&amp;z=14&amp;ll=51.219508,4.417894&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 
-
-<p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?text-align: left\">View Larger Map</a></small>
-</p>
 ')	where church_id = (select church_id from church where church_path = 'antwerpen')
 	and locale = 'zh'
 	and page_id = 'contactus';
