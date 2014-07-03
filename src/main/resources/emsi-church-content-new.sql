@@ -5917,7 +5917,8 @@ But when he saw the multitudes, he was moved with compassion on them, because th
 <p>
 After a year of Bible study, we discovered that it was impossible to retain people if there are no worship services, so we started planning on worship services. At the time the Annunciation Church went through major renovations. At every step of renovation, the church needed a permit to proceed. So we waited patiently till the end of April 2014 when they informed us that they have received the permit to use the church building. Meanwhile there was a Korean church wanting to rent this space. We could only pray for Lord’s guidance what to do.
 On the third Tuesday night of May, Ev. Sorina Yang went their board meeting, and told them our vision and our practice. During the Wednesday night Bible study the following day, pastor Archie told me: “Congratulations! They chose you over the Korean church..!”
-We truly thank the Lord. God opened the door no one can shut. Time was pressing on; we decided to start worship service on June 1st. which was presided by Pastor Moses Yang t. We look forward to the days Oradell community will become blessed from our evangelistic endeavor.
+We truly thank the Lord for He opened the door no one can shut. Because time is rushing by we decided to start our first worship service which was presided by Pastor Moses Yang on June 1st. We are looking forward to the days when Oradell will become a place of blessing as a result of our evangelistic outreach.
+
 </p>
 
 </div>
@@ -6112,3 +6113,83 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 -----------------------end Oradell
+
+	
+---------- Parow-Noord ---------
+
+	INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(49, 'schedule', 'en', 'CEC in Parow-Noord - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Worship</td>
+			<td>Sunday</td>
+			<td>3:00 - 4:30pm</td>
+		</tr>
+		<tr>
+			<td>Children&#39; Sunday School </td>
+			<td>Sunday</td>
+			<td>3:00 - 4:00pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study</td>
+			<td>Thursday</td>
+			<td>7:00 - 9:00pm</td>
+		</tr>
+		<tr>
+			<td>Para Noord Fellowship</td>
+			<td>First Sunday of the Month</td>
+			<td>4:30 - 6:00pm</td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting</td>
+			<td>2nd and 4th Thursday of the Month</td>
+			<td>4:30 - 5:00pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study</td>
+			<td>3rd Sunday of the Month</td>
+			<td>4:30 - 5:00pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(49, 'schedule', 'zh', '八福城基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>崇拜 </td>
+			<td>星期日 下午</td>
+			<td>3:00 - 4:30pm</td>
+		</tr>
+		<tr>
+			<td>兒童主日學 </td>
+			<td>星期日 下午</td>
+			<td>3:00 - 4:00pm</td>
+		</tr>
+		<tr>
+			<td>查經班</td>
+			<td>星期四 晚上</td>
+			<td>7:00 - 9:00pm</td>
+		</tr>
+		<tr>
+			<td>八福城團契 </td>
+			<td>每月第一週星期日下午</td>
+			<td>4:30 - 6:00pm</td>
+		</tr>
+		<tr>
+			<td>禱告會</td>
+			<td>每月第二週和第四週星期日下午 </td>
+			<td>4：30 - 5:00 pm</td>
+		</tr>
+		<tr>
+			<td>查經班 </td>
+			<td>每月第三週星期日下午</td>
+			<td>4：30 - 5:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');             
+
+-----------------------end Parow-Noord
