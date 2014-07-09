@@ -69,6 +69,8 @@
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
 				
 				<ul>
+					<li>8/16 – 17 臺灣原住民兒童合唱團於美東生命堂獻唱 <br/><a href="${newsUrl}">詳情  &#9656;</a></li>
+					<li>7/12 美東區生命堂聯合運動會 <br/><a href="${newsUrl}">詳情  &#9656;</a></li>
 					<li>荷蘭、西班牙、葡萄牙生命堂舉辦夏令會 <br/><a href="${newsUrl}">詳情  &#9656;</a></li>
 					<li>伯根郡俄備得基督教生命堂成立 <br/><a href="${newsUrl}">詳情  &#9656;</a></li>
 				</ul>
