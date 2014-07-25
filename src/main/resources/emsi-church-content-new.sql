@@ -6195,3 +6195,197 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 -----------------------end Parow-Noord
 
 
+
+-----------------starts Africa - capetown
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Li Guo, (C) 0027-(0)71-352-1790</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> 94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> 0027-(0)21-686-2783(CEM), 0027-(0)21-686-0714(church)</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsi.cecsa@gmail.com">emsi.cecsa@gmail.com</a><br />
+			</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_skype.gif" height="16" width="16" /></td>
+			<td class="label">Skype:</td>
+			<td>cemcapetownsa<br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>February 1996
+</p>
+<p>
+<img hspace="5" src="/emsi/files/capetownsmall_0.jpg" align="left" height="255" width="360" />Rev. Moses Yang went to South Africa in November of 1995 for an exploratory trip. He found out that there were a lot of Chinese here in this coastal area, yet there was no sight of a Chinese church. Through the introduction of some brothers and sisters, he came to know sister Wu, who normally opened her home for Bible study. They realized that there was not enough spiritual nourishment through sharing only. Although they had tried to make calls to Taiwan, Hong Kong and Singapore for help, there was no response. Rev. Yang came at the right time. He then sent a seminary student to start the ministry and the C.E.C. in Cape Town was officially established.
+</p>
+<p>
+</p>
+
+</div>
+'	where church_id = (select church_id from church where church_path = 'capetown')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>郭莉 傳道, (C) 0027-(0)71-352-1790</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 0027-(0)21-686-2783(佈道會), 0027-(0)21-686-0714(教會) </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsi.cecsa@gmail.com"> emsi.cecsa@gmail.com</a></td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_skype.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">Skype:</td>
+			<td>cemcapetownsa<br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1996年 2月
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace="5" src="/emsi/files/capetownsmall_0.jpg" align="left" height="255" width="360" />一九九五年十一月楊摩西牧師至南非考察，發現沿海地區有不少華人聚集，卻沒有教會。經弟兄姐妹介紹，楊牧師認識了伍沈梅芳姐妹，她經常開放自宅供大家查經；但深感大家的分享無法供應靈糧。雖曾嘗試在台灣、香港及新加坡等地發出呼聲，卻終未見回應，因此楊牧師去的正是時候。一九九六年二月，楊摩西牧師派神學生至開普敦開展事工，並於南非開普敦  (Cape Town)，設立「開普敦基督教生命堂」。
+</p>
+<p>感謝主帶領國際神學福音佈道會走過四十年的路程，也感謝主讓楊摩西牧師在南非建立開普敦生命堂，使遠在非洲的華人也能得到福音的好處。自一九九六年開普敦生命堂成立以來，已走過了十四年，而我是在二○○六年開普敦生命堂十週年慶時來到南非，開始了我學習牧會的曠野之路。
+</p>
+<p>在第一年的牧會過程中，感謝主讓我從同時由總會派來的陳寳珩傳道那學習不少功課。我也看到主不斷地加添我力量，不斷幫助及扶持我；而讓我感觸最深刻的就是在二○○七年三月，陳傳道向總會請假，要去中國三個月，這讓我一下不知所措。面對每週的講道，還有三個查經班、兩個團契、主日學，全部要獨自承擔，這如大山一樣壓得我喘不過氣來。我知自己能力有限，擔心虧欠主；但我也知這是主給我成長的機會，所以我不住禱告求主幫助。感謝主，在禱告中主對我說：「我的恩典夠你用的，因為我的能力是在人的軟弱上顯得完全。」(林後十二9) 有了主的這話，我心中一下子踏實了很多也有信心來完成主給我的功課。果真，當我懂得交託後，主親自感動人來幫助我：主日學開始有人帶了、查經班的車子有人開了……。感謝主，祂的聖工沒有耽誤，一樣一樣都按部就班地進行；正如主所說，祂的能力是在軟弱人身上顯得完全。感謝主，一切都是祂在做，祂的恩典與憐憫讓衆人知道祂是全能的神，也看到祂能力的彰顯。
+</p>
+<p>開普敦生命堂是主賜福的地方，每年都有很多人信主得救，而且這裡的工場很大，每年都有很多中國人來求學、工作及經商。但每當教會剛剛穩定要發展時，撒但就會來攻擊，致使聖工一直沒辦法順利開展；可是也是因經過這些苦難和磨練後，弟兄姐妹們成長了。現在藉著查經班、生命團契及青年團契讓大家更清楚上帝的教導，靈命得更新，也學會在有了屬靈的經驗後，不再輕易被撒但利用。看到弟兄姐妹的成長心中有說不出的欣喜，願主堅固祂所做的善工也求主繼續賜福這些尋求祂的人。
+</p>
+<p>二○○七年八月總部因事工的需要，調回陳寳珩傳道，差派了王濤傳道前來協助南非的事工。感謝主，目前弟兄姐妹們都能積極地參與服事，努力發展福音聖工。開普敦生命堂因尚無自己的教堂，所以我們正在積極尋找，盼望能早日找到合適的地點，好更方便開展各項事工，願一切榮耀頌讚都歸與我主耶穌！
+</p>
+<p>
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'capetown')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Li Guo, (C) 0027-(0)71-352-1790
+</p>
+<p>
+<b>Address: </b>94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa
+</p>
+<p>
+<b>Tel #: 0027-(0)21-686-2783(CEM), 0027-(0)21-686-0714(church)
+</p>
+<p>
+<b>Email: </b>emsi.cecsa@gmail.com
+</p>
+<p>
+<b>Skype: </b>cemcapetownsa
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=94+Campground+Rd,+Cape+Town+7700,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=94+Campground+Rd,+Southern+Suburbs,+Cape+Town,+Western+Cape+7700,+South+Africa&amp;ll=-33.965856,18.474988&amp;spn=0.002625,0.004259&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=94+Campground+Rd,+Cape+Town+7700,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=94+Campground+Rd,+Southern+Suburbs,+Cape+Town,+Western+Cape+7700,+South+Africa&amp;ll=-33.965856,18.474988&amp;spn=0.002625,0.004259&amp;t=m&amp;z=14&amp;iwloc=A&amp;\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'capetown')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道: </b>郭莉 傳道, (C) 0027-(0)71-352-1790
+</p>
+<p>
+<b>地址: </b>94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa
+</p>
+<p>
+<b>電話:</b> 0027-(0)21-686-2783(佈道會), 0027-(0)21-686-0714(教會)
+</p>
+<p>
+<b>電郵: </b>emsi.cecsa@gmail.com
+</p>
+<p>
+<b>Skype: </b>cemcapetownsa
+</p>
+
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=94+Campground+Rd,+Cape+Town+7700,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=94+Campground+Rd,+Southern+Suburbs,+Cape+Town,+Western+Cape+7700,+South+Africa&amp;ll=-33.965856,18.474988&amp;spn=0.002625,0.004259&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=94+Campground+Rd,+Cape+Town+7700,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=94+Campground+Rd,+Southern+Suburbs,+Cape+Town,+Western+Cape+7700,+South+Africa&amp;ll=-33.965856,18.474988&amp;spn=0.002625,0.004259&amp;t=m&amp;z=14&amp;iwloc=A&amp;\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'capetown')
+	and locale = 'zh'
+	and page_id = 'contactus';
+	
+----------------  ends  Africa - Cape Town
+
+
