@@ -2984,7 +2984,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Angela Chen</td>
+			<td>Ev. Angela Chen, 0036-70-510-3123</td>
 		</tr>
 	</tbody>
 </table>
@@ -2999,7 +2999,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> 36-30-408-6398, 36-70-501-3123</td>
+			<td> 0036-1-426-5368, 0036-30-408-6398</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -3039,7 +3039,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>陳寶珩 傳道</td>
+			<td>陳寶珩 傳道, 0036-70-510-3123</td>
 		</tr>
 	</tbody>
 </table>
@@ -3054,7 +3054,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 36-30-408-6398, 36-70-501-3123 </td>
+			<td> 0036-1-426-5368, 0036-30-408-6398 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -3085,13 +3085,13 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Angela Chen
+<b>Evangelist: </b>Ev. Angela Chen, 0036-70-510-3123
 </p>
 <p>
 <b>Address: </b>1107 Budapest, Monori u.2-4. E12-12 Hungary
 </p>
 <p>
-<b>Tel #: </b>36-30-408-6398, 36-70-501-3123
+<b>Tel #: </b>0036-1-426-5368, 0036-30-408-6398
 </p>
 <p>
 <b>Email: </b>emsibudapest@gmail.com
@@ -3107,13 +3107,13 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b>陳寶珩 傳道
+<b>傳道:</b>陳寶珩 傳道, 0036-70-510-3123
 </p>
 <p>
 <b>地址: </b>1107 Budapest, Monori u.2-4. E12-12 Hungary
 </p>
 <p>
-<b>電話:</b> 36-30-408-6398, 36-70-501-3123
+<b>電話:</b> 0036-1-426-5368, 0036-30-408-6398
 </p>
 <p>
 <b>電郵: </b>emsibudapest@gmail.com
@@ -4036,7 +4036,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>31-76-571-8456 / 31-62-454-2277</td>
+			<td>31-76-532-3351 / 31-62-454-2277</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -4350,7 +4350,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0031-(0)2-310-798 / 0031-(0)65-065-2284</td>
+			<td>0031-53-231-0798 / 0031-(0)65-065-2284</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -4949,7 +4949,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: cecprato@gmail.com"> cecprato@gmail.com</a></td>
+			<td><a href=\"mailto: marting5@hotmail.com"> marting5@hotmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4998,7 +4998,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Tel #: </b>0039-057-483-1203, (C) 0039-327-753-3773
 </p>
 <p>
-<b>Email: </b>cecprato@gmail.com
+<b>Email: </b>marting5@hotmail.com
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -5020,7 +5020,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電話:</b> 0039-057-483-1203, (C) 0039-327-753-3773
 </p>
 <p>
-<b>電郵: </b>cecprato@gmail.com
+<b>電郵: </b>marting5@hotmail.com
 </p>
 
 <p>
@@ -6193,3 +6193,5 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ');             
 
 -----------------------end Parow-Noord
+
+
