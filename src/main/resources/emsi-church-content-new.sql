@@ -4399,7 +4399,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Patty Chien, 973-331-0545 ext. 233, (C) 201-993-3043</td>
+			<td>Ev. Patty Chien, 973-331-0545 ext. 200, (C) 201-993-3043</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
@@ -4482,7 +4482,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>錢舜 傳道, 973-331-0545 ext. 233, (手機) 201-993-3043</td>
+			<td>錢舜 傳道, 973-331-0545 ext. 200, (手機) 201-993-3043</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
@@ -4663,7 +4663,7 @@ update church_content set body = STRINGDECODE('<p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 233</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 200</span></span> 
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
@@ -4852,7 +4852,7 @@ Christian Evangelical Mission Church in Towaco
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 233</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 200</span></span> 
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
