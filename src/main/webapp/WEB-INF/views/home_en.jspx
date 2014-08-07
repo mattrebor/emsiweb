@@ -69,8 +69,9 @@
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
 				
 				<ul>		
+					<li>10/18 -19 CEM in Holland 40th Anniversary Celebration  <a href="${newsUrl}">Learn more &#9656;</a></li>
+					<li>9/20-21  IEC San Jose Church Dedication <a href="${newsUrl}">Learn more &#9656;</a></li>
 					<li>8/16 -17 Taiwan Aborigine Choir Performing <a href="${newsUrl}">Learn more &#9656;</a></li>
-					<li>7/12 East Coast CEC’s Sports Day <a href="${newsUrl}">Learn more &#9656;</a></li>
 					<li>Christian Evangelical Mission Summer Conferences in Spain, Holland, and Portugal. <a href="${newsUrl}">Learn more &#9656;</a></li>
 					<li>CEMC Oradell Established on June 1, 2014 <a href="${newsUrl}">Learn more &#9656;</a></li>
 				</ul>
