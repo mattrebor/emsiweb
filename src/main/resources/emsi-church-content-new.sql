@@ -4228,7 +4228,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電郵: </b>ekolam@hotmail.com
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rozenstraat+2&amp;ie=UTF8&amp;hq=&amp;hnear=Rozenstraat+2,+4613+AJ+Bergen+op+Zoom,+The+Netherlands&amp;z=14&amp;ll=51.502719,4.282703&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Rozenstraat+2&amp;ie=UTF8&amp;hq=&amp;hnear=Rozenstraat+2,+4613+AJ+Bergen+op+Zoom,+The+Netherlands&amp;z=14&amp;ll=51.502719,4.282703&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Rozenstraat+2&amp;ie=UTF8&amp;hq=&amp;hnear=Rozenstraat+2,+4613+AJ+Bergen+op+Zoom,+The+Netherlands&amp;z=14&amp;ll=51.502719,4.282703&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'bergenopzoom')
 	and locale = 'zh'
@@ -4314,7 +4314,186 @@ In 2005 September, Evangelist Li Suxin became ill and went to China for treatmen
 ')	where church_id = (select church_id from church where church_path = 'alicante')
 	and locale = 'en'
 	and page_id = 'intro';
+	
+---------begins Gran Canaria
 
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Guo Dan Jiang</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>C/.Menceyes 36，35110 Las Palmas, de Gran Canaria, Spain</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>0034-620-630-901</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td>0034-91-459-5844</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:guodanj@yahoo.es">guodanj@yahoo.es</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>August 26, 2003
+</p>
+<p>
+<a href="/emsi/gallery/?g2_itemId=1034"><img src="/emsi/files/2011-grancaria17small.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /> </a>We planned our first short missionary trip led by Ev. Yeh, and brother Guo Dan Jiang. to the coastal islands in August, 2000 after some CEC church members’ families/businesses moved there from mainland Spain. We visited Tenerife, Gran Canaria two islands, and organized meetings there.
+</p>
+<p>In the beginning of 2003, brother Guo Dan Jiang opened a store in Gran Canaria for Gospel work and started visitation. After many prayers and planning, some mission coworkers restarted missionary work in the islands in the summer of 2003. They included several coworkers of CEC in Madrid and two EBI students Zhang, Jian and John Zhang from Paris. On Aug. 26 ,2003 the Christian Evangelical Mission Church in Gran Canaria was established in Las Palmas de Gran Canaria, the capital city of Gran Canaria. A meeting was held at the Imperial Restaurant in the Northern District; and another meeting in the Playa del Inglés in the Southern District the following day.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'canaria')
+	and locale = 'en'
+	and page_id = 'intro';
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>蔣國淡 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> C/.Menceyes 36，35110 Las Palmas, de Gran Canaria, Spain</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 0034-620-630-901 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> 0034-91-459-5844 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: guodanj@yahoo.es"> guodanj@yahoo.es</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2003年 8月26日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/2011-grancaria17small.jpg\" align=\"left\" height=\"255\" width=\"360\" />因部份會友的事業、家庭從西班牙内陸轉移到海島，二○○○年八月首次籌劃海島短宣，由葉傳道與蔣國淡弟兄至Tenerife、Gran Canaria兩海島探訪、組織聚會。
+</p>
+<p>二○○三年年初，蔣國淡弟兄因福音負擔，前往Gran canaria開店，恢復該區的探訪聯絡。2003年夏見時機成熟，傳道同工經過禱告、策劃，重開海島宣教工作。馬德里生命堂的幾位同工和本會巴黎神學院兩位神學生張健與張約翰配搭，前往Gran Canaria海島佈道。八月廿六日在Gran canaria首府Las Palmas de Gran canaria成立加納利亞基督教生命堂，於皇城酒家舉行北區聚會，隔日在南區Playa del Inglés舉行南區聚會。
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'canaria')
+	and locale = 'zh'
+	and page_id = 'intro';
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Guo Dan Jiang
+</p>
+<p>
+<b>Address: </b>C/.Menceyes 36，35110 Las Palmas, de Gran Canaria, Spain
+</p>
+<p>
+<b>Tel #: </b>0034-620-630-901
+</p>
+<p>
+<b>Fax #: </b>0034-91-459-5844
+</p>
+<p>
+<b>Email: </b>guodanj@yahoo.es
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=C%2F.Menceyes+36%EF%BC%8C35110+Las+Palmas,+de+Gran+Canaria,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Menceyes,+36,+Santa+Luc%C3%ADa+de+Tirajana,+Las+Palmas,+Spain&amp;gl=us&amp;t=m&amp;z=14&amp;ll=27.850315,-15.447372&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=q=C%2F.Menceyes+36%EF%BC%8C35110+Las+Palmas,+de+Gran+Canaria,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Menceyes,+36,+Santa+Luc%C3%ADa+de+Tirajana,+Las+Palmas,+Spain&amp;gl=us&amp;t=m&amp;z=14&amp;ll=27.850315,-15.447372&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+
+</p>
+')	where church_id = (select church_id from church where church_path = 'canaria')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 蔣國淡 傳道
+</p>
+<p>
+<b>地址: </b>C/.Menceyes 36，35110 Las Palmas, de Gran Canaria, Spain
+</p>
+<p>
+<b>電話:</b> 0034-620-630-901
+</p>
+<p>
+<b>傳真:</b> 0034-91-459-5844
+</p>
+<p>
+<b>電郵: </b>guodanj@yahoo.es
+</p>
+
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=C%2F.Menceyes+36%EF%BC%8C35110+Las+Palmas,+de+Gran+Canaria,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Menceyes,+36,+Santa+Luc%C3%ADa+de+Tirajana,+Las+Palmas,+Spain&amp;gl=us&amp;t=m&amp;z=14&amp;ll=27.850315,-15.447372&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=q=C%2F.Menceyes+36%EF%BC%8C35110+Las+Palmas,+de+Gran+Canaria,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Menceyes,+36,+Santa+Luc%C3%ADa+de+Tirajana,+Las+Palmas,+Spain&amp;gl=us&amp;t=m&amp;z=14&amp;ll=27.850315,-15.447372&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'canaria')
+	and locale = 'zh'
+	and page_id = 'contactus';
+	
+	
+---------ends Gran Canaria
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
