@@ -647,13 +647,18 @@ Cantonese translation available (in a separate area).
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">Cantonese Fellowship</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">Every 3rd Sunday of the Month</td>
 			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:30pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Weekday Bible Study</td>
+			<td style="padding: 0px 10px 0px 10px">Daytime Bible Study& Prayer Meeting</td>
+			<td style="padding: 0px 10px 0px 10px">Tuesday</td>
+			<td style="padding: 0px 10px 0px 10px">9:30am – 11:00am</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Evening Bible Study & Prayer Meeting</td>
 			<td style="padding: 0px 10px 0px 10px">Friday</td>
-			<td style="padding: 0px 10px 0px 10px">7:00pm - 9:00pm<br/>(Supper will be served prior to bible study)</td>
+			<td style="padding: 0px 10px 0px 10px">7:00pm - 9:00pm<br/></td>
 		</tr>
 	</tbody>
 </table>
@@ -676,17 +681,7 @@ Cantonese translation available (in a separate area).
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">Music Class</td>
 			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:30pm<br/>(Piano, voice and guitar lessons plus learning how to read music)</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Art Class</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:30pm<br/>(For children aged 2-7 years old)</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Computer Class</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">3:30pm - 5:00pm (No Age Limit)</td>
+			<td style="padding: 0px 10px 0px 10px">3:30pm - 5:00pm<br/>(Piano, voice and guitar lessons plus learning how to read music)</td>
 		</tr>
 	</tbody>
 </table>
@@ -732,13 +727,18 @@ update church_content set body = STRINGDECODE('
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">廣東團契</td>
-			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">每月第三週日</td>
 			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 4:30</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">週間查經班 & 禱告會</td>
+			<td style="padding: 0px 10px 0px 10px">日間查經班 & 禱告會</td>
+			<td style="padding: 0px 10px 0px 10px">星期二</td>
+			<td style="padding: 0px 10px 0px 10px">上 午 9:30 - 11:00</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">晚間查經班 & 禱告會</td>
 			<td style="padding: 0px 10px 0px 10px">星期五</td>
-			<td style="padding: 0px 10px 0px 10px">晚上 7:00 - 9:00 （免費聚餐）</td>
+			<td style="padding: 0px 10px 0px 10px">晚上 7:30 - 9:00</td>
 		</tr>
 	</tbody>
 </table>
@@ -762,19 +762,9 @@ update church_content set body = STRINGDECODE('
 			<td style="padding: 0px 10px 0px 10px">星期日</td>
 			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 5:00 （鋼琴、聲樂、吉他、識譜)</td>
 		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">美術班</td>
-			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 4:30 （主要針對2-7 歲兒童）</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">電腦班</td>
-			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 5:00 （年齡不限）</td>
-		</tr>
 	</tbody>
 </table>
-教會正計劃開設中小學生課後補習班
+
 
 ')	where church_id = (select church_id from church where church_path = 'murrayhill')
 	and locale = 'zh'
@@ -5139,7 +5129,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class="main-content">
 <p>
-<span class="label">Established Date: </span>2010
+<span class="label">Established Date: </span>August 8, 2010
 </p>
 <p>
 <a href="/emsi/gallery/?g2_itemId=119"><img src="/emsi/files/prato_small_0.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /></a>
