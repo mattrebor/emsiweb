@@ -5093,6 +5093,75 @@ Christian Evangelical Mission Church in Towaco
 
 	
 ----------------- starts Italy - prato	
+-----   use &#39  for apostrophe
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Zong Quan Zhou</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>Piazza San Domenico 10, 59100, Prato (PO), Italy</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>0039 057 4831203, (C) 0039 327 7533773</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:wzzzq_cn@163.com">wzzzq_cn@163.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>2010
+</p>
+<p>
+<a href="/emsi/gallery/?g2_itemId=119"><img src="/emsi/files/prato_small_0.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /></a>
+</p>
+<p>
+Praise the almighty Lord for leading CEC Prato through it’s first year. On the 7th of August 2011 CEC Prato celebrated her first anniversary. Thank God for guidance and blessing of the past year.
+<p>
+On the 5th of July of 2010, the EMSI Short Term Mission (STM) team was sent from Holland to Prato. The team was led by Rev. Hugo Chan and Erna shimu and its team members were HongYou Yu and JieLin Feng, a young couple from CEC Groningen, and Yen Chow Chan, an EBI Bible student in Towaco. The goals for STM were to evangelize Chinese people, and to rent a place for Sunday worship services and accommodation for Yen Chow Chan. The STM team prayed for these two locations. If God wants EMSI to start a church in Prato, the team should find the locations within two or three months.
+</p>
+<p>
+Thanks God for leading Rev. Hugo Chan and Erna shimu to a broker who can speak English. The broker had helped to find a accommodation for Yen Chow Chan. Later God led Rev. Chan and Yen Chow to Piazza San Domenico 10. With the help of the broker communication with the owner was possible. It all happened in the first week that the STM team was in Prato; our faith in God was strengthened. The will of God was clear; He wanted a CEC church in Prato. In August 2010, Brother Martin Ding from CEC Utrecht came to assist Yen Chow Chan for one month. On the 8th of August CEC Prato was established, the first Sunday worship service was attended by five persons. At the end of October Yen Chow&#39s wife Shuqi Hu came over from China, the family was reunited and served together in CEC Prato. The number of people being saved increased rapidly. In the second quarter of 2011 the average attending the Sunday worship service had increased to 15 persons. Praise the merciful God for saving more than hundreds of souls through CEC Prato past year.
+</p>
+<p>
+The work in the past first year was not possible if not a team of loyal prayers had moved God&#39s hand. Daily prayers on their knees from EBI Towaco&#39s Bible students and coworkers, CEC Den Haag&#39s youth fellowship and coworkers and those who know the importance of mission. Please keep on praying the harvest in Prato is plenteous.
+</p>
+<p>
+Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few; pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest. Matthew 9:37,38
+</p>
+</div>
+' where church_id = (select church_id from church where church_path = 'prato')
+	and locale = 'en'
+	and page_id = 'intro';
 
 	
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
@@ -5108,7 +5177,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>丁業新 傳道</td>
+			<td>周宗泉 傳道</td>
 		</tr>
 	</tbody>
 </table>
@@ -5128,7 +5197,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: marting5@hotmail.com"> marting5@hotmail.com</a></td>
+			<td><a href=\"mailto: wzzzq_cn@163.com"> wzzzq_cn@163.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -5168,7 +5237,7 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Martin Ding
+<b>Evangelist: </b>Ev. Zong Quan Zhou
 </p>
 <p>
 <b>Address: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
@@ -5177,7 +5246,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Tel #: </b>0039-057-483-1203, (C) 0039-327-753-3773
 </p>
 <p>
-<b>Email: </b>marting5@hotmail.com
+<b>Email: </b>wzzzq_cn@163.com
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -5190,7 +5259,7 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 丁業新 傳道
+<b>傳道:</b> 周宗泉 傳道
 </p>
 <p>
 <b>地址: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
@@ -5199,7 +5268,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電話:</b> 0039-057-483-1203, (C) 0039-327-753-3773
 </p>
 <p>
-<b>電郵: </b>marting5@hotmail.com
+<b>電郵: </b>wzzzq_cn@163.com
 </p>
 
 <p>
