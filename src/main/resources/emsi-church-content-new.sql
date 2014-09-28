@@ -628,22 +628,22 @@ Cantonese translation available (in a separate area).
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">Sunday Worship</td>
 			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">2:00pm - 3:00pm <br/>(Transportation can be arranged)</td>
+			<td style="padding: 0px 10px 0px 10px">1:30pm - 2:30pm <br/>(Transportation can be arranged)</td>
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">Sunday Prayer Meeting</td>
 			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:00pm</td>
+			<td style="padding: 0px 10px 0px 10px">3:00pm - 3:30pm</td>
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">Sunday Bible Study</td>
 			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">4:00pm - 5:00pm</td>
+			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:30pm</td>
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">Children’s Sunday School</td>
 			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">2:00pm - 3:00pm</td>
+			<td style="padding: 0px 10px 0px 10px">1:30pm - 2:30pm</td>
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">Cantonese Fellowship</td>
@@ -651,7 +651,7 @@ Cantonese translation available (in a separate area).
 			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:30pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Daytime Bible Study& Prayer Meeting</td>
+			<td style="padding: 0px 10px 0px 10px">Daytime Bible Study & Prayer Meeting</td>
 			<td style="padding: 0px 10px 0px 10px">Tuesday</td>
 			<td style="padding: 0px 10px 0px 10px">9:30am – 11:00am</td>
 		</tr>
@@ -671,17 +671,17 @@ Cantonese translation available (in a separate area).
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">English Class</td>
 			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">1:00pm - 2:00pm (No Age Limit)</td>
+			<td style="padding: 0px 10px 0px 10px">1:00pm - 1:30pm (No Age Limit)</td>
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">Chinese Class</td>
 			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">3:30pm - 5:00pm (Traditional & Simplified)</td>
+			<td style="padding: 0px 10px 0px 10px">3:00pm - 4:30pm (Traditional & Simplified)</td>
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">Music Class</td>
 			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">3:30pm - 5:00pm<br/>(Piano, voice and guitar lessons plus learning how to read music)</td>
+			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:30pm<br/>(Piano, voice and guitar lessons plus learning how to read music)</td>
 		</tr>
 	</tbody>
 </table>
@@ -708,22 +708,22 @@ update church_content set body = STRINGDECODE('
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">主日崇拜</td>
 			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 2:00 - 3:00 （可安排接送）</td>
+			<td style="padding: 0px 10px 0px 10px">下午 1:30 - 2:30 （可安排接送）</td>
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">主日禱告會</td>
 			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 4:00</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:00 - 3:30</td>
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">主日查經班</td>
 			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 4:00 - 5:00</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 4:30</td>
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">兒童主日學</td>
 			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 2:00 - 3:00</td>
+			<td style="padding: 0px 10px 0px 10px">下午 1:30 - 2:30</td>
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">廣東團契</td>
@@ -750,17 +750,17 @@ update church_content set body = STRINGDECODE('
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">英文班</td>
 			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 1:00 - 2:00 （年齡不限)</td>
+			<td style="padding: 0px 10px 0px 10px">下午 1:00 - 1:30 （年齡不限)</td>
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">中文班</td>
 			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 5:00 （繁、簡體）</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:00 - 4:30 （繁、簡體）</td>
 		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">音樂班</td>
 			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 5:00 （鋼琴、聲樂、吉他、識譜)</td>
+			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 4:30 （鋼琴、聲樂、吉他、識譜)</td>
 		</tr>
 	</tbody>
 </table>
