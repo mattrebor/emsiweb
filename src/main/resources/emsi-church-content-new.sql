@@ -6352,6 +6352,232 @@ update church_content set body = STRINGDECODE('<p>
 
 -----------------------end Oradell
 
+
+---- wellington ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(54, 'wellington', 1, 3, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(54, 'en', 'menu_name', 'CEC in Wellington');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(54, 'zh', 'menu_name', '衛靈盾基督教生命堂');            
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(16, NULL, 54);          
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'intro', 'en', 'CEC in Wellington - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+<tbody class="borderless-table">
+<tr>
+<td class="label">Evangelist:</td>
+<td>Ev. William Ng</td>
+</tr>
+</tbody>
+</table>
+
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+<tbody class="borderless-table">
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+<td class="label">Address:</td>
+<td>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</td>
+</tr>
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+<td class="label">Tel#:</td>
+<td> 27-21-686-2783 / 27-76-515-1934</td>
+</tr>
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+<td class="label">Fax#:</td>
+<td> 27-21-686-2783</td>
+</tr>
+<tr>
+<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+<td class="label">Email:</td>
+<td><a href="mailto: emsi.cecsa@gmail.com"> emsi.cecsa@gmail.com</a></td>
+</tr>
+<tr>
+<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+<td class="label">Skype:</td>
+<td>cemcapetownsa</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p><span class="label">Established Date: </span> 2014</p>
+<p>
+<img hspace="5" src="/emsi/images/wellingtonsmall.JPG" align="left" height="255" width="360" />
+</p>
+
+</div>
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'intro', 'zh', '衛靈盾 生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+<tbody class="borderless-table">
+<tr>
+<td class="label">傳道:</td>
+<td>吳偉南 傳道</td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+<table cellpadding="1" cellspacing="0">
+<tbody class="borderless-table">
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+<td class="label">地址:</td>
+<td>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</td>
+</tr>
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+<td class="label">電話:</td>
+<td> 27-21-686-2783 / 27-76-515-1934 </td>
+</tr>
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+<td class="label">傳真:</td>
+<td> 27-21-686-2783 </td>
+</tr>
+<tr>
+<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+<td class="label">電郵:</td>
+<td><a href="mailto: emsi.cecsa@gmail.com"> emsi.cecsa@gmail.com</a></td>
+</tr>
+<tr>
+<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+<td class="label">Skype:</td>
+<td>cemcapetownsa</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<span class=\"label\">成立日期: </span>2014 年 
+</p>
+<p>
+<img hspace="5" src="/emsi/images/wellingtonsmall.JPG" align="left" height="255" width="360" />
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'contactus', 'en', 'CEC in Wellington - Contact Us', 'Christian Evangelical Church in Wellington<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'contactus', 'zh', '俄備得 基督教生命堂 - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'schedule', 'en', 'CEC in Wellington - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Worship</td>
+			<td>Tuesday</td>
+			<td>7:30pm</td>
+		</tr>
+		<tr>
+			<td>Choir Practice </td>
+			<td>Tuesday</td>
+			<td>7:00pm</td>
+		</tr>
+		<tr>
+			<td>Fellowship</td>
+			<td>2nd Tuesday of each month </td>
+			<td>8:30pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'); 
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'schedule', 'zh', '衛靈盾基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>崇拜 </td>
+			<td>每週二晚上</td>
+			<td>7:30pm</td>
+		</tr>
+		<tr>
+			<td>詩班練習 </td>
+			<td>每週二晚上</td>
+			<td>7:00pm</td>
+		</tr>
+		<tr>
+			<td>團契</td>
+			<td>每月第二週星期二晚上</td>
+			<td>8:30pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');             
+
+
+update church set address='22 Jan Van Riebeeck Street, Wellington, 7654, South Africa', latitude =-33.637757, longitude = 19.003839 where church_path = 'wellington';
+
+update church_content set body = STRINGDECODE('<p>
+<b>Evangelist: </b>Ev. William Ng</p>
+<p>
+<b>Address: </b>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</p>
+<p>
+<b>Tel #: </b>27-21-686-2783 / 27-76-515-1934</p>
+<p>
+<b>Fax #: </b>27-21-686-2783</p>
+<p>
+<b>Email: </b> emsi.cecsa@gmail.com</p>
+<p>
+<b>Skype: </b> cemcapetownsa</p>
+
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;ll=-3.637757,19.003839&amp;spn=0.026512,0.045404&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;ll=-33.637757,19.003839&amp;spn=0.026512,0.045404&amp;t=m&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'wellington')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+update church_content set body = STRINGDECODE('<p>
+<b>傳道: </b>吳偉南 傳道</p>
+<p>
+<b>地 址: </b>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</p>
+<p>
+<b>電 話: </b>27-21-686-2783 / 27-76-515-1934</p>
+<p>
+<b>傳真: </b>27-21-686-2783</p>
+<p>
+<b>電 郵: </b> emsi.cecsa@gmail.com</p>
+<p>
+<b>Skype: </b> cemcapetownsa</p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;ll=-3.637757,19.003839&amp;spn=0.026512,0.045404&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;ll=-33.637757,19.003839&amp;spn=0.026512,0.045404&amp;t=m&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'wellington')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+-----------------------end africa - wellington
+
 	
 ---------- Parow-Noord ---------
 
