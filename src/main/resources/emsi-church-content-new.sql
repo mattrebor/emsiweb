@@ -1,3 +1,4 @@
+
 delete from church_detail where church_id = (select church_id from church where church_path = 'nagoya');
 delete from church_content where church_id = (select church_id from church where church_path = 'nagoya');
 delete from church_hierarchy where church_id = (select church_id from church where church_path = 'nagoya');
