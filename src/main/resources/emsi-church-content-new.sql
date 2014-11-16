@@ -1,4 +1,3 @@
-
 delete from church_detail where church_id = (select church_id from church where church_path = 'nagoya');
 delete from church_content where church_id = (select church_id from church where church_path = 'nagoya');
 delete from church_hierarchy where church_id = (select church_id from church where church_path = 'nagoya');
@@ -4485,7 +4484,7 @@ update church_content set body = STRINGDECODE('<p>
 	
 	
 ---------ends Gran Canaria
-
+----------- starts enschede 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -4510,7 +4509,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Worship Address:</td>
-			<td>Nieuwe Schoolweg 2, 7514 CG Enschede, The Netherlands</td>
+			<td>Deurningerstraat 212 , 7522 CL Enschede, The Netherlands</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
@@ -4537,15 +4536,127 @@ p span.label {font-weight: bold;}
 <div class="main-content">
 <p>
 <span class="label">Established Date: </span>September 6, 2009
-</p>
+</p>                                  
 <p>
-<a href="/emsi/gallery/?g2_itemId=1034"><img src="/emsi/images/church_enschede.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /> </a>Enschede is in the northernmost part of the Nethelands bordering of Germany. The city is home to many Universities. There are many overseas Chinese Students studying here, and also many restaurants nearby. In 2003, the Mission Board sent Sister Pan xx to Enschede for summer training, and upon her graduation in 2004, she was sent to start a Gospel Ministry among college students. Through the support of a college professor, she started a weekly bible study in the dining hall of a dormitory, and many overseas students came to know Christ through this ministry. In the ensuing five years that we have been in Enschede, we have longed to start Sunday Worship Services. In 2009, we started to diligently search for a place, and to pray. The Lord ultimately provided for us unexpectedly good news. A catholic church in the city center was willing to let us hold services there. Within a very short one week span, they agreed to let us use a part of the church for Sunday services and Sunday school at a rental we could afford. On Sept 6, 2009, we held our first Sunday Worship and Baptism Service. We call our church CEC in Enschede 
+<img hspace="5" src="/emsi/images/Enschele10292014.JPG" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /> </a>Enschede is in the northernmost part of the Nethelands bordering of Germany. The city is home to many Universities. There are many overseas Chinese Students studying here, and also many restaurants nearby. In 2003, the Mission Board sent Sister Pan xx to Enschede for summer training, and upon her graduation in 2004, she was sent to start a Gospel Ministry among college students. Through the support of a college professor, she started a weekly bible study in the dining hall of a dormitory, and many overseas students came to know Christ through this ministry. In the ensuing five years that we have been in Enschede, we have longed to start Sunday Worship Services. In 2009, we started to diligently search for a place, and to pray. The Lord ultimately provided for us unexpectedly good news. A catholic church in the city center was willing to let us hold services there. Within a very short one week span, they agreed to let us use a part of the church for Sunday services and Sunday school at a rental we could afford. On Sept 6, 2009, we held our first Sunday Worship and Baptism Service. We call our church CEC in Enschede 
 </p>
 </div>
 '	where church_id = (select church_id from church where church_path = 'enschede')
 	and locale = 'en'
 	and page_id = 'intro';
 
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>鍾志勳 牧師</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">教會崇拜地址:</td>
+			<td> Deurningerstraat 212 , 7522 CL Enschede, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">辦公室地址:</td>
+			<td> Deurningerstraat 39A, 7514 BD Enschede , The Netherlands</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 0031-53-231-0798 / 0031-(0)65-065-2284 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:emsienschede@gmail.com">emsienschede@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2009年 9月6日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace="5" src="/emsi/images/Enschele10292014.JPG" align=\"left\" height=\"255\" width=\"360\" />恩赫斯基(Enschede)是位於荷蘭最東面靠近德國邊境，這個城市有不同的大學，其中有很多中國留學生在這個城市上學及附近有很多餐館行業,從2003年佈道會派神學生潘少萍姊妹往Enschede暑假實習,2004年潘姊妹完成神學後再被派往當地做留學生福音事工,開始了每週性的留學生查經斑，透過一位大學教授為我們在學生旅館的餐廳進行每週的查經,當中亦有不少留學生信主。在Enschede已經5年時間,我們很想開展主日崇拜，所以在2009年頭積極找地方及禱告,上帝總是為我們預備好意想不到的驚喜。而其中一間位於市中心的天主教堂為我們提供了聚會可能性。在很短的一周內對方答應我們可以承受的價格租下了部分場地作崇拜及主日學使用, 並於2009年9月6曰成立並舉行首次崇拜及洗禮。教會名稱為: 恩慈地基督教生命堂。
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'enschede')
+	and locale = 'zh'
+	and page_id = 'intro';
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Pastor: </b>Rev. Louis Chung
+</p>
+<p>
+<b>Worship Address: </b>Deurningerstraat 212 , 7522 CL Enschede, The Netherlands
+</p>
+<p>
+<b>Office Address: </b>Deurningerstraat 39A, 7514 BD Enschede , The Netherlands
+</p>
+<p>
+<b>Tel #: </b>0031-53-231-0798 / 0031-(0)65-065-2284
+</p>
+<p>
+<b>Email: </b>emsienschede@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;t=m&amp;z=14&amp;ll=52.23197,6.888148&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;t=m&amp;z=14&amp;ll=52.23197,6.888148&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+
+</p>
+')	where church_id = (select church_id from church where church_path = 'enschede')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>牧師:</b> 鍾志勳 牧師
+</p>
+<p>
+<b>教會崇拜地址: </b>Deurningerstraat 212 , 7522 CL Enschede, The Netherlands
+</p>
+<p>
+<b>辦公室地址: </b>Deurningerstraat 39A, 7514 BD Enschede , The Netherlands
+</p>
+<p>
+<b>電話:</b> 0031-53-231-0798 / 0031-(0)65-065-2284
+</p>
+<p>
+<b>電郵: </b>emsienschede@gmail.com
+</p>
+
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;t=m&amp;z=14&amp;ll=52.23197,6.888148&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;t=m&amp;z=14&amp;ll=52.23197,6.888148&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'enschede')
+	and locale = 'zh'
+	and page_id = 'contactus';
+	
 ----------- starts USA - Towaco pages
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -6354,13 +6465,11 @@ update church_content set body = STRINGDECODE('<p>
 -----------------------end Oradell
 
 
----- wellington ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(54, 'wellington', 1, 3, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(54, 'en', 'menu_name', 'CEC in Wellington');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(54, 'zh', 'menu_name', '衛靈盾基督教生命堂');            
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(17, NULL, 54);          
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'intro', 'en', 'CEC in Wellington - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+-----------------starts pearlriver
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
@@ -6370,215 +6479,317 @@ p span.label {font-weight: bold;}
 <div class="contact-content">
 <div style="color: #000000; font-size: small">
 <table cellpadding="0px" cellspacing="0px">
-<tbody class="borderless-table">
-<tr>
-<td class="label">Evangelist:</td>
-<td>Ev. William Ng</td>
-</tr>
-</tbody>
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Minister:</td>
+			<td>Ev. Sorina Yang 973-335-7337, ext. 220, (C) 973-699-3223</td>
+		</tr>
+	</tbody>
 </table>
-
 <div style="margin-left: 20px">
 <table cellpadding="1px" cellspacing="0px">
-<tbody class="borderless-table">
-<tr>
-<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
-<td class="label">Address:</td>
-<td>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</td>
-</tr>
-<tr>
-<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-<td class="label">Tel#:</td>
-<td> 27-21-686-2783 / 27-76-515-1934</td>
-</tr>
-<tr>
-<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-<td class="label">Fax#:</td>
-<td> 27-21-686-2783</td>
-</tr>
-<tr>
-<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
-<td class="label">Email:</td>
-<td><a href="mailto: emsi.cecsa@gmail.com"> emsi.cecsa@gmail.com</a></td>
-</tr>
-<tr>
-<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
-<td class="label">Skype:</td>
-<td>cemcapetownsa</td>
-</tr>
-</tbody>
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> 456 North Middle Town Rd, Pearl River, NY 10965 USA</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> (845)623-2045</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsilan2013@gmail.com">emsilan2013@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
 </table>
 </div>
 </div>
-
-<hr align="center" size="1" width="100%" /></div>
-
+<hr align="center" size="1" width="100%" />
+</div>
 <div class="main-content">
-<p><span class="label">Established Date: </span> 2014</p>
 <p>
-<img hspace="5" src="/emsi/images/wellingtonsmall.JPG" align="left" height="255" width="360" />
+<span class="label">Established Date: </span>1973
+</p>
+<p>
+<img hspace="5" src="/emsi/images/church_pearlriver.jpg" align="left" height="255" width="360" />In 1970s, the Chinese Evangelical Church (C.E.C.) in Pearl River started as a Bible study group in response to a sister in Christ when Rev. Moses Yang was still pasturing a church of New Jersey, because there was no Chinese church around that area by then.
+</p>
+
+<p>Gradually, the attendance grew and the believers wanted to have Sunday Worship Service. Seeing the need and the hunger of the flock, Rev. Yang and a group of devoted Christians rent the Methodist church and started Chinese Evangelical Church in Pearl River in the year of 1973. Then move again to the Nanuet area, and rent the Grace Baptist Church of Nanuet and change the name to the C.E.C. in New York State.
+</p>
+
+<p>There were many inconveniences in renting other church facilities, and the plan to have our own church building was eagerly pursued among the brothers and sisters, and the Building Fund Offering had been continuing on. Finally, in early April 1996, we found a suitable place and purchased the lot in cash. On June 2, 1996, the church moved to its new location, and a New Church Building Dedication Ceremony was held later on July 27. Since the church was located in Pearl River, the name of the church was changed again back to C.E.C. in Pearl River.
+</p>
+
+<p>Throughout the years, besides the founding pastor Rev. Moses Yang, the church had also been pastured by Rev. Paul Hsu, Ev. Roycos Hom, and EBI graduates such as Ev. Anny Li, Ev. Joan Dan, Ev. & Mrs. Luke Chang, etc, and presently by Ev. Sorina Yang. Currently, most church members reside in Rockland County, NY and Bergen County, NJ.
 </p>
 
 </div>
-');
+'	where church_id = (select church_id from church where church_path = 'pearlriver')
+	and locale = 'en'
+	and page_id = 'intro';
 
 
-
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'intro', 'zh', '衛靈盾 生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
 .main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
 .borderless-table {border-width: 0px;}
-</style>
-<div class="contact-content">
-<div style="color: #000000; font-size: small">
-<table cellpadding="0" cellspacing="0">
-<tbody class="borderless-table">
-<tr>
-<td class="label">傳道:</td>
-<td>吳偉南 傳道</td>
-</tr>
-</tbody>
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧者:</td>
+			<td>吳偉南 傳道 , (C) 0027-(0)76-515-1934</td>
+		</tr>
+	</tbody>
 </table>
-&nbsp;
-
-<div style="margin-left: 20px">
-<table cellpadding="1" cellspacing="0">
-<tbody class="borderless-table">
-<tr>
-<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
-<td class="label">地址:</td>
-<td>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</td>
-</tr>
-<tr>
-<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-<td class="label">電話:</td>
-<td> 27-21-686-2783 / 27-76-515-1934 </td>
-</tr>
-<tr>
-<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-<td class="label">傳真:</td>
-<td> 27-21-686-2783 </td>
-</tr>
-<tr>
-<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
-<td class="label">電郵:</td>
-<td><a href="mailto: emsi.cecsa@gmail.com"> emsi.cecsa@gmail.com</a></td>
-</tr>
-<tr>
-<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
-<td class="label">Skype:</td>
-<td>cemcapetownsa</td>
-</tr>
-</tbody>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 456 North Middle Town Rd, Pearl River, NY 10965 USA</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> (845)623-2045 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsilan2013@gmail.com"> emsilan2013@gmail.com</a></td>
+		</tr>
+	</tbody>
 </table>
 </div>
 </div>
-
-<hr align="center" size="1" width="100%" /></div>
-
-<div class="main-content">
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2014 年 
-</p>
-<p>
-<img hspace="5" src="/emsi/images/wellingtonsmall.JPG" align="left" height="255" width="360" />
+<span class=\"label\">成立日期: </span>1973年 
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-</div>');
-
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'contactus', 'en', 'CEC in Wellington - Contact Us', 'Christian Evangelical Church in Wellington<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'contactus', 'zh', '俄備得 基督教生命堂 - 連絡我們','');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'schedule', 'en', 'CEC in Wellington - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<tbody>
-		<tr>
-			<td>Worship</td>
-			<td>Tuesday</td>
-			<td>7:30pm</td>
-		</tr>
-		<tr>
-			<td>Choir Practice </td>
-			<td>Tuesday</td>
-			<td>7:00pm</td>
-		</tr>
-		<tr>
-			<td>Fellowship</td>
-			<td>2nd Tuesday of each month </td>
-			<td>8:30pm</td>
-		</tr>
-	</tbody>
-</table>
-
-<p>&nbsp;</p>
-'); 
-
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'schedule', 'zh', '衛靈盾基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<tbody>
-		<tr>
-			<td>崇拜 </td>
-			<td>每週二晚上</td>
-			<td>7:30pm</td>
-		</tr>
-		<tr>
-			<td>詩班練習 </td>
-			<td>每週二晚上</td>
-			<td>7:00pm</td>
-		</tr>
-		<tr>
-			<td>團契</td>
-			<td>每月第二週星期二晚上</td>
-			<td>8:30pm</td>
-		</tr>
-	</tbody>
-</table>
-
-<p>&nbsp;</p>
-');             
-
-
-update church set address='22 Jan Van Riebeeck Street, Wellington, 7654, South Africa', latitude =-33.637757, longitude = 19.003839 where church_path = 'wellington';
-
-update church_content set body = STRINGDECODE('<p>
-<b>Evangelist: </b>Ev. William Ng</p>
-<p>
-<b>Address: </b>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</p>
-<p>
-<b>Tel #: </b>27-21-686-2783 / 27-76-515-1934</p>
-<p>
-<b>Fax #: </b>27-21-686-2783</p>
-<p>
-<b>Email: </b> emsi.cecsa@gmail.com</p>
-<p>
-<b>Skype: </b> cemcapetownsa</p>
-
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;ll=-3.637757,19.003839&amp;spn=0.026512,0.045404&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;ll=-33.637757,19.003839&amp;spn=0.026512,0.045404&amp;t=m&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+<img hspace="5" src="/emsi/images/church_pearlriver.jpg" align="left" height="255" width="360" />一九七o年代，在新澤西州牧會的楊摩西牧師為了回應一位姊妹的呼聲，於新州北部靠近紐約州的地方開始了一個小小的查經班，因為該處沒有中國教會。
 </p>
-')	where church_id = (select church_id from church where church_path = 'wellington')
+<p>漸漸地，查經班的人數越來越多，弟兄姊妹也希望能夠開始有主日崇拜。基於羊群的需要，楊牧師和一群忠心的基督徒於一九七三年在紐約州珍珠河借用美國衛理公會教堂，成立了珍珠河基督教生命堂。後再遷至紐約州南部與新澤西州相接的南紐約(Nanuet)，租用美國恩惠浸信會(Grace Baptist Church of Nanuet)教堂聚會，並更名為紐約州基督教生命堂。
+</p>
+<p>在借用的教堂聚會，難免有許多不便，於是弟兄姊妹興起購建新堂的計畫，建堂奉獻也從未間斷。一九九六年初，終於覓得一處合適的建築，幾經交涉，於四月擇期以現款買斷成交，並於六月二日遷入新址，同年七月廿七日舉行獻堂典禮。由於新堂堂址位於紐約州珍珠河，亦即當年成立教會的地區，因此教會再度正名為珍珠河基督教生命堂。
+</p>
+<p>多年來，本堂的牧者除了當初建立教會的楊摩西牧師之外，尚有新加坡禧年堂退休的徐頌光牧師、香港宣道浸信會譚俊德傳道、國際福音佈道神學院畢業生李月雲傳道、但功濤傳道及張博淨、蔡純德傳道夫婦等等，一九九七年至今，則由國際福音佈道神學院畢業的楊張秀蘭傳道帶領。教會成員多數來自紐約州的羅克蘭郡（Rockland County, New York）,以及新澤西州的柏根郡(Bergen County)。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'pearlriver')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Minister: </b>Ev. Sorina Yang 973-335-7337, ext. 220, (C) 973-699-3223
+</p>
+<p>
+<b>Address: </b>456 North Middle Town Rd, Pearl River, NY 10965 USA
+</p>
+<p>
+<b>Tel #: (845)623-2045
+</p>
+<p>
+<b>Email: </b>emsilan2013@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=456+North+Middle+Town+Rd,+Pearl+River,+NY+10965+USA&amp;aq=&amp;sll=52.23197,6.888148&amp;sspn=0.00891,0.016694&amp;ie=UTF8&amp;hq=&amp;hnear=456+N+Middletown+Rd,+Pearl+River,+New+York+10965&amp;t=m&amp;z=14&amp;ll=41.075231,-74.013037&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=456+North+Middle+Town+Rd,+Pearl+River,+NY+10965+USA&amp;aq=&amp;sll=52.23197,6.888148&amp;sspn=0.00891,0.016694&amp;ie=UTF8&amp;hq=&amp;hnear=456+N+Middletown+Rd,+Pearl+River,+New+York+10965&amp;t=m&amp;z=14&amp;ll=41.075231,-74.013037&amp;iwloc=A&amp;\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'pearlriver')
 	and locale = 'en'
 	and page_id = 'contactus';
 	
+	
+	
 update church_content set body = STRINGDECODE('<p>
-<b>傳道: </b>吳偉南 傳道</p>
 <p>
-<b>地 址: </b>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</p>
-<p>
-<b>電 話: </b>27-21-686-2783 / 27-76-515-1934</p>
-<p>
-<b>傳真: </b>27-21-686-2783</p>
-<p>
-<b>電 郵: </b> emsi.cecsa@gmail.com</p>
-<p>
-<b>Skype: </b> cemcapetownsa</p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;ll=-3.637757,19.003839&amp;spn=0.026512,0.045404&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;ll=-33.637757,19.003839&amp;spn=0.026512,0.045404&amp;t=m&amp;z=14&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+<b>牧者: </b>張秀蘭 傳道 , (C) 0027-(0)76-515-1934
 </p>
-')	where church_id = (select church_id from church where church_path = 'wellington')
+<p>
+<b>地址: </b>456 North Middle Town Rd, Pearl River, NY 10965 USA
+</p>
+<p>
+<b>電話:</b> (845)623-2045
+</p>
+<p>
+<b>電郵: </b>emsilan2013@gmail.com
+</p>
+
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=456+North+Middle+Town+Rd,+Pearl+River,+NY+10965+USA&amp;aq=&amp;sll=52.23197,6.888148&amp;sspn=0.00891,0.016694&amp;ie=UTF8&amp;hq=&amp;hnear=456+N+Middletown+Rd,+Pearl+River,+New+York+10965&amp;t=m&amp;z=14&amp;ll=41.075231,-74.013037&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=456+North+Middle+Town+Rd,+Pearl+River,+NY+10965+USA&amp;aq=&amp;sll=52.23197,6.888148&amp;sspn=0.00891,0.016694&amp;ie=UTF8&amp;hq=&amp;hnear=456+N+Middletown+Rd,+Pearl+River,+New+York+10965&amp;t=m&amp;z=14&amp;ll=41.075231,-74.013037&amp;iwloc=A&amp;\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'pearlriver')
 	and locale = 'zh'
 	and page_id = 'contactus';
+	
+	
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>Sunday Worship (Mandarin speaking with English interpretation)</td>
+			<td>Sunday</td>
+			<td>10:30 AM</td>
+		</tr>
+		<tr>
+			<td>Children&#39; Sunday School </td>
+			<td>Sunday</td>
+			<td>11:00 AM</td>
+		</tr>
+		<tr>
+			<td>Chinese Bible Study</td>
+			<td>Every Other Tues</td>
+			<td>8:00 PM</td>
+		</tr>
+		<tr>
+			<td>Berea Bible Study Group</td>
+			<td>Wednesday</td>
+			<td>11:00 AM</td>
+		</tr>
+		<tr>
+			<td>Wayne Restaurant Bible Study</td>
+			<td>Thursday</td>
+			<td>3:30 PM</td>
+		</tr>
+		<tr>
+			<td>Joy Fellowship </td>
+			<td>Saturday</td>
+			<td>3:30 PM</td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting </td>
+			<td>Friday</td>
+			<td>8:00 PM</td>
+		</tr>
+		<tr>
+			<td>Senior Fellowship </td>
+			<td>Every 3rd Wednesday</td>
+			<td>10:30 AM</td>
+		</tr>
+		<tr>
+			<td>Brothers Fellowship </td>
+			<td>Every 1st Saturday</td>
+			<td>5:30 AM</td>
+		</tr>
+		<tr>
+			<td>Sisters Fellowship </td>
+			<td>Every 1st Saturday</td>
+			<td>5:30 AM</td>
+		</tr>
+		<tr>
+			<td>Elim Fellowship </td>
+			<td>Every 3rd or 4th Saturday</td>
+			<td>5:30 PM</td>
+		</tr>
+		<tr>
+			<td>Gospel Fellowship </td>
+			<td>Sunday</td>
+			<td>12:45 PM</td>
+		</tr>
+	</tbody>
+</table>
 
------------------------end africa - wellington
+<p>&nbsp;</p>
 
+'	where church_id = (select church_id from church where church_path = 'pearlriver')
+	and locale = 'en'
+	and page_id = 'schedule';
+	
+
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>主日崇拜 (有英文翻譯)</td>
+			<td>星期日 上午</td>
+			<td>10:30 AM</td>
+		</tr>
+		<tr>
+			<td>兒童主日學 </td>
+			<td>星期日 上午</td>
+			<td>11:00 AM</td>
+		</tr>
+		<tr>
+			<td>中文查經班</td>
+			<td>每月雙週週二晚間 </td>
+			<td>8:00 PM</td>
+		</tr>
+		<tr>
+			<td>庇哩亞查經小組 </td>
+			<td>週三上午</td>
+			<td>11:00 AM</td>
+		</tr>
+		<tr>
+			<td>惟恩餐館查經小組</td>
+			<td>週四下午  </td>
+			<td>3:30 pm</td>
+		</tr>
+		<tr>
+			<td>喜樂團契 </td>
+			<td>週六下午 3:30</td>
+			<td>3:30 PM</td>
+		</tr>
+		<tr>
+			<td>查經禱告會 </td>
+			<td>週五晚間</td>
+			<td>8:00 PM</td>
+		</tr>
+		<tr>
+			<td>長青團契</td>
+			<td>每月第三個週三上午</td>
+			<td>10:30 AM</td>
+		</tr>
+		<tr>
+			<td>弟兄團契</td>
+			<td>每月第一個週六下午</td>
+			<td>5:30 PM</td>
+		</tr>
+		<tr>
+			<td>姐妹團契</td>
+			<td>每月第一個週六下午</td>
+			<td>5:30 PM</td>
+		</tr>
+		<tr>
+			<td>以琳團契 </td>
+			<td>每月第三或第四週週六下午</td>
+			<td>5:30 PM</td>
+		</tr>
+		<tr>
+			<td>福音團契 </td>
+			<td>主日下午 12:45</td>
+			<td>12:45 PM</td>
+		</tr>
+	</tbody>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+'	where church_id = (select church_id from church where church_path = 'pearlriver')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+
+	
+----------------  ends  pearlriver
+	
 	
 ---------- Parow-Noord ---------
 
@@ -6677,7 +6888,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Li Guo, (C) 0027-(0)71-352-1790</td>
+			<td>Ev. William Ng, (C) 0027-(0)76-515-1934</td>
 		</tr>
 	</tbody>
 </table>
@@ -6722,6 +6933,7 @@ p span.label {font-weight: bold;}
 <p>
 </p>
 
+
 </div>
 '	where church_id = (select church_id from church where church_path = 'capetown')
 	and locale = 'en'
@@ -6741,7 +6953,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>郭莉 傳道, (C) 0027-(0)71-352-1790</td>
+			<td>吳偉南 傳道 , (C) 0027-(0)76-515-1934</td>
 		</tr>
 	</tbody>
 </table>
@@ -6803,7 +7015,7 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Li Guo, (C) 0027-(0)71-352-1790
+<b>Evangelist: </b>Ev. William Ng, (C) 0027-(0)76-515-1934
 </p>
 <p>
 <b>Address: </b>94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa
@@ -6828,7 +7040,7 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道: </b>郭莉 傳道, (C) 0027-(0)71-352-1790
+<b>傳道: </b>吳偉南 傳道 , (C) 0027-(0)76-515-1934
 </p>
 <p>
 <b>地址: </b>94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa
@@ -6853,4 +7065,234 @@ update church_content set body = STRINGDECODE('<p>
 	
 ----------------  ends  Africa - Cape Town
 
+
+---- wellington ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(54, 'wellington', 1, 3, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(54, 'en', 'menu_name', 'CEC in Wellington');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(54, 'zh', 'menu_name', '衛靈盾基督教生命堂');            
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(17, NULL, 54);          
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'intro', 'en', 'CEC in Wellington - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+<tbody class="borderless-table">
+<tr>
+<td class="label">Evangelist:</td>
+<td>Ev. William Ng</td>
+</tr>
+</tbody>
+</table>
+
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+<tbody class="borderless-table">
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+<td class="label">Address:</td>
+<td>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</td>
+</tr>
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+<td class="label">Tel#:</td>
+<td> 27-21-686-2783 / 27-76-515-1934</td>
+</tr>
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+<td class="label">Fax#:</td>
+<td> 27-21-686-2783</td>
+</tr>
+<tr>
+<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+<td class="label">Email:</td>
+<td><a href="mailto: emsi.cecsa@gmail.com"> emsi.cecsa@gmail.com</a></td>
+</tr>
+<tr>
+<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+<td class="label">Skype:</td>
+<td>cemcapetownsa</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p><span class="label">Established Date: </span>2014</p>
+<p>
+<img hspace="5" src="/emsi/images/Wellingtonsmall.jpg" align="left" height="255" width="360" />
+</p>
+
+</div>
+
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'intro', 'zh', '衛靈盾 生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+<tbody class="borderless-table">
+<tr>
+<td class="label">傳道:</td>
+<td>吳偉南 傳道</td>
+</tr>
+</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+<table cellpadding="1" cellspacing="0">
+<tbody class="borderless-table">
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+<td class="label">地址:</td>
+<td>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</td>
+</tr>
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+<td class="label">電話:</td>
+<td> 27-21-686-2783 / 27-76-515-1934 </td>
+</tr>
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+<td class="label">傳真:</td>
+<td> 27-21-686-2783 </td>
+</tr>
+<tr>
+<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+<td class="label">電郵:</td>
+<td><a href="mailto: emsi.cecsa@gmail.com"> emsi.cecsa@gmail.com</a></td>
+</tr>
+<tr>
+<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+<td class="label">Skype:</td>
+<td>cemcapetownsa</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<span class=\"label\">成立日期: </span>2014 年 
+</p>
+<p>
+<img hspace="5" src="/emsi/images/Wellingtonsmall.jpg" align="left" height="255" width="360" />
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+</p>
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'contactus', 'en', 'CEC in Wellington - Contact Us', 'Christian Evangelical Church in Wellington<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'contactus', 'zh', '俄備得 基督教生命堂 - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'schedule', 'en', 'CEC in Wellington - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Worship</td>
+			<td>Tuesday</td>
+			<td>7:30pm</td>
+		</tr>
+		<tr>
+			<td>Choir Practice </td>
+			<td>Tuesday</td>
+			<td>7:00pm</td>
+		</tr>
+		<tr>
+			<td>Fellowship</td>
+			<td>2nd Tuesday of each month </td>
+			<td>8:30pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'); 
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'schedule', 'zh', '衛靈盾基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>崇拜 </td>
+			<td>每週二晚上</td>
+			<td>7:30pm</td>
+		</tr>
+		<tr>
+			<td>詩班練習 </td>
+			<td>每週二晚上</td>
+			<td>7:00pm</td>
+		</tr>
+		<tr>
+			<td>團契</td>
+			<td>每月第二週星期二晚上</td>
+			<td>8:30pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');             
+
+
+update church set address='22 Jan Van Riebeeck Street, Wellington, 7654, South Africa', latitude =-33.637757, longitude = 19.003839 where church_path = 'wellington';
+
+update church_content set body = STRINGDECODE('<p>
+<b>Evangelist: </b>Ev. William Ng</p>
+<p>
+<b>Address: </b>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</p>
+<p>
+<b>Tel #: </b>27-21-686-2783 / 27-76-515-1934</p>
+<p>
+<b>Fax #: </b>27-21-686-2783</p>
+<p>
+<b>Email: </b> emsi.cecsa@gmail.com</p>
+<p>
+<b>Skype: </b> cemcapetownsa</p>
+
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;t=m&amp;z=14&amp;ll=-33.637757,19.003839&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;t=m&amp;z=14&amp;ll=-33.637757,19.003839&amp;t=m&amp;z=14&amp;iwloc=A&amp;\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+
+</p>
+')	where church_id = (select church_id from church where church_path = 'wellington')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+update church_content set body = STRINGDECODE('<p>
+<b>傳道: </b>吳偉南 傳道</p>
+<p>
+<b>地址: </b>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</p>
+<p>
+<b>電話: </b>27-21-686-2783 / 27-76-515-1934</p>
+<p>
+<b>傳真: </b>27-21-686-2783</p>
+<p>
+<b>電郵: </b> emsi.cecsa@gmail.com</p>
+<p>
+<b>Skype: </b> cemcapetownsa</p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;t=m&amp;z=14&amp;ll=-33.637757,19.003839&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;t=m&amp;z=14&amp;ll=-33.637757,19.003839&amp;t=m&amp;z=14&amp;iwloc=A&amp;\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'wellington')
+	and locale = 'zh'
+	and page_id = 'contactus';
+	
+
+
+-----------------------end africa - wellington
 

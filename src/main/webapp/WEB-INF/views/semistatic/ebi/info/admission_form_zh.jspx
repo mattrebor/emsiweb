@@ -12,7 +12,7 @@
 
 	<tiles:insertAttribute name="interior-nav" ignore="false" />
 
-	<spring:url var="ebiAdmissionFormUrl" value="/resources/images/ebi/EBI_application_form_Chinese.pdf"/>	
+	<spring:url var="ebiAdmissionFormUrl" value="/resources/images/ebi/EBI application form Chinese10292014.pdf"/>	
 
 
 	<section>
