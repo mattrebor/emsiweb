@@ -6289,7 +6289,7 @@ p span.label {font-weight: bold;}
 <tbody class="borderless-table">
 <tr>
 <td class="label">傳道:</td>
-<td>楊張秀蘭傳道, (H)973-331-0438</td>
+<td>楊張秀蘭 傳道, (H)973-331-0438</td>
 </tr>
 </tbody>
 </table>
@@ -6449,7 +6449,7 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 	
 update church_content set body = STRINGDECODE('<p>
-<b>傳道: </b>楊張秀蘭傳道, (H)973-331-0438</p>
+<b>傳道: </b>楊張秀蘭 傳道, (H)973-331-0438</p>
 <p>
 <b>地 址: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
 <p>
@@ -6547,7 +6547,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧者:</td>
-			<td>吳偉南 傳道 , (C) 0027-(0)76-515-1934</td>
+			<td>楊張秀蘭 傳道 973-335-7337, ext. 220, (C) 973-699-3223</td>
 		</tr>
 	</tbody>
 </table>
@@ -6622,7 +6622,7 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧者: </b>張秀蘭 傳道 , (C) 0027-(0)76-515-1934
+<b>牧者: </b>楊張秀蘭 傳道 , 973-335-7337, ext. 220, (C) 973-699-3223
 </p>
 <p>
 <b>地址: </b>456 North Middle Town Rd, Pearl River, NY 10965 USA
