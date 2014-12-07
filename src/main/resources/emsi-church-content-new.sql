@@ -6157,7 +6157,6 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'zh', '東京 基督教生命堂 - 連絡我們','');          
 
 
-update church set address='343 Kinderkamack Road, Oradell, NJ 07649 USA', latitude = 40.9521361, longitude = -74.0320762 where church_path = 'oradell';
 
 update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Sau Lan Fong</p>
@@ -6212,10 +6211,15 @@ p span.label {font-weight: bold;}
 <div style="color: #000000; font-size: small">
 <table cellpadding="0px" cellspacing="0px">
 <tbody class="borderless-table">
-<tr>
-<td class="label">Evangelist:</td>
-<td>Ev. Sorina Yang, (H) 973-331-0438</td>
-</tr>
+		<tr>
+			<td class="label">Pastors: </td>
+			<td>Ev. Sorina Yang, (H)973-331-0438</td>
+		</tr>
+		<tr>
+			<td class="label"></td>
+			<td>Rev. Hosea Chi,  (C)973-960-8065</td>
+		</tr>
+
 </tbody>
 </table>
 
@@ -6287,10 +6291,14 @@ p span.label {font-weight: bold;}
 <div style="color: #000000; font-size: small">
 <table cellpadding="0" cellspacing="0">
 <tbody class="borderless-table">
-<tr>
-<td class="label">傳道:</td>
-<td>楊張秀蘭 傳道, (H)973-331-0438</td>
-</tr>
+		<tr>
+			<td class="label">牧者: </td>
+			<td>楊張秀蘭 傳道, (H)973-331-0438</td>
+		</tr>
+		<tr>
+			<td class=""></td>
+			<td>戚厚生 牧師, (C)973-960-8065</td>
+		</tr>
 </tbody>
 </table>
 &nbsp;
@@ -6434,11 +6442,12 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 update church set address='343 Kinderkamack Road, Oradell, NJ 07649 USA', latitude = 40.9521361, longitude = -74.0320762 where church_path = 'oradell';
 
 update church_content set body = STRINGDECODE('<p>
-<b>Evangelist: </b>Ev. Sorina Yang, (H)973-331-0438</p>
+<b>Pastors: </b>Ev. Sorina Yang, (H)973-331-0438</br>
+         Rev. Hosea Chi, (C)973-960-8065</p>
 <p>
 <b>Address: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
 <p>
-<b>Tel #: </b>(973) 335-7337 ext. 220, (C) (973) 699-3223</p>
+<b>Tel #: </b>(973) 335-7337 ext. 220, (C)(973) 699-3223</p>
 <p>
 <b>Email: </b>emsilan2013@gmail.com</p>
 
@@ -6449,7 +6458,8 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 	
 update church_content set body = STRINGDECODE('<p>
-<b>傳道: </b>楊張秀蘭 傳道, (H)973-331-0438</p>
+<b>牧者: </b>楊張秀蘭 傳道, (H)973-331-0438<br />
+    戚厚生 牧師, (C)973-960-8065</p>
 <p>
 <b>地 址: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
 <p>
