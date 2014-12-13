@@ -3120,15 +3120,132 @@ update church_content set body = STRINGDECODE('<p>
 
 -----------------starts kobe
 	
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Zhang Qiong</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> 神戶市中央區元町通 3-2-15ｾﾝﾄﾗﾙﾋﾞﾙ元町3F, Japan</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> 81-78-381-9837, (C) 81-80-3868-5377</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsi_kobe@hotmail.co.jp">emsi_kobe@hotmail.co.jp</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>February 17, 2008
+</p>
+<p>
+When Pastor Moses Yang came to Japan on September 2007 to teach theological courses, he challenged us to start a church for spreading the Gospel in Kobe, Japan. He assigned Ev. Yahui Xie to serve in this church. Through prayers, our Lord prepared for us an assembly place in downtown Kobe. A couple who loved the Lord offered to pay for the monthly rent of that place. It was beyond what we asked for. May God bless them abundantly. After a few months of preparation, CEC in Kobe was established on 17 February, 2008.
+</p>
+
+</div>
+'	where church_id = (select church_id from church where church_path = 'kobe')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>張瓊 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 日本神戶市中央區元町通 3-2-15ｾﾝﾄﾗﾙﾋﾞﾙ元町3F</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td>  81-78-381-9837, 手机: 81-80-3868-5377 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsi_kobe@hotmail.co.jp"> emsi_kobe@hotmail.co.jp</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2008年 2月17日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+2007年9月楊摩西牧師到日本教授神學課時向我們提出一個挑戰,就是在日本神戶設立教會, 以便福音廣傳. 楊牧師離開之前決定派謝雅惠傳道在神戶教會服事.
+</p>
+<p>藉著禱告,主在神戶為我們預備了合適的地方, 在神戶繁華的地帶預備了聚會的場所, 同時神也感動一對愛主並對福音事工有負擔的夫婦為我們教會奉獻每月的房租,這真是超乎我們所求所想,相信主會紀念弟兄姐妹的擺上,並賜福給他們.讓他們在今後的服事上更加蒙恩,蒙福,榮神益人!
+</p>
+<p>經過幾個月的準備, 神戶基督教生命堂終於在2008年2月17日正式成立.
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'kobe')
+	and locale = 'zh'
+	and page_id = 'intro';
+	
+	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Yahui Xie
+<b>Evangelist: </b>Ev. Zhang Qiong
 </p>
 <p>
-<b>Address: </b>Kobe-shi Chuo-ku Motomachi-dori 2-9-1 Shitsu [Room] 703, Japan
+<b>Address: </b>神戶市中央區元町通 3-2-15ｾﾝﾄﾗﾙﾋﾞﾙ元町3F, Japan
 </p>
 <p>
-<b>Tel #: </b>81-78-381-9837, (C) 81-90-1963-2717
+<b>Tel #: </b>81-78-381-9837, (C) 81-80-3868-5377
 </p>
 <p>
 <b>Email: </b>emsi_kobe@hotmail.co.jp
@@ -3144,13 +3261,13 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 謝雅惠 傳道
+<b>傳道:</b> 張瓊 傳道
 </p>
 <p>
-<b>地址: </b>神戶市中央區元町通 2-9-1 元町 703室
+<b>地址: </b>日本神戶市中央區元町通 3-2-15ｾﾝﾄﾗﾙﾋﾞﾙ元町3F
 </p>
 <p>
-<b>電話:</b> 81-78-381-9837, 手机: 81-90-1963-2717
+<b>電話:</b> 81-78-381-9837, (C) 81-80-3868-5377
 </p>
 <p>
 <b>電郵: </b>emsi_kobe@hotmail.co.jp
