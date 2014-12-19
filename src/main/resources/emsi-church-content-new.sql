@@ -17,7 +17,7 @@ update church_hierarchy
 	where parent_entity_id = 16
 	and church_id is not null;
 
-update church set address='733 47th Street, Brooklyn, NY 11220, USA', latitude =  40.643776, longitude = -74.003064 where church_path = 'brooklyn';
+update church set address='809 44th Street, Brooklyn, NY 11220, USA', latitude =  40.6443051, longitude = -73.9999322 where church_path = 'brooklyn';
 update church set address='248 Grand Street, New York, NY 10002, USA', latitude = 40.71841, longitude = -73.994011 where church_path = 'chinatown';
 update church set address='35-26 Union Street, Queens, NY 11354, USA', latitude = 40.764656, longitude = -73.828315 where church_path = 'queens';
 update church set address='23 South 2nd Avenue, Highland Park, NJ 08904, USA', latitude = 40.4976633, longitude = -74.4299261 where church_path = 'highlandpark';
@@ -85,8 +85,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td> Ev. Paul Cheng, (c) 917-361-0823</td>
+			<td class="label">Pastor:</td>
+			<td> Rev. Hosea Chi</td>
 		</tr>
 	</tbody>
 </table>
@@ -96,17 +96,16 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> 733 47th Street, Brooklyn, New York 11220, USA</td>
+			<td> 809 44th Street, Brooklyn, NY 11220, USA</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> (C) 917-361-0823</td>
+			<td> 973-960-8065</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:chen_paul0620@yahoo.com">chen_paul0620@yahoo.com</a><br />
 			</td>
 		</tr>
 	</tbody>
@@ -120,7 +119,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>August 3, 2009
 </p>
 <p>
-<img hspace="5" src="/emsi/images/Brooklyn Church small.JPG" align="left" height="255" width="360" />CEM Church in Brooklyn was established on August 3, 2009 when CEM Bishop Moses Yang noted the increasing Chinese population in Brooklyn.
+CEM Church in Brooklyn was established on August 3, 2009 when CEM Bishop Moses Yang noted the increasing Chinese population in Brooklyn.
 </p>
 </div>
 '	where church_id = (select church_id from church where church_path = 'brooklyn')
@@ -141,8 +140,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>陳松曦 傳道, (手機)917-361-0823</td>
+			<td class=\"label\">牧師:</td>
+			<td>戚厚生 牧師</td>
 		</tr>
 	</tbody>
 </table>
@@ -152,17 +151,16 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> 733 47th Street, Brooklyn, New York 11220, USA</td>
+			<td> 809 44th Street, Brooklyn, NY 11220, USA</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td>(手機)917-361-0823</td>
+			<td>973-960-8065</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto:chen_paul0620@yahoo.com">chen_paul0620@yahoo.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -176,7 +174,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace="5" src="/emsi/images/Brooklyn Church small.JPG" align="left" height="255" width="360" />
+
 布路倫生命堂成立于2009年8月3日。生命堂總監督楊摩西牧師看見布路倫地區華人越來越多,因而開拓此間教會。
 </p>
 <p>
@@ -190,19 +188,19 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('
 <p>
-<b>Evangelist: </b>Ev. Paul Cheng, (c) 917-361-0823
+<b>Pastor: </b>Rev. Hosea Chi
 </p>
 <p>
-<b>Address: </b>733 47th Street, Brooklyn, New York 11220, USA
+<b>Address: </b>809 44th Street, Brooklyn, NY 11220, USA
 </p>
 <p>
-<b>Tel #: </b>(c) 917-361-0823
+<b>Tel #: </b>973-960-8065
 </p>
 <p>
-<b>Email: </b>chen_paul0620@yahoo.com
+<b>Email: </b>
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=733+47th+St.,+Brooklyn,+New+York+11220.&hnear=733+47th+St,+Brooklyn,+New+York+11220&gl=us&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=733+47th+St.,+Brooklyn,+New+York+11220.&hnear=733+47th+St,+Brooklyn,+New+York+11220&gl=us&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=809+44th+St,+Brooklyn,+NY+11220&sll=40.6443051,-73.9999322&sspn=0.0062521,0.0109864&hnear=809+44th+St,+Brooklyn,+New+York+11220&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=809+44th+St,+Brooklyn,+NY+11220&sll=40.6443051,-73.9999322&sspn=0.0062521,0.0109864&hnear=809+44th+St,+Brooklyn,+New+York+11220&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'brooklyn')
 	and locale = 'en'
@@ -211,19 +209,19 @@ update church_content set body = STRINGDECODE('
 	
 update church_content set body = STRINGDECODE('
 <p>
-<b>傳道: </b>陳松曦 傳道, (手機)917-361-0823
+<b>牧師: </b>戚厚生 牧師
 </p>
 <p>
-<b>地址: </b>733 47th Street, Brooklyn, New York 11220, USA
+<b>地址: </b>809 44th Street, Brooklyn, NY 11220, USA
 </p>
 <p>
-<b>電話: </b>(手機) 917-361-0823
+<b>電話: </b>973-960-8065
 </p>
 <p>
-<b>電郵: </b>chen_paul0620@yahoo.com
+<b>電郵: </b>
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=733+47th+St.,+Brooklyn,+New+York+11220.&hnear=733+47th+St,+Brooklyn,+New+York+11220&gl=us&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=733+47th+St.,+Brooklyn,+New+York+11220.&hnear=733+47th+St,+Brooklyn,+New+York+11220&gl=us&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=809+44th+St,+Brooklyn,+NY+11220&sll=40.6443051,-73.9999322&sspn=0.0062521,0.0109864&hnear=809+44th+St,+Brooklyn,+New+York+11220&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=809+44th+St,+Brooklyn,+NY+11220&sll=40.6443051,-73.9999322&sspn=0.0062521,0.0109864&hnear=809+44th+St,+Brooklyn,+New+York+11220&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'brooklyn')
 	and locale = 'zh'
@@ -233,11 +231,11 @@ update church_content set body = STRINGDECODE('
 update church_content set body = '<table border="1" cellpadding="5">
 <tr>
 	<td>Worship Service</td>
-	<td>Sunday 2:00—3:30pm</td>
+	<td>Sunday 10:30 am</td>
 </tr>
 <tr>
 	<td>Bible Study</td>
-	<td>Sunday 3:30—4:00pm</td>
+	<td>Tusday 7:00 pm</td>
 </tr>
 </table>
 '	where church_id = (select church_id from church where church_path = 'brooklyn')
@@ -249,11 +247,11 @@ update church_content set body = '<table border="1" cellpadding="5">
 update church_content set body = '<table border="1" cellpadding="5">
 <tr>
 	<td>主日崇拜</td>
-	<td>禮拜日下午2:00—3:30</td>
+	<td>星期日 上午  10:30</td>
 </tr>
 <tr>
 	<td>查經禱告會</td>
-	<td>禮拜日下午3:30—4:00</td>
+	<td>星期二 晚上     7:00</td>
 </tr>
 </table>
 '	where church_id = (select church_id from church where church_path = 'brooklyn')
