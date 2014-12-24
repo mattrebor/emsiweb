@@ -69,7 +69,7 @@ update church set address='Via Stresa, 3, 20125 Milan, Italy', latitude = 45.492
 update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prato, Italy', latitude = 43.88184649999999, longitude = 11.09375730 where church_path = 'prato';
 update church set address='Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan', latitude = 34.646304, longitude = 135.522001  where church_path = 'osaka';
 
----------------------update Brooklyn Fuzhou Dialect intro page
+---------------------update Brooklyn Fuzhou Service intro page
 
 
 update church_content set body = '<style>
