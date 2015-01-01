@@ -28,7 +28,7 @@ update church set address='36 Alpine Road, Towaco, NJ 07082, USA', latitude = 40
 update church set address='2111 Camino Del Rio South, San Diego, CA 92108, USA', latitude = 32.767192, longitude = -117.142511 where church_path = 'sandiego';
 update church set address='539 North Sunset Avenue, Azusa, CA 91702, USA', latitude = 34.131395, longitude = -117.911747 where church_path = 'losangeles';
 update church set address='400 Brussels Street, San Francisco, CA 94134, USA', latitude = 37.726874, longitude = -122.4056077 where church_path = 'sanfrancisco';
-update church set address='600 West Campbell Avenue, Campbell, CA 95008, USA', latitude = 37.2869291, longitude = -121.9614152 where church_path = 'sanjose';
+update church set address='191 E Gish Road, San Jose, CA 95112-4704, USA', latitude = 37.36407, longitude = -121.905978 where church_path = 'sanjose';
 update church set address='6656 Park Riviera Way, Sacramento, CA 95831, USA', latitude = 38.506565, longitude = -121.550272 where church_path = 'sacramento';
 update church set address='1107 Budapest, Monori u.2-4. E12-12 Hungary', latitude = 47.4818745, longitude = 19.122065  where church_path = 'budapest';
 update church set address='Geograaf 13, Centerpoort-Nieuwgraaf, 6921 EW Duiven, The Netherlands', latitude = 51.9628456, longitude = 6.0057757 where church_path = 'amhem';
@@ -2062,7 +2062,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>600 West Campbell Avenue, Campbell CA 95008  USA</td>
+			<td>191 E Gish Road, San Jose, CA 95112-4704 USA</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -2124,7 +2124,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> 600 West Campbell Avenue, Campbell CA 95008 USA</td>
+			<td> 191 E Gish Road, San Jose, CA 95112-4704 USA</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -2173,7 +2173,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. Timotius Tjing, 510-972-0473
 </p>
 <p>
-<b>Address: </b>600 West Campbell Avenue, Campbell CA 95008 USA
+<b>Address: </b>191 E Gish Road, San Jose, CA 95112-4704 USA
 </p>
 <p>
 <b>Tel #: </b>510-972-0473
@@ -2182,7 +2182,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Email: </b>timotiuschuang@yahoo.com
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=600+West+Campbell+Avenue,+Campbell+CA+95008+USA&hnear=600+W+Campbell+Ave,+Campbell,+California+95008&gl=us&t=m&z=16&amp;z=17&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=600+West+Campbell+Avenue,+Campbell+CA+95008+USA&hnear=600+W+Campbell+Ave,+Campbell,+California+95008&gl=us&t=m&z=16&amp;z=17&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=191+E+Gish+Rd,+San+Jose,+CA+95112&amp;ie=UTF8&amp;hq=&amp;hnear=191+E+Gish+Rd,+San+Jose,+California+95112-4704&amp;t=m&amp;z=14&amp;ll=37.36407,-121.905978&amp;z=17&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=191+E+Gish+Rd,+San+Jose,+CA+95112&amp;ie=UTF8&amp;hq=&amp;hnear=191+E+Gish+Rd,+San+Jose,+California+95112-4704&amp;t=m&amp;z=14&amp;ll=37.36407,-121.905978&amp;z=17&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'sanjose')
 	and locale = 'en'
@@ -2198,7 +2198,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師:</b> 莊恭進 牧師,  510-972-0473
 </p>
 <p>
-<b>地址: </b>600 West Campbell Avenue, Campbell CA 95008 USA
+<b>地址: </b>191 E Gish Road, San Jose, CA 95112-4704 USA
 </p>
 <p>
 <b>電話:</b> 510-972-0473
@@ -2207,7 +2207,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電郵: </b>timotiuschuang@yahoo.com
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=600+West+Campbell+Avenue,+Campbell+CA+95008+USA&hnear=600+W+Campbell+Ave,+Campbell,+California+95008&gl=us&t=m&z=16&amp;z=17&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=600+West+Campbell+Avenue,+Campbell+CA+95008+USA&hnear=600+W+Campbell+Ave,+Campbell,+California+95008&gl=us&t=m&z=16&amp;z=17&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=191+E+Gish+Rd,+San+Jose,+CA+95112&amp;ie=UTF8&amp;hq=&amp;hnear=191+E+Gish+Rd,+San+Jose,+California+95112-4704&amp;t=m&amp;z=14&amp;ll=37.36407,-121.905978&amp;z=17&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=191+E+Gish+Rd,+San+Jose,+CA+95112&amp;ie=UTF8&amp;hq=&amp;hnear=191+E+Gish+Rd,+San+Jose,+California+95112-4704&amp;t=m&amp;z=14&amp;ll=37.36407,-121.905978&amp;z=17&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 
 ')	where church_id = (select church_id from church where church_path = 'sanjose')
