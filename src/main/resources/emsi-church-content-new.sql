@@ -2086,7 +2086,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>September 22, 1985
 </p>
 <p>
-<a href="/emsi/gallery/?g2_itemId=131"><img src="/emsi/images/church_sanjose.jpg" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" /></a> C.E.C. in San Jose was officially established on September 22, 1985, under the need and request of fellow Indonesians and the support of E.M.S.I.<br />
+<img src="/emsi/images/church_sanjose_2014.JPG" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />C.E.C. in San Jose was officially established on September 22, 1985, under the need and request of fellow Indonesians and the support of E.M.S.I.<br />
 When the church was first formed, the attendance was in the teens.  As the church ministry expanded, God continually added to our congregation with new Christians.  As the number of attendants increased, our meeting place had relocated.  In these 24 years, we have been renting churches for our services.  But in November 1990, we moved into our first newly purchased church building.  But in the last ten years, due to the increase in Sunday Worship Service and Sunday school attendance, we didn\u2019t have sufficient space for ministry.  Therefore, in the last few years, we had to use the Government sponsored Senior Citizens place for our Wednesday Prayer Meeting and Friday Youth Group.  We also used another church and their classrooms for our Sunday Service and activities.  Facing these difficulties, we continually prayed that God  may be gracious to us, granting us a bigger church to expand His ministry.  Right now, we are in the process of looking for a more suitable place to purchase and that we have our own church building and expand His ministry.<br />
 We have expanded our church ministries to mission, discipleship, evangelism, caring and Laymen\u2019s Institute.  The brothers and sisters actively participate and are very supportive.  Every year we could see that the Lord has given us new believers.  Not only do we have Indonesian Worship Service, but started the English Service too.<br />
 Thanks and praises to the Lord!  For the past 24 years, God\u2019s wondrous working is clearly manifested in the church, leading many to salvation, and growing spiritually with steadfastness.  Just as the Bible says, \u201cNow unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us, Unto him be glory in the church by Christ Jesus throughout all ages, world without end. Amen.\u201d (Ephesians 3:20-21). 
@@ -2148,7 +2148,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/images/church_sanjose.jpg\" align=\"left\" height=\"255\" width=\"360\" />聖河水基督教生命堂，在印尼同胞的需求和國際神學福音佈道會支持下，於一九八五年九月廿二日正式成立。
+<img hspace=\"5\" src=\"/emsi/images/church_sanjose_2014.JPG" align=\"left\" height=\"255\" width=\"360\" />聖河水基督教生命堂，在印尼同胞的需求和國際神學福音佈道會支持下，於一九八五年九月廿二日正式成立。
 </p>
 <p>當教會初成立時， 參與崇拜的人數不過十幾人，隨著教會聖工的日漸發展，上帝不斷把得救人數加添給我們。聚會場地也隨著人數的增長而幾經更遷。廿四年當中，我們曾經租用別人的地方，但於一九九○年十一月遷入第一個屬於自己的禮拜堂，然而十年後，禮拜堂再度因為聚會人數增添， 兒童主日學和少年團契人數增加而不敷使用。因此，近幾年來，每週三和週五晚上，我們需租用市政府老人中心舉行禱告會和青年團契，每週日需租用美國安息日會的禮堂和教室聚會。面對這些困難，我們持續不斷地禱告，求主開恩，讓我們可以早日得到更大的禮拜堂發展聖工。如今我們不斷地觀察， 盼望可以看到適合的地方購作自己的禮拜堂，拓展神的聖工。
 </p>
@@ -3920,13 +3920,162 @@ update church_content set body = STRINGDECODE('<p>
 ----------  ends Holland - arnhem
 
 ----------  starts Holland - veenendaal
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Andy Chu, Ev. Ka Man Chu-Ng</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Worship Address:</td>
+			<td>Zandstraat 36-38, 3901 CM, Veenendaal, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Office Address:</td>
+			<td>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>+31(0)318-76-9144 / +31(0)627-22-1338</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsiveenendaal@gmail.com">emsiveenendaal@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>October 20, 2012
+</p>                                  
+<p>
+<img src="/emsi/images/VeenendaalChurch.JPG" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />We started Bible study classes twice a month in September, 2009 at Petra Kerk for church members in Veenendaal. They lived or owned business in Veenendaal. They were not able to come to CEC in Utrecht regularly.  
+</p>
+<p>
+There were many Chinese who live or run restaurants in Veenendaal and neighboring towns. Many of these families are with two or three children. It was too far for these children to come to the youth fellowship of CEC in Utrecht even we invited them. So we started youth fellowship in September, 2011 for children in the area.
+</p>
+<p>
+There are street fairs in Veenendaal every Sunday. Chinese from neighboring towns come to buy groceries. We met many Chinese from neighboring towns. It occurred to us if it is Lord’s will, we would start a small church in Veenendaal. We started looking for a meeting place after we had consensus with coworkers.
+</p>
+<p>
+A coworker, Brother Chung, searched through internet and found a house for sale at a decent price. It covers 540 square meters, with usable floor area of 287 square meters. One could sit 80 persons in the sanctuary. In addition, there were an auditorium of 60 square meters, and an apartment of four rooms. It was close to the center of town, and was easily accessible. We believed God had provided this building for us, and decided to purchase it. At the time of economic downturn, we thank our Lord and praise Him that brothers and sisters did not neglect God’s work and were giving willingly, and generously, that we had more than enough. Our Father in heaven has provided more than we asked. It is just like what is said in the Bible:”This is the LORD''s doing; it is marvelous in our eyes”. 
+</p>
+<p>
+The closing of the church building at Veenendaal was held on Oct. 11, 2012. CEM Bishop Pastor Moses Yang with a team of pastors came to Holland. He presided over the church dedication on Oct. 20, 2012. CEC in Veenendaal became the 11th church of CEM in Holland. May heavenly blessings come abundantly to this place.
+</p>
+
+</div>
+'	where church_id = (select church_id from church where church_path = 'veenendaal')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>朱洪順 傳道, 朱吳嘉敏 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">教會崇拜地址:</td>
+			<td> Zandstraat 36-38, 3901 CM, Veenendaal, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">辦公室地址:</td>
+			<td> Zandstraat 103, 3905 EB, Veenendaal , The Netherlands</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> +31(0)318-76-9144 / +31(0)627-22-1338 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:emsiveenendaal@gmail.com">emsiveenendaal@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2012年 10月20日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace="5" src="/emsi/images/VeenendaalChurch.JPG\" alt=\"CEC in Veenendaal\" align=\"left\" height=\"255\" width=\"360\" />烏特勒堂的一些弟兄姊妹在Veenendaal市做生意及有幾個信主家庭住在此城市, 而不能經常返教會参加聚會, 所以開設查經班使會友得着神的話語喂養, 於2009年9月份在Petra Kerk教會開始首次每月2次查經聚會。
+</p>
+<p>
+在Veenendaal市及鄰埠也有不少华人居住及做飲食行業, 而且每個家庭都有2至3個孩子, 賞試邀請他們來參加Utrecht少年團契, 但由於路途遠不能參加, 於2011年9月份開始首次少年團契,能夠接觸更多家庭。
+</p>
+<p>
+每逢週六在Veenendaal有擺街市, 各小埠華人都來到此地方買菜, 讓我們看到其實很多華人住在附近地方, 有見及此感動,主若願意是否可以開設小型教會, 所以經同工同意開始找聚會地方。
+</p>
+<p>
+同工鍾弟兄在一次偶然在網上尋找地方時, 發現一所房屋出讓, 而且價錢便宜, 總面積540m2, 實用面積287m2, 有一禮堂可坐80人, 另有一個60m2副堂及3房1廳住家,近市中心交通方便 , 深信上帝為我們預備 決定計劃買下來 , 更得到各生命堂的弟兄姊妹為福音齊心努力奉獻, 雖然當時經濟不景氣的情況下, 但弟兄姊妹對上帝的聖工沒有冷淡竟能如此樂意奉獻, 實在感謝讚美主，讓我們 不但沒有缺乏, 而且有餘。父神為我們預備是超過我們所想所求, 正如聖經說：『這是耶和華所做的， 在我們眼中看為希奇』, 願將一切感恩榮耀頌讚歸給天上行奇事的父神！
+</p>
+<p>
+Veenendaal會址終於在2012年10月11日正式簽約, 於同年10年20日藉監督楊摩西牧師來荷蘭領會並率領牧師團為Veenendaal生命堂主持成立暨獻堂典禮, 成為荷蘭第11間的教會, 並命名為『福臨道基督教生命堂』, 盼望上帝親自把從天上來的福氣臨到這地方。阿們！
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'veenendaal')
+	and locale = 'zh'
+	and page_id = 'intro';
+
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Evangelist: </b>Ev. Andy Chu, Ev. Ka Man Chu-Ng
 </p>
 <p>
-<b>Address: </b>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands
+<b>Worship Address: </b>Zandstraat 36-38, 3901 CM, Veenendaal, The Netherlands
+</p>
+<p>
+<b>Office Address: </b>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands
 </p>
 <p>
 <b>Tel #: </b>+31(0)318-76-9144 / +31(0)627-22-1338
@@ -3948,7 +4097,10 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道:</b> 朱洪順 傳道, 朱吳嘉敏 傳道
 </p>
 <p>
-<b>地址: </b>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands
+<b>教會崇拜地址: </b>Zandstraat 36-38, 3901 CM, Veenendaal, The Netherlands
+</p>
+<p>
+<b>辦公室地址: </b>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands
 </p>
 <p>
 <b>電話:</b> +31(0)318-76-9144 / +31(0)627-22-1338
