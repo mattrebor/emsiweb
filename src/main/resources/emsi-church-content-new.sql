@@ -687,6 +687,11 @@ Cantonese translation available (in a separate area).
 			<td style="padding: 0px 10px 0px 10px">Sunday</td>
 			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:30pm<br/>(Piano, voice and guitar lessons plus learning how to read music)</td>
 		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">Karate </td>
+			<td style="padding: 0px 10px 0px 10px">Sunday</td>
+			<td style="padding: 0px 10px 0px 10px">1:30pm -3:00pm (five years and older)</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -765,6 +770,11 @@ update church_content set body = STRINGDECODE('
 			<td style="padding: 0px 10px 0px 10px">音樂班</td>
 			<td style="padding: 0px 10px 0px 10px">星期日</td>
 			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 4:30 （鋼琴、聲樂、吉他、識譜)</td>
+		</tr>
+		<tr>
+			<td style="padding: 0px 10px 0px 10px">空手道班</td>
+			<td style="padding: 0px 10px 0px 10px">星期日</td>
+			<td style="padding: 0px 10px 0px 10px">下午 1:30pm -3:00pm （五歲以上）</td>
 		</tr>
 	</tbody>
 </table>
