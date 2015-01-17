@@ -4967,7 +4967,11 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Ev. Jonathan Poon, 973-331-0545 ext. 203, (C) 973-979-1950</td>
+			<td>Ev. Jonathan Poon, 973-331-0545 ext. 203, (C) 973-979-1950</td>
+		</tr>
+		<tr>
+			<td class="label">Youth Minister:</td>
+			<td>Ev. Wingkit Chan, 973-331-0545 ext. 250, (C) 973-413-4132</td>
 		</tr>
 	</tbody>
 </table>
@@ -5052,6 +5056,10 @@ p span.label {font-weight: bold;}
 			<td class=\"label\">傳道:</td>
 			<td>潘逸豪 傳道, 973-331-0545 ext. 203, (手機) 973-979-1950</td>
 		</tr>
+		<tr>
+			<td class=\"label\">青年事工:</td>
+			<td>陳永潔 傳道, 973-331-0545 ext. 250, (手機) 973-413-4132</td>
+		</tr>
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -5134,7 +5142,7 @@ update church_content set body = STRINGDECODE('<p>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:,新細明體 ''Times New Roman''; color: #000000">楊摩西牧師</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family:,新細明體 ''Times New Roman''; color: #000000">楊摩西 牧師</span></span> 
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
@@ -5156,7 +5164,7 @@ update church_content set body = STRINGDECODE('<p>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">楊陳愛玫師母</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">楊陳愛玫 師母</span></span> 
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
@@ -5178,7 +5186,7 @@ update church_content set body = STRINGDECODE('<p>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">吳錫安牧師</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">吳錫安 牧師</span></span> 
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
@@ -5193,14 +5201,14 @@ update church_content set body = STRINGDECODE('<p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><a href="mailto:hoseachi@hotmail.com"><span style="font-size: small; font-family: ''Times New Roman''">zionwu@hotmail.com</span></a></span> 
+			<span lang="EN-US"><a href="mailto:zionwu@hotmail.com"><span style="font-size: small; font-family: ''Times New Roman''">zionwu@hotmail.com</span></a></span> 
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: 新細明體,''Times New Roman''; color: #000000">吳周麗華師母</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: 新細明體,''Times New Roman''; color: #000000">吳周麗華 師母</span></span> 
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
@@ -5215,14 +5223,14 @@ update church_content set body = STRINGDECODE('<p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><a href="mailto:jalin7@hotmail.com"><span style="font-size: small; font-family: ''Times New Roman''">wujudy2008@gmail.com</span></a></span> 
+			<span lang="EN-US"><a href="mailto:wujudy2008@gmail.com"><span style="font-size: small; font-family: ''Times New Roman''">wujudy2008@gmail.com</span></a></span> 
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">錢舜傳道</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">錢舜 傳道</span></span> 
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
@@ -5244,7 +5252,7 @@ update church_content set body = STRINGDECODE('<p>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">潘逸豪傳道</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">潘逸豪 傳道</span></span> 
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
@@ -5260,6 +5268,28 @@ update church_content set body = STRINGDECODE('<p>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">jc1jj2@gmail.com</span></span></span> 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000"> 陳永潔 傳道</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 250</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-413-4132</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">Wk_chan@hotmail.com</span></span></span> 
 			</p>
 			</td>
 		</tr>
@@ -5449,6 +5479,28 @@ Christian Evangelical Mission Church in Towaco
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">jc1jj2@gmail.com</span></span></span> 
+			</p>
+			</td>
+		</tr>
+		<tr>
+			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ev. Wingkit Chan</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 250</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-413-4132</span></span> 
+			</p>
+			</td>
+			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
+			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">Wk_chan@hotmail.com</span></span></span> 
 			</p>
 			</td>
 		</tr>
