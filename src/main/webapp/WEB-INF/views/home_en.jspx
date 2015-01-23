@@ -69,6 +69,7 @@
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
 				
 				<ul>		
+					<li>3/1/15 CEMC Barcelona 10th Anniversary Celebration   <a href="${newsUrl}">Learn more &#9656;</a></li>
 					<li>12/23/14 ECMSI Brooklyn Mandarin Service Christmas Musical Night   <a href="${newsUrl}">Learn more &#9656;</a></li>
 					<li>10/18 -19 CEM in Holland 40th Anniversary Celebration  <a href="${newsUrl}">Learn more &#9656;</a></li>
 					<li>9/20-21  IEC San Jose Church Dedication <a href="${newsUrl}">Learn more &#9656;</a></li>
