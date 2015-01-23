@@ -1201,7 +1201,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. YongSheng Zhang, (C) 973-393-7876</td>
+			<td>Ev. Yongsheng Zhang (C) 646-462-6116</td>
 		</tr>
 	</tbody>
 </table>
@@ -1275,7 +1275,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class="label">傳道:</td>
-			<td>張勇生 傳道, (手機)973-393-7876</td>
+			<td>張勇生 傳道, (手機)646-462-6116</td>
 		</tr>
 	</tbody>
 </table>
