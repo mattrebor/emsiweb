@@ -2077,7 +2077,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>510-972-0473</td>
+			<td>(408)459-1678</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -2139,7 +2139,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 510-972-0473 </td>
+			<td> (408)459-1678 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -2186,7 +2186,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Address: </b>191 E Gish Road, San Jose, CA 95112-4704 USA
 </p>
 <p>
-<b>Tel #: </b>510-972-0473
+<b>Tel #: </b>(408)459-1678
 </p>
 <p>
 <b>Email: </b>timotiuschuang@yahoo.com
@@ -2211,7 +2211,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>191 E Gish Road, San Jose, CA 95112-4704 USA
 </p>
 <p>
-<b>電話:</b> 510-972-0473
+<b>電話:</b> (408)459-1678
 </p>
 <p>
 <b>電郵: </b>timotiuschuang@yahoo.com
@@ -5058,7 +5058,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\">青年事工:</td>
-			<td>陳永潔 傳道, 973-331-0545 ext. 250, (手機) 973-413-4132</td>
+			<td>陳永傑  傳道, 973-331-0545 ext. 250, (手機) 973-413-4132</td>
 		</tr>
 	</tbody>
 </table>
@@ -5274,7 +5274,7 @@ update church_content set body = STRINGDECODE('<p>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000"> 陳永潔 傳道</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000"> 陳永傑 傳道</span></span> 
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
