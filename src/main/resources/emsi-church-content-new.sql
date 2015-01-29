@@ -446,7 +446,7 @@ update church_content set body = STRINGDECODE('<p>
 
 
 ------------end queens
----------------------update murrayhill  pages
+---------------------update murrayhill - Changed to Berkeley Heights in name (Jan 2015)pages
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
