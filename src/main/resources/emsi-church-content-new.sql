@@ -6283,6 +6283,167 @@ update church_content set body = STRINGDECODE('<p>
 	
 ----------------  ends  Belgium - antwerpen
 
+	
+---------- Leuven , Belgium ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(56, 'leuven', 1, 4, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(56, 'en', 'menu_name', 'CEC in Leuven');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(56, 'zh', 'menu_name', '魯汶基督教生命堂 ');            
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(11, NULL, 56);         
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'intro', 'en', 'CEC in Leuven - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor: </td>
+			<td>Rev. M. C. (Mix) Chan</td>
+		</tr>
+
+</tbody>
+</table>
+
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+<tbody class="borderless-table">
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+<td class="label">Address:</td>
+<td>Brouwersstraat 1, 3000 Leuven, Belgium</td>
+</tr>
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+<td class="label">Tel#:</td>
+<td> +32(0)484-14 86 82 </td>
+</tr>
+<tr>
+<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+<td class="label">Email:</td>
+<td>emsibelgium@hotmail.com </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p><span class="label">Established Date: </span>January 2015</p>
+<p>
+</p>
+<p>
+
+</p>
+
+</div>
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'intro', 'zh', '魯汶基督教生命堂  - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+<tbody class="borderless-table">
+		<tr>
+			<td class="label">牧師: </td>
+			<td>陳茂祥 牧師</td>
+		</tr>
+</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+<table cellpadding="1" cellspacing="0">
+<tbody class="borderless-table">
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+<td class="label">地址:</td>
+<td>Brouwersstraat 1, 3000 Leuven, Belgium</td>
+</tr>
+<tr>
+<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+<td class="label">電話:</td>
+<td> +32(0)484-14 86 82</td>
+</tr>
+<tr>
+<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+<td class="label">電郵:</td>
+<td>emsibelgium@hotmail.com </td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<span class=\"label\">成立日期: </span>2015 年 1 月 
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<p>
+</p>
+<p>
+</p>
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'contactus', 'en', 'CEC in Leuven - Contact Us', 'Christian Evangelical Church in Leuven <br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'contactus', 'zh', '魯汶基督教生命堂  - 連絡我們','');          
+
+
+update church set address='Brouwersstraat 1, 3000 Leuven, Belgium', latitude = 50.882435, longitude = 4.696683 where church_path = 'leuven';
+
+update church_content set body = STRINGDECODE('<p>
+<b>Pastors </b>Rev. M. C. (Mix) Chan</br>
+</p>
+<p>
+<b>Address: </b>Brouwersstraat 1, 3000 Leuven, Belgium</p>
+<p>
+<b>Tel #: </b>+32(0)484-14 86 82</p>
+<p>
+<b>Email: </b>emsibelgium@hotmail.com</p>
+
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;ie=UTF8&amp;hq=&amp;hnear=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;t=m&amp;z=14&amp;ll=50.882435,4.696683&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;ie=UTF8&amp;hq=&amp;hnear=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;t=m&amp;z=14&amp;ll=50.882435,4.696683&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'leuven')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+update church_content set body = STRINGDECODE('<p>
+<b>牧師: </b> 陳茂祥 牧師<br />
+</p>
+<p>
+<b>地 址: </b>Brouwersstraat 1, 3000 Leuven, Belgium</p>
+<p>
+<b>電 話: </b>+32(0)484-14 86 82</p>
+<p>
+<b>電 郵: </b>emsibelgium@hotmail.com</p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;ie=UTF8&amp;hq=&amp;hnear=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;t=m&amp;z=14&amp;ll=50.882435,4.696683&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;ie=UTF8&amp;hq=&amp;hnear=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;t=m&amp;z=14&amp;ll=50.882435,4.696683&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'leuven')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+-----------------------end Leuven Belgium
+	
+	
+	
 ---------- TOKYO ---------
 INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(52, 'tokyo', 1, 1, 0);               
 INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(52, 'en', 'menu_name', 'CEC in Tokyo');             
