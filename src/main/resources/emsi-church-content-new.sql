@@ -69,7 +69,7 @@ update church set address='Via Stresa, 3, 20125 Milan, Italy', latitude = 45.492
 update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prato, Italy', latitude = 43.88184649999999, longitude = 11.09375730 where church_path = 'prato';
 update church set address='Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan', latitude = 34.646304, longitude = 135.522001  where church_path = 'osaka';
 
----------------------update Brooklyn Fuzhou Service intro page
+---------------------update Brooklyn - 7th Ave Fuzhou Service intro page
 
 
 update church_content set body = '<style>
@@ -1098,14 +1098,14 @@ p span.label {font-weight: bold;}
 ----------ends paris
 	
 -- North Paris
-INSERT INTO PUBLIC.CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(51, 'northparis', 1, 1, 0);  
+INSERT INTO PUBLIC.CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(51, 'northparis', 0, 1, 0);  
 
-update church set address='38 Rue des Gardinoux, 93300 Aubervilliers, France', latitude = 48.90682970, longitude = 2.36753750 where church_path = 'northparis';
+--update church set address='38 Rue des Gardinoux, 93300 Aubervilliers, France', latitude = 48.90682970, longitude = 2.36753750 where church_path = 'northparis';
 
 INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(51, 'en', 'menu_name', 'CEC in North Paris');             
 INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(51, 'zh', 'menu_name', '巴黎北區基督教生命堂');     
 
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(10, NULL, 51);
+--INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(10, NULL, 51);
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(51, 'intro', 'en', 'CEC in North Paris - Brief History', STRINGDECODE('<style>\r\n.contact-content {\r\nFONT-FAMILY: Arial,helvetica,sans-serif\r\n}\r\n.contact-content TD {\r\nPADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px: \r\n}\r\nTD.label {\r\nWIDTH: 1%; WHITE-SPACE: nowrap; FONT-WEIGHT: bold\r\n}\r\nP SPAN.label {\r\nFONT-WEIGHT: bold\r\n}\r\n.main-content {\r\nFONT-FAMILY: Arial, MingLiU, Helvetica, san-serif; COLOR: #333; FONT-SIZE: 13px\r\n}\r\n.borderless-table {\r\nBORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px\r\n}</style>\r\n<div class=\"contact-content\">\r\n<div style=\"color: #000000; font-size: small\">\r\n<table cellpadding=\"0\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\">Pastor:</td>\r\n\t\t\t<td>Rev. Mix Chan</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\" rowspan=\"2\" valign=\"top\">Evangelists:</td>\r\n\t\t\t<td>Ev. Martin Ding</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n<div style=\"margin-left: 20px\">\r\n<table cellpadding=\"1\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Address:</td>\r\n\t\t\t<td>38, rue des gardinoux 93300 Aubervilliers, Paris, France</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Tel#:</td>\r\n\t\t\t<td>33-1-5846-0892</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Fax#:</td>\r\n\t\t\t<td>33-9-5455-0056</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Email:</td>\r\n\t\t\t<td><a href=\"mailto:emsifrance@hotmail.com\">emsifrance@hotmail.com</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_skype.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Skype:</td>\r\n\t\t\t<td>emsifrance</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n<hr align=\"center\" size=\"1\" width=\"100%\" />\r\n</div>\r\n<div class=\"main-content\">\r\n<p>\r\n<span class=\"label\">Zion Fellowship in Northern Paris</span></p>\r\n<p>\r\nCEC in Paris is starting its evangelistic outreach program in Northern Paris. Bible study classes are conducted every Thursday, and Saturday. Please invite your friends in the area to attend.</p>\r\n</div>\r\n'));
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(51, 'intro', 'zh', STRINGDECODE('巴黎北區基督教生命堂 - 教會簡介'), STRINGDECODE('<style>\r\n.contact-content {font-family: Arial,helvetica,sans-serif,\u65b0\u7d30\u660e\u9ad4 ;}\r\n.contact-content td {font-size: 14px; padding: 2px; 3px;}\r\ntd.label {font-weight: bold; width: 1%; white-space: nowrap;}\r\np span.label {font-weight: bold;}\r\n.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, \u65b0\u7d30\u660e\u9ad4; font-size: 13px; color: #333;}\r\n.borderless-table {border-width: 0px;}\r\n</style>\r\n<div class=\"contact-content\">\r\n<div style=\"color: #000000; font-size: small\">\r\n<table cellpadding=\"0\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\">\u6703\u7267:</td>\r\n\t\t\t<td>\u9673\u8302\u7965 \u7267\u5e2b</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\">\u99d0\u5802\u50b3\u9053:</td>\r\n\t\t\t<td>\u4E01\u696D\u65B0 \u50b3\u9053</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n<br />\r\n<div style=\"margin-left: 20px\">\r\n<table cellpadding=\"1\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u5730\u5740:</td>\r\n\t\t\t<td>38, rue des gardinoux 93300 Aubervilliers, Paris, France</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u96fb\u8a71:</td>\r\n\t\t\t<td>33-1-5846-0892</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u50b3\u771f:</td>\r\n\t\t\t<td>33-9-5455-0056</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u96fb\u90f5:</td>\r\n\t\t\t<td><a href=\"mailto:emsifrance@hotmail.com\">emsifrance@hotmail.com</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_skype.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Skype:</td>\r\n\t\t\t<td>emsifrance </td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n<hr align=\"center\" size=\"1\" width=\"100%\" />\r\n</div>\r\n<div class=\"main-content\">\r\n<p>\r\n<span class=\"label\">錫安團契</span></p>\r\n<p>\r\n<br />巴黎基督教生命堂在北區福音工作，屢次中段。近期 (2013) 再度展開。每星期四、星期六有查經，約有十多人固定前來，研讀神的話語。也歡迎弟兄姐妹邀請當地華人朋友參加。\r\n&nbsp;\r\n</p>\r\n</div>\r\n')); 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(51, 'contactus', 'en', 'CEC in North Paris - Contact Us', STRINGDECODE('<p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\">\r\n<span style=\"font-size: small\"><span style=\"color: #000000\"><b><span lang=\"EN-US\"><span style=\"font-family: Times New Roman\">Address</span></span></b><span style=\"font-family: \u65b0\u7d30\u660e\u9ad4\">\uff1a</span></span></span><span lang=\"EN-US\"><span style=\"font-family: Times New Roman; color: #000000; font-size: small\">38, rue des gardinoux 93300 Aubervilliers, Paris, France<br />\r\n<b>Telephone</b> : 33-1-5846-0892</span><br />\r\n<br />\r\n</span>\r\n</p>\r\n<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=38,+rue+des+gardinoux+93300+Aubervilliers,+Paris,+France&amp;ie=UTF8&amp;hq=&amp;hnear=38+Rue+des+Gardinoux,+93300+Aubervilliers,+Seine-Saint-Denis,+%C3%8Ele-de-France,+France&amp;gl=us&amp;t=m&amp;z=14&amp;ll=48.90683,2.367538&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=38,+rue+des+gardinoux+93300+Aubervilliers,+Paris,+France&amp;ie=UTF8&amp;hq=&amp;hnear=38+Rue+des+Gardinoux,+93300+Aubervilliers,+Seine-Saint-Denis,+%C3%8Ele-de-France,+France&amp;gl=us&amp;t=m&amp;z=14&amp;ll=48.90683,2.367538&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>\r\n'));          
@@ -3884,10 +3884,128 @@ p span.label {font-weight: bold;}
 ----------ends Italy - milan
 	
 ----------  starts Holland - arnhem
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. LeungMing Wong</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>Geograaf 13, 6921 EW Duiven, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>00-31-6 1296-5512</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsiamsterdam@gmail.com">emsiamsterdam@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>February 12, 2012
+</p>                                  
+<p>
+<img src="/emsi/files/cec%20arnhem%20group%20small.jpg" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />Arnhem is an important city in the central East of the Netherlands near Germany. Chinese are spread out near Arnhem, just as other places. We needed a centralized location to spread Gospel to the entire area. Near Arnhem and its neighbor city of Duiven, there is a supermarket chain "Amazing Oriental". Amazing Oriental considers it important to spread Gospel among its staff and encourage their staff to attend church services and meetings. They invited evangelists to visit their staff, and do personal evangelism work among them. God has blessed them. Many of the staff members and their families believed in Christ. We made arrangement to bring them to our church for baptismal and worship services. However, there were practical difficulties as they live very far from us. The Christian brothers and sisters of CEC in Amsterdam and brothers and sisters prayed and asked God for guidance to further the Gospel work here and to establish a church so that brothers and sisters at Arnhem and Duivan may worship God more locally. The promise of “all things work together for good to them that love God, to them who are the called according to his purpose” was fulfilled. There was a room accommodating 200 people on an upper floor of the Amazing Oriental at Duiven. Its owner agreed that we may use it for church activities. Thus CEC in Arnhem found a gathering place, where the brothers and sisters may serve, and worship with one accord. The church was established on Feb. 12, 2012, and held its first worship service that day.
+</p>
+
+<p>The Chinese name of CEC in Arnhem means: “In Christ the believers have peace, and enjoy eternity.
+
+</p>
+
+</div>
+'	where church_id = (select church_id from church where church_path = 'arnhem')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>黃良明 牧師</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Geograaf 13, 6921 EW Duiven, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 00-31-6 1296-5512</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:emsiamsterdam@gmail.com">emsiamsterdam@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2012年 2月12日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace="5" src="/emsi/files/cec%20arnhem%20group%20small.jpg\" alt=\"CEC in Arnhem\" align=\"left\" height=\"255\" width=\"360\" />安恆市 Arnhem 是在荷蘭國中部靠東面的一個重要城市，橋接德國與荷蘭。由於華人在該市鄰近散居，如其他的地區一樣，福音工作需要先有據點再而進發到整面。在 Arnhem安恆市及鄰近Duiven市，均有「東方行超級市場」的設立，而該集團非常重視向她的員工們傳揚基督耶穌的福音；因此，經常鼓勵員工們參加教會崇拜及特別聚會，又邀請傳道去作個人談道、探訪等等，讓他們聽到聖經真理。上帝祝福他們，內中多有員工及其家人親友信主，都安排到我們生命堂接受洗禮並參加崇拜；無奈路途偏遠，實有其艱難之處。荷京生命堂的弟兄姊妹，與這裡的弟兄姊妹有較多的交往，於是同心祈禱，求上帝指示開路，讓荷京生命堂能協助這裡福音工作的發展，使到Arnhem和Duiven的弟兄姊妹能有着自己地方來敬拜三一真神。就在「我們曉得萬事都互相効力，叫愛上帝的人得益處，就是按祂旨意被召的人」這實踐上，在Duiven的東方行超級市場樓上，有一處可容納兩百人聚會的空間，由業主借出給教會使用；「安恆基督教生命堂」就得到聚會地方，讓弟兄姊妹同心地事奉、敬拜，且在2012年2月12日正式成立並舉行第一次崇拜。「安恆」取其意為：信徒在主耶穌裡，得平「安」、享永「恆」。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'arnhem')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Leung Ming Wong
+<b>Pastor: </b>Rev. LeungMing Wong
 </p>
 <p>
 <b>Address: </b>Geograaf 13, 6921 EW Duiven, The Netherlands
@@ -3909,7 +4027,7 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 黃良明 傳道
+<b>牧師:</b> 黃良明 牧師
 </p>
 <p>
 <b>地址: </b>Geograaf 13, 6921 EW Duiven, The Netherlands
@@ -3995,7 +4113,7 @@ There are street fairs in Veenendaal every Sunday. Chinese from neighboring town
 A coworker, Brother Chung, searched through internet and found a house for sale at a decent price. It covers 540 square meters, with usable floor area of 287 square meters. One could sit 80 persons in the sanctuary. In addition, there were an auditorium of 60 square meters, and an apartment of four rooms. It was close to the center of town, and was easily accessible. We believed God had provided this building for us, and decided to purchase it. At the time of economic downturn, we thank our Lord and praise Him that brothers and sisters did not neglect God’s work and were giving willingly, and generously, that we had more than enough. Our Father in heaven has provided more than we asked. It is just like what is said in the Bible:”This is the LORD''s doing; it is marvelous in our eyes”. 
 </p>
 <p>
-The closing of the church building at Veenendaal was held on Oct. 11, 2012. CEM Bishop Pastor Moses Yang with a team of pastors came to Holland. He presided over the church dedication on Oct. 20, 2012. CEC in Veenendaal became the 11th church of CEM in Holland. May heavenly blessings come abundantly to this place.
+The closing of the church building at Veenendaal was held on Oct. 11, 2012. CEM Bishop Pastor Moses Yang with a team of pastors came to the Netherlands. He presided over the church dedication on Oct. 20, 2012. CEC in Veenendaal became the 11th church of CEM in The Netherlands. May heavenly blessings come abundantly to this place.
 </p>
 
 </div>
@@ -4279,6 +4397,9 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 -------------- ends Holland - Utrecht	
+
+	
+------------ Starts breda --------
 	
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -4335,7 +4456,175 @@ p span.label {font-weight: bold;}
 	and locale = 'en'
 	and page_id = 'intro';
 
+------------ Ends breda --------
 
+----------  starts Holland - amsterdam
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. LeungMing Wong</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>Anton Waldorpstraat 90, 1062 AZ Amsterdam, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>0031-(0)20-6730350 / 0031-(0)61-2965512</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsiamsterdam@gmail.com">emsiamsterdam@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>April 1985
+</p>                                  
+<p>
+<img src="/emsi/files/amsterdam/amsterdam.jpg" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />CEC in Amsterdam (The Holland Capital church) was founded in 1990 by CEC in Europe. It is located in the capital of Holland, Amsterdam. Previously, it was a fellowship of young men, which was set up on October 27, 1984 in Amsterdam
+</p>
+
+</div>
+'	where church_id = (select church_id from church where church_path = 'amsterdam')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>黃良明 牧師</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Anton Waldorpstraat 90, 1062 AZ Amsterdam, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 0031-(0)20-6730350 / 0031-(0)61-2965512 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:emsiamsterdam@gmail.com">emsiamsterdam@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1985年  4月
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace="5" src="/emsi/files/amsterdam/amsterdam.jpg\" alt=\"CEC in Amsterdam\" align=\"left\" height=\"255\" width=\"360\" />一九八四年前的幾屆青年福音營都有來自荷京地區的青年人参加，後因不易跟進而多有流失。八四年夏令營後，當時在烏特勒教會牧會的黄良明傳道願意負起開拓荷京青年福音工作，每周六早前往該市帶領青年團契。他們在Stadhouderskade租了一個聾啞中心的地方作聚會之用，又有來自其他三個生命堂的青年弟兄姐妹前來協助，很快聚會的人數有顯著的加增。
+</p>
+<p>
+八五年初，佈道會派譚俊德傳道負責建立教會的工作。同年四月份楊摩西牧師來荷巡迴佈道，並主領荷京生命堂的第一個主日崇拜。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'amsterdam')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Pastor: </b>Rev. LeungMing Wong
+</p>
+<p>
+<b>Address: </b>Anton Waldorpstraat 90, 1062 AZ Amsterdam, The Netherlands
+</p>
+<p>
+<b>Tel #: </b>0031-(0)20-6730350 / 0031-(0)61-2965512
+</p>
+<p>
+<b>Email: </b>emsiamsterdam@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;t=m&amp;z=14&amp;ll=52.362588,4.834154&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;t=m&amp;z=14&amp;ll=52.362588,4.834154&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'amsterdam')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>牧師:</b> 黃良明 牧師
+</p>
+<p>
+<b>地址: </b>Anton Waldorpstraat 90, 1062 AZ Amsterdam, The Netherlands
+</p>
+<p>
+<b>電話:</b> 0031-(0)20-6730350 / 0031-(0)61-2965512
+</p>
+<p>
+<b>電郵: </b>emsiamsterdam@gmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;t=m&amp;z=14&amp;ll=52.362588,4.834154&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;t=m&amp;z=14&amp;ll=52.362588,4.834154&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'amsterdam')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+----------  ends Holland - amsterdam
+	
+	
+	
+	
+	
+	
 ----------  starts Holland - bergenopzoom
 update church_content set body = STRINGDECODE('<style>
 .contact-content {
@@ -6971,13 +7260,13 @@ update church_content set body = STRINGDECODE('<p>
 -----------------------end Oradell
 
 
----------- Brooklyn Mandarin ---------
+---------- Brooklyn Mandarin - 8th Ave ---------
 INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(55, 'brooklynmandarin', 1, 10, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(55, 'en', 'menu_name', 'ECMSI in Brooklyn Mandarin Service');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(55, 'en', 'menu_name', 'ECMSI in Brooklyn - 8th Ave');             
 INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(55, 'zh', 'menu_name', '佈路倫基督教生命堂 國語');            
 INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 55);          
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'intro', 'en', 'ECMSI in Brooklyn Mandarin Service - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'intro', 'en', 'ECMSI in Brooklyn - 8th Ave - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
@@ -7088,9 +7377,9 @@ p span.label {font-weight: bold;}
 </p>
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'contactus', 'en', 'ECMSI Brooklyn Mandarin Service - Contact Us', 'Christian Evangelical Church in Brooklyn Mandaring Service<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'contactus', 'en', 'ECMSI Brooklyn - 8th Ave - Contact Us', 'Christian Evangelical Church in Brooklyn Mandaring Service<br><br>');          
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'contactus', 'zh', '佈路倫基督教生命堂 國語崇拜 - 連絡我們','');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'schedule', 'en', 'ECMSI Brooklyn Mandarin Service - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'schedule', 'en', 'ECMSI Brooklyn - 8th Ave - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
 			<td>Sunday Worship</td>
