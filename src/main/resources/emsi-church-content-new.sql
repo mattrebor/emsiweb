@@ -1323,6 +1323,7 @@ and page_id = 'intro';
 
 ------------  ends chinatown
 
+--------------  starts Fuenlabrada -------------
 insert into church_content (CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(34, 'intro', 'en', 'CEC in Fuenlabrada - Brief History', '
 <style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -1336,8 +1337,12 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 <tbody class="borderless-table">
 <tr>
+<td class="label">Pastor:</td>
+<td>Rev. Guo Dan Jiang, 34-620-630-901</td>
+</tr>
+<tr>
 <td class="label">Evangelist:</td>
-<td>Ev. Guo Dan Jiang, 34-620-630-901</td>
+<td>Ev. Zhi Chuan Li, 34-622-526-181</td>
 </tr>
 </tbody>
 </table>
@@ -1352,12 +1357,12 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img src="/emsi/images/icon_phone.gif" width="16" height="16" /></td>
 <td class="label">Tel#:</td>
-<td>34-91-016-0197 , 34-91-459-5775</td>
+<td>34-910-160-197</td>
 </tr>
 <tr>
 <td class="label"><img src="/emsi/images/icon_phone.gif" width="16" height="16" /></td>
 <td class="label">Fax#:</td>
-<td>34-91-4595844</td>
+<td>34-91-459-5844</td>
 </tr>
 <tr>
 <td><img src="/emsi/images/icon_email.gif" width="16" height="16" /></td>
@@ -1395,8 +1400,12 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 <tbody class="borderless-table">
 <tr>
+<td class="label">牧師:</td>
+<td>蔣國淡 牧師, 34-620-630-901</td>
+</tr>
+<tr>
 <td class="label">傳道:</td>
-<td>蔣國淡 傳道, 34-620-630-901</td>
+<td>李志川  傳道, 34-622-526-181</td>
 </tr>
 </tbody>
 </table>
@@ -1412,7 +1421,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 <td class="label">電話:</td>
-<td>34-91-016-0197, 34-91-459-5775</td>
+<td>34-910-160-197</td>
 </tr>
 <tr>
 <td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -1450,6 +1459,64 @@ p span.label {font-weight: bold;}
 我們期盼信徒們靈命快快成長起來，將來在本地培養更多同工出來配搭服事，在這廣大禾場撒播更多福音種子。願馬德里福恩城基督教生命堂成為工業區眾人的祝福。請大家多為這個新事工禱告！
 </p>
 </div>');
+
+
+	
+update church_content set body = STRINGDECODE('
+<p>
+<b>Pastor: </b>Rev. Guo Dan Jiang, 34-620-630-901
+</p>
+<p>
+<b>Evangelist: </b>Ev. Zhi Chuan Li, 34-622-526-181
+</p>
+<p>
+<b>Address: </b>C/Leon 24, 28947 Fuenlabrada, Madrid, Spain
+</p>
+<p>
+<b>Tel #: </b>34-910-160-197
+</p>
+<p>
+<b>Fax #: </b>34-91-459-5844
+</p>
+<p>
+<b>Email: </b>guodanj@yahoo.es
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;t=m&amp;z=14&amp;ll=40.263727,-3.744919&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;t=m&amp;z=14&amp;ll=40.263727,-3.744919&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'fuenlabrada')
+	and locale = 'en'
+	and page_id = 'contactus';
+
+	
+update church_content set body = STRINGDECODE('
+<p>
+<b>牧師: </b>蔣國淡 牧師, 34-620-630-901
+</p>
+<p>
+<b>傳道: </b>李志川 傳道, 34-622-526-181
+</p>
+<p>
+<b>地址: </b>C/Leon 24, 28947 Fuenlabrada Madrid, Spain
+</p>
+<p>
+<b>電話: </b>34-910-160-197
+</p>
+<p>
+<b>傳真: </b>34-91-459-5844
+</p>
+<p>
+<b>電郵: </b>guodanj@yahoo.es
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;t=m&amp;z=14&amp;ll=40.263727,-3.744919&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;t=m&amp;z=14&amp;ll=40.263727,-3.744919&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'fuenlabrada')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+--------------  ends Fuenlabrada -------------
 
 update church_detail
 set value = '三籓市基督教生命堂'
@@ -4892,10 +4959,15 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Guo Dan Jiang</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Guo Dan Jiang, 34-620-630-901</td>
+		</tr>
+		<tr>
+			<td class="label">Contact:</td>
+			<td>方金欢姊妹, 34-928-761-704</td>
 		</tr>
 	</tbody>
+
 </table>
 <div style="margin-left: 20px">
 <table cellpadding="1px" cellspacing="0px">
@@ -4908,12 +4980,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0034-620-630-901</td>
+			<td>34-620-630-901 , 34-928-761-704</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Fax#:</td>
-			<td>0034-91-459-5844</td>
+			<td>34-91-459-5844</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -4953,8 +5025,12 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>蔣國淡 傳道</td>
+			<td class=\"label\">牧師:</td>
+			<td>蔣國淡 牧師, 34-620-630-901</td>
+		</tr>
+		<tr>
+			<td class=\"label\">聯絡人:</td>
+			<td>方金欢姊妹, 34-928-761-704</td>
 		</tr>
 	</tbody>
 </table>
@@ -4969,12 +5045,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 0034-620-630-901 </td>
+			<td> 34-620-630-901 , 34-928-761-704 </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">傳真:</td>
-			<td> 0034-91-459-5844 </td>
+			<td> 34-91-459-5844 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -5007,16 +5083,19 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Guo Dan Jiang
+<b>Pastor: </b>Rev. Guo Dan Jiang, 34-620-630-901
+</p>
+<p>
+<b>Contact: </b>方金欢姊妹, 34-928-761-704
 </p>
 <p>
 <b>Address: </b>C/.Menceyes 36，35110 Las Palmas, de Gran Canaria, Spain
 </p>
 <p>
-<b>Tel #: </b>0034-620-630-901
+<b>Tel #: </b>34-620-630-901 , 34-928-761-704
 </p>
 <p>
-<b>Fax #: </b>0034-91-459-5844
+<b>Fax #: </b>34-91-459-5844
 </p>
 <p>
 <b>Email: </b>guodanj@yahoo.es
@@ -5032,16 +5111,19 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 蔣國淡 傳道
+<b>牧師:</b> 蔣國淡 牧師, 34-620-630-901
+</p>
+<p>
+<b>聯絡人:</b> 方金欢 姊妹, 34-928-761-704
 </p>
 <p>
 <b>地址: </b>C/.Menceyes 36，35110 Las Palmas, de Gran Canaria, Spain
 </p>
 <p>
-<b>電話:</b> 0034-620-630-901
+<b>電話:</b> 34-620-630-901 , 34-928-761-704
 </p>
 <p>
-<b>傳真:</b> 0034-91-459-5844
+<b>傳真:</b> 34-91-459-5844
 </p>
 <p>
 <b>電郵: </b>guodanj@yahoo.es
