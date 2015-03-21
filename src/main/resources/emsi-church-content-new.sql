@@ -446,6 +446,8 @@ update church_content set body = STRINGDECODE('<p>
 
 
 ------------end queens
+
+	
 ---------------------update murrayhill - Changed to Berkeley Heights in name (Jan 2015)pages
 
 update church_content set body = '<style>
@@ -1212,7 +1214,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img height="16" src="/emsi/images/icon_googlemap.gif" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>248 Grand Street, New York, NY</td>
+			<td>248 Grand Street, New York, NY 10002 USA</td>
 		</tr>
 		<tr>
 			<td class="label"><img height="16" src="/emsi/images/icon_phone.gif" width="16" /></td>
@@ -1524,6 +1526,8 @@ where church_id = 11
 and locale = 'zh'
 and key = 'menu_name';
 
+
+------------ starts madrid
 update church_content set body = '<p>&nbsp;</p>
 
 <p style="margin: 0.6em 0px 1.2em; padding: 0px"><b>Sunday Worship</b>&nbsp;<b style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px">| Sunday 5:30PM</b></p>
@@ -1794,8 +1798,9 @@ p span.label {font-weight: bold;}
 '	where church_id = (select church_id from church where church_path = 'madrid')
 	and locale = 'zh'
 	and page_id = 'intro';	
+------------ ends madrid	
 	
-	
+------------ starts southmadrid	
 update church_content set body = '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
@@ -1972,9 +1977,9 @@ update church_content set body = '<table border="1" cellpadding="5">
 '	where church_id = (select church_id from church where church_path = 'southmadrid')
 	and locale = 'zh'
 	and page_id = 'schedule';	
+------------ends southmadrid	
 	
-	
-	
+------------starts barcelona	
 update church_content set body = '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
@@ -1987,8 +1992,12 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">傳道:</td>
-			<td>王艷華 傳道</td>
+			<td class="label">牧者:</td>
+			<td>蔣國經 傳道, (手機)0034-687-58-7688</td>
+		</tr>
+		<tr>
+			<td class="label">  </td>
+			<td>陳敏 傳道, (手機)0034-651-52-1292</td>
 		</tr>
 	</tbody>
 </table>
@@ -2008,19 +2017,9 @@ p span.label {font-weight: bold;}
 			<td>0034-934-22-1133</td>
 		</tr>
 		<tr>
-			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-			<td class="label">手機:</td>
-			<td>0034-679-33-4923</td>
-		</tr>
-		<tr>
 			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 			<td class="label">電郵:</td>
-			<td><a href="mailto:emsibarcelona@yahoo.com">emsibarcelona@yahoo.com</a></td>
-		</tr>
-		<tr>
-			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_skype.gif" width="16" /></td>
-			<td class="label">Skype:</td>
-			<td>cembarcelona</td>
+			<td><a href="mailto:barcelonaemsi2015@hotmail.com">barcelonaemsi2015@hotmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2057,7 +2056,11 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Evangel. Sophia Wang</td>
+			<td>Ev. Guo Jing Jiang, (C)0034-687-58-7688</td>
+		</tr>
+		<tr>
+			<td class="label">          </td>
+			<td>Ev. Min Chen, (C)0034-651-52-1292</td>
 		</tr>
 	</tbody>
 </table>
@@ -2073,17 +2076,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0034-934 22 11 33 ; 0034-679334923(cell)</td>
+			<td>0034-934-22-1133</td>
 		</tr>
 		<tr>
 			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:emsibarcelona@yahoo.com">emsibarcelona@yahoo.com</a></td>
-		</tr>
-		<tr>
-			<td><img height="16" src="/emsiweb/images/emsi/icon_skype.gif" width="16" /></td>
-			<td class="label">Skype:</td>
-			<td>cembarcelona</td>
+			<td><a href="mailto:barcelonaemsi2015@hotmail.com">barcelonaemsi2015@hotmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2109,6 +2107,62 @@ Subway: #2 line, # 5 line getting off at Sagrada Familia station, #2 line: exit 
 '	where church_id = (select church_id from church where church_path = 'barcelona')
 	and locale = 'en'
 	and page_id = 'intro';	
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Guo Jing Jiang, (C)0034-687-58-7688
+</p>
+<p>
+<b>Evangelist: </b>Ev. Min Chen, (C)0034-651-52-1292
+</p>
+<p>
+<b>Address: </b>Calle D&rsquo;Olzinelles 91 ,08014 ,Barcelona, Spain
+</p>
+<p>
+<b>Tel #: </b>0034-934-22-1133
+</p>
+<p>
+<b>Email: </b>barcelonaemsi2015@hotmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Calle+Olzinelles,+91,+08014+Barcelona,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Olzinelles,+91,+08014+Barcelona,+Spain&amp;t=m&amp;z=14&amp;ll=41.370954,2.137458&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Calle+Olzinelles,+91,+08014+Barcelona,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Olzinelles,+91,+08014+Barcelona,+Spain&amp;t=m&amp;z=14&amp;ll=41.370954,2.137458&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'barcelona')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>牧者: </b>蔣國經 傳道, (手機)0034-687-58-7688
+</p>
+<p>
+<b>牧者: </b>陳敏 傳道, (手機)0034-651-52-1292
+</p>
+<p>
+<b>地址: </b>Calle D&rsquo;Olzinelles 91 ,08014 ,Barcelona, Spain
+</p>
+<p>
+<b>電話: </b>0034-934-22-1133
+</p>
+<p>
+<b>電郵: </b>barcelonaemsi2015@hotmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Calle+Olzinelles,+91,+08014+Barcelona,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Olzinelles,+91,+08014+Barcelona,+Spain&amp;t=m&amp;z=14&amp;ll=41.370954,2.137458&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Calle+Olzinelles,+91,+08014+Barcelona,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Olzinelles,+91,+08014+Barcelona,+Spain&amp;t=m&amp;z=14&amp;ll=41.370954,2.137458&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'barcelona')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+------------ends barcelona
+	
+	
+	
 
 ------------starts sanjose
 update church_content set body = STRINGDECODE('<style>
@@ -8364,4 +8418,5 @@ update church_content set body = STRINGDECODE('<p>
 	
 
 -----------------------end africa - wellington
+
 
