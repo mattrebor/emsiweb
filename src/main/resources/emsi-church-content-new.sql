@@ -4367,6 +4367,196 @@ update church_content set body = STRINGDECODE('<p>
 
 ----------  ends Holland - veenendaal
 
+	
+----------  starts Holland - Groningen
+update church_content set body = STRINGDECODE('<style>
+.contact-content {
+font-family: Arial,helvetica,sans-serif
+}
+.contact-content td {
+padding-bottom: 2px; padding-left: 2px; padding-right: 2px; font-size: small; padding-top: 2px; 3px: 
+}
+td.label {
+width: 1%; white-space: nowrap; font-weight: bold
+}
+p span.label {
+font-weight: bold
+}
+.main-content {
+font-family: Arial, MingLiU, Helvetica, san-serif; color: #333; font-size: 13px
+}
+.borderless-table {
+border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px
+}</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Yiu Cheung (mobile: 06 - 81 556 777)</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>Korreweg 37, 9714 AB Groningen, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>0031-(0)50-571-8040 / 0031-(0)681-55-6777</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsigroningen@gmail.com">emsigroningen@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>August 29, 2009
+</p>
+<p>
+<img hspace="5" src="/emsi/images/church_groningen.jpg" align="left" height="255" width="360" />"Unless the Lord builds the house, They labor in vain; Unless the Lord guards the city, The watchman stays awake in vain." Psalm 127:1
+</p>
+<p>
+Praise the Lord, Pastor Moses Yang, Bishop of EMSI has been moved to start a church in the northern Netherlands. He commissioned Pastor Hugo Chan and his wife for pioneering the work. In April, 2009, Pastor Chen and his wife visited Chinese firms in the northern Netherlands area. They met many students, but there was no Chinese Church there. At the end of May, God prepared a 110 square meter meeting place for us at Korreweg 37, Groningen. The transportation is very convenient, It isclose to the "Oriental Supermarket", which 
+the Chinese and foreign students in the neighboring towns are very familiar with.
+We are also grateful to the Lord that more than thirty brothers and sisters from different CEM churches in the Netherlands joined this pioneering ministry. On June 6, in the first meeting of the ministry, we set the time table for the progress of the work, and staffed each task. In the middle of June we began transporting the tools and items, and started the interior renovation. In mid-July the renovation was completed. By the end of July, we started visiting restaurants, Chinese shops and Chinese families door to door, and distributed tracts in the streets, inviting friends interested to know the Lord, to share, to dine and to attend gospel meetings. In August Student Fellowship from CEMC at Utrecht came to arrange student activities and to distribute leaflets in the weekends on a regular basis. The brothers and sisters of CEMC at The Hague also came to to lead the gospel cafe on Saturday. On August 2nd the first Sunday service was held, followed by a second worship service on August 16, with more than thirty participants each time.
+</p>
+<p>Twelve made a commitment to accept Christ as Savior in early August. On August 28 a talent show was organized for international students’ orientation by the Lamb Fellowship to reach Chinese oversea students. Pastor Yang presided over the beginning ceremony of the CEMC at Groningen on August 29 and conducted a Baptism and Baby Dedication services. He preached at the Renew Life Series, "Who Holds Tomorrow?" Weekly Sunday Worship and Sunday school began in mid September. 
+
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'groningen')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>張堯 傳道, 06-81-55-6777</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td>Korreweg 37, 9714 AB Groningen, The Netherlands </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td>0031-(0)50-571-8040 / 0031-(0)681-55-6777</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href="mailto:emsigroningen@gmail.com">emsigroningen@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2009年 8月29日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace="5" src="/emsi/images/church_groningen.jpg" align="left" height="255" width="360" />「若不是耶和華建造房屋，建造的人就枉然勞力；若不是耶和華看守城池，看守的人就枉然警醒。」詩127:1
+<p>
+
+感謝主，總監楊摩西牧師一直有感動在荷蘭北部開拓教會，差派陳啟猷牧師夫婦二人負責拓荒。2009年四月底陳牧師夫婦前往探訪北部一帶華人商號，遇到不少留學生，但沒有華人教會。很奇妙，神竟在五月底為我們預備了一個佔地約110平方公尺的聚會地方，位於高寧根市 (Groningen) Korreweg 37，交通十分便利，因靠近「東方行雜貨超市」，鄰鎮的華人及留學生都十分熟悉。
+</p>
+<p>
+更感謝主，來自不同的荷蘭生命堂會的30多位弟兄姊妹投入這項拓荒事工，經6月6日第一次的事工會議，確定工作的進展，並安排人手分擔工作及訂進度時間表。六月中便開始搬運裝修所需的工具和物品，並負責裝修室內的工作，七月中旬裝修完成。七月底展開逐家餐館、華人店舖並逐戶華人家庭探訪工作，並在街頭分派福音單張，邀請有心認識主的朋友到會所交談用餐，參加福音聚會。八月烏特勒生命堂留學生團契定期週末前來協助派發傳單及安排學生活動。海牙生命堂亦有弟兄姊妹前來帶領週六福音茶座。8月2日開始舉行了首次主日崇拜，跟著8月16日亦進行了第二次的崇拜，每次均有三十多人參加。八月初已有12位作決志禱告，接受主耶穌為救主。828是特別為留學生所舉辦的迎新生有獎才藝會，由小羊牧場團契負責，藉此接觸更多新留學生同學。8月29日下午2時監督楊牧師親臨主持啟堂禮、洗禮及孩童奉獻禮，並晚上分享生命更生講座「誰掌管明天？」。九月中旬將開始每主日崇拜及主日學。
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'groningen')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Yiu Cheung (mobile: 06 - 81 556 777)
+</p>
+<p>
+<b>Address: </b>Korreweg 37, 9714 AB Groningen, The Netherlands
+</p>
+<p>
+<b>Tel #: </b>0031-(0)50-571-8040 / 0031-(0)681-55-6777
+<p>
+<b>Email: </b>emsigroningen@gmail.com
+</p>
+<p>
+
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Korreweg+37,+9714+AB+Groningen,+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Korreweg+37,+9714+AB+Groningen,+Netherlands&amp;t=m&amp;z=14&amp;ll=53.227686,6.563361&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Korreweg+37,+9714+AB+Groningen,+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Korreweg+37,+9714+AB+Groningen,+Netherlands&amp;t=m&amp;z=14&amp;ll=53.227686,6.563361&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'groningen')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 張堯 傳道, 06-81-55-6777
+</p>
+<p>
+<b>地址: </b>Korreweg 37, 9714 AB Groningen, The Netherlands
+</p>
+<p>
+<b>電話:</b> 0031-(0)50-571-8040 / 0031-(0)681-55-6777
+</p>
+<p>
+<b>電郵: </b>emsigroningen@gmail.com
+</p>
+<p>
+
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Korreweg+37,+9714+AB+Groningen,+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Korreweg+37,+9714+AB+Groningen,+Netherlands&amp;t=m&amp;z=14&amp;ll=53.227686,6.563361&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Korreweg+37,+9714+AB+Groningen,+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Korreweg+37,+9714+AB+Groningen,+Netherlands&amp;t=m&amp;z=14&amp;ll=53.227686,6.563361&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'groningen')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+----------  ends Holland - Groningen
+	
+	
+	
+	
+	
+	
+	
 ---------------------starts Holland - Utrecht
 update church_content set body = STRINGDECODE('<style>
 .contact-content {
@@ -4787,7 +4977,7 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0031 - (0)164 78 58 22</td>
+			<td>0031-(0)164 78 58 22 / 0031-(0)629 55 17 72</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -4844,7 +5034,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td>0031 - (0)164 78 58 22</td>
+			<td>0031-(0)164 78 58 22 / 0031-(0)629 55 17 72</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -4877,14 +5067,13 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Rev. Kwok On Lam (Eric Lam)
+<b>Pastor: </b>Rev. Kwok On Lam (Eric Lam)
 </p>
 <p>
 <b>Address: </b>Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherlands
 </p>
 <p>
-<b>Tel #: </b>0031 - (0)164 78 58 22
-</p>
+<b>Tel #: </b>0031-(0)164 78 58 22 / 0031-(0)629 55 17 72
 <p>
 <b>Email: </b>ekolam@hotmail.com
 </p>
@@ -4899,19 +5088,19 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 林國安 牧師
+<b>牧師:</b> 林國安 牧師
 </p>
 <p>
 <b>地址: </b>Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherlands
 </p>
 <p>
-<b>電話:</b> 0031 - (0)164 78 58 22
+<b>電話:</b> 0031-(0)164 78 58 22 / 0031-(0)629 55 17 72
 </p>
 <p>
 <b>電郵: </b>ekolam@hotmail.com
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Rozenstraat+2&amp;ie=UTF8&amp;hq=&amp;hnear=Rozenstraat+2,+4613+AJ+Bergen+op+Zoom,+The+Netherlands&amp;z=14&amp;ll=51.502719,4.282703&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rozenstraat+2&amp;ie=UTF8&amp;hq=&amp;hnear=Rozenstraat+2,+4613+AJ+Bergen+op+Zoom,+The+Netherlands&amp;z=14&amp;ll=51.502719,4.282703&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Rozenstraat+2&amp;ie=UTF8&amp;hq=&amp;hnear=Rozenstraat+2,+4613+AJ+Bergen+op+Zoom,+The+Netherlands&amp;z=14&amp;ll=51.502719,4.282703&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'bergenopzoom')
 	and locale = 'zh'
