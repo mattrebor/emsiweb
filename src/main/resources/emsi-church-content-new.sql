@@ -6983,6 +6983,135 @@ update church_content set body = '<table border="1" cellpadding="5">
 ----------------  ends  Belgium - antwerpen
 
 	
+----------------  Belgium - Brussels
+
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>Sunday Service</td>
+			<td>Sunday</td>
+			<td>03:30 pm - 05:00 pm</td>
+		</tr>
+		<tr>
+			<td>Children’s Sunday School</td>
+			<td>Sunday</td>
+			<td>03:30 pm - 05:00 pm</td>
+		</tr>
+		<tr>
+			<td>Basic French Class for Adults</td>
+			<td>Wednesday</td>
+			<td>10:00 am - 11:30 am</td>
+		</tr>
+		<tr>
+			<td>Wednesday’s Worship Service (Cantonese)</td>
+			<td>1st Wednesday</td>
+			<td>02:30 pm - 04:00 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study (Mandarin)</td>
+			<td>2nd & 4th Wednesday</td>
+			<td>02:30 pm - 04:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Bible Study (Mandarin)</td>
+			<td>1st & 3rd Thursday</td>
+			<td>07:00 pm - 09:30 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'brussels')
+	and locale = 'en'
+	and page_id = 'schedule';	
+	
+	
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>主日崇拜</td>
+			<td>星期日</td>
+			<td>03:30 pm - 05:00 pm</td>
+		</tr>
+		<tr>
+			<td>兒童主日學</td>
+			<td>星期日</td>
+			<td>03:30 pm - 05:00 pm</td>
+		</tr>
+		<tr>
+			<td>成人法語初級班</td>
+			<td>星期三</td>
+			<td>10:00 am - 11:30 am</td>
+		</tr>
+		<tr>
+			<td>週三崇拜 (粵語)</td>
+			<td>每月第一個 星期三</td>
+			<td>02:30 pm - 04:00 pm</td>
+		</tr>
+		<tr>
+			<td>查經聚會 (國語)</td>
+			<td>每月第二、四個 星期三</td>
+			<td>02:30 pm - 04:00 pm</td>
+		</tr>
+		<tr>
+			<td>青年查經聚會 (國語)</td>
+			<td>每月第一、三個 星期四</td>
+			<td>07:00 pm - 09:30 pm</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'brussels')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+
+	
+	
+----------------  ends  Belgium - Brussels
+	
+	
+----------------  Belgium - Gent
+
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>Bible Study (Cantonese)</td>
+			<td>2nd & 4th Thursday</td>
+			<td>02:30 pm - 04:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'gent')
+	and locale = 'en'
+	and page_id = 'schedule';	
+	
+	
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>查經聚會 (粵語)</td>
+			<td>每月第二、四個 星期四</td>
+			<td>02:30 pm - 04:00 pm</td>
+		</tr>
+
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'gent')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+
+	
+----------------  ends  Belgium - Gent
+	
+	
+	
 ---------- Leuven , Belgium ---------
 INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(56, 'leuven', 1, 4, 0);               
 INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(56, 'en', 'menu_name', 'CEC in Leuven');             
@@ -7101,6 +7230,74 @@ p span.label {font-weight: bold;}
 <p>
 </p>
 </div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'schedule', 'en', 'CEC in Leuven - Church Services Schedule', 'Christian Evangelical Church in Leuven <br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'schedule', 'zh', '魯汶基督教生命堂  - 聚會日程','');          
+
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>Sunday Service</td>
+			<td>Sunday</td>
+			<td>09:30 am - 11:30 am</td>
+		</tr>
+		<tr>
+			<td>Children’s Sunday School</td>
+			<td>Sunday</td>
+			<td>09:30 am - 11:30 am</td>
+		</tr>
+		<tr>
+			<td>Adult Bible Study (Mandarin)</td>
+			<td>1st & 3rd Tuesday</td>
+			<td>11:00 am - 12:30 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Bible Study (Mandarin)</td>
+			<td>1st & 3rd Wednesday</td>
+			<td>06:30 pm - 09:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'leuven')
+	and locale = 'en'
+	and page_id = 'schedule';	
+	
+	
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>主日崇拜</td>
+			<td>星期日上午</td>
+			<td>09:30 am - 11:30 am</td>
+		</tr>
+		<tr>
+			<td>兒童主日學</td>
+			<td>星期日上午</td>
+			<td>09:30 am - 11:30 am</td>
+		</tr>
+		<tr>
+			<td>成人查經聚會 (國語)</td>
+			<td>每月第一、三個 星期二</td>
+			<td>11:00 am - 12:30 pm</td>
+		</tr>
+		<tr>
+			<td>青年查經聚會 (國語)</td>
+			<td>每月第一、三個 星期三</td>
+			<td>06:30 pm - 09:00 pm</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'leuven')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+
+
+
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'contactus', 'en', 'CEC in Leuven - Contact Us', 'Christian Evangelical Church in Leuven <br><br>');          
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'contactus', 'zh', '魯汶基督教生命堂  - 連絡我們','');          
