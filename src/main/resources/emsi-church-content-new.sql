@@ -2014,7 +2014,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 			<td class="label">電話:</td>
-			<td>0034-934-22-1133</td>
+			<td>0034-930-044-152</td>
 		</tr>
 		<tr>
 			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -2076,7 +2076,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0034-934-22-1133</td>
+			<td>0034-930-044-152</td>
 		</tr>
 		<tr>
 			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -2121,7 +2121,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Address: </b>Calle D&rsquo;Olzinelles 91 ,08014 ,Barcelona, Spain
 </p>
 <p>
-<b>Tel #: </b>0034-934-22-1133
+<b>Tel #: </b>0034-930-044-152
 </p>
 <p>
 <b>Email: </b>barcelonaemsi2015@hotmail.com
@@ -2146,7 +2146,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>Calle D&rsquo;Olzinelles 91 ,08014 ,Barcelona, Spain
 </p>
 <p>
-<b>電話: </b>0034-934-22-1133
+<b>電話: </b>0034-930-044-152
 </p>
 <p>
 <b>電郵: </b>barcelonaemsi2015@hotmail.com
