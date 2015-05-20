@@ -3271,6 +3271,10 @@ p span.label {font-weight: bold;}
 			<td class="label">Evangelist:</td>
 			<td>Ev. Zhang Qiong</td>
 		</tr>
+		<tr>
+			<td class="label">Intern Seminarian:</td>
+			<td>Yang, Xi 0081-090-6914-1321</td>
+		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -3327,6 +3331,10 @@ p span.label {font-weight: bold;}
 			<td class=\"label\">傳道:</td>
 			<td>張瓊 傳道</td>
 		</tr>
+		<tr>
+			<td class=\"label\">實習神學生:</td>
+			<td>楊熙 0081-090-6914-1321</td>
+		</tr>
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -3377,6 +3385,9 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Zhang Qiong
 </p>
 <p>
+<b>Intern Seminarian: </b>Yang, Xi 0081-090-6914-1321
+</p>
+<p>
 <b>Address: </b>神戶市中央區元町通 3-2-15ｾﾝﾄﾗﾙﾋﾞﾙ元町3F, Japan
 </p>
 <p>
@@ -3397,6 +3408,9 @@ update church_content set body = STRINGDECODE('<p>
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道:</b> 張瓊 傳道
+</p>
+<p>
+<b>實習神學生:</b> 楊熙 0081-090-6914-1321
 </p>
 <p>
 <b>地址: </b>日本神戶市中央區元町通 3-2-15ｾﾝﾄﾗﾙﾋﾞﾙ元町3F
