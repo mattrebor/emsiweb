@@ -4197,7 +4197,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Andy Chu, Ev. Ka Man Chu-Ng</td>
+			<td>Ev. Andy Chu</td>
 		</tr>
 	</tbody>
 </table>
@@ -4270,7 +4270,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>朱洪順 傳道, 朱吳嘉敏 傳道</td>
+			<td>朱洪順 傳道</td>
 		</tr>
 	</tbody>
 </table>
@@ -4332,7 +4332,7 @@ Veenendaal會址終於在2012年10月11日正式簽約, 於同年10年20日藉�
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Andy Chu, Ev. Ka Man Chu-Ng
+<b>Evangelist: </b>Ev. Andy Chu
 </p>
 <p>
 <b>Worship Address: </b>Zandstraat 36-38, 3901 CM, Veenendaal, The Netherlands
@@ -4357,7 +4357,7 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 朱洪順 傳道, 朱吳嘉敏 傳道
+<b>傳道:</b> 朱洪順 傳道
 </p>
 <p>
 <b>教會崇拜地址: </b>Zandstraat 36-38, 3901 CM, Veenendaal, The Netherlands
@@ -4603,10 +4603,6 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 			<td class="label">Evangelist:</td>
 			<td>Ev. Andy Chu</td>
 		</tr>
-		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Ka Man Chu-Ng</td>
-		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -4672,10 +4668,6 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\">傳道:</td>
 			<td>朱洪順 傳道</td>
-		</tr>
-		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>朱吳嘉敏 傳道</td>
 		</tr>
 	</tbody>
 </table>
@@ -7881,13 +7873,13 @@ update church_content set body = STRINGDECODE('<p>
 -----------------------end Oradell
 
 
----------- Brooklyn Mandarin - 8th Ave ---------
+---------- Brooklyn 7th ave - used to called Brooklyn Mandarin - 8th Ave ---------
 INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(55, 'brooklynmandarin', 1, 10, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(55, 'en', 'menu_name', 'ECMSI in Brooklyn - 8th Ave');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(55, 'zh', 'menu_name', '博客嶺基督教生命堂 ');            
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(55, 'en', 'menu_name', 'ECMSI in Brooklyn');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(55, 'zh', 'menu_name', '希伯崙基督教生命堂 ');            
 INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 55);          
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'intro', 'en', 'ECMSI in Brooklyn - 8th Ave - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'intro', 'en', 'ECMSI in Brooklyn  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
@@ -7900,7 +7892,11 @@ p span.label {font-weight: bold;}
 <tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor: </td>
-			<td>Rev. Hosea Chi</td>
+			<td>Rev. Hosea Chi 973-335-7337, ext. 219, (C) 973-960-8065</td>
+		</tr>
+		<tr>
+			<td class="label"></td>
+			<td>Mrs. Chialin Chi, (C) 973-932-3534</td>
 		</tr>
 
 </tbody>
@@ -7912,12 +7908,12 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 <td class="label">Address:</td>
-<td>809 44th Street, Brooklyn, NY 11220, USA</td>
+<td>6401 7th Ave., Brooklyn, NY 11220, USA</td>
 </tr>
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 <td class="label">Tel#:</td>
-<td> 973-960-8065 </td>
+<td> 646-979-0107 </td>
 </tr>
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -7943,7 +7939,7 @@ p span.label {font-weight: bold;}
 
 
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'intro', 'zh', '博客嶺基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'intro', 'zh', '希伯崙基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
@@ -7956,7 +7952,11 @@ p span.label {font-weight: bold;}
 <tbody class="borderless-table">
 		<tr>
 			<td class="label">牧師: </td>
-			<td>戚厚生 牧師</td>
+			<td>戚厚生牧師 973-335-7337, ext. 219, (手機) 973-960-8065</td>
+		</tr>
+		<tr>
+			<td class="label"></td>
+			<td>戚陳佳琳 師母, (手機) 973-932-3534</td>
 		</tr>
 </tbody>
 </table>
@@ -7968,12 +7968,12 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 <td class="label">地址:</td>
-<td>809 44th Street, Brooklyn, NY 11220</td>
+<td>6401 7th Ave., Brooklyn, NY 11220</td>
 </tr>
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 <td class="label">電話:</td>
-<td> 973-960-8065</td>
+<td> 646-979-0107</td>
 </tr>
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -7998,9 +7998,9 @@ p span.label {font-weight: bold;}
 </p>
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'contactus', 'en', 'ECMSI Brooklyn - 8th Ave - Contact Us', 'Christian Evangelical Church in Brooklyn Mandaring Service<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'contactus', 'zh', '博客嶺基督教生命堂  - 連絡我們','');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'schedule', 'en', 'ECMSI Brooklyn - 8th Ave - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'contactus', 'en', 'ECMSI in Brooklyn - Contact Us', 'Christian Evangelical Church in Brooklyn Mandaring Service<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'contactus', 'zh', '希伯崙基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'schedule', 'en', 'ECMSI in Brooklyn - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
 			<td>Sunday Worship</td>
@@ -8017,7 +8017,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 <p>&nbsp;</p>
 ');            
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'schedule', 'zh', '博客嶺基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'schedule', 'zh', '希伯崙基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
 			<td>主日崇拜 </td>
@@ -8036,19 +8036,21 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ');             
 
 
-update church set address='809 44th Street, Brooklyn, NY 11220, USA', latitude = 40.6443051, longitude = -73.9999322 where church_path = 'brooklynmandarin';
+update church set address='6401 7th Ave., Brooklyn, NY 11220, USA', latitude = 40.6343803, longitude = -74.0140939 where church_path = 'brooklynmandarin';
 
 update church_content set body = STRINGDECODE('<p>
-<b>Pastors </b>Rev. Hosea Chi</br>
+<b>Pastors </b>Rev. Hosea Chi 973-335-7337, ext. 219, (C) 973-960-8065</br>
 </p>
 <p>
-<b>Address: </b>809 44th Street, Brooklyn, NY 11220, USA</p>
+Mrs. Chialin Chi, (C) 973-932-3534</p>
 <p>
-<b>Tel #: </b>973-960-8065</p>
+<b>Address: </b>6401 7th Ave., Brooklyn, NY 11220, USA</p>
+<p>
+<b>Tel #: </b>646-979-0107</p>
 <p>
 <b>Email: </b></p>
 
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=809+44th+St,+Brooklyn,+NY+11220&sll=40.6443051,-73.9999322&sspn=0.0062521,0.0109864&hnear=809+44th+St,+Brooklyn,+New+York+11220&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=809+44th+St,+Brooklyn,+NY+11220&sll=40.6443051,-73.9999322&sspn=0.0062521,0.0109864&hnear=809+44th+St,+Brooklyn,+New+York+11220&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=6401+7th+Ave,+Brooklyn,+NY+11220&sll=40.6343803,-74.0140939&sspn=0.0062521,0.0109864&hnear=6401+7th+Ave,+Brooklyn,+NY+11220&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=6401+7th+Ave,+Brooklyn,+NY+11220&sll=40.6343803,-74.0140939&sspn=0.0062521,0.0109864&hnear=6401+7th+Ave,+Brooklyn,+NY+11220&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'brooklynmandarin')
 	and locale = 'en'
@@ -8058,18 +8060,20 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師: </b> 戚厚生 牧師<br />
 </p>
 <p>
-<b>地 址: </b>809 44th Street, Brooklyn, NY 11220, USA</p>
+戚陳佳琳 師母, (手機) 973-932-3534</p>
 <p>
-<b>電 話: </b>973-960-8065</p>
+<b>地 址: </b>6401 7th Ave., Brooklyn, NY 11220, USA</p>
+<p>
+<b>電 話: </b>646-979-0107</p>
 <p>
 <b>電 郵: </b></p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=809+44th+St,+Brooklyn,+NY+11220&sll=40.6443051,-73.9999322&sspn=0.0062521,0.0109864&hnear=809+44th+St,+Brooklyn,+New+York+11220&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=809+44th+St,+Brooklyn,+NY+11220&sll=40.6443051,-73.9999322&sspn=0.0062521,0.0109864&hnear=809+44th+St,+Brooklyn,+New+York+11220&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=6401+7th+Ave,+Brooklyn,+NY+11220&sll=40.6343803,-74.0140939&sspn=0.0062521,0.0109864&hnear=6401+7th+Ave,+Brooklyn,+NY+11220&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=6401+7th+Ave,+Brooklyn,+NY+11220&sll=40.6343803,-74.0140939&sspn=0.0062521,0.0109864&hnear=6401+7th+Ave,+Brooklyn,+NY+11220&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'brooklynmandarin')
 	and locale = 'zh'
 	and page_id = 'contactus';
 
------------------------end Brooklyn Mandarin
+-----------------------end Brooklyn 7th ave - used to be called Brooklyn Mandarin - 8th Ave
 	
 	
 	
