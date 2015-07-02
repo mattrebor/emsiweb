@@ -60,7 +60,7 @@
 		$('.carousel').carousel();
 	</script>
 
------------ What's up page ------------------------
+	<!--  What's up page  -->
 	<div class="row">
 		<div class="span11">
 			<div id="whatsup">
