@@ -48,7 +48,7 @@
 				<a href="${cemiUrl}"><img src="${banner_image_url4}"  width="870" height="330" alt="" /></a>
 				<div class="carousel-caption emsi-carousel-caption">
 					<!-- <h4>Place holder 2</h4> -->
-					<p>CEM is comprised of CEM America, CEM Europe, and CEM Africa. The primary mission is to establish churches, shepherd the flock, and to plant new churches. CEM has 10 churches in the eastern United States, 5 in the western United States, 4 in Belgium, 1 in France, 12 in the Netherlands, 4 in Portugal, 2 in Italy, 1 in Hungary, 3 in South Africa, 3 in Japan, 1 in Taipei Taiwan and 8 in Spain for a total of 54 churches.<br/><br/></p>
+					<p>CEM is comprised of CEM America, CEM Europe, and CEM Africa. The primary mission is to establish churches, shepherd the flock, and to plant new churches. CEM has 9 churches in the eastern United States, 5 in the western United States, 4 in Belgium, 1 in France, 12 in the Netherlands, 4 in Portugal, 2 in Italy, 1 in Hungary, 3 in South Africa, 3 in Japan, 1 in Taipei Taiwan and 8 in Spain for a total of 53 churches.<br/><br/></p>
 				</div>
 			</div>			
 		</div>
@@ -68,12 +68,11 @@
 					var="whats_up_image_url" />
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
 				
-				<ul>		
-					<li>3/1/15 CEMC Barcelona 10th Anniversary Celebration   <a href="${newsUrl}">Learn more &#9656;</a></li>
-					<li>12/23/14 ECMSI Brooklyn Mandarin Service Christmas Musical Night   <a href="${newsUrl}">Learn more &#9656;</a></li>
-					<li>10/18 -19 CEM in Holland 40th Anniversary Celebration  <a href="${newsUrl}">Learn more &#9656;</a></li>
-					<li>9/20-21  IEC San Jose Church Dedication <a href="${newsUrl}">Learn more &#9656;</a></li>
-			
+				<ul>
+					<li>6/7/15 One Year Anniversary Celebration of the CEMC Oradell  <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
+					<li>7/27/15 - 7/31/15 The Christian Evangelical Churches in the Netherlands will conduct a Teenage Summer Camp  <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
+					<li>8/17/15 - 8/20/15 The Christian Evangelical Mission in Spain will conduct its 8th Summer Family Retreat  <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
+					<li>8/24/15 - 8/28/15 The Christian Evangelical Churches in Portugal will have a joint Summer conference  <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
 				</ul>
 			</div>
 		</div>
