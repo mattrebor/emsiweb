@@ -3447,7 +3447,11 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Chao, Yong Ning, 0081-080311-88434</td>
+			<td>Chao, Yong Ning, 0081-080-3118-8434</td>
+		</tr>
+		<tr>
+			<td class="label">Intern Bible Studen:</td>
+			<td>Yang Xi, 0081-090-6914-1321</td>
 		</tr>
 	</tbody>
 </table>
@@ -3507,7 +3511,11 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>曹永寧 傳道, 0081-080311-88434</td>
+			<td>曹永寧 傳道, 0081-080-3118-8434</td>
+		</tr>
+		<tr>
+			<td class=\"label\">實習神學生:</td>
+			<td>楊熙, 0081-090-6914-1321</td>
 		</tr>
 	</tbody>
 </table>
@@ -3559,7 +3567,10 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Chao, Yong Ning, 0081-080311-88434
+<b>Evangelist: </b>Chao, Yong Ning, 0081-080-3118-8434
+</p>
+<p>
+<b>Intern Bible Student: </b>Yang Xi, 0081-090-6914-1321
 </p>
 <p>
 <b>Address: </b>Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan
@@ -3581,7 +3592,10 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b>曹永寧 傳道, 0081-080311-88434
+<b>傳道:</b>曹永寧 傳道, 0081-080-3118-8434
+</p>
+<p>
+<b>實習神學生:</b>楊熙, 0081-090-6914-1321
 </p>
 <p>
 <b>地址: </b>日本大阪市阿倍野區天王寺町北 1丁目2-2
@@ -7613,10 +7627,6 @@ p span.label {font-weight: bold;}
 			<td class="label">Pastors: </td>
 			<td>Ev. Sorina Yang, (H)973-331-0438</td>
 		</tr>
-		<tr>
-			<td class="label"></td>
-			<td>Rev. Hosea Chi,  (C)973-960-8065</td>
-		</tr>
 
 </tbody>
 </table>
@@ -7692,10 +7702,6 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label">牧者: </td>
 			<td>楊張秀蘭 傳道, (H)973-331-0438</td>
-		</tr>
-		<tr>
-			<td class=""></td>
-			<td>戚厚生 牧師, (C)973-960-8065</td>
 		</tr>
 </tbody>
 </table>
@@ -7840,8 +7846,8 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 update church set address='343 Kinderkamack Road, Oradell, NJ 07649 USA', latitude = 40.9521361, longitude = -74.0320762 where church_path = 'oradell';
 
 update church_content set body = STRINGDECODE('<p>
-<b>Pastors: </b>Ev. Sorina Yang, (H)973-331-0438</br>
-         Rev. Hosea Chi, (C)973-960-8065</p>
+<b>Pastors: </b>Ev. Sorina Yang, (H)973-331-0438
+</p>
 <p>
 <b>Address: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
 <p>
@@ -7856,8 +7862,8 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 	
 update church_content set body = STRINGDECODE('<p>
-<b>牧者: </b>楊張秀蘭 傳道, (H)973-331-0438<br />
-    戚厚生 牧師, (C)973-960-8065</p>
+<b>牧者: </b>楊張秀蘭 傳道, (H)973-331-0438
+</p>
 <p>
 <b>地 址: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
 <p>
@@ -8057,7 +8063,7 @@ Mrs. Chialin Chi, (C) 973-932-3534</p>
 	and page_id = 'contactus';
 	
 update church_content set body = STRINGDECODE('<p>
-<b>牧師: </b> 戚厚生 牧師<br />
+<b>牧師: </b> 戚厚生 牧師 973-335-7337, ext. 219, (手機) 973-960-8065<br />
 </p>
 <p>
 戚陳佳琳 師母, (手機) 973-932-3534</p>
@@ -8909,3 +8915,4 @@ update church_content set body = STRINGDECODE('<p>
 -----------------------end africa - wellington
 
 
+	
