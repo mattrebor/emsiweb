@@ -7900,10 +7900,6 @@ p span.label {font-weight: bold;}
 			<td class="label">Pastor: </td>
 			<td>Rev. Hosea Chi 973-335-7337, ext. 219, (C) 973-960-8065</td>
 		</tr>
-		<tr>
-			<td class="label"></td>
-			<td>Mrs. Chialin Chi, (C) 973-932-3534</td>
-		</tr>
 
 </tbody>
 </table>
@@ -7959,10 +7955,6 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label">牧師: </td>
 			<td>戚厚生牧師 973-335-7337, ext. 219, (手機) 973-960-8065</td>
-		</tr>
-		<tr>
-			<td class="label"></td>
-			<td>戚陳佳琳 師母, (手機) 973-932-3534</td>
 		</tr>
 </tbody>
 </table>
@@ -8044,12 +8036,14 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 update church set address='6401 7th Ave., Brooklyn, NY 11220, USA', latitude = 40.6343803, longitude = -74.0140939 where church_path = 'brooklynmandarin';
 
-update church_content set body = STRINGDECODE('<p>
+update church_content set body = STRINGDECODE('
+<style>
+.indentation {margin:20px;}
+</style>
+<p>
 <b>Pastors </b>Rev. Hosea Chi 973-335-7337, ext. 219, (C) 973-960-8065</br>
+<span id=indentation>Mrs. Chialin Chi, (C) 973-932-3534</span>
 </p>
-<p>
-Mrs. Chialin Chi, (C) 973-932-3534</p>
-<p>
 <b>Address: </b>6401 7th Ave., Brooklyn, NY 11220, USA</p>
 <p>
 <b>Tel #: </b>646-979-0107</p>
