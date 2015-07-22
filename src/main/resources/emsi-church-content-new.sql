@@ -8042,8 +8042,10 @@ update church_content set body = STRINGDECODE('
 </style>
 <p>
 <b>Pastors </b>Rev. Hosea Chi 973-335-7337, ext. 219, (C) 973-960-8065</br>
-<span id=indentation>Mrs. Chialin Chi, (C) 973-932-3534</span>
 </p>
+<p style="padding-left: 55px;">
+Mrs. Chialin Chi, (C) 973-932-3534</p>
+<p>
 <b>Address: </b>6401 7th Ave., Brooklyn, NY 11220, USA</p>
 <p>
 <b>Tel #: </b>646-979-0107</p>
@@ -8059,7 +8061,7 @@ update church_content set body = STRINGDECODE('
 update church_content set body = STRINGDECODE('<p>
 <b>牧師: </b> 戚厚生 牧師 973-335-7337, ext. 219, (手機) 973-960-8065<br />
 </p>
-<p>
+<p style="padding-left: 40px;">
 戚陳佳琳 師母, (手機) 973-932-3534</p>
 <p>
 <b>地 址: </b>6401 7th Ave., Brooklyn, NY 11220, USA</p>
