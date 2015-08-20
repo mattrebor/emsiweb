@@ -501,19 +501,19 @@ p span.label {font-weight: bold;}
 
 <img src="/emsi/files/murrayhill/murrayhill.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />
 <p>
-1984 - CEC in Murray Hill established 
+1984 - CEC in Berkeley Heights established 
 </p>
 <p>
-The CEC in Murray Hill is located in Berkeley Heights, New Jersey.  It is located thirty miles south of Towaco, the headquarter.  The church was established in 1984.  There were two big companies – Lucent and AT & T that were located near the church at that time.  There were many Chinese professionals employed in this area.  Because of the big population of Chinese here, Rev. Moses Yang saw the need of developing the ministry.  Through the assistance of Dr. James Huang, they were able to find a place and start the church.
+The CEC in Berkeley Heights is located in Berkeley Heights, New Jersey. It was originally CEC in Murray Hill as the church was located at Murray Hill when it was established. It is located thirty miles south of Towaco, the headquarter. The church was established in 1984. There were two big companies – Lucent and AT & T that were located near the church at that time. There were many Chinese professionals employed in this area. Because of the big population of Chinese here, Rev. Moses Yang saw the need of developing the ministry. Through the assistance of Dr. James Huang, they were able to find a place and start the church. The church has been pastured by more than ten pastors in the past years.
 </p>
 <p>
-The present condition of the church
+The condition of the church
 </p>
 <p>
-The church has been pastured by more than ten pastors in the past twenty eight years.  The previous pastors did not take hold of the “three precious areas in developing a church” – personal evangelism, Bible study and preaching, and so the church cannot grow successfully.  After Rev. Henry Yao left for the Philippines, the worship services were stopped.  The church’s co-workers did not see much progress in the church and suggested to close down the church, so as not to waste manpower and money.  But EMSI believed that there are many Chinese in this area and there’s the need for the gospel.  It was decided that the church should continue on.
+The previous pastors did not take hold of the “three precious areas in developing a church” – personal evangelism, Bible study and preaching, and so the church did not grow. After Rev. Henry Yao left for the Philippines, the worship services were stopped. The church’s co-workers did not see progress in the church and suggested to close down the church so as not to waste manpower and money. But EMSI believed that there are many Chinese in this area and there’s a need for the gospel. It was decided that the church should continue on.
 </p>
 <p>
-In August, 2012, EMSI sent Prof. Jing Huang to be responsible for the church ministries and continue to develop the church.  At the present, we saw some improvements.  Although the attendance is still not stable, yet we believe that the Lord will preserve the church that preaches the truth.  May this church bring blessings to the Chinese surrounding this area.
+In August, 2012, EMSI sent Prof. Jing Huang to be responsible for the church ministries and to develop the church. At the present, we witnessed improvements. Although the attendance is still not stable, we believe that the Lord will preserve a church that preaches the truth. May this church bring blessings to the Chinese in the surrounding area.
 </p>
 </div>
 '	where church_id = (select church_id from church where church_path = 'murrayhill')
@@ -570,13 +570,13 @@ p span.label {font-weight: bold;}
 <span class=\"label\">簡史: </span><br />
 <img hspace=\"5\" src=\"/emsi/files/murrayhill/murrayhill.jpg\" align=\"left\" height=\"255\" width=\"360\" />(一)1984年茉莉山生命堂成立</p>
 <p>
-茉莉山生命堂位於新澤西州的Berkeley Heights，在佈道會總部多華谷（Towaco）以南約30英里的地方，成立於1984年。當時Lucent 和 AT&T兩大公司在教會所在地附近，集聚了許多華人專業人士。因中國人甚多，總監督楊摩西牧師看到開展聖工的需要，於是在黃宇銘弟兄的協助下，找到了教會聚會的地方，成立了教會。
+伯特利生命堂位於新澤西州的Berkeley Heights（原名「茉莉山生命堂」，舊址在新澤西州的Murray Hill），在佈道會總部多華谷（Towaco）以南約30英里的地方，成立於1984年。當時Lucent 和 AT&T兩大公司在教會所在地附近，集聚了許多華人專業人士。因中國人甚多，總監督楊摩西牧師看到開展聖工的需要，於是在黃宇銘弟兄的協助下，找到了教會聚會的地方，成立了教會。
 </p>
 <p>
 (二)茉莉山生命堂現況
 </p>
 <p>
-教會二十八年來先後已由十餘位牧者傳道人牧養。早期傳道人因為沒有掌握「拓荒三寶」（即個人佈道、查經、講道）致使教會沒能很好地成長，及至姚亨利牧師回菲律賓以後，停止了聚會。教會同工因看到本教會聖工多年無進展，建議不如關閉，以免浪費財力人力。但佈道會總部考慮到當地中國人多，有福音的需要，於是決定將教會的福音工作繼續做下去。
+教會成立以來先後已由十餘位牧者傳道人牧養。早期傳道人因為沒有掌握「拓荒三寶」（即個人佈道、查經、講道）致使教會沒能很好地成長，及至姚亨利牧師回菲律賓以後，停止了聚會。教會同工因看到本教會聖工多年無進展，建議不如關閉，以免浪費財力人力。但佈道會總部考慮到當地中國人多，有福音的需要，於是決定將教會的福音工作繼續做下去。
 </p>
 <p>
 2012年八月派神學院的黃靜教授負責本教會的事工，重新拓荒。目前已看到略有起色。雖然聚會人數還很不穩定，但相信主必保守這個堅持真理的教會，使這教會成為周圍華人的祝福。
@@ -7665,8 +7665,13 @@ p span.label {font-weight: bold;}
 <b>Bible Study Classes Started</b>
 </p>
 <p>
-A couple of years ago, there was apparent shortage of space for all the ministries of the Pearl River church. At that time a sister serious with God’s Commission to spread the Gospel reminded us the need of Gospel message among Chinese in the Bergen County. So after prayers, we began looking for a church in the Bergen County. We looked at a few churches in the area, and started praying for a suitable church earnestly. We thank the Lord our God who led us to the Annunciation church in Oradell. They agreed for us to use their church. In December 2012 we put out posters. In January 2013 we began planning and inviting people to attend Bible Study classes.
-We started with two Bible study classes, one on Wednesdays at 7:45 pm for career people; one on Friday mornings at 11:00am for the believers who did not go to work during the day. We also started working among students. Through the Bible Study classes, we hope Lord bring Gospel into the hearts of Chinese people in Bergen, so that they will enjoy the salvation of our Lord Jesus with us.
+A couple of years ago, there was apparent shortage of space for all the ministries of the Pearl River church. At that time a sister serious with God’s Commission to spread the Gospel reminded us the need of Gospel message among Chinese in the Bergen County. So after prayers, we began looking for a church in the Bergen County. We looked at a few churches in the area, and started praying for a suitable church earnestly. We thank the Lord our God who led us to the Annunciation church in Oradell. They agreed for us to use their church. In December 2012 we put out posters. In January 2013 we began planning and inviting people to attend Bible Study classes. We started with two Bible study classes, one on Wednesdays at 7:45 pm for career people; one on Friday mornings at 11:00am for the believers who did not go to work during the day.  In the beginning attendees included brothers and sisters from Pearl River Church, as well as new friends from nearby areas.
+</p>
+<p>
+There are two universities, Chinese restaurants, New Jin Feng Chinese supermarket, as well as Chinese School in the vicinity of the Oradell Church. All these people are now targets to whom we can spread the Gospel. We also start to approach FDU students. Since Oradell Church has only Bible Study Class and no Sunday worship services, at this time we are bringing the students and friends to the Pearl River Church for Sunday worship service. We also help provide various services for these students such as applying and securing their student driver’s permits, etc. We thank the Lord that He moved a couple who devote their time and energy caring for these students to drive them around and provide other support activities.
+</p>
+<p>
+This is the beginning efforts to develop the CEM Church in Oradell, NJ. We need many more prayers, and even more willing brothers and sisters to enter the service in the Gospel field for our Lord. May the Lord stir up even more local brothers and sisters to be co-workers with us! May He use us to bring the Gospel into the hearts of the Chinese in Bergen County, enabling all of us to unite and enjoy the salvation of our Lord Jesus!
 </p>
 <p>
 Mt. 9:36-38
