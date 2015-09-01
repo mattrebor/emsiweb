@@ -33,9 +33,9 @@ update church set address='6656 Park Riviera Way, Sacramento, CA 95831, USA', la
 update church set address='1107 Budapest, Monori u.2-4. E12-12 Hungary', latitude = 47.4818745, longitude = 19.122065  where church_path = 'budapest';
 update church set address='Geograaf 13, Centerpoort-Nieuwgraaf, 6921 EW Duiven, The Netherlands', latitude = 51.9628456, longitude = 6.0057757 where church_path = 'amhem';
 update church set address='Zandstraat 103, 3905 EB Veenendaal, The Netherlands', latitude = 52.0287846, longitude = 5.5515824 where church_path = 'veenendaal';
-update church set address='Vrijheidsplein 1, 8924 JN Leeuwarden, The Netherlands', latitude = 53.2125302, longitude = 5.8147687 where church_path = 'leeuwarden';
+update church set address='De Hooidollen 8, 8918 HV Leeuwarden, The Netherlands', latitude = 53.2158923, longitude = 5.7914105 where church_path = 'leeuwarden';
 update church set address='Korreweg 37, 9714 AB Groningen, The Netherlands', latitude = 53.2277242, longitude = 6.5633512 where church_path = 'groningen';
-update church set address='Nieuwe Schoolweg 2, 7514 CG Enschede, The Netherlands', latitude = 52.2242389, longitude = 6.8980463 where church_path = 'enschede';
+update church set address='Floraparkstraat 155, 7531 XG Enschede, The Netherlands', latitude = 52.2316531, longitude = 6.9163489 where church_path = 'enschede';
 update church set address='Donarpad 9, 3072 Rotterdam, The Netherlands', latitude = 51.8981098, longitude = 4.4795884 where church_path = 'rotterdam';
 update church set address='Isingstraat 165A, 2522 JS The Hague, The Netherlands', latitude = 52.0614258, longitude = 4.3235395 where church_path = 'denhaag';
 update church set address='Marokkodreef 3, 3564 EV Utrecht, The Netherlands', latitude = 52.1215477, longitude = 5.1067358 where church_path = 'utrecht';
@@ -5426,7 +5426,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Worship Address:</td>
-			<td>Deurningerstraat 212 , 7522 CL Enschede, The Netherlands</td>
+			<td>Floraparkstraat 155, 7531 XG Enschede, The Netherlands</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
@@ -5486,7 +5486,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">教會崇拜地址:</td>
-			<td> Deurningerstraat 212 , 7522 CL Enschede, The Netherlands</td>
+			<td> Floraparkstraat 155, 7531 XG Enschede, The Netherlands</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
@@ -5530,7 +5530,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. Louis Chung
 </p>
 <p>
-<b>Worship Address: </b>Deurningerstraat 212 , 7522 CL Enschede, The Netherlands
+<b>Worship Address: </b>Floraparkstraat 155, 7531 XG Enschede, The Netherlands
 </p>
 <p>
 <b>Office Address: </b>Deurningerstraat 39A, 7514 BD Enschede , The Netherlands
@@ -5542,7 +5542,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Email: </b>emsienschede@gmail.com
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;t=m&amp;z=14&amp;ll=52.23197,6.888148&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;t=m&amp;z=14&amp;ll=52.23197,6.888148&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.6457756598124!2d6.916348899999999!3d52.231653099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b81417c452fdd3%3A0x640eb154c8711f99!2sFloraparkstraat+155%2C+7531+XG+Enschede%2C+Netherlands!5e0!3m2!1sen!2sus!4v1441137867217" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 </p>
 ')	where church_id = (select church_id from church where church_path = 'enschede')
@@ -5555,7 +5555,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師:</b> 鍾志勳 牧師
 </p>
 <p>
-<b>教會崇拜地址: </b>Deurningerstraat 212 , 7522 CL Enschede, The Netherlands
+<b>教會崇拜地址: </b>Floraparkstraat 155, 7531 XG Enschede, The Netherlands
 </p>
 <p>
 <b>辦公室地址: </b>Deurningerstraat 39A, 7514 BD Enschede , The Netherlands
@@ -5568,7 +5568,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;t=m&amp;z=14&amp;ll=52.23197,6.888148&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Deurningerstraat+212,+7522+CL+Enschede,+The+Netherlands&amp;t=m&amp;z=14&amp;ll=52.23197,6.888148&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.6457756598124!2d6.916348899999999!3d52.231653099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b81417c452fdd3%3A0x640eb154c8711f99!2sFloraparkstraat+155%2C+7531+XG+Enschede%2C+Netherlands!5e0!3m2!1sen!2sus!4v1441137867217" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'enschede')
 	and locale = 'zh'
