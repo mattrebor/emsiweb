@@ -4210,8 +4210,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Andy Chu</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Louis Chung</td>
 		</tr>
 	</tbody>
 </table>
@@ -4231,7 +4231,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>+31(0)318-76-9144 / +31(0)627-22-1338</td>
+			<td>+31(0)318-76-9144 / +31(0)650-65-2284</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -4283,8 +4283,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>朱洪順 傳道</td>
+			<td class=\"label\">牧師:</td>
+			<td>鍾志勳牧師</td>
 		</tr>
 	</tbody>
 </table>
@@ -4304,7 +4304,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> +31(0)318-76-9144 / +31(0)627-22-1338 </td>
+			<td> +31(0)318-76-9144 / +31(0)650-65-2284 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -4346,7 +4346,7 @@ Veenendaal會址終於在2012年10月11日正式簽約, 於同年10年20日藉�
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Andy Chu
+<b>Pastor: </b>Rev. Louis Chung
 </p>
 <p>
 <b>Worship Address: </b>Zandstraat 36-38, 3901 CM, Veenendaal, The Netherlands
@@ -4355,7 +4355,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Office Address: </b>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands
 </p>
 <p>
-<b>Tel #: </b>+31(0)318-76-9144 / +31(0)627-22-1338
+<b>Tel #: </b>+31(0)318-76-9144 / +31(0)650-65-2284
 </p>
 <p>
 <b>Email: </b>emsiveenendaal@gmail.com
@@ -4371,7 +4371,7 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 朱洪順 傳道
+<b>牧師:</b> 鍾志勳牧師
 </p>
 <p>
 <b>教會崇拜地址: </b>Zandstraat 36-38, 3901 CM, Veenendaal, The Netherlands
@@ -4380,7 +4380,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>辦公室地址: </b>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands
 </p>
 <p>
-<b>電話:</b> +31(0)318-76-9144 / +31(0)627-22-1338
+<b>電話:</b> +31(0)318-76-9144 / +31(0)650-65-2284
 </p>
 <p>
 <b>電郵: </b>emsiveenendaal@gmail.com
