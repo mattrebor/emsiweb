@@ -3144,7 +3144,7 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-	<p><span class="label">Established Date: </span>Sept 2015</p>
+	<p><span class="label">Established Date: </span>August 22, 2015</p>
 	<p>
 	</p>
 	<p>
@@ -3202,7 +3202,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: </span>2015 年 9 月 
+<span class=\"label\">成立日期: </span>2015年 8月 22日 
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -8194,12 +8194,16 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		<tr>
 			<td>Sunday Worship</td>
 			<td>Sunday</td>
-			<td>10:30 am</td>
+			<td>02:00 pm</td>
 		</tr>
 		<tr>
+			<td>Prayer Meeting</td>
+			<td>Thursday</td>
+			<td>07:00 pm</td>
+		</tr>		<tr>
 			<td>Bible Study</td>
-			<td>Tuesday</td>
-			<td>7:00 pm</td>
+			<td>Thursday</td>
+			<td>07:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -8210,13 +8214,18 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	<tbody>
 		<tr>
 			<td>主日崇拜 </td>
-			<td>星期日 上午</td>
-			<td>10:30 am</td>
+			<td>星期日 下午</td>
+			<td>02:00 pm</td>
+		</tr>
+		<tr>
+			<td>禱告會</td>
+			<td>星期四 晚</td>
+			<td>07:00 pm</td>
 		</tr>
 		<tr>
 			<td>查經班</td>
-			<td>星期二 晚</td>
-			<td>7:00 pm</td>
+			<td>星期四 晚</td>
+			<td>07:30 pm</td>
 		</tr>
 	</tbody>
 </table>
