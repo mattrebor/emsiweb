@@ -3145,10 +3145,9 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 	<p><span class="label">Established Date: </span>August 22, 2015</p>
-	<p>
+	<p>In July, 2015, Rev. Yue Ping Chen of Christian Evangelical Church in Lisbon went to the Azores Islands with thirty plus brothers and sisters for a missionary trip with a mission to spread the Gospel message to the local Chinese people. In the trip, Rev. Chen saw the need and the urgency to start a church in the islands. After more than one month’s planning, Rev. Chen went with twenty plus brothers and sisters in Lisbon to the Azores. At Azores, they visited the Chinese people in the island and invited them to our church inaugural service. There were seventy plus Chinese came to the service. Rev. Moses Yang, the Bishop of our Christian Evangelical Mission came and preached in the service.
 	</p>
-	<p>
-
+	<p>At 9:15 pm, Aug. 22, 2015, the beginning of Christian Evangelical Church in Azores was announced.
 	</p>
 
 </div>
@@ -3206,9 +3205,11 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<p>
+<p>七月時，里斯本基督教生命堂的陳岳平牧師帶著三十幾位弟兄姐妹前往亞速爾群島，做宣教之旅，為島上的華人同胞送去福音。
 </p>
-<p>
+<p>宣教之旅讓陳岳平牧師看到海島華人同胞的需要，知道在島上建立一間教會是必要的，為當務之急。經過一個多月的時間籌備，八月22日清早陳岳平牧師帶著二十多位弟兄姐妹從里斯本出發前往亞速爾群島，抵達後在島上針對華人同胞，一一探訪邀請，當晚將近七十多位華人朋友出席我們的成立典禮，來自美國基督教生命堂總監楊摩西牧師親臨證道。
+</p>
+<p>2015年八月22日9時15分，「葡萄牙亞速爾生命堂」宣告成立於葡萄牙亞速爾群島。
 </p>
 </div>');
 
@@ -3633,7 +3634,7 @@ p span.label {font-weight: bold;}
 			<td>Chao, Yong Ning, 0081-080-3118-8434</td>
 		</tr>
 		<tr>
-			<td class="label">Intern Bible Studen:</td>
+			<td class="label">Intern Bible Student:</td>
 			<td>Yang Xi, 0081-090-6914-1321</td>
 		</tr>
 	</tbody>
@@ -3665,7 +3666,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class="main-content">
 <p>
-<span class="label">Established Date: </span>October 18, 2010
+<span class="label">Established Date: </span>October 10, 2010
 </p>
 <p>
 <img src="/emsi/files/osaka_small[1].jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />Pastor Yang was burdened with Gospel outreach in Osaka in October 2009. We prayed earnestly for a church building. A rental property became our purchase target in in February 2010.
@@ -3728,7 +3729,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2011年 3月
+<span class=\"label\">成立日期: </span>2010 年 10 月 10 日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
