@@ -69,10 +69,10 @@
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
 				
 				<ul>
-					<li>6/7/15 One Year Anniversary Celebration of the CEMC Oradell  <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
 					<li>Christian Evangelical Mission Summer Conferences in Spain, Holland, and Portugal  <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
 					<li>8/22/15 Opening of the CEC Azores <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
 					<li>9/19/15 Thirty Year Anniversary Celebration of the IEC in San Diego and IEC in San Francisco  <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
+					<li>10/11/15 Fifteen Year Anniversary Celebration of the CEC in Paris  <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
 				</ul>
 			</div>
 		</div>

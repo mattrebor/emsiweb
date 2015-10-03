@@ -7613,7 +7613,7 @@ Rev. Yang asked the Lord for a sign that there would be at least 20 people in th
 CEM in Tokyo is in a residential area. The church had about 10 regular members in the beginning when we rented the place. There are many Chinese nearby. Through our prayers and everyone working together, God opens a door for us, and we have new people coming every week.</p>
 </div>
 ');    
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'intro', 'zh', '東京生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'intro', 'zh', '東京基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
@@ -7792,11 +7792,11 @@ update church set address='701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Ja
 
 ---------- Oradell ---------
 INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(53, 'oradell', 1, 9, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(53, 'en', 'menu_name', 'CEC in Oradell');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(53, 'en', 'menu_name', 'CEMC in Oradell');             
 INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(53, 'zh', 'menu_name', '俄備得基督教生命堂');            
 INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 53);          
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'intro', 'en', 'CEC in Oradell - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'intro', 'en', 'CEMC in Oradell - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
@@ -7957,9 +7957,9 @@ p span.label {font-weight: bold;}
 
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'en', 'CEC in Oradell - Contact Us', 'Christian Evangelical Church in Oradell<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'en', 'CEMC in Oradell - Contact Us', 'Christian Evangelical Church in Oradell<br><br>');          
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'zh', '俄備得 基督教生命堂 - 連絡我們','');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'schedule', 'en', 'CEC in Oradell - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'schedule', 'en', 'CEMC in Oradell - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
 			<td>New-life Fellowship</td>
@@ -8953,7 +8953,7 @@ p span.label {font-weight: bold;}
 
 
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'intro', 'zh', '衛靈盾 生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'intro', 'zh', '衛靈盾 基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
