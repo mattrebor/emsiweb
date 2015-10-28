@@ -176,7 +176,8 @@ p span.label {font-weight: bold;}
 <p>
 <span class=\"label\">簡史: </span><br />
 
-<img hspace="5" src="/emsi/images/Brooklyn Church small.JPG" align="left" height="255" width="360" />布路倫生命堂成立于2009年8月3日。生命堂總監督楊摩西牧師看見布路倫地區華人越來越多,因而開拓此間教會。
+<img hspace="5" src="/emsi/images/Brooklyn Church sma
+ll.JPG" align="left" height="255" width="360" />布路倫生命堂成立于2009年8月3日。生命堂總監督楊摩西牧師看見布路倫地區華人越來越多,因而開拓此間教會。
 </p>
 <p>
 目前除了每週崇拜聚會外，還有查經班。
@@ -8121,7 +8122,7 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">Established Date: </span>December 2014</p>
+<p><span class="label">Established Date: </span>December 23, 2014</p>
 <p>
 </p>
 <p>
@@ -8178,13 +8179,16 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: </span>2014 年 12 月 
+<span class=\"label\">成立日期: </span>2014 年 12 月 23日 
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<p>
 </p>
-<p>
+<p>2014年12月23日我們在八大道44街舉辦第一次福音佈道會，佈道會監督楊摩西牧師主持，當晚希伯崙基督教生命堂教會成立，指派戚厚生牧師夫婦牧養、及幾位中國城生命堂的弟兄姊妹協助教會事工；是日亦有弟兄姊妹被感動願意投入布祿崙八大道的華人福音事工。
+</p>
+<p>在尋找禮拜堂堂址時，我們也見到神的帶領。楊牧師從2008年參加以色列牧者考察團認識的許多傳道人的名片中，找到Bay Ridge Christian Center (灣脊區基督徒中心) 的電話，和他們連絡，很奇妙地，主帶領我們有信心、相信可以租借到該教會作為主日崇拜使用；感謝聖靈的帶領及應證，我們於五月第二個星期日，也就是母親節主日，開始在這裏的主日崇拜、及福音事工。
+</p>
+<p>八大道這一帶，有將近七萬的華人，來自福建福州、廣東台山等不同的城市、不同的省份，這些中國同胞都是我們廣大的禾場。雖然這地區已經有許多的華人教會，但仍缺乏聖經真理的教導。傳揚 主的福音是我們首要事工，真理的維護與扎根更是我們搶救靈魂、建立教會的要務。
 </p>
 </div>');
 
