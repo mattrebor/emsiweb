@@ -53,7 +53,7 @@ update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', lati
 update church set address='Calle León, 24, 28947 Fuenlabrada, Madrid, Spain', latitude = 40.2636947, longitude = -3.74496 where church_path = 'fuenlabrada';
 update church set address='Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal', latitude = 38.711997, longitude = -8.980867 where church_path = 'portoalto';
 update church set address='Rua Francisco Sanches 17, 1170-140 Lisbon, Portugal', latitude = 38.7306258, longitude = -9.1339151 where church_path = 'lisbon';
-update church set address='Rua Chã n°117, 4 Andar - Porto, Portugal', latitude = 41.144229, longitude = -8.609701 where church_path = 'porto';
+update church set address='Rua De Oliveira Monteiro 210, 4050-438 Porto, Portugal', latitude = 41.1579384, longitude = -8.6242964 where church_path = 'porto';
 update church set address='Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal', latitude = 41.334609, longitude = -8.722397 where church_path = 'mindelo';
 update church set address='73 Avenue de Verdun, 94200 Ivry-sur-Seine, France', latitude = 48.8135227, longitude = 2.3702061 where church_path = 'paris';
 update church set address='Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium', latitude = 51.219508, longitude = 4.417894 where church_path = 'antwerpen';
@@ -2780,7 +2780,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> Rua Chã n°117, 4 Andar - Porto, Portugal</td>
+			<td> Rua De Oliveira Monteiro 210, 4050-438 Porto, Portugal</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -2839,7 +2839,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> Rua Chã n°117, 4 Andar - Porto, Portugal</td>
+			<td> Rua De Oliveira Monteiro 210, 4050-438 Porto, Portugal</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -2886,13 +2886,14 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Address: </b>Rua Chã n°117, 4 Andar - Porto, Portugal
+<b>Address: </b>Rua De Oliveira Monteiro  210, 4050-438 Porto, Portugal
 </p>
 <p>
 <b>Tel #: </b> (cell) 351-965-333-777
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Ch%C3%A3+117,+4+Andar+-+Porto,+Portugal&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Ch%C3%A3+117,+Porto,+Portugal&amp;gl=us&amp;t=m&amp;z=14&amp;ll=41.144229,-8.609701&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Rua+Ch%C3%A3+117,+4+Andar+-+Porto,+Portugal&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Ch%C3%A3+117,+Porto,+Portugal&amp;gl=us&amp;t=m&amp;z=14&amp;ll=41.144229,-8.609701&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.9272675451143!2d-8.62429638458132!3d41.15793837928595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24650750e45fa5%3A0x50ae7581c1000b04!2sRua+de+Oliveira+Monteiro+210%2C+4050-438+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1446596566622" width="600" height="480" frameborder="0" style="border:0" allowfullscreen></iframe><br /><small><a href="https://www.google.com/maps/place/Rua+de+Oliveira+Monteiro+210,+4050-438+Porto,+Portugal/@41.1579384,-8.6242964,17z/data=!3m1!4b1!4m2!3m1!1s0xd24650750e45fa5:0x50ae7581c1000b04">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'porto')
 	and locale = 'en'
@@ -2902,19 +2903,42 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>地址: </b>Rua Chã n°117, 4 Andar - Porto, Portugal
+<b>地址: </b>Rua De Oliveira Monteiro 210, 4050-438 Porto, Portugal
 </p>
 <p>
 <b>電話:</b>  (手機) 351-965-333-777 
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Ch%C3%A3+117,+4+Andar+-+Porto,+Portugal&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Ch%C3%A3+117,+Porto,+Portugal&amp;gl=us&amp;t=m&amp;z=14&amp;ll=41.144229,-8.609701&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Rua+Ch%C3%A3+117,+4+Andar+-+Porto,+Portugal&amp;ie=UTF8&amp;hq=&amp;hnear=Rua+Ch%C3%A3+117,+Porto,+Portugal&amp;gl=us&amp;t=m&amp;z=14&amp;ll=41.144229,-8.609701&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.9272675451143!2d-8.62429638458132!3d41.15793837928595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24650750e45fa5%3A0x50ae7581c1000b04!2sRua+de+Oliveira+Monteiro+210%2C+4050-438+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1446596566622" width="600" height="480" frameborder="0" style="border:0" allowfullscreen></iframe><br /><small><a href="https://www.google.com/maps/place/Rua+de+Oliveira+Monteiro+210,+4050-438+Porto,+Portugal/@41.1579384,-8.6242964,17z/data=!3m1!4b1!4m2!3m1!1s0xd24650750e45fa5:0x50ae7581c1000b04">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'porto')
 	and locale = 'zh'
 	and page_id = 'contactus';
 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(37, 'schedule', 'en', 'CEC in Porto - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Worship Service</td>
+			<td>Tuesday 8:30 pm – 10:30 pm</td>
+		</tr>
+	</tbody>
+</table>
 
+<p>&nbsp;</p>
+');            
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(37, 'schedule', 'zh', '波爾圖基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>崇拜 </td>
+			<td>星期二 晚上 8:30 pm – 10:30 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');             
+
+	
 ----------------- end Portugal - porto
 
 -----------------starts Portugal - Mindelo
@@ -3216,7 +3240,7 @@ p span.label {font-weight: bold;}
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'contactus', 'en', 'CEC in Azores - Contact Us', 'Christian Evangelical Church in Azores<br><br>');          
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'contactus', 'zh', '亞速爾基督教生命堂  - 連絡我們','');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'schedule', 'en', 'CED in Azores - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'schedule', 'en', 'CEC in Azores - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
 			<td>Sunday Worship</td>
@@ -8123,10 +8147,11 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p><span class="label">Established Date: </span>December 23, 2014</p>
-<p>
+<p>We held our first evangelical meeting at the intersection of 44th St. near 8th Av. on Dec. 23, 2014. Rev. Moses Yang, the Bishop of Christian Evangelical Mission presided over the meeting. The Evangelical Church, Mission & Seminary International in Brooklyn was established that day. Rev. Hosea Chi was appointed the minister of the church and several brothers and sisters from our sister church in Chinatown were assigned to serve in this new church. A few brothers and sisters were moved to volunteer themselves in this evangelical outreach work at the 8th Avenue in Brooklyn.
 </p>
-<p>
-
+<p>In searching for a church location, we saw the leading of our Lord. In God’s miraculous leading, Rev. Moses Yang located the phone number of the Bay Ridge Christian Center from the name cards of the pastor he met in the Israel tour in 2008 and contacted them. We had faith that they would lease their church building to us for Sunday worship, and they did. On Mother’s day, May 10th, 2015, we held our first Sunday worship there.
+</p>
+<p>There are over seventy thousands Chinese near the 8th Ave. area in Brooklyn. They came from Fuzhou, Taishan and different cities and provinces in China. The field is wide, and is ready to be harvested. Our mission is to preach Gospel to the lost; and to teach and to guard the truth for the believers so to build up the church.
 </p>
 
 </div>
