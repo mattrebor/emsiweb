@@ -5437,6 +5437,7 @@ In 2005 September, Evangelist Li Suxin became ill and went to China for treatmen
 	and locale = 'en'
 	and page_id = 'intro';
 	
+	
 ---------begins Gran Canaria
 
 update church_content set body = '<style>
