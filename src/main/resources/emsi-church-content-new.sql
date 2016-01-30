@@ -5458,7 +5458,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class="label">Contact:</td>
-			<td>方金欢姊妹, 34-928-761-704</td>
+			<td>Bao Ying Ye, 34-656-431-694</td>
 		</tr>
 	</tbody>
 
@@ -5469,12 +5469,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>C/.Menceyes 36，35110 Las Palmas, de Gran Canaria, Spain</td>
+			<td>C/.Menceyes 36, 35110 Las Palmas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>34-620-630-901 , 34-928-761-704</td>
+			<td>34-620-630-901 , 34-656-431-694</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
@@ -5524,7 +5524,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\">聯絡人:</td>
-			<td>方金欢姊妹, 34-928-761-704</td>
+			<td>葉寶英姊妹, 34-656-431-694</td>
 		</tr>
 	</tbody>
 </table>
@@ -5534,12 +5534,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> C/.Menceyes 36，35110 Las Palmas, de Gran Canaria, Spain</td>
+			<td> C/.Menceyes 36, 35110 Las Palmas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 34-620-630-901 , 34-928-761-704 </td>
+			<td> 34-620-630-901 , 34-656-431-694 </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -5580,13 +5580,13 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. Guo Dan Jiang, 34-620-630-901
 </p>
 <p>
-<b>Contact: </b>方金欢姊妹, 34-928-761-704
+<b>Contact: </b>Bao Ying Ye, 34-656-431-694
 </p>
 <p>
-<b>Address: </b>C/.Menceyes 36，35110 Las Palmas, de Gran Canaria, Spain
+<b>Address: </b>C/.Menceyes 36, 35110 Las Palmas, de Gran Canaria, Spain
 </p>
 <p>
-<b>Tel #: </b>34-620-630-901 , 34-928-761-704
+<b>Tel #: </b>34-620-630-901 , 34-656-431-694
 </p>
 <p>
 <b>Fax #: </b>34-91-459-5844
@@ -5608,13 +5608,13 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師:</b> 蔣國淡 牧師, 34-620-630-901
 </p>
 <p>
-<b>聯絡人:</b> 方金欢 姊妹, 34-928-761-704
+<b>聯絡人:</b> 葉寶英 姊妹, 34-656-431-694
 </p>
 <p>
-<b>地址: </b>C/.Menceyes 36，35110 Las Palmas, de Gran Canaria, Spain
+<b>地址: </b>C/.Menceyes 36, 35110 Las Palmas, de Gran Canaria, Spain
 </p>
 <p>
-<b>電話:</b> 34-620-630-901 , 34-928-761-704
+<b>電話:</b> 34-620-630-901 , 34-656-431-694
 </p>
 <p>
 <b>傳真:</b> 34-91-459-5844
