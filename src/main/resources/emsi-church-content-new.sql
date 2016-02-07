@@ -50,7 +50,7 @@ update church set address='C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spai
 update church set address='C/.Menceyes 36，35110 Las Palmas, de Gran Canaria, Spain', latitude = 27.850315, longitude = -15.447372 where church_path = 'canaria';
 update church set address='Calle Alguacil, 8, 28038 Madrid, Spain', latitude = 40.3960213, longitude = -3.6630519 where church_path = 'southmadrid';
 update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', latitude = 41.3709592, longitude = 2.1374551 where church_path = 'barcelona';
-update church set address='Calle León, 24, 28947 Fuenlabrada, Madrid, Spain', latitude = 40.2636947, longitude = -3.74496 where church_path = 'fuenlabrada';
+update church set address='Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain', latitude = 40.2636947, longitude = -3.74496 where church_path = 'fuenlabrada';
 update church set address='Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal', latitude = 38.711997, longitude = -8.980867 where church_path = 'portoalto';
 update church set address='Rua Francisco Sanches 17, 1170-140 Lisbon, Portugal', latitude = 38.7306258, longitude = -9.1339151 where church_path = 'lisbon';
 update church set address='Rua De Oliveira Monteiro 210, 4050-438 Porto, Portugal', latitude = 41.1579384, longitude = -8.6242964 where church_path = 'porto';
@@ -1355,7 +1355,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img src="/emsi/images/icon_googlemap.gif" width="16" height="16" /></td>
 <td class="label">Address:</td>
-<td>C/Leon 24, 28947 Fuenlabrada Madrid, Spain</td>
+<td>Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain</td>
 </tr>
 <tr>
 <td class="label"><img src="/emsi/images/icon_phone.gif" width="16" height="16" /></td>
@@ -1419,7 +1419,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 <td class="label">地址:</td>
-<td> C/Leon 24, 28947 Fuenlabrada Madrid, Spain </td>
+<td> Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain </td>
 </tr>
 <tr>
 <td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -1473,7 +1473,7 @@ update church_content set body = STRINGDECODE('
 <b>Evangelist: </b>Ev. Zhi Chuan Li, 34-622-526-181
 </p>
 <p>
-<b>Address: </b>C/Leon 24, 28947 Fuenlabrada, Madrid, Spain
+<b>Address: </b>Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain
 </p>
 <p>
 <b>Tel #: </b>34-910-160-197
@@ -1485,8 +1485,7 @@ update church_content set body = STRINGDECODE('
 <b>Email: </b>guodanj@yahoo.es
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;t=m&amp;z=14&amp;ll=40.263727,-3.744919&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;t=m&amp;z=14&amp;ll=40.263727,-3.744919&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
-</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3044.5016362406564!2d-3.7553224846087114!3d40.264605679383074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418aa348f66465%3A0xea8186b3640cf22a!2sCalle+Matarrosa%2C+30%2C+28947+Fuenlabrada%2C+Madrid%2C+Spain!5e0!3m2!1sen!2sus!4v1454817807190" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
 ')	where church_id = (select church_id from church where church_path = 'fuenlabrada')
 	and locale = 'en'
 	and page_id = 'contactus';
@@ -1500,7 +1499,7 @@ update church_content set body = STRINGDECODE('
 <b>傳道: </b>李志川 傳道, 34-622-526-181
 </p>
 <p>
-<b>地址: </b>C/Leon 24, 28947 Fuenlabrada Madrid, Spain
+<b>地址: </b>Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain
 </p>
 <p>
 <b>電話: </b>34-910-160-197
@@ -1512,7 +1511,7 @@ update church_content set body = STRINGDECODE('
 <b>電郵: </b>guodanj@yahoo.es
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;t=m&amp;z=14&amp;ll=40.263727,-3.744919&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Le%C3%B3n,+24,+28947+Fuenlabrada,+Madrid,+Spain&amp;t=m&amp;z=14&amp;ll=40.263727,-3.744919&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3044.5016362406564!2d-3.7553224846087114!3d40.264605679383074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418aa348f66465%3A0xea8186b3640cf22a!2sCalle+Matarrosa%2C+30%2C+28947+Fuenlabrada%2C+Madrid%2C+Spain!5e0!3m2!1sen!2sus!4v1454817807190" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'fuenlabrada')
 	and locale = 'zh'
