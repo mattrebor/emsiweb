@@ -50,7 +50,7 @@ update church set address='C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spai
 update church set address='C/.Menceyes 36，35110 Las Palmas, de Gran Canaria, Spain', latitude = 27.850315, longitude = -15.447372 where church_path = 'canaria';
 update church set address='Calle Alguacil, 8, 28038 Madrid, Spain', latitude = 40.3960213, longitude = -3.6630519 where church_path = 'southmadrid';
 update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', latitude = 41.3709592, longitude = 2.1374551 where church_path = 'barcelona';
-update church set address='Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain', latitude = 40.2636947, longitude = -3.74496 where church_path = 'fuenlabrada';
+update church set address='Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain', latitude = 40.2646057, longitude = -3.7542281 where church_path = 'fuenlabrada';
 update church set address='Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal', latitude = 38.711997, longitude = -8.980867 where church_path = 'portoalto';
 update church set address='Rua Francisco Sanches 17, 1170-140 Lisbon, Portugal', latitude = 38.7306258, longitude = -9.1339151 where church_path = 'lisbon';
 update church set address='Rua De Oliveira Monteiro 210, 4050-438 Porto, Portugal', latitude = 41.1579384, longitude = -8.6242964 where church_path = 'porto';
