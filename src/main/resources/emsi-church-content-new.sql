@@ -3169,9 +3169,24 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 	<p><span class="label">Established Date: </span>August 22, 2015</p>
-	<p>In July, 2015, Rev. Yue Ping Chen of Christian Evangelical Church in Lisbon went to the Azores Islands with thirty plus brothers and sisters for a missionary trip with a mission to spread the Gospel message to the local Chinese people. In the trip, Rev. Chen saw the need and the urgency to start a church in the islands. After more than one month’s planning, Rev. Chen went with twenty plus brothers and sisters in Lisbon to the Azores. At Azores, they visited the Chinese people in the island and invited them to our church inaugural service. There were seventy plus Chinese came to the service. Rev. Moses Yang, the Bishop of our Christian Evangelical Mission came and preached in the service.
+	<p>In May 2015, I received a phone call from Brother Jianfeng Ji. After Mr. Ji had witnessed to one of his customer for a long time, he was ready to accept Jesus Christ as his Savior. We made an appointment at 12 am Thursday evening during our restaurant Bible Study hour to speak to him on the phone and lead him to Christ. 
 	</p>
-	<p>At 9:15 pm, Aug. 22, 2015, the beginning of Christian Evangelical Church in Azores was announced.
+	<p>On Thursday night at 12 am, we called him. I thank God that our friend answered the phone and accepted Jesus Christ as his Savior. When I put down the phone, I told Jianfeng that: we thank the Lord that his friend believes in Jesus. It is too bad he lives so far away from us, a solid three hours by plane. A new believer will be very lonely without church life. Let us pray for him and ask the Holy Spirit to help him. Later I heard from Jianfeng that the brother who just believed in the Lord called him to share with him that since he believed in Jesus, he does not know why he was so joyful, and this joy he never had.  I was very grateful for him!
+	</p>
+	<p>Soon it was Thursday Bible Study again. Jianfeng shared with us the testimony of that brother. It occurred to me to visit this brother. I told brothers and sisters in the Bible Study class that I was struck with the beauty of this island a few years back when I went with the Brother Fellowship to this island. We may plan a missionary trip to the island this year. It will serve as a vacation; a missionary trip; and visitation to this brother as well. May be through this short-term missionary trip God will establish a church in this island.  I thank the Lord that people agreed with me totally when I shared my thought with them. We then began to pray and plan our "Missionary trip to the island" in July.
+	</p>
+	<p>From the beginning of June we prayed, planned and started preparation for our trip. We decided to hold a four days three nights musical evangelical trip in the island from July 14 to 17. We prepared gospel leaflets, posters; we rented a site. Through the power of the Holy Spirit, a group of thirty-two of us went to the Islands of Azores on July 14th.
+	</p>
+	<p>We arrived at the island the same day. After we checked in the hotel, some of us went for visitation in seven groups; the rest of the brothers and sisters set up the site, installed audio and video equipment etc.
+	</p>
+	<p>At nine o&#39;clock that evening, our musical evangelistic meeting started. We were very grateful for the number of people that came. We expected twenty-plus people to show up. Instead we had more than sixty local Chinese turning out. Among them twenty-plus were Christians. A few accepted Jesus Christ as their Lord that evening. All of us were exhilarated at the fruit of our labor. People were reluctant to leave afterwards. I asked them: “Will you come if we are going to hold meetings here again?” They replied that they will.  We invited a few actively involved brothers and sisters to stay and exchanged ideas. We thank our Lord that the thought to start a church at Azores was born that evening. We thank 
+the Lord that under the leading of our Almighty God the Azores Musical Evangelistic mission trip came to a satisfying end!
+	</p>
+	<p>I immediately reported the result of our mission trip to our bishop at CEM headquarter, Rev. Moses Yang that evening. I also reported to him our desire to start a CEC church in Azores. God’s timing is the best. It happened that Rev. Moses Yang was coming to speak in our CEM Portugal Summer Conference in Aug. 24 -28, 2015. So we decided to establish the CEC in Azores on August 22.
+	</p>
+	<p>On August 22, a group of eighteen of us went with Rev. Yang to the island again. Five brothers and sisters were baptized that day, including brother Chuanjian Chen who decided to accept Jesus Christ as Savior on that Thursday midnight.
+	</p>
+	<p>I thank God, the Christian Evangelical Church in Azores was established on August 22, 2015 under the guiding and blessing of the Holy Spirit and the witness of brothers and sisters. Through this church, may God lead many other Chinese in Azores to come to know Jesus Christ, and to enter into His kingdom.
 	</p>
 
 </div>
