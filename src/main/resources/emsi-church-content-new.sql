@@ -980,9 +980,6 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 			<td class="label" rowspan="2" valign="top">Resident Evangelists:</td>
 			<td>Ev. Martin Ding</td>
 		</tr>
-		<tr>
-			<td>Ev. Edwidge Chung</td>
-		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -1045,7 +1042,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\">駐堂傳道:</td>
-			<td>丁業新 傳道, 方敏華 傳道</td>
+			<td>丁業新 傳道</td>
 		</tr>
 	</tbody>
 </table>
@@ -3158,7 +3155,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td><a href=\"mailto: emsiacores@hotmail.com"> emsiacores@hotmail.com</a></td>			
+				<td><a href=\"mailto: emsiazores@hotmail.com"> emsiazores@hotmail.com</a></td>			
 			</tr>
 		</tbody>
 	</table>
@@ -3169,7 +3166,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 	<p><span class="label">Established Date: </span>August 22, 2015</p>
-	<p>In May 2015, I received a phone call from Brother Jianfeng Ji. After Mr. Ji had witnessed to one of his customer for a long time, he was ready to accept Jesus Christ as his Savior. We made an appointment at 12 am Thursday evening during our restaurant Bible Study hour to speak to him on the phone and lead him to Christ. 
+	<p><img hspace="5" src="/emsi/images/church_azores2015.jpg" align="left" height="255" width="360" />In May 2015, I received a phone call from Brother Jianfeng Ji. After Mr. Ji had witnessed to one of his customer for a long time, he was ready to accept Jesus Christ as his Savior. We made an appointment at 12 am Thursday evening during our restaurant Bible Study hour to speak to him on the phone and lead him to Christ. 
 	</p>
 	<p>On Thursday night at 12 am, we called him. I thank God that our friend answered the phone and accepted Jesus Christ as his Savior. When I put down the phone, I told Jianfeng that: we thank the Lord that his friend believes in Jesus. It is too bad he lives so far away from us, a solid three hours by plane. A new believer will be very lonely without church life. Let us pray for him and ask the Holy Spirit to help him. Later I heard from Jianfeng that the brother who just believed in the Lord called him to share with him that since he believed in Jesus, he does not know why he was so joyful, and this joy he never had.  I was very grateful for him!
 	</p>
@@ -3187,6 +3184,12 @@ the Lord that under the leading of our Almighty God the Azores Musical Evangelis
 	<p>On August 22, a group of eighteen of us went with Rev. Yang to the island again. Five brothers and sisters were baptized that day, including brother Chuanjian Chen who decided to accept Jesus Christ as Savior on that Thursday midnight.
 	</p>
 	<p>I thank God, the Christian Evangelical Church in Azores was established on August 22, 2015 under the guiding and blessing of the Holy Spirit and the witness of brothers and sisters. Through this church, may God lead many other Chinese in Azores to come to know Jesus Christ, and to enter into His kingdom.
+	</p>
+	<p>
+	<u>Musical Evangelical tour in Azores</u>
+	</p>
+	<p>
+	In May 2015, Rev. Yue Ping Chen in Portugal led a person living in Azores to the Lord. The gospel needs in Azores touched Rev. Chen. He and brothers and sisters prayed for the need in Azores and started preparation. On July 14, a group of thirty-two of them went to the islands for a four days and three nights musical evangelical tour. That evening, they held a musical evangelical meeting in Azores. More than sixty people attended the meeting and a few accepted the Lord. The evangelical work thus started.
 	</p>
 
 </div>
@@ -3229,7 +3232,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td><a href=\"mailto: emsiacores@hotmail.com"> emsiacores@hotmail.com</a></td>			
+				<td><a href=\"mailto: emsiazores@hotmail.com"> emsiazores@hotmail.com</a></td>			
 			</tr>
 		</tbody>
 	</table>
@@ -3245,7 +3248,7 @@ p span.label {font-weight: bold;}
 <p>
 <span class=\"label\">簡史: </span><br />
 <p>
-2015年五月，我接到教會裡季建峰弟兄的電話，他告訴我，他跟一位客戶傳了很長時間的福音，對方終於答應要信耶穌了，所以約好在那個週四晚上12點我們餐館查經班時，請我在電話中帶他做決志禱告。
+<img hspace="5" src="/emsi/images/church_azores2015.jpg" align="left" height="255" width="360" />2015年五月，我接到教會裡季建峰弟兄的電話，他告訴我，他跟一位客戶傳了很長時間的福音，對方終於答應要信耶穌了，所以約好在那個週四晚上12點我們餐館查經班時，請我在電話中帶他做決志禱告。
 </p>
 <p>
 週四晚12點時，我們準時打電話給對方。感謝主，這位朋友接了電話，也跟我做了決志禱告。放下電話，我跟建峰說：「感謝主，你的這位朋友真的信耶穌了，可惜他住的地方離我們很遠，坐飛機也要三個小時，剛信主沒有教會的生活很孤單的，我們為他禱告吧，求聖靈幫助他。」後來聽建峰說，隔天那位信主的弟兄打電話跟他分享：「自從信了耶穌後，不知道為什麼一直很喜樂，而且這種喜樂是他從來沒有過的。」我心中很替他感恩！
@@ -3271,6 +3274,13 @@ p span.label {font-weight: bold;}
 <p>
 感謝上帝，亞速爾基督教生命堂在聖靈帶領賜福，及弟兄姐妹的見證下，於2015年八月22日正式成立。願上帝藉著此堂會的成立，讓更多亞速爾海島的華人有機會認識基督耶穌偉大的救恩，並使多人歸入祂的國度。
 </p>
+<p>
+<u>2015亞速爾海島宣教旅行</u>
+</p>
+<p>
+2015年五月，葡萄牙陳岳平 牧師帶領一位住在亞速爾海島的弟兄信主，因而想到亞速爾海島的福音需要。是年六月與弟兄姐妹一起禱告，開始準備，七月14日一行三十二人在海島有四天三夜的音樂佈道旅行；第一天晚上音樂佈道會有六十多人參加，有數人決志信耶穌，亞速爾海島的福音工作從此展開。
+</p>
+
 </div>');
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'contactus', 'en', 'CEC in Azores - Contact Us', 'Christian Evangelical Church in Azores<br><br>');          
@@ -3312,7 +3322,7 @@ update church_content set body = STRINGDECODE('
 <p>
 <b>Tel #: </b> (cell) 351-963-333-777</p>
 <p>
-<b>Email: </b> emsiacores@hotmail.com</p>
+<b>Email: </b> emsiazores@hotmail.com</p>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.0368632807786!2d-25.663230600000016!3d37.742279400000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb432acaaea24f5f%3A0x56f24e3346ed13f6!2sR.+do+Mercado+50%2C+9500+Ponta+Delgada%2C+Portugal!5e0!3m2!1sen!2sus!4v1441251420358" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
@@ -3325,7 +3335,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>電 話: </b>(手機) 351-963-333-777</p>
 <p>
-<b>電 郵: </b>emsiacores@hotmail.com</p>
+<b>電 郵: </b>emsiazores@hotmail.com</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.0368632807786!2d-25.663230600000016!3d37.742279400000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb432acaaea24f5f%3A0x56f24e3346ed13f6!2sR.+do+Mercado+50%2C+9500+Ponta+Delgada%2C+Portugal!5e0!3m2!1sen!2sus!4v1441251420358" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'azores')
