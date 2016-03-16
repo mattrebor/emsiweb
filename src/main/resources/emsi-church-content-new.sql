@@ -3185,12 +3185,6 @@ the Lord that under the leading of our Almighty God the Azores Musical Evangelis
 	</p>
 	<p>I thank God, the Christian Evangelical Church in Azores was established on August 22, 2015 under the guiding and blessing of the Holy Spirit and the witness of brothers and sisters. Through this church, may God lead many other Chinese in Azores to come to know Jesus Christ, and to enter into His kingdom.
 	</p>
-	<p>
-	<u>Musical Evangelical tour in Azores</u>
-	</p>
-	<p>
-	In May 2015, Rev. Yue Ping Chen in Portugal led a person living in Azores to the Lord. The gospel needs in Azores touched Rev. Chen. He and brothers and sisters prayed for the need in Azores and started preparation. On July 14, a group of thirty-two of them went to the islands for a four days and three nights musical evangelical tour. That evening, they held a musical evangelical meeting in Azores. More than sixty people attended the meeting and a few accepted the Lord. The evangelical work thus started.
-	</p>
 
 </div>
 ');
@@ -3273,12 +3267,6 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 感謝上帝，亞速爾基督教生命堂在聖靈帶領賜福，及弟兄姐妹的見證下，於2015年八月22日正式成立。願上帝藉著此堂會的成立，讓更多亞速爾海島的華人有機會認識基督耶穌偉大的救恩，並使多人歸入祂的國度。
-</p>
-<p>
-<u>2015亞速爾海島宣教旅行</u>
-</p>
-<p>
-2015年五月，葡萄牙陳岳平 牧師帶領一位住在亞速爾海島的弟兄信主，因而想到亞速爾海島的福音需要。是年六月與弟兄姐妹一起禱告，開始準備，七月14日一行三十二人在海島有四天三夜的音樂佈道旅行；第一天晚上音樂佈道會有六十多人參加，有數人決志信耶穌，亞速爾海島的福音工作從此展開。
 </p>
 
 </div>');
