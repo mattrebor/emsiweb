@@ -69,10 +69,10 @@
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
 				
 				<ul>
-					<li>9/19/15 Thirty Year Anniversary Celebration of the IEC in San Diego and IEC in San Francisco  <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
 					<li>10/11/15 Fifteen Year Anniversary Celebration of the CEC in Paris  <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
 					<li>1/1/16 - 1/3/16 CEM East Coast Winter Conference <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
 					<li>1/16/16 CEC Fuenlabrada New Church Building Dedication <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
+					<li>5/27/16 - 5/30/16 East Coast CEM Family Conference <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
 				</ul>
 			</div>
 		</div>
