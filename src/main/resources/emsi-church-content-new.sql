@@ -5884,7 +5884,7 @@ p span.label {font-weight: bold;}
 <img src="/emsi/files/towacochurch_1.jpg" align="left" width="360" height="255" hspace="5" />
 </p>
 <p>
-Christian Evangelical Mission Church (CEMC) in Towaco was first established in 1980 by a small group of believers gathering together to pray, worship, and fellowship at Waughaw Road in Towaco. In 1982, CEMC in Towaco along with Evangelical Bible Institute moved to our current location at 36 Alpine Road, Towaco, NJ. This is a 26 acre campus and facility which provides the seminary students and the congregation with many indoor and outdoor activities such as basketball, handball, softball, table tennis, tennis, volleyball and etc\u2026 After 30 years since the birth of CEMC in Towaco, today the congregation has grown to approximately 300 people. The congregation is composed of mostly Chinese from Burma, China, Hong Kong, Indonesia, Malaysia, Philippines, Singapore, Taiwan, American born Chinese, and a small number of Americans. Many live within ten miles of Towaco, including Lincoln Park, Montville, Parsippany, Pine Brook, Pompton Lakes, Wayne and etc\u2026 But some even come as far as Trenton, Pennsylvania, upstate New York, and Connecticut.
+Christian Evangelical Mission Church (CEMC) in Towaco was first established in 1980 by a small group of believers gathering together to pray, worship, and fellowship at Waughaw Road in Towaco. In 1982, CEMC in Towaco along with Evangelical Bible Institute moved to our current location at 36 Alpine Road, Towaco, NJ. This is a 26 acre campus and facility which provides the seminary students and the congregation with many indoor and outdoor activities such as basketball, handball, softball, table tennis, tennis, volleyball and etc\u2026 After 30 years since the birth of CEMC in Towaco, today the congregation has grown to approximately 300 people. The congregation is composed of mostly members from Burma, China, Hong Kong, Indonesia, Malaysia, Philippines, Singapore, and Taiwan ancestry. Many live within ten miles of Towaco, including Lincoln Park, Montville, Parsippany, Pine Brook, Pompton Lakes, Wayne and etc\u2026 But some even come as far as Trenton, Pennsylvania, upstate New York, and Connecticut.
 </p>
 <p>
 We have two separate Sunday Worship Services, one in Mandarin with English translation and one in English with no translation.  During the week, we also have many gatherings including various bible studies and fellowship in English, Mandarin and other Chinese dialects. Please see the Ministries &amp; Fellowships section for more detail. 
@@ -7248,6 +7248,198 @@ update church_content set body = '<table border="1" cellpadding="5">
 	
 ----------------  Belgium - Brussels
 
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Mix Chan</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Benjamin SiuMan Chung</td>
+		</tr>
+		<tr>
+			<td class="label">          </td>
+			<td>Ev. Edwige PHUONG</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> 32 Rue du Fossé aux Loups, 1000 Brussels, Belgium</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td> 32-3-707-1707</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsibelgium@hotmail.com">emsibelgium@hotmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>May 16, 2004
+</p>
+<p>
+We thank the Lord for the privilege of participating in a short term mission to France and Belgium in the spring of 2000. After our graduation from the seminary in 2001, we were assigned to have our practicum in the CEC of Paris. When we were in France for two years we heard about the need in Belgium and we have been praying for their needs and that they will be able to find a pastor. After a period of time, God put the burden in our hearts, because Belgium uses French and Dutch as their main languages, and it would be more convenient if one knows the language. We grew up and were educated in the Netherlands and we lived in France for two years. Therefore, we had an advantage. We knew that this was God’s calling and we submitted to His will.</p>
+<p>Although we didn’t understand much about the situation in Belgium, we had the desire to spread the Gospel. We stepped into this strange place in the summer of 2003. God prepared a family who loved the Lord and we labored together to start a church. Although it was not an easy task, the CEC in Antwerpen was established in November 2003. At that time, we started with the overseas students and used other means to reach out to the non-believers. Slowly God brought different families, children, and young people in our midst. We felt the warmth of God’s love among us and the spiritual lives of the members grew and were built up in God’s Word. As we start our fourth year here, we can see God’s abundant grace upon the brothers and sisters here because of the support and love of CEC around the world. We are able to have a church building of our own and we are deeply grateful and give thanks to God. At the same time we should not waste time, but we should strive more in spreading the Gospel and in repaying everybody’s love.</p>
+<p>The short term mission was not only in Antwerpen, but also in Brussels too. We saw the need for the Gospel there, so we established the CEC in Brussels in May 2004. We have morning service in Antwerpen and afternoon service in Brussels. God raised up godly members who came to serve with us from Antwerpen to Brussels. Their faithfulness really encouraged our hearts.</p>
+<p>We thank the Lord that we experienced many wondrous works of God and, through many learning experiences, it increased our faith in serving. Later on, because of the need of the Gospel in other places, by faith, we claimed on God’s promises and established another church in Belgium’s third largest city, Gent, in October 2006. We have different activities, fellowship groups, and worship service. Although sometimes we felt tired, when we thought about the sheep that God had entrusted to us and that they might be God’s soldiers in the future, we were motivated to move forward. We also felt bad that we didn’t have enough time to train the Christians, so our prayers were always about God sending more workers here to develop the ministry. </p>
+<p>There should be a vision to a mission; church planting is not easy, but shepherding is even more difficult. We know that it’s impossible to depend on our own strength to serve, but we can do all things through Him who strengthen us. Thank God that He uses us who are lowly and unworthy. Because of His great power, the Chinese in Belgium enjoy God’s blessings. What a wondrous thing! May all the glory and praise be to Him.</p>
+<p>We would like to thank God for EMSI as it continues to spread the Gospel and nurtures the visions of the evangelists, it continues to maintain sound doctrine and continues the good fight through these forty years. We are so thankful to od. May God’s grace continue to multiply. May His blessings multiply and preserve and strengthen our big family until we see His face again. Amen!</p>
+
+
+</div>
+'	where church_id = (select church_id from church where church_path = 'brussels')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>陳茂祥 牧師</td>
+		</tr>
+		<tr>
+			<td class="label">牧者:</td>
+			<td>鍾紹文 傳道</td>
+		</tr>
+		<tr>
+			<td class="label">  </td>
+			<td>方敏華 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> 32 Rue du Fossé aux Loups, 1000 Brussels</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 32-3-707-1707 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: emsibelgium@hotmail.com"> emsibelgium@hotmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2004年 5月16日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+我們在二○○○年的春天，國際神學福音佈道會的短宣隊前往比利時短宣時不單在安特衛普短宣，也曾到過首都布魯塞爾佈道，當時亦看到福音的需要，所以我們也於二○○四年的五月成立了「布魯塞爾基督教生命堂」。從此開始主日上午在安慰城有崇拜，下午則在布魯塞爾敬拜，感謝主興起幾位愛主的弟兄姐妹，每週從安慰城隨著我們來服事﹐看見他們的忠心擺上，給我們非常大的鼓勵。
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'brussels')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Pastor: </b>Rev. Mix Chan
+</p>
+<p>
+<b>Evangelist: </b>Ev. Benjamin SiuMan Chung
+</p>
+<p>
+<b>Evangelist: </b>Ev. Edwige PHUONG
+</p>
+<p>
+<b>Address: </b>32 Rue du Fossé aux Loups, 1000 Brussels, Belgium
+</p>
+<p>
+<b>Tel #: </b>32-3-707-1707
+</p>
+<p>
+<b>Email: </b>emsibelgium@hotmail.com
+</p>
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.963926034163!2d4.352549615745919!3d50.85035227953258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c380e23cb84f%3A0xf9c7061b0ed6608c!2sRue+du+Foss%C3%A9+aux+Loups+32%2C+1000+Bruxelles%2C+Belgium!5e0!3m2!1sen!2sus!4v1462150599723;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.963926034163!2d4.352549615745919!3d50.85035227953258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c380e23cb84f%3A0xf9c7061b0ed6608c!2sRue+du+Foss%C3%A9+aux+Loups+32%2C+1000+Bruxelles%2C+Belgium!5e0!3m2!1sen!2sus!4v1462150599723;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+')	where church_id = (select church_id from church where church_path = 'brussels')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>牧師: </b>陳茂祥 牧師
+</p>
+<p>
+<b>牧者: </b>鍾紹文  傳道
+</p>
+<p>
+<b>牧者: </b>方敏華 傳道
+</p>
+<p>
+<b>地址: </b>32 Rue du Fossé aux Loups, 1000 Brussels, Belgium
+</p>
+<p>
+<b>電話:</b> 32-3-707-1707
+</p>
+<p>
+<b>電郵: </b>emsibelgium@hotmail.com
+</p>
+
+<p>
+<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.963926034163!2d4.352549615745919!3d50.85035227953258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c380e23cb84f%3A0xf9c7061b0ed6608c!2sRue+du+Foss%C3%A9+aux+Loups+32%2C+1000+Bruxelles%2C+Belgium!5e0!3m2!1sen!2sus!4v1462150599723;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.963926034163!2d4.352549615745919!3d50.85035227953258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c380e23cb84f%3A0xf9c7061b0ed6608c!2sRue+du+Foss%C3%A9+aux+Loups+32%2C+1000+Bruxelles%2C+Belgium!5e0!3m2!1sen!2sus!4v1462150599723;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'brussels')
+	and locale = 'zh'
+	and page_id = 'contactus';
+	
+	
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
