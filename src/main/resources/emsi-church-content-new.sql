@@ -3181,9 +3181,9 @@ the Lord that under the leading of our Almighty God the Azores Musical Evangelis
 	</p>
 	<p>I immediately reported the result of our mission trip to our bishop at CEM headquarter, Rev. Moses Yang that evening. I also reported to him our desire to start a CEC church in Azores. God’s timing is the best. It happened that Rev. Moses Yang was coming to speak in our CEM Portugal Summer Conference in Aug. 24 -28, 2015. So we decided to establish the CEC in Azores on August 22.
 	</p>
-	<p>On August 22, a group of eighteen of us went with Rev. Yang to the island again. Five brothers and sisters were baptized that day, including brother Chuanjian Chen who decided to accept Jesus Christ as Savior on that Thursday midnight.
+	<p>On August 22, a group of eighteen of us went with Rev. Yang to the island. Five brothers and sisters were baptized that day, including brother Chuanjian Chen who accepted Jesus Christ as Savior that Thursday midnight. The Christian Evangelical Church in Azores was established that evening.
 	</p>
-	<p>I thank God, the Christian Evangelical Church in Azores was established on August 22, 2015 under the guiding and blessing of the Holy Spirit and the witness of brothers and sisters. Through this church, may God lead many other Chinese in Azores to come to know Jesus Christ, and to enter into His kingdom.
+	<p>I thank God, the CEC in Azores was established on August 22, 2015 under the guiding and blessing of the Holy Spirit and the witness of brothers and sisters. Through this church, may God lead many other Chinese in Azores to come to know Jesus Christ, and to enter into His kingdom.
 	</p>
 
 </div>
@@ -5884,7 +5884,7 @@ p span.label {font-weight: bold;}
 <img src="/emsi/files/towacochurch_1.jpg" align="left" width="360" height="255" hspace="5" />
 </p>
 <p>
-Christian Evangelical Mission Church (CEMC) in Towaco was first established in 1980 by a small group of believers gathering together to pray, worship, and fellowship at Waughaw Road in Towaco. In 1982, CEMC in Towaco along with Evangelical Bible Institute moved to our current location at 36 Alpine Road, Towaco, NJ. This is a 26 acre campus and facility which provides the seminary students and the congregation with many indoor and outdoor activities such as basketball, handball, softball, table tennis, tennis, volleyball and etc\u2026 After 30 years since the birth of CEMC in Towaco, today the congregation has grown to approximately 300 people. The congregation is composed of mostly members from Burma, China, Hong Kong, Indonesia, Malaysia, Philippines, Singapore, and Taiwan ancestry. Many live within ten miles of Towaco, including Lincoln Park, Montville, Parsippany, Pine Brook, Pompton Lakes, Wayne and etc\u2026 But some even come as far as Trenton, Pennsylvania, upstate New York, and Connecticut.
+Christian Evangelical Mission Church (CEMC) in Towaco was first established in 1980 by a small group of believers gathering together to pray, worship, and fellowship at Waughaw Road in Towaco. In 1982, CEMC in Towaco along with Evangelical Bible Institute moved to our current location at 36 Alpine Road, Towaco, NJ. This is a 26 acre campus and facility which provides the seminary students and the congregation with many indoor and outdoor activities such as basketball, handball, softball, table tennis, tennis, volleyball and etc. After 30 years since the birth of CEMC in Towaco, today the congregation has grown to approximately 300 people. The congregation is composed of mostly members from Burma, China, Hong Kong, Indonesia, Malaysia, Philippines, Singapore, and Taiwan ancestry. Many live within ten miles of Towaco, including Lincoln Park, Montville, Parsippany, Pine Brook, Pompton Lakes, Wayne and etc. But some even come as far as Trenton, Pennsylvania, upstate New York, and Connecticut.
 </p>
 <p>
 We have two separate Sunday Worship Services, one in Mandarin with English translation and one in English with no translation.  During the week, we also have many gatherings including various bible studies and fellowship in English, Mandarin and other Chinese dialects. Please see the Ministries &amp; Fellowships section for more detail. 
@@ -5969,11 +5969,9 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/towacochurch_1.jpg\" align=\"left\" height=\"255\" width=\"360\" />多華谷生命堂的誕生是一個意外。當年國際福音佈道會之下已有三間生命堂。一在紐約市中國城，一在紐約州Nanuet（珍珠河生命堂前身），一在新澤西的西橘園。楊牧師並無意在多華谷設立分堂，他的計畫是創辦神學院。但是向政府申請辦學時才知道，神學院必須附屬在教會之下，於是多華谷生命堂於一九八○年應運而生。
-</p>
+<img hspace=\"5\" src=\"/emsi/files/towacochurch_1.jpg\" align=\"left\" height=\"255\" width=\"360\" />多華谷生命堂的[建立]是一個意外。當年國際福音佈道會之下已有三間生命堂。一在紐約市中國城，一在紐約州Nanuet（珍珠河生命堂前身），一在新澤西的西橘園。楊牧師並無意在多華谷設立分堂，他[計劃]創辦神學院。但是向政府申請辦學時才知道，神學院必須附屬在教會之下，於是多華谷生命堂於一九八○年應運而生。</p>
 <p>
-建堂之初，會友只有二十人左右，都是西橘園生命堂的會友，為支持神學教育而轉來的。經過二十多年的聖工發展，目前已有近三百名會友，分別來自台灣、越南、香港、新加坡、菲律賓、印尼、馬來西亞、中國大陸等地，也有少數美國人。一九八二年，多華谷生命堂隨著神學院一同遷至亞棚。神學院廣大的校園和各種運動設施，為會友提供了休閒場所。
-</p>
+建堂之初，會友只有二十人左右，都是西橘園生命堂的會友，為支持神學教育而轉來的。經過二十多年的聖工發展，目前已有近三百名會友，[多半]為台灣、越南、香港、新加坡、菲律賓、印尼、馬來西亞、中國大陸等地[華裔]。一九八二年，多華谷生命堂隨著神學院一同遷至亞棚。神學院廣大的校園和各種運動設施，為會友提供了休閒場所。</p>
 <p>
 多華谷生命堂的主日崇拜通常是國語證道，英語翻譯。另外同時間有英語崇拜和成人主日學。此外，每周的聚會活動也很多，有禱告會、迦勒團契、弟兄團契、姐妹團契、青年團契，國語、台語、粵語、英語查經班、特別專題講座、大專學生英語查經班……等。迦勒團契就是專門為一些年長的弟兄姐妹所設立。別看他們年紀較長，他們可是非常活躍又令人羨慕的團契喔！每月有兩次聚會。
 </p>
@@ -7043,9 +7041,6 @@ p span.label {font-weight: bold;}
 <p>
 <img hspace="5" src="/emsi/images/BelgiumAntwerpen10_31_13.JPG" align="left" height="255" width="360" />The EMSI short term mission to Belgium in the spring of 2000 covered Antwerpen and Brussels. We saw the need for the Gospel in Brussels there and established the CEC in Brussels in May 2004. We have morning service in Antwerpen and afternoon service in Brussels. God raised up godly members who came to serve with us from Antwerpen to Brussels. Their faithfulness really encouraged us greatly
 </p>
-<p>Pictured: CEC in Antwerpen purchased a new church building.</p>
-<p>
-</p>
 
 </div>
 '	where church_id = (select church_id from church where church_path = 'antwerpen')
@@ -7103,8 +7098,6 @@ p span.label {font-weight: bold;}
 <img hspace="5" src="/emsi/images/BelgiumAntwerpen10_31_13.JPG" align="left" height="255" width="360" />感謝主帶領我們在二○○○年的春天，有機會參予國際神學福音佈道會的短宣隊前往法國和比利時短宣；二○○一年自神學院畢業後，我與妻子被差派前往法國巴黎生命堂實習。在法國的兩年裡多次聽聞比利時需要工人，所以我們經常為此事禱告，希望比利時能盡快找到傳道人。然而，經過一段時間，上帝給我們一個感動，因為比利時是荷、法雙語的國家，若懂當地語言相對來說是比較方便；而我們都是在荷蘭長大受教育，又曾在法國居住過兩年，好像這些都是有利的基本條件，最後我們確定是上帝的呼召，便順服祂的旨意。
 </p>
 <p我們對比利時的環境並不了解，只抱著一顆傳福音的心志，二○○三年的夏天踏進這個陌生的地方。上帝為我們預備了一對愛主的夫婦(程伯君夫婦)與我們一起開始了開荒的工作。雖不容易，但終於在同年的十一月在安特衛普市成立了「安慰城基督教生命堂」。當時是從一些留學生工作開始，也不斷嘗試透過各種的途徑來傳福音，上帝慢慢地帶領不同的家庭、小孩子和青少年人來到我們當中，大家在主的愛裏感到非常溫馨，弟兄姐妹的靈命也在聖經的真理中漸漸成長。當我們踏進第四個年頭時，看見上帝極大的恩典臨到安慰城的弟兄姐妹，因著各國生命堂的支持與關懷，我們能夠有自己的會所，為此向主獻上衷心感謝和讚美；而更叫我們不敢浪費一分一秒的時間，要加倍地努力傳揚福音，回報主恩及大家的愛心。
-</p>
-<p>圖:二○一二年八月二十八日購新堂簽約
 </p>
 
 
@@ -7285,7 +7278,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> 32-3-707-1707</td>
+			<td> +32-(0)484-148682 / +32-(0)483-441680 / +32-(0)497-870127</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -7354,7 +7347,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 32-3-707-1707 </td>
+			<td> +32-(0)484-148682 / +32-(0)483-441680 / +32-(0)497-870127 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -7397,7 +7390,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Address: </b>32 Rue du Fossé aux Loups, 1000 Brussels, Belgium
 </p>
 <p>
-<b>Tel #: </b>32-3-707-1707
+<b>Tel #: </b>+32-(0)484-148682 / +32-(0)483-441680 / +32-(0)497-870127
 </p>
 <p>
 <b>Email: </b>emsibelgium@hotmail.com
@@ -7425,7 +7418,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>32 Rue du Fossé aux Loups, 1000 Brussels, Belgium
 </p>
 <p>
-<b>電話:</b> 32-3-707-1707
+<b>電話:</b> +32-(0)484-148682 / +32-(0)483-441680 / +32-(0)497-870127
 </p>
 <p>
 <b>電郵: </b>emsibelgium@hotmail.com
@@ -7603,7 +7596,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 <td class="label">Tel#:</td>
-<td> +32(0)484-14 86 82 </td>
+<td> +32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)483-441680 </td>
 </tr>
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -7660,7 +7653,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 <td class="label">電話:</td>
-<td> +32(0)484-14 86 82</td>
+<td> +32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)483-441680</td>
 </tr>
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -7766,7 +7759,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Address: </b>Brouwersstraat 1, 3000 Leuven, Belgium</p>
 <p>
-<b>Tel #: </b>+32(0)484-14 86 82</p>
+<b>Tel #: </b>+32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)483-441680</p>
 <p>
 <b>Email: </b>emsibelgium@hotmail.com</p>
 
@@ -7782,7 +7775,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>地 址: </b>Brouwersstraat 1, 3000 Leuven, Belgium</p>
 <p>
-<b>電 話: </b>+32(0)484-14 86 82</p>
+<b>電 話: </b>+32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)483-441680</p>
 <p>
 <b>電 郵: </b>emsibelgium@hotmail.com</p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;ie=UTF8&amp;hq=&amp;hnear=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;t=m&amp;z=14&amp;ll=50.882435,4.696683&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;ie=UTF8&amp;hq=&amp;hnear=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;t=m&amp;z=14&amp;ll=50.882435,4.696683&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
