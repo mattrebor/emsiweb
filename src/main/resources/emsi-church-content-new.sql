@@ -8356,6 +8356,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 <td class="label">Email:</td>
+<td> ecmsibrl@gmail.com </td>
 </tr>
 </tbody>
 </table>
@@ -8413,6 +8414,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 <td class="label">電郵:</td>
+<td> ecmsibrl@gmail.com </td>
 </tr>
 </tbody>
 </table>
@@ -8499,7 +8501,7 @@ Mrs. Chialin Chi, (C) 973-932-3534</p>
 <p>
 <b>Tel #: </b>646-979-0107</p>
 <p>
-<b>Email: </b></p>
+<b>Email: </b>ecmsibrl@gmail.com</p>
 
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=6401+7th+Ave,+Brooklyn,+NY+11220&sll=40.6343803,-74.0140939&sspn=0.0062521,0.0109864&hnear=6401+7th+Ave,+Brooklyn,+NY+11220&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=6401+7th+Ave,+Brooklyn,+NY+11220&sll=40.6343803,-74.0140939&sspn=0.0062521,0.0109864&hnear=6401+7th+Ave,+Brooklyn,+NY+11220&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
@@ -8517,7 +8519,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>電 話: </b>646-979-0107</p>
 <p>
-<b>電 郵: </b></p>
+<b>電 郵: </b>ecmsibrl@gmail.com</p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=6401+7th+Ave,+Brooklyn,+NY+11220&sll=40.6343803,-74.0140939&sspn=0.0062521,0.0109864&hnear=6401+7th+Ave,+Brooklyn,+NY+11220&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=6401+7th+Ave,+Brooklyn,+NY+11220&sll=40.6343803,-74.0140939&sspn=0.0062521,0.0109864&hnear=6401+7th+Ave,+Brooklyn,+NY+11220&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'brooklynmandarin')
