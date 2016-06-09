@@ -1,39 +1,13 @@
 <div xmlns:jsp="http://java.sun.com/JSP/Page">
 	<jsp:directive.page contentType="text/html;charset=UTF-8" />
 	<jsp:output omit-xml-declaration="yes" />
-
-	<p class="MsoNormal" style="line-height: 12pt">
-		<b style="line-height: 12pt; text-align: justify; font-size: 13px"><span
-			lang="ZH-TW" style="font-size: 11pt; font-family: 華康細圓體">二</span></b><b
-			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
-			lang="ZH-TW" style="font-size: 11pt; font-family: 華康中楷體">、</span></b><b
-			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
-			lang="ZH-CN" style="font-family: 華康細圓體">聲樂課</span></b><b
-			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
-			style="font-family: Times New Roman, sans-serif">Voice Lessons</span></b><b
-			style="line-height: 12pt; text-align: justify; font-size: 13px"><span
-			lang="ZH-TW" style="font-size: 10pt; font-family: 華康細圓體">：</span></b><span
-			style="line-height: 12pt; text-align: justify; font-size: x-small">
-			一對一的聲樂課是必修課程，請向任課教師報名，並自行與任課教師安排上課時間。 報名費: $55.00。 Individual Voice
-			Lesson (one credit) is a required subject, please register with the
-			instructor. You have to make an appointment for voice lesson with the
-			instructor individually. Registration fee: $55.00.
-			自費學生付學費，不用付報名費；有獎學金的學生付報名費；同工不用付學費, 但付報名費。 Students paying full
-			tuition do not need to pay registration fee but students under
-			scholarship must pay registration fee. Co-workers are free from
-			tuition fee but must pay registration fee.</span>
-	</p>
 	<p class="MsoNormal" style="text-align: justify; line-height: 12pt">
 		<b style="line-height: 12pt; font-size: 13px">
-			<span lang="ZH-CN" style="font-size: 11pt; font-family: SimSun">三</span></b>
-		<b style="line-height: 12pt; font-size: 13px">
-			<span lang="ZH-TW" style="font-size: 11pt; font-family: 華康中楷體">、</span></b>
+			<span lang="ZH-CN" style="font-size: 11pt; font-family: SimSun">二、</span></b>
 		<b style="line-height: 12pt; font-size: 13px">
 			<span style="font-family: 華康細圓體" lang="ZH-CN">學費</span></b>
 		<b style="line-height: 12pt; font-size: 13px">
-			<span style="font-family: Times New Roman, sans-serif">Tuition Fee</span></b>
-		<b style="font-size: 13px">
-			<span lang="ZH-TW" style="font-size: 12pt; font-family: SimSun">：</span></b>
+			<span style="font-family: Times New Roman, sans-serif"> Tuition Fee: </span></b>
 		<span lang="ZH-CN"
 			style="line-height: 12pt; font-size: 10pt; font-family: SimSun">全修生每學期</span>
 		<span style="line-height: 12pt; font-size: 10pt; font-family: Optane">$2,000.00, </span>
@@ -46,17 +20,32 @@
 		
 	</p>
 	<p class="MsoNormal" style="text-align: justify; line-height: 12pt">
-		<b><span lang="ZH-TW" style="font-size: 11pt; font-family: SimSun">四</span></b>
-		<b><span lang="ZH-TW" style="font-size: 11pt; font-family: 華康中楷體">、</span></b>
-		<b><span lang="ZH-CN" style="font-family: 華康細圓體">註冊</span></b>
-		<b><span style="font-family: Times New Roman, sans-serif">Registration:</span></b>
-		&amp;nbsp;
-		<span style="font-size: 10pt; font-family: 'Times New Roman', serif">02/15/16 (Mon.) – 03/07/16 (Mon.)   </span>
-		&amp;nbsp;
-		<span style="font-size: 10pt; font-family: 華康細圓體" lang="ZH-TW">敬請準時。</span>
-		&amp;nbsp;
-		<span style="font-size: 10pt; font-family: 'Times New Roman', serif">Please register on time.</span>
-		&amp;nbsp;
+		<b style="line-height: 12pt; font-size: 13px">
+			<span lang="ZH-CN" style="font-size: 11pt; font-family: SimSun">三、</span></b>
+		<b style="line-height: 12pt; font-size: 13px">
+			<span style="font-family: 華康細圓體" lang="ZH-CN">聲樂課</span></b>
+		<b style="line-height: 12pt; font-size: 13px">
+			<span style="font-family: Times New Roman, sans-serif"> Voice Lessons: </span></b>
+			<span style="line-height: 12pt; font-size: 10pt;font-family: 'Times New Roman', serif">
+			一對一的聲樂課是必修課程，請向任課教師報名，並自行與任課教師安排上課時間。 報名費: $55.00。 Individual Voice
+			Lesson (one credit) is a required subject, please register with the
+			instructor. You have to make an appointment for voice lesson with the
+			instructor individually. Registration fee: $55.00.
+			自費學生付學費，不用付報名費；有獎學金的學生付報名費；同工不用付學費, 但付報名費。 Students paying full
+			tuition do not need to pay registration fee but students under
+			scholarship must pay registration fee. Co-workers are free from
+			tuition fee but must pay registration fee.</span>
+	</p>
+	<p class="MsoNormal" style="text-align: justify; line-height: 12pt">
+		<b style="line-height: 12pt; font-size: 13px">
+			<span lang="ZH-CN" style="font-size: 11pt; font-family: SimSun">四、</span></b>
+		<b style="line-height: 12pt; font-size: 13px">
+			<span style="font-family: 華康細圓體" lang="ZH-CN">註冊</span></b>
+		<b style="line-height: 12pt; font-size: 13px">
+			<span style="font-family: Times New Roman, sans-serif"> Registration: </span></b>
+		<span style="font-size: 10pt; font-family: 'Times New Roman', serif">09/06/16 (Tue.) – 09/07/16 (Wed.) </span>
+		<span style="line-height: 12pt; font-size: 10pt;font-family: 'Times New Roman', serif">敬請準時。 
+		Please register on time.</span>
 		<b style="font-size: 13px">
 			<u>
 				<span style="font-size: 10pt; font-family: 華康細圓體" lang="ZH-TW">罰金</span>
@@ -66,14 +55,14 @@
 		</b>
 	</p>
 	<p class="MsoNormal" style="text-align: justify; line-height: 12pt">
-		<b style="font-size: 13px"><span lang="ZH-TW"
-			style="font-size: 11pt; font-family: SimSun">五</span><span
-			lang="ZH-TW" style="font-size: 11pt; font-family: 華康中楷體">、</span><span
-			lang="ZH-CN"
-			style="font-size: 11pt; letter-spacing: 1.2pt; font-family: 華康細圓體">備註</span><span
-			style="font-size: 11pt; font-family: Times New Roman, sans-serif">Memo</span><span
-			lang="ZH-TW" style="font-size: 11pt; font-family: SimSun">：</span></b><span
-			style="font-size: x-small"><b>1.若您要保留選課資料，請自行影印備份存檔。It is
+		<b style="line-height: 12pt; font-size: 13px">
+			<span lang="ZH-CN" style="font-size: 11pt; font-family: SimSun">五、</span></b>
+		<b style="line-height: 12pt; font-size: 13px">
+			<span style="font-family: 華康細圓體" lang="ZH-CN">備註</span></b>
+		<b style="line-height: 12pt; font-size: 13px">
+			<span style="font-family: Times New Roman, sans-serif"> Memo: </span></b>
+		<span style="line-height: 12pt; font-size: 10pt;font-family: 'Times New Roman', serif">
+		1.若您要保留選課資料，請自行影印備份存檔。It is
 				the student’s responsibility to keep his/her own record of the
 				courses taken. 2.関于旁聽：(1)同工最多可旁聽兩門神學課：一門免費；另一門須付50%的學費。Co-workers
 				may audit up to two theology courses: one for free, the other may
@@ -84,6 +73,6 @@
 				tuition fee to audit the courses.
 				（注意：所有旁聽者一律須登記注冊或經院長特許,任何人不得擅自進入課室！ Note: All those taking class for
 				audit have to register or receive Verbal Permission from Dr. Rev.
-				Yang!）</b></span>
+				Yang!）</span>
 	</p>
 </div>
