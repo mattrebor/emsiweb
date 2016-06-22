@@ -6421,7 +6421,11 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Zong Quan Zhou</td>
+			<td>Ev. Ruoshu Chen</td>
+		</tr>
+		<tr>
+			<td class="label">  </td>
+			<td>Ev. Na Li</td>
 		</tr>
 	</tbody>
 </table>
@@ -6441,7 +6445,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:wzzzq_cn@163.com">wzzzq_cn@163.com</a></td>
+			<td><a href="mailto:CEMCPrato@gmail.com">CEMCPrato@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -6488,8 +6492,12 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>周宗泉 傳道</td>
+			<td class="label">傳道:</td>
+			<td>陳若抒 傳道</td>
+		</tr>
+		<tr>
+			<td class="label">  </td>
+			<td>李娜 傳道</td>
 		</tr>
 	</tbody>
 </table>
@@ -6509,7 +6517,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: wzzzq_cn@163.com"> wzzzq_cn@163.com</a></td>
+			<td><a href=\"mailto: CEMCPrato@gmail.com"> CEMCPrato@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -6549,7 +6557,10 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Zong Quan Zhou
+<b>Evangelist: </b>Ev. Ruoshu Chen
+</p>
+<p>
+<b>Evangelist: </b>Ev. Na Li
 </p>
 <p>
 <b>Address: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
@@ -6558,7 +6569,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Tel #: </b>0039-057-483-1203, (C) 0039-327-753-3773
 </p>
 <p>
-<b>Email: </b>wzzzq_cn@163.com
+<b>Email: </b>CEMCPrato@gmail.com
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -6571,7 +6582,10 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 周宗泉 傳道
+<b>傳道:</b> 陳若抒 傳道
+</p>
+<p>
+<b>傳道:</b> 李娜 傳道
 </p>
 <p>
 <b>地址: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
@@ -6580,7 +6594,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電話:</b> 0039-057-483-1203, (C) 0039-327-753-3773
 </p>
 <p>
-<b>電郵: </b>wzzzq_cn@163.com
+<b>電郵: </b>CEMCPrato@gmail.com
 </p>
 
 <p>
