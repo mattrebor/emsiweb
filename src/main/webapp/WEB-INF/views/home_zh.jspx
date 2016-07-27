@@ -69,12 +69,11 @@
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
 				
 				<ul>
-					<li>1/1/16 - 1/3/16 美東區生命堂青少年冬令會<br/><a href="${newsUrl}">詳情  &#9656;</a></li>
-					<li>1/16/16 西班亞馬德里福恩城基督教生命堂獻堂<br/><a href="${newsUrl}">詳情  &#9656;</a></li>
 					<li>5/27/16 - 5/30/16 美東區生命堂家庭聯合退修會<br/><a href="${newsUrl}">詳情  &#9656;</a></li>
 					<li>6/25/16 美東區生命堂聯合運動會<br/><a href="${newsUrl}">詳情  &#9656;</a></li>
 					<li>美東俄備得、多華谷、活石園生命堂舉辦暑期兒童夏令營 <br/><a href="${newsUrl}">詳情  &#9656;</a></li>
 					<li>荷蘭、西班牙生命堂夏令會 <br/><a href="${newsUrl}">詳情  &#9656;</a></li>
+					<li>8/5/16 - 8/6/16 葡萄牙生命堂獻堂典禮<br/><a href="${newsUrl}">詳情  &#9656;</a></li>
 				</ul>
 			</div>			
 		
