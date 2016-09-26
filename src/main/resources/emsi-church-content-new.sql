@@ -5863,7 +5863,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" width="16" height="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>973-331-0545, 973-331-0546</td>
+			<td>973-335-7337</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" width="16" height="16" /></td>
@@ -5950,7 +5950,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td>(973) 331-0545, (973) 331-0546</td>
+			<td>973-335-7337</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -5988,7 +5988,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>36 Alpine Road, Towaco, NJ 07082, USA 
 </p>
 <p>
-<b>電話:</b>\u00a0 973-331-0545 | 973-331-0546 
+<b>電話:</b>\u00a0 973-335-7337 
 </p>
 <p>
 <b>電郵:\u00a0<span style="color: #0062a0"><u>cemc.towaco@gmail.com</u></span>\u00a0</b> 
@@ -6199,7 +6199,7 @@ Christian Evangelical Mission Church in Towaco
 <b>Address: </b>36 Alpine Road, Towaco, NJ 07082, USA 
 </p>
 <p>
-<b>Tel #:</b>\u00a0 973-331-0545 | 973-331-0546 
+<b>Tel #:</b>\u00a0 973-335-7337 
 </p>
 <p>
 <b>Email:\u00a0<span style="color: #0062a0"><u>cemc.towaco@gmail.com</u></span>\u00a0</b> 
