@@ -5832,23 +5832,23 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Senior Pastor:</td>
-			<td>Rev. Moses Yang, 973-331-0545 ext. 209, (C) 201-650-1923</td>
+			<td>Rev. Moses Yang, 973-335-7337 ext. 209, (C) 201-650-1923</td>
 		</tr>
 		<tr>
 			<td class="label">Associate Pastor:</td>
-			<td>Rev. Zion Wu, 973-331-0545 ext. 202, (C) 973-768-5805</td>
+			<td>Rev. Zion Wu, 973-335-7337 ext. 202, (C) 973-768-5805</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Patty Chien, 973-331-0545 ext. 200, (C) 201-993-3043</td>
+			<td>Ev. Patty Chien, 973-335-7337 ext. 200, (C) 201-993-3043</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Jonathan Poon, 973-331-0545 ext. 203, (C) 973-979-1950</td>
+			<td>Ev. Jonathan Poon, 973-335-7337 ext. 203, (C) 973-979-1950</td>
 		</tr>
 		<tr>
 			<td class="label">Youth Minister:</td>
-			<td>Ev. Wingkit Chan, 973-331-0545 ext. 250, (C) 973-413-4132</td>
+			<td>Ev. Wingkit Chan, 973-335-7337 ext. 250, (C) 973-413-4132</td>
 		</tr>
 	</tbody>
 </table>
@@ -5919,23 +5919,23 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">主任牧師:</td>
-			<td>楊摩西 牧師, 973-331-0545 ext. 209, (手機) 201-650-1923</td>
+			<td>楊摩西 牧師, 973-335-7337 ext. 209, (手機) 201-650-1923</td>
 		</tr>
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>吳錫安 牧師, 973-331-0545 ext. 202, (手機) 973-768-5805</td>
+			<td>吳錫安 牧師, 973-335-7337 ext. 202, (手機) 973-768-5805</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>錢舜 傳道, 973-331-0545 ext. 200, (手機) 201-993-3043</td>
+			<td>錢舜 傳道, 973-335-7337 ext. 200, (手機) 201-993-3043</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>潘逸豪 傳道, 973-331-0545 ext. 203, (手機) 973-979-1950</td>
+			<td>潘逸豪 傳道, 973-335-7337 ext. 203, (手機) 973-979-1950</td>
 		</tr>
 		<tr>
 			<td class=\"label\">青年事工:</td>
-			<td>陳永傑  傳道, 973-331-0545 ext. 250, (手機) 973-413-4132</td>
+			<td>陳永傑  傳道, 973-335-7337 ext. 250, (手機) 973-413-4132</td>
 		</tr>
 	</tbody>
 </table>
