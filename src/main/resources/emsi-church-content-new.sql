@@ -53,7 +53,7 @@ update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', lati
 update church set address='Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain', latitude = 40.2646057, longitude = -3.7542281 where church_path = 'fuenlabrada';
 update church set address='Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal', latitude = 38.711997, longitude = -8.980867 where church_path = 'portoalto';
 update church set address='Rua Francisco Sanches 17, 1170-140 Lisbon, Portugal', latitude = 38.7306258, longitude = -9.1339151 where church_path = 'lisbon';
-update church set address='Rua De Oliveira Monteiro 210, 4050-438 Porto, Portugal', latitude = 41.1579384, longitude = -8.6242964 where church_path = 'porto';
+update church set address='Rua do Amial 698, 4200-053 Porto, Portugal', latitude = 41.1789973, longitude = -8.6160348 where church_path = 'porto';
 update church set address='Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal', latitude = 41.334609, longitude = -8.722397 where church_path = 'mindelo';
 update church set address='73 Avenue de Verdun, 94200 Ivry-sur-Seine, France', latitude = 48.8135227, longitude = 2.3702061 where church_path = 'paris';
 update church set address='Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium', latitude = 51.219508, longitude = 4.417894 where church_path = 'antwerpen';
@@ -2768,6 +2768,10 @@ p span.label {font-weight: bold;}
 <div style="color: #000000; font-size: small">
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Chang Yu Zhou, (cell) 351-962-222-221</td>
+		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -2776,12 +2780,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> Rua De Oliveira Monteiro 210, 4050-438 Porto, Portugal</td>
+			<td> Rua do Amial 698, 4200-053 Porto, Portugal</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> (cell) 351-965-333-777 </td>
+			<td> 351-252-612-642  </td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -2827,6 +2831,10 @@ p span.label {font-weight: bold;}
 <div style=\"color: #000000; font-size: small\">
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>周長宇 傳道 , (手機)351-962-222-221</td>
+		</tr>
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -2835,12 +2843,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> Rua De Oliveira Monteiro 210, 4050-438 Porto, Portugal</td>
+			<td> Rua do Amial 698, 4200-053 Porto, Portugal</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td>  (手機) 351-965-333-777 </td>
+			<td>  351-252-612-642  </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -2882,15 +2890,16 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Address: </b>Rua De Oliveira Monteiro  210, 4050-438 Porto, Portugal
+<b>Evangelist: </b>Ev. Chang Yu Zhou, (cell) 351-962-222-221
 </p>
 <p>
-<b>Tel #: </b> (cell) 351-965-333-777
+<b>Address: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
 <p>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.9272675451143!2d-8.62429638458132!3d41.15793837928595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24650750e45fa5%3A0x50ae7581c1000b04!2sRua+de+Oliveira+Monteiro+210%2C+4050-438+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1446596566622" width="600" height="480" frameborder="0" style="border:0" allowfullscreen></iframe><br /><small><a href="https://www.google.com/maps/place/Rua+de+Oliveira+Monteiro+210,+4050-438+Porto,+Portugal/@41.1579384,-8.6242964,17z/data=!3m1!4b1!4m2!3m1!1s0xd24650750e45fa5:0x50ae7581c1000b04">View Larger Map</a></small>
+<b>Tel #: </b> (cell) 351-252-612-642 
 </p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.9619421941993!2d-8.616034784580663!3d41.17899727928379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464357d7708af%3A0x3f1595d11819de60!2sRua+do+Amial+698%2C+4200-062+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1476580063460" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
 ')	where church_id = (select church_id from church where church_path = 'porto')
 	and locale = 'en'
 	and page_id = 'contactus';
@@ -2899,15 +2908,17 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>地址: </b>Rua De Oliveira Monteiro 210, 4050-438 Porto, Portugal
+<b>傳道 :</b> 周長宇 傳道, (手機)351-962-222-221 
 </p>
 <p>
-<b>電話:</b>  (手機) 351-965-333-777 
+<b>地址: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.9272675451143!2d-8.62429638458132!3d41.15793837928595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24650750e45fa5%3A0x50ae7581c1000b04!2sRua+de+Oliveira+Monteiro+210%2C+4050-438+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1446596566622" width="600" height="480" frameborder="0" style="border:0" allowfullscreen></iframe><br /><small><a href="https://www.google.com/maps/place/Rua+de+Oliveira+Monteiro+210,+4050-438+Porto,+Portugal/@41.1579384,-8.6242964,17z/data=!3m1!4b1!4m2!3m1!1s0xd24650750e45fa5:0x50ae7581c1000b04">View Larger Map</a></small>
+<b>電話:</b> 351-252-612-642  
 </p>
-')	where church_id = (select church_id from church where church_path = 'porto')
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.9619421941993!2d-8.616034784580663!3d41.17899727928379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464357d7708af%3A0x3f1595d11819de60!2sRua+do+Amial+698%2C+4200-062+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1476580063460" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>')	where church_id = (select church_id from church where church_path = 'porto')
 	and locale = 'zh'
 	and page_id = 'contactus';
 
@@ -2951,10 +2962,6 @@ p span.label {font-weight: bold;}
 <div style="color: #000000; font-size: small">
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
-		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Chang Yu Zhou</td>
-		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -2968,7 +2975,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> 351-252-612-642/ (C) 351-962-222-221</td>
+			<td> 351-252-612-642/(cell) 351-963-333-777</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -3011,10 +3018,6 @@ p span.label {font-weight: bold;}
 <div style=\"color: #000000; font-size: small\">
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
-		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>周長宇 傳道</td>
-		</tr>
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -3028,7 +3031,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 351-252-612-642/ (C) 351-962-222-221 </td>
+			<td> 351-252-612-642/(手機) 351-963-333-777 </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -3065,13 +3068,10 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Chang Yu Zhou
-</p>
-<p>
 <b>Address: </b>Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal
 </p>
 <p>
-<b>Tel #: </b> 351-252-612-642/ (C) 351-962-222-221
+<b>Tel #: </b> 351-252-612-642/(cell) 351-963-333-777
 </p>
 <p>
 <b>Fax #: </b>351-218-868-370
@@ -3090,13 +3090,10 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道 :</b> 周長宇 傳道 
-</p>
-<p>
 <b>地址: </b>Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal
 </p>
 <p>
-<b>電話:</b> 351-252-612-642/ (C) 351-962-222-221
+<b>電話:</b> 351-252-612-642/(手機) 351-963-333-777
 </p>
 <p>
 <b>傳真: </b>351-218-868-370
@@ -3332,6 +3329,178 @@ update church_content set body = STRINGDECODE('<p>
 
 -----------------------end Portugal - Azores
 	
+
+---------- Portugal - Setubal  New church Aug 2016 ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(58, 'setubal', 1, 5, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(58, 'en', 'menu_name', 'CEC in Setubal');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(58, 'zh', 'menu_name', '思督堡基督教生命堂 ');            
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(9, NULL, 58);          
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'intro', 'en', 'CEC in Setubal  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"> </td>
+			<td></td>
+		</tr>
+
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+	<table cellpadding="1px" cellspacing="0px">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">Address:</td>
+				<td>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">Tel#:</td>
+				<td> (cell) 351-965-333-777/ (cell)351-963-333-777 </td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">Email:</td>
+				<td><a href=\"mailto: emsisetubal@hotmail.com"> emsisetubal@hotmail.com</a></td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+	<p><span class="label">Established Date: </span>August 5, 2016</p>
+
+</div>
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'intro', 'zh', '思督堡基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+	<table cellpadding="1" cellspacing="0">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">地址:</td>
+				<td>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">電話:</td>
+				<td> (手機) 351-965-333-777/ (手機)351-963-333-777</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">電郵:</td>
+				<td><a href=\"mailto: emsisetubal@hotmail.com"> emsisetubal@hotmail.com</a></td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<span class=\"label\">成立日期: </span>2016年 8月 5日 
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'contactus', 'en', 'CEC in Setubal - Contact Us', 'Christian Evangelical Church in Setubal<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'contactus', 'zh', '思督堡基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'schedule', 'en', 'CEC in Setubal - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Sunday Worship</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'schedule', 'zh', '亞速爾基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜 </td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');             
+
+
+update church set address='Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal', latitude = 38.5270432, longitude = -8.8843252 where church_path = 'setubal';
+
+update church_content set body = STRINGDECODE('
+<style>
+.indentation {margin:20px;}
+</style>
+<p>
+<b>Address: </b>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</p>
+<p>
+<b>Tel #: </b> (cell) 351-965-333-777/ (cell)351-963-333-777</p>
+<p>
+<b>Email: </b>emsisetubal@hotmail.com </p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.291716680683!2d-8.884325184660526!3d38.527043179629395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1943aae93372c1%3A0x96997d85c0181d50!2sR.+Camilo+Castelo+Branco+163%2C+2910-448+Set%C3%BAbal%2C+Portugal!5e0!3m2!1sen!2sus!4v1476592748025" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'setubal')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+update church_content set body = STRINGDECODE('<p>
+<p><b>地 址: </b>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</p>
+<p>
+<b>電 話: </b>(手機) 351-965-333-777/ (手機)351-963-333-777</p>
+<p>
+<b>電 郵: </b>emsisetubal@hotmail.com</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.291716680683!2d-8.884325184660526!3d38.527043179629395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1943aae93372c1%3A0x96997d85c0181d50!2sR.+Camilo+Castelo+Branco+163%2C+2910-448+Set%C3%BAbal%2C+Portugal!5e0!3m2!1sen!2sus!4v1476592748025" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'setubal')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+-----------------------end Portugal - Setubal
 	
 
 	
@@ -5832,23 +6001,23 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Senior Pastor:</td>
-			<td>Rev. Moses Yang, 973-331-0545 ext. 209, (C) 201-650-1923</td>
+			<td>Rev. Moses Yang, 973-335-7337 ext. 209, (C) 201-650-1923</td>
 		</tr>
 		<tr>
 			<td class="label">Associate Pastor:</td>
-			<td>Rev. Zion Wu, 973-331-0545 ext. 202, (C) 973-768-5805</td>
+			<td>Rev. Zion Wu, 973-335-7337 ext. 202, (C) 973-768-5805</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Patty Chien, 973-331-0545 ext. 200, (C) 201-993-3043</td>
+			<td>Ev. Patty Chien, 973-335-7337 ext. 200, (C) 201-993-3043</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Jonathan Poon, 973-331-0545 ext. 203, (C) 973-979-1950</td>
+			<td>Ev. Jonathan Poon, 973-335-7337 ext. 203, (C) 973-979-1950</td>
 		</tr>
 		<tr>
 			<td class="label">Youth Minister:</td>
-			<td>Ev. Wingkit Chan, 973-331-0545 ext. 250, (C) 973-413-4132</td>
+			<td>Ev. Wingkit Chan, 973-335-7337 ext. 250, (C) 973-413-4132</td>
 		</tr>
 	</tbody>
 </table>
@@ -5919,23 +6088,23 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">主任牧師:</td>
-			<td>楊摩西 牧師, 973-331-0545 ext. 209, (手機) 201-650-1923</td>
+			<td>楊摩西 牧師, 973-335-7337 ext. 209, (手機) 201-650-1923</td>
 		</tr>
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>吳錫安 牧師, 973-331-0545 ext. 202, (手機) 973-768-5805</td>
+			<td>吳錫安 牧師, 973-335-7337 ext. 202, (手機) 973-768-5805</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>錢舜 傳道, 973-331-0545 ext. 200, (手機) 201-993-3043</td>
+			<td>錢舜 傳道, 973-335-7337 ext. 200, (手機) 201-993-3043</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>潘逸豪 傳道, 973-331-0545 ext. 203, (手機) 973-979-1950</td>
+			<td>潘逸豪 傳道, 973-335-7337 ext. 203, (手機) 973-979-1950</td>
 		</tr>
 		<tr>
 			<td class=\"label\">青年事工:</td>
-			<td>陳永傑  傳道, 973-331-0545 ext. 250, (手機) 973-413-4132</td>
+			<td>陳永傑  傳道, 973-335-7337 ext. 250, (手機) 973-413-4132</td>
 		</tr>
 	</tbody>
 </table>
