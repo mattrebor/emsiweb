@@ -2768,6 +2768,10 @@ p span.label {font-weight: bold;}
 <div style="color: #000000; font-size: small">
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Chang Yu Zhou, (cell) 351-962-222-221</td>
+		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -2776,12 +2780,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> Rua De Oliveira Monteiro 210, 4050-438 Porto, Portugal</td>
+			<td> Rua do Amial 698, 4200-053 Porto, Portugal</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> (cell) 351-965-333-777 </td>
+			<td> 351-252-612-642  </td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -2827,6 +2831,10 @@ p span.label {font-weight: bold;}
 <div style=\"color: #000000; font-size: small\">
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>周長宇 傳道 , (手機)351-962-222-221</td>
+		</tr>
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -2835,12 +2843,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> Rua De Oliveira Monteiro 210, 4050-438 Porto, Portugal</td>
+			<td> Rua do Amial 698, 4200-053 Porto, Portugal</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td>  (手機) 351-965-333-777 </td>
+			<td>  351-252-612-642  </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -2882,15 +2890,16 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Address: </b>Rua De Oliveira Monteiro  210, 4050-438 Porto, Portugal
+<b>Evangelist: </b>Ev. Chang Yu Zhou, (cell) 351-962-222-221
 </p>
 <p>
-<b>Tel #: </b> (cell) 351-965-333-777
+<b>Address: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
 <p>
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.9272675451143!2d-8.62429638458132!3d41.15793837928595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24650750e45fa5%3A0x50ae7581c1000b04!2sRua+de+Oliveira+Monteiro+210%2C+4050-438+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1446596566622" width="600" height="480" frameborder="0" style="border:0" allowfullscreen></iframe><br /><small><a href="https://www.google.com/maps/place/Rua+de+Oliveira+Monteiro+210,+4050-438+Porto,+Portugal/@41.1579384,-8.6242964,17z/data=!3m1!4b1!4m2!3m1!1s0xd24650750e45fa5:0x50ae7581c1000b04">View Larger Map</a></small>
+<b>Tel #: </b> (cell) 351-252-612-642 
 </p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.9619421941993!2d-8.616034784580663!3d41.17899727928379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464357d7708af%3A0x3f1595d11819de60!2sRua+do+Amial+698%2C+4200-062+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1476580063460" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
 ')	where church_id = (select church_id from church where church_path = 'porto')
 	and locale = 'en'
 	and page_id = 'contactus';
@@ -2899,15 +2908,17 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>地址: </b>Rua De Oliveira Monteiro 210, 4050-438 Porto, Portugal
+<b>傳道 :</b> 周長宇 傳道, (手機)351-962-222-221 
 </p>
 <p>
-<b>電話:</b>  (手機) 351-965-333-777 
+<b>地址: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3003.9272675451143!2d-8.62429638458132!3d41.15793837928595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd24650750e45fa5%3A0x50ae7581c1000b04!2sRua+de+Oliveira+Monteiro+210%2C+4050-438+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1446596566622" width="600" height="480" frameborder="0" style="border:0" allowfullscreen></iframe><br /><small><a href="https://www.google.com/maps/place/Rua+de+Oliveira+Monteiro+210,+4050-438+Porto,+Portugal/@41.1579384,-8.6242964,17z/data=!3m1!4b1!4m2!3m1!1s0xd24650750e45fa5:0x50ae7581c1000b04">View Larger Map</a></small>
+<b>電話:</b> 351-252-612-642  
 </p>
-')	where church_id = (select church_id from church where church_path = 'porto')
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.9619421941993!2d-8.616034784580663!3d41.17899727928379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464357d7708af%3A0x3f1595d11819de60!2sRua+do+Amial+698%2C+4200-062+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1476580063460" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>')	where church_id = (select church_id from church where church_path = 'porto')
 	and locale = 'zh'
 	and page_id = 'contactus';
 
@@ -2951,10 +2962,6 @@ p span.label {font-weight: bold;}
 <div style="color: #000000; font-size: small">
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
-		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Chang Yu Zhou</td>
-		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -2968,7 +2975,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> 351-252-612-642/ (C) 351-962-222-221</td>
+			<td> 351-252-612-642/(cell) 351-963-333-777</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -3011,10 +3018,6 @@ p span.label {font-weight: bold;}
 <div style=\"color: #000000; font-size: small\">
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
-		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>周長宇 傳道</td>
-		</tr>
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -3028,7 +3031,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 351-252-612-642/ (C) 351-962-222-221 </td>
+			<td> 351-252-612-642/(手機) 351-963-333-777 </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -3065,13 +3068,10 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Chang Yu Zhou
-</p>
-<p>
 <b>Address: </b>Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal
 </p>
 <p>
-<b>Tel #: </b> 351-252-612-642/ (C) 351-962-222-221
+<b>Tel #: </b> 351-252-612-642/(cell) 351-963-333-777
 </p>
 <p>
 <b>Fax #: </b>351-218-868-370
@@ -3090,13 +3090,10 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道 :</b> 周長宇 傳道 
-</p>
-<p>
 <b>地址: </b>Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal
 </p>
 <p>
-<b>電話:</b> 351-252-612-642/ (C) 351-962-222-221
+<b>電話:</b> 351-252-612-642/(手機) 351-963-333-777
 </p>
 <p>
 <b>傳真: </b>351-218-868-370
