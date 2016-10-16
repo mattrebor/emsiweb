@@ -3329,6 +3329,178 @@ update church_content set body = STRINGDECODE('<p>
 
 -----------------------end Portugal - Azores
 	
+
+---------- Portugal - Setubal  New church Aug 2016 ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(58, 'setubal', 1, 5, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(58, 'en', 'menu_name', 'CEC in Setubal');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(58, 'zh', 'menu_name', '思督堡基督教生命堂 ');            
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(9, NULL, 58);          
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'intro', 'en', 'CEC in Setubal  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"> </td>
+			<td></td>
+		</tr>
+
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+	<table cellpadding="1px" cellspacing="0px">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">Address:</td>
+				<td>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">Tel#:</td>
+				<td> (cell) 351-965-333-777/ (cell)351-963-333-777 </td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">Email:</td>
+				<td><a href=\"mailto: emsisetubal@hotmail.com"> emsisetubal@hotmail.com</a></td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+	<p><span class="label">Established Date: </span>August 5, 2016</p>
+
+</div>
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'intro', 'zh', '思督堡基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+	<table cellpadding="1" cellspacing="0">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">地址:</td>
+				<td>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">電話:</td>
+				<td> (手機) 351-965-333-777/ (手機)351-963-333-777</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">電郵:</td>
+				<td><a href=\"mailto: emsisetubal@hotmail.com"> emsisetubal@hotmail.com</a></td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<span class=\"label\">成立日期: </span>2016年 8月 5日 
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'contactus', 'en', 'CEC in Setubal - Contact Us', 'Christian Evangelical Church in Setubal<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'contactus', 'zh', '思督堡基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'schedule', 'en', 'CEC in Setubal - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Sunday Worship</td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'schedule', 'zh', '亞速爾基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜 </td>
+			<td></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');             
+
+
+update church set address='Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal', latitude = 38.5270432, longitude = -8.8843252 where church_path = 'setubal';
+
+update church_content set body = STRINGDECODE('
+<style>
+.indentation {margin:20px;}
+</style>
+<p>
+<b>Address: </b>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</p>
+<p>
+<b>Tel #: </b> (cell) 351-965-333-777/ (cell)351-963-333-777</p>
+<p>
+<b>Email: </b>emsisetubal@hotmail.com </p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.291716680683!2d-8.884325184660526!3d38.527043179629395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1943aae93372c1%3A0x96997d85c0181d50!2sR.+Camilo+Castelo+Branco+163%2C+2910-448+Set%C3%BAbal%2C+Portugal!5e0!3m2!1sen!2sus!4v1476592748025" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'setubal')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+update church_content set body = STRINGDECODE('<p>
+<p><b>地 址: </b>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</p>
+<p>
+<b>電 話: </b>(手機) 351-965-333-777/ (手機)351-963-333-777</p>
+<p>
+<b>電 郵: </b>emsisetubal@hotmail.com</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.291716680683!2d-8.884325184660526!3d38.527043179629395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1943aae93372c1%3A0x96997d85c0181d50!2sR.+Camilo+Castelo+Branco+163%2C+2910-448+Set%C3%BAbal%2C+Portugal!5e0!3m2!1sen!2sus!4v1476592748025" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'setubal')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+-----------------------end Portugal - Setubal
 	
 
 	
