@@ -3142,7 +3142,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">Address:</td>
-				<td>Rua do Mercado nº50 9500-326 Ponta Delgada, Portugal</td>
+				<td>Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal</td>
 			</tr>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -3213,7 +3213,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">地址:</td>
-				<td>Rua do Mercado nº50 9500-326 Ponta Delgada, Portugal</td>
+				<td>Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal</td>
 			</tr>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -3296,32 +3296,32 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ');             
 
 
-update church set address='Rua do Mercado nº50 9500-326 Ponta Delgada, Portugal', latitude = 37.7422794, longitude = -25.6632306 where church_path = 'azores';
+update church set address='Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal', latitude = 37.7419884, longitude = -25.6883702 where church_path = 'azores';
 
 update church_content set body = STRINGDECODE('
 <style>
 .indentation {margin:20px;}
 </style>
 <p>
-<b>Address: </b>Rua do Mercado nº50 9500-326 Ponta Delgada, Portugal</p>
+<b>Address: </b>Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal</p>
 <p>
 <b>Tel #: </b> (cell) 351-963-333-777</p>
 <p>
 <b>Email: </b> emsiazores@hotmail.com</p>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.0368632807786!2d-25.663230600000016!3d37.742279400000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb432acaaea24f5f%3A0x56f24e3346ed13f6!2sR.+do+Mercado+50%2C+9500+Ponta+Delgada%2C+Portugal!5e0!3m2!1sen!2sus!4v1441251420358" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.0492678658356!2d-25.6905588867643!3d37.741988379765374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ0JzMxLjIiTiAyNcKwNDEnMTguMSJX!5e0!3m2!1sen!2sus!4v1476749807515" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'azores')
 	and locale = 'en'
 	and page_id = 'contactus';
 	
 update church_content set body = STRINGDECODE('<p>
-<p><b>地 址: </b>Rua do Mercado nº50 9500-326 Ponta Delgada, Portugal</p>
+<p><b>地 址: </b>Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal</p>
 <p>
 <b>電 話: </b>(手機) 351-963-333-777</p>
 <p>
 <b>電 郵: </b>emsiazores@hotmail.com</p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.0368632807786!2d-25.663230600000016!3d37.742279400000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xb432acaaea24f5f%3A0x56f24e3346ed13f6!2sR.+do+Mercado+50%2C+9500+Ponta+Delgada%2C+Portugal!5e0!3m2!1sen!2sus!4v1441251420358" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.0492678658356!2d-25.6905588867643!3d37.741988379765374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ0JzMxLjIiTiAyNcKwNDEnMTguMSJX!5e0!3m2!1sen!2sus!4v1476749807515" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'azores')
 	and locale = 'zh'
@@ -3455,7 +3455,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 <p>&nbsp;</p>
 ');            
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'schedule', 'zh', '亞速爾基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'schedule', 'zh', '思督堡基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
 			<td>主日崇拜 </td>
