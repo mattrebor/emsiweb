@@ -4132,8 +4132,6 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Teddy Chen, +886-978-600-153</td>
 		</tr>
 	</tbody>
 </table>
@@ -4193,8 +4191,6 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>陳俊年傳道, +886-9-7860-0153</td>
 		</tr>
 	</tbody>
 </table>
@@ -4246,9 +4242,6 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Teddy Chen, +886-978-600-153
-</p>
-<p>
 <b>Address: </b>1st Fl, #29, Alley 25, Lane 113, Sec. 3 Mingsheng E. Rd., Taipei, Taiwan
 </p>
 <p>
@@ -4270,9 +4263,6 @@ update church_content set body = STRINGDECODE('<p>
 	
 	
 update church_content set body = STRINGDECODE('<p>
-<p>
-<b>傳道:</b> 陳俊年傳道, +886-9-7860-0153
-</p>
 <p>
 <b>地址: </b>台北市民生東路三段113巷25弄29號1樓
 </p>
