@@ -69,11 +69,9 @@
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
 				
 				<ul>
-					<li>6/25/16 East Coast Sports Day <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
-					<li>East Coast Vacation Bible Schools by CEC’s in Oradell, Towaco, and Livingston  <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
-					<li>Christian Evangelical Mission Summer Conferences in Spain, Holland  <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
 					<li>8/5/16 - 8/6/16 Church Building Dedication of Portuguese CEC’s  <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
 					<li>11/6/16 CEC Valencia 20th Anniversary Celebration <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
+					<li>12/30/16 - 1/2/17East Coast CEM Youth Winter Conference <br/><a href="${newsUrl}">Learn more  &#9656;</a></li>
 				</ul>
 			</div>
 		</div>
