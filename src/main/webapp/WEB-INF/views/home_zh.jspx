@@ -69,9 +69,9 @@
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
 				
 				<ul>
-					<li>8/5/16 - 8/6/16 葡萄牙生命堂獻堂典禮<br/><a href="${newsUrl}">詳情  &#9656;</a></li>
 					<li>11/6/16 瓦伦西亚基督教生命堂20周年慶<br/><a href="${newsUrl}">詳情  &#9656;</a></li>
 					<li>12/30/16 - 1/2/17 美東區生命堂青少年冬令會<br/><a href="${newsUrl}">詳情  &#9656;</a></li>
+					<li>12/31/16 - 1/2/17 日本大阪市冬令會<br/><a href="${newsUrl}">詳情  &#9656;</a></li>
 				</ul>
 			</div>			
 		
