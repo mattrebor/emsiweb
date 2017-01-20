@@ -19,7 +19,7 @@ update church_hierarchy
 
 update church set address='733 47th Street, Brooklyn, NY 11220, USA', latitude =  40.643776, longitude = -74.003064 where church_path = 'brooklyn';
 update church set address='248 Grand Street, New York, NY 10002, USA', latitude = 40.71841, longitude = -73.994011 where church_path = 'chinatown';
-update church set address='35-26 Union Street, Queens, NY 11354, USA', latitude = 40.764656, longitude = -73.828315 where church_path = 'queens';
+update church set address='41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA', latitude = 40.7550813, longitude = -73.8354977 where church_path = 'queens';
 update church set address='23 South 2nd Avenue, Highland Park, NJ 08904, USA', latitude = 40.4976633, longitude = -74.4299261 where church_path = 'highlandpark';
 update church set address='71 Old Road, Livingston, NJ 07039, USA', latitude = 40.794605, longitude = -74.348285 where church_path = 'livingston';
 update church set address='725 Mountain Avenue, Berkeley Heights, NJ 07922, USA', latitude = 40.669049, longitude = -74.438916 where church_path = 'murrayhill';
@@ -423,14 +423,12 @@ update church_content set body = STRINGDECODE('<p>
 <b>Tel #: </b> (C) 917-361-6866
 </p>
 <p>
-<iframe scrolling=\"no\" marginWidth=\"0\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=35-26+Union+St.+Flushing,+NY+11354&amp;aq=&amp;sll=40.764656,-73.828315&amp;sspn=0.012043,0.01487&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=35-26+Union+St,+Queens,+New+York+11354&amp;t=m&amp;ll=40.764681,-73.828297&amp;spn=0.031204,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" height=\"480\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=35-26+Union+St.+Flushing,+NY+11354&amp;aq=&amp;sll=40.764656,-73.828315&amp;sspn=0.012043,0.01487&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=35-26+Union+St,+Queens,+New+York+11354&amp;t=m&amp;ll=40.764681,-73.828297&amp;spn=0.031204,0.054932&amp;z=14&amp;iwloc=A\" style=\"text-align: left; color: #0000ff\">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3154862151764!2d-73.83550304989103!3d40.755085342815654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600ce23452b9%3A0x17655461d6a389e9!2s41-42+College+Point+Blvd+%232b%2C+Flushing%2C+NY+11355!5e0!3m2!1sen!2sus!4v1484795713676" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'queens')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>地址: </b>35-26 Union St. Flushing, NY 11354, USA
@@ -439,7 +437,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電話:</b> (手機)917-361-6866
 </p>
 <p>
-<iframe scrolling=\"no\" marginWidth=\"0\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=35-26+Union+St.+Flushing,+NY+11354&amp;aq=&amp;sll=40.764656,-73.828315&amp;sspn=0.012043,0.01487&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=35-26+Union+St,+Queens,+New+York+11354&amp;t=m&amp;ll=40.764681,-73.828297&amp;spn=0.031204,0.054932&amp;z=14&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" height=\"480\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=35-26+Union+St.+Flushing,+NY+11354&amp;aq=&amp;sll=40.764656,-73.828315&amp;sspn=0.012043,0.01487&amp;vpsrc=0&amp;ie=UTF8&amp;hq=&amp;hnear=35-26+Union+St,+Queens,+New+York+11354&amp;t=m&amp;ll=40.764681,-73.828297&amp;spn=0.031204,0.054932&amp;z=14&amp;iwloc=A\" style=\"text-align: left; color: #0000ff\">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3154862151764!2d-73.83550304989103!3d40.755085342815654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600ce23452b9%3A0x17655461d6a389e9!2s41-42+College+Point+Blvd+%232b%2C+Flushing%2C+NY+11355!5e0!3m2!1sen!2sus!4v1484795713676" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'queens')
 	and locale = 'zh'
@@ -3704,7 +3702,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:emsi_kobe@hotmail.co.jp">emsi_kobe@hotmail.co.jp</a><br />
+			<td><a href="mailto:emsikobe@hotmail.com">emsikobe@hotmail.com</a><br />
 			</td>
 		</tr>
 	</tbody>
@@ -3764,7 +3762,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: emsi_kobe@hotmail.co.jp"> emsi_kobe@hotmail.co.jp</a></td>
+			<td><a href=\"mailto: emsikobe@hotmail.com"> emsikobe@hotmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3805,7 +3803,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Tel #: </b>81-78-381-9837, (C) 81-80-3868-5377
 </p>
 <p>
-<b>Email: </b>emsi_kobe@hotmail.co.jp
+<b>Email: </b>emsikobe@hotmail.com
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E7%A5%9E%E6%88%B6%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8D%80%E5%85%83%E7%94%BA%E9%80%9A+2-9-1+%E5%85%83%E7%94%BA+703%E5%AE%A4&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+Hy%C5%8Dgo-ken,+K%C5%8Dbe-shi,+Ch%C5%AB%C5%8D-ku,+Motomachid%C5%8Dri,+%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91+%E5%85%83%E7%94%BA%E3%83%97%E3%83%A9%E3%82%B6&amp;gl=us&amp;ll=34.688923,135.186962&amp;spn=0.006616,0.011351&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=%E7%A5%9E%E6%88%B6%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8D%80%E5%85%83%E7%94%BA%E9%80%9A+2-9-1+%E5%85%83%E7%94%BA+703%E5%AE%A4&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+Hy%C5%8Dgo-ken,+K%C5%8Dbe-shi,+Ch%C5%AB%C5%8D-ku,+Motomachid%C5%8Dri,+%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91+%E5%85%83%E7%94%BA%E3%83%97%E3%83%A9%E3%82%B6&amp;gl=us&amp;ll=34.688923,135.186962&amp;spn=0.006616,0.011351&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -3830,7 +3828,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電話:</b> 81-78-381-9837, (C) 81-80-3868-5377
 </p>
 <p>
-<b>電郵: </b>emsi_kobe@hotmail.co.jp
+<b>電郵: </b>emsikobe@hotmail.com
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E7%A5%9E%E6%88%B6%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8D%80%E5%85%83%E7%94%BA%E9%80%9A+2-9-1+%E5%85%83%E7%94%BA+703%E5%AE%A4&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+Hy%C5%8Dgo-ken,+K%C5%8Dbe-shi,+Ch%C5%AB%C5%8D-ku,+Motomachid%C5%8Dri,+%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91+%E5%85%83%E7%94%BA%E3%83%97%E3%83%A9%E3%82%B6&amp;gl=us&amp;ll=34.688923,135.186962&amp;spn=0.006616,0.011351&amp;t=m&amp;z=14&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=%E7%A5%9E%E6%88%B6%E5%B8%82%E4%B8%AD%E5%A4%AE%E5%8D%80%E5%85%83%E7%94%BA%E9%80%9A+2-9-1+%E5%85%83%E7%94%BA+703%E5%AE%A4&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+Hy%C5%8Dgo-ken,+K%C5%8Dbe-shi,+Ch%C5%AB%C5%8D-ku,+Motomachid%C5%8Dri,+%EF%BC%92%E4%B8%81%E7%9B%AE%EF%BC%99%E2%88%92%EF%BC%91+%E5%85%83%E7%94%BA%E3%83%97%E3%83%A9%E3%82%B6&amp;gl=us&amp;ll=34.688923,135.186962&amp;spn=0.006616,0.011351&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
