@@ -3500,6 +3500,220 @@ update church_content set body = STRINGDECODE('<p>
 
 -----------------------end Portugal - Setubal
 	
+---------- Queens - performingArtists  New church Jan 2017 ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(59, 'performingArtists', 1, 10, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(59, 'en', 'menu_name', 'Performing Artists Gospel Fellowship in New York');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(59, 'zh', 'menu_name', '紐約藝人基督教生命堂 ');            
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 59);          
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'intro', 'en', 'Performing Artists Gospel Fellowship in New York  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Professor Jing Huang, 973-335-7177 ext.211</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+	<table cellpadding="1px" cellspacing="0px">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">Address:</td>
+				<td>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">Tel#:</td>
+				<td> 917-488-8610 </td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">Email:</td>
+				<td><a href=\"mailto: jhuang277@gmail.com"> jhuang277@gmail.com</a></td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+	<p><span class="label">Established Date: </span>2017</p>
+
+</div>
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'intro', 'zh', '紐約藝人基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">牧者:</td>
+			<td>黃靜 教授, 973-335-7177 ext.211</td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+	<table cellpadding="1" cellspacing="0">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">地址:</td>
+				<td>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">電話:</td>
+				<td> 917-488-8610</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">電郵:</td>
+				<td><a href=\"mailto: jhuang277@gmail.com"> jhuang277@gmail.com</a></td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<span class=\"label\">成立日期: </span>2017 
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'contactus', 'en', 'Performing Artists Gospel Fellowship in New York - Contact Us', 'Performing Artists Gospel Fellowship in New York<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'contactus', 'zh', '紐約藝人基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'schedule', 'en', 'Performing Artists Gospel Fellowship in New York - Church Services Schedule', 
+'<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Sunday Worship</td>
+			<td>Sunday</td>
+			<td>7:00pm</td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting</td>
+			<td>Sunday</td>
+			<td>6:00pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study</td>
+			<td>Tuesday</td>
+			<td>7:30pm</td>
+		</tr>
+		<tr>
+			<td>Fellowship</td>
+			<td>Thursday</td>
+			<td>7:30pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'schedule', 'zh', '紐約藝人基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</td>
+			<td>星期日 晚</td>
+			<td>7:00pm</td>
+		</tr>
+		<tr>
+			<td>禱告會</td>
+			<td>星期日 晚</td>
+			<td>6:00pm</td>
+		</tr>
+		<tr>
+			<td>查經班</td>
+			<td>星期二 晚</td>
+			<td>7:30pm</td>
+		</tr>
+		<tr>
+			<td>團契</td>
+			<td>星期四 晚</td>
+			<td>7:30pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');             
+
+
+update church set address='41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA', latitude = 40.7550219, longitude = -73.8357917 where church_path = 'performingArtists';
+
+update church_content set body = STRINGDECODE('
+<style>
+.indentation {margin:20px;}
+</style>
+<p>
+<b>Pastor: </b>Professor Jing Huang, 973-335-7177 ext.211
+</p>
+<p>
+<b>Address: </b>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</p>
+<p>
+<b>Tel #: </b> 917-488-8610</p>
+<p>
+<b>Email: </b>jhuang277@gmail.com </p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3183712579007!2d-73.8357916845937!3d40.75502187932727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600ce68c3171%3A0x38c7f1950cd74a88!2s41-42+College+Point+Blvd%2C+Flushing%2C+NY+11355!5e0!3m2!1sen!2sus!4v1485060369549" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'performingArtists')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>牧者: </b>黃靜 教授, 973-335-7177 ext.211
+</p>
+<p>
+<b>地 址: </b>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA
+</p>
+<p>
+<b>電 話: </b>917-488-8610
+</p>
+<p>
+<b>電 郵: </b>jhuang277@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3183712579007!2d-73.8357916845937!3d40.75502187932727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600ce68c3171%3A0x38c7f1950cd74a88!2s41-42+College+Point+Blvd%2C+Flushing%2C+NY+11355!5e0!3m2!1sen!2sus!4v1485060369549" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'performingArtists')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+-----------------------end Queens - performingArtists
+	
 
 	
 -----------------starts Hungary - budapest
