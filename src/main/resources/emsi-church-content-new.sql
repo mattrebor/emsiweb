@@ -1201,6 +1201,10 @@ p span.label {font-weight: bold;}
 			<td class="label">Evangelist:</td>
 			<td>Ev. Yongsheng Zhang (C) 646-462-6116</td>
 		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Jonathan Poon, 973-335-7337 ext. 203, (C) 973-979-1950</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -1274,6 +1278,10 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label">傳道:</td>
 			<td>張勇生 傳道, (手機)646-462-6116</td>
+		</tr>
+		<tr>
+			<td class="label">傳道:</td>
+			<td>潘逸豪 傳道, 973-335-7337 ext. 203, (手機) 973-979-1950</td>
 		</tr>
 	</tbody>
 </table>
@@ -6224,10 +6232,6 @@ p span.label {font-weight: bold;}
 			<td>Ev. Patty Chien, 973-335-7337 ext. 200, (C) 201-993-3043</td>
 		</tr>
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Jonathan Poon, 973-335-7337 ext. 203, (C) 973-979-1950</td>
-		</tr>
-		<tr>
 			<td class="label">Youth Minister:</td>
 			<td>Ev. Wingkit Chan, 973-335-7337 ext. 250, (C) 973-413-4132</td>
 		</tr>
@@ -6309,10 +6313,6 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\">傳道:</td>
 			<td>錢舜 傳道, 973-335-7337 ext. 200, (手機) 201-993-3043</td>
-		</tr>
-		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>潘逸豪 傳道, 973-335-7337 ext. 203, (手機) 973-979-1950</td>
 		</tr>
 		<tr>
 			<td class=\"label\">青年事工:</td>
@@ -6508,28 +6508,6 @@ update church_content set body = STRINGDECODE('<p>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">潘逸豪 傳道</span></span> 
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 203</span></span> 
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-979-1950</span></span> 
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">jc1jj2@gmail.com</span></span></span> 
-			</p>
-			</td>
-		</tr>
-		<tr>
-			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000"> 陳永傑 傳道</span></span> 
 			</p>
 			</td>
@@ -6713,28 +6691,6 @@ Christian Evangelical Mission Church in Towaco
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">pattym33@juno.com</span></span></span> 
-			</p>
-			</td>
-		</tr>
-		<tr>
-			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ev. Jonathan Poon</span></span> 
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 203</span></span> 
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-979-1950</span></span> 
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">jc1jj2@gmail.com</span></span></span> 
 			</p>
 			</td>
 		</tr>
