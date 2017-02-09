@@ -342,7 +342,7 @@ Praise the Lord. He guided the CEC in Queens all the way. He strengthened brothe
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
