@@ -269,6 +269,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 	
 		
 ---------------------update queens pages
+---------------------updated address 2-8-17
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
