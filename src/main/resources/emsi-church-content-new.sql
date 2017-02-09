@@ -294,7 +294,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> 35-26 Union St. Flushing, NY 11354, USA</td>
+			<td> 41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -366,7 +366,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> 35-26 Union St. Flushing, NY 11354, USA</td>
+			<td> 41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -417,7 +417,7 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Address: </b>35-26 Union St. Flushing, NY 11354, USA
+<b>Address: </b>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA
 </p>
 <p>
 <b>Tel #: </b> (C) 917-361-6866
@@ -431,7 +431,7 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>地址: </b>35-26 Union St. Flushing, NY 11354, USA
+<b>地址: </b>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA
 </p>
 <p>
 <b>電話:</b> (手機)917-361-6866
