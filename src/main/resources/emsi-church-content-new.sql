@@ -269,6 +269,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 	
 		
 ---------------------update queens pages
+---------------------updated address 2-8-17
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -294,7 +295,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> 35-26 Union St. Flushing, NY 11354, USA</td>
+			<td> 41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -342,7 +343,7 @@ Praise the Lord. He guided the CEC in Queens all the way. He strengthened brothe
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -366,7 +367,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> 35-26 Union St. Flushing, NY 11354, USA</td>
+			<td> 41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -417,7 +418,7 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Address: </b>35-26 Union St. Flushing, NY 11354, USA
+<b>Address: </b>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA
 </p>
 <p>
 <b>Tel #: </b> (C) 917-361-6866
@@ -431,7 +432,7 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>地址: </b>35-26 Union St. Flushing, NY 11354, USA
+<b>地址: </b>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA
 </p>
 <p>
 <b>電話:</b> (手機)917-361-6866
