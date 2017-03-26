@@ -1191,10 +1191,6 @@ p span.label {font-weight: bold;}
 			<td>Rev. Moses Yang 973-335-7337, ext. 209, (C) 201-650-1923</td>
 		</tr>
 		<tr>
-			<td class="label">Pastor:</td>
-			<td>Rev. SenLiang Lin (C) 917-361-6866</td>
-		</tr>
-		<tr>
 			<td class="label">Evangelist:</td>
 			<td>Ev. Lingkin Lui (C) 917-753-7787</td>
 		</tr>
@@ -1269,10 +1265,6 @@ p span.label {font-weight: bold;}
 			<td>楊摩西 牧師, 973-335-7337 ext. 209, (手機)201-650-1923</td>
 		</tr>
 		<tr>
-			<td class="label">牧師:</td>
-			<td>林森良 牧師,  (手機)917-361-6866</td>
-		</tr>
-		<tr>
 			<td class="label">傳道:</td>
 			<td>呂嶺乾 傳道, (手機)917-753-7787</td>
 		</tr>
@@ -1327,6 +1319,207 @@ p span.label {font-weight: bold;}
 where church_id = (select church_id from church where church_path = 'chinatown')
 and locale = 'zh'
 and page_id = 'intro';
+
+
+	
+update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
+ 
+Sunday Worship 10:30 PM, 1:30 PM and 6:30 PM<br>
+The Chinese Service at 10:30 AM is conducted mainly in Cantonese with Mandarin translation.<br>
+The English service at 1:30 PM is solely conducted in English.<br>
+The Fuzhou/Mandarin service at 6:30 PM is conducted mainly in Mandarin.<br><br>
+	<tbody>
+		<tr>
+			<td>粵語/國語堂崇拜 Cantonese/Mandarin Worship Service</td>
+			<td>週日上午 Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>英語堂崇拜 English Worship Service</td>
+			<td>週日下午 Sunday</td>
+			<td>01:30 pm</td>
+		</tr>
+		<tr>
+			<td>福州語/國語堂崇拜 FuZhou/Mandarin Worship Service</td>
+			<td>週日晚上 Sunday</td>
+			<td>06:30 pm</td>
+		</tr>
+		<tr >
+			<td>詩班 Choir</td>
+			<td>週日上午 Sunday</td>
+			<td>09:30 am</td>
+		</tr>
+		<tr style= "border-top:solid black 2pt;">
+			<td>兒童節目 Children’s Program</td>
+			<td>週日上午 Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>兒童詩班 Children’s Choir</td>
+			<td>週日上午 Sunday</td>
+			<td>11:00 am</td>
+		</tr>
+		<tr>
+			<td>青少年團契 Youth Fellowship</td>
+			<td>週日上午 Sunday</td>
+			<td>11:00 am</td>
+		</tr>
+		<tr>
+			<td>兒童團契 Children Fellowship</td>
+			<td>週日中午  Sunday</td>
+			<td>12:30 pm</td>
+		</tr>
+		<tr style= "border-bottom:solid black 2pt;">
+			<td>兒童主日學 Children Sunday School</td>
+			<td>週日下午 Sunday</td>
+			<td>01:00 pm</td>
+		</tr>
+		<tr style= "border-top:solid black 2pt;">
+			<td>粵語/國語查經班 Cantonese/Mandarin Bible Study</td>
+			<td>週日上午 Sunday</td>
+			<td>11:45 am</td>
+		</tr>
+		<tr>
+			<td>中英文查經班 Mandarin/English Bible Study　 </td>
+			<td>每月第三個週日下午 Every 3rd Sunday</td>
+			<td>01:00 pm</td>
+		</tr>
+		<tr>
+			<td>國語查經禱告會 Mandarin Prayer Meeting & Bible Study</td>
+			<td>週五上午 Friday</td>
+			<td>11:00 am</td>
+		</tr>
+		<tr>
+			<td>國語查經班 Mandarin Bible Study</td>
+			<td>週六晚上 Saturday</td>
+			<td>06:30 pm</td>
+		</tr>
+		<tr style= "border-top:solid black 2pt;">
+			<td>姐妹團契 (英文) Women&#39;s Fellowship (English)</td>
+			<td>每月第二個週日下午 Every 2nd Sunday </td>
+			<td>02:45 pm</td>
+		</tr>
+		<tr>
+			<td>夫婦團契 (英文) Couple’s Fellowship (English)</td>
+			<td>每月第四個週日下午 Every 4th Sunday</td>
+			<td>03:00 pm</td>
+		</tr>
+		<tr>
+			<td>粵語生命團契 Cantonese Gospel Fellowship　 </td>
+			<td>週三上午 Wednesday</td>
+			<td>11:00 am</td>
+		</tr>
+		<tr>
+			<td>紐約市福音團契 New York City Evangelical Fellowship</td>
+			<td>週五晚上 Friday</td>
+			<td>07:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'chinatown')
+	and locale = 'en'
+	and page_id = 'schedule';	
+	
+	
+update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
+ 
+	<tbody>
+		<tr>
+			<td>粵語/國語堂崇拜 Cantonese/Mandarin Worship Service</td>
+			<td>週日上午 Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>英語堂崇拜 English Worship Service</td>
+			<td>週日下午 Sunday</td>
+			<td>01:30 pm</td>
+		</tr>
+		<tr>
+			<td>福州語/國語堂崇拜 FuZhou/Mandarin Worship Service</td>
+			<td>週日晚上 Sunday</td>
+			<td>06:30 pm</td>
+		</tr>
+		<tr >
+			<td>詩班 Choir</td>
+			<td>週日上午 Sunday</td>
+			<td>09:30 am</td>
+		</tr>
+		<tr style= "border-top:solid black 2pt;">
+			<td>兒童節目 Children’s Program</td>
+			<td>週日上午 Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>兒童詩班 Children’s Choir</td>
+			<td>週日上午 Sunday</td>
+			<td>11:00 am</td>
+		</tr>
+		<tr>
+			<td>青少年團契 Youth Fellowship</td>
+			<td>週日上午 Sunday</td>
+			<td>11:00 am</td>
+		</tr>
+		<tr>
+			<td>兒童團契 Children Fellowship</td>
+			<td>週日中午  Sunday</td>
+			<td>12:30 pm</td>
+		</tr>
+		<tr style= "border-bottom:solid black 2pt;">
+			<td>兒童主日學 Children Sunday School</td>
+			<td>週日下午 Sunday</td>
+			<td>01:00 pm</td>
+		</tr>
+		<tr style= "border-top:solid black 2pt;">
+			<td>粵語/國語查經班 Cantonese/Mandarin Bible Study</td>
+			<td>週日上午 Sunday</td>
+			<td>11:45 am</td>
+		</tr>
+		<tr>
+			<td>中英文查經班 Mandarin/English Bible Study　 </td>
+			<td>每月第三個週日下午 Every 3rd Sunday</td>
+			<td>01:00 pm</td>
+		</tr>
+		<tr>
+			<td>國語查經禱告會 Mandarin Prayer Meeting & Bible Study</td>
+			<td>週五上午 Friday</td>
+			<td>11:00 am</td>
+		</tr>
+		<tr>
+			<td>國語查經班 Mandarin Bible Study</td>
+			<td>週六晚上 Saturday</td>
+			<td>06:30 pm</td>
+		</tr>
+		<tr style= "border-top:solid black 2pt;">
+			<td>姐妹團契 (英文) Women&#39;s Fellowship (English)</td>
+			<td>每月第二個週日下午 Every 2nd Sunday </td>
+			<td>02:45 pm</td>
+		</tr>
+		<tr>
+			<td>夫婦團契 (英文) Couple’s Fellowship (English)</td>
+			<td>每月第四個週日下午 Every 4th Sunday</td>
+			<td>03:00 pm</td>
+		</tr>
+		<tr>
+			<td>粵語生命團契 Cantonese Gospel Fellowship　 </td>
+			<td>週三上午 Wednesday</td>
+			<td>11:00 am</td>
+		</tr>
+		<tr>
+			<td>紐約市福音團契 New York City Evangelical Fellowship</td>
+			<td>週五晚上 Friday</td>
+			<td>07:00 pm</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'chinatown')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+
 
 ------------  ends chinatown
 
@@ -7270,12 +7463,12 @@ update church_content set body = '<table border="1" cellpadding="5">
 			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td>Men&#39; Fellowship</td>
+			<td>Men&#39; s Fellowship</td>
 			<td>Every 2nd Saturday</td>
 			<td>10:30 am</td>
 		</tr>
 		<tr>
-			<td>Women&#39; Fellowship</td>
+			<td>Women&#39; s Fellowship</td>
 			<td>Every 2nd Saturday</td>
 			<td>10:30 am</td>
 		</tr>
