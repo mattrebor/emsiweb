@@ -5954,7 +5954,7 @@ update church_content set body = STRINGDECODE('<p>
 
 	
 	
-	
+----------  starts spain - Alicante	
 update church_content set body = STRINGDECODE('<style>
 .contact-content {
 FONT-FAMILY: Arial,helvetica,sans-serif
@@ -5980,7 +5980,11 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Zuquan Lai</td>
+			<td>Ev. Ruo Shu Chen</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Na Li</td>
 		</tr>
 	</tbody>
 </table>
@@ -5996,16 +6000,6 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
 			<td>34-965-123-563</td>
-		</tr>
-		<tr>
-			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
-			<td class="label">Email:</td>
-			<td><a href="mailto:emsi-alicante@hotmail.com">emsi-alicante@hotmail.com</a></td>
-		</tr>
-		<tr>
-			<td><img src="/emsi/images/icon_skype.gif" height="16" width="16" /></td>
-			<td class="label">Skype:</td>
-			<td>emsialicante</td>
 		</tr>
 	</tbody>
 </table>
@@ -6030,6 +6024,112 @@ In 2005 September, Evangelist Li Suxin became ill and went to China for treatmen
 ')	where church_id = (select church_id from church where church_path = 'alicante')
 	and locale = 'en'
 	and page_id = 'intro';
+	
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>陳若抒 傳道</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>李娜 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 34-965-123-563 </td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>2002年 12月25日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/alicante2008med.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />一九九七年五月間，貝妮東（Benidorm）和愛麗甘地（Alicante）兩城的拓荒工作同時展開。神引導、帶領我們先於貝妮東成立生命堂。由於貝妮東至愛麗甘地只要四十分鐘的車程，因此貝妮東生命堂成立後，就有許多愛麗甘地的弟兄姐妹前來聚會。時隔五年之後，愛麗甘地基督教生命堂終於在二○○二年的聖誕節成立了。
+</p>
+<p>2005年２月，教会在市中心的汽车站后面租到了一套房子可以作为住宿和聚会使用，５月初，从巴黎神学院回来西班牙实习的李素欣就被差派前来爱丽甘地生命堂开展这里教会圣工．
+</p>
+<p>2005年9月，李素欣传道因病回国，期间由潘少萍传道临时代理教会的牧养工作，之后于10月16日起由赖祖全传道接续牧会直到2006年1月底李素欣传道回来。2006年7月初李素欣传道再次回国治病，教会工作由赖祖全传道负责。
+</p>
+
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'alicante')
+	and locale = 'zh'
+	and page_id = 'intro';
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<p>
+<b>Evangelist: </b>Ruo Shu Chen
+<p>
+<b>Evangelist: </b>Na Li
+</p>
+<p>
+<b>Address: </b>C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain
+</p>
+<p>
+<b>Tel #: </b>34-965-123-563
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100150.39507217969!2d-0.53903!3d38.332781!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd62364b06f6ecf1%3A0x5d92193cef4f2137!2sCarrer+Pintor+Aparicio%2C+10%2C+03003+Alacant%2C+Alicante%2C+Spain!5e0!3m2!1sen!2sus!4v1493602921810" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'alicante')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 陳若抒 傳道
+</p>
+<p>
+<b>傳道:</b> 李娜 傳道
+</p>
+<p>
+<b>地址: </b>C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain
+</p>
+<p>
+<b>電話:</b> 34-965-123-563
+</p>
+
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100150.39507217969!2d-0.53903!3d38.332781!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd62364b06f6ecf1%3A0x5d92193cef4f2137!2sCarrer+Pintor+Aparicio%2C+10%2C+03003+Alacant%2C+Alicante%2C+Spain!5e0!3m2!1sen!2sus!4v1493602921810" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'alicante')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+----------  ends spain - Alicante	
 	
 	
 ---------begins Gran Canaria
