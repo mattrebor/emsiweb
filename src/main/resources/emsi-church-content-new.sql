@@ -5954,6 +5954,191 @@ update church_content set body = STRINGDECODE('<p>
 
 	
 	
+----------  starts spain - benidorm	
+update church_content set body = STRINGDECODE('<style>
+.contact-content {
+FONT-FAMILY: Arial,helvetica,sans-serif
+}
+.contact-content TD {
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px: 
+}
+TD.label {
+WIDTH: 1%; WHITE-SPACE: nowrap; FONT-WEIGHT: bold
+}
+P SPAN.label {
+FONT-WEIGHT: bold
+}
+.main-content {
+FONT-FAMILY: Arial, MingLiU, Helvetica, san-serif; COLOR: #333; FONT-SIZE: 13px
+}
+.borderless-table {
+BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellPadding="0" cellSpacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Ruo Shu Chen</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Na Li</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellPadding="1" cellSpacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>34-965-868-911</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td>34-965-868-911</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" SIZE="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>December 25, 1997 
+</p>
+<p>
+<img hspace="5" src="/emsi/files/cecbenidorm.jpg\" alt="CEC Benidorm" align="left" title="CEC Benidorm" height="270" width="360" />In April 1997, some new believers from Valencia went to Alicante to find jobs, because of their fervency for the Lord. They had influenced other people to have the desire for the gospel. On May 14, 1997, Ev. Joan Dan from the CEC in Valencia went to Atea to visit them. On that day, they established the Atea Bible Study group at the International Restaurant. The owner of the restaurant, Mr. & Mrs. Hu and another 4 people were baptized. Since May 21, Ev. Li and Ev. Ye continually went to Benidorm and the surrounding areas for visitation. In October, Rev. Hosea Chi served there for 2 months. On December 10, they had an evangelistic meeting led by Rev. Moses Yang and 5 members were baptized. On Christmas Day, they had a Christmas Service with 120 people. The CEC in Benidorm was formally established and pastured by Ev. Jian Wei Ye. From May, 1997 to April 2000, there are 49 people who are baptized. The average church attendance is 50-60 people. Aside from the Sunday Worship Service, there is one Bible Study group and a prayer meeting.
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'benidorm')
+	and locale = 'en'
+	and page_id = 'intro';
+	
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>陳若抒 傳道</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>李娜 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 34-965-868-911 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> 34-965-868-911 </td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: </span>1997年 12月25日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/cecbenidorm.jpg\" alt="CEC Benidorm" align="left" title="CEC Benidorm" height="270" width="360" />一九九七年四月間，瓦倫西亞生命堂初信受洗的劉永月弟兄及阮肖芬姐妹換工作，搬至愛麗甘地省(Alicante)，此地距瓦倫西亞車程約兩個小時，距馬德里則需六個多小時，他們非常熱心的帶起當地華人對福音的渴慕。佈道會派在瓦倫西亞生命堂短宣的但功濤傳道前往Atea城關懷，五月十四日在國際酒樓成立『愛得雅查經班』。當天有餐館老板胡永恒夫婦等六人受洗。隔週李傳道、葉傳道繼續探訪Alicante省Benidorm城、省會Alicante市和地中海沿岸諸城市</p>
+<p>六月廿六日，但傳道返美，十月戚傳道至瓦倫西亞生命堂，繼續努力的開發及耕耘愛麗甘地這片未得之地。十二月初，趁楊牧師帶師母至西班牙及葡萄牙旅遊；我們借得貝妮東當地教會，在十二月十日午夜舉辦一場佈道會，會中有五人受洗。該教會外籍牧師夫婦首次見到這麼多華人在深夜聚集聽道，很受感動，建議楊牧師切勿停頓如此聖工，所以我們決定在聖誕節晚上要辦一場晚會。在聖靈的催促與感動下，楊牧師授意要成立「貝妮東基督教生命堂」；並委任葉建偉弟兄為西班牙分會傳道。一九九七年十二月25日午夜，「貝妮東基督教生命堂」成立典禮暨聖誕晚會，在一百二十餘人的禱告讚美聲中揭幕。
+</p>
+
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'benidorm')
+	and locale = 'zh'
+	and page_id = 'intro';
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<p>
+<b>Evangelist: </b>Ruo Shu Chen
+<p>
+<b>Evangelist: </b>Na Li
+</p>
+<p>
+<b>Address: </b>Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain
+</p>
+<p>
+<b>Tel #: </b>34-965-868-911
+</p>
+<p>
+<b>Fax #: </b>34-965-868-911
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29689.0055337631!2d-0.12279734845522043!3d38.541321720030204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6204f21d5d6ce9%3A0x3a0be5f3ff5a2709!2zQXYuIGRlIGxhIENvbXVuaXRhdCBWYWxlbmNpYW5hLCAxNCwgMDM1MDMgQmVuaWRvcm0sIEFsaWNhbnRlLCDopb_nj63niZk!5e0!3m2!1szh-CN!2sus!4v1493604155354" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'benidorm')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 陳若抒 傳道
+</p>
+<p>
+<b>傳道:</b> 李娜 傳道
+</p>
+<p>
+<b>地址: </b>Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain
+</p>
+<p>
+<b>電話:</b> 34-965-868-911
+</p>
+<p>
+<b>傳真:</b> 34-965-868-911
+</p>
+
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29689.0055337631!2d-0.12279734845522043!3d38.541321720030204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6204f21d5d6ce9%3A0x3a0be5f3ff5a2709!2zQXYuIGRlIGxhIENvbXVuaXRhdCBWYWxlbmNpYW5hLCAxNCwgMDM1MDMgQmVuaWRvcm0sIEFsaWNhbnRlLCDopb_nj63niZk!5e0!3m2!1szh-CN!2sus!4v1493604155354" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'benidorm')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+----------  ends spain - Alicante	
+	
+	
 ----------  starts spain - Alicante	
 update church_content set body = STRINGDECODE('<style>
 .contact-content {
