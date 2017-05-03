@@ -5979,11 +5979,11 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 <table cellPadding="0" cellSpacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
+			<td class="label">Evangelists:</td>
 			<td>Ev. Ruo Shu Chen</td>
 		</tr>
 		<tr>
-			<td class="label">Evangelist:</td>
+			<td class="label"> </td>
 			<td>Ev. Na Li</td>
 		</tr>
 	</tbody>
@@ -6041,7 +6041,7 @@ p span.label {font-weight: bold;}
 			<td>陳若抒 傳道</td>
 		</tr>
 		<tr>
-			<td class=\"label\">傳道:</td>
+			<td class=\"label\"> </td>
 			<td>李娜 傳道</td>
 		</tr>
 	</tbody>
@@ -6091,9 +6091,9 @@ p span.label {font-weight: bold;}
 update church_content set body = STRINGDECODE('<p>
 <p>
 <p>
-<b>Evangelist: </b>Ruo Shu Chen
-<p>
-<b>Evangelist: </b>Na Li
+<b>Evangelists: </b>Ruo Shu Chen
+<p style="padding-left: 90px;">
+Na Li
 </p>
 <p>
 <b>Address: </b>Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain
@@ -6116,8 +6116,8 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道:</b> 陳若抒 傳道
 </p>
-<p>
-<b>傳道:</b> 李娜 傳道
+<p style="padding-left: 40px;">
+李娜 傳道
 </p>
 <p>
 <b>地址: </b>Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain
@@ -6136,7 +6136,7 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
-----------  ends spain - Alicante	
+----------  ends spain - Benidorm	
 	
 	
 ----------  starts spain - Alicante	
@@ -6164,11 +6164,11 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 <table cellPadding="0" cellSpacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
+			<td class="label">Evangelists:</td>
 			<td>Ev. Ruo Shu Chen</td>
 		</tr>
 		<tr>
-			<td class="label">Evangelist:</td>
+			<td class="label"> </td>
 			<td>Ev. Na Li</td>
 		</tr>
 	</tbody>
@@ -6227,7 +6227,7 @@ p span.label {font-weight: bold;}
 			<td>陳若抒 傳道</td>
 		</tr>
 		<tr>
-			<td class=\"label\">傳道:</td>
+			<td class=\"label\"> </td>
 			<td>李娜 傳道</td>
 		</tr>
 	</tbody>
@@ -6275,9 +6275,9 @@ p span.label {font-weight: bold;}
 update church_content set body = STRINGDECODE('<p>
 <p>
 <p>
-<b>Evangelist: </b>Ruo Shu Chen
-<p>
-<b>Evangelist: </b>Na Li
+<b>Evangelists: </b>Ruo Shu Chen
+<p style="padding-left: 90px;">
+Na Li
 </p>
 <p>
 <b>Address: </b>C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain
@@ -6297,8 +6297,8 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道:</b> 陳若抒 傳道
 </p>
-<p>
-<b>傳道:</b> 李娜 傳道
+<p style="padding-left: 40px;">
+李娜 傳道
 </p>
 <p>
 <b>地址: </b>C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain
