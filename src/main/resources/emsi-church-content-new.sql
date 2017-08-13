@@ -1566,7 +1566,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td><img src="/emsi/images/icon_email.gif" width="16" height="16" /></td>
 <td class="label">Email:</td>
-<td><a href="mailto:guodanj@yahoo.es">guodanj@yahoo.es</a></td>
+<td><a href="mailto:emsifuencheng@gmail.com">emsifuencheng@gmail.com</a></td>
 </tr>
 </tbody>
 </table>
@@ -1630,7 +1630,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 <td class="label">電郵:</td>
-<td><a href="mailto:guodanj@yahoo.es">guodanj@yahoo.es</a></td>
+<td><a href="mailto:emsifuencheng@gmail.com">emsifuencheng@gmail.com</a></td>
 </tr>
 </tbody>
 </table>
@@ -1678,7 +1678,7 @@ update church_content set body = STRINGDECODE('
 <b>Fax #: </b>34-91-459-5844
 </p>
 <p>
-<b>Email: </b>guodanj@yahoo.es
+<b>Email: </b>emsifuencheng@gmail.com
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3044.5016362406564!2d-3.7553224846087114!3d40.264605679383074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418aa348f66465%3A0xea8186b3640cf22a!2sCalle+Matarrosa%2C+30%2C+28947+Fuenlabrada%2C+Madrid%2C+Spain!5e0!3m2!1sen!2sus!4v1454817807190" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
@@ -1704,7 +1704,7 @@ update church_content set body = STRINGDECODE('
 <b>傳真: </b>34-91-459-5844
 </p>
 <p>
-<b>電郵: </b>guodanj@yahoo.es
+<b>電郵: </b>emsifuencheng@gmail.com
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3044.5016362406564!2d-3.7553224846087114!3d40.264605679383074!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd418aa348f66465%3A0xea8186b3640cf22a!2sCalle+Matarrosa%2C+30%2C+28947+Fuenlabrada%2C+Madrid%2C+Spain!5e0!3m2!1sen!2sus!4v1454817807190" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -6016,6 +6016,7 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 <p>
 <span class="label">Established Date: </span>December 25, 1997 
 </p>
+<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
 <p>
 <img hspace="5" src="/emsi/files/cecbenidorm.jpg\" alt="CEC Benidorm" align="left" title="CEC Benidorm" height="270" width="360" />In April 1997, some new believers from Valencia went to Alicante to find jobs, because of their fervency for the Lord. They had influenced other people to have the desire for the gospel. On May 14, 1997, Ev. Joan Dan from the CEC in Valencia went to Atea to visit them. On that day, they established the Atea Bible Study group at the International Restaurant. The owner of the restaurant, Mr. & Mrs. Hu and another 4 people were baptized. Since May 21, Ev. Li and Ev. Ye continually went to Benidorm and the surrounding areas for visitation. In October, Rev. Hosea Chi served there for 2 months. On December 10, they had an evangelistic meeting led by Rev. Moses Yang and 5 members were baptized. On Christmas Day, they had a Christmas Service with 120 people. The CEC in Benidorm was formally established and pastured by Ev. Jian Wei Ye. From May, 1997 to April 2000, there are 49 people who are baptized. The average church attendance is 50-60 people. Aside from the Sunday Worship Service, there is one Bible Study group and a prayer meeting.
 </p>
@@ -6332,12 +6333,12 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Pastor:</td>
-			<td>Rev. Guo Dan Jiang, 34-620-630-901</td>
+			<td class="label">Evangelists:</td>
+			<td>Ev. Huan Jin, 628-667-979</td>
 		</tr>
 		<tr>
-			<td class="label">Contact:</td>
-			<td>Bao Ying Ye, 34-656-431-694</td>
+			<td class="label"></td>
+			<td>Ev. Lin Tao Wu, 654-852-708</td>
 		</tr>
 	</tbody>
 
@@ -6353,7 +6354,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>34-620-630-901 , 34-656-431-694</td>
+			<td>628-667-979, 654-852-708</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
@@ -6363,7 +6364,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:guodanj@yahoo.es">guodanj@yahoo.es</a><br />
+			<td><a href="mailto:emsigrancanaria@yahoo.com">emsigrancanaria@yahoo.com</a><br />
 			</td>
 		</tr>
 	</tbody>
@@ -6398,12 +6399,12 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">牧師:</td>
-			<td>蔣國淡 牧師, 34-620-630-901</td>
+			<td class=\"label\">傳道:</td>
+			<td>金歡 傳道, 628-667-979</td>
 		</tr>
 		<tr>
-			<td class=\"label\">聯絡人:</td>
-			<td>葉寶英姊妹, 34-656-431-694</td>
+			<td class=\"label\"></td>
+			<td>吳林濤 傳道, 654-852-708</td>
 		</tr>
 	</tbody>
 </table>
@@ -6428,7 +6429,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: guodanj@yahoo.es"> guodanj@yahoo.es</a></td>
+			<td><a href=\"mailto: emsigrancanaria@yahoo.com"> emsigrancanaria@yahoo.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -6456,22 +6457,22 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor: </b>Rev. Guo Dan Jiang, 34-620-630-901
+<b>Evangelists: </b>Ev. Huan Jin,, 628-667-979
 </p>
 <p>
-<b>Contact: </b>Bao Ying Ye, 34-656-431-694
+<b>Evangelists: </b>Ev. Lin Tao Wu, 654-852-708
 </p>
 <p>
 <b>Address: </b>C/.Menceyes 36, 35110 Las Palmas, de Gran Canaria, Spain
 </p>
 <p>
-<b>Tel #: </b>34-620-630-901 , 34-656-431-694
+<b>Tel #: </b>628-667-979, 654-852-708
 </p>
 <p>
 <b>Fax #: </b>34-91-459-5844
 </p>
 <p>
-<b>Email: </b>guodanj@yahoo.es
+<b>Email: </b>emsigrancanaria@yahoo.com
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=C%2F.Menceyes+36%EF%BC%8C35110+Las+Palmas,+de+Gran+Canaria,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Menceyes,+36,+Santa+Luc%C3%ADa+de+Tirajana,+Las+Palmas,+Spain&amp;gl=us&amp;t=m&amp;z=14&amp;ll=27.850315,-15.447372&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=q=C%2F.Menceyes+36%EF%BC%8C35110+Las+Palmas,+de+Gran+Canaria,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Menceyes,+36,+Santa+Luc%C3%ADa+de+Tirajana,+Las+Palmas,+Spain&amp;gl=us&amp;t=m&amp;z=14&amp;ll=27.850315,-15.447372&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -6484,22 +6485,22 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師:</b> 蔣國淡 牧師, 34-620-630-901
+<b>傳道:</b> 金歡 傳道, 628-667-979
 </p>
 <p>
-<b>聯絡人:</b> 葉寶英 姊妹, 34-656-431-694
+<b>傳道:</b> 吳林濤 傳道, 654-852-708
 </p>
 <p>
 <b>地址: </b>C/.Menceyes 36, 35110 Las Palmas, de Gran Canaria, Spain
 </p>
 <p>
-<b>電話:</b> 34-620-630-901 , 34-656-431-694
+<b>電話:</b> 628-667-979, 654-852-708
 </p>
 <p>
 <b>傳真:</b> 34-91-459-5844
 </p>
 <p>
-<b>電郵: </b>guodanj@yahoo.es
+<b>電郵: </b>emsigrancanaria@yahoo.com
 </p>
 
 <p>
@@ -7236,12 +7237,9 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Ruoshu Chen</td>
+			<td>Ev. Chang Yu Zhou, (C) 351-962-222-221</td>
 		</tr>
-		<tr>
-			<td class="label">  </td>
-			<td>Ev. Na Li</td>
-		</tr>
+
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -7255,7 +7253,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0039 057 4831203, (C) 0039 327 7533773</td>
+			<td>0039 057 4831203, (C) 351-962-222-221</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -7308,12 +7306,9 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class="label">傳道:</td>
-			<td>陳若抒 傳道</td>
+			<td>周長宇 傳道 , (手機) 351-962-222-221</td>
 		</tr>
-		<tr>
-			<td class="label">  </td>
-			<td>李娜 傳道</td>
-		</tr>
+
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -7327,7 +7322,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 0039-057-483-1203, (C) 0039-327-753-3773 </td>
+			<td> 0039 057 4831203, (C) 351-962-222-221 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -7372,16 +7367,13 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Ruoshu Chen
-</p>
-<p>
-<b>Evangelist: </b>Ev. Na Li
+<b>Evangelist: </b>Ev. Chang Yu Zhou
 </p>
 <p>
 <b>Address: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
 </p>
 <p>
-<b>Tel #: </b>0039-057-483-1203, (C) 0039-327-753-3773
+<b>Tel #: </b>0039 057 4831203, (C) 351-962-222-221
 </p>
 <p>
 <b>Email: </b>CEMCPrato@gmail.com
@@ -7397,16 +7389,13 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 陳若抒 傳道
-</p>
-<p>
-<b>傳道:</b> 李娜 傳道
+<b>傳道:</b> 周長宇 傳道
 </p>
 <p>
 <b>地址: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
 </p>
 <p>
-<b>電話:</b> 0039-057-483-1203, (C) 0039-327-753-3773
+<b>電話:</b> 0039 057 4831203, (C) 351-962-222-221
 </p>
 <p>
 <b>電郵: </b>CEMCPrato@gmail.com
