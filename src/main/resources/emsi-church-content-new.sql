@@ -6419,7 +6419,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 34-620-630-901 , 34-656-431-694 </td>
+			<td> 628-667-979, 654-852-708 </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -6457,10 +6457,10 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelists: </b>Ev. Huan Jin,, 628-667-979
+<b>Evangelist: </b>Ev. Huan Jin, 628-667-979
 </p>
 <p>
-<b>Evangelists: </b>Ev. Lin Tao Wu, 654-852-708
+<b>Evangelist: </b>Ev. Lin Tao Wu, 654-852-708
 </p>
 <p>
 <b>Address: </b>C/.Menceyes 36, 35110 Las Palmas, de Gran Canaria, Spain
