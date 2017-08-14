@@ -46,8 +46,8 @@ update church set address='Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherland
 update church set address='Calle Carolinas, 10, 28039 Madrid, Spain', latitude = 40.4512378, longitude = -3.7048897 where church_path = 'madrid';
 update church set address='C/ Cura Femenia, 1, 46006 Valencia, Spain', latitude = 39.4619848, longitude = -0.3717682 where church_path = 'valencia';
 update church set address='Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante ', latitude = 38.54177, longitude = -0.122675 where church_path = 'benidorm';
-update church set address='C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain', latitude = 38.339698, longitude = -0.489878 where church_path = 'alicante';
-update church set address='Calle Presidente Alvear numero 7 Portal 2 local 2. 35006 Las Palmas, de Gran Canaria, Spain', latitude = 27.850315, longitude = -15.447372 where church_path = 'canaria';
+update church set address='C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain', latitude = 38.339698, longitude = -0.489878 where church_path = 'alicante'; 
+update church set address='Calle Presidente Alvear numero 7 Portal 2 local 2. 35006 Las Palmas, de Gran Canaria, Spain', latitude = 28.1340172, longitude = -15.4311568 where church_path = 'canaria';
 update church set address='Calle Alguacil, 8, 28038 Madrid, Spain', latitude = 40.3960213, longitude = -3.6630519 where church_path = 'southmadrid';
 update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', latitude = 41.3709592, longitude = 2.1374551 where church_path = 'barcelona';
 update church set address='Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain', latitude = 40.2646057, longitude = -3.7542281 where church_path = 'fuenlabrada';
@@ -3914,6 +3914,185 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 -----------------------end Queens - performingArtists
+	
+---------- Portugal - Madeira  New church Aug 2017 ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(60, 'madeira', 1, 7, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(60, 'en', 'menu_name', 'CEC in Madeira');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(60, 'zh', 'menu_name', '馬德拉基督教生命堂 ');            
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(9, NULL, 60);          
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'intro', 'en', 'CEC in Madeira  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"></td>
+			<td></td>
+		</tr>
+
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+	<table cellpadding="1px" cellspacing="0px">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">Address:</td>
+				<td>Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">Tel#:</td>
+				<td> 351-963-333-777 </td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">Fax#:</td>
+				<td> 351-218-868-370 </td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">Email:</td>
+				<td></td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+	<p><span class="label">Established Date: </span>June 2016</p>
+
+</div>
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'intro', 'zh', '馬德拉基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"></td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+	<table cellpadding="1" cellspacing="0">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">地址:</td>
+				<td>Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">電話:</td>
+				<td> 351-963-333-777</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">傳真:</td>
+				<td> 351-218-868-370</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">電郵:</td>
+				<td></td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<span class=\"label\">成立日期: </span>2016年6月 
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'contactus', 'en', 'CEC in Madeira - Contact Us', 'Performing Artists Gospel Fellowship in New York<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'contactus', 'zh', '馬德拉基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'schedule', 'en', 'CEC in Madeira - Church Services Schedule', 
+'<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'schedule', 'zh', '馬德拉基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');             
+
+
+update church set address='Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal', latitude = 32.6195995, longitude = -17.0640852 where church_path = 'madeira';
+
+update church_content set body = STRINGDECODE('
+<style>
+.indentation {margin:20px;}
+</style>
+<p>
+<b>Address: </b>Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal
+</p>
+<p>
+<b>Tel #: </b> 351-963-333-777
+</p>
+<p>
+<b>Fax #: </b> 351-218-868-370
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.411638675415!2d-16.913363684821267!3d32.64848838101103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6060083bf893e1%3A0x985f19b39740cbe0!2sR.+de+S%C3%A3o+Francisco+3%2C+9000-050+Funchal%2C+Portugal!5e0!3m2!1sen!2sus!4v1502682205190" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+')	where church_id = (select church_id from church where church_path = 'madeira')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>地 址: </b>Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal
+</p>
+<p>
+<b>電 話: </b>351-963-333-777
+</p>
+<p>
+<b>傳真: </b>351-218-868-370
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.411638675415!2d-16.913363684821267!3d32.64848838101103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6060083bf893e1%3A0x985f19b39740cbe0!2sR.+de+S%C3%A3o+Francisco+3%2C+9000-050+Funchal%2C+Portugal!5e0!3m2!1sen!2sus!4v1502682205190" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+')	where church_id = (select church_id from church where church_path = 'madeira')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+-----------------------end Portugal - Madeira
 	
 
 	
