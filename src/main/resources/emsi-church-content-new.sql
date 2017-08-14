@@ -47,7 +47,7 @@ update church set address='Calle Carolinas, 10, 28039 Madrid, Spain', latitude =
 update church set address='C/ Cura Femenia, 1, 46006 Valencia, Spain', latitude = 39.4619848, longitude = -0.3717682 where church_path = 'valencia';
 update church set address='Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante ', latitude = 38.54177, longitude = -0.122675 where church_path = 'benidorm';
 update church set address='C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain', latitude = 38.339698, longitude = -0.489878 where church_path = 'alicante';
-update church set address='C/.Menceyes 36，35110 Las Palmas, de Gran Canaria, Spain', latitude = 27.850315, longitude = -15.447372 where church_path = 'canaria';
+update church set address='Calle Presidente Alvear numero 7 Portal 2 local 2. 35006 Las Palmas, de Gran Canaria, Spain', latitude = 27.850315, longitude = -15.447372 where church_path = 'canaria';
 update church set address='Calle Alguacil, 8, 28038 Madrid, Spain', latitude = 40.3960213, longitude = -3.6630519 where church_path = 'southmadrid';
 update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', latitude = 41.3709592, longitude = 2.1374551 where church_path = 'barcelona';
 update church set address='Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain', latitude = 40.2646057, longitude = -3.7542281 where church_path = 'fuenlabrada';
@@ -6349,7 +6349,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>C/.Menceyes 36, 35110 Las Palmas, de Gran Canaria, Spain</td>
+			<td>Calle Presidente Alvear numero 7 Portal 2 local 2. 35006 Las Palmas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -6414,7 +6414,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> C/.Menceyes 36, 35110 Las Palmas, de Gran Canaria, Spain</td>
+			<td> Calle Presidente Alvear numero 7 Portal 2 local 2. 35006 Las Palmas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -6463,7 +6463,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Lin Tao Wu, 654-852-708
 </p>
 <p>
-<b>Address: </b>C/.Menceyes 36, 35110 Las Palmas, de Gran Canaria, Spain
+<b>Address: </b>Calle Presidente Alvear numero 7 Portal 2 local 2. 35006 Las Palmas, de Gran Canaria, Spain
 </p>
 <p>
 <b>Tel #: </b>628-667-979, 654-852-708
@@ -6475,8 +6475,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Email: </b>emsigrancanaria@yahoo.com
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=C%2F.Menceyes+36%EF%BC%8C35110+Las+Palmas,+de+Gran+Canaria,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Menceyes,+36,+Santa+Luc%C3%ADa+de+Tirajana,+Las+Palmas,+Spain&amp;gl=us&amp;t=m&amp;z=14&amp;ll=27.850315,-15.447372&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=q=C%2F.Menceyes+36%EF%BC%8C35110+Las+Palmas,+de+Gran+Canaria,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Menceyes,+36,+Santa+Luc%C3%ADa+de+Tirajana,+Las+Palmas,+Spain&amp;gl=us&amp;t=m&amp;z=14&amp;ll=27.850315,-15.447372&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
-
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.602394201551!2d-15.431156821974993!3d28.13401717642436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409514ad58f281%3A0x4717363de4b857a!2sCalle+Pdte.+Alvear%2C+7%2C+35006+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1502675108965" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'canaria')
 	and locale = 'en'
@@ -6491,7 +6490,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道:</b> 吳林濤 傳道, 654-852-708
 </p>
 <p>
-<b>地址: </b>C/.Menceyes 36, 35110 Las Palmas, de Gran Canaria, Spain
+<b>地址: </b>Calle Presidente Alvear numero 7 Portal 2 local 2. 35006 Las Palmas, de Gran Canaria, Spain
 </p>
 <p>
 <b>電話:</b> 628-667-979, 654-852-708
@@ -6504,7 +6503,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=C%2F.Menceyes+36%EF%BC%8C35110+Las+Palmas,+de+Gran+Canaria,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Menceyes,+36,+Santa+Luc%C3%ADa+de+Tirajana,+Las+Palmas,+Spain&amp;gl=us&amp;t=m&amp;z=14&amp;ll=27.850315,-15.447372&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=q=C%2F.Menceyes+36%EF%BC%8C35110+Las+Palmas,+de+Gran+Canaria,+Spain&amp;ie=UTF8&amp;hq=&amp;hnear=Calle+Menceyes,+36,+Santa+Luc%C3%ADa+de+Tirajana,+Las+Palmas,+Spain&amp;gl=us&amp;t=m&amp;z=14&amp;ll=27.850315,-15.447372&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.602394201551!2d-15.431156821974993!3d28.13401717642436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409514ad58f281%3A0x4717363de4b857a!2sCalle+Pdte.+Alvear%2C+7%2C+35006+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1502675108965" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'canaria')
 	and locale = 'zh'
