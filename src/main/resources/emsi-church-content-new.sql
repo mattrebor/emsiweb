@@ -6158,12 +6158,12 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 <table cellPadding="0" cellSpacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelists:</td>
-			<td>Ev. Ruo Shu Chen</td>
+			<td class="label">Senior Pastor:</td>
+			<td>Rev. Yong Chung Ye, +34-618- 618- 993</td>
 		</tr>
 		<tr>
-			<td class="label"> </td>
-			<td>Ev. Na Li</td>
+			<td class="label">Assistant Evangelist:</td>
+			<td>Ev. Na Li, +34-640- 292- 666</td>
 		</tr>
 	</tbody>
 </table>
@@ -6217,12 +6217,12 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>陳若抒 傳道</td>
+			<td class=\"label\">主任牧師:</td>
+			<td>葉永春 牧師, +34-618- 618- 993</td>
 		</tr>
 		<tr>
-			<td class=\"label\"> </td>
-			<td>李娜 傳道</td>
+			<td class=\"label\">駐堂助理傳道:</td>
+			<td>李娜 傳道, +34-640- 292- 666</td>
 		</tr>
 	</tbody>
 </table>
@@ -6271,9 +6271,10 @@ p span.label {font-weight: bold;}
 update church_content set body = STRINGDECODE('<p>
 <p>
 <p>
-<b>Evangelists: </b>Ruo Shu Chen
-<p style="padding-left: 90px;">
-Na Li
+<b>Senior Pastor: </b>Rev. Yong Chung Ye, +34-618- 618- 993
+</p>
+<p>
+<b>Assistant Evangelist: </b>Ev. Na Li, +34-640- 292- 666
 </p>
 <p>
 <b>Address: </b>Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain
@@ -6294,10 +6295,10 @@ Na Li
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 陳若抒 傳道
+<b>主任牧師:</b> 葉永春 牧師, +34-618- 618- 993
 </p>
-<p style="padding-left: 40px;">
-李娜 傳道
+<p>
+<b>駐堂助理傳道:</b> 李娜 傳道, +34-640- 292- 666
 </p>
 <p>
 <b>地址: </b>Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain
@@ -6315,6 +6316,54 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'benidorm')
 	and locale = 'zh'
 	and page_id = 'contactus';
+	
+	
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>Sunday Worship</td>
+			<td>Monday</td>
+			<td>12:30 am</td>
+			<td>Every 2nd, 4th Week</td>
+		</tr>
+		<tr>
+			<td>Bible Study </td>
+			<td>Wednesday</td>
+			<td>11:00 pm</td>
+			<td>Weekly</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'benidorm')
+	and locale = 'en'
+	and page_id = 'schedule';	
+	
+	
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>主日崇拜</td>
+			<td>星期日晚上</td>
+			<td>12:30 am</td>
+			<td>每月第二、第四週 </td>
+		</tr>
+		<tr>
+			<td>查經禱告會</td>
+			<td>星期三晚上</td>
+			<td>11:00 pm</td>
+			<td>每週</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'benidorm')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+
 
 ----------  ends spain - Benidorm	
 	
@@ -6344,12 +6393,8 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 <table cellPadding="0" cellSpacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelists:</td>
-			<td>Ev. Ruo Shu Chen</td>
-		</tr>
-		<tr>
-			<td class="label"> </td>
-			<td>Ev. Na Li</td>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Ruo Shu Chen, +34-618 521 400</td>
 		</tr>
 	</tbody>
 </table>
@@ -6404,11 +6449,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>陳若抒 傳道</td>
-		</tr>
-		<tr>
-			<td class=\"label\"> </td>
-			<td>李娜 傳道</td>
+			<td>陳若抒 傳道, +34-618 521 400</td>
 		</tr>
 	</tbody>
 </table>
@@ -6455,9 +6496,7 @@ p span.label {font-weight: bold;}
 update church_content set body = STRINGDECODE('<p>
 <p>
 <p>
-<b>Evangelists: </b>Ruo Shu Chen
-<p style="padding-left: 90px;">
-Na Li
+<b>Evangelist: </b>Ruo Shu Chen, +34-618 521 400
 </p>
 <p>
 <b>Address: </b>C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain
@@ -6475,10 +6514,7 @@ Na Li
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 陳若抒 傳道
-</p>
-<p style="padding-left: 40px;">
-李娜 傳道
+<b>傳道:</b> 陳若抒 傳道, +34-618 521 400
 </p>
 <p>
 <b>地址: </b>C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain
@@ -7415,7 +7451,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Chang Yu Zhou, (C) 351-962-222-221</td>
+			<td>Ev. Chang Yu Zhou, (C) 39-057-4831203</td>
 		</tr>
 
 	</tbody>
@@ -7431,7 +7467,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0039 057 4831203, (C) 351-962-222-221</td>
+			<td>39-057-4831203</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -7484,7 +7520,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class="label">傳道:</td>
-			<td>周長宇 傳道 , (手機) 351-962-222-221</td>
+			<td>周長宇 傳道 , (手機) 39-057-4831203</td>
 		</tr>
 
 	</tbody>
@@ -7500,7 +7536,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 0039 057 4831203, (C) 351-962-222-221 </td>
+			<td> 39-057-4831203 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -7551,7 +7587,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Address: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
 </p>
 <p>
-<b>Tel #: </b>0039 057 4831203, (C) 351-962-222-221
+<b>Tel #: </b>39-057-4831203
 </p>
 <p>
 <b>Email: </b>CEMCPrato@gmail.com
@@ -7573,7 +7609,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
 </p>
 <p>
-<b>電話:</b> 0039 057 4831203, (C) 351-962-222-221
+<b>電話:</b> 39-057-4831203
 </p>
 <p>
 <b>電郵: </b>CEMCPrato@gmail.com
