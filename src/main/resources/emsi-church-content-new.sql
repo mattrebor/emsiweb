@@ -7451,7 +7451,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Chang Yu Zhou, (C) 39-057-4831203</td>
+			<td>Ev. David Zhou, (C) 39-057-4831203</td>
 		</tr>
 
 	</tbody>
@@ -7581,7 +7581,7 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Chang Yu Zhou
+<b>Evangelist: </b>Ev. David Zhou
 </p>
 <p>
 <b>Address: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
@@ -7627,24 +7627,19 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <table  border="1">
 	<tbody>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Office hours</td>
-			<td style="padding: 0px 10px 0px 10px">Tuesday - Saturday</td>
-			<td style="padding: 0px 10px 0px 10px">2:00 pm – 6:00 pm</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Worship Service</td>
+			<td style="padding: 0px 10px 0px 10px">Sunday Worship</td>
 			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">4:00 pm – 5:00 pm</td>
+			<td style="padding: 0px 10px 0px 10px">3:30 pm – 5:30 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Bible Study & Prayer Meeting</td>
-			<td style="padding: 0px 10px 0px 10px">Wednesday </td>
-			<td style="padding: 0px 10px 0px 10px">3:30 pm – 4:30 pm</td>
+			<td style="padding: 0px 10px 0px 10px">Bible Study</td>
+			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
+			<td style="padding: 0px 10px 0px 10px">3:30 pm – 5:30 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Youth Fellowship</td>
-			<td style="padding: 0px 10px 0px 10px">The second and fourth Friday of the month</td>
-			<td style="padding: 0px 10px 0px 10px">3:30 pm – 4:30 pm</td>
+			<td style="padding: 0px 10px 0px 10px">Church Opening Hours</td>
+			<td style="padding: 0px 10px 0px 10px">Tuesday, Friday</td>
+			<td style="padding: 0px 10px 0px 10px">1:00 pm – 6:00 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -7656,24 +7651,19 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <table  border="1">
 	<tbody>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">开 放 时 间</td>
-			<td style="padding: 0px 10px 0px 10px">星期二至六</td>
-			<td style="padding: 0px 10px 0px 10px">下午14:00至18:00</td>
+			<td style="padding: 0px 10px 0px 10px">主日崇拜</td>
+			<td style="padding: 0px 10px 0px 10px">星期日下午</td>
+			<td style="padding: 0px 10px 0px 10px">3:30 pm - 5:30 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">崇 拜 时 间</td>
-			<td style="padding: 0px 10px 0px 10px">礼拜天</td>
-			<td style="padding: 0px 10px 0px 10px">下午16:00至17:00</td>
+			<td style="padding: 0px 10px 0px 10px">查經</td>
+			<td style="padding: 0px 10px 0px 10px">星期三下午</td>
+			<td style="padding: 0px 10px 0px 10px">3:30 pm - 5:30 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">查 经 祷 告</td>
-			<td style="padding: 0px 10px 0px 10px">星期三</td>
-			<td style="padding: 0px 10px 0px 10px">下午15:30至16:30</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">少 年 团 契</td>
-			<td style="padding: 0px 10px 0px 10px">每月第2和第4个星期五</td>
-			<td style="padding: 0px 10px 0px 10px">下午15:30至16:30</td>
+			<td style="padding: 0px 10px 0px 10px">教堂開放</td>
+			<td style="padding: 0px 10px 0px 10px">星期二、 星期五 下午</td>
+			<td style="padding: 0px 10px 0px 10px">1:00 pm - 6:00 pm</td>
 		</tr>
 	</tbody>
 </table>
