@@ -385,7 +385,7 @@
 						<version>2.1.1</version>
 						<configuration>
 							<outputDirectory>deployments</outputDirectory>
-							<warName>ROOT</warName>
+							<warName>emsiweb</warName>
 						</configuration>
 					</plugin>
 				</plugins>
