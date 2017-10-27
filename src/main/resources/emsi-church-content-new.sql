@@ -4825,7 +4825,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/images/church_taipei.jpg\" align=\"left\" height=\"255\" width=\"360\" />2007年，在楊摩西牧師的感動下開始了台灣拓荒宣教事工，同年九月廿三日成立教會，總部特由歐洲調派陳啟猷牧師夫婦前往短期協助牧會。2007年11月遷入台北市松山區敦化環球名廈的大樓裡。2008年4月教會人數倍增，故遷入新址，即台北市松山區民生東路3段113巷25弄29號一樓現址，開展教會事工。2008年9月差派吳錫安牧師夫婦牧會。2010年2月由戚厚生牧師繼續牧養羊群。
+<img hspace=\"5\" src=\"/emsi/images/church_taipei.jpg\" align=\"left\" height=\"255\" width=\"360\" />2007年，在楊摩西牧師的感動下開始了台灣拓荒宣教事工，同年九月廿三日成立教會，總部特由歐洲調派陳啟猷牧師夫婦前往短期協助牧會。2007年11月遷入台北市松山區敦化環球名廈的大樓裡。2008年4月教會人數倍增，故遷入新址，即台北市松山區民生東路3段113巷25弄29號一樓現址，開展教會事工。2008年9月差派吳錫安牧師夫婦牧會；2010年2月由戚厚生牧師繼續牧養羊群；2013年4月由陳俊年傳道夫婦接任；2017年1月起，由陳聆理牧師夫婦負責牧養。
 </p>
 
 
@@ -4834,7 +4834,48 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
+	update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>主日崇拜</td>
+			<td>每星期日</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>兒童主日學</td>
+			<td>每星期日</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>詩班練詩</td>
+			<td>每星期日</td>
+			<td>12:30 pm</td>
+		</tr>
+		<tr>
+			<td>查經禱告會</td>
+			<td>每星期三 : 上午</td>
+			<td>10:00 am</td>
+		</tr>
+		<tr>
+			<td>青年團契</td>
+			<td>每星期六 : 晚上</td>
+			<td>7:00 pm</td>
+		</tr>
+		<tr>
+			<td>聯誼踏青</td>
+			<td>每月第三主日下午</td>
+			<td>1:00 pm</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'taipei')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+
+
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
