@@ -4764,7 +4764,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>Sept 23, 2007
 </p>
 <p>
-<img src="/emsi/images/church_taipei.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />The C.E.C. in Taipei was officially established on September 23, 2007. C.E.M. then commissioned Rev. and Mrs. Chan from Holland to pastor the church on a short-term basis. In August, 2008, Pastor and Mrs. Zion Wu was sent to Taipei to shepherding CEC in Taipei. In February, 2010, Pastor Hosea Chi replace Pastor Wu as the pastor of in CEC in Taipei.
+<img src="/emsi/images/church_taipei.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />The C.E.C. in Taipei was officially established on September 23, 2007. C.E.M. then commissioned Rev. and Mrs. Chan from Holland to pastor the church on a short-term basis. In August, 2008, Pastor and Mrs. Zion Wu were sent to Taipei to shepherd CEC Taipei. He was replaced by Pastor Hosea Chi in February 2010. In April, 2010, Pastor Teddy Chen replaced Pastor Chi as the pastor of CEC Taipei. In January 2017, Pastor Lennie Chen became the pastor of CEC in Taipei.
 </p>
 
 </div>
@@ -4833,8 +4833,49 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'taipei')
 	and locale = 'zh'
 	and page_id = 'intro';
+	
 
-	update church_content set body = '<table border="1" cellpadding="5">
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(48, 'schedule', 'en', 'CEC in Taipei - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Worship Service</td>
+			<td>Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>Children’s Sunday School</td>
+			<td>Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>Choir Practice</td>
+			<td>Sunday</td>
+			<td>12:30 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study & Prayer Meeting</td>
+			<td>Wednesday</td>
+			<td>10:00 am</td>
+		</tr>
+		<tr>
+			<td>Youth Fellowship</td>
+			<td>Saturday</td>
+			<td>7:00 pm</td>
+		</tr>
+		<tr>
+			<td>Outdoor Fellowship</td>
+			<td>3rd Sunday of the Month</td>
+			<td>1:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+	
+	
+	
+update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
 			<td>主日崇拜</td>
