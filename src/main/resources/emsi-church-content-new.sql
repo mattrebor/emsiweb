@@ -4764,7 +4764,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>Sept 23, 2007
 </p>
 <p>
-<img src="/emsi/images/church_taipei.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />The C.E.C. in Taipei was officially established on September 23, 2007. C.E.M. then commissioned Rev. and Mrs. Chan from Holland to pastor the church on a short-term basis. In August, 2008, Pastor and Mrs. Zion Wu were sent to Taipei to shepherd CEC Taipei. He was replaced by Pastor Hosea Chi in February 2010. In April, 2010, Pastor Teddy Chen replaced Pastor Chi as the pastor of CEC Taipei. In January 2017, Pastor Lennie Chen became the pastor of CEC in Taipei.
+<img src="/emsi/images/church_taipei.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />The C.E.C. in Taipei was officially established on September 23, 2007. C.E.M. then commissioned Rev. and Mrs. Chan from Holland to pastor the church on a short-term basis. In August 2008, Pastor and Mrs. Zion Wu were sent to Taipei to shepherd CEC Taipei. He was replaced by Pastor Hosea Chi in February 2010. In April 2013, Pastor Teddy Chen replaced Pastor Chi as the pastor of CEC Taipei. In January 2017, Pastor Lennie Chen became the pastor of CEC in Taipei.
 </p>
 
 </div>
