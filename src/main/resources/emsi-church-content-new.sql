@@ -4456,6 +4456,10 @@ p span.label {font-weight: bold;}
 			<td class="label">Intern Bible Student:</td>
 			<td>Yang Xi, 0081-090-6914-1321</td>
 		</tr>
+		<tr>
+			<td class="label">  </td>
+			<td>Ivy Lai, 0081-070-4216-6554</td>
+		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -4520,6 +4524,10 @@ p span.label {font-weight: bold;}
 			<td class=\"label\">實習神學生:</td>
 			<td>楊熙, 0081-090-6914-1321</td>
 		</tr>
+		<tr>
+			<td class=\"label\"> </td>
+			<td>黎淑芬, 0081-070-4216-6554</td>
+		</tr>
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -4575,6 +4583,8 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Intern Bible Student: </b>Yang Xi, 0081-090-6914-1321
 </p>
+<p style="padding-left: 140px;">Ivy Lai, 0081-070-4216-6554
+</p>
 <p>
 <b>Address: </b>Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan
 </p>
@@ -4599,6 +4609,8 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>實習神學生:</b>楊熙, 0081-090-6914-1321
+</p>
+<p style="padding-left: 75px;">黎淑芬, 0081-070-4216-6554
 </p>
 <p>
 <b>地址: </b>日本大阪市阿倍野區天王寺町北 1丁目2-2
