@@ -3971,7 +3971,7 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-	<p><span class="label">Established Date: </span>June 2016</p>
+	<p><span class="label">Established Date: May 29, 2016</span></p>
 
 </div>
 ');
@@ -4029,7 +4029,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: </span>2016年6月 
+<span class=\"label\">成立日期: </span>2016 年 5 月 29 日 
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
