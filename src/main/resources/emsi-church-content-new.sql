@@ -2689,7 +2689,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 3351-263-658-466/(手機) 351-965-077-777 </td>
+			<td> 351-263-658-466/(手機) 351-965-077-777 </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -2968,8 +2968,6 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Chang Yu Zhou, (cell) 351-962-222-221</td>
 		</tr>
 	</tbody>
 </table>
@@ -3031,8 +3029,6 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>周長宇 傳道 , (手機)351-962-222-221</td>
 		</tr>
 	</tbody>
 </table>
@@ -3089,9 +3085,6 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Chang Yu Zhou, (cell) 351-962-222-221
-</p>
-<p>
 <b>Address: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
 <p>
@@ -3106,9 +3099,6 @@ update church_content set body = STRINGDECODE('<p>
 	
 	
 update church_content set body = STRINGDECODE('<p>
-<p>
-<b>傳道 :</b> 周長宇 傳道, (手機)351-962-222-221 
-</p>
 <p>
 <b>地址: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
