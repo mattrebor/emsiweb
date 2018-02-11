@@ -2820,7 +2820,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>October 21, 1999
 </p>
 <p>
-<img src="/emsi/files/6%20-%20001448bsmall_0.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />The Portuguese church, CEC in Lisbon, was founded on October 21, 1999 by Rev. Moses Yang.
+<img hspace="5" src="/emsi/images/Church-Lisbon-pic-2-8-18.jpg" align="left" height="255" width="360" />The Portuguese church, CEC in Lisbon, was founded on October 21, 1999 by Rev. Moses Yang.
 </p>
 <p>
 In July, 1999 Evangelist Yueing Chen was serving in Valencia, Spain. He received acall from his sister Xiao Li Chen. She told him that Lisbon urgently needed the Gospel. After many prayers and discussions with the CEM headquarters in North America, brothers from CEM in the United States and him went to visit the Christians in Lisbon and have an appreciation the need of the gospel there.Evangelist Chen was then transferred to Lisbon in September for starting a church/ministry there with the support of CEC Europe. There were a number of loving Christian families participated in the ministry. A sister in Lord then offered 
@@ -2888,7 +2888,22 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/6%20-%20001448bsmall_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />一九九九年七月正在西班牙瓦倫西亞生命堂牧會的陳岳平傳道接到他的胞妹陳小麗電話，得悉在里斯本 的福音迫切需要，經禱告和與北美總會磋商後，隨即帶同在由美國去西班牙短宣的弟兄前往葡萄牙里斯本探望信徒。經過多方面去了解真相和考察，確知按真理的原則，實在有必要在該市成立生命堂，以幫助信徒傳揚纯正的真道。回到瓦倫西亞後，陳傳道向總會提出報告，並在九月得總會調派葡萄牙，負責葡萄牙福音佈道會開拓的工作。歐洲福音佈道會亦願意支持陳傳道在該市開展福音事工。剛起步便有幾個愛主的家庭參與一起事奉，他們是阮高華、季建峰、潘光亮、陳小萍及陳玲香等。佈道會得這幾個熱心的家庭同心一起事奉，很快便籌劃開始聚會。陳小萍姐妹願意借出她的餐館「宏發酒家」作崇拜之用；同年十月三日開始了第一次的崇拜，十月廿一日楊摩西牧師和戚厚生牧師來里斯本正式成立生命堂；十一月十四日陳啟猷牧師及師母亦前來探望，並按立第一屆的同工；十二月五日主日崇拜遷到租用的葡萄牙教堂舉行。
+<img hspace="5" src="/emsi/images/Church-Lisbon-pic-2-8-18.jpg" align="left" height="255" width="360" />
+</p>
+<p>
+1999年七月正在西班牙瓦倫西亞生命堂牧會的陳岳平傳道接到他的妹夫阮高華的電話，得悉在葡萄牙里斯本（Lisbon, Portugal）的福音迫切需要，經禱告和與北美總會磋商後，隨即帶同在西班牙短宣的莊思明弟兄前往里斯本探望信徒。經過多方面瞭解和考察，知道該市實在有成立生命堂的必要，我們必須按真理的原則去幫助信徒瞭解純正的基督真道。回到瓦倫西亞後，陳傳道向總會提出報告，並在九月得總會調派葡萄牙，負責葡萄牙福音佈道會開拓的工作。
+</p>
+<p>
+1999年十月初，陳小萍姐妹願意借出她的餐館「宏發酒家」作崇拜之用；1999年十月3日即開始了第一次的崇拜；十月21日楊摩西牧師親臨主持「里斯本基督教生命堂」成立典禮；十一月14日陳啟猷牧師夫婦前來探望，並按立第一屆的同工；十二月5日主日崇拜遷到租用的葡萄牙當地教堂舉行。
+</p>
+<p>
+2006年十一月，楊摩西牧師在葡萄牙授課，陳岳平牧師趁便邀請楊牧師及陳啟猷牧師夫婦一起去看他已看過的一棟房子。楊牧師看完滿意，催促陳岳平牧師盡快進行購堂事工；2006年十二月，陳岳平牧師展開購買堂會的一切工作。
+</p>
+<p>
+里斯本生命堂位於市中心的繁華地段，不但離地鐵站和公車站僅兩分鐘步行路程，且離中國人的「貨行」僅只三個地鐵站。感謝主奇蹟般地在四十三天內為里斯本生命堂豐富地預備了購買新教堂的六十多萬歐元。雖購堂過程遇些攔阻，但上帝在短短的五十三天內為里斯本生命堂預備一切所需。2008年一月20日下午四時正，葡萄牙里斯本生命堂獻堂。
+</p>
+<p>
+里斯本生命堂是葡萄牙第一間成立的堂會，在這十八年來蒙上帝特別保守，不單本堂健康穩步地成長，同時還極力開拓支持葡萄牙全國的事工，十八年來在葡萄牙建立七個堂會，相信在未來的歲月裏，里斯本生命堂會繼續忠心努力完成耶穌基督的大使命，傳揚福音，建立教會。
 </p>
 
 </div>
@@ -3006,7 +3021,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>January 22, 2002
 </p>
 <p>
-<img src="/emsi/files/porto68small_0.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />
+<img hspace="5" src="/emsi/images/Church-Porto-pic-2-8-18.jpg" align="left" height="255" width="360" />
 CEC in Lisbon co-workers usually reciprocates CEC Holland Churches generosity. During the 2nd year anniversary, CEC Lisbon decided to do a Missionary trip in Porto, following CEC Holland’s footsteps. So during Christmas 2001, Evangelist Chan and co-workers went to Porto to visit Chinese Christians and Chinese non-believers and invited them to attend the first worship service. There was an enthusiastic response, the co-workers decided to continue this worship service.
 CEC Headquarters in North America upon hearing this good news immediately sent group of 
 missionaries to Porto to spread the Gospel in a revival meeting in January, 2002. The North American Short Missionary Group with Pastor Moses Yang witnessed the establishment of the CEC in Porto on January 22nd, 2002.
@@ -3067,13 +3082,22 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/porto68small_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />里斯本生命堂同工們一向願意回饋荷蘭各生命堂對他們的愛心，因此他們成立兩周年之際，決定組隊前往波爾圖宣教，以效法荷蘭的榜樣。
+<img hspace="5" src="/emsi/images/Church-Porto-pic-2-8-18.jpg" align="left" height="255" width="360" />波爾圖（Porto）是葡萄牙（Portugal）的第二大城市，位於葡萄牙的北部，在此地的中國人主要是從事各種商品批發、零售業和餐飲業的工作。隨著多年來的幾次大赦，中國人由寥寥無幾到現在幾乎是隨處可見，這真的是葡萄牙北部的一大改變；所以，葡萄牙北部的波爾圖即成為一片待開發的福音禾場。
 </p>
-<p>
-二○○一年的聖誕，陳傳道領了一隊同工前往波爾圖，探訪信徒及未信的華人，邀請他們參加第一次的聚會；反應十分熱烈，使同工們不得不計劃接下來的聚會。
+<p>2001年聖誕節，陳岳平傳道帶領了一些同工往波爾圖探訪信徒及未信的華人，並邀請他們參加十二月27日所舉行的第一次聚會。當天聚會有三十多人參加，迴響十分熱烈，會後五人接受洗禮。由於這次的聖誕節聚會反應熱烈，陳傳道帶領同工們開始計劃新的福音事工，北美總會也組隊前往協助。2002年一月在該地舉行佈道，並於一月21日成立「波爾圖基督教生命堂」。
 </p>
-<p>
-北美總會欣聞此喜訊，亦立時組隊於二○○二年一月前往該地佈道。一月廿二日在北美短宣隊和楊牧師共證下，波爾圖生命堂便正式成立了。
+<p>波爾圖生命堂成立之後三年，因為很多弟兄姐妹從波爾圖市往郊區的明德路（Mindelo）工業區轉移，為了照顧從這些弟兄姐妹之靈命需要，我們決定在明德路植堂。
+</p>
+<p>然而，隨著時間變遷，明德路自然地成了葡萄牙北部的批發中心，所以許多時候，我們服事的重心也在明德路。2006年六月11日即成立了「明德路基督教生命堂」，原來在波爾圖批發街的中國人幾乎都搬到了明德路，波爾圖只剩下一些三百店，而這些店不集中又很遠；後來我們只得先將波爾圖的崇拜暫停，只留下查經班和禱告會。
+</p>
+<p>經過牧者們的研究，我們於2012年四月10日恢復了波爾圖生命堂的崇拜。感謝主，教會的人數也在逐漸地增長。
+</p>
+<p>2013年葡萄牙生命堂有幾位傳道人辭職，因缺傳道人的緣故，波爾圖的生命堂崇拜再次停止，只保留查經班和禱告會。波爾圖生命堂是我們葡萄牙幾個堂會中起伏波折最多的堂會。
+</p>
+<p>2016年四月波爾圖生命堂又開始恢復崇拜，同年八月我們波爾圖生命堂購堂，可惜的是，2017年原本在波爾圖事奉的傳道人，被調派至其他國家的生命堂服事，波爾圖生命堂被迫停止所有的聚會；但是感謝主，上帝祂絕對不會撇下波爾圖生命堂不管，因為我們的購堂是通過禱告，上帝允許我們購買的，所以祂一定會負完全的責任。感謝主，2017年三月11日波爾圖生命堂重啟，舉行感恩崇拜暨新堂落成典禮，把一個嶄新的教堂獻給上帝。
+</p>
+<p>波爾圖生命堂在這十多年當中，的確有風有雨，但是我們不懼怕，因為《聖經》詩篇二十三篇4-5節告訴我們：「我雖然行過死蔭的幽谷，也不怕遭害，因為你與我同在；你的杖，你的竿，都安慰我。在我敵人面前，你為我擺設筵席；你用油膏了我的頭，使我的福杯滿溢。」相信波爾圖生命堂的明天會更好……。
+
 </p>
 
 </div>
@@ -3187,7 +3211,7 @@ p span.label {font-weight: bold;}
 <p>
 <span class="label">Established Date: </span>June 11, 2006
 </p>
-<p>
+<p><img hspace="5" src="/emsi/images/Church-Mindelo-pic-2-8-18.jpg" align="left" height="255" width="360" />
 CEC in Mindelo was established on June 11, 2006 in the Mindelo Warehouse Wholesale district in Porto. At the time the warehouse wholesale business in Porto had expanded quickly to Mindelo and many Chinese went to Mindelo to start the wholesale business there. There are around 100 stores in the Mindelo warehouse district and the population reached up to a thousand. It is a great gospel field so the CEM in Portugal decided to start the CEC in Mindelo.
 </p>
 </div>
@@ -3243,9 +3267,18 @@ p span.label {font-weight: bold;}
 <span class=\"label\">成立日期: </span>2006 年  六月十一日
 </p>
 <p>
-<span class=\"label\">簡史: </span><br />近年來，葡萄牙波爾圖開發明德路倉庫批發區，發展相當迅速，有一部份中國人馬上跟進，邁向明德路倉庫批發區開拓市場。明德路倉庫批發區約有一百多家店面，人口近千人，是一個較大的福音禾場；所以，葡萄牙福音佈道會根據實際的需要，在二○○六年六月十一日在葡萄牙波爾圖明德路倉庫批發區成立了明德路基督教生命堂。
-這間生命堂的成立，有很多感人的見證，是主的大能感動弟兄姐妹們一個個願意奉獻！感謝主，哈利路亞！願主大大地使用明德路生命堂！願聚會的人數天天加增！把一切的榮耀歸給我們的主耶穌基督！阿們。
-
+<span class=\"label\">簡史: </span>
+<p>
+<img hspace="5" src="/emsi/images/Church-Mindelo-pic-2-8-18.jpg" align="left" height="255" width="360" />葡萄牙波爾圖（Porto, Portugal）的明德路（Mindelo）倉庫批發區發展得相當迅速，是中國人在葡萄牙北部最集中之地，大約有几百家華人的批發店，經營各式各樣的中國商品。人口近千人，是一個很大的福音禾場。當陳岳平牧師知道此地的需要後，積極開始發展福音事工。2006年開始每週五晚上在此有查經禱告會，人數最多的時候約有三十人。很感恩的是，在查經班中弟兄姐妹由不會禱告到可以開口禱告，由怕禱告到喜愛禱告，最後大家都能禱告，連小孩子都能開口感恩。
+</p>
+<p>
+感謝主，2006年六月11日於波爾圖郊外的倉庫批發區成立了「明德路基督教生命堂」。這一天，葡萄牙各生命堂的弟兄姐妹們都非常開心地一同慶祝明德路生命堂的誕生！堂會的成立有很多感人的見證 ──聚會場所的全部租金是由一家非常愛主的家庭長期奉獻，他們為上帝的家，甘心樂意、出錢出力；教會的講臺和講桌是幾位弟兄付出了很多心血和辛勞，放下自己的生意不做，為了教會的服事關了幾天的店，一點也沒抱怨；教會的音響也是由一個家庭通宵加班，花了兩天完成；教會的清潔整理是幾位弟兄姐妹熱心義務的參與；小朋友主日學所需的電視機和放影機是由一個姐妹奉獻的；還有一些弟兄姐妹奉獻金錢。感謝主，有太多的感恩見證數算不盡！
+</p>
+<p>
+2006年原來在波爾圖生命堂崇拜的弟兄姐妹，因著生意的緣故陸續來到明德路工業區發展。感謝上帝，在這些年教會發展的聖工上，有很多熱心愛主的家庭，因著他們的擺上和支持，我們的教會也在不斷地成長。2013年在上帝的特別眷顧下我們又購得了新堂，三百多平方公尺的場地。因樓層高，我們改建成兩層，第一層作崇拜大廳、副堂、衛生間、廚房等設施；第二層有四個主日學教室、辦公室及傳道人宿舍等設施，教堂周圍有八十多個免費的停車位，真的感謝讚美主。
+</p>
+<p>
+真的盼望明德路生命堂的弟兄姐妹以及同工們，懂得珍惜、懂得感恩、同心協力，興旺主的福音，彼此相愛一起努力吸引更多的人來到主的面前。
 </p>
 
 </div>
@@ -3426,7 +3459,7 @@ p span.label {font-weight: bold;}
 <span class=\"label\">成立日期: </span>2015年 8月 22日 
 </p>
 <p>
-<span class=\"label\">簡史: </span><br />
+<span class=\"label\">簡史: </span>
 <p>
 <img hspace="5" src="/emsi/images/church_azores2015.jpg" align="left" height="255" width="360" />2015年五月，我接到教會裡季建峰弟兄的電話，他告訴我，他跟一位客戶傳了很長時間的福音，對方終於答應要信耶穌了，所以約好在那個週四晚上12點我們餐館查經班時，請我在電話中帶他做決志禱告。
 </p>
@@ -3963,8 +3996,7 @@ p span.label {font-weight: bold;}
 <div class="main-content">
 	<p><span class="label">Established Date: May 29, 2016</span></p>
 <p>
-<img hspace="5" src="/emsi/images/church_madeira2017.jpg" align="left" height="255" width="360" />
-</p>
+<img hspace="5" src="/emsi/images/church_madeira2017.jpg" align="left" height="255" width="360" /></p>
 </div>
 ');
 
@@ -4024,7 +4056,7 @@ p span.label {font-weight: bold;}
 <span class=\"label\">成立日期: 2016 年 5 月 29 日 </span>
 </p>
 <p>
-<span class=\"label\">簡史: </span><br />
+<span class=\"label\">簡史: </span>
 </p>
 <p>
 <img hspace="5" src="/emsi/images/church_madeira2017.jpg" align="left" height="255" width="360" />2015年十二月26日，我們結束了亞速爾基督教生命堂聖誕晚會後，56位弟兄姐妹在亞速爾候機廳等候乘機回里斯本，當時ㄧ位弟兄和我說：「陳牧師啊，你每月要多去幾次亞速爾海島，一次還不夠；還有，趕快開始馬德拉的聖工，越快越好。」聽了他的話，心中也很感動，我就回應他的話說：「是啊，他們真的很渴慕，2016年開始我們計劃每月多去幾次亞速爾。至於馬德拉的聖工，本來亞速爾成立後就準備立刻去馬德拉的，後因我去美國進修三個月，所以這事就往後延了，既然神藉著你的口再次提醒此事，那麼我們年初馬上開始馬德拉的事工。」這位弟兄馬上就說，他願意從明年開始每月奉獻金錢來支持葡萄牙海島的聖工。感謝主，馬德拉基督教生命堂的聖工從此正式拉開序幕。
