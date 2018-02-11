@@ -171,7 +171,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2009年 8月3日
+<span class=\"label\">成立日期: 2009年 8月 3日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -387,7 +387,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>1985年 5月 10日
+<span class=\"label\">成立日期: 1985年 5月 10日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -564,7 +564,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>1984 年
+<span class=\"label\">成立日期: 1984年</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -897,7 +897,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>1978 年
+<span class=\"label\">成立日期: 1978年</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -1076,7 +1076,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2001年 10月
+<span class=\"label\">成立日期: 2001年 10月</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -1306,7 +1306,7 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">成立日期: </span>1968年</p>
+<p><span class="label">成立日期: 1968年</span></p>
 
 <p><span class="label">簡史: </span><br />
 <img align="left" hspace="5" src="/emsi/images/chinatown2012.jpg" />一九六八年，楊牧師在中國城勿街十號（10 Mott St.）租下二樓，成立「生命團契」，這是楊摩西牧師成立的第一間教會，後於一九七○年更名為中國城生命堂。楊摩西牧師常常提起早期大學查經班的八位成員：周靄楣、許娜娜、李珍瑜、曾文鳳、曾文愛、王慕清、林瑞桃及林團鐘長老一家。這八員大將可說是「生命家庭」的開始。後來查經班加入了幾位新人，他們都是研究所的學生：周應彪、吳翩翩、許偉國、郭靄玉、林則寶、陳達堂、潘冀、林國仁、潘重光、向傳仁等。後來林則寶和林珍瑜結為夫婦，其他的弟兄姐妹也分別嫁娶，「生命之家」增加了媳婦和女婿，儼然成為一個大家庭。連續兩次搬遷之後，終於在一九七四年憑信心買下位於中央街的一棟三層樓房（253 Centre St.）。如今，除了林長老回天家，一些弟兄姐妹搬離此地之外，其他的成員和家人都忠心留在東部各生命堂，是楊牧師得力的同工。</p>
@@ -1640,7 +1640,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class="main-content">
 <p>
-<span class="label">成立日期: </span>2008年 1月6日
+<span class="label">成立日期: 2008年 1月 6日</span>
 </p>
 <p>
 <span class="label">簡史: </span>
@@ -1981,7 +1981,7 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">成立日期: </span>1996年 4月7日</p>
+<p><span class="label">成立日期: 1996年 4月 7日</span></p>
 
 <p><span class="label">簡史: </span><br />
 <img align="left" height="255" hspace="5" src="/emsiweb/images/files/madrid/madrid.jpg" width="360" />一九九五年十一月一日李月雲傳道再度奉派抵西，正式展開本會在歐洲的事工。進駐空蕩無物的佈道會後，即動手裝修、添購傢俱和設備，並分別海陸空運 聖經、聖詩、歌本和圖書。一個月後「福音佈道會」對外開放，藉著查經班、神學課、音樂班的學習、個別關懷輔導和探訪，帶領慕道友、造就信徒、培訓同工，使 建立教會的基礎逐漸成熟。一九九六年四月七日本會西班牙第一間教會「馬德里基督教生命堂」成立，開始主日崇拜。&nbsp;</p>
@@ -2111,7 +2111,7 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">成立日期: </span>2004年 2月28日</p>
+<p><span class="label">成立日期: 2004年 2月 28日</span></p>
 
 <p><span class="label">簡史: </span><br />
 <img align="left" alt="CEC South Madrid" height="258" hspace="5" src="/emsiweb/images/southmadrid/SMadrid8_18_13.jpg" title="CEC South Madrid" width="344" />馬德里是西班牙的首都、政治、經濟、文化中心，而馬德里的北邊是以經濟文化為主，多屬已發展的城市；相較以工商業為主的南邊則屬正在發展中的區域，所以南邊住房的價格就相對比較低，也是許多華人集中區，而馬德里南區生命堂即坐落於此。馬德里的總會地處北邊，以至於對南區的人來講，自然就有許多不便之處；因此我們早就計劃在馬德里南區建教會。感謝主，二○○四年馬德里南區生命堂成立。當時楊摩西牧師派王艷華傳道來幫助牧養，後因巴塞羅那事工之需又派其前往。馬德里南區生命堂在二○○六年建堂，二○○七年擴建完畢，蒙主的帶領，福音工作如期展開。同工們的同心配搭，盡心盡力擺上，人數一天天增長，但我們知道仍要繼續努力，完成主的托付。<br />
@@ -2225,7 +2225,7 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">成立日期: </span>2005年 2月20日</p>
+<p><span class="label">成立日期: 2005年 2月 20日</span></p>
 
 <p><span class="label">簡史: </span><br />
 <img align="left" height="255" hspace="5" src="/emsiweb/images/files/barcelona.jpg" width="360" />2005年初北美總會監督楊摩西牧師差派王豔華傳道前往西班牙巴賽隆納開拓教會。同年2月19日、20日，美國短宣隊抵達巴賽隆納舉辦音樂佈道會，楊摩西牧師主講&ldquo;人生的福&rdquo;，並宣佈，2月20日為教會正式成立日期。最初佈道會設在巴賽隆納C/Mallorca,20-22.1&ordm;4&ordf;&nbsp; Barcelona，即每週查經班、禱告會之地，而每週主日崇拜則租用西班牙之教會。由於佈道會房東欠款，銀行準備拍賣其房，合同期滿一年後，佈道會被迫搬出。為此查經班、禱告會曾經過一段流浪時期。在這期間，先後在陳文芳姐妹的洗衣店以及遠東辦公室堅持每週的查經班和禱告會。由於教會人員不斷增長，2006年8月6日開始租用現在聚會的地點: C/Rossell&oacute; 427 Bis, Local 2。( 地鐵：2線、5線Sagrada Familia 站，2線在 Proven&ccedil;a出口，沿Calle de la Marina街向左轉，5線在Sardenya出口，沿 Calle de Sardenya 街向右轉即到 ) 。<br />
@@ -2357,8 +2357,214 @@ update church_content set body = STRINGDECODE('<p>
 
 ------------ends barcelona
 	
+
+------------starts san francisco
+update church_content set body = STRINGDECODE('<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Senior Pastor:</td>
+			<td>Rev. Stephen Hosea, (415)309-5661</td>
+		</tr>
+		<tr>
+			<td class="label">Assistant Pastor:</td>
+			<td>Rev. Tony Ong Teck Meng, (415)935-9877</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>400 Brussels St., San Francisco, CA 94134 USA</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>(415)656-0886</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td>(415)468-6347</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:iec.sfo@gmail.com">iec.sfo@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: April 21, 1985</span>
+</p>
+<p>
+<img src="/emsi/images/church_sanfrancisco.jpg\" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />
+Rev. Stephen Hosea came from Los Angeles to establish a church in San Francisco, California on January 15, 1985. After a few months of praying and hard work, the first Sunday Worship was held on April 21, 1985, and I.E.C. was officially established. After that, the church continued to grow. Even though in the past years, many members were lost due to relocation or returning home after graduation, yet God continued to add newly saved believers to our church. The attendance has grown from a few to over a hundred. The current ministries consist of Bible Study, prayer meeting, Sunday Worship, Children Sunday School, Junior Group, Youth Groups and Adult Fellowship.
+</p>
+<p>
+When the church was first established in San Francisco, we rented the meeting place from Chinese Christian Mission. In November, we moved and began to rent from a Presbyterian Church that had the Ancillary Worship Hall and meeting rooms for use. Since we didn’t have our own place, we were limited in expanding God’s ministry. When the brothers and sisters saw the need of a church building, we prayed, waited upon God’s grace and fervently planned. Our hope was that our plans would be quickly fulfilled so that we could own a church building to expand God’s ministry. Thanks be to God, that in His timing, He heard our plea and provided a church building for us during Good Friday, April 1, 1994. Due to the conditions of the church, much renovation work needed to be done. Eventually, by September, the renovation work was completed and our building dedication was held in November 1996.
+</p>
+<p>
+Ever since we had our own church building, we have been expanding the church’s ministries. In the beginning of 1997, we started a Chinese Language School, with the purpose of spreading the Gospel to the neighborhood children. In June, we held Chinese Worship Service, so that we could spread the Gospel and build up the believers spiritually. And we changed the church’s name to Christian Evangelical Church in San Francisco.
+</p>
+<p>
+We have expanded our church ministries to mission, discipleship, evangelism, caring, and Laymen’s Institute. The church not only has Indonesian Service, but also Chinese Service and English Service have started. There are so many ministries that we need to expand; the harvest is waiting for us to gather. May God grant us wisdom and strength to do these ministries.
+</p>
+<p>
+Thank God that He began His good work in this church and we believe He will finish what He has started until the coming of the Lord.
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'sanfrancisco')
+	and locale = 'en'
+	and page_id = 'intro';
 	
 	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">主任牧師:</td>
+			<td>何兆威 牧師, (415)309-5661</td>
+		</tr>
+		<tr>
+			<td class=\"label\">助理牧師:</td>
+			<td>王德明 牧師, (415)935-9877</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td>400 Brussels St., San Francisco, CA 94134 USA</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> (415)656-0886 </td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td> (415)468-6347 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: iec.sfo@gmail.com"> iec.sfo@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<span class=\"label\">成立日期: 1985年 4月 21日</span> 
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/images/church_sanfrancisco.jpg\" align=\"left\" height=\"255\" width=\"360\" /></p>
+一九八五年正月十五日，何兆威牧師從洛杉磯前往舊金山開荒植堂。經過幾個月的禱告和努力，於四月廿一日舉行首次主日崇拜，正式成立「舊金山基督教生命堂」。後來，教會事工得以漸漸擴展。雖然近幾年來會友或因遷居，或因畢業返鄉等等，多有流失，但是上帝卻不斷地加添得救人數，教會人數也因而從幾位增長到上百名。現有的聖工除了查經禱告會、主日崇拜之外，又有兒童主日學和成年團契。一九九三年又在加州首府沙加緬度建立新堂。
+</p>
+<p>舊金山基督教生命堂成立之初，是租用「中信」的房子作為聚會之用。同年十一月，又改至美國長老會的副堂崇拜，租用其客廳作查經禱告會。由於沒有自己的禮堂，因而聖工發展時常受到限制。弟兄姐妹看見建堂的需要，就同心禱告，等候神施恩，又積極籌劃建堂，期許建堂計劃能夠早日實現，使大家有一個擴展聖工的基地。感謝神，祂也按著祂的時間垂聽了我們的呼求，於一九九四年的受難日（四月一日），為我們預備了一座禮拜堂。但因這座禮拜堂非常破舊，需要重新翻修，最後，我們終於在一九九六年九月，完成建堂工程，並於同年十一月舉行獻堂典禮。
+</p>
+<p>自從我們有了自己的禮拜堂，本教會的聖工就逐漸拓展，一九九七年初我們開辦中文學校，目的是要將福音傳給周圍鄰居的小孩。同年六月，我們也開始中文崇拜，目的也是為了傳福音、造就信徒，使他們靈性成長。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'sanfrancisco')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Senior Pastor: </b>Rev. Stephen Hosea, (415)309-5661
+</p>
+<p>
+<b>Assistant Pastor: </b>Rev. Tony Ong Teck Meng, (415)935-9877
+</p>
+<p>
+<b>Address: </b>400 Brussels St. San Francisco, CA 94134 USA USA
+</p>
+<p>
+<b>Tel #: </b>(415)656-0886
+</p>
+<p>
+<b>Fax #: </b>(415)468-6347
+</p>
+<p>
+<b>Email: </b>iec.sfo@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.692398019072!2d-122.40790028468372!3d37.72689747976825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7ee372abe987%3A0x8b928727c03148bc!2s400+Brussels+St%2C+San+Francisco%2C+CA+94134!5e0!3m2!1sen!2sus!4v1518381105312" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+</p>
+')	where church_id = (select church_id from church where church_path = 'sanfrancisco')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>主任牧師:</b> 何兆威 牧師,  (415)309-5661
+</p>
+<p>
+<b>助理牧師:</b> 王德明 牧師,  (415)935-9877
+</p>
+<p>
+<b>地址: </b>400 Brussels St., San Francisco, CA 94134 USA
+</p>
+<p>
+<b>電話:</b> (415)656-0886
+</p>
+<p>
+<b>傳真:</b> (415)468-6347
+</p>
+<p>
+<b>電郵: </b>iec.sfo@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.692398019072!2d-122.40790028468372!3d37.72689747976825!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f7ee372abe987%3A0x8b928727c03148bc!2s400+Brussels+St%2C+San+Francisco%2C+CA+94134!5e0!3m2!1sen!2sus!4v1518381105312" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+</p>
+')	where church_id = (select church_id from church where church_path = 'sanfrancisco')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+--------------------ends san francisco
 
 ------------starts sanjose
 update church_content set body = STRINGDECODE('<style>
@@ -2471,7 +2677,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>1985年 9月 22日
+<span class=\"label\">成立日期: 1985年 9月 22日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -2709,7 +2915,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2010年 1月30日
+<span class=\"label\">成立日期: 2010年 1月 30日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -2884,7 +3090,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>1999年 10月21日
+<span class=\"label\">成立日期: 1999年 10月 21日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -3078,7 +3284,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2002年1月22日
+<span class=\"label\">成立日期: 2002年 1月 22日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -3264,7 +3470,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2006 年  六月十一日
+<span class=\"label\">成立日期: 2006年  6月 11日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span>
@@ -3456,7 +3662,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: </span>2015年 8月 22日 
+<span class=\"label\">成立日期: 2015年 8月 22日</span> 
 </p>
 <p>
 <span class=\"label\">簡史: </span>
@@ -3656,7 +3862,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: </span>2016年 8月 5日 
+<span class=\"label\">成立日期: 2016年 8月 5日 </span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -3828,7 +4034,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: </span>2017 
+<span class=\"label\">成立日期: 2017年 </span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -3996,7 +4202,7 @@ p span.label {font-weight: bold;}
 <div class="main-content">
 	<p><span class="label">Established Date: May 29, 2016</span></p>
 <p>
-<img hspace="5" src="/emsi/images/church_madeira2017.jpg" align="left" height="255" width="360" /></p>
+<img hspace="5" src="/emsi/images/church_madeira2017.jpg" align="left" height="255"/></p>
 </div>
 ');
 
@@ -4053,13 +4259,13 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: 2016 年 5 月 29 日 </span>
+<span class=\"label\">成立日期: 2016年 5月 29日 </span>
 </p>
 <p>
 <span class=\"label\">簡史: </span>
 </p>
 <p>
-<img hspace="5" src="/emsi/images/church_madeira2017.jpg" align="left" height="255" width="360" />2015年十二月26日，我們結束了亞速爾基督教生命堂聖誕晚會後，56位弟兄姐妹在亞速爾候機廳等候乘機回里斯本，當時ㄧ位弟兄和我說：「陳牧師啊，你每月要多去幾次亞速爾海島，一次還不夠；還有，趕快開始馬德拉的聖工，越快越好。」聽了他的話，心中也很感動，我就回應他的話說：「是啊，他們真的很渴慕，2016年開始我們計劃每月多去幾次亞速爾。至於馬德拉的聖工，本來亞速爾成立後就準備立刻去馬德拉的，後因我去美國進修三個月，所以這事就往後延了，既然神藉著你的口再次提醒此事，那麼我們年初馬上開始馬德拉的事工。」這位弟兄馬上就說，他願意從明年開始每月奉獻金錢來支持葡萄牙海島的聖工。感謝主，馬德拉基督教生命堂的聖工從此正式拉開序幕。
+<img hspace="5" src="/emsi/images/church_madeira2017.jpg" align="left" height="255"  />2015年十二月26日，我們結束了亞速爾基督教生命堂聖誕晚會後，56位弟兄姐妹在亞速爾候機廳等候乘機回里斯本，當時ㄧ位弟兄和我說：「陳牧師啊，你每月要多去幾次亞速爾海島，一次還不夠；還有，趕快開始馬德拉的聖工，越快越好。」聽了他的話，心中也很感動，我就回應他的話說：「是啊，他們真的很渴慕，2016年開始我們計劃每月多去幾次亞速爾。至於馬德拉的聖工，本來亞速爾成立後就準備立刻去馬德拉的，後因我去美國進修三個月，所以這事就往後延了，既然神藉著你的口再次提醒此事，那麼我們年初馬上開始馬德拉的事工。」這位弟兄馬上就說，他願意從明年開始每月奉獻金錢來支持葡萄牙海島的聖工。感謝主，馬德拉基督教生命堂的聖工從此正式拉開序幕。
 </p>
 <p>2016年一月，我帶著八位同工第一次踏上馬德拉海島，地毯式地探訪馬德拉的當地華人。那次我們就帶了八個人信耶穌。我們把找會址的這事委託給當地的奚姐妹，請她幫忙尋找。那段時間她為我們忙裏忙外，還有她的兒子以及當地知名熱心的酈女士一起幫忙尋找，為了找到合適的場地，他們看了很多地方，最後找到現在的堂會，實在是感謝讚美主。
 </p>
@@ -4232,7 +4438,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2011年  4月
+<span class=\"label\">成立日期: 2011年 4月</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -4401,7 +4607,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2008年 2月17日
+<span class=\"label\">成立日期: 2008年 2月 17日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -4591,7 +4797,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2010 年 10 月 10 日
+<span class=\"label\">成立日期: 2010年 10月 10日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -4868,7 +5074,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2007年 9月23日
+<span class=\"label\">成立日期: 2007年 9月 23日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -5143,7 +5349,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2008年6月17日
+<span class=\"label\">成立日期: 2008年 6月 17日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -5270,7 +5476,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2012年 2月12日
+<span class=\"label\">成立日期: 2012年 2月 12日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -5451,7 +5657,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2012年 10月20日
+<span class=\"label\">成立日期: 2012年 10月 20日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -5646,7 +5852,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2009年 8月29日
+<span class=\"label\">成立日期: 2009年 8月 29日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -5843,7 +6049,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>1981年 10月24日
+<span class=\"label\">成立日期: 1981年 10月 24日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -6022,7 +6228,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>1985年  4月
+<span class=\"label\">成立日期: 1985年 4月</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -6201,7 +6407,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>1999年 9月
+<span class=\"label\">成立日期: 1999年 9月</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -6381,7 +6587,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>1997年 12月25日
+<span class=\"label\">成立日期: 1997年 12月 25日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -6603,7 +6809,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2002年 12月25日
+<span class=\"label\">成立日期: 2002年 12月 25日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -6783,7 +6989,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2003年 8月26日
+<span class=\"label\">成立日期: 2003年 8月 26日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -6965,7 +7171,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2009年 9月6日
+<span class=\"label\">成立日期: 2009年 9月 6日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -7168,7 +7374,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>1980年
+<span class=\"label\">成立日期: 1980年</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -7680,7 +7886,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2010年 8月8日
+<span class=\"label\">成立日期: 2010年 8月 8日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -8018,7 +8224,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class="main-content">
 <p>
-<span class="label">成立日期: </span>1974年 
+<span class="label">成立日期: 1974年</span> 
 </p>
 <p>
 <span class="label">簡史: </span><br />
@@ -8242,7 +8448,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2011年 3月
+<span class=\"label\">成立日期: 2011年 3月</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -8513,7 +8719,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>2004年 5月16日
+<span class=\"label\">成立日期: 2004年 5月 16日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -8820,7 +9026,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: </span>2015 年 1 月 
+<span class=\"label\">成立日期: 2015年 1月</span> 
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -9053,7 +9259,7 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">成立日期: </span>2012年</p>
+<p><span class="label">成立日期: 2012年</span></p>
 
 <p><b>2012年三月福音事工開展</b><br />
 <br />
@@ -9318,7 +9524,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: </span>2014 年 6 月 1 日
+<span class=\"label\">成立日期: 2014年 6月 1日</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -9576,7 +9782,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: </span>2014 年 12 月 23日 
+<span class=\"label\">成立日期: 2014年 12月 23日</span> 
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -9794,7 +10000,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>1973年 
+<span class=\"label\">成立日期: 1973年 </span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -10206,7 +10412,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: </span>1996年 2月
+<span class=\"label\">成立日期: 1996年 2月</span>
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -10410,7 +10616,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: </span>2014 年 
+<span class=\"label\">成立日期: 2014年</span> 
 </p>
 <p>
 <img hspace="5" src="/emsi/images/Wellingtonsmall.jpg" align="left" height="255" width="360" />
