@@ -2822,6 +2822,10 @@ p span.label {font-weight: bold;}
 <div style="color: #000000; font-size: small">
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Yong Yong Guo, (Cell) 965-333-777</td>
+		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -2882,6 +2886,10 @@ p span.label {font-weight: bold;}
 <div style=\"color: #000000; font-size: small\">
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>郭永勇 傳道, (手機) 965-333-777</td>
+		</tr>
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -2919,16 +2927,30 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/portoaltosmall_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />2009年12月30日陳岳平牧師與一位社團的負責人去PORTO ALTO辦事，席間一位未信主的朋友告知PORTO ALTO已有1000左右的華人，這位朋友並建議我們在PORTO ALTO建立教會。神竟然讓一個未信主的人發出馬其頓的呼聲！
+<img hspace=\"5\" src=\"/emsi/files/portoaltosmall_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />
+2009年12月30日陳岳平牧師與一位社團的負責人去PORTO ALTO辦事，席間一位未信主的朋友告知PORTO ALTO已有1000左右的華人，這位朋友建議我們在PORTO ALTO建立教會。神竟然讓一個未信主的人發出馬其頓的呼聲！
 </p>
 <p>
 在回里斯本的路上，陳牧師為PORTO ALTO 新工場禱告，尋求神的旨意。 2010年1月2日 陳牧師和陳小萍姐妹去PORTO ALTO實地考察探訪。在探訪的過程中，深深的感受到當地福音的需要及當地弟兄姐妹的渴慕。
 </p>
 <p>
 2010年2日的晚上在里斯本生命堂禱告會中，陳牧師把PORTO ALTO福音的需要告訴大家。禱告會後有個姐妹奉獻一萬歐元作為PORTO ALTO新福音工場的啟動基金; 另一位姐妹願意奉獻聖經、聖詩; 也有很多弟兄姊妹願為PORTO ALTO作開堂奉獻。
+
 </p>
 <p>
 2010年1月3日禮拜天崇拜之後同工會議，決定在2010年1月31日禮拜天正式成立播道歐多基督教生命堂。
+
+</p>
+<p>
+一月31日，全球生命堂總監楊摩西牧師從美國來主持播道歐多生命堂成立典禮， 在陳岳平牧師宣告下，「播道歐多基督教生命堂」正式成立。
+</p>
+<p>
+「播道歐多」是葡文的 PORTO ALTO，中文「播道歐多」有特別的意義：基督教生命堂宣教、傳「播」上帝的「道」，在「歐」洲華人中，信主的人會越來越「多」。感謝主，多美的名字！
+</p>
+<p>
+播道歐多生命堂成立不到兩年，上帝又為我們預備了一個華人聚居最密集，停車很方便的新會址，我們與房主多次商議，在荷蘭的陳啟猷牧師夫婦也親自來葡萄牙幫助我們與房主商議後，對方終於以我們可接受的價格賣給我們，而且還根據我們的要求把房子裝修好後才交給我們。屋內幾乎所有應備有的傢俱一應俱全，一樓到二樓的樓梯和一樓進屋內的走道鋪設都是大理石地，相當美觀實用。我們非常感恩！播道歐多生命堂雖然不是很「壯大」（崇拜人數穩定在35-45人之間），但弟兄姐妹很同心、很相愛，很溫馨。
+</p>
+         2015年4月郭永勇傳道夫婦開始在播道歐多生命堂牧會。如今教會除了主日崇拜、查經禱告會、團契以外，我們還舉辦了不同類型的福音活動，其間我們還成立了工友福音團契（特為在倉庫上班的工人成立的團契），效果顯著。播道歐多生命堂就這樣慢慢的發展起來。祈求上帝帶領這個可愛的教會走向更成熟、更健全的復興之路。
 </p>
 
 </div>
@@ -2939,6 +2961,9 @@ p span.label {font-weight: bold;}
 	
 	
 update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b> Ev. Yong Yong Guo, (Cell) 965-333-777
+</p>
 <p>
 <b>Address: </b>Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal
 </p>
@@ -2956,10 +2981,13 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
+<b>傳道: </b>郭永勇 傳道, (手機) 965-333-777
+</p>
+<p>
 <b>地址: </b>Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal
 </p>
 <p>
-<b>電話:</b> 3351-263-658-466/(手機) 351-965-077-777 
+<b>電話: </b>3351-263-658-466/(手機) 351-965-077-777 
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m" style="color:#0000FF;text-align:left">View Larger Map</a></small>
@@ -3049,10 +3077,6 @@ p span.label {font-weight: bold;}
 <div style=\"color: #000000; font-size: small\">
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
-		<tr>
-			<td class=\"label\">會牧:</td>
-			<td>陳岳平 牧師</td>
-		</tr>
 		<tr>
 			<td class=\"label\">牧師:</td>
 			<td>陳岳平 牧師, (手機) 351-963-333-777</td>
