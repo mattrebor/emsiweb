@@ -171,7 +171,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2009年 8月 3日</span>
+<b>成立日期:</b> 2009年 8月 3日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -387,7 +387,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 1985年 5月 10日</span>
+<b>成立日期:</b> 1985年 5月 10日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -564,7 +564,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 1984年</span>
+<b>成立日期:</b> 1984年
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -897,7 +897,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 1978年</span>
+<b>成立日期:</b> 1978年
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -1076,7 +1076,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2001年 10月</span>
+<b>成立日期:</b> 2001年 10月
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -1306,7 +1306,9 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">成立日期: 1968年</span></p>
+<p>
+<b>成立日期:</b> 1968年
+</p>
 
 <p><span class="label">簡史: </span><br />
 <img align="left" hspace="5" src="/emsi/images/chinatown2012.jpg" />一九六八年，楊牧師在中國城勿街十號（10 Mott St.）租下二樓，成立「生命團契」，這是楊摩西牧師成立的第一間教會，後於一九七○年更名為中國城生命堂。楊摩西牧師常常提起早期大學查經班的八位成員：周靄楣、許娜娜、李珍瑜、曾文鳳、曾文愛、王慕清、林瑞桃及林團鐘長老一家。這八員大將可說是「生命家庭」的開始。後來查經班加入了幾位新人，他們都是研究所的學生：周應彪、吳翩翩、許偉國、郭靄玉、林則寶、陳達堂、潘冀、林國仁、潘重光、向傳仁等。後來林則寶和林珍瑜結為夫婦，其他的弟兄姐妹也分別嫁娶，「生命之家」增加了媳婦和女婿，儼然成為一個大家庭。連續兩次搬遷之後，終於在一九七四年憑信心買下位於中央街的一棟三層樓房（253 Centre St.）。如今，除了林長老回天家，一些弟兄姐妹搬離此地之外，其他的成員和家人都忠心留在東部各生命堂，是楊牧師得力的同工。</p>
@@ -1640,7 +1642,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class="main-content">
 <p>
-<span class="label">成立日期: 2008年 1月 6日</span>
+<b>成立日期:</b> 2008年 1月 6日
 </p>
 <p>
 <span class="label">簡史: </span>
@@ -1981,7 +1983,9 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">成立日期: 1996年 4月 7日</span></p>
+<p>
+<b>成立日期:</b> 1996年 4月 7日
+</p>
 
 <p><span class="label">簡史: </span><br />
 <img align="left" height="255" hspace="5" src="/emsiweb/images/files/madrid/madrid.jpg" width="360" />一九九五年十一月一日李月雲傳道再度奉派抵西，正式展開本會在歐洲的事工。進駐空蕩無物的佈道會後，即動手裝修、添購傢俱和設備，並分別海陸空運 聖經、聖詩、歌本和圖書。一個月後「福音佈道會」對外開放，藉著查經班、神學課、音樂班的學習、個別關懷輔導和探訪，帶領慕道友、造就信徒、培訓同工，使 建立教會的基礎逐漸成熟。一九九六年四月七日本會西班牙第一間教會「馬德里基督教生命堂」成立，開始主日崇拜。&nbsp;</p>
@@ -2111,7 +2115,9 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">成立日期: 2004年 2月 28日</span></p>
+<p>
+<b>成立日期:</b> 2004年 2月 28日
+</p>
 
 <p><span class="label">簡史: </span><br />
 <img align="left" alt="CEC South Madrid" height="258" hspace="5" src="/emsiweb/images/southmadrid/SMadrid8_18_13.jpg" title="CEC South Madrid" width="344" />馬德里是西班牙的首都、政治、經濟、文化中心，而馬德里的北邊是以經濟文化為主，多屬已發展的城市；相較以工商業為主的南邊則屬正在發展中的區域，所以南邊住房的價格就相對比較低，也是許多華人集中區，而馬德里南區生命堂即坐落於此。馬德里的總會地處北邊，以至於對南區的人來講，自然就有許多不便之處；因此我們早就計劃在馬德里南區建教會。感謝主，二○○四年馬德里南區生命堂成立。當時楊摩西牧師派王艷華傳道來幫助牧養，後因巴塞羅那事工之需又派其前往。馬德里南區生命堂在二○○六年建堂，二○○七年擴建完畢，蒙主的帶領，福音工作如期展開。同工們的同心配搭，盡心盡力擺上，人數一天天增長，但我們知道仍要繼續努力，完成主的托付。<br />
@@ -2225,7 +2231,9 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">成立日期: 2005年 2月 20日</span></p>
+<p>
+<b>成立日期:</b> 2005年 2月 20日
+</p>
 
 <p><span class="label">簡史: </span><br />
 <img align="left" height="255" hspace="5" src="/emsiweb/images/files/barcelona.jpg" width="360" />2005年初北美總會監督楊摩西牧師差派王豔華傳道前往西班牙巴賽隆納開拓教會。同年2月19日、20日，美國短宣隊抵達巴賽隆納舉辦音樂佈道會，楊摩西牧師主講&ldquo;人生的福&rdquo;，並宣佈，2月20日為教會正式成立日期。最初佈道會設在巴賽隆納C/Mallorca,20-22.1&ordm;4&ordf;&nbsp; Barcelona，即每週查經班、禱告會之地，而每週主日崇拜則租用西班牙之教會。由於佈道會房東欠款，銀行準備拍賣其房，合同期滿一年後，佈道會被迫搬出。為此查經班、禱告會曾經過一段流浪時期。在這期間，先後在陳文芳姐妹的洗衣店以及遠東辦公室堅持每週的查經班和禱告會。由於教會人員不斷增長，2006年8月6日開始租用現在聚會的地點: C/Rossell&oacute; 427 Bis, Local 2。( 地鐵：2線、5線Sagrada Familia 站，2線在 Proven&ccedil;a出口，沿Calle de la Marina街向左轉，5線在Sardenya出口，沿 Calle de Sardenya 街向右轉即到 ) 。<br />
@@ -2489,7 +2497,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 1985年 4月 21日</span> 
+<b>成立日期:</b> 1985年 4月 21日 
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -2677,7 +2685,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 1985年 9月 22日</span>
+<b>成立日期:</b> 1985年 9月 22日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -2923,7 +2931,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2010年 1月 30日</span>
+<b>成立日期:</b> 2010年 1月 30日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -3114,7 +3122,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 1999年 10月 21日</span>
+<b>成立日期:</b> 1999年 10月 21日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -3308,7 +3316,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2002年 1月 22日</span>
+<b>成立日期:</b> 2002年 1月 22日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -3494,7 +3502,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2006年  6月 11日</span>
+<b>成立日期:</b> 2006年  6月 11日
 </p>
 <p>
 <span class=\"label\">簡史: </span>
@@ -3615,7 +3623,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 	<p><span class="label">Established Date: </span>August 22, 2015</p>
-	<p><img hspace="5" src="/emsi/images/church_azores2015.jpg" align="left" height="255" width="360" />In May 2015, I received a phone call from Brother Jianfeng Ji. After Mr. Ji had witnessed to one of his customer for a long time, he was ready to accept Jesus Christ as his Savior. We made an appointment at 12 am Thursday evening during our restaurant Bible Study hour to speak to him on the phone and lead him to Christ. 
+	<p><img hspace="5" src="/emsi/images/Church-Azores-pic-2-23-18.jpg" align="left" height="255" width="360" />In May 2015, I received a phone call from Brother Jianfeng Ji. After Mr. Ji had witnessed to one of his customer for a long time, he was ready to accept Jesus Christ as his Savior. We made an appointment at 12 am Thursday evening during our restaurant Bible Study hour to speak to him on the phone and lead him to Christ. 
 	</p>
 	<p>On Thursday night at 12 am, we called him. I thank God that our friend answered the phone and accepted Jesus Christ as his Savior. When I put down the phone, I told Jianfeng that: we thank the Lord that his friend believes in Jesus. It is too bad he lives so far away from us, a solid three hours by plane. A new believer will be very lonely without church life. Let us pray for him and ask the Holy Spirit to help him. Later I heard from Jianfeng that the brother who just believed in the Lord called him to share with him that since he believed in Jesus, he does not know why he was so joyful, and this joy he never had.  I was very grateful for him!
 	</p>
@@ -3686,12 +3694,12 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: 2015年 8月 22日</span> 
+<b>成立日期:</b> 2015年 8月 22日 
 </p>
 <p>
 <span class=\"label\">簡史: </span>
 <p>
-<img hspace="5" src="/emsi/images/church_azores2015.jpg" align="left" height="255" width="360" />2015年五月，我接到教會裡季建峰弟兄的電話，他告訴我，他跟一位客戶傳了很長時間的福音，對方終於答應要信耶穌了，所以約好在那個週四晚上12點我們餐館查經班時，請我在電話中帶他做決志禱告。
+<img hspace="5" src="/emsi/images/Church-Azores-pic-2-23-18.jpg" align="left" height="255" width="360" />2015年五月，我接到教會裡季建峰弟兄的電話，他告訴我，他跟一位客戶傳了很長時間的福音，對方終於答應要信耶穌了，所以約好在那個週四晚上12點我們餐館查經班時，請我在電話中帶他做決志禱告。
 </p>
 <p>
 週四晚12點時，我們準時打電話給對方。感謝主，這位朋友接了電話，也跟我做了決志禱告。放下電話，我跟建峰說：「感謝主，你的這位朋友真的信耶穌了，可惜他住的地方離我們很遠，坐飛機也要二個小時，剛信主沒有教會的生活很孤單的，我們為他禱告吧，求聖靈幫助他。」後來聽建峰說，隔天那位信主的弟兄打電話跟他分享：「自從信了耶穌後，不知道為什麼一直很喜樂，而且這種喜樂是他從來沒有過的。」我心中很替他感恩！
@@ -3834,7 +3842,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 	<p><span class="label">Established Date: </span>August 5, 2016</p>
-
+<img hspace="5" src="/emsi/images/Church-Setubal-pic-2-23-18.jpg" align="left" height="255" width="360" />
 </div>
 ');
 
@@ -3849,15 +3857,15 @@ p span.label {font-weight: bold;}
 </style>
 <div class="contact-content">
 <div style="color: #000000; font-size: small">
+
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
+			<td class=\"label\">傳道: </td>
 			<td>郭永勇 傳道, (手機) 965-333-777</td>
 		</tr>
 	</tbody>
 </table>
-&nbsp;
 
 <div style="margin-left: 20px">
 	<table cellpadding="1" cellspacing="0">
@@ -3886,10 +3894,25 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: 2016年 8月 5日 </span>
+<b>成立日期:</b> 2016年 8月 5日 
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
+<img hspace="5" src="/emsi/images/Church-Setubal-pic-2-23-18.jpg" align="left" height="255" width="360" />
+2016年二月10日週三晚上，陳岳平牧師從里斯本教會查經結束回家已是夜間十一點了，洗洗漱漱後就準備休息；但是，那天夜裡陳牧師輾轉反側，怎麼也睡不著，於是乾脆起來跪下禱告。禱告結束後，心中聽到一個聲音：「你們連馬德拉，亞速爾只有三、五百華人的地方都建立了教會，但里斯本周圍還有幾個城市超過一千多個華人的地方，為什麼不去建立教會？」當陳牧師心裡聽到這個聲音後，立刻閉上眼睛把里斯本周圍的城市過濾了一遍，這時有兩個城市浮現在他的眼前：一是卡斯卡伊斯（CASCAIS）、二是思督堡（SETUBAL）。
+</p>
+<p>
+卡斯卡伊斯是里斯本郊區最富有的城市（我们也在这个城市开始了每周一次的查经了），她距里斯本三十公里左右，近年來有很多從中國來的新移民都在這裡落戶；思督堡是里斯本以南五十公里處的城市，在此城及其四周有不少中國人開的店。感謝主，藉著聖靈的提醒讓陳牧師看到卡斯卡伊斯和思督堡的福音需要，於是陳牧師立刻回應上帝的感動。向主禱告說：「主啊！如果你要我們去這兩個城市開拓福音工作，我們願意。」禱告後，就安然地入睡了。
+</p>
+<p>
+過了些日子，我們前往思督堡探訪；探訪之後，上帝給陳牧師的感動更加強烈，更加清晰，有必要在這個城市建立教會了，因為這個城市周圍還有一些小城，都有中國人開的商店，如果要他們去里斯本聚會，要過大橋，還要付過橋費，如果我們在這個地方建立教會，那麼他們到這裏來聚會就很方便。於是我們決定先找場地，結果上帝非常奇妙地為我們預備一個場地，而且以租約的方式購買了這個場地，每月只付800歐元，15年後產權就歸教會，上帝太奇妙了。於是我們在2016年八月5日舉行「思督堡基督教生命堂」獻堂暨「思督堡基督教生命堂」成立典禮。
+</p>
+<p>
+感謝主，思督堡基督教生命堂是一間從無到有的教會，從沒有一個會友先買下堂會的教會，這實在是奇蹟。迄今思督堡生命堂成立已經一年了，雖然還不是很壯大，聚會人數穩定在10人左右，但我們對主有信心，主能在曠野開道路，能在沙漠開江河，祂也必會在我們前頭開路引領。
+</p>
+<p>
+思督堡的葡語是Setubal，中文翻譯是「塞圖巴爾」，但我們稱為「思督堡」是有特殊含義的，就是思想基督的城堡。但願這間教會能成為周圍華人的祝福，藉著福音的廣傳，能吸引更多的人來到基督的城堡，思想耶穌基督的大愛。
+</p>
 
 </div>');
 
@@ -4064,7 +4087,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: 2017年 </span>
+<b>成立日期:</b> 2017年
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -4289,7 +4312,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: 2016年 5月 29日 </span>
+<b>成立日期:</b> 2016年 5月 29日 
 </p>
 <p>
 <span class=\"label\">簡史: </span>
@@ -4468,7 +4491,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2011年 4月</span>
+<b>成立日期:</b> 2011年 4月
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -4637,7 +4660,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2008年 2月 17日</span>
+<b>成立日期:</b> 2008年 2月 17日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -4827,7 +4850,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2010年 10月 10日</span>
+<b>成立日期:</b> 2010年 10月 10日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -5104,7 +5127,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2007年 9月 23日</span>
+<b>成立日期:</b> 2007年 9月 23日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -5379,7 +5402,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2008年 6月 17日</span>
+<b>成立日期:</b> 2008年 6月 17日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -5506,7 +5529,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2012年 2月 12日</span>
+<b>成立日期:</b> 2012年 2月 12日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -5687,7 +5710,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2012年 10月 20日</span>
+<b>成立日期:</b> 2012年 10月 20日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -5882,7 +5905,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2009年 8月 29日</span>
+<b>成立日期:</b> 2009年 8月 29日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -6079,7 +6102,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 1981年 10月 24日</span>
+<b>成立日期:</b> 1981年 10月 24日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -6258,7 +6281,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 1985年 4月</span>
+<b>成立日期:</b> 1985年 4月
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -6437,7 +6460,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 1999年 9月</span>
+<b>成立日期:</b> 1999年 9月
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -6617,7 +6640,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 1997年 12月 25日</span>
+<b>成立日期:</b> 1997年 12月 25日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -6839,7 +6862,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2002年 12月 25日</span>
+<b>成立日期:</b> 2002年 12月 25日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -7019,7 +7042,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2003年 8月 26日</span>
+<b>成立日期:</b> 2003年 8月 26日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -7201,7 +7224,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2009年 9月 6日</span>
+<b>成立日期:</b> 2009年 9月 6日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -7404,7 +7427,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 1980年</span>
+<b>成立日期:</b> 1980年
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -7916,7 +7939,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2010年 8月 8日</span>
+<b>成立日期:</b> 2010年 8月 8日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -8254,7 +8277,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class="main-content">
 <p>
-<span class="label">成立日期: 1974年</span> 
+<b>成立日期:</b> 1974年
 </p>
 <p>
 <span class="label">簡史: </span><br />
@@ -8478,7 +8501,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2011年 3月</span>
+<b>成立日期:</b> 2011年 3月
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -8749,7 +8772,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 2004年 5月 16日</span>
+<b>成立日期:</b> 2004年 5月 16日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -9056,7 +9079,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: 2015年 1月</span> 
+<b>成立日期:</b> 2015年 1月
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -9289,9 +9312,13 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">成立日期: 2012年</span></p>
+<p>
+<b>成立日期:</b> 2012年
+</p>
 
-<p><b>2012年三月福音事工開展</b><br />
+<p>
+<span class=\"label\">簡史: </span><br />
+<b>2012年三月福音事工開展</b><br />
 <br />
 東京是日本的首都，聚集的中國人也是全日本最多的。儘管有許多華人教會，但還是有許多失喪的靈魂正等著基督耶穌的福音。 林雲芳夫婦早在三年前舉家從大阪搬遷到東京的附近(坐車四十分鐘左右可達東京)，到了當地後便找教會，原希望能在教會得到些靈裏的餵養，但卻始終覺得靈裏乾渴。因此迫切向上帝禱告，希望生命堂能在東京開展。 2012年三月，雲芳夫婦經過禱告購得新房後，願意開放家庭為主所用。他們將此感動傳達給方傳道，方傳道與楊牧師匯報後，2012年四月底，楊牧師來到東京視察，並開始了第一次的家庭聚會。</p>
 &nbsp;
@@ -9554,7 +9581,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: 2014年 6月 1日</span>
+<b>成立日期:</b> 2014年 6月 1日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -9812,7 +9839,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: 2014年 12月 23日</span> 
+<b>成立日期:</b> 2014年 12月 23日 
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -10030,7 +10057,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 1973年 </span>
+<b>成立日期:</b> 1973年
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -10442,7 +10469,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<span class=\"label\">成立日期: 1996年 2月</span>
+<b>成立日期:</b> 1996年 2月
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -10646,13 +10673,13 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<span class=\"label\">成立日期: 2014年</span> 
-</p>
-<p>
-<img hspace="5" src="/emsi/images/Wellingtonsmall.jpg" align="left" height="255" width="360" />
+<b>成立日期:</b> 2014年 
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
+</p>
+<p>
+<img hspace="5" src="/emsi/images/Wellingtonsmall.jpg" align="left" height="255" width="360" />
 </p>
 </div>');
 
