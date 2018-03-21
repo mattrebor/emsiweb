@@ -1726,6 +1726,142 @@ and key = 'menu_name';
 
 
 ------------ starts madrid
+update church_content set body = '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Yueh-Yun Li, 34-629-035-717</td>
+		</tr>
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+<table cellpadding="1" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>C/Las Carolinas 10, 28039 Madrid, Spain</td>
+		</tr>
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>34-91-4595775, 34-91-4507306</td>
+		</tr>
+		<tr>
+			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:iglesiamadrid@telefonica.net">iglesiamadrid@telefonica.net</a></td>
+		</tr>
+		<tr>
+			<td><img height="16" src="/emsiweb/images/emsi/icon_skype.gif" width="16" /></td>
+			<td class="label">Skype:</td>
+			<td>yueh2004</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p><span class="label">Established Date: </span>April 7, 1996</p>
+
+<div style="float: left">&nbsp;</div>
+
+<p><img align="left" alt="CEC South Madrid" height="258" hspace="5" src="/emsiweb/images/files/madrid/madrid.jpg" title="Madrid" width="344" />
+Yueh Yun Li was sent to Spain to start the CEC Church by the end of 1995. On April 7, 1996, the CEC in Madrid was established. The first meeting was at the Mission headquarter, after a few weeks, we rented a Spanish church. Half a year later the place for worship was not big enough so we have moved to a new site that November. The church started with 8 people and has now grown to 200 people today. There were 243 congregants who were baptized.
+</p>
+
+<p>The average Sunday Service attendance is between 130-140 people. Aside from the Sunday Service, we have 4 Bible Study groups, prayer meeting, and youth group. The evangelists and staff members are: Yueh Yun Li, Jian Wei Ye (Assistant) and Yueh Kuei Lin Lee (Administration).
+</p>
+
+</div>
+'	where church_id = (select church_id from church where church_path = 'madrid')
+	and locale = 'en'
+	and page_id = 'intro';		
+
+
+	
+update church_content set body = '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">牧師:</td>
+			<td>李月雲 牧師, 34-629-035-717</td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+<table cellpadding="1" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+			<td class="label">地址:</td>
+			<td>C/ Las Carolinas 10, 28039 Madrid, Spain</td>
+		</tr>
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+			<td class="label">電話:</td>
+			<td>34-91-459-5775, 34-91-450-7306</td>
+		</tr>
+		<tr>
+			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+			<td class="label">電郵:</td>
+			<td><a href="mailto:iglesiamadrid@telefonica.net">iglesiamadrid@telefonica.net</a></td>
+		</tr>
+		<tr>
+			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_skype.gif" width="16" /></td>
+			<td class="label">Skype:</td>
+			<td>yueh2004</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<b>成立日期:</b> 1996年 4月 7日
+</p>
+
+<p><span class="label">簡史: </span><br />
+<img align="left" height="255" hspace="5" src="/emsiweb/images/files/madrid/madrid.jpg" width="360" />一九九五年十一月一日李月雲傳道再度奉派抵西，正式展開本會在歐洲的事工。進駐空蕩無物的佈道會後，即動手裝修、添購傢俱和設備，並分別海陸空運 聖經、聖詩、歌本和圖書。一個月後「福音佈道會」對外開放，藉著查經班、神學課、音樂班的學習、個別關懷輔導和探訪，帶領慕道友、造就信徒、培訓同工，使 建立教會的基礎逐漸成熟。一九九六年四月七日本會西班牙第一間教會「馬德里基督教生命堂」成立，開始主日崇拜。&nbsp;</p>
+二00一年五月九日購堂，成為西班牙佈道會辦公和宣教中心。新堂地址: C/CAROLINAS,10(在地鐵1線Alvarado站)佔地733㎡
+
+<p>十二月二日在新堂首次崇拜, 當天有成人182人、兒童18人出席, 25人受洗。</p>
+
+<p>二00<span style="font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體;">二</span>年三月十日舉行馬德里生命堂六週年慶暨獻堂感恩崇拜, 共有350多人參加, 33人受洗</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'madrid')
+	and locale = 'zh'
+	and page_id = 'intro';	
+
+
+
+
 update church_content set body = '<p>&nbsp;</p>
 
 <p style="margin: 0.6em 0px 1.2em; padding: 0px"><b>Sunday Worship</b>&nbsp;<b style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px">| Sunday 5:30PM</b></p>
@@ -1926,78 +2062,60 @@ update church_content set body = '<p><b>主日崇拜 | 週日下午5:30PM</b></p
 '	where church_id = (select church_id from church where church_path = 'madrid')
 	and locale = 'zh'
 	and page_id = 'schedule';	
+
 	
 	
-update church_content set body = '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
-.contact-content td {font-size: 14px; padding: 2px; 3px;}
-td.label {font-weight: bold; width: 1%; white-space: nowrap;}
-p span.label {font-weight: bold;}
-.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
-.borderless-table {border-width: 0px;}
-</style>
-<div class="contact-content">
-<div style="color: #000000; font-size: small">
-<table cellpadding="0" cellspacing="0">
-	<tbody class="borderless-table">
-		<tr>
-			<td class="label">牧師:</td>
-			<td>李月雲 牧師, 34-629-035-717</td>
-		</tr>
-	</tbody>
-</table>
-&nbsp;
-
-<div style="margin-left: 20px">
-<table cellpadding="1" cellspacing="0">
-	<tbody class="borderless-table">
-		<tr>
-			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
-			<td class="label">地址:</td>
-			<td>C/ Las Carolinas 10, 28039 Madrid, Spain</td>
-		</tr>
-		<tr>
-			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-			<td class="label">電話:</td>
-			<td>34-91-459-5775, 34-91-450-7306</td>
-		</tr>
-		<tr>
-			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-			<td class="label">傳真:</td>
-			<td>34-91-459-5844</td>
-		</tr>
-		<tr>
-			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
-			<td class="label">電郵:</td>
-			<td><a href="mailto:iglesiamadrid@telefonica.net">iglesiamadrid@telefonica.net</a></td>
-		</tr>
-		<tr>
-			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_skype.gif" width="16" /></td>
-			<td class="label">Skype:</td>
-			<td>yueh2004</td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
-
-<hr align="center" size="1" width="100%" /></div>
-
-<div class="main-content">
+update church_content set body = STRINGDECODE('<p>
 <p>
-<b>成立日期:</b> 1996年 4月 7日
+<b>Pastor: </b>Rev. Yueh-Yun Li, 34-629-035-717
+</p>
+<p>
+<b>Address: </b>C/Las Carolinas 10, 28039 Madrid, Spain
+</p>
+<p>
+<b>Tel #: </b>34-91-4595775, 34-91-4507306
+</p>
+<p>
+<b>Email: </b>iglesiamadrid@telefonica.net
+</p>
+<p>
+<b>Skype: </b>yueh2004
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.081297316464!2d-3.7071105846030368!3d40.451337579361116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422855055d5179%3A0xc2ed99e53f130fb7!2sCalle+Carolinas%2C+10%2C+28039+Madrid%2C+Spain!5e0!3m2!1sen!2sus!4v1521661158644" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'madrid')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>牧師: </b>李月雲  牧師, 34-629-035-717
+</p>
+<p>
+<b>地址: </b>C/Las Carolinas 10, 28039 Madrid, Spain
+</p>
+<p>
+<b>電話: </b>34-91-4595775, 34-91-4507306
+</p>
+<p>
+<b>電郵: </b>iglesiamadrid@telefonica.net
+</p>
+<p>
+<b>Skype: </b>yueh2004
+</p>
+<p>
+路線: 地鐵1線 Alvarado站, Impares出口, 第二條街 (La Caixa銀行)左轉即達 </br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.081297316464!2d-3.7071105846030368!3d40.451337579361116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422855055d5179%3A0xc2ed99e53f130fb7!2sCalle+Carolinas%2C+10%2C+28039+Madrid%2C+Spain!5e0!3m2!1sen!2sus!4v1521661158644" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 
-<p><span class="label">簡史: </span><br />
-<img align="left" height="255" hspace="5" src="/emsiweb/images/files/madrid/madrid.jpg" width="360" />一九九五年十一月一日李月雲傳道再度奉派抵西，正式展開本會在歐洲的事工。進駐空蕩無物的佈道會後，即動手裝修、添購傢俱和設備，並分別海陸空運 聖經、聖詩、歌本和圖書。一個月後「福音佈道會」對外開放，藉著查經班、神學課、音樂班的學習、個別關懷輔導和探訪，帶領慕道友、造就信徒、培訓同工，使 建立教會的基礎逐漸成熟。一九九六年四月七日本會西班牙第一間教會「馬德里基督教生命堂」成立，開始主日崇拜。&nbsp;</p>
-二00一年五月九日購堂，成為西班牙佈道會辦公和宣教中心。新堂地址: C/CAROLINAS,10(在地鐵1線Alvarado站)佔地733㎡
-
-<p>十二月二日在新堂首次崇拜, 當天有成人182人、兒童18人出席, 25人受洗。</p>
-
-<p>二00<span style="font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體;">二</span>年三月十日舉行馬德里生命堂六週年慶暨獻堂感恩崇拜, 共有350多人參加, 33人受洗</p>
-</div>
-'	where church_id = (select church_id from church where church_path = 'madrid')
+')	where church_id = (select church_id from church where church_path = 'madrid')
 	and locale = 'zh'
-	and page_id = 'intro';	
+	and page_id = 'contactus';
+
+
 ------------ ends madrid	
 	
 ------------ starts southmadrid	
@@ -2403,11 +2521,6 @@ p span.label {font-weight: bold;}
 			<td>(415)656-0886</td>
 		</tr>
 		<tr>
-			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">Fax#:</td>
-			<td>(415)468-6347</td>
-		</tr>
-		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
 			<td><a href="mailto:iec.sfo@gmail.com">iec.sfo@gmail.com</a><br />
@@ -2480,11 +2593,6 @@ p span.label {font-weight: bold;}
 			<td> (415)656-0886 </td>
 		</tr>
 		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">傳真:</td>
-			<td> (415)468-6347 </td>
-		</tr>
-		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
 			<td><a href=\"mailto: iec.sfo@gmail.com"> iec.sfo@gmail.com</a></td>
@@ -2530,9 +2638,6 @@ update church_content set body = STRINGDECODE('<p>
 <b>Tel #: </b>(415)656-0886
 </p>
 <p>
-<b>Fax #: </b>(415)468-6347
-</p>
-<p>
 <b>Email: </b>iec.sfo@gmail.com
 </p>
 <p>
@@ -2557,9 +2662,6 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>電話:</b> (415)656-0886
-</p>
-<p>
-<b>傳真:</b> (415)468-6347
 </p>
 <p>
 <b>電郵: </b>iec.sfo@gmail.com
@@ -4788,11 +4890,6 @@ p span.label {font-weight: bold;}
 <p>
 <img src="/emsi/files/osaka_small[1].jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />Pastor Yang was burdened with Gospel outreach in Osaka in October 2009. We prayed earnestly for a church building. A rental property became our purchase target in in February 2010.
 </p>
-<p>It was not a smooth process to purchase a church building. The negotiation to purchase the first building failed. God’s will exceeded our expectation. He gave us a church building better than the first one. On September 3, 2010, Bishop Rev. Moses Yang came to Japan to sign the contract to purchase the building. On October 10, 2010 we held our first Worship service in a room on the third floor which required no renovation. It took us three months to renovate the building. On December 5, 2010, Superintendent Rev. Moses Yang presided over the Thanksgiving ceremony for the completion of the Japan Asia EMSI building renovation and the Osaka CEM church. There were sixteen overseas visitors attending the meeting.
-</p>
-<p>
-</p>
-
 </div>
 '	where church_id = (select church_id from church where church_path = 'osaka')
 	and locale = 'en'
@@ -4855,13 +4952,8 @@ p span.label {font-weight: bold;}
 <p>
 <span class=\"label\">簡史: </span><br />
 <img hspace=\"5\" src=\"/emsi/files/osaka_small[1].jpg\" align=\"left\" height=\"255\" width=\"360\" />2009年10月楊牧師有感動要在大阪發展聖工，成立教會。然而租借聚會地方的道路卻屢屢受阻。經過迫切地禱告，2010年2月一間肯租給我們當教會的地方成為我們購堂的對象。 
-購堂過程並不順利，第一間預定購買的禮拜堂買賣終止。神的旨意卻超乎所求所想，將一間更好的禮拜堂賜給我們，2010年 9月3日總監督楊摩西牧師來日本親自簽約; 簽約後開始為期約3個月的準備及裝修， 2010年10月10日我們在三樓不用裝修的房間首次禮拜; 2010年12月5日總監督楊摩西牧師親臨主持日本亞洲宣教大樓落成暨大阪基督教生命堂啟用剪彩與獻堂感恩禮拜。
+購堂過程並不順利，第一間預定購買的禮拜堂沒有成交。神的旨意卻超乎所求所想，將一間更好的禮拜堂賜給我們，2010年 9月3日總監督楊摩西牧師來日本親自簽約; 簽約後開始為期約3個月的準備及裝修， 2010年10月10日我們在三樓不用裝修的房間首次禮拜; 2010年12月5日總監督楊摩西牧師親臨主持日本亞洲宣教大樓落成暨大阪基督教生命堂啟用剪彩與獻堂感恩禮拜。
 </p>
-<p>購堂過程並不順利，第一間預定購買的禮拜堂買賣終止。神的旨意卻超乎所求所想，將一間更好的禮拜堂賜給我們，2010年 9月3日總監督楊摩西牧師來日本親自簽約; 簽約後開始為期約3個月的準備及裝修， 2010年10月10日我們在三樓不用裝修的房間首次禮拜; 2010年12月5日總監督楊摩西牧師親臨主持日本亞洲宣教大樓落成暨大阪基督教生命堂啟用剪彩與獻堂感恩禮拜。
-</p>
-<p>當天海外各生命堂來賓計 16人
-</p>
-
 
 </div>
 ')	where church_id = (select church_id from church where church_path = 'osaka')
