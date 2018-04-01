@@ -55,7 +55,7 @@ update church set address='Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portu
 update church set address='Rua Francisco Sanches 17, 1170-140 Lisbon, Portugal', latitude = 38.7306258, longitude = -9.1339151 where church_path = 'lisbon';
 update church set address='Rua do Amial 698, 4200-053 Porto, Portugal', latitude = 41.1789973, longitude = -8.6160348 where church_path = 'porto';
 update church set address='Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal', latitude = 41.334609, longitude = -8.722397 where church_path = 'mindelo';
-update church set address='73 Avenue de Verdun, 94200 Ivry-sur-Seine, France', latitude = 48.8135227, longitude = 2.3702061 where church_path = 'paris';
+update church set address='73 Avenue de Verdun, 94200 Ivry-sur-Seine, Paris, France', latitude = 48.8135227, longitude = 2.3702061 where church_path = 'paris';
 update church set address='Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium', latitude = 51.219508, longitude = 4.417894 where church_path = 'antwerpen';
 update church set address='Rue du Fossé aux Loups 32, 1000 Brussels, Belgium', latitude = 50.8503111, longitude = 4.3546746 where church_path = 'brussels';
 update church set address='Ledebergplein 2, 9050 Ledeberg (Gent), Belgium', latitude = 51.0370008, longitude = 3.7411437 where church_path = 'gent';
@@ -976,7 +976,7 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 			<td>Rev. Mix Chan</td>
 		</tr>
 		<tr>
-			<td class="label" rowspan="2" valign="top">Resident Evangelists:</td>
+			<td class="label" rowspan="2" valign="top">Resident Evangelist:</td>
 			<td>Ev. Martin Ding</td>
 		</tr>
 	</tbody>
@@ -987,7 +987,7 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>73, Avenue de Verdun, 94200 Ivry sur Seine, Paris, France</td>
+			<td>73 Avenue de Verdun, 94200 Ivry-sur-Seine, Paris, France</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -1051,7 +1051,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> 73, Avenue de Verdun, 94200 Ivry sur Seine, Paris, France</td>
+			<td> 73 Avenue de Verdun, 94200 Ivry-sur-Seine, Paris, France</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -1092,6 +1092,63 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'paris')
 	and locale = 'zh'
 	and page_id = 'intro';
+
+		
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Pastor: </b>Rev. Mix Chan
+</p>
+<p>
+<b>Resident Evangelist: </b>Ev. Martin Chan
+</p>
+<p>
+<b>Address: </b>73 Avenue de Verdun, 94200 Ivry-sur-Seine, Paris, France
+</p>
+<p>
+<b>Tel #: </b>33-1-5846-0892
+</p>
+<p>
+<b>Fax #: </b>33-9-5455-0056
+</p>
+<p>
+<b>Email: </b>emsifrance@hotmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.343617452853!2d2.3681368156727958!3d48.8135048792831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e673d372a4f2b5%3A0xa61dfeb6f8a74e1e!2s73+Avenue+de+Verdun%2C+94200+Ivry-sur-Seine%2C+France!5e0!3m2!1sen!2sus!4v1522541468365" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'paris')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>牧師: </b>陳茂祥  牧師
+</p>
+<p>
+<b>駐堂傳道: </b>丁業新  傳道
+</p>
+<p>
+<b>地址: </b>73 Avenue de Verdun, 94200 Ivry-sur-Seine, Paris, France
+</p>
+<p>
+<b>電話: </b>33-1-5846-0892
+</p>
+<p>
+<b>傳真: </b>33-9-5455-0056
+</p>
+<p>
+<b>電郵: </b>emsifrance@hotmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2627.343617452853!2d2.3681368156727958!3d48.8135048792831!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e673d372a4f2b5%3A0xa61dfeb6f8a74e1e!2s73+Avenue+de+Verdun%2C+94200+Ivry-sur-Seine%2C+France!5e0!3m2!1sen!2sus!4v1522541468365" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'paris')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
 
 	
 ----------ends paris
