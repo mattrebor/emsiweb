@@ -1099,7 +1099,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. Mix Chan
 </p>
 <p>
-<b>Resident Evangelist: </b>Ev. Martin Chan
+<b>Resident Evangelist: </b>Ev. Martin Ding
 </p>
 <p>
 <b>Address: </b>73 Avenue de Verdun, 94200 Ivry-sur-Seine, Paris, France
