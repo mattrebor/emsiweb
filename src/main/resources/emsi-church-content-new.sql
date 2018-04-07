@@ -4576,7 +4576,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Angela Chen, 0036-70-510-3123</td>
+			<td>Ev. Guangqi Zhai, 0036-1-426-5368</td>
 		</tr>
 	</tbody>
 </table>
@@ -4591,12 +4591,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> 0036-1-426-5368, 0036-30-408-6398</td>
+			<td> 0036-1-426-5368</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:emsibudapest@gmail.com">emsibudapest@gmail.com</a><br />
+			<td><a href="mailto:zhaiguangqi20@163.com">zhaiguangqi20@163.com</a><br />
 			</td>
 		</tr>
 	</tbody>
@@ -4631,7 +4631,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>陳寶珩 傳道, 0036-70-510-3123</td>
+			<td>翟廣奇 傳道, 0036-1-426-5368</td>
 		</tr>
 	</tbody>
 </table>
@@ -4646,12 +4646,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 0036-1-426-5368, 0036-30-408-6398 </td>
+			<td> 0036-1-426-5368</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: emsibudapest@gmail.com"> emsibudapest@gmail.com</a></td>
+			<td><a href=\"mailto: zhaiguangqi20@163.com"> zhaiguangqi20@163.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4677,19 +4677,21 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Angela Chen, 0036-70-510-3123
+<b>Evangelist: </b>Ev. Guangqi Zhai  
 </p>
 <p>
 <b>Address: </b>1107 Budapest, Monori u.2-4. E12-12 Hungary
 </p>
 <p>
-<b>Tel #: </b>0036-1-426-5368, 0036-30-408-6398
+<b>Tel #: </b>0036-1-426-5368
 </p>
 <p>
-<b>Email: </b>emsibudapest@gmail.com
+<b>Email: </b>zhaiguangqi20@163.com
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1107+Budapest,+Monori+u.2-4.+E12-12+Hungary&ie=UTF8&ll=47.48143,19.122584&spn=0.002603,0.004517&sll=47.481868,19.121943&layer=c&cbp=13,283.36,,0,0.84&cbll=47.481884,19.122107&hnear=1101+Budapest,+X.+ker%C3%BClet,+Monori+utca+2,+Hungary&t=m&z=17&iwloc=A&panoid=wQoKPJRBDskPLR3vnEjMJw&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=https://maps.google.com/maps?q=1107+Budapest,+Monori+u.2-4.+E12-12+Hungary&ie=UTF8&ll=47.48143,19.122584&spn=0.002603,0.004517&sll=47.481868,19.121943&layer=c&cbp=13,283.36,,0,0.84&cbll=47.481884,19.122107&hnear=1101+Budapest,+X.+ker%C3%BClet,+Monori+utca+2,+Hungary&t=m&z=17&iwloc=A&panoid=wQoKPJRBDskPLR3vnEjMJw&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.412628536171!2d19.119877115626196!3d47.48187447917655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dccbf81cc13f%3A0x79f7511f19ea8f34!2sBudapest%2C+Monori+u.+2-4%2C+1101+Hungary!5e0!3m2!1sen!2sus!4v1523126793802" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'budapest')
 	and locale = 'en'
@@ -4699,19 +4701,21 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b>陳寶珩 傳道, 0036-70-510-3123
+<b>傳道: </b>翟廣奇 傳道
 </p>
 <p>
 <b>地址: </b>1107 Budapest, Monori u.2-4. E12-12 Hungary
 </p>
 <p>
-<b>電話:</b> 0036-1-426-5368, 0036-30-408-6398
+<b>電話:</b> 0036-1-426-5368
 </p>
 <p>
-<b>電郵: </b>emsibudapest@gmail.com
+<b>電郵: </b>zhaiguangqi20@163.com
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=1107+Budapest,+Monori+u.2-4.+E12-12+Hungary&ie=UTF8&ll=47.48143,19.122584&spn=0.002603,0.004517&sll=47.481868,19.121943&layer=c&cbp=13,283.36,,0,0.84&cbll=47.481884,19.122107&hnear=1101+Budapest,+X.+ker%C3%BClet,+Monori+utca+2,+Hungary&t=m&z=17&iwloc=A&panoid=wQoKPJRBDskPLR3vnEjMJw&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=https://maps.google.com/maps?q=1107+Budapest,+Monori+u.2-4.+E12-12+Hungary&ie=UTF8&ll=47.48143,19.122584&spn=0.002603,0.004517&sll=47.481868,19.121943&layer=c&cbp=13,283.36,,0,0.84&cbll=47.481884,19.122107&hnear=1101+Budapest,+X.+ker%C3%BClet,+Monori+utca+2,+Hungary&t=m&z=17&iwloc=A&panoid=wQoKPJRBDskPLR3vnEjMJw&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2696.412628536171!2d19.119877115626196!3d47.48187447917655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4741dccbf81cc13f%3A0x79f7511f19ea8f34!2sBudapest%2C+Monori+u.+2-4%2C+1101+Hungary!5e0!3m2!1sen!2sus!4v1523126793802" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'budapest')
 	and locale = 'zh'
@@ -9146,13 +9150,16 @@ p span.label {font-weight: bold;}
 <div class="contact-content">
 <div style="color: #000000; font-size: small">
 <table cellpadding="0px" cellspacing="0px">
-<tbody class="borderless-table">
+	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Pastor: </td>
-			<td>Rev. M. C. (Mix) Chan</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Mix Chan</td>
 		</tr>
-
-</tbody>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Li Guo</td>
+		</tr>
+	</tbody>
 </table>
 
 <div style="margin-left: 20px">
@@ -9166,7 +9173,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 <td class="label">Tel#:</td>
-<td> +32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)483-441680 </td>
+<td> +32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)485-485932 </td>
 </tr>
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -9182,10 +9189,25 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p><span class="label">Established Date: </span>January 2015</p>
+
 <p>
+In 2010, a couple who loved the Lord came to visit Rev. Mix Chan. The wife was a Ph.D. student at the University of Leuven, who was about to graduate and would go back to Hong Kong. They were leading a student fellowship group and hoped that Rev. Chan would take over their responsibility. However, Rev. Chan and his wife were serving three CEC congregations already and had no more time to take over the fellowship. So he declined their request.
+
 </p>
 <p>
-
+Rev. Chan had led some Chinese families from Leuven to Christ in the last few years. After they became believers, they attended the CEC in Antwerp. This means that they had to drive a long distance to attend to all kinds of services every week. They had to rush back to their restaurant or company after the service and often they got speeding tickets. Pastor was deeply moved and he often prayed for Leuven, hoping one day to start a CEC over there.
+</p>
+<p>
+At the end of 2014, a young couple finally came to Belgium and join our team to serve the Lord full time. So the CEC in Leuven was officially established on March 15, 2015. In the beginning we rented a small apartment of 100 square meters. There was a room for worship with seating capacity of 20 people and two rooms for Sunday school classes. The rent was €1,500.00 per month.
+</p>
+<p>
+The space became too small after nine months. We had to find another location. Leuven is a university town. The University of Leuven is a prestigious one and ranked as a high ranking university in Europe. It has a student population of 57,000 and there are many professors, researchers, managers and technical staff. So most of the buildings in the city and around have become their residence. University of Leuven continues to expand. Finding a larger, more suitable location for the congregation is far from easy.</p>
+<p>
+But we firmly believe that God is Jehovah Jireh, for nothing is impossible with Him! One day, the pastor’s wife Anny found online that a former motorbikes store was for rent. She called immediately for an appointment to visit the location. Later it turned out that we were the first ones on the list of people who have called the landlord for appointment. As we visited the location, there were different people waiting outside. The space was twice bigger than our first location, but the back end of the store needed a lot of renovation. We really did not know where to start. Pastor Chan and his wife put aside the challenge of the renovation and decided to rent this location. Otherwise, this opportunity would go to someone else. Thanks be to the Lord! The landlord was willing to meet us for the second time and without asking for any financial guarantee.</p>
+<p>
+When the landlord met us again, he instructed Pastor Chan on how to renovate the location and then he gave some very good suggestions. Finally, when the total renovation budget came up, Pastor Chan and his wife did not know how to answer. The landlord saw our hesitation and came with a surprising proposal. He said: “If you have difficulties to finance the renovation plan, I can help you to renovate and you will pay it back in installments.” The final decision was €1,400 per month - plus repayment of the renovation cost of €600. Pastor Chan could not believe what he heard, it was amazing! We never thought of meeting such a nice landlord. Lord, You are‘Jehovah-Jireh’, and You let us experience your faithfulness and wonder once again.</p>
+<p>
+As it is written: "This is the Lord’s doing, and it is marvelous in our eyes" (Mark 12:11)
 </p>
 
 </div>
@@ -9208,6 +9230,10 @@ p span.label {font-weight: bold;}
 			<td class="label">牧師: </td>
 			<td>陳茂祥 牧師</td>
 		</tr>
+		<tr>
+			<td class="label">傳道:</td>
+			<td>郭莉 傳道</td>
+		</tr>
 </tbody>
 </table>
 &nbsp;
@@ -9223,7 +9249,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 <td class="label">電話:</td>
-<td> +32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)483-441680</td>
+<td> +32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)485-485932</td>
 </tr>
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -9244,8 +9270,21 @@ p span.label {font-weight: bold;}
 <p>
 <span class=\"label\">簡史: </span><br />
 <p>
-</p>
+2010年的某日，有一對愛主的夫妻來找陳茂祥牧師，太太是魯汶大學的博士生，因他們快要畢業回香港，但當時他們正帶領著魯汶一個學生團契，希望陳牧師能接替繼續他們的工作，無奈當時已成立了三間生命堂，陳牧師實在無暇關顧更多的事工，所以只好回絕了。</p>
 <p>
+但在後來的日子裡，陳牧師夫婦也帶了一些居住魯汶的華人家庭信主，他們每週從老遠的地方前來安慰城生命堂參加聚會，崇拜後為了趕著回去開店，常開車超速被開罰單。牧者深深地被感動，故此經常為魯汶禱告，盼望有一天能在那邊建立教會。</p>
+<p>
+直到2014年底，終於有一對年青傳道人夫婦前來比利時加入牧會行列，所以於2015年三月15日正式成立了「魯汶基督教生命堂」。起初租了一個約一百平方米的小地方，崇拜空間最多只能容納20多人，另有兩個房間給兒童主日學使用，房租每月就要1.500歐元。</p>
+<p>
+然而，九個月後，我們發覺空間不夠用，便開始到處尋覓新地方。魯汶原是一個大學城，「魯汶大學」在歐洲是排名前幾名的學校，現有學生超過57,000名，另外還有不少教授、研究員、管理人員和技術員工等；所以城內大部分樓宇都是他們的住所，而魯汶大學仍然不斷地擴建，故此要在魯汶找較大又合適教會的地方談何容易！</p>
+<p>
+但我們堅信那位耶和華以勒的神，在祂沒有難成就的事。一日陳溫秀珍師母在網上看見一所賣摩托車的店舖出租，如往常一樣，她迫不及待地致電預約。感謝主，我們竟然是屋主所約的第一個客人，隨後還有不同的人在店外等候。</p>
+<p>
+此地的空間的確夠用，比我們原有的地方大一倍多，可是舖後破爛不堪，真的不敢想像裝修要從何處開始？當時陳牧師夫婦要先把握時機做決定，不然一出門機會可能就屬於別人了。感謝神！屋主沒有要求出示任何經濟證明，就答應等待本會第二次的約談。</p>
+<p>
+房東一見面就問陳牧師需要怎樣裝修？然後提供了一連串很好的提議，談到價錢時，陳牧師夫婦不知該如何回應。感謝主，房東爽快地告訴陳牧師，若經濟有困難他可以幫忙裝修，之後再分期償還；最終決定：每月租金1.400歐元，裝修費600歐元。陳牧師夫婦知道若不是神的作為，這是不可能的。太奇妙了！做夢也沒有想到會遇上這樣的房東。他們同心感恩：「主啊！祢就是 - 耶和華以勒，讓我們再次經歷祢信實又奇妙的作為。」</p>
+<p>
+如經上所記：「這是主所作的，在我們眼中看為希奇。」(可十二11)
 </p>
 </div>');
 
@@ -9324,7 +9363,10 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 update church set address='Brouwersstraat 1, 3000 Leuven, Belgium', latitude = 50.882435, longitude = 4.696683 where church_path = 'leuven';
 
 update church_content set body = STRINGDECODE('<p>
-<b>Pastors </b>Rev. M. C. (Mix) Chan</br>
+<b>Pastor: </b>Rev. M. C. (Mix) Chan</br>
+</p>
+<p>
+<b>Evangelist: </b>Ev. Li Guo</br>
 </p>
 <p>
 <b>Address: </b>Brouwersstraat 1, 3000 Leuven, Belgium</p>
@@ -9341,6 +9383,8 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <b>牧師: </b> 陳茂祥 牧師<br />
+</p><p>
+<b>傳道: </b> 郭莉 傳道<br />
 </p>
 <p>
 <b>地 址: </b>Brouwersstraat 1, 3000 Leuven, Belgium</p>
