@@ -2422,11 +2422,12 @@ p span.label {font-weight: bold;}
 </p>
 
 <p><span class="label">簡史: </span><br />
-<img align="left" height="255" hspace="5" src="/emsiweb/images/files/barcelona.jpg" width="360" />2005年初北美總會監督楊摩西牧師差派王豔華傳道前往西班牙巴賽隆納開拓教會。同年2月19日、20日，美國短宣隊抵達巴賽隆納舉辦音樂佈道會，楊摩西牧師主講&ldquo;人生的福&rdquo;，並宣佈，2月20日為教會正式成立日期。最初佈道會設在巴賽隆納C/Mallorca,20-22.1&ordm;4&ordf;&nbsp; Barcelona，即每週查經班、禱告會之地，而每週主日崇拜則租用西班牙之教會。由於佈道會房東欠款，銀行準備拍賣其房，合同期滿一年後，佈道會被迫搬出。為此查經班、禱告會曾經過一段流浪時期。在這期間，先後在陳文芳姐妹的洗衣店以及遠東辦公室堅持每週的查經班和禱告會。由於教會人員不斷增長，2006年8月6日開始租用現在聚會的地點: C/Rossell&oacute; 427 Bis, Local 2。( 地鐵：2線、5線Sagrada Familia 站，2線在 Proven&ccedil;a出口，沿Calle de la Marina街向左轉，5線在Sardenya出口，沿 Calle de Sardenya 街向右轉即到 ) 。<br />
-目前除了每週主日崇拜聚會外，還有查經班、禱告會、弟兄姐妹團契以及西班牙語免費班等。聚會時間如下：<br />
-崇拜時間：每週日下午5:30&mdash;6:45 P.M.<br />
-西班牙語免費基礎班:每週三下午4:30&mdash;5:30 P.M.<br />
-查經禱告會: 每週三下午5:30&mdash;7:00 P.M.每週日下午7:00&mdash;7:30 P.M.</p>
+<img align="left" height="255" hspace="5" src="/emsiweb/images/files/barcelona.jpg" width="360" />2005年初北美總會監督楊摩西牧師差派王豔華傳道前往西班牙巴賽隆納開拓教會。同年2月19日、20日，美國短宣隊抵達巴賽隆納舉辦音樂佈道會，楊摩西牧師主講&ldquo;人生的福&rdquo;，並宣佈，2月20日為教會正式成立日期。最初佈道會設在巴賽隆納C/Mallorca,20-22.1&ordm;4&ordf;&nbsp; Barcelona，即每週查經班、禱告會之地，而每週主日崇拜則租用西班牙之教會。由於佈道會房東欠款，銀行準備拍賣其房，合同期滿一年後，佈道會被迫搬出。為此查經班、禱告會曾經過一段流浪時期。在這期間，先後在陳文芳姐妹的洗衣店以及遠東辦公室堅持每週的查經班和禱告會。由於教會人員不斷增長，2006年8月6日租用 C/Rosselló 427 Bis, Local 2；2011年10月購堂，遷至C/ d,Olzinelles 91, 08014, Barcelona（地铁L5、L1plaza sants站）。
+目前除了每週主日崇拜聚會外，還有查經班、禱告會、弟兄姐妹團契等。聚會時間如下：<br/>
+主日崇拜： 星期日下午5:30—6:45 P.M.<br/>
+查經禱告會: 星期四下午5:30—7:00 P.M.<br/>
+團契活动： 星期六下午 5:30—7:00P.M.
+</p>
 </div>
 '	where church_id = (select church_id from church where church_path = 'barcelona')
 	and locale = 'zh'
@@ -2485,11 +2486,11 @@ p span.label {font-weight: bold;}
 
 <p><img align="left" alt="Barcelona2012" height="270" hspace="5" src="/emsiweb/images/files/barcelona_0.jpg" title="Barcelona2012" width="360" />In early 2005, Bishop Rev. Moses Yang from the CEMI headquarter in North American sent Evangelist Sophia Wang to Barcelona, Spain, for missionary work. On February 19 and 20 of the same year, a CEM mission team from the States came and presented an Evangelistic concert in Barcelona. Rev. Moses Yang preached on &ldquo;The Blessings of Life&quot;, and announced the establishment of the CEC in Barcelona on February 20. At first, the Mission was located at the Barcelona C / Mallorca ,20-22 .1 &ordm; 4 &ordf; Barcelona, where we held weekly Bible study, prayer meetings, and Sunday worship service in a Spanish church. As the landlord of the Mission went into bankruptcy, the bank auctioned off the building. The Mission <img align="left" alt="Barcelona02_2012" height="270" hspace="5" src="/emsiweb/images/files/barcelona02_0.jpg" title="Barcelona02_2012" width="360" />was forced out when the one year lease expired,. Our weekly Bible Studies and Prayer meetings relocated a few times afterwards. We were at the laundry of Sister CHEN Wen-Fang, and then at the Far East Office. As the church grew, we moved to our current location at C / Rossell&oacute; 427 Bis, Local 2.on 6 August 2006.</p>
 
-<p>Our weekly meetings include the Sunday Worship service, Bible classes and prayer meetings, and free Spanish classes. Our schedule is as follows:</p>
+<p>Our weekly meetings include the Sunday Worship service, Bible classes and prayer meetings, and Fellowship. Our schedule is as follows:</p>
 
 <p>Worship Service: Sunday 5:30&mdash;6:45 P.M.<br />
-Free Beginner Spanish: Wednesday 4:30&mdash;5:30 P.M.<br />
-Bible Study and Prayer Meeting: Wednesday 5:30&mdash;7:00 P.M. Sunday 7:00&mdash;7:30 P.M.</p>
+Bible Study: Thursday 5:30&mdash;7:00 P.M.<br />
+Fellowship: Saturday 5:30&mdash;7:00 P.M.</p>
 
 <p>Direction --<br />
 Subway: #2 line, # 5 line getting off at Sagrada Familia station, #2 line: exit at Proven&ccedil;a, make the first left on the Calle de la Marina Street; #5 lines :exit at Sardenya, make the first right on Calle de Sardenya Street.</p>
@@ -2498,7 +2499,58 @@ Subway: #2 line, # 5 line getting off at Sagrada Familia station, #2 line: exit 
 	and locale = 'en'
 	and page_id = 'intro';	
 	
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>Sunday Worship</td>
+			<td>Sunday</td>
+			<td>5:30 - 6:45 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study </td>
+			<td>Thursday</td>
+			<td>5:30 - 7:00 pm</td>
+		</tr>
+		<tr>
+			<td>Fellowship </td>
+			<td>Saturday</td>
+			<td>5:30 - 7:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'barcelona')
+	and locale = 'en'
+	and page_id = 'schedule';	
 	
+	
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>主日崇拜</td>
+			<td>星期日下午</td>
+			<td>5:30 - 6:45 pm</td>
+		</tr>
+		<tr>
+			<td>查經禱告會</td>
+			<td>星期四下午</td>
+			<td>5:30 - 7:00 pm</td>
+		</tr>
+		<tr>
+			<td>團契活動 </td>
+			<td>星期六下午</td>
+			<td>5:30 - 7:00 pm</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'barcelona')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
