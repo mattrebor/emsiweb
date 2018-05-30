@@ -4903,6 +4903,62 @@ p span.label {font-weight: bold;}
 	and page_id = 'intro';
 	
 	
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>主日崇拜</td>
+			<td>每星期日</br>
+				上午 </br>
+				晚上</td>
+			<td><br>
+				10:30 - 11:30</br>
+			    21:30 - 22:30</td>
+		</tr>
+		<tr>
+			<td>主日學</td>
+			<td>每星期日上午</td>
+			<td>10:30 - 11:30</td>
+		</tr>
+		<tr>
+			<td>查經</td>
+			<td>每星期日</br>
+			每星期三</br>
+			每星期五
+				</td>
+			<td>12:30 - 13:30<br>
+			21:00 - 22:00<br>
+			17:30 - 18:30<br>
+			</td>
+		</tr>
+		<tr>
+			<td>禱告會</td>
+			<td>每星期三 </td>
+			<td>20:30 - 21:00</td>
+		</tr>
+		<tr>
+			<td>青年團契</td>
+			<td>每星期三</td>
+			<td>19:00 - 20:30</td>
+		</tr>
+		<tr>
+			<td>姐妹團契</td>
+			<td>每月第四週六</td>
+			<td>15:30 - 16:30</td>
+		</tr>
+
+		<tr>
+			<td>弟兄團契</td>
+			<td>每月第四週六</td>
+			<td>21:00 - 22:00</td>
+		</tr>
+
+	</tbody>
+</table>
+
+'	where church_id = (select church_id from church where church_path = 'kobe')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Evangelist: </b>Ev. Zhang Qiong
@@ -4952,6 +5008,20 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 	
+	
+update church_content set title = STRINGDECODE('
+神戶基督教生命堂 - 聚會日程
+')	where church_id = (select church_id from church where church_path = 'kobe')
+	and locale = 'zh'
+	and page_id = 'schedule';
+	
+update church_content set title = STRINGDECODE('
+神戶基督教生命堂 - 連絡我們
+')	where church_id = (select church_id from church where church_path = 'kobe')
+	and locale = 'zh'
+	and page_id = 'contactus';
+	
+
 -----------------ends kobe
 	
 -----------------starts Japan - osaka
@@ -5138,6 +5208,17 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
+update church_content set title = STRINGDECODE('
+大阪(美國)基督教生命堂 - 教會簡介
+')	where church_id = (select church_id from church where church_path = 'osaka')
+	and locale = 'zh'
+	and page_id = 'intro';
+	
+update church_content set title = STRINGDECODE('
+大阪(美國)基督教生命堂 - 連絡我們
+')	where church_id = (select church_id from church where church_path = 'osaka')
+	and locale = 'zh'
+	and page_id = 'contactus';
 	
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(47, 'schedule', 'en', 'CEC in Osaka - Church Services Schedule', STRINGDECODE('
 <table  border="1">
@@ -5183,7 +5264,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <br/>
 '));
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(47, 'schedule', 'zh', '大阪基督教生命堂 - 聚會日程', STRINGDECODE('
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(47, 'schedule', 'zh', '大阪(美國)基督教生命堂 - 聚會日程', STRINGDECODE('
 <table  border="1">
 	<tbody>
 		<tr>
