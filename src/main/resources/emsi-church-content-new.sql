@@ -4659,10 +4659,15 @@ p span.label {font-weight: bold;}
 </div>
 <div class="main-content">
 <p>
-<span class="label">Established Date: </span>April 2011
+<span class="label">Established Date: </span>April 11, 2011
 </p>
 <p>
-<img src="/emsi/files/biblestudydec2011.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />On October 18, 2010, Christian Evangelical Mission International sent Ev. Angela Chen to Budapest, Hungary as a missionary. After four months of labor, CEMC in Budapest is established. This is the 47th CEM church established by the Evangelical Mission and Seminary International under the leadership of Rev. Moses Yang. It is also the 28th CEM church established by the CEMI in Europe.
+<img src="/emsi/files/biblestudydec2011.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />On October 18, 2010, Christian Evangelical Mission International sent Ev. Angela Chen to Budapest, Hungary as a missionary. After six months of labor, CEMC in Budapest is established. This is the 47th CEM church established by the Evangelical Mission and Seminary International under the leadership of Rev. Moses Yang. It is also the 28th CEM church established by the CEMI in Europe.
+</p>
+
+<p>
+In November, 2015, Ev. Guanqi Zhai replaced Ev. Angela Chen. In May, 2017, sister Minhui Xie became assistant to Ev. Zhai after returning from the States. May CEC Budapest grow steadily in Lord.
+I will send you the word document.
 </p>
 </div>
 '	where church_id = (select church_id from church where church_path = 'budapest')
@@ -4713,12 +4718,17 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<b>成立日期:</b> 2011年 4月
+<b>成立日期:</b> 2011年 4月11日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/biblestudydec2011.jpg\" align=\"left\" height=\"255\" width=\"360\" />2010年10月18日陳寶珩傳道受美國國際神學福音佈道會差派，來到匈牙利布達佩斯開始新工場的開拓。經過四個多月耕耘撒種的前期工作，總會決定正式成立布達佩斯基督教生命堂。這是由楊摩西牧師領導下的美國國際神學福音佈道會屬下的第47間生命堂，也是歐洲分會的第28間生命堂。
+<img hspace=\"5\" src=\"/emsi/files/biblestudydec2011.jpg\" align=\"left\" height=\"255\" width=\"360\" />2010年10月18日陳寶珩傳道受美國國際神學福音佈道會差派，來到匈牙利布達佩斯開始新工場的開拓。經過六個多月耕耘撒種的前期工作，總會決定正式成立布達佩斯基督教生命堂。這是由楊摩西牧師領導下的美國國際神學福音佈道會屬下的第47間生命堂，也是歐洲分會的第28間生命堂。
 </p>
+<p>
+2015年十一月，翟廣奇傳道接下陳寶珩傳道在此的事奉。2017年五月，謝敏惠姐妹從美國返回教會實習。願主帶領，讓布達佩斯生命堂在穩定中不斷地成長。
+
+</p>
+
 
 </div>
 ')	where church_id = (select church_id from church where church_path = 'budapest')
