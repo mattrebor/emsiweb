@@ -5635,26 +5635,21 @@ p span.label {font-weight: bold;}
 </div>
 <div class="main-content">
 <p>
-<span class="label">Established Date: </span>June 17, 2008
+<span class="label">Established Date: </span>August 3, 2008
 </p>
 <p>
 \u201cServe the Lord with fear, and rejoice with trembling\u201d (Psalm 2:11)
 </p>
 <img src="/emsi/files/milan2011.jpg" alt="CEC Milan" title="CEC Milan" height="240" align="left" hspace="5" width="360" />
 <p>
-Thank God! CEM in Milan started its first worship on August 3rd, 2008. During the 6 months CEC Milanperiod, there were 36 people who accepted Jesus as their Savior, and 20 people were baptized at our church. The past experience of CEM in Milan can best be said in the Bible verse: \u201cThis is the Lord\u2019s doing; it is marvelous in our eyes\u201d (Psalm 118:23).
+In late March, 2007, Rev. Moses Yang brought Rev. Hosea Chi and Rev. Jian Wei Ye to Italy for a five-day exploration trip. Afterward, they decided to send Ev. Grace Zheng to start the pioneering work in Milan.
+In June, 2008, Rev. Moses Yang, Rev. Zion Wu, Rev. Hosea Chi and Ev. Grace Zheng met up in Milan. They rented a car from the airport to look for a place where they could gather for worship and a place for Ev. Grace Zheng to live. The three pastors spent three days in Milan. The night before their departure, God provided us with a convenient place for worship, which was more than what we could ask or expect. On August 3, 2008, the first Sunday Worship Service was held.
 </p>
 <p>
-Leading: One day in April 2007, I got an early phone call at 6:00am from Rev. Moses Yang \u2013the president of EMSI. He said, \u201cI am in Italy now. There are lots of Chinese here, lots of northern Chinese here. We would like to assign you to serve in Italy.\u201d I felt peaceful the moment I heard it. I answered him in a simple sentence: \u201cIf it\u2019s God\u2019s will, I will obey it. Please pray for me.\u201d Thank God! After continual praying and with the help of the pastor from Spain, I did not have any problems with the application process. God was doing His wonderful work with me. In mid June 2008, Rev. Moses Yang, Rev. Zion Wu, Rev. Hosea Chi and I met in Milan for 3 days. With the assistance of a local Chinese sister, we searched street by street for a real estate agent and/or suitable house. Just one night prior to the pastors\u2019 departure, the Lord prepared a worship place far better than what we had asked for or imagined. Recalling all these things now, I understand it is the vision that God gave to Rev. Yang concerning the gospel work needed in Milan. There was the calling from Macedonia.
+In April, 2010, Rev. Yang decided to look for a larger place in order to expand the ministry. We thanked the Lord that Ev. Zheng found a Roman Catholic Church. In November, 2011, the Milanese government approved our use of the lower floor of the Roman Catholic church as our meeting place for free. This place has a seating capacity of 200 people; and is merely a five-minute walk from our mission house. Again God has prepared for us a place beyond what we can ask or expect.
 </p>
 <p>
-Thanksgiving: Thank God! He raised many brothers, sisters and families who truly love God in CEC in Milan. As a result, the gospel work can be increased and expanded. He moved the brothers and sisters to have hearts that seek truth from the Bible and to admire the Lord\u2019s words. He touched many brothers and sisters to be willing to devote themselves to participate in church and partner in spreading the gospel. All pastors, brothers and sisters support us by praying hard and providing financial help so we can fully experience the grace of the Lord.
-</p>
-<p>
-Counting the Lord\u2019s grace, I cannot express my praises and thanksgivings to God in words. \u201cWhat shall I render unto the Lord for all his benefits toward me? I will take the cup of salvation, and call upon the name of the Lord\u201d (Psalm 116:12-13).
-</p>
-<p>
-- Ev. Grace Zheng
+When EMSI reaches its 50th anniversary, our church would have had a ten- year journey! Italy has the most number of Chinese churches in Europe. May the Lord strengthen us as we stand fast in the truth. May the Lord add to the number of people who get saved in our church.
 </p>
 </div>
 ')	where church_id = (select church_id from church where church_path = 'milan')
@@ -5709,17 +5704,15 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<b>成立日期:</b> 2008年 6月 17日
+<b>成立日期:</b> 2008年 八月3日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/milan2011.jpg\" align=\"left\" height=\"255\" width=\"360\" />2007年3月25日，國際神學福音佈道會總監楊摩西牧師，看到福音事工的需要，與戚厚生牧師、葉建偉牧師前往意大利考察福音工場。在短短的五天內決定在意大利開展米​​蘭福音事工，並差派在美國總院畢業已回中國服事的鄭恩惠傳道，到米蘭開展拓荒工作。 （米蘭有300多萬人口，華人具體數目不清楚。）
+<img hspace=\"5\" src=\"/emsi/files/milan2011.jpg\" align=\"left\" height=\"255\" width=\"360\" />
+2007年3月25日，楊摩西牧師，與戚厚生牧師、葉建偉牧師前往意大利考察福音工場。在短短的五天內決定在意大利開展米蘭福音事工，並差派在美國總院畢業已回中國服事的鄭恩惠傳道，到米蘭開展拓荒工作。
 </p>
-<p>2008年6月，總監楊摩西牧師與吳錫安牧師、戚厚生牧師、鄭恩惠傳道在米蘭機場會合。僅僅三天的時間，租輛車子到處找聚會場所和住處，就在三位牧師要離開米蘭的前一晚，上帝給米蘭生命堂預備了超過我們所求所想的聚會場地。離米蘭中央火車站步行十幾分鐘，交通十分方便。
-</p>
-<p>2008年7月18日，楊牧師再一次到米蘭與房東簽好了合同。 7月21日進入聚會場所。 8月3日開始第一個主日禮拜，同年12月14日有20名弟兄姊妹接受洗禮。
-</p>
-<p>為了更好的開展福音事工，楊牧師決定要有大一些的場地聚會，上帝垂聽了我們的禱告，2011年2月米蘭政府批准，借用天主教堂下面的一個場地聚會，能容納200多人，離佈道會步行5分鐘的路程，上帝預備的總是超過我們所求所想。
+<p>2008年6月，楊摩西牧師與吳錫安牧師、戚厚生牧師、鄭恩惠傳道在米蘭機場會合。租輛車子到處找聚會場所和住處，僅僅三天的時間，就在三位牧師要離開米蘭的前一晚，上帝給米蘭生命堂預備了超過我們所求所想的聚會場地。離米蘭中央火車站步行十幾分鐘，交通十分方便。2008年 8月3日我們開始第一次主日禮拜。
+為了更好的開展福音事工，楊牧師決定要有大一些的場地聚會，上帝垂聽了我們的禱告，2011年11月，米蘭政府批准我們借用天主教堂下面的一個場地聚會，能容納200多人，離佈道會步行5分鐘的路程，上帝預備的總是超過我們所求所想。
 </p>
 
 </div>
