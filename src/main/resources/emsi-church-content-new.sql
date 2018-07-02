@@ -4610,7 +4610,8 @@ update church_content set body = STRINGDECODE('<p>
 
 -----------------------end Portugal - Madeira
 	
-
+	
+	
 	
 -----------------starts Hungary - budapest
 
@@ -7411,9 +7412,197 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'canaria')
 	and locale = 'zh'
 	and page_id = 'contactus';
+		
+---------ends Spain - Gran Canaria
+
+	
+
+---------- Spain - usera  New church June 2018 ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(61, 'usera', 1, 9, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(61, 'en', 'menu_name', 'CEC in Usera');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(61, 'zh', 'menu_name', '以斯拉基督教生命堂 ');            
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(8, NULL, 61);          
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'intro', 'en', 'CEC in Usera  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Guo Dan Jiang </td>
+		</tr>
+
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+	<table cellpadding="1px" cellspacing="0px">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">Address:</td>
+				<td>Calle Gabriel Usera 6, 28026 Usera Madrid, Spain</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">Tel#:</td>
+				<td> 0034-62-0-630-901 </td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">Email:</td>
+				<td></td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+	<p><span class="label">Established Date: June 23, 2018</span></p>
+</div>
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'intro', 'zh', '以斯拉基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">牧師:</td>
+			<td>蔣國淡 牧師</td>
+		</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+	<table cellpadding="1" cellspacing="0">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">地址:</td>
+				<td>Calle Gabriel Usera 6, 28026 Usera Madrid, Spain</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">電話:</td>
+				<td> 0034-62-0-630-901</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">電郵:</td>
+				<td></td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<b>成立日期:</b> 2018 年6 月 23 日 
+</p>
+<p>
+<span class=\"label\">簡史: </span>
+</p>
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'contactus', 'en', 'CEC in Usera - Contact Us', '');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'contactus', 'zh', '以斯拉基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'schedule', 'en', 'CEC in Usera - Church Services Schedule', 
+'<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Worship</td>
+			<td>Saturday</td>
+			<td>5:00 - 6:30 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study </td>
+			<td>Saturday</td>
+			<td>6:45 - 7:30 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'schedule', 'zh', '以斯拉基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>崇拜</td>
+			<td>週六下午</td>
+			<td>5:00 - 6:30 pm</td>
+		</tr>
+		<tr>
+			<td>查經</td>
+			<td>週六下午</td>
+			<td>6:45 - 7:30 pm</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');             
+
+
+update church set address='Calle Gabriel Usera 6, 28026 Usera Madrid, Spain', latitude = 40.3867898, longitude = -3.7112273 where church_path = 'usera';
+
+update church_content set body = STRINGDECODE('
+<style>
+.indentation {margin:20px;}
+</style>
+<p>
+<b>Address: </b>Calle Gabriel Usera 6, 28026 Usera Madrid, Spain
+</p>
+<p>
+<b>Tel #: </b> 0034-62-0-630-901
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.995615703725!2d-3.711227284604999!3d40.38678977936864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227b1491c7947%3A0xd410355fefdcc138!2sCalle+Gabriel+Usera%2C+6%2C+28026+Madrid%2C+Spain!5e0!3m2!1sen!2sus!4v1530478934289" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+')	where church_id = (select church_id from church where church_path = 'usera')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>地 址: </b>Calle Gabriel Usera 6, 28026 Usera Madrid, Spain
+</p>
+<p>
+<b>電 話: </b>0034-62-0-630-901
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.995615703725!2d-3.711227284604999!3d40.38678977936864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227b1491c7947%3A0xd410355fefdcc138!2sCalle+Gabriel+Usera%2C+6%2C+28026+Madrid%2C+Spain!5e0!3m2!1sen!2sus!4v1530478934289" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+')	where church_id = (select church_id from church where church_path = 'usera')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+-----------------------end Spain - Usera
 	
 	
----------ends Gran Canaria
+
+	
 ----------- starts enschede 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
