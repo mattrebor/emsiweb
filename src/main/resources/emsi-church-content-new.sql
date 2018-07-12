@@ -5644,6 +5644,8 @@ p span.label {font-weight: bold;}
 <img src="/emsi/files/milan2011.jpg" alt="CEC Milan" title="CEC Milan" height="240" align="left" hspace="5" width="360" />
 <p>
 In late March, 2007, Rev. Moses Yang brought Rev. Hosea Chi and Rev. Jian Wei Ye to Italy for a five-day exploration trip. Afterward, they decided to send Ev. Grace Zheng to start the pioneering work in Milan.
+</p>
+<p>
 In June, 2008, Rev. Moses Yang, Rev. Zion Wu, Rev. Hosea Chi and Ev. Grace Zheng met up in Milan. They rented a car from the airport to look for a place where they could gather for worship and a place for Ev. Grace Zheng to live. The three pastors spent three days in Milan. The night before their departure, God provided us with a convenient place for worship, which was more than what we could ask or expect. On August 3, 2008, the first Sunday Worship Service was held.
 </p>
 <p>
@@ -8500,7 +8502,7 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 	
 	
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(43, 'schedule', 'en', 'CEMC in Prato - Church Services Schedule', STRINGDECODE('
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(43, 'schedule', 'en', 'CEC in Prato - Church Services Schedule', STRINGDECODE('
 <table  border="1">
 	<tbody>
 		<tr>
