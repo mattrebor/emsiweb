@@ -5644,6 +5644,8 @@ p span.label {font-weight: bold;}
 <img src="/emsi/files/milan2011.jpg" alt="CEC Milan" title="CEC Milan" height="240" align="left" hspace="5" width="360" />
 <p>
 In late March, 2007, Rev. Moses Yang brought Rev. Hosea Chi and Rev. Jian Wei Ye to Italy for a five-day exploration trip. Afterward, they decided to send Ev. Grace Zheng to start the pioneering work in Milan.
+</p>
+<p>
 In June, 2008, Rev. Moses Yang, Rev. Zion Wu, Rev. Hosea Chi and Ev. Grace Zheng met up in Milan. They rented a car from the airport to look for a place where they could gather for worship and a place for Ev. Grace Zheng to live. The three pastors spent three days in Milan. The night before their departure, God provided us with a convenient place for worship, which was more than what we could ask or expect. On August 3, 2008, the first Sunday Worship Service was held.
 </p>
 <p>
@@ -8500,7 +8502,7 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 	
 	
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(43, 'schedule', 'en', 'CEMC in Prato - Church Services Schedule', STRINGDECODE('
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(43, 'schedule', 'en', 'CEC in Prato - Church Services Schedule', STRINGDECODE('
 <table  border="1">
 	<tbody>
 		<tr>
@@ -10115,32 +10117,20 @@ p span.label {font-weight: bold;}
 <p>
 <span class=\"label\">簡史: </span><br />
 <img hspace="5" src="/emsi/images/OradellChurch.JPG" align="left" height="255" width="360" />
-<p><b>俄備得查經班 開始</b>  </p>
+<p>一位林姐妹向張傳道提起博根郡許多華人需要福音，問可否在那兒開查經班。張傳道經過多方考慮及多次禱告後，求上帝賜一個印證：如果能找到教堂，就開始成立查經班；如果找不到教堂，那就不是上帝的帶領。於是就和林姐妹開始尋找教堂。 </p>
 
-<p>因著珍珠河生命堂教會的空間漸漸有不敷使用的現象，又因著一位姐妹對福音的使命感，提到Bergen County 有許多的華人需要福音。讓我想到楊牧師曾一直希望在這裡建立一個福音的據點。 於是經過禱告以後，我們就開始找地方。當我們觀察了幾間教會以後，就為這幾間教會的選擇迫切的禱告。感謝主，最後，主帶領我們到Oradell的 Annunciation church借用他們教會的場地。他們同意以每個月$200.00元的租金讓我們使用。於是我們于2012年12月開始張貼廣告，於2013年一月開始籌畫並邀請人來參加查經班。    我們剛開始設了兩個查經班，一個是週三晚上7:45，是針對上班族而設立的查經班。 另一個是週五早上11:00，是為沒有上班的信徒們預備的查經班。剛開始的成員，有珍珠河教會的弟兄姐妹，也有住在附近的新朋友。 
-</p>
-<p>教會周圍有兩所大學，有幾家中國餐館，新金豐超市，還有中文學校， 這些人都將成為我們傳福音的對象。目前我們也開始進行FDU的學生工作。但因為Oradell 教會只有查經班，還未正式有主日崇拜，所以就暫時把這些學生或新朋友帶到珍珠河教會作禮拜。同時也幫助這些學生考駕照等等的服務。 感謝主，祂感動一對夫婦，全心全力的投入學生事工，關懷，接送…。
-</p>
-<p>
- 這只是俄備得教會的起步，我們需要更多的禱告，也需要更多的弟兄姐妹願意為主的緣故，為福音的緣故投入福音工場的事奉。求主興起更多當地的弟兄姐妹來和我們一起同工。求主藉著我們把福音帶進住在 Bergen County 的華人心中，讓他們和我們一起享受主耶穌的救恩。
-</p>
-<p>< 馬太福音9:36-38>
-</p>
-</p>
-祂看見許多的人，就憐憫他們；因為他們困苦流離，如同羊沒有牧人一般。 於是對門徒說：「要收的莊稼多，做工的人少。 所以，你們當求莊稼的主打發工人出去收他的莊稼。」
+<p>在Kinderkamack Road上共有三間教堂，結果上帝預備了現在的堂址，就是Annunciation Church；同時藉著當地教會牧師Rev.Archie的一句話讓她們更相信這是上帝的帶領。此牧師對張傳道說：「去，把人帶進教會來！」感謝主，帶著上帝的賜福，張傳道於2013年一月開始歐瑞德地區的查經班。
 </p>
 
-<b>俄備得教會正式成立 </b><br>
-<p>
- 經過一年多的查經，我們發現若是不開始有主日的崇拜，就不可能留住人，所以就積極著手開始主日聚會的計劃。 但那時因為Annunciation教會在大裝修，每一樣裝修都需要拿到許可使用證。於是我們就等待…等待…，一個月一個月就這樣過去。 我相信時間在主的手中，因此我耐心等候，直到2014年四月底，他們通知我已經拿到許可使用權時，同時有另一個韓國牧師要來租用這個場地，他們給了很高的價碼，每月$1,900.00元租金。當Archie牧師告訴我的時候，我嚇了一跳，竟然來了一個搶用地方的團體。我實在付不起這麼貴的租金，我只有禱告求主指示，我該怎麼作。
+<p>張傳道經過一年多的查經，發現若不開始有崇拜，事工就很難長久，所以開始向美國教會申請主日崇拜的使用。當時有另一間韓國教會也來申請租用場地，並且提出很高的月租費$1,800.00。當Archie牧師告訴張傳道時，她嚇了一跳，因為教會付不起這麼貴的租金，所以只有禱告求主的憐憫。Archie牧師要張傳道來參加他他們五月份的董事會開會，張傳道應邀參加也說明了俄備得生命堂的組織、異象及福音的負擔；同時，也明白地告訴他們，教會只能付$600.00的租金。
 </p>
-<p>
-到了五月的第三個星期的星期二晚上，我去參加他們的董事會議，我把我們的異象及生命堂的作法告訴他們。最後， 我就實實在在的告訴他們，目前，我只能付$600.00元一個月。一個多小時的會議完畢之後，我覺得主是與我們同在的。第二天是星期三，晚上我們有查經班。當我們來到教會的時候，一進門，Archie牧師就向我揮手，告訴我說： 恭喜你！ 他們選擇讓你們留下來，拒絕了韓國人…！ 但是租金變成$ 800元。我驚呆了！
+
+<p>第二天(週三晚)，教會有查經禱告會，張傳道剛踏進教堂，Archie牧師看見她就說：「恭喜妳！董事會決定讓你們留下來…」，張傳道驚呆了！雖然他們把月租提高到$830.00，但此費用仍比不上韓國教會所給的優厚，可是他們卻決定讓我們使用教堂，拒絕了韓國人的申請。這真的是上帝奇妙的作為！
+ </p>
+
+<p>真的感謝主，上帝開的路就沒有人能關；俄備得基督教生命堂於2014年六月1日開始了第一個主日崇拜。
+他看見許多的人，就憐憫他們；因為他們困苦流離，如同羊沒有牧人一般。於是對門徒說：「要收的莊稼多，做工的人少。所以，你們當求莊稼的主打發工人出去收他的莊稼。」 ( 馬太福音9: 36-38)
 </p>
-<p>
-感謝主，上帝開的路就沒有人能關。 我知道接下來就是要努力傳福音了。 因為時間的緊迫，我們就立刻決定六月一日第一個主日就開始崇拜。 時間雖然有點緊張，但有主同在，真的是難處一點一點的迎刃而解。 我也要感謝神學院及幾位牧長同工都全力支持，還有珍珠河教會的幾個家庭及同工們的支持，讓我心裡更加有力量。 我們期待著，Oradell的社區，真的能因著我們的福音工作而成為一塊蒙福之地。
-</p>
-<p>2014年 5月28日</p>
 
 </div>');
 
