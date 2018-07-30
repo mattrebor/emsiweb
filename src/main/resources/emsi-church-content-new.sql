@@ -319,7 +319,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>May 10, 1985
 </p>
 <p>
-<img src="/emsi/images/church_queens.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />
+<img src="/emsi/images/church_Queenssmall7_26_18.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />
 Since 1985, the CEC in Queens (official name, Evangelical Church Mission and Seminary International in Queens) had been led by 7 pastors in the past. At the present, Rev. Moses Lin is shepherding this church.
 </p>
 <p>
@@ -391,7 +391,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/images/church_queens.jpg" align=\"left\" height=\"255\" width=\"360\" />一九八四年秋，紐約市皇后區成立了一個閩南語查經班。當時每星期五晚上有一群弟兄姐妹聚集在一起唱詩、禱告、查經。隨著人數的增加，深深感到需要一位受過神學訓練的傳道人來帶領查經。
+<img hspace=\"5\" src=\"/emsi/images/church_Queenssmall7_26_18.jpg" align=\"left\" height=\"255\" width=\"360\" />一九八四年秋，紐約市皇后區成立了一個閩南語查經班。當時每星期五晚上有一群弟兄姐妹聚集在一起唱詩、禱告、查經。隨著人數的增加，深深感到需要一位受過神學訓練的傳道人來帶領查經。
 </p>
 <p>
 一九八五年，查經班邀請到楊摩西牧師，這是第一位傳道人。不到一個月的時間，上帝又預備了謝天育牧師出來全時間帶領。這兩位牧師為教會找著一個固定的聚會場地。終於，在一九八五年五月十日，皇后區基督教生命堂正式成立，並舉行了首次主日崇拜。
@@ -946,6 +946,83 @@ update church_content set body = STRINGDECODE('<p>
 	
 ------------- end Highland park
 
+	
+	
+	
+	
+-----------update losangeles
+
+	
+update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
+ 
+	<tbody>
+		<tr>
+			<td>印尼語 崇拜 Indonesian Worship Service</td>
+			<td>星期日  Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>英語 崇拜 English Worship Service</td>
+			<td>星期日  Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>主日學 Sunday School</td>
+			<td>星期日  Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>英語, 印尼語 禱告會 English, Indonesian Prayer Meeting</td>
+			<td>星期五 Friday</td>
+			<td>07:30 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'losangeles')
+	and locale = 'en'
+	and page_id = 'schedule';	
+	
+	
+update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
+ 
+	<tbody>
+		<tr>
+			<td>印尼語 崇拜 Indonesian Worship Service</td>
+			<td>星期日  Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>英語 崇拜 English Worship Service</td>
+			<td>星期日  Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>主日學 Sunday School</td>
+			<td>星期日  Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>英語, 印尼語 禱告會 English, Indonesian Prayer Meeting</td>
+			<td>星期五 Friday</td>
+			<td>07:30 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'losangeles')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+	
+------------ end losangeles
+	
+	
+	
+	
+	
+	
 	
 -- update paris intro page
 update church_content set body = '<style>
@@ -4256,7 +4333,7 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-	<p><span class="label">Established Date: </span>2017</p>
+	<p><span class="label">Established Date: </span>January 13, 2017</p>
 
 </div>
 ');
@@ -4309,10 +4386,23 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<b>成立日期:</b> 2017年
+<b>成立日期:</b> 2017年 1月13日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
+</p>
+<p>紐約藝人生命堂前身為紐約藝人團契，2017年ㄧ月紐約藝人福音團契加盟國際神學福音佈道會，更名為紐約藝人基督教生命堂。
+</p>
+<p>紐約藝人團契第一次聚會是在1987年十月的最後一個主日。李水蓮牧師（藝名：康嘉欣）邀請了十多位演藝界的朋友們在一家中國餐館聚會，由楊摩西牧師短講信息；同年十二月底，又在法拉盛的新橋之家舉辦聖誕節晚會，特別邀請了熊玠教授分享見證，楊摩西牧師證道。共有三十多位兩岸的演藝界朋友前來參加。那次聚會後，有人願意開放家庭為聚會所用，於是開始了週五晚上的查經班，兩個月後開始了團契崇拜。
+</p>
+<p>1988年七月底，台灣金馬影帝孫越和愛心佈道團來美佈道，順道來訪本團契。當時藉用新生衛理公會的禮堂，為他們舉辦了一次特別聚會。由孫越弟兄做見證，楊牧師短講，參加人數八十多人。當場有基督徒黃仲連夫婦，樂意把他們新建大廈的一個單位以特別優惠的價格租給教會。於是在1988年十一月26日感恩節舉行了感恩禮拜，正式成立了紐約藝人福音團契。
+</p>
+<p>2014年九月，李水蓮牧師離開紐約，定居德州，將本教會的事工傳與神學院的黃靜教授。弟兄姐妹群策群力，熱心事主，四年多來，得救人數頻頻加增。目前教會正在籌備建堂。
+</p>
+<p>盼望弟兄姐妹繼續肩負福音使命，同心擴展福音事工。
+</p>
+<p>……你們往普天下去，傳福音給萬民聽。馬可福音十六章15節
+</p>
 
 </div>');
 
@@ -10580,13 +10670,14 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace="5" src="/emsi/images/church_pearlriver.jpg" align="left" height="255" width="360" />一九七o年代，在新澤西州牧會的楊摩西牧師為了回應一位姊妹的呼聲，於新州北部靠近紐約州的地方開始了一個小小的查經班，因為該處沒有中國教會。
+<img hspace="5" src="/emsi/images/church_pearlriver.jpg" align="left" height="255" width="360" />珍珠河教會的起源是基於一位姐妹對真理渴望的要求，於是楊牧師就來到新州北部靠近紐約州的地方開始了一個查經班。漸漸地，查經班的人數越來越多，他們就向美國衛理公會租用他們的場地，於1973年成立了紐約州基督教生命堂。經過幾次的搬遷，總覺得租用別人的地方實在不方便；禱告以後，弟兄姐妹們就開始購堂的計劃。
 </p>
-<p>漸漸地，查經班的人數越來越多，弟兄姊妹也希望能夠開始有主日崇拜。基於羊群的需要，楊牧師和一群忠心的基督徒於一九七三年在紐約州珍珠河借用美國衛理公會教堂，成立了珍珠河基督教生命堂。後再遷至紐約州南部與新澤西州相接的南紐約(Nanuet)，租用美國恩惠浸信會(Grace Baptist Church of Nanuet)教堂聚會，並更名為紐約州基督教生命堂。
+<p>感謝主，於1996年初，終於買了一棟原本銀行專用的建築，手續順利，終於六月2日遷入新址；同年，七月27日舉行獻堂典禮。教會正名為「珍珠河基督教生命堂」。
 </p>
-<p>在借用的教堂聚會，難免有許多不便，於是弟兄姊妹興起購建新堂的計畫，建堂奉獻也從未間斷。一九九六年初，終於覓得一處合適的建築，幾經交涉，於四月擇期以現款買斷成交，並於六月二日遷入新址，同年七月廿七日舉行獻堂典禮。由於新堂堂址位於紐約州珍珠河，亦即當年成立教會的地區，因此教會再度正名為珍珠河基督教生命堂。
+<p>多年來，本堂的牧者有：徐頌光牧師、譚俊德傳道、李月雲傳道、但功濤傳道及張博淨、蔡純德傳道夫婦等等，他們都曾在本堂精心的牧養。從1997年至今，則由國際福音佈道神學院畢業的張秀蘭傳道牧養教會。
+教會成員多數來自紐約州的羅克蘭郡（Rockland County, New York），以及新澤西州的柏根郡(Bergen County)；教會附近的居民不多，會友都是來自不同的方向。感謝主，這小小的屬靈家庭在主特別的眷顧下，經歷許多的恩典，使我們豐富有餘。
 </p>
-<p>多年來，本堂的牧者除了當初建立教會的楊摩西牧師之外，尚有新加坡禧年堂退休的徐頌光牧師、香港宣道浸信會譚俊德傳道、國際福音佈道神學院畢業生李月雲傳道、但功濤傳道及張博淨、蔡純德傳道夫婦等等，一九九七年至今，則由國際福音佈道神學院畢業的楊張秀蘭傳道帶領。教會成員多數來自紐約州的羅克蘭郡（Rockland County, New York）,以及新澤西州的柏根郡(Bergen County)。
+<p>我們感謝從第一代的基督徒在這個家裡留下的見證，使得後來的基督徒可以享受他們辛苦耕耘的果子；但願我們也能為主，也為了下一代的接棒人，努力建造神的家，把福音廣傳出去，讓珍珠河教會能一直為主發光，直到主再來的日子。
 </p>
 
 </div>
