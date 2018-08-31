@@ -4334,6 +4334,15 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 	<p><span class="label">Established Date: </span>January 13, 2017</p>
+<p>
+On January 13, 2017, the former “The New York Performing Artists Fellowship” became the "Performing Artists Gospel Fellowship” after joining EMSI.
+</p>
+<p>
+The New York Performing Artists Fellowship was founded by Ev. Shilian(Deborah) Li in 1987. The first meeting was held on Oct. 25, 1987 in a Chinese restaurant where she invited more than a dozen of her show business friends with Rev. Moses Yang as the speaker. She held a Christmas party in the House of New Bridge in Flushing with more than 30 show business friends from both Taiwan and China mainland at the end of December in 1987. In the meeting Prof. Xiong Yi shared his testimony, and Rev. Moses Yang delivered a message. After the service, someone offered his house to be used for meeting. A Friday night Bible class was then started followed by a fellowship two months later.
+</p>
+<p>
+At the end of July 1988, Taiwan’s Sun Yue, a very famous movie star and the Love Mission Team came to the United States for an evangelistic tour. They visited our fellowship. We rented the Newman Methodist Assembly Hall as the venue. Brother Sun Yue gave a testimony, and Rev. Yang delivered a short sermon. More than 80 people attended. A Christian couple, Huang Zhonglian and his wife offered to let us lease a unit in their new building at a discounted price. A thanksgiving service was held on Thanksgiving Day, November 26, 1988. The New York Performing Artists Fellowship was officially established.
+</p>
 
 </div>
 ');
