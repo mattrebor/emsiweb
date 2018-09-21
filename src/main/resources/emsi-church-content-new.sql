@@ -9289,7 +9289,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 
 	
 	
-----------------  ends  Belgium - antwerpen
+---------------  ends  Belgium - antwerpen
 
 	
 --------------  Belgium - Brussels
