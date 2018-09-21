@@ -39,7 +39,7 @@ update church set address='Floraparkstraat 155, 7531 XG Enschede, The Netherland
 update church set address='Donarpad 9, 3072 Rotterdam, The Netherlands', latitude = 51.8981098, longitude = 4.4795884 where church_path = 'rotterdam';
 update church set address='Isingstraat 165A, 2522 JS The Hague, The Netherlands', latitude = 52.0614258, longitude = 4.3235395 where church_path = 'denhaag';
 update church set address='Marokkodreef 3, 3564 EV Utrecht, The Netherlands', latitude = 52.1215477, longitude = 5.1067358 where church_path = 'utrecht';
-update church set address='Anton Waldorpstraat 90, 1062 AZ Amsterdam, The Netherlands', latitude = 52.3616378, longitude = 4.8410256 where church_path = 'amsterdam';
+update church set address='Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands', latitude = 52.3505629, longitude = 4.841578 where church_path = 'amsterdam';
 update church set address='Esdoornstraat 25, 8021 WB Zwolle, The Netherlands', latitude = 52.521532, longitude = 6.0963997 where church_path = 'zwolle';
 update church set address='Teteringsedijk 89C, 4817 MB Breda, The Netherlands', latitude = 51.5941052, longitude = 4.7962561 where church_path = 'breda';
 update church set address='Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherlands', latitude = 51.502719, longitude = 4.282703  where church_path = 'bergenopzoom';
@@ -6607,12 +6607,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>Anton Waldorpstraat 90, 1062 AZ Amsterdam, The Netherlands</td>
+			<td>Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0031-(0)20-6730350 / 0031-(0)61-2965512</td>
+			<td>0031-(0)-612965512</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -6663,12 +6663,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> Anton Waldorpstraat 90, 1062 AZ Amsterdam, The Netherlands</td>
+			<td> Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 0031-(0)20-6730350 / 0031-(0)61-2965512 </td>
+			<td> 0031-(0)-612965512 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -6704,16 +6704,16 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. LeungMing Wong
 </p>
 <p>
-<b>Address: </b>Anton Waldorpstraat 90, 1062 AZ Amsterdam, The Netherlands
+<b>Address: </b>Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands
 </p>
 <p>
-<b>Tel #: </b>0031-(0)20-6730350 / 0031-(0)61-2965512
+<b>Tel #: </b>0031-(0)-612965512
 </p>
 <p>
 <b>Email: </b>emsiamsterdam@gmail.com
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;t=m&amp;z=14&amp;ll=52.362588,4.834154&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;t=m&amp;z=14&amp;ll=52.362588,4.834154&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.094964514819!2d4.841578015292828!3d52.35056287978251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e21e8d5d443d%3A0x165105569e511028!2sPoeldijkstraat+8%2C+1059+VM+Amsterdam%2C+Netherlands!5e0!3m2!1sen!2sus!4v1537488308502" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'amsterdam')
 	and locale = 'en'
@@ -6726,16 +6726,16 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師:</b> 黃良明 牧師
 </p>
 <p>
-<b>地址: </b>Anton Waldorpstraat 90, 1062 AZ Amsterdam, The Netherlands
+<b>地址: </b>Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands
 </p>
 <p>
-<b>電話:</b> 0031-(0)20-6730350 / 0031-(0)61-2965512
+<b>電話:</b> 0031-(0)-612965512
 </p>
 <p>
 <b>電郵: </b>emsiamsterdam@gmail.com
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;t=m&amp;z=14&amp;ll=52.362588,4.834154&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;ie=UTF8&amp;hq=&amp;hnear=Anton+Waldorpstraat+90,+1062+AZ+Amsterdam,+Netherlands&amp;t=m&amp;z=14&amp;ll=52.362588,4.834154&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2437.094964514819!2d4.841578015292828!3d52.35056287978251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5e21e8d5d443d%3A0x165105569e511028!2sPoeldijkstraat+8%2C+1059+VM+Amsterdam%2C+Netherlands!5e0!3m2!1sen!2sus!4v1537488308502" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 
 ')	where church_id = (select church_id from church where church_path = 'amsterdam')
@@ -7339,7 +7339,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelists:</td>
-			<td>Ev. Huan Jin, 628-667-979</td>
+			<td>Ev. Huan Jin, 628-667-879</td>
 		</tr>
 		<tr>
 			<td class="label"></td>
@@ -7354,12 +7354,13 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>Calle Presidente Alvear numero 7 Portal 2 local 2. 35006 Las Palmas, de Gran Canaria, Spain</td>
+			<td>(North) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
+			(South) Av. De Galdar, 10f, Local 21, 35100 Maspalomas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>628-667-979, 654-852-708</td>
+			<td>628-667-879, 654-852-708</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
@@ -7383,7 +7384,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>August 26, 2003
 </p>
 <p>
-<a href="/emsi/gallery/?g2_itemId=1034"><img src="/emsi/files/2011-grancaria17small.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /> </a>We planned our first short missionary trip led by Ev. Yeh, and brother Guo Dan Jiang. to the coastal islands in August, 2000 after some CEC church members’ families/businesses moved there from mainland Spain. We visited Tenerife, Gran Canaria two islands, and organized meetings there.
+<a href="/emsi/gallery/?g2_itemId=1034"><img src="/emsi/images/Church_Gran_Canaria_18_small.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /> </a>We planned our first short missionary trip led by Ev. Yeh, and brother Guo Dan Jiang. to the coastal islands in August, 2000 after some CEC church members’ families/businesses moved there from mainland Spain. We visited Tenerife, Gran Canaria two islands, and organized meetings there.
 </p>
 <p>In the beginning of 2003, brother Guo Dan Jiang opened a store in Gran Canaria for Gospel work and started visitation. After many prayers and planning, some mission coworkers restarted missionary work in the islands in the summer of 2003. They included several coworkers of CEC in Madrid and two EBI students Zhang, Jian and John Zhang from Paris. On Aug. 26 ,2003 the Christian Evangelical Mission Church in Gran Canaria was established in Las Palmas de Gran Canaria, the capital city of Gran Canaria. A meeting was held at the Imperial Restaurant in the Northern District; and another meeting in the Playa del Inglés in the Southern District the following day.
 </p>
@@ -7405,7 +7406,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>金歡 傳道, 628-667-979</td>
+			<td>金歡 傳道, 628-667-879</td>
 		</tr>
 		<tr>
 			<td class=\"label\"></td>
@@ -7419,12 +7420,13 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> Calle Presidente Alvear numero 7 Portal 2 local 2. 35006 Las Palmas, de Gran Canaria, Spain</td>
+			<td>(北) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
+			(南) Av. De Galdar, 10f, Local 21, 35100 Maspalomas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 628-667-979, 654-852-708 </td>
+			<td> 628-667-879, 654-852-708 </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -7448,11 +7450,10 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/2011-grancaria17small.jpg\" align=\"left\" height=\"255\" width=\"360\" />因部份會友的事業、家庭從西班牙内陸轉移到海島，二○○○年八月首次籌劃海島短宣，由葉傳道與蔣國淡弟兄至Tenerife、Gran Canaria兩海島探訪、組織聚會。
+<img hspace=\"5\" src=\"/emsi/images/Church_Gran_Canaria_18_small.jpg\" align=\"left\" height=\"255\" width=\"360\" />因部份會友的事業、家庭從西班牙内陸轉移到海島，二○○○年八月首次籌劃海島短宣，由葉傳道與蔣國淡弟兄至Tenerife、Gran Canaria兩海島探訪、組織聚會。
 </p>
 <p>二○○三年年初，蔣國淡弟兄因福音負擔，前往Gran canaria開店，恢復該區的探訪聯絡。2003年夏見時機成熟，傳道同工經過禱告、策劃，重開海島宣教工作。馬德里生命堂的幾位同工和本會巴黎神學院兩位神學生張健與張約翰配搭，前往Gran Canaria海島佈道。八月廿六日在Gran canaria首府Las Palmas de Gran canaria成立加納利亞基督教生命堂，於皇城酒家舉行北區聚會，隔日在南區Playa del Inglés舉行南區聚會。
 </p>
-
 
 </div>
 ')	where church_id = (select church_id from church where church_path = 'canaria')
@@ -7462,16 +7463,17 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Huan Jin, 628-667-979
+<b>Evangelist: </b>Ev. Huan Jin, 628-667-879
 </p>
 <p>
 <b>Evangelist: </b>Ev. Lin Tao Wu, 654-852-708
 </p>
 <p>
-<b>Address: </b>Calle Presidente Alvear numero 7 Portal 2 local 2. 35006 Las Palmas, de Gran Canaria, Spain
+<b>Address: </b>(North) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
+			(South) Av. De Galdar, 10f, Local 21, 35100 Maspalomas, de Gran Canaria, Spain
 </p>
 <p>
-<b>Tel #: </b>628-667-979, 654-852-708
+<b>Tel #: </b>628-667-879, 654-852-708
 </p>
 <p>
 <b>Fax #: </b>34-91-459-5844
@@ -7480,7 +7482,12 @@ update church_content set body = STRINGDECODE('<p>
 <b>Email: </b>emsigrancanaria@yahoo.com
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.602394201551!2d-15.431156821974993!3d28.13401717642436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409514ad58f281%3A0x4717363de4b857a!2sCalle+Pdte.+Alvear%2C+7%2C+35006+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1502675108965" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<b>Address: </b>(North)</br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.602394201551!2d-15.431156821974993!3d28.13401717642436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409514ad58f281%3A0x4717363de4b857a!2sCalle+Pdte.+Alvear%2C+7%2C+35006+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1502675108965" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+<p>
+<b>Address: </b>(South)</br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1765.1999677417473!2d-15.575821842293736!3d27.766648673935727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc3f62bcee9dd59d%3A0x1864f22c69625f0!2sAv.+de+Galdar%2C+10%2C+35100+San+Bartolom%C3%A9+de+Tirajana%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1536497887144" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'canaria')
 	and locale = 'en'
@@ -7489,16 +7496,17 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 金歡 傳道, 628-667-979
+<b>傳道:</b> 金歡 傳道, 628-667-879
 </p>
 <p>
 <b>傳道:</b> 吳林濤 傳道, 654-852-708
 </p>
 <p>
-<b>地址: </b>Calle Presidente Alvear numero 7 Portal 2 local 2. 35006 Las Palmas, de Gran Canaria, Spain
+<b>地址: </b>(北) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
+			(南) Av. De Galdar, 10f, Local 21, 35100 Maspalomas, de Gran Canaria, Spain
 </p>
 <p>
-<b>電話:</b> 628-667-979, 654-852-708
+<b>電話:</b> 628-667-879, 654-852-708
 </p>
 <p>
 <b>傳真:</b> 34-91-459-5844
@@ -7508,7 +7516,12 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.602394201551!2d-15.431156821974993!3d28.13401717642436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409514ad58f281%3A0x4717363de4b857a!2sCalle+Pdte.+Alvear%2C+7%2C+35006+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1502675108965" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<b>地址: </b>(北)</br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.602394201551!2d-15.431156821974993!3d28.13401717642436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409514ad58f281%3A0x4717363de4b857a!2sCalle+Pdte.+Alvear%2C+7%2C+35006+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1502675108965" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+<p>
+<b>地址: </b>(南)</br>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1765.1999677417473!2d-15.575821842293736!3d27.766648673935727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc3f62bcee9dd59d%3A0x1864f22c69625f0!2sAv.+de+Galdar%2C+10%2C+35100+San+Bartolom%C3%A9+de+Tirajana%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1536497887144" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'canaria')
 	and locale = 'zh'
@@ -7570,6 +7583,24 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 	<p><span class="label">Established Date: June 23, 2018</span></p>
+<p>
+The district of Usera has the largest Chinese population in Madrid. It’s even called the “Chinatown”.
+</p>
+<p>
+Pastor Jiang visited Usera sometime in 2017. He felt at home when he heard some people speak his hometown dialect- Fuzhounese. He thought it be best if we can gather all those people and start a church there. He had a burden to start a Bible Study group, so he prayed about it for a while. One day, he received a phone call from a sister. She asked Pastor Jiang to pray for her friend, who is also a sister in Christ but was influenced by the Eastern Lighting Cult and had gone missing. The family of her friend was very anxious. Pastor Jiang visited the family after receiving the news. His desire to save lost souls and start a church grew stronger.
+</p>
+<p>
+January 18, 2018 was the tenth anniversary of the CEC in Fuenlabrada. Pastor Jiang had a chance to report the situation in Usera to Rev. Moses Yang. After prayers, Rev. Yang and the coworkers decided to start a Bible Study group. The Usera Bible Study group officially started
+on February 3, 2018 at the office of Brother Guangyong Chen. The attendance was around 20; it has gradually increased in numbers through the end of April.
+</p>
+<p>
+May the Lord grant us wisdom and help us in spreading the Gospel in this place, so that we can effectively use the Chinese school with an area of 1,506.95 square feet that we have rented to further the ministry. Hope we can start the Sunday Worship here soon.
+</p>
+<p>
+We will follow Paul’s teachings in II Timothy 4:2 - “Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all long suffering and doctrine.” Please pray for us. May God open the door for us so that we can speak the mystery of Christ. (Colossians 4:3)
+</p>
+
+
 </div>
 ');
 
@@ -7626,6 +7657,28 @@ p span.label {font-weight: bold;}
 <p>
 <span class=\"label\">簡史: </span>
 </p>
+<p>
+西班牙馬德里烏塞拉區是華人居住最密集之地，有「唐人街」之稱，其中有較多的商店、餐廳及娛樂場所，為華人非常便利的交流地。
+</p>
+<p>
+2017年某日，蔣牧師路經此地，聽見有一些正用福建家鄉話交談的鄉親們，心中倍感親切！當時，他想若這群老鄉們也能去教會有多好啊！這樣的感動，讓他有了在此先開設查經班的負擔，也對此地留下了很深的印象。
+</p>
+<p>
+蔣牧師禱告了一段時間後，有一天接到一位姐妹的電話。她請蔣牧師幫助她的一位同鄉(也是會友)，不久前被東方閃電的人帶走，下落不明，家人很焦急，所以希望蔣牧師為她禱告。蔣牧師得知後，就去探訪這家人。原本對烏塞拉區已有負擔的蔣牧師，經由這件事的發生，想要在此設立教會，尋找失喪靈魂的意願更強烈了。
+</p>
+<p>
+2018年一月14日，正值福恩城十週年慶時，有機會與總監楊摩西牧師匯報了烏塞拉華人區的情況；後來藉著楊牧師和同工們的同心禱告，定下了查經的時間和地點 ─ 2018年二月3日，弟兄姐妹於同工陳廣勇弟兄的辦公室，正式開始了「以斯拉查經班」。
+</p>
+<p>
+雖然，剛開始查經班多數都是住在附近福恩城生命堂的弟兄姐妹們，人數約有20位左右；但四月底後，查經班每次陸續都有新朋友加入。感謝主，目前我們與一所中文學校分租一個140平方的場地做為查經之用。
+</p>
+<p>
+求主賜下祂的聰明智慧，幫助我們努力地在此將基督的福音傳遍，帶領更多的人歸主；使我們在目前所租的地方更有效地發展聖工，盼望我們很快地就能開始以斯拉主日崇拜！
+</p>
+<p>
+我們會遵照使徒保羅於提摩太後書四章2節所教導去行：「務要傳道，無論得時不得時，總要專心；並用百般的忍耐，各樣的教訓，責備人、警戒人、勸勉人。」也請主內的同工及弟兄姐妹：要為我們禱告，求上帝給我們開傳道的門，能以講基督的奧秘(參西四3)。
+</p>
+
 </div>');
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'contactus', 'en', 'CEC in Usera - Contact Us', '');          
@@ -9257,14 +9310,6 @@ p span.label {font-weight: bold;}
 			<td class="label">Pastor:</td>
 			<td>Rev. Mix Chan</td>
 		</tr>
-		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Benjamin SiuMan Chung</td>
-		</tr>
-		<tr>
-			<td class="label">          </td>
-			<td>Ev. Edwige PHUONG</td>
-		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -9278,7 +9323,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> +32-(0)484-148682 / +32-(0)483-441680 / +32-(0)497-870127</td>
+			<td> +32-(0)484-148682</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -9326,14 +9371,6 @@ p span.label {font-weight: bold;}
 			<td class=\"label\">牧師:</td>
 			<td>陳茂祥 牧師</td>
 		</tr>
-		<tr>
-			<td class="label">牧者:</td>
-			<td>鍾紹文 傳道</td>
-		</tr>
-		<tr>
-			<td class="label">  </td>
-			<td>方敏華 傳道</td>
-		</tr>
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -9347,7 +9384,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> +32-(0)484-148682 / +32-(0)483-441680 / +32-(0)497-870127 </td>
+			<td> +32-(0)484-148682</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -9381,16 +9418,10 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. Mix Chan
 </p>
 <p>
-<b>Evangelist: </b>Ev. Benjamin SiuMan Chung
-</p>
-<p>
-<b>Evangelist: </b>Ev. Edwige PHUONG
-</p>
-<p>
 <b>Address: </b>32 Rue du Fossé aux Loups, 1000 Brussels, Belgium
 </p>
 <p>
-<b>Tel #: </b>+32-(0)484-148682 / +32-(0)483-441680 / +32-(0)497-870127
+<b>Tel #: </b>+32-(0)484-148682
 </p>
 <p>
 <b>Email: </b>emsibelgium@hotmail.com
@@ -9409,16 +9440,10 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師: </b>陳茂祥 牧師
 </p>
 <p>
-<b>牧者: </b>鍾紹文  傳道
-</p>
-<p>
-<b>牧者: </b>方敏華 傳道
-</p>
-<p>
 <b>地址: </b>32 Rue du Fossé aux Loups, 1000 Brussels, Belgium
 </p>
 <p>
-<b>電話:</b> +32-(0)484-148682 / +32-(0)483-441680 / +32-(0)497-870127
+<b>電話:</b> +32-(0)484-148682 
 </p>
 <p>
 <b>電郵: </b>emsibelgium@hotmail.com
@@ -9594,7 +9619,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 <td class="label">Address:</td>
-<td>Brouwersstraat 1, 3000 Leuven, Belgium</td>
+<td>Burgemeesterstraat 28, 3000 Leuven, Belgium</td>
 </tr>
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -9670,7 +9695,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 <td class="label">地址:</td>
-<td>Brouwersstraat 1, 3000 Leuven, Belgium</td>
+<td>Burgemeesterstraat 28, 3000 Leuven, Belgium</td>
 </tr>
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -9795,14 +9820,13 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Li Guo</br>
 </p>
 <p>
-<b>Address: </b>Brouwersstraat 1, 3000 Leuven, Belgium</p>
+<b>Address: </b>Burgemeesterstraat 28, 3000 Leuven, Belgium</p>
 <p>
 <b>Tel #: </b>+32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)483-441680</p>
 <p>
 <b>Email: </b>emsibelgium@hotmail.com</p>
 
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;ie=UTF8&amp;hq=&amp;hnear=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;t=m&amp;z=14&amp;ll=50.882435,4.696683&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;ie=UTF8&amp;hq=&amp;hnear=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;t=m&amp;z=14&amp;ll=50.882435,4.696683&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
-</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2523.4662864345837!2d4.629092415271271!3d50.766929279520255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c162c4fc466853%3A0xa4e0f2d1e103a35b!2sBurgemeesterstraat+28%2C+3040+Huldenberg%2C+Belgium!5e0!3m2!1sen!2sus!4v1536499521499" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
 ')	where church_id = (select church_id from church where church_path = 'leuven')
 	and locale = 'en'
 	and page_id = 'contactus';
@@ -9813,12 +9837,12 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道: </b> 郭莉 傳道<br />
 </p>
 <p>
-<b>地 址: </b>Brouwersstraat 1, 3000 Leuven, Belgium</p>
+<b>地 址: </b>Burgemeesterstraat 28, 3000 Leuven, Belgium</p>
 <p>
 <b>電 話: </b>+32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)483-441680</p>
 <p>
 <b>電 郵: </b>emsibelgium@hotmail.com</p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;ie=UTF8&amp;hq=&amp;hnear=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;t=m&amp;z=14&amp;ll=50.882435,4.696683&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;ie=UTF8&amp;hq=&amp;hnear=Brouwersstraat+1,+3000+Leuven,+Belgium&amp;t=m&amp;z=14&amp;ll=50.882435,4.696683&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2523.4662864345837!2d4.629092415271271!3d50.766929279520255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c162c4fc466853%3A0xa4e0f2d1e103a35b!2sBurgemeesterstraat+28%2C+3040+Huldenberg%2C+Belgium!5e0!3m2!1sen!2sus!4v1536499521499" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'leuven')
 	and locale = 'zh'
