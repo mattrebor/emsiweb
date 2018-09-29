@@ -9619,7 +9619,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 <td class="label">Address:</td>
-<td>Burgemeesterstraat 28, 3000 Leuven, Belgium</td>
+<td>Burgemeestersstraat 28, 3000 Leuven, Belgium</td>
 </tr>
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -9695,7 +9695,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 <td class="label">地址:</td>
-<td>Burgemeesterstraat 28, 3000 Leuven, Belgium</td>
+<td>Burgemeestersstraat 28, 3000 Leuven, Belgium</td>
 </tr>
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -9811,7 +9811,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'contactus', 'zh', '魯汶基督教生命堂  - 連絡我們','');          
 
 
-update church set address='Brouwersstraat 1, 3000 Leuven, Belgium', latitude = 50.882435, longitude = 4.696683 where church_path = 'leuven';
+update church set address='Burgemeestersstraat 28, 3000 Leuven, Belgium', latitude = 50.875825, longitude = 4.711236 where church_path = 'leuven';
 
 update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. M. C. (Mix) Chan</br>
@@ -9820,13 +9820,13 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Li Guo</br>
 </p>
 <p>
-<b>Address: </b>Burgemeesterstraat 28, 3000 Leuven, Belgium</p>
+<b>Address: </b>Burgemeestersstraat 28, 3000 Leuven, Belgium</p>
 <p>
 <b>Tel #: </b>+32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)483-441680</p>
 <p>
 <b>Email: </b>emsibelgium@hotmail.com</p>
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2523.4662864345837!2d4.629092415271271!3d50.766929279520255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c162c4fc466853%3A0xa4e0f2d1e103a35b!2sBurgemeesterstraat+28%2C+3040+Huldenberg%2C+Belgium!5e0!3m2!1sen!2sus!4v1536499521499" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.5950243053426!2d4.709058315653367!3d50.87569667953627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1612a7f673aaf%3A0x6e6a7194b7351e9f!2sBurgemeestersstraat+28%2C+3000+Leuven%2C+Belgium!5e0!3m2!1sen!2sus!4v1538232726335" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 ')	where church_id = (select church_id from church where church_path = 'leuven')
 	and locale = 'en'
 	and page_id = 'contactus';
@@ -9837,12 +9837,12 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道: </b> 郭莉 傳道<br />
 </p>
 <p>
-<b>地 址: </b>Burgemeesterstraat 28, 3000 Leuven, Belgium</p>
+<b>地 址: </b>Burgemeestersstraat 28, 3000 Leuven, Belgium</p>
 <p>
 <b>電 話: </b>+32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)483-441680</p>
 <p>
 <b>電 郵: </b>emsibelgium@hotmail.com</p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2523.4662864345837!2d4.629092415271271!3d50.766929279520255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c162c4fc466853%3A0xa4e0f2d1e103a35b!2sBurgemeesterstraat+28%2C+3040+Huldenberg%2C+Belgium!5e0!3m2!1sen!2sus!4v1536499521499" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2517.5950243053426!2d4.709058315653367!3d50.87569667953627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c1612a7f673aaf%3A0x6e6a7194b7351e9f!2sBurgemeestersstraat+28%2C+3000+Leuven%2C+Belgium!5e0!3m2!1sen!2sus!4v1538232726335" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'leuven')
 	and locale = 'zh'
