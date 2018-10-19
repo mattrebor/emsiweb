@@ -66,7 +66,7 @@ update church set address='94 Campground Road, Cape Town 7700, South Africa', la
 
 update church set address='Geograaf 13, Centerpoort-Nieuwgraaf, 6921 EW Duiven, The Netherlands', latitude = 51.96284559999999, longitude = 6.00577570 where church_path = 'arnhem';
 update church set address='Via Stresa, 3, 20125 Milan, Italy', latitude = 45.49278710, longitude = 9.2040530 where church_path = 'milan';
-update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prato, Italy', latitude = 43.88184649999999, longitude = 11.09375730 where church_path = 'prato';
+--update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prato, Italy', latitude = 43.88184649999999, longitude = 11.09375730 where church_path = 'prato';
 update church set address='Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan', latitude = 34.646304, longitude = 135.522001  where church_path = 'osaka';
 
 ---------------------update Brooklyn - 7th Ave Fuzhou Service intro page
@@ -8468,239 +8468,192 @@ Christian Evangelical Mission Church in Towaco
 ----------------- starts Italy - prato	
 -----   use &#39  for apostrophe
 
-update church_content set body = '<style>
-.contact-content {font-family: Arial,helvetica,sans-serif;}
-.contact-content td {font-size: small; padding: 2px; 3px;}
-td.label {font-weight: bold; width: 1%; white-space: nowrap;}
-p span.label {font-weight: bold;}
-.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
-.borderless-table {border-width: 0px;}
-</style>
-<div class="contact-content">
-<div style="color: #000000; font-size: small">
-<table cellpadding="0px" cellspacing="0px">
-	<tbody class="borderless-table">
-		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. David Zhou, (C) 39-057-4831203</td>
-		</tr>
+--update church_content set body = '<style>
+--.contact-content {font-family: Arial,helvetica,sans-serif;}
+--.contact-content td {font-size: small; padding: 2px; 3px;}
+--td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+--p span.label {font-weight: bold;}
+--.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+----- .borderless-table {border-width: 0px;}
+----- </style>
+----- <div class="contact-content">
+----- <div style="color: #000000; font-size: small">
+----- <table cellpadding="0px" cellspacing="0px">
+----- 	<tbody class="borderless-table">
+----- 		<tr>
+----- 			<td class="label">Evangelist:</td>
+----- 			<td>Ev. David Zhou, (C) 39-057-4831203</td>
+----- 		</tr>
 
-	</tbody>
-</table>
-<div style="margin-left: 20px">
-<table cellpadding="1px" cellspacing="0px">
-	<tbody class="borderless-table">
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
-			<td class="label">Address:</td>
-			<td>Piazza San Domenico 10, 59100, Prato (PO), Italy</td>
-		</tr>
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">Tel#:</td>
-			<td>39-057-4831203</td>
-		</tr>
-		<tr>
-			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
-			<td class="label">Email:</td>
-			<td><a href="mailto:CEMCPrato@gmail.com">CEMCPrato@gmail.com</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
-<hr align="center" size="1" width="100%" />
-</div>
-<div class="main-content">
-<p>
-<span class="label">Established Date: </span>August 8, 2010
-</p>
-<p>
-<a href="/emsi/gallery/?g2_itemId=119"><img src="/emsi/files/prato_small_0.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /></a>
-</p>
-<p>
-Praise the almighty Lord for leading CEC Prato through it’s first year. On the 7th of August 2011 CEC Prato celebrated her first anniversary. Thank God for guidance and blessing of the past year.
-<p>
-On the 5th of July of 2010, the EMSI Short Term Mission (STM) team was sent from Holland to Prato. The team was led by Rev. Hugo Chan and Erna shimu and its team members were HongYou Yu and JieLin Feng, a young couple from CEC Groningen, and Yen Chow Chan, an EBI Bible student in Towaco. The goals for STM were to evangelize Chinese people, and to rent a place for Sunday worship services and accommodation for Yen Chow Chan. The STM team prayed for these two locations. If God wants EMSI to start a church in Prato, the team should find the locations within two or three months.
-</p>
-<p>
-Thanks God for leading Rev. Hugo Chan and Erna shimu to a broker who can speak English. The broker had helped to find a accommodation for Yen Chow Chan. Later God led Rev. Chan and Yen Chow to Piazza San Domenico 10. With the help of the broker communication with the owner was possible. It all happened in the first week that the STM team was in Prato; our faith in God was strengthened. The will of God was clear; He wanted a CEC church in Prato. In August 2010, Brother Martin Ding from CEC Utrecht came to assist Yen Chow Chan for one month. On the 8th of August CEC Prato was established, the first Sunday worship service was attended by five persons. At the end of October Yen Chow&#39s wife Shuqi Hu came over from China, the family was reunited and served together in CEC Prato. The number of people being saved increased rapidly. In the second quarter of 2011 the average attending the Sunday worship service had increased to 15 persons. Praise the merciful God for saving more than hundreds of souls through CEC Prato past year.
-</p>
-<p>
-The work in the past first year was not possible if not a team of loyal prayers had moved God&#39s hand. Daily prayers on their knees from EBI Towaco&#39s Bible students and coworkers, CEC Den Haag&#39s youth fellowship and coworkers and those who know the importance of mission. Please keep on praying the harvest in Prato is plenteous.
-</p>
-<p>
-Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few; pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest. Matthew 9:37,38
-</p>
-</div>
-' where church_id = (select church_id from church where church_path = 'prato')
-	and locale = 'en'
-	and page_id = 'intro';
-
-	
-update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
-font-family: Arial,helvetica,sans-serif,新細明體;}
-.contact-content td {font-size: 14px; padding: 2px; 3px;}
-td.label {font-weight: bold; width: 1%; white-space: nowrap;}
-p span.label {font-weight: bold;}
-.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
-.borderless-table {border-width: 0px;}
-</style>\r\n<div class=\"contact-content\">
-<div style=\"color: #000000; font-size: small\">
-<table cellpadding=\"0\" cellspacing=\"0\">
-	<tbody class=\"borderless-table\">
-		<tr>
-			<td class="label">傳道:</td>
-			<td>周長宇 傳道 , (手機) 39-057-4831203</td>
-		</tr>
-
-	</tbody>
-</table>
-<br /><div style=\"margin-left: 20px\">
-<table cellpadding=\"1\" cellspacing=\"0\">
-	<tbody class=\"borderless-table\">
-		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">地址:</td>
-			<td> Piazza San Domenico 10, 59100, Prato (PO), Italy</td>
-		</tr>
-		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">電話:</td>
-			<td> 39-057-4831203 </td>
-		</tr>
-		<tr>
-			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: CEMCPrato@gmail.com"> CEMCPrato@gmail.com</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
-<hr align=\"center\" size=\"1\" width=\"100%\" />
-</div>
-<div class=\"main-content\">
-<p>
-<b>成立日期:</b> 2010年 8月 8日
-</p>
-<p>
-<span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/prato_small_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />讚美全能的上帝帶領義大利普拉托生命堂走過了兩年。2011年八月7日普拉托生命堂慶祝成立週年，感謝上帝在過去一年的引領及賜福！
-</p>
-<p>2010年初，陳啟猷牧師夫婦發現義大利普拉托有很多華人。於是，2010年七月5日，國際福音佈道會差派短宣隊由陳啟猷牧師及師母帶領，從荷蘭到義大利普拉托。隊員包括荷蘭高寧根生命堂的于洪友、馮洁琳一對年輕的夫婦及我。
-</p>
-<p>短宣隊主要的目的是向華人傳福音, 同時尋找主日聚會的場地及傳道人的住處。短宣隊的禱告是，如果上帝要國際神學福音佈道會在普拉托成立生命堂，那麼短宣隊就應該會在兩到三個月內找到這兩個場地。
-</p>
-<p>感謝上帝帶領，陳牧師夫婦很快地就遇見一位能說英文的房屋仲介，這位仲介很快地就幫我找到了住所，並在Piazza San Domenico找到一間可為教會所用的地方。這些事都是在短宣隊到達普拉托的第一個星期發生。感謝主，事情有了進展，因此我們更有信心向前，也看見上帝的旨意相當清楚了。
-</p>
-<p>一個星期後，陳牧師夫婦離開普拉托，繼續他們其他的事工。我、于洪友及馮洁琳夫婦三人繼續在普拉托的工作。2010年八月初，上帝差派烏特勒生命堂的丁業新弟兄來協助我們一個月。而普拉托生命堂就在八月的第一個主日，八月八日正式於Piazza San Domenico成立，有五位會友參加第一次主日崇拜。十月底妻子舒祺來普拉托, 我們全家終於一起事奉；教會的人數很快地增長，平均主日的人數約有十人左右(不包括孩童) 。
-</p>
-<p>2010年成立 一年，普拉托生命堂聚會的人數平均已有十五人了。感謝主，藉著普拉托生命堂已帶領超過一百人接受基督的福音了。
-</p>
-<p>過去兩年中，許多人忠心地為普拉托宣教事工禱告。不論是國際福音神學院的學生和同工每天早晨的跪地禱告、海牙生命堂青年團契和同工的禱告，以及知道宣教教會重要，而自動地為我們的代禱，都震動了上帝大能的手。謝謝大家的代禱，也請弟兄姐妹們繼續為普拉托生命堂有更豐盛的福音收穫禱告！
-</p>
-<p>於是對門徒說：要收的莊稼多，做工的人少。所以，你們當求莊稼的主打發工人出去收他的莊稼。 (馬太福音九章37-38)
-</p>
-
-</div>
-')	where church_id = (select church_id from church where church_path = 'prato')
-	and locale = 'zh'
-	and page_id = 'intro';
+----- 	</tbody>
+----- </table>
+----- <div style="margin-left: 20px">
+----- <table cellpadding="1px" cellspacing="0px">
+----- 	<tbody class="borderless-table">
+----- 		<tr>
+----- 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+----- 			<td class="label">Address:</td>
+----- 			<td>Piazza San Domenico 10, 59100, Prato (PO), Italy</td>
+----- 		</tr>
+----- 		<tr>
+----- 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+----- 			<td class="label">Tel#:</td>
+----- 			<td>39-057-4831203</td>
+----- 		</tr>
+----- 		<tr>
+----- 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+----- 			<td class="label">Email:</td>
+----- 			<td><a href="mailto:CEMCPrato@gmail.com">CEMCPrato@gmail.com</a></td>
+----- 		</tr>
+----- 	</tbody>
+----- </table>
+----- </div>
+----- </div>
+----- <hr align="center" size="1" width="100%" />
+----- </div>
+----- <div class="main-content">
+----- <p>
+----- <span class="label">Established Date: </span>August 8, 2010
+----- </p>
+----- <p>
+----- <a href="/emsi/gallery/?g2_itemId=119"><img src="/emsi/files/prato_small_0.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /></a>
+----- </p>
+----- <p>
+----- Praise the almighty Lord for leading CEC Prato through it’s first year. On the 7th of August 2011 CEC Prato celebrated her first anniversary. Thank God for guidance and blessing of the past year.
+----- <p>
+----- On the 5th of July of 2010, the EMSI Short Term Mission (STM) team was sent from Holland to Prato. The team was led by Rev. Hugo Chan and Erna shimu and its team members were HongYou Yu and JieLin Feng, a young couple from CEC Groningen, and Yen Chow Chan, an EBI Bible student in Towaco. The goals for STM were to evangelize Chinese people, and to rent a place for Sunday worship services and accommodation for Yen Chow Chan. The STM team prayed for these two locations. If God wants EMSI to start a church in Prato, the team should find the locations within two or three months.
+----- </p>
+----- <p>
+----- Thanks God for leading Rev. Hugo Chan and Erna shimu to a broker who can speak English. The broker had helped to find a accommodation for Yen Chow Chan. Later God led Rev. Chan and Yen Chow to Piazza San Domenico 10. With the help of the broker communication with the owner was possible. It all happened in the first week that the STM team was in Prato; our faith in God was strengthened. The will of God was clear; He wanted a CEC church in Prato. In August 2010, Brother Martin Ding from CEC Utrecht came to assist Yen Chow Chan for one month. On the 8th of August CEC Prato was established, the first Sunday worship service was attended by five persons. At the end of October Yen Chow&#39s wife Shuqi Hu came over from China, the family was reunited and served together in CEC Prato. The number of people being saved increased rapidly. In the second quarter of 2011 the average attending the Sunday worship service had increased to 15 persons. Praise the merciful God for saving more than hundreds of souls through CEC Prato past year.
+----- </p>
+----- <p>
+----- The work in the past first year was not possible if not a team of loyal prayers had moved God&#39s hand. Daily prayers on their knees from EBI Towaco&#39s Bible students and coworkers, CEC Den Haag&#39s youth fellowship and coworkers and those who know the importance of mission. Please keep on praying the harvest in Prato is plenteous.
+----- </p>
+----- <p>
+----- Then saith he unto his disciples, The harvest truly is plenteous, but the labourers are few; pray ye therefore the Lord of the harvest, that he will send forth labourers into his harvest. Matthew 9:37,38
+----- </p>
+----- </div>
+----- ' where church_id = (select church_id from church where church_path = 'prato')
+----- 	and locale = 'en'
+----- 	and page_id = 'intro';
 
 	
-	
-update church_content set body = STRINGDECODE('<p>
-<p>
-<b>Evangelist: </b>Ev. David Zhou
-</p>
-<p>
-<b>Address: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
-</p>
-<p>
-<b>Tel #: </b>39-057-4831203
-</p>
-<p>
-<b>Email: </b>CEMCPrato@gmail.com
-</p>
-<p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
-</p>
-')	where church_id = (select church_id from church where church_path = 'prato')
-	and locale = 'en'
-	and page_id = 'contactus';
-	
-	
-	
-update church_content set body = STRINGDECODE('<p>
-<p>
-<b>傳道:</b> 周長宇 傳道
-</p>
-<p>
-<b>地址: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
-</p>
-<p>
-<b>電話:</b> 39-057-4831203
-</p>
-<p>
-<b>電郵: </b>CEMCPrato@gmail.com
-</p>
+----- update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+----- font-family: Arial,helvetica,sans-serif,新細明體;}
+----- .contact-content td {font-size: 14px; padding: 2px; 3px;}
+----- td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+----- p span.label {font-weight: bold;}
+----- .main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+----- .borderless-table {border-width: 0px;}
+----- </style>\r\n<div class=\"contact-content\">
+----- <div style=\"color: #000000; font-size: small\">
+----- <table cellpadding=\"0\" cellspacing=\"0\">
+----- 	<tbody class=\"borderless-table\">
+----- 		<tr>
+----- 			<td class="label">傳道:</td>
+----- 			<td>周長宇 傳道 , (手機) 39-057-4831203</td>
+----- 		</tr>
 
-<p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
-</p>
-')	where church_id = (select church_id from church where church_path = 'prato')
-	and locale = 'zh'
-	and page_id = 'contactus';
+----- 	</tbody>
+----- </table>
+----- <br /><div style=\"margin-left: 20px\">
+----- <table cellpadding=\"1\" cellspacing=\"0\">
+----- 	<tbody class=\"borderless-table\">
+----- 		<tr>
+----- 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+----- 			<td class=\"label\">地址:</td>
+----- 			<td> Piazza San Domenico 10, 59100, Prato (PO), Italy</td>
+----- 		</tr>
+----- 		<tr>
+----- 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+----- 			<td class=\"label\">電話:</td>
+----- 			<td> 39-057-4831203 </td>
+----- 		</tr>
+----- 		<tr>
+----- 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+----- 			<td class=\"label\">電郵:</td>
+----- 			<td><a href=\"mailto: CEMCPrato@gmail.com"> CEMCPrato@gmail.com</a></td>
+----- 		</tr>
+----- 	</tbody>
+----- </table>
+----- </div>
+----- </div>
+----- <hr align=\"center\" size=\"1\" width=\"100%\" />
+----- </div>
+----- <div class=\"main-content\">
+----- <p>
+----- <b>成立日期:</b> 2010年 8月 8日
+----- </p>
+----- <p>
+----- <span class=\"label\">簡史: </span><br />
+----- <img hspace=\"5\" src=\"/emsi/files/prato_small_0.jpg\" align=\"left\" height=\"255\" width=\"360\" />讚美全能的上帝帶領義大利普拉托生命堂走過了兩年。2011年八月7日普拉托生命堂慶祝成立週年，感謝上帝在過去一年的引領及賜福！
+----- </p>
+----- <p>2010年初，陳啟猷牧師夫婦發現義大利普拉托有很多華人。於是，2010年七月5日，國際福音佈道會差派短宣隊由陳啟猷牧師及師母帶領，從荷蘭到義大利普拉托。隊員包括荷蘭高寧根生命堂的于洪友、馮洁琳一對年輕的夫婦及我。
+----- </p>
+----- <p>短宣隊主要的目的是向華人傳福音, 同時尋找主日聚會的場地及傳道人的住處。短宣隊的禱告是，如果上帝要國際神學福音佈道會在普拉托成立生命堂，那麼短宣隊就應該會在兩到三個月內找到這兩個場地。
+----- </p>
+----- <p>感謝上帝帶領，陳牧師夫婦很快地就遇見一位能說英文的房屋仲介，這位仲介很快地就幫我找到了住所，並在Piazza San Domenico找到一間可為教會所用的地方。這些事都是在短宣隊到達普拉托的第一個星期發生。感謝主，事情有了進展，因此我們更有信心向前，也看見上帝的旨意相當清楚了。
+----- </p>
+----- <p>一個星期後，陳牧師夫婦離開普拉托，繼續他們其他的事工。我、于洪友及馮洁琳夫婦三人繼續在普拉托的工作。2010年八月初，上帝差派烏特勒生命堂的丁業新弟兄來協助我們一個月。而普拉托生命堂就在八月的第一個主日，八月八日正式於Piazza San Domenico成立，有五位會友參加第一次主日崇拜。十月底妻子舒祺來普拉托, 我們全家終於一起事奉；教會的人數很快地增長，平均主日的人數約有十人左右(不包括孩童) 。
+----- </p>
+----- <p>2010年成立 一年，普拉托生命堂聚會的人數平均已有十五人了。感謝主，藉著普拉托生命堂已帶領超過一百人接受基督的福音了。
+----- </p>
+----- <p>過去兩年中，許多人忠心地為普拉托宣教事工禱告。不論是國際福音神學院的學生和同工每天早晨的跪地禱告、海牙生命堂青年團契和同工的禱告，以及知道宣教教會重要，而自動地為我們的代禱，都震動了上帝大能的手。謝謝大家的代禱，也請弟兄姐妹們繼續為普拉托生命堂有更豐盛的福音收穫禱告！
+----- </p>
+----- <p>於是對門徒說：要收的莊稼多，做工的人少。所以，你們當求莊稼的主打發工人出去收他的莊稼。 (馬太福音九章37-38)
+----- </p>
+
+----- </div>
+----- ')	where church_id = (select church_id from church where church_path = 'prato')
+----- 	and locale = 'zh'
+----- 	and page_id = 'intro';
+
 	
 	
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(43, 'schedule', 'en', 'CEC in Prato - Church Services Schedule', STRINGDECODE('
-<table  border="1">
-	<tbody>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Sunday Worship</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">3:30 pm – 5:30 pm</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Bible Study</td>
-			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
-			<td style="padding: 0px 10px 0px 10px">3:30 pm – 5:30 pm</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Church Opening Hours</td>
-			<td style="padding: 0px 10px 0px 10px">Tuesday, Friday</td>
-			<td style="padding: 0px 10px 0px 10px">1:00 pm – 6:00 pm</td>
-		</tr>
-	</tbody>
-</table>
+----- update church_content set body = STRINGDECODE('<p>
+----- <p>
+----- <b>Evangelist: </b>Ev. David Zhou
+----- </p>
+----- <p>
+----- <b>Address: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
+----- </p>
+----- <p>
+----- <b>Tel #: </b>39-057-4831203
+----- </p>
+----- <p>
+----- <b>Email: </b>CEMCPrato@gmail.com
+----- </p>
+----- <p>
+----- <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+----- </p>
+----- ')	where church_id = (select church_id from church where church_path = 'prato')
+----- 	and locale = 'en'
+----- 	and page_id = 'contactus';
+	
+	
+	
+-----  church_content set body = STRINGDECODE('<p>
+----- <p>
+----- <b>傳道:</b> 周長宇 傳道
+----- </p>
+----- <p>
+----- <b>地址: </b>Piazza San Domenico 10, 59100, Prato (PO), Italy
+----- </p>
+----- <p>
+----- <b>電話:</b> 39-057-4831203
+----- </p>
+----- <p>
+----- <b>電郵: </b>CEMCPrato@gmail.com
+----- </p>
 
-<br/>
-'));
-
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(43, 'schedule', 'zh', '普拉托基督教生命堂 - 聚會日程', STRINGDECODE('
-<table  border="1">
-	<tbody>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">主日崇拜</td>
-			<td style="padding: 0px 10px 0px 10px">星期日下午</td>
-			<td style="padding: 0px 10px 0px 10px">3:30 pm - 5:30 pm</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">查經</td>
-			<td style="padding: 0px 10px 0px 10px">星期三下午</td>
-			<td style="padding: 0px 10px 0px 10px">3:30 pm - 5:30 pm</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">教堂開放</td>
-			<td style="padding: 0px 10px 0px 10px">星期二、 星期五 下午</td>
-			<td style="padding: 0px 10px 0px 10px">1:00 pm - 6:00 pm</td>
-		</tr>
-	</tbody>
-</table>
-
-<br/>
-'));
+----- <p>
+----- <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+----- </p>
+----- ')	where church_id = (select church_id from church where church_path = 'prato')
+----- 	and locale = 'zh'
+----- 	and page_id = 'contactus';
+	
+	
 
 
 -----------------ends Italy - prato
@@ -9642,7 +9595,7 @@ p span.label {font-weight: bold;}
 <p><span class="label">Established Date: </span>January 2015</p>
 
 <p>
-In 2010, a couple who loved the Lord came to visit Rev. Mix Chan. The wife was a Ph.D. student at the University of Leuven, who was about to graduate and would go back to Hong Kong. They were leading a student fellowship group and hoped that Rev. Chan would take over their responsibility. However, Rev. Chan and his wife were serving three CEC congregations already and had no more time to take over the fellowship. So he declined their request.
+<img hspace="5" src="/emsi/images/Church_Leuven_2018.png" align="left" height="255" width="360" />In 2010, a couple who loved the Lord came to visit Rev. Mix Chan. The wife was a Ph.D. student at the University of Leuven, who was about to graduate and would go back to Hong Kong. They were leading a student fellowship group and hoped that Rev. Chan would take over their responsibility. However, Rev. Chan and his wife were serving three CEC congregations already and had no more time to take over the fellowship. So he declined their request.
 
 </p>
 <p>
@@ -9721,7 +9674,7 @@ p span.label {font-weight: bold;}
 <p>
 <span class=\"label\">簡史: </span><br />
 <p>
-2010年的某日，有一對愛主的夫妻來找陳茂祥牧師，太太是魯汶大學的博士生，因他們快要畢業回香港，但當時他們正帶領著魯汶一個學生團契，希望陳牧師能接替繼續他們的工作，無奈當時已成立了三間生命堂，陳牧師實在無暇關顧更多的事工，所以只好回絕了。</p>
+<img hspace="5" src="/emsi/images/Church_Leuven_2018.png" align="left" height="255" width="360" />2010年的某日，有一對愛主的夫妻來找陳茂祥牧師，太太是魯汶大學的博士生，因他們快要畢業回香港，但當時他們正帶領著魯汶一個學生團契，希望陳牧師能接替繼續他們的工作，無奈當時已成立了三間生命堂，陳牧師實在無暇關顧更多的事工，所以只好回絕了。</p>
 <p>
 但在後來的日子裡，陳牧師夫婦也帶了一些居住魯汶的華人家庭信主，他們每週從老遠的地方前來安慰城生命堂參加聚會，崇拜後為了趕著回去開店，常開車超速被開罰單。牧者深深地被感動，故此經常為魯汶禱告，盼望有一天能在那邊建立教會。</p>
 <p>
