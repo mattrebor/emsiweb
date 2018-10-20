@@ -2457,12 +2457,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">牧者:</td>
-			<td>蔣國經 傳道, (手機)0034-687-58-7688</td>
-		</tr>
-		<tr>
-			<td class="label">  </td>
-			<td>陳敏 傳道, (手機)0034-651-52-1292</td>
+			<td class="label">傳道:</td>
+			<td>王艷華 傳道, +34-69-827-2704</td>
 		</tr>
 	</tbody>
 </table>
@@ -2479,7 +2475,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 			<td class="label">電話:</td>
-			<td>0034-930-044-152</td>
+			<td>+34-93-141-8700</td>
 		</tr>
 		<tr>
 			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -2524,11 +2520,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Guo Jing Jiang, (C)0034-687-58-7688</td>
-		</tr>
-		<tr>
-			<td class="label">          </td>
-			<td>Ev. Min Chen, (C)0034-651-52-1292</td>
+			<td>Ev. Esther Wang, +34-69-827-2704</td>
 		</tr>
 	</tbody>
 </table>
@@ -2544,7 +2536,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0034-930-044-152</td>
+			<td>+34-93-141-8700</td>
 		</tr>
 		<tr>
 			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -2631,16 +2623,13 @@ update church_content set body = '<table border="1" cellpadding="5">
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Guo Jing Jiang, (C)0034-687-58-7688
-</p>
-<p>
-<b>Evangelist: </b>Ev. Min Chen, (C)0034-651-52-1292
+<b>Evangelist: </b>Ev. Esther Wang, (C)+34-69-827-2704
 </p>
 <p>
 <b>Address: </b>Calle D&rsquo;Olzinelles 91 ,08014 ,Barcelona, Spain
 </p>
 <p>
-<b>Tel #: </b>0034-930-044-152
+<b>Tel #: </b>+34-93-141-8700
 </p>
 <p>
 <b>Email: </b>barcelonaemsi2015@hotmail.com
@@ -2656,16 +2645,13 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧者: </b>蔣國經 傳道, (手機)0034-687-58-7688
-</p>
-<p>
-<b>牧者: </b>陳敏 傳道, (手機)0034-651-52-1292
+<b>傳道: </b>王艷華傳道, (手機)+34-69-827-2704
 </p>
 <p>
 <b>地址: </b>Calle D&rsquo;Olzinelles 91 ,08014 ,Barcelona, Spain
 </p>
 <p>
-<b>電話: </b>0034-930-044-152
+<b>電話: </b>+34-93-141-8700
 </p>
 <p>
 <b>電郵: </b>barcelonaemsi2015@hotmail.com
@@ -6949,11 +6935,11 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Senior Pastor:</td>
-			<td>Rev. Yong Chung Ye, +34-618- 618- 993</td>
+			<td>Rev. Yong Chung Ye, +34-618-618-993</td>
 		</tr>
 		<tr>
-			<td class="label">Assistant Evangelist:</td>
-			<td>Ev. Na Li, +34-640- 292- 666</td>
+			<td class="label">Evangelist:</td>
+			<td>Ev. David Zhou, +34-64-029-2666</td>
 		</tr>
 	</tbody>
 </table>
@@ -7008,11 +6994,11 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">主任牧師:</td>
-			<td>葉永春 牧師, +34-618- 618- 993</td>
+			<td>葉永春 牧師, +34-618-618-993</td>
 		</tr>
 		<tr>
-			<td class=\"label\">駐堂助理傳道:</td>
-			<td>李娜 傳道, +34-640- 292- 666</td>
+			<td class=\"label\">傳道:</td>
+			<td>周長宇 傳道, +34-64-029-2666</td>
 		</tr>
 	</tbody>
 </table>
@@ -7061,10 +7047,10 @@ p span.label {font-weight: bold;}
 update church_content set body = STRINGDECODE('<p>
 <p>
 <p>
-<b>Senior Pastor: </b>Rev. Yong Chung Ye, +34-618- 618- 993
+<b>Senior Pastor: </b>Rev. Yong Chung Ye, +34-618-618-993
 </p>
 <p>
-<b>Assistant Evangelist: </b>Ev. Na Li, +34-640- 292- 666
+<b>Evangelist: </b>Ev. David Zhou, +34-64-029-2666
 </p>
 <p>
 <b>Address: </b>Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain
@@ -7085,10 +7071,10 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>主任牧師:</b> 葉永春 牧師, +34-618- 618- 993
+<b>主任牧師:</b> 葉永春 牧師, +34-618-618-993
 </p>
 <p>
-<b>駐堂助理傳道:</b> 李娜 傳道, +34-640- 292- 666
+<b>傳道:</b> 周長宇 傳道, +34-64-029-2666
 </p>
 <p>
 <b>地址: </b>Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain
