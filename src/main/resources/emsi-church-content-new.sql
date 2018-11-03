@@ -6617,7 +6617,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>April 1985
 </p>                                  
 <p>
-<img src="/emsi/files/amsterdam/amsterdam.jpg" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />CEC in Amsterdam (The Holland Capital church) was founded in 1990 by CEC in Europe. It is located in the capital of Holland, Amsterdam. Previously, it was a fellowship of young men, which was set up on October 27, 1984 in Amsterdam
+<img src="/emsi/images/Church_Amsterdam10_2018.png" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />CEC in Amsterdam (The Holland Capital church) was founded in 1990 by CEC in Europe. It is located in the capital of Holland, Amsterdam. Previously, it was a fellowship of young men, which was set up on October 27, 1984 in Amsterdam
 </p>
 
 </div>
@@ -6673,7 +6673,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace="5" src="/emsi/files/amsterdam/amsterdam.jpg\" alt=\"CEC in Amsterdam\" align=\"left\" height=\"255\" width=\"360\" />一九八四年前的幾屆青年福音營都有來自荷京地區的青年人参加，後因不易跟進而多有流失。八四年夏令營後，當時在烏特勒教會牧會的黄良明傳道願意負起開拓荷京青年福音工作，每周六早前往該市帶領青年團契。他們在Stadhouderskade租了一個聾啞中心的地方作聚會之用，又有來自其他三個生命堂的青年弟兄姐妹前來協助，很快聚會的人數有顯著的加增。
+<img hspace="5" src="/emsi/images/Church_Amsterdam10_2018.png\" alt=\"CEC in Amsterdam\" align=\"left\" height=\"255\" width=\"360\" />一九八四年前的幾屆青年福音營都有來自荷京地區的青年人参加，後因不易跟進而多有流失。八四年夏令營後，當時在烏特勒教會牧會的黄良明傳道願意負起開拓荷京青年福音工作，每周六早前往該市帶領青年團契。他們在Stadhouderskade租了一個聾啞中心的地方作聚會之用，又有來自其他三個生命堂的青年弟兄姐妹前來協助，很快聚會的人數有顯著的加增。
 </p>
 <p>
 八五年初，佈道會派譚俊德傳道負責建立教會的工作。同年四月份楊摩西牧師來荷巡迴佈道，並主領荷京生命堂的第一個主日崇拜。
