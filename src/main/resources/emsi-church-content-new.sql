@@ -1337,14 +1337,6 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Lingkin Lui (C) 917-753-7787</td>
-		</tr>
-		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Yongsheng Zhang (C) 646-462-6116</td>
-		</tr>
-		<tr>
-			<td class="label">Evangelist:</td>
 			<td>Ev. Jonathan Poon, 973-335-7337 ext. 203, (C) 973-979-1950</td>
 		</tr>
 	</tbody>
@@ -1366,7 +1358,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img height="16" src="/emsi/images/icon_email.gif" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:chinatown@emsionline.org">chinatown@emsionline.org</a></td>
+			<td><a href="mailto:cec248@emsionline.org">cec248@emsionline.org</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1411,14 +1403,6 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class="label">傳道:</td>
-			<td>呂嶺乾 傳道, (手機)917-753-7787</td>
-		</tr>
-		<tr>
-			<td class="label">傳道:</td>
-			<td>張勇生 傳道, (手機)646-462-6116</td>
-		</tr>
-		<tr>
-			<td class="label">傳道:</td>
 			<td>潘逸豪 傳道, 973-335-7337 ext. 203, (手機) 973-979-1950</td>
 		</tr>
 	</tbody>
@@ -1441,7 +1425,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img height="16" src="/emsi/images/icon_email.gif" width="16" /></td>
 			<td class="label">電郵:</td>
-			<td><a href="mailto:chinatown@emsionline.org">chinatown@emsionline.org</a></td>
+			<td><a href="mailto:cec248@emsionline.org">cec248@emsionline.org</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2573,12 +2557,12 @@ update church_content set body = '<table border="1" cellpadding="5">
 		<tr>
 			<td>Sunday Worship</td>
 			<td>Sunday</td>
-			<td>5:30 - 6:45 pm</td>
+			<td>5:30 pm</td>
 		</tr>
 		<tr>
 			<td>Bible Study </td>
-			<td>Thursday</td>
-			<td>5:30 - 7:00 pm</td>
+			<td>Sunday</td>
+			<td>7:30 pm</td>
 		</tr>
 		<tr>
 			<td>Fellowship </td>
@@ -2599,12 +2583,12 @@ update church_content set body = '<table border="1" cellpadding="5">
 		<tr>
 			<td>主日崇拜</td>
 			<td>星期日下午</td>
-			<td>5:30 - 6:45 pm</td>
+			<td>5:30 pm</td>
 		</tr>
 		<tr>
 			<td>查經禱告會</td>
-			<td>星期四下午</td>
-			<td>5:30 - 7:00 pm</td>
+			<td>星期日晚</td>
+			<td>7:30 pm</td>
 		</tr>
 		<tr>
 			<td>團契活動 </td>
@@ -2648,7 +2632,9 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道: </b>王艷華傳道, (手機)+34-69-827-2704
 </p>
 <p>
-<b>地址: </b>Calle D&rsquo;Olzinelles 91 ,08014 ,Barcelona, Spain
+<b>地址: </b>Calle D&rsquo;Olzinelles 91 ,08014 ,Barcelona, Spain<br>
+地鐵: 5 線、1 線 Plaza de Sants 站</br>
+公車: 91 路、V5
 </p>
 <p>
 <b>電話: </b>+34-93-141-8700
@@ -7341,7 +7327,7 @@ p span.label {font-weight: bold;}
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
 			<td>(North) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(South) Av. De Galdar, 10f, Local 21, 35100 Maspalomas, de Gran Canaria, Spain</td>
+			(South) Av. De Galdar, 10f, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -7407,7 +7393,7 @@ p span.label {font-weight: bold;}
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
 			<td>(北) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(南) Av. De Galdar, 10f, Local 21, 35100 Maspalomas, de Gran Canaria, Spain</td>
+			(南) Av. De Galdar, 10f, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -7456,7 +7442,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>Address: </b>(North) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(South) Av. De Galdar, 10f, Local 21, 35100 Maspalomas, de Gran Canaria, Spain
+			(South) Av. De Galdar, 10f, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain
 </p>
 <p>
 <b>Tel #: </b>628-667-879, 654-852-708
@@ -7489,7 +7475,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>地址: </b>(北) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(南) Av. De Galdar, 10f, Local 21, 35100 Maspalomas, de Gran Canaria, Spain
+			(南) Av. De Galdar, 10f, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain
 </p>
 <p>
 <b>電話:</b> 628-667-879, 654-852-708
