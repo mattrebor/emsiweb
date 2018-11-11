@@ -7327,7 +7327,7 @@ p span.label {font-weight: bold;}
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
 			<td>(North) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(South) Av. De Galdar, 10f, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain</td>
+			(South) Av. De Galdar, 10f, Local 6, 35100 Maspalomas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -7393,7 +7393,7 @@ p span.label {font-weight: bold;}
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
 			<td>(北) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(南) Av. De Galdar, 10f, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain</td>
+			(南) Av. De Galdar, 10f, Local 6, 35100 Maspalomas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -7442,7 +7442,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>Address: </b>(North) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(South) Av. De Galdar, 10f, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain
+			(South) Av. De Galdar, 10f, Local 6, 35100 Maspalomas, de Gran Canaria, Spain
 </p>
 <p>
 <b>Tel #: </b>628-667-879, 654-852-708
@@ -7459,7 +7459,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>Address: </b>(South)</br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1765.1999677417473!2d-15.575821842293736!3d27.766648673935727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc3f62bcee9dd59d%3A0x1864f22c69625f0!2sAv.+de+Galdar%2C+10%2C+35100+San+Bartolom%C3%A9+de+Tirajana%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1536497887144" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624.092567471171!2d-15.574886980977986!3d27.76662534271069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDQ2JzAxLjQiTiAxNcKwMzQnMzIuMiJX!5e0!3m2!1szh-CN!2ses!4v1541972676978" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'canaria')
 	and locale = 'en'
@@ -7475,7 +7475,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>地址: </b>(北) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(南) Av. De Galdar, 10f, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain
+			(南) Av. De Galdar, 10f, Local 6, 35100 Maspalomas, de Gran Canaria, Spain
 </p>
 <p>
 <b>電話:</b> 628-667-879, 654-852-708
@@ -7493,11 +7493,12 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>地址: </b>(南)</br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1765.1999677417473!2d-15.575821842293736!3d27.766648673935727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc3f62bcee9dd59d%3A0x1864f22c69625f0!2sAv.+de+Galdar%2C+10%2C+35100+San+Bartolom%C3%A9+de+Tirajana%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1536497887144" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624.092567471171!2d-15.574886980977986!3d27.76662534271069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDQ2JzAxLjQiTiAxNcKwMzQnMzIuMiJX!5e0!3m2!1szh-CN!2ses!4v1541972676978" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'canaria')
 	and locale = 'zh'
 	and page_id = 'contactus';
+---<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1765.1999677417473!2d-15.575821842293736!3d27.766648673935727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc3f62bcee9dd59d%3A0x1864f22c69625f0!2sAv.+de+Galdar%2C+10%2C+35100+San+Bartolom%C3%A9+de+Tirajana%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1536497887144" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 		
 ---------ends Spain - Gran Canaria
 
