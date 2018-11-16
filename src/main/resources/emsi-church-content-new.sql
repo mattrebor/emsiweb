@@ -7156,7 +7156,11 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Ruo Shu Chen, +34-618 521 400</td>
+			<td>Ev. Ruo Shu Chen, +34-618-521-400</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Na Li, +34-640-292-666</td>
 		</tr>
 	</tbody>
 </table>
@@ -7211,7 +7215,11 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>陳若抒 傳道, +34-618 521 400</td>
+			<td>陳若抒 傳道, +34-618-521-400</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>李娜 傳道, +34-640-292-666</td>
 		</tr>
 	</tbody>
 </table>
@@ -7258,7 +7266,10 @@ p span.label {font-weight: bold;}
 update church_content set body = STRINGDECODE('<p>
 <p>
 <p>
-<b>Evangelist: </b>Ruo Shu Chen, +34-618 521 400
+<b>Evangelist: </b>Ruo Shu Chen, +34-618-521-400
+</p>
+<p>
+<b>Evangelist: </b>Na Li, +34-640-292-666
 </p>
 <p>
 <b>Address: </b>C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain
@@ -7276,7 +7287,10 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 陳若抒 傳道, +34-618 521 400
+<b>傳道:</b> 陳若抒 傳道, +34-618-521-400
+</p>
+<p>
+<b>傳道:</b> 李娜 傳道, +34-640-292-666
 </p>
 <p>
 <b>地址: </b>C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain
@@ -7291,6 +7305,69 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'alicante')
 	and locale = 'zh'
 	and page_id = 'contactus';
+
+	
+	update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>Sunday Worship</td>
+			<td>Sunday</td>
+			<td>5:30 pm - 6:45 pm</td>
+		</tr>
+		<tr>
+			<td>Children Sunday School</td>
+			<td>Sunday</td>
+			<td>5:30 pm - 6:45 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study</td>
+			<td>Wednesday</td>
+			<td>10:00 pm - 11:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Fellowship </td>
+			<td>Friday</td>
+			<td>5:30 pm - 6:30 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'alicante')
+	and locale = 'en'
+	and page_id = 'schedule';	
+	
+	
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>主日崇拜</td>
+			<td>星期日晚上</td>
+			<td>5:30 pm - 6:45 pm</td>
+		</tr>
+		<tr>
+			<td>兒童主日學</td>
+			<td>星期日晚上</td>
+			<td>5:30 pm - 6:45 pm</td>
+		</tr>
+		<tr>
+			<td>查經禱告會</td>
+			<td>星期三晚上</td>
+			<td>10:00 pm - 11:00 pm</td>
+		</tr>
+		<tr>
+			<td>青少年團契 </td>
+			<td>星期五晚上</td>
+			<td>5:30 pm - 6:30 pm</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'alicante')
+	and locale = 'zh'
+	and page_id = 'schedule';	
 
 ----------  ends spain - Alicante	
 	
@@ -7311,7 +7388,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelists:</td>
-			<td>Ev. Huan Jin, 628-667-879</td>
+			<td>Ev. Jin Fang Huan, 628-667-879</td>
 		</tr>
 		<tr>
 			<td class="label"></td>
@@ -7378,7 +7455,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>金歡 傳道, 628-667-879</td>
+			<td>黃金歡 傳道, 628-667-879</td>
 		</tr>
 		<tr>
 			<td class=\"label\"></td>
@@ -7435,7 +7512,7 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Huan Jin, 628-667-879
+<b>Evangelist: </b>Ev. Jin Fang Huan, 628-667-879
 </p>
 <p>
 <b>Evangelist: </b>Ev. Lin Tao Wu, 654-852-708
@@ -7468,7 +7545,7 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 金歡 傳道, 628-667-879
+<b>傳道:</b> 黃金歡 傳道, 628-667-879
 </p>
 <p>
 <b>傳道:</b> 吳林濤 傳道, 654-852-708
