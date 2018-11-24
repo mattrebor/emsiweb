@@ -41,7 +41,7 @@ update church set address='Isingstraat 165A, 2522 JS The Hague, The Netherlands'
 update church set address='Marokkodreef 3, 3564 EV Utrecht, The Netherlands', latitude = 52.1215477, longitude = 5.1067358 where church_path = 'utrecht';
 update church set address='Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands', latitude = 52.3505629, longitude = 4.841578 where church_path = 'amsterdam';
 update church set address='Esdoornstraat 25, 8021 WB Zwolle, The Netherlands', latitude = 52.521532, longitude = 6.0963997 where church_path = 'zwolle';
-update church set address='Teteringsedijk 89C, 4817 MB Breda, The Netherlands', latitude = 51.5941052, longitude = 4.7962561 where church_path = 'breda';
+update church set address='Goeseelsstraat 30, 4817 MV Breda, The Netherlands', latitude = 51.595722, longitude = 4.796017 where church_path = 'breda';
 update church set address='Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherlands', latitude = 51.502719, longitude = 4.282703  where church_path = 'bergenopzoom';
 update church set address='Calle Carolinas, 10, 28039 Madrid, Spain', latitude = 40.4512378, longitude = -3.7048897 where church_path = 'madrid';
 update church set address='C/ Cura Femenia, 1, 46006 Valencia, Spain', latitude = 39.4619848, longitude = -0.3717682 where church_path = 'valencia';
@@ -6521,7 +6521,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>Teteringsedijk 89C, 4817 MB Breda, The Netherlands</td>
+			<td>Goeseelsstraat 30, 4817 MV Breda, The Netherlands</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -6544,13 +6544,115 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>September 1999
 </p>
 <p>
-<img src="/emsi/files/BredaSmallD.jpg" align="left" width="360" height="255" hspace="5"/>
+<img src="/emsi/images/Church_Breda_11_6_18.jpg" align="left" width="360" height="255" hspace="5"/>
 </p><p>On July of 1997, Rev. Moses Yang led several seminary students and co-workers from the North American CEM Headquarters to the Netherlands for a short term mission''s trip. The trip included a three days visitation to families and one night evangelical meeting. The Holy Spirit worked wonders and moved those who were visited and those attended the meeting. They either accepted Christ or were revived. With the encouragement of Rev. Yang,  CEC in Rotterdam offered to send evangelist Tang Kam Fung, and Mr. and Mrs. Kan Yun Tat, to assist Rev. Chan to develop the evangelical work in Breda. The Lord also moved Mr. and Mrs Lim Wuchiang to offer their restaurant as a place for worship. Some of the brothers and sisters from Breda in CEC in Rotterdam also followed to serve. In September, the CEC in Breda began to have Sunday worship and Sunday School.
 </p>
 </div>
 '	where church_id = (select church_id from church where church_path = 'breda')
 	and locale = 'en'
 	and page_id = 'intro';
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>趙麗娟 傳道</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Goeseelsstraat 30, 4817 MV Breda, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 31-76-532-3351 / 31-62-454-2277 </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:emsibreda@gmail.com">emsibreda@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<b>成立日期:</b> 1999年 9月
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace="5" src="/emsi/images/Church_Breda_11_6_18.jpg\" alt=\"CEC in Amsterdam\" align=\"left\" height=\"255\" width=\"360\" />一九八四年前的幾屆青年福音營都有來自荷京地區的青年人参加，後因不易跟進而多有流失。八四年夏令營後，當時在烏特勒教會牧會的黄良明傳道願意負起開拓荷京青年福音工作，每周六早前往該市帶領青年團契。他們在Stadhouderskade租了一個聾啞中心的地方作聚會之用，又有來自其他三個生命堂的青年弟兄姐妹前來協助，很快聚會的人數有顯著的加增。
+</p>
+<p>
+一九九七年七月北美總會監督楊摩西牧師率領總院神學生及同工來荷短宣，其中包括三天在百利達逐户探訪及一晚的佈道會。聖靈大大動工，被訪和赴會的僑胞決志信主和得復興的有廿多位。在楊牧師的鼓勵下，鹿特丹堂願意派出簡潤達義務傳道夫婦及鄧金鳳姐妹協助陳牧師開拓該市的福音工作。主又感動林武强弟兄夫婦借出他們的餐館作為聚會之用。一些参加鹿特丹堂聚會的百利達地區的弟兄姐妹也隨即参與事奉。同年九月百利達生命堂便開始主日崇拜和主日學。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'breda')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Linda Chiu
+</p>
+<p>
+<b>Address: </b>Goeseelsstraat 30, 4817 MV Breda, The Netherlands
+</p>
+<p>
+<b>Tel #: </b>31-76-532-3351 / 31-62-454-2277
+</p>
+<p>
+<b>Email: </b>emsibreda@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2478.509885509949!2d4.793812450672952!3d51.59554541197667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c69f7a87da0f09%3A0x15d08bdcb8b07160!2sGoeseelsstraat+30%2C+4817+MV+Breda%2C+Netherlands!5e0!3m2!1sen!2sus!4v1543090156690" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'breda')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 趙麗娟 傳道
+</p>
+<p>
+<b>地址: </b>Goeseelsstraat 30, 4817 MV Breda, The Netherlands
+</p>
+<p>
+<b>電話:</b> 31-76-532-3351 / 31-62-454-2277
+</p>
+<p>
+<b>電郵: </b>emsibreda@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2478.509885509949!2d4.793812450672952!3d51.59554541197667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c69f7a87da0f09%3A0x15d08bdcb8b07160!2sGoeseelsstraat+30%2C+4817+MV+Breda%2C+Netherlands!5e0!3m2!1sen!2sus!4v1543090156690" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'breda')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
 
 ------------ Ends breda --------
 
@@ -6920,10 +7022,6 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 <table cellPadding="0" cellSpacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Senior Pastor:</td>
-			<td>Rev. Yong Chung Ye, +34-618-618-993</td>
-		</tr>
-		<tr>
 			<td class="label">Evangelist:</td>
 			<td>Ev. David Zhou, +34-64-029-2666</td>
 		</tr>
@@ -6959,7 +7057,7 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 </p>
 <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
 <p>
-<img hspace="5" src="/emsi/files/cecbenidorm.jpg\" alt="CEC Benidorm" align="left" title="CEC Benidorm" height="270" width="360" />In April 1997, some new believers from Valencia went to Alicante to find jobs, because of their fervency for the Lord. They had influenced other people to have the desire for the gospel. On May 14, 1997, Ev. Joan Dan from the CEC in Valencia went to Atea to visit them. On that day, they established the Atea Bible Study group at the International Restaurant. The owner of the restaurant, Mr. & Mrs. Hu and another 4 people were baptized. Since May 21, Ev. Li and Ev. Ye continually went to Benidorm and the surrounding areas for visitation. In October, Rev. Hosea Chi served there for 2 months. On December 10, they had an evangelistic meeting led by Rev. Moses Yang and 5 members were baptized. On Christmas Day, they had a Christmas Service with 120 people. The CEC in Benidorm was formally established and pastured by Ev. Jian Wei Ye. From May, 1997 to April 2000, there are 49 people who are baptized. The average church attendance is 50-60 people. Aside from the Sunday Worship Service, there is one Bible Study group and a prayer meeting.
+<img hspace="5" src="/emsi/images/Church_Benidorm_11_20_18.jpg\" alt="CEC Benidorm" align="left" title="CEC Benidorm" height="270" width="360" />In April 1997, some new believers from Valencia went to Alicante to find jobs, because of their fervency for the Lord. They had influenced other people to have the desire for the gospel. On May 14, 1997, Ev. Joan Dan from the CEC in Valencia went to Atea to visit them. On that day, they established the Atea Bible Study group at the International Restaurant. The owner of the restaurant, Mr. & Mrs. Hu and another 4 people were baptized. Since May 21, Ev. Li and Ev. Ye continually went to Benidorm and the surrounding areas for visitation. In October, Rev. Hosea Chi served there for 2 months. On December 10, they had an evangelistic meeting led by Rev. Moses Yang and 5 members were baptized. On Christmas Day, they had a Christmas Service with 120 people. The CEC in Benidorm was formally established and pastured by Ev. Jian Wei Ye. From May, 1997 to April 2000, there are 49 people who are baptized. The average church attendance is 50-60 people. Aside from the Sunday Worship Service, there is one Bible Study group and a prayer meeting.
 </p>
 </div>
 ')	where church_id = (select church_id from church where church_path = 'benidorm')
@@ -6978,10 +7076,6 @@ p span.label {font-weight: bold;}
 <div style=\"color: #000000; font-size: small\">
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
-		<tr>
-			<td class=\"label\">主任牧師:</td>
-			<td>葉永春 牧師, +34-618-618-993</td>
-		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
 			<td>周長宇 傳道, +34-64-029-2666</td>
@@ -7018,7 +7112,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/cecbenidorm.jpg\" alt="CEC Benidorm" align="left" title="CEC Benidorm" height="270" width="360" />一九九七年四月間，瓦倫西亞生命堂初信受洗的劉永月弟兄及阮肖芬姐妹換工作，搬至愛麗甘地省(Alicante)，此地距瓦倫西亞車程約兩個小時，距馬德里則需六個多小時，他們非常熱心的帶起當地華人對福音的渴慕。佈道會派在瓦倫西亞生命堂短宣的但功濤傳道前往Atea城關懷，五月十四日在國際酒樓成立『愛得雅查經班』。當天有餐館老板胡永恒夫婦等六人受洗。隔週李傳道、葉傳道繼續探訪Alicante省Benidorm城、省會Alicante市和地中海沿岸諸城市</p>
+<img hspace=\"5\" src=\"/emsi/images/Church_Benidorm_11_20_18.jpg\" alt="CEC Benidorm" align="left" title="CEC Benidorm" height="270" width="360" />一九九七年四月間，瓦倫西亞生命堂初信受洗的劉永月弟兄及阮肖芬姐妹換工作，搬至愛麗甘地省(Alicante)，此地距瓦倫西亞車程約兩個小時，距馬德里則需六個多小時，他們非常熱心的帶起當地華人對福音的渴慕。佈道會派在瓦倫西亞生命堂短宣的但功濤傳道前往Atea城關懷，五月十四日在國際酒樓成立『愛得雅查經班』。當天有餐館老板胡永恒夫婦等六人受洗。隔週李傳道、葉傳道繼續探訪Alicante省Benidorm城、省會Alicante市和地中海沿岸諸城市</p>
 <p>六月廿六日，但傳道返美，十月戚傳道至瓦倫西亞生命堂，繼續努力的開發及耕耘愛麗甘地這片未得之地。十二月初，趁楊牧師帶師母至西班牙及葡萄牙旅遊；我們借得貝妮東當地教會，在十二月十日午夜舉辦一場佈道會，會中有五人受洗。該教會外籍牧師夫婦首次見到這麼多華人在深夜聚集聽道，很受感動，建議楊牧師切勿停頓如此聖工，所以我們決定在聖誕節晚上要辦一場晚會。在聖靈的催促與感動下，楊牧師授意要成立「貝妮東基督教生命堂」；並委任葉建偉弟兄為西班牙分會傳道。一九九七年十二月25日午夜，「貝妮東基督教生命堂」成立典禮暨聖誕晚會，在一百二十餘人的禱告讚美聲中揭幕。
 </p>
 
@@ -7032,9 +7126,6 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<p>
-<b>Senior Pastor: </b>Rev. Yong Chung Ye, +34-618-618-993
-</p>
 <p>
 <b>Evangelist: </b>Ev. David Zhou, +34-64-029-2666
 </p>
@@ -7056,9 +7147,6 @@ update church_content set body = STRINGDECODE('<p>
 	
 	
 update church_content set body = STRINGDECODE('<p>
-<p>
-<b>主任牧師:</b> 葉永春 牧師, +34-618-618-993
-</p>
 <p>
 <b>傳道:</b> 周長宇 傳道, +34-64-029-2666
 </p>
@@ -7322,7 +7410,7 @@ update church_content set body = STRINGDECODE('<p>
 		<tr>
 			<td>Bible Study</td>
 			<td>Wednesday</td>
-			<td>10:00 pm - 11:00 pm</td>
+			<td>10:00 am - 11:00 am</td>
 		</tr>
 		<tr>
 			<td>Youth Fellowship </td>
@@ -7352,8 +7440,8 @@ update church_content set body = '<table border="1" cellpadding="5">
 		</tr>
 		<tr>
 			<td>查經禱告會</td>
-			<td>星期三晚上</td>
-			<td>10:00 pm - 11:00 pm</td>
+			<td>星期三早晨</td>
+			<td>10:00 am - 11:00 am</td>
 		</tr>
 		<tr>
 			<td>青少年團契 </td>
