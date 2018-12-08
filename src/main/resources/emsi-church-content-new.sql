@@ -7041,6 +7041,11 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 			<td>34-965-868-911</td>
 		</tr>
 		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:cecbenidorm@gmail.com">cecbenidorm@gmail.com</a></td>
+		</tr>
+		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Fax#:</td>
 			<td>34-965-868-911</td>
@@ -7096,6 +7101,11 @@ p span.label {font-weight: bold;}
 			<td> 34-965-868-911 </td>
 		</tr>
 		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href="mailto:cecbenidorm@gmail.com">cecbenidorm@gmail.com</a></td>
+		</tr>
+		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">傳真:</td>
 			<td> 34-965-868-911 </td>
@@ -7136,6 +7146,9 @@ update church_content set body = STRINGDECODE('<p>
 <b>Tel #: </b>34-965-868-911
 </p>
 <p>
+<b>email: </b>cecbenidorm@gmail.com
+</p>
+<p>
 <b>Fax #: </b>34-965-868-911
 </p>
 <p>
@@ -7155,6 +7168,9 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>電話:</b> 34-965-868-911
+</p>
+<p>
+<b>電郵: </b>cecbenidorm@gmail.com
 </p>
 <p>
 <b>傳真:</b> 34-965-868-911
