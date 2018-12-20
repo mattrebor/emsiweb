@@ -47,7 +47,7 @@ update church set address='Calle Carolinas, 10, 28039 Madrid, Spain', latitude =
 update church set address='C/ Cura Femenia, 1, 46006 Valencia, Spain', latitude = 39.4619848, longitude = -0.3717682 where church_path = 'valencia';
 update church set address='Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante ', latitude = 38.54177, longitude = -0.122675 where church_path = 'benidorm';
 update church set address='C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain', latitude = 38.339698, longitude = -0.489878 where church_path = 'alicante'; 
-update church set address='Calle Presidente Alvear numero 7 Portal 2 local 2. 35006 Las Palmas, de Gran Canaria, Spain', latitude = 28.1340172, longitude = -15.4311568 where church_path = 'canaria';
+update church set address='Calle Presidente Alvear, 7, 35006 Las Palmas, de Gran Canaria, Spain', latitude = 28.134193, longitude = -15.430291 where church_path = 'canaria';
 update church set address='Calle Alguacil, 8, 28038 Madrid, Spain', latitude = 40.3960213, longitude = -3.6630519 where church_path = 'southmadrid';
 update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', latitude = 41.3709592, longitude = 2.1374551 where church_path = 'barcelona';
 update church set address='Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain', latitude = 40.2646057, longitude = -3.7542281 where church_path = 'fuenlabrada';
@@ -7508,7 +7508,7 @@ p span.label {font-weight: bold;}
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
 			<td>(North) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(South) Av. De Galdar, 10f, Local 6, 35100 Maspalomas, de Gran Canaria, Spain</td>
+			(South) Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -7574,7 +7574,7 @@ p span.label {font-weight: bold;}
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
 			<td>(北) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(南) Av. De Galdar, 10f, Local 6, 35100 Maspalomas, de Gran Canaria, Spain</td>
+			(南) Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -7623,7 +7623,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>Address: </b>(North) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(South) Av. De Galdar, 10f, Local 6, 35100 Maspalomas, de Gran Canaria, Spain
+			(South) Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain
 </p>
 <p>
 <b>Tel #: </b>628-667-879, 654-852-708
@@ -7656,7 +7656,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>地址: </b>(北) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(南) Av. De Galdar, 10f, Local 6, 35100 Maspalomas, de Gran Canaria, Spain
+			(南) Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain
 </p>
 <p>
 <b>電話:</b> 628-667-879, 654-852-708
