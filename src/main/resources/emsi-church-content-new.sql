@@ -7062,7 +7062,7 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 </p>
 <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
 <p>
-<img hspace="5" src="/emsi/images/Church_Benidorm_11_20_18.jpg\" alt="CEC Benidorm" align="left" title="CEC Benidorm" height="270" width="360" />In April 1997, some new believers from Valencia went to Alicante to find jobs, because of their fervency for the Lord. They had influenced other people to have the desire for the gospel. On May 14, 1997, Ev. Joan Dan from the CEC in Valencia went to Atea to visit them. On that day, they established the Atea Bible Study group at the International Restaurant. The owner of the restaurant, Mr. & Mrs. Hu and another 4 people were baptized. Since May 21, Ev. Li and Ev. Ye continually went to Benidorm and the surrounding areas for visitation. In October, Rev. Hosea Chi served there for 2 months. On December 10, they had an evangelistic meeting led by Rev. Moses Yang and 5 members were baptized. On Christmas Day, they had a Christmas Service with 120 people. The CEC in Benidorm was formally established and pastured by Ev. Jian Wei Ye. From May, 1997 to April 2000, there are 49 people who are baptized. The average church attendance is 50-60 people. Aside from the Sunday Worship Service, there is one Bible Study group and a prayer meeting.
+<img hspace="5" src="/emsi/images/Church_Benidorm12_21_18.jpg\" alt="CEC Benidorm" align="left" title="CEC Benidorm" height="270" width="360" />In April 1997, some new believers from Valencia went to Alicante to find jobs, because of their fervency for the Lord. They had influenced other people to have the desire for the gospel. On May 14, 1997, Ev. Joan Dan from the CEC in Valencia went to Atea to visit them. On that day, they established the Atea Bible Study group at the International Restaurant. The owner of the restaurant, Mr. & Mrs. Hu and another 4 people were baptized. Since May 21, Ev. Li and Ev. Ye continually went to Benidorm and the surrounding areas for visitation. In October, Rev. Hosea Chi served there for 2 months. On December 10, they had an evangelistic meeting led by Rev. Moses Yang and 5 members were baptized. On Christmas Day, they had a Christmas Service with 120 people. The CEC in Benidorm was formally established and pastured by Ev. Jian Wei Ye. From May, 1997 to April 2000, there are 49 people who are baptized. The average church attendance is 50-60 people. Aside from the Sunday Worship Service, there is one Bible Study group and a prayer meeting.
 </p>
 </div>
 ')	where church_id = (select church_id from church where church_path = 'benidorm')
@@ -7122,7 +7122,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/images/Church_Benidorm_11_20_18.jpg\" alt="CEC Benidorm" align="left" title="CEC Benidorm" height="270" width="360" />一九九七年四月間，瓦倫西亞生命堂初信受洗的劉永月弟兄及阮肖芬姐妹換工作，搬至愛麗甘地省(Alicante)，此地距瓦倫西亞車程約兩個小時，距馬德里則需六個多小時，他們非常熱心的帶起當地華人對福音的渴慕。佈道會派在瓦倫西亞生命堂短宣的但功濤傳道前往Atea城關懷，五月十四日在國際酒樓成立『愛得雅查經班』。當天有餐館老板胡永恒夫婦等六人受洗。隔週李傳道、葉傳道繼續探訪Alicante省Benidorm城、省會Alicante市和地中海沿岸諸城市</p>
+<img hspace=\"5\" src=\"/emsi/images/Church_Benidorm12_21_18.jpg\" alt="CEC Benidorm" align="left" title="CEC Benidorm" height="270" width="360" />一九九七年四月間，瓦倫西亞生命堂初信受洗的劉永月弟兄及阮肖芬姐妹換工作，搬至愛麗甘地省(Alicante)，此地距瓦倫西亞車程約兩個小時，距馬德里則需六個多小時，他們非常熱心的帶起當地華人對福音的渴慕。佈道會派在瓦倫西亞生命堂短宣的但功濤傳道前往Atea城關懷，五月十四日在國際酒樓成立『愛得雅查經班』。當天有餐館老板胡永恒夫婦等六人受洗。隔週李傳道、葉傳道繼續探訪Alicante省Benidorm城、省會Alicante市和地中海沿岸諸城市</p>
 <p>六月廿六日，但傳道返美，十月戚傳道至瓦倫西亞生命堂，繼續努力的開發及耕耘愛麗甘地這片未得之地。十二月初，趁楊牧師帶師母至西班牙及葡萄牙旅遊；我們借得貝妮東當地教會，在十二月十日午夜舉辦一場佈道會，會中有五人受洗。該教會外籍牧師夫婦首次見到這麼多華人在深夜聚集聽道，很受感動，建議楊牧師切勿停頓如此聖工，所以我們決定在聖誕節晚上要辦一場晚會。在聖靈的催促與感動下，楊牧師授意要成立「貝妮東基督教生命堂」；並委任葉建偉弟兄為西班牙分會傳道。一九九七年十二月25日午夜，「貝妮東基督教生命堂」成立典禮暨聖誕晚會，在一百二十餘人的禱告讚美聲中揭幕。
 </p>
 
@@ -7188,15 +7188,18 @@ update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
 			<td>Sunday Worship</td>
-			<td>Monday</td>
+			<td>Sunday</td>
 			<td>12:30 am</td>
-			<td>Every 2nd, 4th Week</td>
 		</tr>
 		<tr>
-			<td>Bible Study </td>
+			<td>Bible Study</td>
 			<td>Wednesday</td>
-			<td>11:00 pm</td>
-			<td>Weekly</td>
+			<td>10:00 pm - 11:30 pm</td>
+		</tr>
+		<tr>
+			<td>Music、Painting</td>
+			<td>Sunday</td>
+			<td>04:00 pm - 06:00 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -7213,13 +7216,16 @@ update church_content set body = '<table border="1" cellpadding="5">
 			<td>主日崇拜</td>
 			<td>星期日晚上</td>
 			<td>12:30 am</td>
-			<td>每月第二、第四週 </td>
 		</tr>
 		<tr>
-			<td>查經禱告會</td>
+			<td>查經</td>
 			<td>星期三晚上</td>
-			<td>11:00 pm</td>
-			<td>每週</td>
+			<td>10:00 pm - 11:30 pm</td>
+		</tr>
+		<tr>
+			<td>音樂、繪畫班</td>
+			<td>星期日下午</td>
+			<td>4 pm - 6 pm</td>
 		</tr>
 
 	</tbody>
