@@ -60,7 +60,7 @@ update church set address='Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Be
 update church set address='Rue du Fossé aux Loups 32, 1000 Brussels, Belgium', latitude = 50.8503111, longitude = 4.3546746 where church_path = 'brussels';
 update church set address='Ledebergplein 2, 9050 Ledeberg (Gent), Belgium', latitude = 51.0370008, longitude = 3.7411437 where church_path = 'gent';
 update church set address='Kobe-shi Chuo-ku Motomachi-dori 2-9-1 Shitsu [Room] 703, Japan', latitude = 34.688923, longitude = 135.186962 where church_path = 'kobe';
-update church set address='Alley 25, Lane 113, Section 3, Mínshēng East Road, Songshan District, Taipei City, Taiwan 105', latitude = 25.0593059, longitude = 121.547255 where church_path = 'taipei';
+--update church set address='Alley 25, Lane 113, Section 3, Mínshēng East Road, Songshan District, Taipei City, Taiwan 105', latitude = 25.0593059, longitude = 121.547255 where church_path = 'taipei';
 update church set address='71 Theal Street, Parow North 7500, South Africa', latitude = -33.883021, longitude = 18.583653where church_path = 'parownorth';
 update church set address='94 Campground Road, Cape Town 7700, South Africa', latitude = -33.965856, longitude = 18.474988 where church_path = 'capetown';
 
@@ -5396,263 +5396,168 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 -----------------starts Taiwan - taipei
 
 
-update church_content set body = '<style>
-.contact-content {font-family: Arial,helvetica,sans-serif;}
-.contact-content td {font-size: small; padding: 2px; 3px;}
-td.label {font-weight: bold; width: 1%; white-space: nowrap;}
-p span.label {font-weight: bold;}
-.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
-.borderless-table {border-width: 0px;}
-</style>
-<div class="contact-content">
-<div style="color: #000000; font-size: small">
-<table cellpadding="0px" cellspacing="0px">
-	<tbody class="borderless-table">
-		<tr>
-			<td class="label">Pastor: </td>
-			<td>Rev. Lennie Chen (C)0919962589</td>
-		</tr>
-	</tbody>
-</table>
-<div style="margin-left: 20px">
-<table cellpadding="1px" cellspacing="0px">
-	<tbody class="borderless-table">
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
-			<td class="label">Address:</td>
-			<td> 1st Fl, #29, Alley 25, Lane 113, Sec. 3 Mingsheng E. Rd., Taipei, Taiwan</td>
-		</tr>
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">Tel#:</td>
-			<td>+886-2-2713-3769</td>
-		</tr>
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">Fax#:</td>
-			<td>+886-2-2713-3769</td>
-		</tr>
-		<tr>
-			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
-			<td class="label">Email:</td>
-			<td><a href="mailto:emsitaipei@hotmail.com">emsitaipei@hotmail.com</a><br />
-			</td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
-<hr align="center" size="1" width="100%" />
-</div>
-<div class="main-content">
-<p>
-<span class="label">Established Date: </span>Sept 23, 2007
-</p>
-<p>
-<img src="/emsi/images/church_taipei.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />The C.E.C. in Taipei was officially established on September 23, 2007. C.E.M. then commissioned Rev. and Mrs. Chan from Holland to pastor the church on a short-term basis. In August 2008, Pastor and Mrs. Zion Wu were sent to Taipei to shepherd CEC Taipei. He was replaced by Pastor Hosea Chi in February 2010. In April 2013, Pastor Teddy Chen replaced Pastor Chi as the pastor of CEC Taipei. In January 2017, Pastor Lennie Chen became the pastor of CEC in Taipei.
-</p>
+---** update church_content set body = '<style>
+---** .contact-content {font-family: Arial,helvetica,sans-serif;}
+---** .contact-content td {font-size: small; padding: 2px; 3px;}
+---** td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+---** p span.label {font-weight: bold;}
+---** .main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+---** .borderless-table {border-width: 0px;}
+---** </style>
+---** <div class="contact-content">
+---** <div style="color: #000000; font-size: small">
+---** <table cellpadding="0px" cellspacing="0px">
+---** 	<tbody class="borderless-table">
+---** 		<tr>
+---** 			<td class="label">Pastor: </td>
+---** 			<td>Rev. Lennie Chen (C)0919962589</td>
+---** 		</tr>
+---** 	</tbody>
+---** </table>
+---** <div style="margin-left: 20px">
+---** <table cellpadding="1px" cellspacing="0px">
+---** 	<tbody class="borderless-table">
+---** 		<tr>
+---** 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+---** 			<td class="label">Address:</td>
+---** 			<td> 1st Fl, #29, Alley 25, Lane 113, Sec. 3 Mingsheng E. Rd., Taipei, Taiwan</td>
+---** 		</tr>
+---** 		<tr>
+---** 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+---** 			<td class="label">Tel#:</td>
+---** 			<td>+886-2-2713-3769</td>
+---** 		</tr>
+---** 		<tr>
+---** 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+---** 			<td class="label">Fax#:</td>
+---** 			<td>+886-2-2713-3769</td>
+---** 		</tr>
+---** 		<tr>
+---** 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+---** 			<td class="label">Email:</td>
+---** 			<td><a href="mailto:emsitaipei@hotmail.com">emsitaipei@hotmail.com</a><br />
+---** 			</td>
+---** 		</tr>
+---** 	</tbody>
+---** </table>
+---** </div>
+---** </div>
+---** <hr align="center" size="1" width="100%" />
+---** </div>
+---** <div class="main-content">
+---** <p>
+---** <span class="label">Established Date: </span>Sept 23, 2007
+---** </p>
+---** <p>
+---** <img src="/emsi/images/church_taipei.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />The C.E.C. in Taipei was officially established on September 23, 2007. C.E.M. then commissioned Rev. and Mrs. Chan from Holland to pastor the church on a short-term basis. In August 2008, Pastor and Mrs. Zion Wu were sent to Taipei to shepherd CEC Taipei. He was replaced by Pastor Hosea Chi in February 2010. In April 2013, Pastor Teddy Chen replaced Pastor Chi as the pastor of CEC Taipei. In January 2017, Pastor Lennie Chen became the pastor of CEC in Taipei.
+---** </p>
 
-</div>
-'	where church_id = (select church_id from church where church_path = 'taipei')
-	and locale = 'en'
-	and page_id = 'intro';
-
-	
-update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
-font-family: Arial,helvetica,sans-serif,新細明體;}
-.contact-content td {font-size: 14px; padding: 2px; 3px;}
-td.label {font-weight: bold; width: 1%; white-space: nowrap;}
-p span.label {font-weight: bold;}
-.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
-.borderless-table {border-width: 0px;}
-</style>\r\n<div class=\"contact-content\">
-<div style=\"color: #000000; font-size: small\">
-<table cellpadding=\"0\" cellspacing=\"0\">
-	<tbody class=\"borderless-table\">
-		<tr>
-			<td class="label">牧師: </td>
-			<td>陳聆理 牧師 (手機)0919962589</td>
-		</tr>
-	</tbody>
-</table>
-<br /><div style=\"margin-left: 20px\">
-<table cellpadding=\"1\" cellspacing=\"0\">
-	<tbody class=\"borderless-table\">
-		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">地址:</td>
-			<td> 台北市民生東路三段113巷25弄29號1樓</td>
-		</tr>
-		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">電話:</td>
-			<td> +886-2-2713-3769 </td>
-		</tr>
-		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">傳真:</td>
-			<td> +886-2-2713-3769 </td>
-		</tr>
-		<tr>
-			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: emsitaipei@hotmail.com"> emsitaipei@hotmail.com</a></td>
-		</tr>
-	</tbody>
-</table>
-</div>
-</div>
-<hr align=\"center\" size=\"1\" width=\"100%\" />
-</div>
-<div class=\"main-content\">
-<p>
-<b>成立日期:</b> 2007年 9月 23日
-</p>
-<p>
-<span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/images/church_taipei.jpg\" align=\"left\" height=\"255\" width=\"360\" />2007年，在楊摩西牧師的感動下開始了台灣拓荒宣教事工，同年九月廿三日成立教會，總部特由歐洲調派陳啟猷牧師夫婦前往短期協助牧會。2007年11月遷入台北市松山區敦化環球名廈的大樓裡。2008年4月教會人數倍增，故遷入新址，即台北市松山區民生東路3段113巷25弄29號一樓現址，開展教會事工。2008年9月差派吳錫安牧師夫婦牧會；2010年2月由戚厚生牧師繼續牧養羊群；2013年4月由陳俊年傳道夫婦接任；2017年1月起，由陳聆理牧師夫婦負責牧養。
-</p>
-
-
-</div>
-')	where church_id = (select church_id from church where church_path = 'taipei')
-	and locale = 'zh'
-	and page_id = 'intro';
-	
-
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(48, 'schedule', 'en', 'CEC in Taipei - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<tbody>
-		<tr>
-			<td>Worship Service</td>
-			<td>Sunday</td>
-			<td>10:30 am</td>
-		</tr>
-		<tr>
-			<td>Children’s Sunday School</td>
-			<td>Sunday</td>
-			<td>10:30 am</td>
-		</tr>
-		<tr>
-			<td>Choir Practice</td>
-			<td>Sunday</td>
-			<td>12:30 pm</td>
-		</tr>
-		<tr>
-			<td>Bible Study & Prayer Meeting</td>
-			<td>Wednesday</td>
-			<td>10:00 am</td>
-		</tr>
-		<tr>
-			<td>Youth Fellowship</td>
-			<td>Saturday</td>
-			<td>7:00 pm</td>
-		</tr>
-		<tr>
-			<td>Outdoor Fellowship</td>
-			<td>3rd Sunday of the Month</td>
-			<td>1:00 pm</td>
-		</tr>
-	</tbody>
-</table>
-
-<p>&nbsp;</p>
-');            
-	
-	
-	
-update church_content set body = '<table border="1" cellpadding="5">
-	<tbody>
-		<tr>
-			<td>主日崇拜</td>
-			<td>每星期日</td>
-			<td>10:30 am</td>
-		</tr>
-		<tr>
-			<td>兒童主日學</td>
-			<td>每星期日</td>
-			<td>10:30 am</td>
-		</tr>
-		<tr>
-			<td>詩班練詩</td>
-			<td>每星期日</td>
-			<td>12:30 pm</td>
-		</tr>
-		<tr>
-			<td>查經禱告會</td>
-			<td>每星期三 : 上午</td>
-			<td>10:00 am</td>
-		</tr>
-		<tr>
-			<td>青年團契</td>
-			<td>每星期六 : 晚上</td>
-			<td>7:00 pm</td>
-		</tr>
-		<tr>
-			<td>聯誼踏青</td>
-			<td>每月第三主日下午</td>
-			<td>1:00 pm</td>
-		</tr>
-
-	</tbody>
-</table>
-
-<p>&nbsp;</p>
-'	where church_id = (select church_id from church where church_path = 'taipei')
-	and locale = 'zh'
-	and page_id = 'schedule';	
-
+---** </div>
+---** '	where church_id = (select church_id from church where church_path = 'taipei')
+---** 	and locale = 'en'
+---** 	and page_id = 'intro';
 
 	
-update church_content set body = STRINGDECODE('<p>
-<p>
-<b>Pastor: </b>Rev. Lennie Chen (C)0919962589
-</p>
-<p>
-<b>Address: </b>1st Fl, #29, Alley 25, Lane 113, Sec. 3 Mingsheng E. Rd., Taipei, Taiwan
-</p>
-<p>
-<b>Tel #: </b>+886-2-2713-3769
-</p>
-<p>
-<b>Fax #: </b>+886-2-2713-3769
-</p>
-<p>
-<b>Email: </b>emsitaipei@hotmail.com
-</p>
-<p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E5%8F%B0%E5%8C%97%E5%B8%82%E6%B0%91%E7%94%9F%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5113%E5%B7%B725%E5%BC%8429%E8%99%9F1%E6%A8%93&amp;sll=25.059427,121.547108&amp;sspn=0.007211,0.013915&amp;ie=UTF8&amp;hq=&amp;hnear=Alley+25,+Lane+113,+Section+3,+M%C3%ADnSh%C4%93ng+East+Rd,+Songshan+District,+Taipei+City,+Taiwan+105&amp;ll=25.059429,121.547112&amp;spn=0.004665,0.006866&amp;z=17&amp;iwloc=A&amp;output=embed\"></iframe><br /><small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=%E5%8F%B0%E5%8C%97%E5%B8%82%E6%B0%91%E7%94%9F%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5113%E5%B7%B725%E5%BC%8429%E8%99%9F1%E6%A8%93&amp;sll=25.059427,121.547108&amp;sspn=0.007211,0.013915&amp;ie=UTF8&amp;hq=&amp;hnear=Alley+25,+Lane+113,+Section+3,+M%C3%ADnSh%C4%93ng+East+Rd,+Songshan+District,+Taipei+City,+Taiwan+105&amp;ll=25.059429,121.547112&amp;spn=0.004665,0.006866&amp;z=17&amp;iwloc=A\" style=\"color:#0000FF;text-align:left\">View Larger Map</a></small>
-</p>
-')	where church_id = (select church_id from church where church_path = 'taipei')
-	and locale = 'en'
-	and page_id = 'contactus';
-	
-	
-	
-update church_content set body = STRINGDECODE('<p>
-<p>
-<b>牧師: </b> 陳聆理 牧師 (手機)0919962589
-</p>
-<p>
-<b>地址: </b>台北市民生東路三段113巷25弄29號1樓
-</p>
-<p>
-<b>電話:</b> +886-2-2713-3769
-</p>
-<p>
-<b>傳真:</b> +886-2-2713-3769
-</p>
-<p>
-<b>電郵: </b>emsitaipei@hotmail.com
-</p>
-<p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E5%8F%B0%E5%8C%97%E5%B8%82%E6%B0%91%E7%94%9F%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5113%E5%B7%B725%E5%BC%8429%E8%99%9F1%E6%A8%93&amp;sll=25.059427,121.547108&amp;sspn=0.007211,0.013915&amp;ie=UTF8&amp;hq=&amp;hnear=Alley+25,+Lane+113,+Section+3,+M%C3%ADnSh%C4%93ng+East+Rd,+Songshan+District,+Taipei+City,+Taiwan+105&amp;ll=25.059429,121.547112&amp;spn=0.004665,0.006866&amp;z=17&amp;iwloc=A&amp;output=embed\"></iframe><br /><small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=%E5%8F%B0%E5%8C%97%E5%B8%82%E6%B0%91%E7%94%9F%E6%9D%B1%E8%B7%AF%E4%B8%89%E6%AE%B5113%E5%B7%B725%E5%BC%8429%E8%99%9F1%E6%A8%93&amp;sll=25.059427,121.547108&amp;sspn=0.007211,0.013915&amp;ie=UTF8&amp;hq=&amp;hnear=Alley+25,+Lane+113,+Section+3,+M%C3%ADnSh%C4%93ng+East+Rd,+Songshan+District,+Taipei+City,+Taiwan+105&amp;ll=25.059429,121.547112&amp;spn=0.004665,0.006866&amp;z=17&amp;iwloc=A\" style=\"color:#0000FF;text-align:left\">View Larger Map</a></small>
-</p>
-')	where church_id = (select church_id from church where church_path = 'taipei')
-	and locale = 'zh'
-	and page_id = 'contactus';
+---** update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+---** font-family: Arial,helvetica,sans-serif,新細明體;}
+---** .contact-content td {font-size: 14px; padding: 2px; 3px;}
+---** td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+---** p span.label {font-weight: bold;}
+---** .main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+---** .borderless-table {border-width: 0px;}
+---** </style>\r\n<div class=\"contact-content\">
+---** <div style=\"color: #000000; font-size: small\">
+---** <table cellpadding=\"0\" cellspacing=\"0\">
+---** 	<tbody class=\"borderless-table\">
+---** 		<tr>
+---** 			<td class="label">牧師: </td>
+---** 			<td>陳聆理 牧師 (手機)0919962589</td>
+---** 		</tr>
+---** 	</tbody>
+---** </table>
+---** <br /><div style=\"margin-left: 20px\">
+---** <table cellpadding=\"1\" cellspacing=\"0\">
+---** 	<tbody class=\"borderless-table\">
+---** 		<tr>
+---** 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+---** 			<td class=\"label\">地址:</td>
+---** 			<td> 台北市民生東路三段113巷25弄29號1樓</td>
+---** 		</tr>
+---** 		<tr>
+---** 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+---** 			<td class=\"label\">電話:</td>
+---** 			<td> +886-2-2713-3769 </td>
+---** 		</tr>
+---** 		<tr>
+---** 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+---** 			<td class=\"label\">傳真:</td>
+---** 			<td> +886-2-2713-3769 </td>
+---** 		</tr>
+---** 		<tr>
+---** 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+---** 			<td class=\"label\">電郵:</td>
+---** 			<td><a href=\"mailto: emsitaipei@hotmail.com"> emsitaipei@hotmail.com</a></td>
+---** 		</tr>
+---** 	</tbody>
+---** </table>
+---** </div>
+---** </div>
+---** <hr align=\"center\" size=\"1\" width=\"100%\" />
+---** </div>
+---** <div class=\"main-content\">
+---** <p>
+---** <b>成立日期:</b> 2007年 9月 23日
+---** </p>
+---** <p>
+---** <span class=\"label\">簡史: </span><br />
+---** <img hspace=\"5\" src=\"/emsi/images/church_taipei.jpg\" align=\"left\" height=\"255\" width=\"360\" />2007年，在楊摩西牧師的感動下開始了台灣拓荒宣教事工，同年九月廿三日成立教會，總部特由歐洲調派陳啟猷牧師夫婦前往短期協助牧會。2007年11月遷入台北市松山區敦化環球名廈的大樓裡。2008年4月教會人數倍增，故遷入新址，即台北市松山區民生東路3段113巷25弄29號一樓現址，開展教會事工。2008年9月差派吳錫安牧師夫婦牧會；2010年2月由戚厚生牧師繼續牧養羊群；2013年4月由陳俊年傳道夫婦接任；2017年1月起，由陳聆理牧師夫婦負責牧養。
+---** </p>
 
 
+---** </div>
+---** ')	where church_id = (select church_id from church where church_path = 'taipei')
+---** 	and locale = 'zh'
+---** 	and page_id = 'intro';
+	
 
+---** INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(48, 'schedule', 'en', 'CEC in Taipei - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+---** 	<tbody>
+---** 		<tr>
+---** 			<td>Worship Service</td>
+---** 			<td>Sunday</td>
+---** 			<td>10:30 am</td>
+---** 		</tr>
+---** 		<tr>
+---** 			<td>Children’s Sunday School</td>
+---** 			<td>Sunday</td>
+---** 			<td>10:30 am</td>
+---** 		</tr>
+---** 		<tr>
+---** 			<td>Choir Practice</td>
+---** 			<td>Sunday</td>
+---** 			<td>12:30 pm</td>
+---** 		</tr>
+---** 		<tr>
+---** 			<td>Bible Study & Prayer Meeting</td>
+---** 			<td>Wednesday</td>
+---** 			<td>10:00 am</td>
+---** 		</tr>
+---** 		<tr>
+---** 			<td>Youth Fellowship</td>
+---** 			<td>Saturday</td>
+---** 			<td>7:00 pm</td>
+---** 		</tr>
+---** 		<tr>
+---** 			<td>Outdoor Fellowship</td>
+---** 			<td>3rd Sunday of the Month</td>
+---** 			<td>1:00 pm</td>
+---** 		</tr>
+---** 	</tbody>
+---** </table>
+
+---** <p>&nbsp;</p>
+---** ');            
+	
 
 -----------------ends Taiwan - taipei
 
