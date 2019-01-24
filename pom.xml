@@ -22,6 +22,8 @@
 		<freemarker-version>2.3.20</freemarker-version>
 		<javax.mail-version>1.4.3</javax.mail-version>
 		<jasypt-version>1.9.0</jasypt-version>
+		<!--suppress UnresolvedMavenProperty -->
+		<my.tag>${env.TAG_NAME}</my.tag>
 	</properties>
 	
 	<dependencies>
@@ -292,6 +294,15 @@
 	<build>
 		<plugins>
 			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-war-plugin</artifactId>
+				<version>2.2</version>
+				<configuration>
+					<filteringDeploymentDescriptors>true</filteringDeploymentDescriptors>
+				</configuration>
+			</plugin>
+
+			<plugin>
 				<artifactId>maven-eclipse-plugin</artifactId>
 				<version>2.9</version>
 				<configuration>
@@ -349,31 +360,29 @@
 			</plugin>
 
 			<plugin>
-				<groupId>org.apache.tomcat.maven</groupId>
-				<artifactId>tomcat7-maven-plugin</artifactId>
-				<version>2.1</version>
-			</plugin>
-
-			<plugin>
 				<groupId>org.mortbay.jetty</groupId>
 				<artifactId>jetty-maven-plugin</artifactId>
 				<version>8.1.4.v20120524</version>
+				<!--
 				<configuration>
 					<webAppConfig>
 						<contextPath>/ch17</contextPath>
 					</webAppConfig>
 				</configuration>
+				-->
 			</plugin>
 			<plugin>
 				<groupId>org.apache.tomcat.maven</groupId>
-          			<artifactId>tomcat7-maven-plugin</artifactId>
-         			<version>2.0</version>
-          			<configuration>
-            				<url>http://localhost:8082/manager/text</url>
-            				<server>TomcatServer</server>
-            				<path>/emsiweb</path>  
-          			</configuration>
-        		</plugin>
+				<artifactId>tomcat7-maven-plugin</artifactId>
+				<version>2.0</version>
+				<configuration>
+					<!--suppress UnresolvedMavenProperty -->
+					<url>${env.DEPLOY_URL}</url>
+					<server>TomcatServer</server>
+					<path>/emsiweb</path>
+					<update>true</update>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
@@ -401,6 +410,7 @@
 				</plugins>
 			</build>
 		</profile>
+		<!--
 		<profile>
 			<id>default</id>
 			<activation>
@@ -419,6 +429,7 @@
 				</plugins>
 			</build>
 		</profile>
+		-->
 	</profiles>
 
 	<artifactId>emsiweb</artifactId>

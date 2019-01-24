@@ -11,7 +11,8 @@
     	<put-attribute name="menu-content" value="/WEB-INF/views/page-menu.jspx" cascade="true"/>
         <put-attribute name="body-content" value="/WEB-INF/views/home_zh.jspx" cascade="true" />
     </definition>
-    
 
+    <definition name="tag" template="/WEB-INF/views/tag.jsp">
+    </definition>
                                
 </tiles-definitions>

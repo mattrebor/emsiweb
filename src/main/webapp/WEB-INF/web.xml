@@ -8,7 +8,11 @@
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/spring/root-context.xml</param-value>
 	</context-param>
-	
+	<context-param>
+		<param-name>tag_name</param-name>
+		<param-value>${my.tag}</param-value>
+	</context-param>
+
 	<filter>
 		<filter-name>ErrorHandlerFilter</filter-name>
 		<filter-class>org.emsionline.emsiweb.web.filter.ErrorHandlerFilter</filter-class>
