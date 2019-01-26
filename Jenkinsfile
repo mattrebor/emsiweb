@@ -10,6 +10,7 @@ pipeline {
                 sh 'env'
                 sh 'mvn -B clean package'
                 */
+                
                 bat 'set'
                 bat 'mvn -B clean package'
             }
@@ -17,7 +18,11 @@ pipeline {
 
         stage('Deploy') {
             steps {
+               /* unix
                sh 'mvn -X tomcat7:deploy-only'
+               */
+                
+               bat 'mvn -X tomcat7:deploy-only' 
             }
         }
 
