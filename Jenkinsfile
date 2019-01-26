@@ -6,8 +6,12 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+                /* unix
                 sh 'env'
                 sh 'mvn -B clean package'
+                */
+                bat 'set'
+                bat 'mvn -B clean package'
             }
         }
 
