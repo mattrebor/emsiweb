@@ -7418,7 +7418,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>(North) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
+			<td>(North) Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain<br/>
 			(South) Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
@@ -7484,7 +7484,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td>(北) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
+			<td>(北) Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain<br/>
 			(南) Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
@@ -7533,7 +7533,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Lin Tao Wu, 654-852-708
 </p>
 <p>
-<b>Address: </b>(North) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
+<b>Address: </b>(North) Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain<br/>
 			(South) Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain
 </p>
 <p>
@@ -7547,7 +7547,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>Address: </b>(North)</br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.602394201551!2d-15.431156821974993!3d28.13401717642436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409514ad58f281%3A0x4717363de4b857a!2sCalle+Pdte.+Alvear%2C+7%2C+35006+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1502675108965" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.398000984193!2d-15.434532185967733!3d28.134369713205093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409514918b4ba5%3A0xd515196d2d7b921e!2sAv.+Jos%C3%A9+Mesa+y+L%C3%B3pez%2C+15%2C+11%2C+35006+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1549850435054" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 <p>
 <b>Address: </b>(South)</br>
@@ -7566,7 +7566,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道:</b> 吳林濤 傳道, 654-852-708
 </p>
 <p>
-<b>地址: </b>(北) Calle Presidente Alvear, 7 , 35006 Las Palmas, de Gran Canaria, Spain<br/>
+<b>地址: </b>(北) Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain<br/>
 			(南) Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain
 </p>
 <p>
@@ -7581,7 +7581,7 @@ update church_content set body = STRINGDECODE('<p>
 
 <p>
 <b>地址: </b>(北)</br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d879.602394201551!2d-15.431156821974993!3d28.13401717642436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409514ad58f281%3A0x4717363de4b857a!2sCalle+Pdte.+Alvear%2C+7%2C+35006+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1502675108965" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.398000984193!2d-15.434532185967733!3d28.134369713205093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409514918b4ba5%3A0xd515196d2d7b921e!2sAv.+Jos%C3%A9+Mesa+y+L%C3%B3pez%2C+15%2C+11%2C+35006+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1549850435054" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 <p>
 <b>地址: </b>(南)</br>
@@ -7591,6 +7591,108 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 ---<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1765.1999677417473!2d-15.575821842293736!3d27.766648673935727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc3f62bcee9dd59d%3A0x1864f22c69625f0!2sAv.+de+Galdar%2C+10%2C+35100+San+Bartolom%C3%A9+de+Tirajana%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1536497887144" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(31, 'schedule', 'en', 'CEC in Gran Canaria - Church Services Schedule', 
+'
+<h4>南部聚會時間表 Southern Region Meeting Schedule</h4>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周 日 上 午 十 時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>查經/練詩</br>Bible Study and Choir Practice </td>
+			<td>周 二 上 午 九時十五分 </br>Tuesday 9:15 am</td>
+		</tr>
+		<tr>
+			<td>查經/禱告</br>Bible Study and Prayer Meeting</td>
+			<td>周 四 上 午 九時十五分 </br>Thursday 9:15 am</td>
+		</tr>
+	</tbody>
+</table>
+</br>
+
+<h4>北部聚會時間表 Northern Region Meeting Schedule</h4>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周 日 晚上 六時三十分</br> Sunday 6:30 pm</td>
+		</tr>
+		<tr>
+			<td>查經</br>Bible Study</td>
+			<td>周 日 晚上 八時 </br>Sunday 8:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+</br>
+
+<h4>中部聚會時間表 Middle Region Meeting Schedule</h4>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+		<tr>
+			<td>查經</br>Bible Study</td>
+			<td>周 三 上 午 十時十五分 </br>Wednesday 10:15 am</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(31, 'schedule', 'zh', '加納利亞基督教生命堂 - 聚會日程', 
+'
+<h4>南部聚會時間表 Southern Region Meeting Schedule</h4>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周 日 上 午 十 時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>查經/練詩</br>Bible Study and Choir Practice </td>
+			<td>周 二 上 午 九時十五分 </br>Tuesday 9:15 am</td>
+		</tr>
+		<tr>
+			<td>查經/禱告</br>Bible Study and Prayer Meeting</td>
+			<td>周 四 上 午 九時十五分 </br>Thursday 9:15 am</td>
+		</tr>
+	</tbody>
+</table>
+</br>
+
+<h4>北部聚會時間表 Northern Region Meeting Schedule</h4>
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周 日 晚上 六時三十分</br> Sunday 6:30 pm</td>
+		</tr>
+		<tr>
+			<td>查經</br>Bible Study</td>
+			<td>周 日 晚上 八時 </br>Sunday 8:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+</br>
+
+<h4>中部聚會時間表 Middle Region Meeting Schedule</h4>
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+		<tr>
+			<td>查經</br>Bible Study</td>
+			<td>周 三 上 午 十時十五分 </br>Wednesday 10:15 am</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
 		
 ---------ends Spain - Gran Canaria
 
