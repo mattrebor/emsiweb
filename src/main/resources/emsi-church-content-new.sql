@@ -47,7 +47,7 @@ update church set address='Calle Carolinas, 10, 28039 Madrid, Spain', latitude =
 update church set address='C/ Cura Femenia, 1, 46006 Valencia, Spain', latitude = 39.4619848, longitude = -0.3717682 where church_path = 'valencia';
 update church set address='Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante ', latitude = 38.54177, longitude = -0.122675 where church_path = 'benidorm';
 update church set address='C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain', latitude = 38.339698, longitude = -0.489878 where church_path = 'alicante'; 
-update church set address='Calle Presidente Alvear, 7, 35006 Las Palmas, de Gran Canaria, Spain', latitude = 28.134193, longitude = -15.430291 where church_path = 'canaria';
+update church set address='Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain', latitude = 28.134365, longitude = -15.432344 where church_path = 'canaria';
 update church set address='Calle Alguacil, 8, 28038 Madrid, Spain', latitude = 40.3960213, longitude = -3.6630519 where church_path = 'southmadrid';
 update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', latitude = 41.3709592, longitude = 2.1374551 where church_path = 'barcelona';
 update church set address='Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain', latitude = 40.2646057, longitude = -3.7542281 where church_path = 'fuenlabrada';
