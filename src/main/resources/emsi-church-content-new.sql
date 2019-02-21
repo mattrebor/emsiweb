@@ -10041,7 +10041,8 @@ Rev. Yang asked the Lord for a sign that there would be at least 20 people in th
 CEM in Tokyo is in a residential area. The church had about 10 regular members in the beginning when we rented the place. There are many Chinese nearby. Through our prayers and everyone working together, God opens a door for us, and we have new people coming every week.</p>
 </div>
 ');    
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'intro', 'zh', '東京基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'intro', 'zh', '東京基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
@@ -10082,16 +10083,15 @@ p span.label {font-weight: bold;}
 </table>
 </div>
 </div>
-
-<hr align="center" size="1" width="100%" /></div>
-
-<div class="main-content">
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
 <p>
 <b>成立日期:</b> 2012年
 </p>
-
 <p>
 <span class=\"label\">簡史: </span><br />
+</br>
 <b>2012年三月福音事工開展</b><br />
 <br />
 東京是日本的首都，聚集的中國人也是全日本最多的。儘管有許多華人教會，但還是有許多失喪的靈魂正等著基督耶穌的福音。 林雲芳夫婦早在三年前舉家從大阪搬遷到東京的附近(坐車四十分鐘左右可達東京)，到了當地後便找教會，原希望能在教會得到些靈裏的餵養，但卻始終覺得靈裏乾渴。因此迫切向上帝禱告，希望生命堂能在東京開展。 2012年三月，雲芳夫婦經過禱告購得新房後，願意開放家庭為主所用。他們將此感動傳達給方傳道，方傳道與楊牧師匯報後，2012年四月底，楊牧師來到東京視察，並開始了第一次的家庭聚會。</p>
@@ -10522,7 +10522,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 <td class="label">Address:</td>
-<td>6401 7th Ave., Brooklyn, NY 11220, USA</td>
+<td>861 51st Street, Brooklyn, NY 11220, USA</td>
 </tr>
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -10580,7 +10580,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 <td class="label">地址:</td>
-<td>6401 7th Ave., Brooklyn, NY 11220</td>
+<td>861 51st Street, Brooklyn, NY 11220</td>
 </tr>
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -10661,8 +10661,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ');             
 
 
-update church set address='6401 7th Ave., Brooklyn, NY 11220, USA', latitude = 40.6343803, longitude = -74.0140939 where church_path = 'brooklynmandarin';
-
+update church set address='861 51st Street, Brooklyn, NY 11220, USA', latitude =  40.639791, longitude = -74.0047537  where church_path = 'brooklynmandarin';
 update church_content set body = STRINGDECODE('
 <style>
 .indentation {margin:20px;}
@@ -10673,13 +10672,13 @@ update church_content set body = STRINGDECODE('
 <p style="padding-left: 55px;">
 Mrs. Chialin Chi, (C) 973-932-3534</p>
 <p>
-<b>Address: </b>6401 7th Ave., Brooklyn, NY 11220, USA</p>
+<b>Address: </b>861 51st Street, Brooklyn, NY 11220, USA</p>
 <p>
 <b>Tel #: </b>646-979-0107</p>
 <p>
 <b>Email: </b>ecmsibrl@gmail.com</p>
 
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=6401+7th+Ave,+Brooklyn,+NY+11220&sll=40.6343803,-74.0140939&sspn=0.0062521,0.0109864&hnear=6401+7th+Ave,+Brooklyn,+NY+11220&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=6401+7th+Ave,+Brooklyn,+NY+11220&sll=40.6343803,-74.0140939&sspn=0.0062521,0.0109864&hnear=6401+7th+Ave,+Brooklyn,+NY+11220&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.5506352609455!2d-74.0047536847096!3d40.63979097933986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25acb309f4c8f%3A0xc0a6c546de404469!2s861+51st+St%2C+Brooklyn%2C+NY+11220!5e0!3m2!1sen!2sus!4v1550699399572" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'brooklynmandarin')
 	and locale = 'en'
@@ -10691,12 +10690,12 @@ update church_content set body = STRINGDECODE('<p>
 <p style="padding-left: 40px;">
 戚陳佳琳 師母, (手機) 973-932-3534</p>
 <p>
-<b>地 址: </b>6401 7th Ave., Brooklyn, NY 11220, USA</p>
+<b>地 址: </b>861 51st Street, Brooklyn, NY 11220, USA</p>
 <p>
 <b>電 話: </b>646-979-0107</p>
 <p>
 <b>電 郵: </b>ecmsibrl@gmail.com</p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=6401+7th+Ave,+Brooklyn,+NY+11220&sll=40.6343803,-74.0140939&sspn=0.0062521,0.0109864&hnear=6401+7th+Ave,+Brooklyn,+NY+11220&t=m&z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=6401+7th+Ave,+Brooklyn,+NY+11220&sll=40.6343803,-74.0140939&sspn=0.0062521,0.0109864&hnear=6401+7th+Ave,+Brooklyn,+NY+11220&t=m&z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.5506352609455!2d-74.0047536847096!3d40.63979097933986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25acb309f4c8f%3A0xc0a6c546de404469!2s861+51st+St%2C+Brooklyn%2C+NY+11220!5e0!3m2!1sen!2sus!4v1550699399572" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'brooklynmandarin')
 	and locale = 'zh'
