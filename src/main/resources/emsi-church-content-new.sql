@@ -233,11 +233,39 @@ update church_content set body = STRINGDECODE('
 update church_content set body = '<table border="1" cellpadding="5">
 <tr>
 	<td>Worship Service</td>
-	<td>Sunday 2:00—3:30pm</td>
+	<td>Sunday 11 am</td>
 </tr>
 <tr>
-	<td>Bible Study</td>
-	<td>Sunday 3:30—4:00pm</td>
+	<td>Adult Sunday School</td>
+	<td>Sunday 10 am</td>
+</tr>
+<tr>
+	<td>Children Sunday School</td>
+	<td>Sunday 11am</td>
+</tr>
+<tr>
+	<td>Choir Practice</td>
+	<td>Sunday 1 pm</td>
+</tr>
+<tr>
+	<td>Bible Class</td>
+	<td>Tuesday 2 pm</td>
+</tr>
+<tr>
+	<td>Prayer and Bible Study</td>
+	<td>Wednesday 7:30 pm</td>
+</tr>
+<tr>
+	<td>Youth Fellowship</td>
+	<td>Friday 7:30 pm</td>
+</tr>
+<tr>
+	<td>Adult Bible Study</td>
+	<td>Friday 7:30 pm</td>
+</tr>
+<tr>
+	<td>Men’s Fellowship</td>
+	<td>Fourth Sunday 7:30 pm</td>
 </tr>
 </table>
 '	where church_id = (select church_id from church where church_path = 'brooklyn')
@@ -249,22 +277,46 @@ update church_content set body = '<table border="1" cellpadding="5">
 update church_content set body = '<table border="1" cellpadding="5">
 <tr>
 	<td>主日崇拜</td>
-	<td>禮拜日下午2:00—3:30</td>
+	<td>週日上午 11 am</td>
 </tr>
 <tr>
-	<td>查經禱告會</td>
-	<td>禮拜日下午3:30—4:00</td>
+	<td>成人主日學</td>
+	<td>週日上午 10 am</td>
+</tr>
+<tr>
+	<td>兒童主日學</td>
+	<td>週日上午 11am</td>
+</tr>
+<tr>
+	<td>詩歌練習</td>
+	<td>週日上午 1 pm</td>
+</tr>
+<tr>
+	<td>日間查經班</td>
+	<td>週 二 下 午  2 pm</td>
+</tr>
+<tr>
+	<td>禱告查經班</td>
+	<td>週 三晚上 7:30 pm</td>
+</tr>
+<tr>
+	<td>少年團契Youth Fellowship</td>
+	<td>週 五晚上  7:30 pm</td>
+</tr>
+<tr>
+	<td>成人查經班</td>
+	<td>週 五晚上  7:30 pm</td>
+</tr>
+<tr>
+	<td>弟兄團契 </td>
+	<td>每月第四週日下午  7:30 pm</td>
 </tr>
 </table>
 '	where church_id = (select church_id from church where church_path = 'brooklyn')
 	and locale = 'zh'
 	and page_id = 'schedule';	
 	
-	
-	
 ------------end  brooklyn
-
-	
 	
 	
 		
@@ -943,7 +995,91 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
+update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
+ 
+	<tbody>
+		<tr>
+			<td>中文主日崇拜</br> Chinese Sunday Worship Service</td>
+			<td>週 日 下 午 </br>Sunday</td>
+			<td>1:30 pm</td>
+		</tr>
+		<tr>
+			<td>英文主日崇拜 </br>English Sunday Worship Service</td>
+			<td>週 日 下 午  </br>Sunday</td>
+			<td>1:30 pm</td>
+		</tr>
+		<tr>
+			<td>兒童主日學 </br>Children Sunday School</td>
+			<td>週 日 下 午  </br>Sunday</td>
+			<td>1:30 pm</td>
+		</tr>
+		<tr>
+			<td>餐館查經班 </br>Restaurant Bible Study</td>
+			<td>週 一(每隔一週) </br>Every Other Monday</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>禱告會 </br>Prayer Meeting</td>
+			<td>週三 </br>Wednesday</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>錫安團契 </br>Zion Fellowship</td>
+			<td>每月第三週六  </br>Every Third Saturday</td>
+			<td>7:30 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'highlandpark')
+	and locale = 'en'
+	and page_id = 'schedule';	
 	
+	
+update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
+ 
+	<tbody>
+		<tr>
+			<td>中文主日崇拜 </br>Chinese Sunday Worship Service</td>
+			<td>週 日 下 午 </br>Sunday</td>
+			<td>1:30 pm</td>
+		</tr>
+		<tr>
+			<td>英文主日崇拜 </br>English Sunday Worship Service</td>
+			<td>週 日 下 午  </br>Sunday</td>
+			<td>1:30 pm</td>
+		</tr>
+		<tr>
+			<td>兒童主日學 </br>Children Sunday School</td>
+			<td>週 日 下 午  </br>Sunday</td>
+			<td>1:30 pm</td>
+		</tr>
+		<tr>
+			<td>餐館查經班 </br>Restaurant Bible Study</td>
+			<td>週 一(每隔一週) </br>Every Other Monday</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>禱告會 </br>Prayer Meeting</td>
+			<td>週三 </br>Wednesday</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>錫安團契 </br>Zion Fellowship</td>
+			<td>每月第三週六     </br> Every Third Saturday</td>
+			<td>7:30 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'highlandpark')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+	
+
+
 ------------- end Highland park
 
 	
@@ -4700,7 +4836,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Guangqi Zhai, 0036-1-426-5368</td>
+			<td>Ev. Minhui Xie</td>
 		</tr>
 	</tbody>
 </table>
@@ -4715,12 +4851,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> 0036-1-426-5368</td>
+			<td> 0036-30-728-8888</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:zhaiguangqi20@163.com">zhaiguangqi20@163.com</a><br />
+			<td><a href="mailto:hqxxmh@gmail.com">hqxxmh@gmail.com</a><br />
 			</td>
 		</tr>
 	</tbody>
@@ -4734,7 +4870,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>April 11, 2011
 </p>
 <p>
-<img src="/emsi/files/biblestudydec2011.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />On October 18, 2010, Christian Evangelical Mission International sent Ev. Angela Chen to Budapest, Hungary as a missionary. After six months of labor, CEMC in Budapest is established. This is the 47th CEM church established by the Evangelical Mission and Seminary International under the leadership of Rev. Moses Yang. It is also the 28th CEM church established by the CEMI in Europe.
+<img src="/emsi/files/Budapest_small_2019.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />On October 18, 2010, Christian Evangelical Mission International sent Ev. Angela Chen to Budapest, Hungary as a missionary. After six months of labor, CEMC in Budapest is established. This is the 47th CEM church established by the Evangelical Mission and Seminary International under the leadership of Rev. Moses Yang. It is also the 28th CEM church established by the CEMI in Europe.
 </p>
 
 <p>
@@ -4760,7 +4896,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>翟廣奇 傳道, 0036-1-426-5368</td>
+			<td>謝敏惠 傳道</td>
 		</tr>
 	</tbody>
 </table>
@@ -4775,12 +4911,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 0036-1-426-5368</td>
+			<td> 0036-30-728-8888</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: zhaiguangqi20@163.com"> zhaiguangqi20@163.com</a></td>
+			<td><a href=\"mailto: hqxxmh@gmail.com"> hqxxmh@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4794,7 +4930,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/biblestudydec2011.jpg\" align=\"left\" height=\"255\" width=\"360\" />2010年10月18日陳寶珩傳道受美國國際神學福音佈道會差派，來到匈牙利布達佩斯開始新工場的開拓。經過六個多月耕耘撒種的前期工作，總會決定正式成立布達佩斯基督教生命堂。這是由楊摩西牧師領導下的美國國際神學福音佈道會屬下的第47間生命堂，也是歐洲分會的第28間生命堂。
+<img hspace=\"5\" src=\"/emsi/files/Budapest_small_2019.jpg\" align=\"left\" height=\"255\" width=\"360\" />2010年10月18日陳寶珩傳道受美國國際神學福音佈道會差派，來到匈牙利布達佩斯開始新工場的開拓。經過六個多月耕耘撒種的前期工作，總會決定正式成立布達佩斯基督教生命堂。這是由楊摩西牧師領導下的美國國際神學福音佈道會屬下的第47間生命堂，也是歐洲分會的第28間生命堂。
 </p>
 <p>
 2015年十一月，翟廣奇傳道接下陳寶珩傳道在此的事奉。2017年五月，謝敏惠姐妹從美國返回教會實習。願主帶領，讓布達佩斯生命堂在穩定中不斷地成長。
@@ -4811,16 +4947,16 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Guangqi Zhai  
+<b>Evangelist: </b>Ev. Minhui Xie  
 </p>
 <p>
 <b>Address: </b>1107 Budapest, Monori u.2-4. E12-12 Hungary
 </p>
 <p>
-<b>Tel #: </b>0036-1-426-5368
+<b>Tel #: </b>0036-30-728-8888
 </p>
 <p>
-<b>Email: </b>zhaiguangqi20@163.com
+<b>Email: </b>hqxxmh@gmail.com
 </p>
 <p>
 
@@ -4835,16 +4971,16 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道: </b>翟廣奇 傳道
+<b>傳道: </b>謝敏惠 傳道
 </p>
 <p>
 <b>地址: </b>1107 Budapest, Monori u.2-4. E12-12 Hungary
 </p>
 <p>
-<b>電話:</b> 0036-1-426-5368
+<b>電話:</b> 0036-30-728-8888
 </p>
 <p>
-<b>電郵: </b>zhaiguangqi20@163.com
+<b>電郵: </b>hqxxmh@gmail.com
 </p>
 <p>
 
@@ -10619,18 +10755,40 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'schedule', 'en', 'ECMSI in Brooklyn - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>Sunday Worship</td>
-			<td>Sunday</td>
-			<td>02:00 pm</td>
+			<td>Worship Service</td>
+			<td>Sunday 11 am</td>
 		</tr>
 		<tr>
-			<td>Prayer Meeting</td>
-			<td>Thursday</td>
-			<td>07:00 pm</td>
-		</tr>		<tr>
-			<td>Bible Study</td>
-			<td>Thursday</td>
-			<td>07:30 pm</td>
+			<td>Adult Sunday School</td>
+			<td>Sunday 10 am</td>
+		</tr>
+		<tr>
+			<td>Children Sunday School</td>
+			<td>Sunday 11am</td>
+		</tr>
+		<tr>
+			<td>Choir Practice</td>
+			<td>Sunday 1 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Class</td>
+			<td>Tuesday 2 pm</td>
+		</tr>
+		<tr>
+			<td>Prayer and Bible Study</td>
+			<td>Wednesday 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Fellowship</td>
+			<td>Friday 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>Adult Bible Study</td>
+			<td>Friday 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>Men’s Fellowship</td>
+			<td>Fourth Sunday 7:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -10640,19 +10798,40 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'schedule', 'zh', '希伯崙基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜 </td>
-			<td>星期日 下午</td>
-			<td>02:00 pm</td>
+			<td>主日崇拜</td>
+			<td>週日上午 11 am</td>
 		</tr>
 		<tr>
-			<td>禱告會</td>
-			<td>星期四 晚</td>
-			<td>07:00 pm</td>
+			<td>成人主日學</td>
+			<td>週日上午 10 am</td>
 		</tr>
 		<tr>
-			<td>查經班</td>
-			<td>星期四 晚</td>
-			<td>07:30 pm</td>
+			<td>兒童主日學</td>
+			<td>週日上午 11am</td>
+		</tr>
+		<tr>
+			<td>詩歌練習</td>
+			<td>週日上午 1 pm</td>
+		</tr>
+		<tr>
+			<td>日間查經班</td>
+			<td>週 二 下 午  2 pm</td>
+		</tr>
+		<tr>
+			<td>禱告查經班</td>
+			<td>週 三晚上 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>少年團契</td>
+			<td>週 五晚上  7:30 pm</td>
+		</tr>
+		<tr>
+			<td>成人查經班</td>
+			<td>週 五晚上  7:30 pm</td>
+		</tr>
+		<tr>
+			<td>弟兄團契 </td>
+			<td>每月第四週日下午  7:30 pm</td>
 		</tr>
 	</tbody>
 </table>
