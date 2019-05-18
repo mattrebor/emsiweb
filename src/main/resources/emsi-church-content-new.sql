@@ -2787,7 +2787,80 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 ------------ends barcelona
-	
+
+-----------starts San Diego
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(9, 'schedule', 'en', 'IEC in San Diego  - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Worship Service (Indonesian)</td>
+			<td>Sunday</td>
+			<td>9:30 am</td>
+		</tr>
+		<tr>
+			<td>Sunday School (English)</td>
+			<td>Sunday</td>
+			<td>9:30 am</td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting (Indonesian) </td>
+			<td>1st and 3rd Thursday of the month  </td>
+			<td>7:00 pm</td>
+		</tr>
+		<tr>
+			<td>Couples Fellowship (Indonesian) </td>
+			<td>2nd Friday of the month </td>
+			<td>6:30 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Fellowship (English) </td>
+			<td>4th Friday of the month </td>
+			<td>6:30 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+'); 
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(9, 'schedule', 'zh', '聖地亞哥基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+
+	<tbody>
+		<tr>
+			<td>主日崇拜(印尼語、英語)</td>
+			<td>星期日上午</td>
+			<td>9:30 am</td>
+		</tr>
+		<tr>
+			<td>主日學 (英語)</td>
+			<td>星期日上午</td>
+			<td>9:30 am</td>
+		</tr>
+		<tr>
+			<td>禱 告 會 (印尼語) </td>
+			<td>每月第一、三周周 四 晚上 </td>
+			<td>7:00 pm</td>
+		</tr>
+		<tr>
+			<td>夫妻團契(印尼語) </td>
+			<td>每月第二周周 五 晚上  </td>
+			<td>6:30 pm</td>
+		</tr>
+		<tr>
+			<td>青少年團契(英語) </td>
+			<td>每月第四周周 五 晚上 </td>
+			<td>6:30 pm</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');
+
+
+
+-----------end San Diego
 
 ------------starts san francisco
 update church_content set body = STRINGDECODE('<style>
@@ -5837,6 +5910,316 @@ p span.label {font-weight: bold;}
 
 
 ----------ends Italy - milan
+
+	
+---------  starts Holland rotterdam
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Senior Pastor:</td>
+			<td>Rev. Hugo K.Y. Chan</td>
+		</tr>
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. W.H. Tang</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>Donarpad 9, 3072 EB Rotterdam, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>31-(0)10-411-4990</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td>31-(0)84-223-9576</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsi-rotterdam@zonnet.nl">emsirotterdam@gmail.com</a><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>July 1975
+</p>                                  
+<p>
+<img src="/emsi/files/rotterdamsmall.jpg" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />
+We are the first of twelve Netherlands churches established under C.E.M. in Europe (formerly Chinese Evangelical Mission in Europe).
+</p>
+
+<p>1968-1971
+</br>The church started with youth activities and gatherings and gradually developed to spread the Gospel of Jesus Christ.</span>
+</p>
+
+<p>1972-1974
+</br>We started adult Sunday worship, Sunday school and Youth Fellowship in Putse Poort neighborhood in southern Rotterdam. In two years, believers in Christ increased and the Chinese Evangelical Mission in Europe (abbreviated as the Mission below) was established in October 1974.</span>
+</p>
+
+<p>1975-1986
+</br>In early 1975 the Mission bought a property in the old Chinatown (Katendrecht) in Rotterdam as a base to spread the gospel. Our church was also formally established in July of that year. Since then the Church not only spread Gospel to the Chinese in the city of Rotterdam, but also take the responsibility in assisting the Mission to spread the gospel to all Netherland (such as publication of bimonthly periodical, the establishment of social services, Chinese schools and Dutch conversation classes, recreational and sports activities etc.), and expansion of the gospel ministry (such as pioneering youth evangelical outreach programs in den Hague, Utrecht and Amsterdam, etc.)</span>
+</p>
+
+<p>1986-1996
+</br>In September 1986 we moved to the center of Rotterdam at Boomgaardsstraat 232-248. There were three four-story buildings. They could be used for various meetings and activities of the Church on the one hand, and could be leased to Chinese communities for public gatherings and community activities. In ten years, the center was developing Gospel ministries and deeper life ministries in the church fellowships (such as Evergreen, brothers, sisters and young people, and children); it also encouraged the church members to actively participate in the local Chinese organizations and services (such as the Chinese Welfare Association, Chinese schools, the senior citizens\u2019 club and women\u2019s club, etc.) in order to practice the teachings of Christ to love the world.</span>
+</p>
+
+<p>1997-present
+</br>In May 1997 the Mission joined the Evangelical Mission and Seminary International in North America (referred to as EMSI), the Church has changed its name to &quot;EMSI in Europe CEME Rotterdam&quot; (referred to as CEME Rotterdam). The Church has been established over three decades. The gospel needs among the &quot;second generation&quot; Netherlands Chinese is significantly increased. In early 1997, we started additional worship service in Dutch, (twice a month), so that we may reach out to Dutch speaking friends. In1999, EMSI headquarter in North America sent out a mission team to the Netherlands, to start gospel work in Breda and Bergen op Zoom; the Church took up the responsibility to build up CEMC churches there, sending preachers and brothers and sisters responsible for organizing, presiding meetings, and Sunday school, etc.. Now the two churches have grown steadily. There are over three hundred members in our church and the number of friends attending various fellowship are over a hundred. We thank God, who provided a new church building in the old Chinatown (Katendrecht) in September 2009. It can accommodate more people to listen to the Gospel. It also allows different gospel groups to have ample space for gatherings and continue to work for the Lord until His return.</span>
+</p>
+
+</div>
+'	where church_id = (select church_id from church where church_path = 'rotterdam')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">主任牧師:</td>
+			<td>陳啟猷 牧師</td>
+		</tr>
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>鄧偉康  牧師</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Donarpad 9, 3072 EB Rotterdam, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 31-(0)10-411-4990</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">傳真:</td>
+			<td>31-(0)84-223-9576</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:emsi-rotterdam@zonnet.nl">emsirotterdam@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<b>成立日期:</b> 1975年 7月 
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<p>
+<img src="/emsi/files/rotterdamsmall.jpg" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />
+我們是國際福音佈道會-歐洲區-荷蘭分會 (前身是旅歐華僑福音佈道會) 屬下在荷蘭十二間堂會的第一間。
+</p>
+
+<p>1968-1971</br>
+本堂從青少年活動及聚會逐步開拓傳揚基督真理的工作。
+</p>
+
+<p>1972-1974</br>
+借用鹿特丹南部Putse Poort街坊會作成人主日崇拜、主日學及青少年團契聚會之用。兩年間，信奉耶穌基督的僑胞日增，因而旅歐華僑福音佈道會 (下稱佈道會) 於1974年10月正式成立。
+</p>
+
+<p>1975-1986</br>
+1975年初佈道會在鹿特丹舊唐人街 (Katendrecht) 區內購得一棟樓宇作為福音拓展基址。本堂亦於該年七月正式成立。自此本堂不但積極向鹿特丹市的華人傳福音，同時亦挑起協助佈道會舉辦全國的福音預工的重任 (如出版雙月刊、設立社工服務、開辦中文學校及荷語會話班、康樂及體育活動等等)，和拓展福音事工 (如開拓海牙、烏特勒及荷京青年福音事工及夏令會等)。
+</p>
+
+<p>1986-1996</br>
+1986年9月遷往鹿特丹市中心 Boomgaardsstraat 232-248，是三棟四層自購的樓宇，地方不僅可供本堂各項聚會及活動之用，同時又可租借給一些華人公益社團舉辦大型聚會及活動。在此十年期間，本堂一方面發展教會群體事工 (如長青、弟兄、姊妹及青少年、兒童等群體福音及培訓聚會及活動)；另又鼓勵會友們積極參與僑社的組織及服務 (如華人福利促進會、中文學校、老人及婦女會、志願工作團體等等)，以實踐基督愛世人之教誨。
+</p>
+
+<p>1997-至今</br>
+1997年5月佈道會加盟北美國際福音佈道會神學院，本堂亦易名為「歐洲福音佈道會鹿特丹基督教生命堂」(簡稱鹿特丹生命堂)。本堂因創堂已逾三十載，在「第二代」中的福音工作需要明顯增加，為應他們的需要，本堂於1997年初增設荷語崇拜 (每月兩次)，讓我們能有接觸操荷語朋友的機會。1999年中，經北美總會派出短宣隊來荷，開展百合山 (Bergen op Zoom) 和百利達 (Breda) 的福音工作；本堂願意負起在該兩地建立生命堂的責任，派出義務傳道及弟兄姊妹負責組織、領會及主日學等工作，至今該兩堂已穩定成長</br>
+</br>
+目前本堂的大小會友已超過300名，經常參加不同聚會的朋友也有百多人，感謝神，祂為我們於2009年9月在舊唐人街 (Katendrecht) 預備了全新的會址，能容納更多人聽信福音，又能讓不同的福音群體有充裕空間舉行聚會，繼續為主作工，直到主再來的日子！
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'rotterdam')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+---------  ends Holland rotterdam
+	
+----------  starts Holland Den Haag
+
+
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Senior Pastor:</td>
+			<td>Rev. Tze Mui (mobile: +31-(0)-62-879-0131)</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Yen Chow Chan (+31-(0)63-440-0330)
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>Isingstraat 165 A, 2522 JS Den Haag, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>+31-(0)70-388-1785</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>September 3, 1977
+</p>                                  
+<p>
+<img src="/emsi/files/church_denhaag.jpg" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />
+With the growth of Rotterdam families and youths, Elder Tung Lee proposed to start Youth Fellowship and Chinese School on Saturdays in Den Haag. With Ev. Erna Chan (Shi-Mu) leading the youths to spearhead these ministries, and missionary Sister Annemarie Reichel from Germany visiting the Chinses families, contacts were made with the locals in Den Haag, paving the way for establishing a church in Den Haag. In 1977, Elder Lee found a 2 story building in Paulus Petterstraat. With the help of the youth group in renovation, the church dedicated the building on September 3rd, 1977, beginning its Worship Service and Sunday School, thus begin the second church in The Netherlands.
+
+</p>
+
+
+
+</div>
+'	where church_id = (select church_id from church where church_path = 'denhaag')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">主任牧師:</td>
+			<td>梅子開 牧師, 手機: (+31-(0)62-879-0131)</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>陳遠洲 傳道, 手機: (+31-(0)63-440-0330)</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Isingstraat 165 A, 2522 JS Den Haag, The Netherlands</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> +31-(0)70-388-1785</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<b>成立日期:</b> 1977年 9月3日
+
+ 
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<p>
+<img src="/emsi/files/church_denhaag.jpg" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />
+從海牙前往鹿特丹聚會的家庭及青年人日漸加增，李棟長老則建議先在海牙週六開始青年團契及中文學校，由陳師母帶領一批青年弟兄姐妹負責推展這些工作，而從德國來的賴思迪姑娘則負起探訪該市的華人家庭。如此便逐漸擴大接觸該市未信僑胞，為開拓海牙教會鋪路。在一九七七年中，李長老覓得Paulus Potterstraat一棟兩層的樓宇，與當時的一群年青的弟兄姐妹合力裝修，在同年的九月三日舉行獻堂禮，開始每主日的崇拜及主日學，荷蘭第二間生命堂便告誕生了！
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'denhaag')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+
+	
+----------  ends Holland Den Haag
+	
 	
 ----------  starts Holland - arnhem
 
