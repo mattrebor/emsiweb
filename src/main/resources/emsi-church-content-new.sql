@@ -2862,6 +2862,84 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 -----------end San Diego
 
+-----------starts Sacramento
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(13, 'schedule', 'en', 'IEC in San Diego  - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Worship Service (Indonesian)</td>
+			<td>Sunday</td>
+			<td>4:00 pm</td>
+		</tr>
+		<tr>
+			<td>Sunday School (English)</td>
+			<td>Sunday</td>
+			<td>4:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Fellowship (English) </td>
+			<td>Sunday</td>
+			<td>4:00 pm</d>
+		</tr>
+		<tr>
+			<td>Prayer Meeting & Bible Study(Indonesian) </td>
+			<td>Saturday</td>
+			<td>7:00 pm</td>
+		</tr>
+		<tr>
+			<td>Men & Women Fellowship (Indonesian) </td>
+			<td>4th Friday of the month </td>
+			<td>7:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+'); 
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(13, 'schedule', 'zh', '聖地亞哥基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+
+	<tbody>
+		<tr>
+			<td>主日崇拜(印尼語)</td>
+			<td>周 日下午</td>
+			<td>4:00 pm</td>
+		</tr>
+		<tr>
+			<td>主日學 (英語)</td>
+			<td>周 日下午</td>
+			<td>4:00 pm</td>
+		</tr>
+		<tr>
+			<td>青少年團契(英語) </td>
+			<td>周 日下午 </td>
+			<td>4:00 pm</td>
+		</tr>
+		<tr>
+			<td>查經 禱 告 會 (印尼語)  </td>
+			<td>周 六 晚上  </td>
+			<td>7:00 pm</td>
+		</tr>
+		<tr>
+			<td>成人團契(印尼語)  </td>
+			<td>每月第四周 周五 晚上   </td>
+			<td>7:00 pm</td>
+		</tr>
+
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');
+
+
+
+-----------end Sacramento
+
+
+
+
 ------------starts san francisco
 update church_content set body = STRINGDECODE('<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -6802,10 +6880,6 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 			<td class="label">Pastor:</td>
 			<td>Rev. Chi Fan Chung</td>
 		</tr>
-		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Andy Chu</td>
-		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -6867,10 +6941,6 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\">牧師:</td>
 			<td>鍾志勳 牧師</td>
-		</tr>
-		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>朱洪順 傳道</td>
 		</tr>
 	</tbody>
 </table>
