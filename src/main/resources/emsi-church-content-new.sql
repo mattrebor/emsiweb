@@ -6660,6 +6660,76 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
+	
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(18, 'schedule', 'en', 'CEC in Veenendaal - Church Services Schedule', 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周 日 上 午 十 時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>周 日 上 午 十 時  </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>姊妹團契</br>Sisters Fellowship</td>
+			<td>每月第二個  周六上 午 十 時</br>2nd Saturday of the month 10:00 am</td>
+		</tr>
+		<tr>
+			<td>中文 查經</br>Chinese Bible Study</td>
+			<td>每月第二、第四個周一上 午 十 時</br>2nd and 4th Monday of the month 10:00 am</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(18, 'schedule', 'zh', '福臨道基督教生命堂 - 聚會日程', 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周 日 上 午 十 時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>周 日 上 午 十 時  </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>姊妹團契</br>Sisters Fellowship</td>
+			<td>每月第二個  周六上 午 十 時</br>2nd Saturday of the month 10:00 am</td>
+		</tr>
+		<tr>
+			<td>中文 查經</br>Chinese Bible Study</td>
+			<td>每月第二、第四個周一上 午 十 時</br>2nd and 4th Monday of the month 10:00 am</td>
+		</tr>
+	</tbody>
+</table>
+</br>
+
+
+<p>&nbsp;</p>
+');            
+		
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 ----------  ends Holland - veenendaal
 
 	
