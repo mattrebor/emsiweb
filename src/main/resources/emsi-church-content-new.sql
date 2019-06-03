@@ -2863,7 +2863,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 -----------end San Diego
 
 -----------starts Sacramento
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(13, 'schedule', 'en', 'IEC in San Diego  - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(13, 'schedule', 'en', 'IEC in Sacramento  - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
 			<td>Worship Service (Indonesian)</td>
@@ -2897,7 +2897,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 '); 
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(13, 'schedule', 'zh', '聖地亞哥基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(13, 'schedule', 'zh', '沙加緬度基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 
 	<tbody>
 		<tr>
@@ -3130,6 +3130,57 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(11, 'schedule', 'en', 'IEC in San Francisco - Church Services Schedule', 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜(中文)</br>Worship Service (Mandarin)</td>
+			<td>周 日 上 午 9 時 </br>Sunday 9:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學(中文)</br>Sunday School (Mandarin)</td>
+			<td>周 日 上 午 9 時  </br>Sunday 9:00 am</td>
+		</tr>
+		<tr>
+			<td>禱告會(中文)</br>Prayer Meeting (Mandarin) </td>
+			<td>周 三 晚上 7:30</br>Wednesday 7:30 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(11, 'schedule', 'zh', '三籓市基督教生命堂 - 聚會日程', 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜(中文)</br>Worship Service (Mandarin)</td>
+			<td>周 日 上 午 9 時 </br>Sunday 9:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學(中文)</br>Sunday School (Mandarin)</td>
+			<td>周 日 上 午 9 時  </br>Sunday 9:00 am</td>
+		</tr>
+		<tr>
+			<td>禱告會(中文)</br>Prayer Meeting (Mandarin) </td>
+			<td>周 三 晚上 7:30</br>Wednesday 7:30 pm</td>
+		</tr>
+	</tbody>
+</table>
+</br>
+
+
+<p>&nbsp;</p>
+');            
+		
+	
 --------------------ends san francisco
 
 ------------starts sanjose
@@ -6718,17 +6769,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 <p>&nbsp;</p>
 ');            
-		
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
+			
 	
 ----------  ends Holland - veenendaal
 
