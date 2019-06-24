@@ -11210,7 +11210,7 @@ p span.label {font-weight: bold;}
 <tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor: </td>
-			<td>Rev. Hosea Chi 973-335-7337, ext. 219, (C) 973-960-8065</td>
+			<td>Rev. Hosea Chi 973-335-7337, ext. 219</td>
 		</tr>
 
 </tbody>
@@ -11268,7 +11268,7 @@ p span.label {font-weight: bold;}
 <tbody class="borderless-table">
 		<tr>
 			<td class="label">牧師: </td>
-			<td>戚厚生牧師 973-335-7337, ext. 219, (手機) 973-960-8065</td>
+			<td>戚厚生牧師 973-335-7337, ext. 219</td>
 		</tr>
 </tbody>
 </table>
@@ -11410,7 +11410,7 @@ update church_content set body = STRINGDECODE('
 .indentation {margin:20px;}
 </style>
 <p>
-<b>Pastors </b>Rev. Hosea Chi 973-335-7337, ext. 219, (C) 973-960-8065</br>
+<b>Pastors </b>Rev. Hosea Chi 973-335-7337, ext. 219</br>
 </p>
 <p style="padding-left: 55px;">
 Mrs. Chialin Chi, (C) 973-932-3534</p>
@@ -11428,7 +11428,7 @@ Mrs. Chialin Chi, (C) 973-932-3534</p>
 	and page_id = 'contactus';
 	
 update church_content set body = STRINGDECODE('<p>
-<b>牧師: </b> 戚厚生 牧師 973-335-7337, ext. 219, (手機) 973-960-8065<br />
+<b>牧師: </b> 戚厚生 牧師 973-335-7337, ext. 219<br />
 </p>
 <p style="padding-left: 40px;">
 戚陳佳琳 師母, (手機) 973-932-3534</p>
@@ -11445,6 +11445,192 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 -----------------------end Brooklyn 7th ave - used to be called Brooklyn Mandarin - 8th Ave
+	
+
+	
+---------- StatenIsland  New church June 2019 ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(62, 'statenIsland', 1, 11, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(62, 'en', 'menu_name', 'ECMSI in Staten Island');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(62, 'zh', 'menu_name', '希頓島督教生命堂 ');            
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 62);          
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'intro', 'en', 'ECMSI in Staten Island  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor: </td>
+			<td>Rev. Hosea Chi 973-335-7337, ext. 219</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+	<table cellpadding="1px" cellspacing="0px">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">Address:</td>
+				<td>4550 Amboy Road, Staten Island, NY 10312, USA<br/>
+                    (Bethal Evangelical Free Church)</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">Tel#:</td>
+				<td> 646-979-0107 </td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">Email:</td>
+				<td></td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+	<p><span class="label">Established Date: June 1, 2019</span></p>
+<p>
+</p>
+</div>
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'intro', 'zh', '希頓島基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+			<tr>
+				<td class="label">牧師: </td>
+				<td>戚厚生牧師 973-335-7337, ext. 219</td>
+			</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+	<table cellpadding="1" cellspacing="0">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">地址:</td>
+				<td>4550 Amboy Road, Staten Island, NY 10312, USA<br/>
+                    (Bethal Evangelical Free Church)</td>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">電話:</td>
+				<td> 646-979-0107</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">電郵:</td>
+				<td></td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<b>成立日期:</b> 2019年 6月 1日 
+</p>
+<p>
+<span class=\"label\">簡史: </span>
+</p>
+<p>
+</p>
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'contactus', 'en', 'ECMSI in Staten Island - Contact Us', 'ECMSI in Staten Island<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'contactus', 'zh', '希頓島基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'schedule', 'en', 'ECMSI in Staten Island - Church Services Schedule', 
+'<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'schedule', 'zh', '希頓島基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');             
+
+update church set address='4550 Amboy Road, Staten Island, NY 10312, USA', latitude = 40.5421763, longitude = -74.1667657 where church_path = 'statenIsland';
+
+update church_content set body = STRINGDECODE('         
+<style>
+.indentation {margin:20px;}
+</style>
+<p>
+<b>Pastor: </b>Rev. Hosea Chi 973-335-7337, ext. 219</br>
+</p>
+<p style="padding-left: 55px;">
+Mrs. Chialin Chi, (C) 973-932-3534</p>
+<p>
+<b>Address: </b>4550 Amboy Road, Staten Island, NY 10312, USA
+<br/>(Bethal Evangelical Free Church)
+</p>
+<p>
+<b>Tel #: </b> 646-979-0107
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3031.9734245411933!2d-74.16676565029083!3d40.54217627924937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24a535c7f445d%3A0x5613df9f7a2b2cba!2s4550+Amboy+Rd%2C+Staten+Island%2C+NY+10312!5e0!3m2!1sen!2sus!4v1560827263863!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+')	where church_id = (select church_id from church where church_path = 'statenIsland')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+update church_content set body = STRINGDECODE('<p>
+<b>牧師: </b> 戚厚生 牧師 973-335-7337, ext. 219<br />
+</p>
+<p style="padding-left: 40px;">
+戚陳佳琳 師母, (手機) 973-932-3534</p>
+<p>
+<b>地 址: </b>4550 Amboy Road, Staten Island, NY 10312, USA
+<br/>(Bethal Evangelical Free Church)
+</p>
+<p>
+<b>電 話: </b>646-979-0107
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3031.9734245411933!2d-74.16676565029083!3d40.54217627924937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24a535c7f445d%3A0x5613df9f7a2b2cba!2s4550+Amboy+Rd%2C+Staten+Island%2C+NY+10312!5e0!3m2!1sen!2sus!4v1560827263863!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'statenIsland')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+
+
+-----------------------end StatenIsland
+	
+	
+	
 	
 	
 	
