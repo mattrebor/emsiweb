@@ -7097,6 +7097,128 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'utrecht')
 	and locale = 'zh'
 	and page_id = 'intro';
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(22, 'schedule', 'en', 'CEC in Utrecht - Church Services Schedule', 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周 日 上 午 十時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>周 日 上 午 十時  </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>青年團契</br>Yound Adult Fellowship </td>
+			<td>每月隔週五 晚上 八時</br>Every Other Friday 8:00 pm</td>
+		</tr>
+		<tr>
+			<td>青年菏蘭語團契</br>Yound Adult Dutch Fellowship </td>
+			<td>每月隔週三  晚上 八時</br>Every Other Wednesday 8:00 pm</td>
+		</tr>
+		<tr>
+			<td>少年團契</br>Youth Fellowship</td>
+			<td>每月第一個星期日 下午一時  </br>1st Sundays 1:00 pm</td>
+		</tr>
+		<tr>
+			<td>姊妹團契</br>Sister Fellowship</td>
+			<td>每月第一個星期六 上 午 十時  </br>1st Saturdays 10:00 am</td>
+		</tr>
+		<tr>
+			<td>弟兄團契</br>Brother Fellowship</td>
+			<td>每月第一個星期一 晚上 七時  </br>1st Mondays 7:00 pm</td>
+		</tr>
+		<tr>
+			<td>長青團契</br>Ever Green Fellowship</td>
+			<td>每月第三個星期一 下午三時  </br>3rd Mondays 3:00 pm</td>
+		</tr>
+		<tr>
+			<td>國語查經班</br>Mandarin Bible Study</td>
+			<td>每月第一,第三個星期日 下午一時  </br>1st and 3rd Sundays 1:00 pm</td>
+		</tr>
+		<tr>
+			<td>周一 查經班</br>Monday Bible Study</td>
+			<td>每月第二個星期一上 午十時  </br>2nd Mondays 10:00 am</td>
+		</tr>
+		<tr>
+			<td>周 六查經班</br>Saturday Bible Study</td>
+			<td>每月第三,第四個星期六 上午十時  </br>3rd and 4th Saturdays 10:00 am</td>
+		</tr>
+		<tr>
+			<td>伉儷團契</br>Family Fellowship</td>
+			<td>每季一次  </br>Once Every Season</td>
+		</tr>
+	</tbody>
+</table>
+<p>&nbsp;</p>
+');            
+	
+update church_content set body = 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周 日 上 午 十時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>周 日 上 午 十時  </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>青年團契</br>Yound Adult Fellowship </td>
+			<td>每月隔週五 晚上 八時</br>Every Other Friday 8:00 pm</td>
+		</tr>
+		<tr>
+			<td>青年菏蘭語團契</br>Yound Adult Dutch Fellowship </td>
+			<td>每月隔週三  晚上 八時</br>Every Other Wednesday 8:00 pm</td>
+		</tr>
+		<tr>
+			<td>少年團契</br>Youth Fellowship</td>
+			<td>每月第一個星期日 下午一時  </br>1st Sundays 1:00 pm</td>
+		</tr>
+		<tr>
+			<td>姊妹團契</br>Sister Fellowship</td>
+			<td>每月第一個星期六 上 午 十時  </br>1st Saturdays 10:00 am</td>
+		</tr>
+		<tr>
+			<td>弟兄團契</br>Brother Fellowship</td>
+			<td>每月第一個星期一 晚上 七時  </br>1st Mondays 7:00 pm</td>
+		</tr>
+		<tr>
+			<td>長青團契</br>Ever Green Fellowship</td>
+			<td>每月第三個星期一 下午三時  </br>3rd Mondays 3:00 pm</td>
+		</tr>
+		<tr>
+			<td>國語查經班</br>Mandarin Bible Study</td>
+			<td>每月第一,第三個星期日 下午一時  </br>1st and 3rd Sundays 1:00 pm</td>
+		</tr>
+		<tr>
+			<td>周一 查經班</br>Monday Bible Study</td>
+			<td>每月第二個星期一上 午十時  </br>2nd Mondays 10:00 am</td>
+		</tr>
+		<tr>
+			<td>周 六查經班</br>Saturday Bible Study</td>
+			<td>每月第三,第四個星期六 上午十時  </br>3rd and 4th Saturdays 10:00 am</td>
+		</tr>
+		<tr>
+			<td>伉儷團契</br>Family Fellowship</td>
+			<td>每季一次  </br>Once Every Season</td>
+		</tr>
+	</tbody>
+</table>
+</br>
+
+'	where church_id = (select church_id from church where church_path = 'utrecht')
+	and locale = 'zh'
+	and page_id = 'schedule';
+		
+	
 -------------- ends Holland - Utrecht	
 
 	
