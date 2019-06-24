@@ -6512,6 +6512,46 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
+	
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(17, 'schedule', 'en', 'CEC in Arnhem - Church Services Schedule', 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>每月第二、第四個星期日 上 午 十一 時</br>Every 2nd and 4th Sundays 11:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>每月第二、第四個星期日 上 午 十 一時 </br>Every 2nd and 4th Sundays 11:00 am</td>
+		</tr>
+	</tbody>
+</table>
+<p>&nbsp;</p>
+');            
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(17, 'schedule', 'zh', 'CEC in Arnhem - Church Services Schedule', 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>每月第二、第四個星期日 上 午 十一 時</br>Every 2nd and 4th Sundays 11:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>每月第二、第四個星期日 上 午 十 一時 </br>Every 2nd and 4th Sundays 11:00 am</td>
+		</tr>
+	</tbody>
+</table>
+<p>&nbsp;</p>
+');            
+	
+	
+	
 ----------  ends Holland - arnhem
 
 ----------  starts Holland - veenendaal
@@ -7220,6 +7260,71 @@ update church_content set body =
 		
 	
 -------------- ends Holland - Utrecht	
+----------  starts Holland - zwolle
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(24, 'schedule', 'en', 'CEC in Zwolle - Church Services Schedule', 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>星期一 中午 十 二時  </br>Monday 12:00 noon</td>
+		</tr>
+
+		<tr>
+			<td>家庭團契</br>Family Fellowship</td>
+			<td>每月第一個星期一 晚上 七時 </br>1st Mondays 7:00 pm</td>
+		</tr>
+		<tr>
+			<td>查經班</br>Bible Study</td>
+			<td>每月第一個星期一 下午二時  </br>1st Mondays 2:00 pm</td>
+		</tr>
+
+		<tr>
+			<td>祈禱會</br>Prayer Meeting</td>
+			<td>每月兩次週一 下 午 二時 </br>Twice a month on Mondays 2:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+<p>&nbsp;</p>
+');            
+	
+update church_content set body = 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>星期一 中午 十 二時  </br>Monday 12:00 noon</td>
+		</tr>
+
+		<tr>
+			<td>家庭團契</br>Family Fellowship</td>
+			<td>每月第一個星期一 晚上 七時 </br>1st Mondays 7:00 pm</td>
+		</tr>
+		<tr>
+			<td>查經班</br>Bible Study</td>
+			<td>每月第一個星期一 下午二時  </br>1st Mondays 2:00 pm</td>
+		</tr>
+
+		<tr>
+			<td>祈禱會</br>Prayer Meeting</td>
+			<td>每月兩次週一 下 午 二時 </br>Twice a month on Mondays 2:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'zwolle')
+	and locale = 'zh'
+	and page_id = 'schedule';
+	
+
+
+----------  ends Holland zwolle
+	
+	
 
 	
 ------------ Starts breda --------
