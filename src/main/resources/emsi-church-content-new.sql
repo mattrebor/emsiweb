@@ -6532,7 +6532,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <p>&nbsp;</p>
 ');            
 	
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(17, 'schedule', 'zh', 'CEC in Arnhem - Church Services Schedule', 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(17, 'schedule', 'zh', '安恆基督教生命堂 - 聚會日程', 
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -6812,6 +6812,56 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 			
 	
 ----------  ends Holland - veenendaal
+
+----------  starts Holland - Leeuwarden
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(19, 'schedule', 'en', 'CEC in Leeuwarden - Church Services Schedule', 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;">
+	<tbody>
+		<tr>
+			<td>崇拜</br>Worship Service</td>
+			<td>星期二  </br>Tuesday</td>
+			<td>上 午 十 時至十二時</br>10:00 am - 12:00 pm</td>
+			<td>Wijkcentrum Bilgaard</br>社區中心</br>De Hooidollen 8 8918 HV Leeuwarden</td>
+		</tr>
+		<tr>
+			<td>荷蘭東北三省弟兄姊妹聯合聚會</br>The Three Northeastern Provinces of Netherlands Fellowship</td>
+			<td>每月第四個星期一</br>4th Mondays</td>
+			<td>上 午 十 一時 </br>11:00 am</td>
+			<td>Wereldgeluk 餐廳</br>Atoomweg 3 Groningen</td>
+		</tr>
+	</tbody>
+</table>
+<p>&nbsp;</p>
+');            
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(19, 'schedule', 'zh', '樂華城基督教生命堂 - 聚會日程', 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;">
+	<tbody>
+		<tr>
+			<td>崇拜</br>Worship Service</td>
+			<td>星期二  </br>Tuesday</td>
+			<td>上 午 十 時至十二時</br>10:00 am - 12:00 pm</td>
+			<td>Wijkcentrum Bilgaard</br>社區中心</br>De Hooidollen 8 8918 HV Leeuwarden</td>
+		</tr>
+		<tr>
+			<td>荷蘭東北三省弟兄姊妹聯合聚會</br>The Three Northeastern Provinces of Netherlands Fellowship</td>
+			<td>每月第四個星期一</br>4th Mondays</td>
+			<td>上 午 十 一時 </br>11:00 am</td>
+			<td>Wereldgeluk 餐廳</br>Atoomweg 3 Groningen</td>
+		</tr>
+	</tbody>
+</table>
+<p>&nbsp;</p>
+');            
+	
+	
+	
+----------  ends Holland - Leeuwarden
+
 
 	
 ----------  starts Holland - Groningen
@@ -7648,9 +7698,101 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
+	INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(23, 'schedule', 'en', 'CEC in Amsterdam - Church Services Schedule', 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周 日 上 午 十時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>周 日 上 午 十時  </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>但以理少年團契  </br>Daniel (Youth) Fellowship </td>
+			<td>星期日   每月兩次 主日崇拜後</br>Twice a Month on Sunday after service</td>
+		</tr>
+		<tr>
+			<td>提多青年團契</br>Titus (Young Adult) Fellowship </td>
+			<td>星期五晚上 七時半</br>Friday 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>A+P 成人團契</br>A+P (Adult) Fellowship</td>
+			<td>星期三晚上 七時半  </br>Wednesday 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>長青恩典團契</br>Evergreen Grace Fellowship</td>
+			<td>每月第四個星期六 中午 十二時  </br>4th Saturdays 12:00 noon</td>
+		</tr>
+		<tr>
+			<td>教會查經聚會</br>Bible Study</td>
+			<td>每月第二、第四個星期一晚上 七時半  </br>2nd and 4th Mondays 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>約書亞弟兄團契</br>Joshua (Brothers’) Fellowship</td>
+			<td>每月一次   </br>Once a Month</td>
+		</tr>
+		<tr>
+			<td>以斯帖姐妹團契</br>Esther (Sisters’) Fellowship</td>
+			<td>每月一次</br>Once a Month</td>
+		</tr>
+	</tbody>
+</table>
+<p>&nbsp;</p>
+');            
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(23, 'schedule', 'zh', '荷京基督教生命堂 - 聚會日程', 
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周 日 上 午 十時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>周 日 上 午 十時  </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>但以理少年團契  </br>Daniel (Youth) Fellowship </td>
+			<td>星期日   每月兩次 主日崇拜後</br>Twice a Month on Sunday after service</td>
+		</tr>
+		<tr>
+			<td>提多青年團契</br>Titus (Young Adult) Fellowship </td>
+			<td>星期五晚上 七時半</br>Friday 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>A+P 成人團契</br>A+P (Adult) Fellowship</td>
+			<td>星期三晚上 七時半  </br>Wednesday 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>長青恩典團契</br>Evergreen Grace Fellowship</td>
+			<td>每月第四個星期六 中午 十二時  </br>4th Saturdays 12:00 noon</td>
+		</tr>
+		<tr>
+			<td>教會查經聚會</br>Bible Study</td>
+			<td>每月第二、第四個星期一晚上 七時半  </br>2nd and 4th Mondays 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>約書亞弟兄團契</br>Joshua (Brothers’) Fellowship</td>
+			<td>每月一次   </br>Once a Month</td>
+		</tr>
+		<tr>
+			<td>以斯帖姐妹團契</br>Esther (Sisters’) Fellowship</td>
+			<td>每月一次</br>Once a Month</td>
+		</tr>
+	</tbody>
+</table>
+<p>&nbsp;</p>
+');            
+	
+
+	
 ----------  ends Holland - amsterdam
-	
-	
 	
 	
 	
@@ -11109,7 +11251,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ');             
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'en', 'CEC in Tokyo - Contact Us','Christian Evangelical Church in Tokyo<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'zh', '東京 基督教生命堂 - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'zh', '東京基督教生命堂 - 連絡我們','');          
 
 
 
@@ -11236,7 +11378,7 @@ We truly thank the Lord for He opened the door no one can shut. Because time is 
 
 
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'intro', 'zh', '俄備得基督教 生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'intro', 'zh', '俄備得基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
@@ -11305,7 +11447,7 @@ p span.label {font-weight: bold;}
 </div>');
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'en', 'CEMC in Oradell - Contact Us', 'Christian Evangelical Church in Oradell<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'zh', '俄備得 基督教生命堂 - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'zh', '俄備得基督教生命堂 - 連絡我們','');          
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'schedule', 'en', 'CEMC in Oradell - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -12535,7 +12677,7 @@ p span.label {font-weight: bold;}
 
 
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'intro', 'zh', '衛靈盾 基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'intro', 'zh', '衛靈盾基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
@@ -12602,7 +12744,7 @@ p span.label {font-weight: bold;}
 </div>');
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'contactus', 'en', 'CEC in Wellington - Contact Us', 'Christian Evangelical Church in Wellington<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'contactus', 'zh', '俄備得 基督教生命堂 - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'contactus', 'zh', '衛靈盾基督教生命堂 - 連絡我們','');          
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'schedule', 'en', 'CEC in Wellington - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
