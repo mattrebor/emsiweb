@@ -2789,6 +2789,152 @@ update church_content set body = STRINGDECODE('<p>
 ------------ends barcelona
 
 -----------starts San Diego
+
+update church_content set body = '<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Senior Pastor:</td>
+			<td>Rev. Stephen Hosea</td>
+		</tr>
+		<tr>
+			<td class="label">Assistant Pastor:</td>
+			<td>Rev. Kalvin Budiman</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td> c/o First United Methodist Church (Trotter Chapel)<br/>
+			2111 Camino Del Rio South, San Diego, CA 92108</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>(626) 272-5353</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><br />
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>August 2, 2009
+</p>
+<p>
+IEC San Diego was started with a prayer meeting and Bible study on April 27, 2008 at one of member house. In the beginning we held this fellowship with a few people once a month. Until September 2008, we increased our fellowship to twice a month. Due to a need of spiritual growth and a need of a regular place for holding our regular fellowship, in March 22, 2009, we rented the chapel of First United Methodist Church in San Diego. Since then we have continued our fellowship weekly.
+
+</p>
+<p>
+While we were having our fellowship, we continued to seek the guidance of God through our prayers for our future ministry in San Diego. From our observation and research, we found that there were many Indonesians residing in San Diego and around it. They need the gospel of Christ and spiritual guidance. Our vision and burden increased after we had seen the great need in this city. Therefore by the grace of God and the support of Christian Evangelical Mission in America, we had established the Indonesian Evangelical Church on 2 August 2009 with an opening service led by our Bishop, Rev. Moses Yang.
+</p>
+<p>
+We thank God for his guidance and blessing upon this church that our church can continually grow in quantity and quality. In these past three years, God had added some new souls in this church and had raised up more people to serve Him.
+</p>
+<p>
+Our vision and mission of our church is to “Reach out our community to reach the world”. We pray that God will continue to use our church as channel of blessing to reach out the Indonesian community as well as other community in the future in San Diego area.
+</p>
+</div>
+'	where church_id = (select church_id from church where church_path = 'sandiego')
+	and locale = 'en'
+	and page_id = 'intro';
+
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師 :</td>
+			<td>何兆威 牧師</td>
+		</tr>
+		<tr>
+			<td class=\"label\">牧師 :</td>
+			<td>陳善謙 牧師  </td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> c/o First United Methodist Church (Trotter Chapel)<br/>
+			 2111 Camino Del Rio South, San Diego, CA 92108</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td>(626) 272-5353</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<b>成立日期:</b> 2009年 8月2日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+</p>
+<p>
+感謝上帝的恩典與帶領，何兆威牧師與九位弟兄姐妹能於2008年四月27日在聖地牙哥開始查經班。起初是每一個月一次在信徒的家輪流舉行，直到2008年十一月，因信徒覺得靈性的需要，查經班就增加到每一個月兩次舉行；之後看見信徒們渴慕的心，同時為了團契的發展，2009年三月22日，我們租用聖地牙哥衛理工會的副堂開始每週一次的團契。
+</p>
+<p>
+在保持每周團契的這一段期間，我們繼續尋求上帝的引導。主給我們看見和領悟到有許多印尼僑胞定居在聖地亞哥需要福音和靈性的培育。因此得到國際福音佈道會神學院的協助和支持，聖地亞哥生命堂於2009年八月2日正式成立，皆時承蒙總監督楊摩西牧師親臨證道開始第一次崇拜。
+</p>
+<p>
+如今本堂除了每周日崇拜，還有兒童主日學，並且週四晚上查經禱告會；此外每月還有一個周六輪流在信徒家舉行家庭團契和郊外活動，藉此可以接觸到新來的朋友，使他們可以認識主。
+</p>
+<p>
+本堂前面事奉的道路甚是漫長和遙遠，需要同工們多方靠主，努力策劃和發展，讓更多的靈魂信主得救，信徒的靈性可以成長，來完成主的託負和使命，榮耀歸主名。
+
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'sandiego')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+	
+	
+	
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(9, 'schedule', 'en', 'IEC in San Diego  - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -10795,10 +10941,6 @@ p span.label {font-weight: bold;}
 			<td class="label">Pastor:</td>
 			<td>Rev. Mix Chan</td>
 		</tr>
-		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Li Guo</td>
-		</tr>
 	</tbody>
 </table>
 
@@ -10869,10 +11011,6 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label">牧師: </td>
 			<td>陳茂祥 牧師</td>
-		</tr>
-		<tr>
-			<td class="label">傳道:</td>
-			<td>郭莉 傳道</td>
 		</tr>
 </tbody>
 </table>
@@ -11006,9 +11144,6 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. M. C. (Mix) Chan</br>
 </p>
 <p>
-<b>Evangelist: </b>Ev. Li Guo</br>
-</p>
-<p>
 <b>Address: </b>Burgemeestersstraat 28, 3000 Leuven, Belgium</p>
 <p>
 <b>Tel #: </b>+32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)483-441680</p>
@@ -11023,9 +11158,6 @@ update church_content set body = STRINGDECODE('<p>
 update church_content set body = STRINGDECODE('<p>
 <b>牧師: </b> 陳茂祥 牧師<br />
 </p><p>
-<b>傳道: </b> 郭莉 傳道<br />
-</p>
-<p>
 <b>地 址: </b>Burgemeestersstraat 28, 3000 Leuven, Belgium</p>
 <p>
 <b>電 話: </b>+32(0)484-14 86 82 / +32-(0)473-882653 / +32-(0)483-441680</p>
