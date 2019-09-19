@@ -8685,7 +8685,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>黃金歡 傳道, 628-667-879</td>
+			<td>金歡 傳道, 628-667-879</td>
 		</tr>
 		<tr>
 			<td class=\"label\"></td>
@@ -8775,7 +8775,7 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 黃金歡 傳道, 628-667-879
+<b>傳道:</b> 金歡 傳道, 628-667-879
 </p>
 <p>
 <b>傳道:</b> 吳林濤 傳道, 654-852-708
