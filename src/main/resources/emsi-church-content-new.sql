@@ -7573,8 +7573,23 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <img src="/emsi/images/Church_Breda_11_6_18.jpg" align="left" width="360" height="255" hspace="5"/>
-</p><p>On July of 1997, Rev. Moses Yang led several seminary students and co-workers from the North American CEM Headquarters to the Netherlands for a short term mission''s trip. The trip included a three days visitation to families and one night evangelical meeting. The Holy Spirit worked wonders and moved those who were visited and those attended the meeting. They either accepted Christ or were revived. With the encouragement of Rev. Yang,  CEC in Rotterdam offered to send evangelist Tang Kam Fung, and Mr. and Mrs. Kan Yun Tat, to assist Rev. Chan to develop the evangelical work in Breda. The Lord also moved Mr. and Mrs Lim Wuchiang to offer their restaurant as a place for worship. Some of the brothers and sisters from Breda in CEC in Rotterdam also followed to serve. In September, the CEC in Breda began to have Sunday worship and Sunday School.
 </p>
+<p>
+1997-2001<br>
+On July 1999 Reverend Moses Yang led the co-workers and bible institute students from the North American headquarters to the Netherlands for a short missionary trip. This mission included three days of door to door visits in Breda and one evangelical meeting in the evening. The Holy Spirit worked greatly. From the people who were visited and the people who attended the meeting more than twenty believed in the Lord and were refreshed in the spirit. With the encouragement of reverend Yang, the church of Rotterdam was willing to send brother Kan Yun Tat and his wife and sister Tang Kam Fung to help reverend Chan to start the missionary work in Breda. The Lord also moved a brother and his wife to allow the use of their restaurant for gatherings. Some brothers and sisters from Breda who attended church meetings in Rotterdam also immediately participated in the ministry at Breda. In the same year in September the church of Breda began its Sunday worship and Sunday School.
+</p>
+
+<p>2002-2006<br>
+Brother Kan Yun Tat and his wife and sister Tang Kam Fung were transferred back to the church of Rotterdam to minister. That is why reverend Lam Kok On took responsibility of the ministry in Breda in addition to his own ministry in Bergen op Zoom. Different places were rented to serve as places of worship.
+</p>
+<p>2007-2010<br>
+During this period the church of Rotterdam sent voluntary evangelist Linda Chiu to help with the ministry of sisters and youth. The auditorium of elementary school Basisschool De Rietvink was rented every Sunday for Sunday Worship and Sunday school.
+</p>
+
+<p>2011-until now<br>
+From 2011 onwards Linda Chiu became a full time evangelist and took responsibility for the missionary work of the Breda church. This allowed reverend Lam Kok On to focus on his ministry in Bergen op Zoom. In the same year a fixed meeting place was rented at Teteringsedijk 89 C in Breda，until October 2018 buy the current new Church building. In addition to Sunday Worship and Sunday school different gatherings were organized, including fellowships for exchange students, sister fellowships, brother fellowships, youth fellowships and several activities for evangelism, such as: Golden Years fellowship and Praise Dance.
+</p>
+
 </div>
 '	where church_id = (select church_id from church where church_path = 'breda')
 	and locale = 'en'
@@ -7627,10 +7642,22 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace="5" src="/emsi/images/Church_Breda_11_6_18.jpg\" alt=\"CEC in Amsterdam\" align=\"left\" height=\"255\" width=\"360\" />一九八四年前的幾屆青年福音營都有來自荷京地區的青年人参加，後因不易跟進而多有流失。八四年夏令營後，當時在烏特勒教會牧會的黄良明傳道願意負起開拓荷京青年福音工作，每周六早前往該市帶領青年團契。他們在Stadhouderskade租了一個聾啞中心的地方作聚會之用，又有來自其他三個生命堂的青年弟兄姐妹前來協助，很快聚會的人數有顯著的加增。
+<img hspace="5" src="/emsi/images/Church_Breda_11_6_18.jpg\" alt=\"CEC in Amsterdam\" align=\"left\" height=\"255\" width=\"360\" />
 </p>
-<p>
-一九九七年七月北美總會監督楊摩西牧師率領總院神學生及同工來荷短宣，其中包括三天在百利達逐户探訪及一晚的佈道會。聖靈大大動工，被訪和赴會的僑胞決志信主和得復興的有廿多位。在楊牧師的鼓勵下，鹿特丹堂願意派出簡潤達義務傳道夫婦及鄧金鳳姐妹協助陳牧師開拓該市的福音工作。主又感動林武强弟兄夫婦借出他們的餐館作為聚會之用。一些参加鹿特丹堂聚會的百利達地區的弟兄姐妹也隨即参與事奉。同年九月百利達生命堂便開始主日崇拜和主日學。
+<p>1997-2001<br>
+一九九七年七月北美總會監督楊摩西牧師率領總院神學生及同工來荷短宣，其中包括三天在百利達逐户探訪及一晚的佈道會。聖靈大大動工，被訪和赴會的僑胞決志信主和得復興的有廿多位。在楊牧師的鼓勵下，鹿特丹堂願意派出簡潤達弟兄夫婦及鄧金鳳姐妹協助陳牧師開拓該市的福音工作。主又感動一對弟兄夫婦借出他們的餐館作為聚會之用。一些参加鹿特丹堂聚會的百利達地區的弟兄姐妹也隨即参與事奉。同年九月百利達生命堂便開始主日崇拜和主日學。
+</p>
+
+<p>2002-2006<br>
+之後簡潤達弟兄夫婦及鄧金鳳姐妹被調回鹿特丹堂服事，所以由當時在百合山教會牧會的林國安牧師兼任百利達教會的事工，而且也租了不同的地點作為崇拜之用。
+</p>
+
+<p>2007-2010  <br>
+在這段時間鹿特丹教會又派出當時的趙麗娟義務傳道來幫忙姐妹及青少年的工作，當時是每星期日租用一個學校Basisschool De Rietvink的禮堂(Kraanvogel 92, Breda)來做崇拜及主日學的事工。
+</p>
+
+<p>2011-至今    <br>
+從2011年開始，趙麗娟轉為全職的傳道，直接接管了百利達教會的傳道工作，讓林國安牧師可以專心發展百合山的事工。也在同年租了一個固定的會址在Teteringsedijk 89C，直至2018年10買下目前的新會址繼續 發展不單只崇拜及主日學，也開始了不同的團契，包括了留學生團契、姐妹團契、弟兄團契、青少年團契及一些對外的活動，例如：金色年華、讃美操等。
 </p>
 
 </div>
