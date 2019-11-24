@@ -9191,7 +9191,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Worship Address:</td>
-			<td>Floraparkstraat 155, 7531 XG Enschede, The Netherlands</td>
+			<td>Boddenkampstraat 2, 7514 ZA Enschede, The Netherlands</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
@@ -9220,7 +9220,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>September 6, 2009
 </p>                                  
 <p>
-<img hspace="5" src="/emsi/images/Enschele10292014.JPG" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /> </a>Enschede is in the northernmost part of the Nethelands bordering of Germany. The city is home to many Universities. There are many overseas Chinese Students studying here, and also many restaurants nearby. In 2003, the Mission Board sent Sister Pan xx to Enschede for summer training, and upon her graduation in 2004, she was sent to start a Gospel Ministry among college students. Through the support of a college professor, she started a weekly bible study in the dining hall of a dormitory, and many overseas students came to know Christ through this ministry. In the ensuing five years that we have been in Enschede, we have longed to start Sunday Worship Services. In 2009, we started to diligently search for a place, and to pray. The Lord ultimately provided for us unexpectedly good news. A catholic church in the city center was willing to let us hold services there. Within a very short one week span, they agreed to let us use a part of the church for Sunday services and Sunday school at a rental we could afford. On Sept 6, 2009, we held our first Sunday Worship and Baptism Service. We call our church CEC in Enschede 
+<img hspace="5" src="/emsi/images/Church_Enschede_11_2019.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /> </a>Enschede is in the northernmost part of the Nethelands bordering of Germany. The city is home to many Universities. There are many overseas Chinese Students studying here, and also many restaurants nearby. In 2003, the Mission Board sent Sister Pan xx to Enschede for summer training, and upon her graduation in 2004, she was sent to start a Gospel Ministry among college students. Through the support of a college professor, she started a weekly bible study in the dining hall of a dormitory, and many overseas students came to know Christ through this ministry. In the ensuing five years that we have been in Enschede, we have longed to start Sunday Worship Services. In 2009, we started to diligently search for a place, and to pray. The Lord ultimately provided for us unexpectedly good news. A catholic church in the city center was willing to let us hold services there. Within a very short one week span, they agreed to let us use a part of the church for Sunday services and Sunday school at a rental we could afford. On Sept 6, 2009, we held our first Sunday Worship and Baptism Service. We call our church CEC in Enschede 
 </p>
 </div>
 '	where church_id = (select church_id from church where church_path = 'enschede')
@@ -9251,7 +9251,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">教會崇拜地址:</td>
-			<td> Floraparkstraat 155, 7531 XG Enschede, The Netherlands</td>
+			<td> Boddenkampstraat 2, 7514 ZA Enschede, The Netherlands</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
@@ -9280,7 +9280,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace="5" src="/emsi/images/Enschele10292014.JPG" align=\"left\" height=\"255\" width=\"360\" />恩赫斯基(Enschede)是位於荷蘭最東面靠近德國邊境，這個城市有不同的大學，其中有很多中國留學生在這個城市上學及附近有很多餐館行業,從2003年佈道會派神學生潘少萍姊妹往Enschede暑假實習,2004年潘姊妹完成神學後再被派往當地做留學生福音事工,開始了每週性的留學生查經斑，透過一位大學教授為我們在學生旅館的餐廳進行每週的查經,當中亦有不少留學生信主。在Enschede已經5年時間,我們很想開展主日崇拜，所以在2009年頭積極找地方及禱告,上帝總是為我們預備好意想不到的驚喜。而其中一間位於市中心的天主教堂為我們提供了聚會可能性。在很短的一周內對方答應我們可以承受的價格租下了部分場地作崇拜及主日學使用, 並於2009年9月6曰成立並舉行首次崇拜及洗禮。教會名稱為: 恩慈地基督教生命堂。
+<img hspace="5" src="/emsi/images/Church_Enschede_11_2019.jpg" align=\"left\" height=\"255\" width=\"360\" />恩赫斯基(Enschede)是位於荷蘭最東面靠近德國邊境，這個城市有不同的大學，其中有很多中國留學生在這個城市上學及附近有很多餐館行業,從2003年佈道會派神學生潘少萍姊妹往Enschede暑假實習,2004年潘姊妹完成神學後再被派往當地做留學生福音事工,開始了每週性的留學生查經斑，透過一位大學教授為我們在學生旅館的餐廳進行每週的查經,當中亦有不少留學生信主。在Enschede已經5年時間,我們很想開展主日崇拜，所以在2009年頭積極找地方及禱告,上帝總是為我們預備好意想不到的驚喜。而其中一間位於市中心的天主教堂為我們提供了聚會可能性。在很短的一周內對方答應我們可以承受的價格租下了部分場地作崇拜及主日學使用, 並於2009年9月6曰成立並舉行首次崇拜及洗禮。教會名稱為: 恩慈地基督教生命堂。
 </p>
 
 
@@ -9295,7 +9295,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. Louis Chung
 </p>
 <p>
-<b>Worship Address: </b>Floraparkstraat 155, 7531 XG Enschede, The Netherlands
+<b>Worship Address: </b>Boddenkampstraat 2, 7514 ZA Enschede, The Netherlands
 </p>
 <p>
 <b>Office Address: </b>Deurningerstraat 39A, 7514 BD Enschede , The Netherlands
@@ -9307,7 +9307,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Email: </b>emsienschede@gmail.com
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.6457756598124!2d6.916348899999999!3d52.231653099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b81417c452fdd3%3A0x640eb154c8711f99!2sFloraparkstraat+155%2C+7531+XG+Enschede%2C+Netherlands!5e0!3m2!1sen!2sus!4v1441137867217" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.032574831708!2d6.884138215438238!3d52.22462597975939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b813f534dbfa75%3A0x98c665254e9c0601!2sBoddenkampstraat%202%2C%207514%20AV%20Enschede%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1574558867064!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 
 </p>
 ')	where church_id = (select church_id from church where church_path = 'enschede')
@@ -9320,7 +9320,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師:</b> 鍾志勳 牧師
 </p>
 <p>
-<b>教會崇拜地址: </b>Floraparkstraat 155, 7531 XG Enschede, The Netherlands
+<b>教會崇拜地址: </b>Boddenkampstraat 2, 7514 ZA Enschede, The Netherlands
 </p>
 <p>
 <b>辦公室地址: </b>Deurningerstraat 39A, 7514 BD Enschede , The Netherlands
@@ -9333,7 +9333,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2443.6457756598124!2d6.916348899999999!3d52.231653099999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b81417c452fdd3%3A0x640eb154c8711f99!2sFloraparkstraat+155%2C+7531+XG+Enschede%2C+Netherlands!5e0!3m2!1sen!2sus!4v1441137867217" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2444.032574831708!2d6.884138215438238!3d52.22462597975939!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b813f534dbfa75%3A0x98c665254e9c0601!2sBoddenkampstraat%202%2C%207514%20AV%20Enschede%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1574558867064!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'enschede')
 	and locale = 'zh'
