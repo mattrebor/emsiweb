@@ -9190,13 +9190,8 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
-			<td class="label">Worship Address:</td>
+			<td class="label">Address:</td>
 			<td>Boddenkampstraat 2, 7514 ZA Enschede, The Netherlands</td>
-		</tr>
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
-			<td class="label">Office Address:</td>
-			<td>Deurningerstraat 39A, 7514 BD Enschede , The Netherlands</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -9250,13 +9245,8 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">教會崇拜地址:</td>
+			<td class=\"label\">地址:</td>
 			<td> Boddenkampstraat 2, 7514 ZA Enschede, The Netherlands</td>
-		</tr>
-		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">辦公室地址:</td>
-			<td> Deurningerstraat 39A, 7514 BD Enschede , The Netherlands</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -9295,10 +9285,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. Louis Chung
 </p>
 <p>
-<b>Worship Address: </b>Boddenkampstraat 2, 7514 ZA Enschede, The Netherlands
-</p>
-<p>
-<b>Office Address: </b>Deurningerstraat 39A, 7514 BD Enschede , The Netherlands
+<b>Address: </b>Boddenkampstraat 2, 7514 ZA Enschede, The Netherlands
 </p>
 <p>
 <b>Tel #: </b>0031-53-231-0798 / 0031-(0)65-065-2284
@@ -9320,10 +9307,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師:</b> 鍾志勳 牧師
 </p>
 <p>
-<b>教會崇拜地址: </b>Boddenkampstraat 2, 7514 ZA Enschede, The Netherlands
-</p>
-<p>
-<b>辦公室地址: </b>Deurningerstraat 39A, 7514 BD Enschede , The Netherlands
+<b>地址: </b>Boddenkampstraat 2, 7514 ZA Enschede, The Netherlands
 </p>
 <p>
 <b>電話:</b> 0031-53-231-0798 / 0031-(0)65-065-2284
