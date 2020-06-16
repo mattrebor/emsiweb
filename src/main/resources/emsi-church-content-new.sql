@@ -25,7 +25,7 @@ update church set address='71 Old Road, Livingston, NJ 07039, USA', latitude = 4
 update church set address='725 Mountain Avenue, Berkeley Heights, NJ 07922, USA', latitude = 40.669049, longitude = -74.438916 where church_path = 'murrayhill';
 update church set address='456 North Middletown Road, Pearl River, NY 10965, USA', latitude = 41.075231, longitude = -74.013037 where church_path = 'pearlriver';
 update church set address='36 Alpine Road, Towaco, NJ 07082, USA', latitude = 40.922399, longitude = -74.322447 where church_path = 'towaco';
-update church set address='2111 Camino Del Rio South, San Diego, CA 92108, USA', latitude = 32.767192, longitude = -117.142511 where church_path = 'sandiego';
+update church set address='6910b Miramar Road, San Diego, CA 92121, USA', latitude = 32.897902, longitude = -117.171575 where church_path = 'sandiego';
 update church set address='539 North Sunset Avenue, Azusa, CA 91702, USA', latitude = 34.131395, longitude = -117.911747 where church_path = 'losangeles';
 update church set address='400 Brussels Street, San Francisco, CA 94134, USA', latitude = 37.726874, longitude = -122.4056077 where church_path = 'sanfrancisco';
 update church set address='191 E Gish Road, San Jose, CA 95112-4704, USA', latitude = 37.36407, longitude = -121.905978 where church_path = 'sanjose';
@@ -2818,8 +2818,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> c/o First United Methodist Church (Trotter Chapel)<br/>
-			2111 Camino Del Rio South, San Diego, CA 92108</td>
+			<td> 6910b Miramar Road, San Diego, CA 92121, USA</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -2888,8 +2887,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> c/o First United Methodist Church (Trotter Chapel)<br/>
-			 2111 Camino Del Rio South, San Diego, CA 92108</td>
+			<td>6910b Miramar Road, San Diego, CA 92121, USA</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -3003,6 +3001,50 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 <p>&nbsp;</p>
 ');
+
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Senior Pastor: </b>Rev. Stephen Hosea
+</p>
+<p>
+<b>Assistant Pastor: </b>Rev. Kalvin Budiman
+</p>
+<p>
+<b>Address: </b>6910b Miramar Rd., San Diego, CA 92121 USA
+</p>
+<p>
+<b>Tel #: </b>(626) 272-5353
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26806.023104992564!2d-117.16730300000002!3d32.878257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbff536b06a7bb%3A0x4623ff7342bbd6e4!2s6910b%20Miramar%20Rd%2C%20San%20Diego%2C%20CA%2092121!5e0!3m2!1sen!2sus!4v1592272156883!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+</p>
+</p>
+')	where church_id = (select church_id from church where church_path = 'sandiego')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>牧師:</b> 何兆威 牧師
+</p>
+<p>
+<b>牧師:</b> 陳善謙 牧師
+</p>
+<p>
+<b>地址: </b>6910b Miramar Rd., San Diego, CA 92121 USA
+</p>
+<p>
+<b>電話:</b> (626) 272-5353
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26806.023104992564!2d-117.16730300000002!3d32.878257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbff536b06a7bb%3A0x4623ff7342bbd6e4!2s6910b%20Miramar%20Rd%2C%20San%20Diego%2C%20CA%2092121!5e0!3m2!1sen!2sus!4v1592272156883!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+</p>
+')	where church_id = (select church_id from church where church_path = 'sandiego')
+	and locale = 'zh'
+	and page_id = 'contactus';
 
 
 
@@ -3234,7 +3276,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Assistant Pastor: </b>Rev. Tony Ong Teck Meng, (415)935-9877
 </p>
 <p>
-<b>Address: </b>400 Brussels St. San Francisco, CA 94134 USA USA
+<b>Address: </b>400 Brussels St. San Francisco, CA 94134 USA
 </p>
 <p>
 <b>Tel #: </b>(415)656-0886
