@@ -2696,14 +2696,19 @@ update church_content set body = '<table border="1" cellpadding="5">
 			<td>5:30 pm</td>
 		</tr>
 		<tr>
-			<td>Bible Study </td>
+			<td>Fellowship </td>
 			<td>Sunday</td>
-			<td>7:30 pm</td>
+			<td>After Sunday Service</td>
 		</tr>
 		<tr>
-			<td>Fellowship </td>
-			<td>Saturday</td>
-			<td>5:30 - 7:00 pm</td>
+			<td>Bible Study 1</td>
+			<td>Tuesday</td>
+			<td>10:00 - 10:30 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study 1</td>
+			<td>Thursday</td>
+			<td>3:30 - 4:00 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -2722,14 +2727,19 @@ update church_content set body = '<table border="1" cellpadding="5">
 			<td>5:30 pm</td>
 		</tr>
 		<tr>
-			<td>查經禱告會</td>
-			<td>星期日晚</td>
-			<td>7:30 pm</td>
+			<td>信息回應 </td>
+			<td>星期日下午</td>
+			<td>崇拜後</td>
 		</tr>
 		<tr>
-			<td>團契活動 </td>
-			<td>星期六下午</td>
-			<td>5:30 - 7:00 pm</td>
+			<td>查經1</td>
+			<td>星期二晚上</td>
+			<td>10:00  - 10:30 pm</td>
+		</tr>
+		<tr>
+			<td>查經1</td>
+			<td>星期四下午</td>
+			<td>3:30 - 4:00 pm</td>
 		</tr>
 
 	</tbody>
