@@ -9204,11 +9204,11 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	</tbody>
 </table>
 
-<p>&nbsp;</p>
+<p>&nbsp;</p>                     40.381922, -3.714913
 ');             
 
 
-update church set address='Calle Gabriel Usera 6, 28026 Usera Madrid, Spain', latitude = 40.381920, longitude = -3.714913 where church_path = 'usera';
+update church set address='Santoña 7 28026-Usera Madrid, Spain', latitude = 40.381922, longitude = -3.714913 where church_path = 'usera';
 
 update church_content set body = STRINGDECODE('
 <style>
