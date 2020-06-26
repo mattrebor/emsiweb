@@ -1980,6 +1980,32 @@ update church_content set body = STRINGDECODE('
 	and locale = 'zh'
 	and page_id = 'contactus';
 
+insert into church_content (church_id, locale, page_id, title, body) values (34, 'en', 'schedule', 'CEC in Fuenlabrada - Church Services Schedule',
+'<table border="1" cellpadding="5">
+<tr>
+	<td>Worship Service</td>
+	<td>Sunday 7:15 - 8:30 pm</td>
+</tr>
+<tr>
+	<td>Bible Study</td>
+	<td>Tuesday 6:00 - 7:00 pm</td>
+</tr>
+</table>');	
+
+
+insert into church_content (church_id, locale, page_id, title, body) values (34, 'zh', 'schedule','福恩城基督教生命堂 - 聚會日程',
+'<table border="1" cellpadding="5">
+<tr>
+	<td>主日崇拜</td>
+	<td>週日晚上 7:15 - 8:30 pm</td>
+</tr>
+<tr>
+	<td>查經</td>
+	<td>週二晚上 6:00 - 7:00 pm</td>
+</tr>
+</table>');	
+	
+	
 
 --------------  ends Fuenlabrada -------------
 
@@ -3027,7 +3053,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Tel #: </b>(626) 272-5353
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26806.023104992564!2d-117.16730300000002!3d32.878257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbff536b06a7bb%3A0x4623ff7342bbd6e4!2s6910b%20Miramar%20Rd%2C%20San%20Diego%2C%20CA%2092121!5e0!3m2!1sen!2sus!4v1592272156883!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26806.023104992564!2d-117.16730300000002!3d32.878257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbff536b06a7bb%3A0x4623ff7342bbd6e4!2s6910b%20Miramar%20Rd%2C%20San%20Diego%2C%20CA%2092121!5e0!3m2!1sen!2sus!4v1592272156883!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </p>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'sandiego')
@@ -3050,7 +3076,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電話:</b> (626) 272-5353
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26806.023104992564!2d-117.16730300000002!3d32.878257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbff536b06a7bb%3A0x4623ff7342bbd6e4!2s6910b%20Miramar%20Rd%2C%20San%20Diego%2C%20CA%2092121!5e0!3m2!1sen!2sus!4v1592272156883!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d26806.023104992564!2d-117.16730300000002!3d32.878257!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dbff536b06a7bb%3A0x4623ff7342bbd6e4!2s6910b%20Miramar%20Rd%2C%20San%20Diego%2C%20CA%2092121!5e0!3m2!1sen!2sus!4v1592272156883!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'sandiego')
 	and locale = 'zh'
@@ -9023,7 +9049,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">Address:</td>
-				<td>Calle Gabriel Usera 6, 28026 Usera Madrid, Spain</td>
+				<td>Santoña 7 28026-usera Madrid, Spain</td>
 			</tr>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -9092,7 +9118,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">地址:</td>
-				<td>Calle Gabriel Usera 6, 28026 Usera Madrid, Spain</td>
+				<td>Santoña 7 28026-usera Madrid, Spain</td>
 			</tr>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -9182,33 +9208,33 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ');             
 
 
-update church set address='Calle Gabriel Usera 6, 28026 Usera Madrid, Spain', latitude = 40.3867898, longitude = -3.7112273 where church_path = 'usera';
+update church set address='Calle Gabriel Usera 6, 28026 Usera Madrid, Spain', latitude = 40.381920, longitude = -3.714913 where church_path = 'usera';
 
 update church_content set body = STRINGDECODE('
 <style>
 .indentation {margin:20px;}
 </style>
 <p>
-<b>Address: </b>Calle Gabriel Usera 6, 28026 Usera Madrid, Spain
+<b>Address: </b>Santoña 7 28026-usera Madrid, Spain
 </p>
 <p>
 <b>Tel #: </b> 0034-62-0-630-901
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.995615703725!2d-3.711227284604999!3d40.38678977936864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227b1491c7947%3A0xd410355fefdcc138!2sCalle+Gabriel+Usera%2C+6%2C+28026+Madrid%2C+Spain!5e0!3m2!1sen!2sus!4v1530478934289" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
-')	where church_id = (select church_id from church where church_path = 'usera')
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.2153567068754!2d-3.717106950328421!3d40.3819193792679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227a52d5b0a79%3A0xf59ca884dd43a35f!2sCalle%20de%20Santo%C3%B1a%2C%207%2C%2028026%20Madrid%2C%20Spain!5e0!3m2!1sen!2sus!4v1592964253444!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>	</p>
+') where church_id = (select church_id from church where church_path = 'usera')
 	and locale = 'en'
 	and page_id = 'contactus';
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>地 址: </b>Calle Gabriel Usera 6, 28026 Usera Madrid, Spain
+<b>地 址: </b>Santoña 7 28026-usera Madrid, Spain
 </p>
 <p>
 <b>電 話: </b>0034-62-0-630-901
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3038.995615703725!2d-3.711227284604999!3d40.38678977936864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227b1491c7947%3A0xd410355fefdcc138!2sCalle+Gabriel+Usera%2C+6%2C+28026+Madrid%2C+Spain!5e0!3m2!1sen!2sus!4v1530478934289" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.2153567068754!2d-3.717106950328421!3d40.3819193792679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227a52d5b0a79%3A0xf59ca884dd43a35f!2sCalle%20de%20Santo%C3%B1a%2C%207%2C%2028026%20Madrid%2C%20Spain!5e0!3m2!1sen!2sus!4v1592964253444!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
 ')	where church_id = (select church_id from church where church_path = 'usera')
 	and locale = 'zh'
 	and page_id = 'contactus';
