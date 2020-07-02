@@ -8523,7 +8523,7 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 <span class="label">Established Date: </span>December 25, 2002 
 </p>
 <p>
-<img hspace="5" src="/emsi/files/alicante2008med.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />The Ministries of Benidorm and Alicante began about the same time in May 1997. With God\u2019s leading, Benodorm was the first established. Because the driving time between Benidorm to Alicante is 40 minutes, Alicante Brothers and Sisters came to Benidorm to worship. 
+<img hspace="5" src="/emsi/files/alicante-6-2020.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />The Ministries of Benidorm and Alicante began about the same time in May 1997. With God\u2019s leading, Benodorm was the first established. Because the driving time between Benidorm to Alicante is 40 minutes, Alicante Brothers and Sisters came to Benidorm to worship. 
 </p>
 <p>
 After 5 years, the CEC in Alicante in Christmas of 2002 was established. In 2005 February, an apartment in the center of Alicante behind the bus stations was leased for living and worship. Evangelist Li Suxin was sent from the Paris Seminary School in MAY to the CEC in Alicante to establish the missionary work for the Church for CEC in Alicante. 
@@ -8583,7 +8583,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/alicante2008med.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />一九九七年五月間，貝妮東（Benidorm）和愛麗甘地（Alicante）兩城的拓荒工作同時展開。神引導、帶領我們先於貝妮東成立生命堂。由於貝妮東至愛麗甘地只要四十分鐘的車程，因此貝妮東生命堂成立後，就有許多愛麗甘地的弟兄姐妹前來聚會。時隔五年之後，愛麗甘地基督教生命堂終於在二○○二年的聖誕節成立了。
+<img hspace=\"5\" src=\"/emsi/files/alicante-6-2020.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />一九九七年五月間，貝妮東（Benidorm）和愛麗甘地（Alicante）兩城的拓荒工作同時展開。神引導、帶領我們先於貝妮東成立生命堂。由於貝妮東至愛麗甘地只要四十分鐘的車程，因此貝妮東生命堂成立後，就有許多愛麗甘地的弟兄姐妹前來聚會。時隔五年之後，愛麗甘地基督教生命堂終於在二○○二年的聖誕節成立了。
 </p>
 <p>2005年２月，教会在市中心的汽车站后面租到了一套房子可以作为住宿和聚会使用，５月初，从巴黎神学院回来西班牙实习的李素欣就被差派前来爱丽甘地生命堂开展这里教会圣工．
 </p>
