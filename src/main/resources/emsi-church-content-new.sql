@@ -45,7 +45,7 @@ update church set address='Goeseelsstraat 30, 4817 MV Breda, The Netherlands', l
 update church set address='Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherlands', latitude = 51.502719, longitude = 4.282703  where church_path = 'bergenopzoom';
 update church set address='Calle Carolinas, 10, 28039 Madrid, Spain', latitude = 40.4512378, longitude = -3.7048897 where church_path = 'madrid';
 update church set address='C/ Cura Femenia, 1, 46006 Valencia, Spain', latitude = 39.4619848, longitude = -0.3717682 where church_path = 'valencia';
-update church set address='Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante ', latitude = 38.54177, longitude = -0.122675 where church_path = 'benidorm';
+update church set address='Avda. Europa 25, Local-9, 03503 Benidorm Alicante ', latitude = 38.542950192104264, longitude = -0.12028468755987111 where church_path = 'benidorm';
 update church set address='C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain', latitude = 38.339698, longitude = -0.489878 where church_path = 'alicante'; 
 update church set address='Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain', latitude = 28.134365, longitude = -15.432344 where church_path = 'canaria';
 update church set address='Calle Alguacil, 8, 28038 Madrid, Spain', latitude = 40.3960213, longitude = -3.6630519 where church_path = 'southmadrid';
@@ -8258,7 +8258,7 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain</td>
+			<td>Avda. Europa 25, Local-9,03503 Benidorm Alicante , Spain</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -8318,7 +8318,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain</td>
+			<td>Avda. Europa 25, Local-9, 03503 Benidorm Alicante , Spain</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -8365,7 +8365,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. David Zhou, +34-64-029-2666
 </p>
 <p>
-<b>Address: </b>Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain
+<b>Address: </b>Avda. Europa 25, Local-9, 03503 Benidorm Alicante , Spain
 </p>
 <p>
 <b>Tel #: </b>34-965-868-911
@@ -8377,7 +8377,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Fax #: </b>34-965-868-911
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29689.0055337631!2d-0.12279734845522043!3d38.541321720030204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6204f21d5d6ce9%3A0x3a0be5f3ff5a2709!2zQXYuIGRlIGxhIENvbXVuaXRhdCBWYWxlbmNpYW5hLCAxNCwgMDM1MDMgQmVuaWRvcm0sIEFsaWNhbnRlLCDopb_nj63niZk!5e0!3m2!1szh-CN!2sus!4v1493604155354" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.609642990724!2d-0.12251628527185754!3d38.5427655796269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6204f21fdd5645%3A0x6123a4b4bd8cb5a5!2sAv.%20de%20Europa%2C%2025%2C%2003503%20Benidorm%2C%20Alicante%2C%20Spain!5e0!3m2!1sen!2sus!4v1607740370379!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'benidorm')
 	and locale = 'en'
@@ -8389,7 +8389,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道:</b> 周長宇 傳道, +34-64-029-2666
 </p>
 <p>
-<b>地址: </b>Av. de la Comunidad Valenciana 14, Edificio Coblanca 15, Local-7. 03503 Benidorm Alicante , Spain
+<b>地址: </b>Avda. Europa 25, Local-9, 03503 Benidorm Alicante , Spain
 </p>
 <p>
 <b>電話:</b> 34-965-868-911
@@ -8402,7 +8402,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d29689.0055337631!2d-0.12279734845522043!3d38.541321720030204!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6204f21d5d6ce9%3A0x3a0be5f3ff5a2709!2zQXYuIGRlIGxhIENvbXVuaXRhdCBWYWxlbmNpYW5hLCAxNCwgMDM1MDMgQmVuaWRvcm0sIEFsaWNhbnRlLCDopb_nj63niZk!5e0!3m2!1szh-CN!2sus!4v1493604155354" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3120.609642990724!2d-0.12251628527185754!3d38.5427655796269!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6204f21fdd5645%3A0x6123a4b4bd8cb5a5!2sAv.%20de%20Europa%2C%2025%2C%2003503%20Benidorm%2C%20Alicante%2C%20Spain!5e0!3m2!1sen!2sus!4v1607740370379!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'benidorm')
 	and locale = 'zh'
