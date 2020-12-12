@@ -70,7 +70,7 @@
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
 				
 				<ul>
-
+					<li>12/27/2020 East Coast Christian Evangelical Churches Winter Youth Virtual Retreat<br/><a href="${newsUrl}"><i>Learn more</i>  &#9656;</a></li>
 					<li>As Covid-19 outbreak slows down, some CEM churches have resumed or are scheduled to resume Sunday Service.<br/><a href="${newsUrl}"><i>Learn more</i>  &#9656;</a></li>
 					<li>CEMC Church Services during Pandemic<br/><a href="${newsUrl}"><i>Learn more</i>  &#9656;</a></li>
 				</ul>

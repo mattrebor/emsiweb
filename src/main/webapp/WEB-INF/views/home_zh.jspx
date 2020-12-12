@@ -69,7 +69,7 @@
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
 				
 				<ul>				
-				
+					<li>12/27/2020 美東生命堂青少年網上冬令會<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>				
 					<li>新冠肺炎疫情減緩，佈道會各生命堂逐漸恢復在教會敬拜<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>
 					<li>新冠病毒漫延期間佈道會生命堂教會聚會情況<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>
 				</ul>
