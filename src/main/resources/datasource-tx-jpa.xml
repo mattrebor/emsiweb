@@ -32,7 +32,7 @@
 		<jdbc:script location="classpath:emsi-church-content-new.sql" encoding="UTF-8" />		
 		
 		<jdbc:script location="classpath:schema-orderform.sql"/>
-		<jdbc:script location="classpath:orderform-content.sql"/>
+		<jdbc:script location="classpath:orderform-content.sql" encoding="UTF-8"/>
 		
 		<jdbc:script location="classpath:schema-ebi-courses.sql"/>
 		<jdbc:script location="classpath:ebi-courses-content.sql" encoding="UTF-8"/>
