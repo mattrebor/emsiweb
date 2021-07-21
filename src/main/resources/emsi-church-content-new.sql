@@ -5438,10 +5438,7 @@ p span.label {font-weight: bold;}
 			<td class="label">Evangelist:</td>
 			<td>Ev. Zhang Qiong</td>
 		</tr>
-		<tr>
-			<td class="label">Intern Seminarian:</td>
-			<td>Yang, Xi 0081-090-6914-1321</td>
-		</tr>
+
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -5498,10 +5495,7 @@ p span.label {font-weight: bold;}
 			<td class=\"label\">傳道:</td>
 			<td>張瓊 傳道</td>
 		</tr>
-		<tr>
-			<td class=\"label\">實習神學生:</td>
-			<td>楊熙 0081-090-6914-1321</td>
-		</tr>
+
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -5608,9 +5602,6 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Zhang Qiong
 </p>
 <p>
-<b>Intern Seminarian: </b>Yang, Xi 0081-090-6914-1321
-</p>
-<p>
 <b>Address: </b>神戶市中央區元町通 3-2-15ｾﾝﾄﾗﾙﾋﾞﾙ元町3F, Japan
 </p>
 <p>
@@ -5631,9 +5622,6 @@ update church_content set body = STRINGDECODE('<p>
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道:</b> 張瓊 傳道
-</p>
-<p>
-<b>實習神學生:</b> 楊熙 0081-090-6914-1321
 </p>
 <p>
 <b>地址: </b>日本神戶市中央區元町通 3-2-15ｾﾝﾄﾗﾙﾋﾞﾙ元町3F
@@ -5687,11 +5675,7 @@ p span.label {font-weight: bold;}
 			<td>Chao, Yong Ning, 0081-080-3118-8434</td>
 		</tr>
 		<tr>
-			<td class="label">Intern Bible Student:</td>
-			<td>Yang Xi, 0081-090-6914-1321</td>
-		</tr>
-		<tr>
-			<td class="label">  </td>
+			<td class="label"> Assistant Evangelist </td>
 			<td>Ivy Lai, 0081-070-4216-6554</td>
 		</tr>
 	</tbody>
@@ -5750,11 +5734,7 @@ p span.label {font-weight: bold;}
 			<td>曹永寧 傳道, 0081-080-3118-8434</td>
 		</tr>
 		<tr>
-			<td class=\"label\">實習神學生:</td>
-			<td>楊熙, 0081-090-6914-1321</td>
-		</tr>
-		<tr>
-			<td class=\"label\"> </td>
+			<td class=\"label\">助理傳道 </td>
 			<td>黎淑芬, 0081-070-4216-6554</td>
 		</tr>
 	</tbody>
@@ -5805,9 +5785,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Chao, Yong Ning, 0081-080-3118-8434
 </p>
 <p>
-<b>Intern Bible Student: </b>Yang Xi, 0081-090-6914-1321
-</p>
-<p style="padding-left: 140px;">Ivy Lai, 0081-070-4216-6554
+<b>Assistant Evangelist: </b>Ivy Lai, 0081-070-4216-6554
 </p>
 <p>
 <b>Address: </b>Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan
@@ -5832,9 +5810,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道:</b>曹永寧 傳道, 0081-080-3118-8434
 </p>
 <p>
-<b>實習神學生:</b>楊熙, 0081-090-6914-1321
-</p>
-<p style="padding-left: 75px;">黎淑芬, 0081-070-4216-6554
+<b>助理傳道:</b>黎淑芬, 0081-070-4216-6554
 </p>
 <p>
 <b>地址: </b>日本大阪市阿倍野區天王寺町北 1丁目2-2
@@ -11281,7 +11257,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Sau Lan Fong, 81-90-9700-4895</td>
+			<td>Ev. Xiu Lan Fang, 81-90-9700-4895</td>
 		</tr>
 	</tbody>
 </table>
@@ -11292,7 +11268,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan</td>
+			<td>701 SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan</td>
 		</tr>
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -11477,9 +11453,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 
 update church_content set body = STRINGDECODE('<p>
-<b>Evangelist: </b>Ev. Sau Lan Fong</p>
+<b>Evangelist: </b>Ev. Xiu Lan Fang</p>
 <p>
-<b>Address: </b>701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan</p>
+<b>Address: </b>701 SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan</p>
 <p>
 <b>Tel #: </b>81-3-6423-1773</p>
 <p>
@@ -11508,7 +11484,7 @@ update church_content set body = STRINGDECODE('<p>
 
 
 
-update church set address='701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan', latitude = 35.589223, longitude = 139.735285 where church_path = 'tokyo';
+update church set address='701 SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan', latitude = 35.589223, longitude = 139.735285 where church_path = 'tokyo';
 
 ------------ CEC TOKYO end ----------
 
