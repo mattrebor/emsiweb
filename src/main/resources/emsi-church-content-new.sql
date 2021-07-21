@@ -59,7 +59,7 @@ update church set address='73 Avenue de Verdun, 94200 Ivry-sur-Seine, Paris, Fra
 update church set address='Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium', latitude = 51.219508, longitude = 4.417894 where church_path = 'antwerpen';
 update church set address='Rue du Fossé aux Loups 32, 1000 Brussels, Belgium', latitude = 50.8503111, longitude = 4.3546746 where church_path = 'brussels';
 update church set address='Ledebergplein 2, 9050 Ledeberg (Gent), Belgium', latitude = 51.0370008, longitude = 3.7411437 where church_path = 'gent';
-update church set address='Kobe-shi Chuo-ku Motomachi-dori 2-9-1 Shitsu [Room] 703, Japan', latitude = 34.688923, longitude = 135.186962 where church_path = 'kobe';
+--update church set address='Kobe-shi Chuo-ku Motomachi-dori 2-9-1 Shitsu [Room] 703, Japan', latitude = 34.688923, longitude = 135.186962 where church_path = 'kobe';
 --update church set address='Alley 25, Lane 113, Section 3, Mínshēng East Road, Songshan District, Taipei City, Taiwan 105', latitude = 25.0593059, longitude = 121.547255 where church_path = 'taipei';
 update church set address='71 Theal Street, Parow North 7500, South Africa', latitude = -33.883021, longitude = 18.583653where church_path = 'parownorth';
 update church set address='94 Campground Road, Cape Town 7700, South Africa', latitude = -33.965856, longitude = 18.474988 where church_path = 'capetown';
@@ -67,7 +67,7 @@ update church set address='94 Campground Road, Cape Town 7700, South Africa', la
 update church set address='Geograaf 13, Centerpoort-Nieuwgraaf, 6921 EW Duiven, The Netherlands', latitude = 51.96284559999999, longitude = 6.00577570 where church_path = 'arnhem';
 update church set address='Via Stresa, 3, 20125 Milan, Italy', latitude = 45.49278710, longitude = 9.2040530 where church_path = 'milan';
 --update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prato, Italy', latitude = 43.88184649999999, longitude = 11.09375730 where church_path = 'prato';
-update church set address='Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan', latitude = 34.646304, longitude = 135.522001  where church_path = 'osaka';
+update church set address='Room 508，9-9-4 kamiochiai，Saitama-Shi Chuo-Ku，Saitama-Ken, Japan', latitude = 35.90042128626243, longitude = 139.6240947684791  where church_path = 'saitama';
 
 ---------------------update Brooklyn - 7th Ave Fuzhou Service intro page
 
@@ -5438,10 +5438,7 @@ p span.label {font-weight: bold;}
 			<td class="label">Evangelist:</td>
 			<td>Ev. Zhang Qiong</td>
 		</tr>
-		<tr>
-			<td class="label">Intern Seminarian:</td>
-			<td>Yang, Xi 0081-090-6914-1321</td>
-		</tr>
+
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -5498,10 +5495,7 @@ p span.label {font-weight: bold;}
 			<td class=\"label\">傳道:</td>
 			<td>張瓊 傳道</td>
 		</tr>
-		<tr>
-			<td class=\"label\">實習神學生:</td>
-			<td>楊熙 0081-090-6914-1321</td>
-		</tr>
+
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -5608,9 +5602,6 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Zhang Qiong
 </p>
 <p>
-<b>Intern Seminarian: </b>Yang, Xi 0081-090-6914-1321
-</p>
-<p>
 <b>Address: </b>神戶市中央區元町通 3-2-15ｾﾝﾄﾗﾙﾋﾞﾙ元町3F, Japan
 </p>
 <p>
@@ -5631,9 +5622,6 @@ update church_content set body = STRINGDECODE('<p>
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道:</b> 張瓊 傳道
-</p>
-<p>
-<b>實習神學生:</b> 楊熙 0081-090-6914-1321
 </p>
 <p>
 <b>地址: </b>日本神戶市中央區元町通 3-2-15ｾﾝﾄﾗﾙﾋﾞﾙ元町3F
@@ -5687,11 +5675,7 @@ p span.label {font-weight: bold;}
 			<td>Chao, Yong Ning, 0081-080-3118-8434</td>
 		</tr>
 		<tr>
-			<td class="label">Intern Bible Student:</td>
-			<td>Yang Xi, 0081-090-6914-1321</td>
-		</tr>
-		<tr>
-			<td class="label">  </td>
+			<td class="label"> Assistant Evangelist </td>
 			<td>Ivy Lai, 0081-070-4216-6554</td>
 		</tr>
 	</tbody>
@@ -5750,11 +5734,7 @@ p span.label {font-weight: bold;}
 			<td>曹永寧 傳道, 0081-080-3118-8434</td>
 		</tr>
 		<tr>
-			<td class=\"label\">實習神學生:</td>
-			<td>楊熙, 0081-090-6914-1321</td>
-		</tr>
-		<tr>
-			<td class=\"label\"> </td>
+			<td class=\"label\">助理傳道 </td>
 			<td>黎淑芬, 0081-070-4216-6554</td>
 		</tr>
 	</tbody>
@@ -5805,9 +5785,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Chao, Yong Ning, 0081-080-3118-8434
 </p>
 <p>
-<b>Intern Bible Student: </b>Yang Xi, 0081-090-6914-1321
-</p>
-<p style="padding-left: 140px;">Ivy Lai, 0081-070-4216-6554
+<b>Assistant Evangelist: </b>Ivy Lai, 0081-070-4216-6554
 </p>
 <p>
 <b>Address: </b>Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan
@@ -5832,9 +5810,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道:</b>曹永寧 傳道, 0081-080-3118-8434
 </p>
 <p>
-<b>實習神學生:</b>楊熙, 0081-090-6914-1321
-</p>
-<p style="padding-left: 75px;">黎淑芬, 0081-070-4216-6554
+<b>助理傳道:</b>黎淑芬, 0081-070-4216-6554
 </p>
 <p>
 <b>地址: </b>日本大阪市阿倍野區天王寺町北 1丁目2-2
@@ -11281,7 +11257,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Sau Lan Fong, 81-90-9700-4895</td>
+			<td>Ev. Xiu Lan Fang, 81-90-9700-4895</td>
 		</tr>
 	</tbody>
 </table>
@@ -11292,7 +11268,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan</td>
+			<td>701 SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan</td>
 		</tr>
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -11477,9 +11453,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 
 update church_content set body = STRINGDECODE('<p>
-<b>Evangelist: </b>Ev. Sau Lan Fong</p>
+<b>Evangelist: </b>Ev. Xiu Lan Fang</p>
 <p>
-<b>Address: </b>701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan</p>
+<b>Address: </b>701 SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan</p>
 <p>
 <b>Tel #: </b>81-3-6423-1773</p>
 <p>
@@ -11508,7 +11484,7 @@ update church_content set body = STRINGDECODE('<p>
 
 
 
-update church set address='701F SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan', latitude = 35.589223, longitude = 139.735285 where church_path = 'tokyo';
+update church set address='701 SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan', latitude = 35.589223, longitude = 139.735285 where church_path = 'tokyo';
 
 ------------ CEC TOKYO end ----------
 
@@ -12550,86 +12526,6 @@ update church_content set body = '<table border="1" cellpadding="5">
 
 	
 ----------------  ends  pearlriver
-	
-	
----------- Parow-Noord ---------
-
-	INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(49, 'schedule', 'en', 'CEC in Parow-Noord - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<tbody>
-		<tr>
-			<td>Worship</td>
-			<td>Sunday</td>
-			<td>3:00 - 4:30pm</td>
-		</tr>
-		<tr>
-			<td>Children&#39; Sunday School </td>
-			<td>Sunday</td>
-			<td>3:00 - 4:00pm</td>
-		</tr>
-		<tr>
-			<td>Bible Study</td>
-			<td>Thursday</td>
-			<td>7:00 - 9:00pm</td>
-		</tr>
-		<tr>
-			<td>Para Noord Fellowship</td>
-			<td>First Sunday of the Month</td>
-			<td>4:30 - 6:00pm</td>
-		</tr>
-		<tr>
-			<td>Prayer Meeting</td>
-			<td>2nd and 4th Thursday of the Month</td>
-			<td>4:30 - 5:00pm</td>
-		</tr>
-		<tr>
-			<td>Bible Study</td>
-			<td>3rd Sunday of the Month</td>
-			<td>4:30 - 5:00pm</td>
-		</tr>
-	</tbody>
-</table>
-
-<p>&nbsp;</p>
-');            
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(49, 'schedule', 'zh', '八福城基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<tbody>
-		<tr>
-			<td>崇拜 </td>
-			<td>星期日 下午</td>
-			<td>3:00 - 4:30pm</td>
-		</tr>
-		<tr>
-			<td>兒童主日學 </td>
-			<td>星期日 下午</td>
-			<td>3:00 - 4:00pm</td>
-		</tr>
-		<tr>
-			<td>查經班</td>
-			<td>星期四 晚上</td>
-			<td>7:00 - 9:00pm</td>
-		</tr>
-		<tr>
-			<td>八福城團契 </td>
-			<td>每月第一週星期日下午</td>
-			<td>4:30 - 6:00pm</td>
-		</tr>
-		<tr>
-			<td>禱告會</td>
-			<td>每月第二週和第四週星期日下午 </td>
-			<td>4：30 - 5:00 pm</td>
-		</tr>
-		<tr>
-			<td>查經班 </td>
-			<td>每月第三週星期日下午</td>
-			<td>4：30 - 5:00 pm</td>
-		</tr>
-	</tbody>
-</table>
-
-<p>&nbsp;</p>
-');             
-
------------------------end Parow-Noord
 
 
 
@@ -12827,13 +12723,13 @@ update church_content set body = STRINGDECODE('<p>
 ----------------  ends  Africa - Cape Town
 
 
----- wellington ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(54, 'wellington', 1, 3, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(54, 'en', 'menu_name', 'CEC in Wellington');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(54, 'zh', 'menu_name', '衛靈盾基督教生命堂');            
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(17, NULL, 54);          
-
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'intro', 'en', 'CEC in Wellington - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+	
+---------- saitama  New church July 2021 ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(63, 'saitama', 1, 11, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(63, 'en', 'menu_name', 'CEC in Saitama');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(63, 'zh', 'menu_name', '埼玉督教生命堂 ');                     
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 63);   
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'intro', 'en', 'CEC in Saitama  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
@@ -12843,62 +12739,50 @@ p span.label {font-weight: bold;}
 <div class="contact-content">
 <div style="color: #000000; font-size: small">
 <table cellpadding="0px" cellspacing="0px">
-<tbody class="borderless-table">
-<tr>
-<td class="label">Evangelist:</td>
-<td>Ev. William Ng</td>
-</tr>
-</tbody>
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor: </td>
+			<td>Ev. LiHong Lin, (C) 090-3797-8428</td>
+		</tr>
+
+	</tbody>
 </table>
 
 <div style="margin-left: 20px">
-<table cellpadding="1px" cellspacing="0px">
-<tbody class="borderless-table">
-<tr>
-<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
-<td class="label">Address:</td>
-<td>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</td>
-</tr>
-<tr>
-<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-<td class="label">Tel#:</td>
-<td> 27-21-686-2783 / 27-76-515-1934</td>
-</tr>
-<tr>
-<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-<td class="label">Fax#:</td>
-<td> 27-21-686-2783</td>
-</tr>
-<tr>
-<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
-<td class="label">Email:</td>
-<td><a href="mailto: emsi.cecsa@gmail.com"> emsi.cecsa@gmail.com</a></td>
-</tr>
-<tr>
-<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
-<td class="label">Skype:</td>
-<td>cemcapetownsa</td>
-</tr>
-</tbody>
-</table>
+	<table cellpadding="1px" cellspacing="0px">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">Address:</td>
+				<td>Room 508，9-9-4 kamiochiai，Saitama-Shi Chuo-Ku，Saitama-Ken, Japan</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">Tel#:</td>
+				<td>(C) 090-3797-8428</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">Email:</td>
+				<td>shmily9973@yahoo.co.jp</td>			
+			</tr>
+		</tbody>
+	</table>
 </div>
 </div>
 
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">Established Date: </span>2014</p>
+	<p><span class="label">Established Date: Nov. 15, 2015</span></p>
 <p>
-<img hspace="5" src="/emsi/images/Wellingtonsmall.jpg" align="left" height="255" width="360" />
 </p>
-
 </div>
-
 ');
 
 
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'intro', 'zh', '衛靈盾基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'intro', 'zh', '埼玉基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
 p span.label {font-weight: bold;}
@@ -12908,45 +12792,34 @@ p span.label {font-weight: bold;}
 <div class="contact-content">
 <div style="color: #000000; font-size: small">
 <table cellpadding="0" cellspacing="0">
-<tbody class="borderless-table">
-<tr>
-<td class="label">傳道:</td>
-<td>吳偉南 傳道</td>
-</tr>
-</tbody>
+	<tbody class="borderless-table">
+			<tr>
+				<td class="label">牧者: </td>
+				<td>林麗鴻 傳道, (C) 090-3797-8428</td>
+			</tr>
+	</tbody>
 </table>
 &nbsp;
 
 <div style="margin-left: 20px">
-<table cellpadding="1" cellspacing="0">
-<tbody class="borderless-table">
-<tr>
-<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
-<td class="label">地址:</td>
-<td>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</td>
-</tr>
-<tr>
-<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-<td class="label">電話:</td>
-<td> 27-21-686-2783 / 27-76-515-1934 </td>
-</tr>
-<tr>
-<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-<td class="label">傳真:</td>
-<td> 27-21-686-2783 </td>
-</tr>
-<tr>
-<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
-<td class="label">電郵:</td>
-<td><a href="mailto: emsi.cecsa@gmail.com"> emsi.cecsa@gmail.com</a></td>
-</tr>
-<tr>
-<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
-<td class="label">Skype:</td>
-<td>cemcapetownsa</td>
-</tr>
-</tbody>
-</table>
+	<table cellpadding="1" cellspacing="0">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">地址:</td>
+				<td>埼玉縣埼玉市中央區上落合9-9-4-508號</td>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">電話:</td>
+				<td>(C) 090-3797-8428</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">電郵:</td>
+				<td>shmily9973@yahoo.co.jp</td>			
+			</tr>
+		</tbody>
+	</table>
 </div>
 </div>
 
@@ -12954,107 +12827,73 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<b>成立日期:</b> 2014年 
+<b>成立日期:</b> 2015年 11月 15 日
 </p>
 <p>
-<span class=\"label\">簡史: </span><br />
+<span class=\"label\">簡史: </span>
 </p>
 <p>
-<img hspace="5" src="/emsi/images/Wellingtonsmall.jpg" align="left" height="255" width="360" />
 </p>
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'contactus', 'en', 'CEC in Wellington - Contact Us', 'Christian Evangelical Church in Wellington<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'contactus', 'zh', '衛靈盾基督教生命堂 - 連絡我們','');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'schedule', 'en', 'CEC in Wellington - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'contactus', 'en', 'CEC in Saitama - Contact Us', 'CEC in Saitama<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'contactus', 'zh', '埼玉基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'schedule', 'en', 'CEC in Saitama - Church Services Schedule', 
+'<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
-		<tr>
-			<td>Worship</td>
-			<td>Tuesday</td>
-			<td>7:30pm</td>
-		</tr>
-		<tr>
-			<td>Choir Practice </td>
-			<td>Tuesday</td>
-			<td>7:00pm</td>
-		</tr>
-		<tr>
-			<td>Fellowship</td>
-			<td>2nd Tuesday of each month </td>
-			<td>8:30pm</td>
-		</tr>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
-'); 
-
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(54, 'schedule', 'zh', '衛靈盾基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+');            
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'schedule', 'zh', '埼玉基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
-		<tr>
-			<td>崇拜 </td>
-			<td>每週二晚上</td>
-			<td>7:30pm</td>
-		</tr>
-		<tr>
-			<td>詩班練習 </td>
-			<td>每週二晚上</td>
-			<td>7:00pm</td>
-		</tr>
-		<tr>
-			<td>團契</td>
-			<td>每月第二週星期二晚上</td>
-			<td>8:30pm</td>
-		</tr>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
 ');             
 
+update church set address='Room 508，9-9-4 kamiochiai，Saitama-Shi Chuo-Ku，Saitama-Ken, Japan', latitude = 35.90042128626243, longitude = 139.6240947684791 where church_path = 'saitama';
 
-update church set address='22 Jan Van Riebeeck Street, Wellington, 7654, South Africa', latitude =-33.637757, longitude = 19.003839 where church_path = 'wellington';
-
-update church_content set body = STRINGDECODE('<p>
-<b>Evangelist: </b>Ev. William Ng</p>
+update church_content set body = STRINGDECODE('         
+<style>
+.indentation {margin:20px;}
+</style>
 <p>
-<b>Address: </b>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</p>
-<p>
-<b>Tel #: </b>27-21-686-2783 / 27-76-515-1934</p>
-<p>
-<b>Fax #: </b>27-21-686-2783</p>
-<p>
-<b>Email: </b> emsi.cecsa@gmail.com</p>
-<p>
-<b>Skype: </b> cemcapetownsa</p>
-
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;t=m&amp;z=14&amp;ll=-33.637757,19.003839&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;t=m&amp;z=14&amp;ll=-33.637757,19.003839&amp;t=m&amp;z=14&amp;iwloc=A&amp;\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
-
+<b>Pastor: </b>Ev. LiHong Lin, (C) 090-3797-8428
 </p>
-')	where church_id = (select church_id from church where church_path = 'wellington')
+<p>
+<b>Address: </b>Room 508，9-9-4 kamiochiai，Saitama-Shi Chuo-Ku，Saitama-Ken, Japan
+</p>
+<p>
+<b>Tel #: </b> (C) 090-3797-8428
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.9092273179504!2d139.6219168148686!3d35.90023878014376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c16942edd69d%3A0x6de2fd784ae28125!2s9-ch%C5%8Dme-9-4%20Kamiochiai%2C%20Chuo%20Ward%2C%20Saitama%2C%20338-0001%2C%20Japan!5e0!3m2!1sen!2sus!4v1626892204339!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+')	where church_id = (select church_id from church where church_path = 'saitama')
 	and locale = 'en'
 	and page_id = 'contactus';
 	
 update church_content set body = STRINGDECODE('<p>
-<b>傳道: </b>吳偉南 傳道</p>
-<p>
-<b>地址: </b>22 Jan Van Riebeeck Street, Wellington, 7654, South Africa</p>
-<p>
-<b>電話: </b>27-21-686-2783 / 27-76-515-1934</p>
-<p>
-<b>傳真: </b>27-21-686-2783</p>
-<p>
-<b>電郵: </b> emsi.cecsa@gmail.com</p>
-<p>
-<b>Skype: </b> cemcapetownsa</p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;t=m&amp;z=14&amp;ll=-33.637757,19.003839&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=22+Jan+Van+Riebeeck+St,+Wellington,+7654,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=22+Jan+Van+Riebeeck+St,+Wellington+7654,+South+Africa&amp;t=m&amp;z=14&amp;ll=-33.637757,19.003839&amp;t=m&amp;z=14&amp;iwloc=A&amp;\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
+<b>牧者: </b> 林麗鴻 傳道, (C) 090-3797-8428
 </p>
-')	where church_id = (select church_id from church where church_path = 'wellington')
+<p>
+<b>地 址: </b>4埼玉縣埼玉市中央區上落合9-9-4-508號
+</p>
+<p>
+<b>電 話: </b>(C) 090-3797-8428
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.9092273179504!2d139.6219168148686!3d35.90023878014376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c16942edd69d%3A0x6de2fd784ae28125!2s9-ch%C5%8Dme-9-4%20Kamiochiai%2C%20Chuo%20Ward%2C%20Saitama%2C%20338-0001%2C%20Japan!5e0!3m2!1sen!2sus!4v1626892204339!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'saitama')
 	and locale = 'zh'
 	and page_id = 'contactus';
-	
 
------------------------end africa - wellington
 
+
+
+-----------------------end Saitama 
 
 	
