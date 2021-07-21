@@ -59,7 +59,7 @@ update church set address='73 Avenue de Verdun, 94200 Ivry-sur-Seine, Paris, Fra
 update church set address='Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium', latitude = 51.219508, longitude = 4.417894 where church_path = 'antwerpen';
 update church set address='Rue du Fossé aux Loups 32, 1000 Brussels, Belgium', latitude = 50.8503111, longitude = 4.3546746 where church_path = 'brussels';
 update church set address='Ledebergplein 2, 9050 Ledeberg (Gent), Belgium', latitude = 51.0370008, longitude = 3.7411437 where church_path = 'gent';
-update church set address='Kobe-shi Chuo-ku Motomachi-dori 2-9-1 Shitsu [Room] 703, Japan', latitude = 34.688923, longitude = 135.186962 where church_path = 'kobe';
+--update church set address='Kobe-shi Chuo-ku Motomachi-dori 2-9-1 Shitsu [Room] 703, Japan', latitude = 34.688923, longitude = 135.186962 where church_path = 'kobe';
 --update church set address='Alley 25, Lane 113, Section 3, Mínshēng East Road, Songshan District, Taipei City, Taiwan 105', latitude = 25.0593059, longitude = 121.547255 where church_path = 'taipei';
 update church set address='71 Theal Street, Parow North 7500, South Africa', latitude = -33.883021, longitude = 18.583653where church_path = 'parownorth';
 update church set address='94 Campground Road, Cape Town 7700, South Africa', latitude = -33.965856, longitude = 18.474988 where church_path = 'capetown';
@@ -67,7 +67,7 @@ update church set address='94 Campground Road, Cape Town 7700, South Africa', la
 update church set address='Geograaf 13, Centerpoort-Nieuwgraaf, 6921 EW Duiven, The Netherlands', latitude = 51.96284559999999, longitude = 6.00577570 where church_path = 'arnhem';
 update church set address='Via Stresa, 3, 20125 Milan, Italy', latitude = 45.49278710, longitude = 9.2040530 where church_path = 'milan';
 --update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prato, Italy', latitude = 43.88184649999999, longitude = 11.09375730 where church_path = 'prato';
-update church set address='Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan', latitude = 34.646304, longitude = 135.522001  where church_path = 'osaka';
+update church set address='Room 508，9-9-4 kamiochiai，Saitama-Shi Chuo-Ku，Saitama-Ken, Japan', latitude = 35.90042128626243, longitude = 139.6240947684791  where church_path = 'saitama';
 
 ---------------------update Brooklyn - 7th Ave Fuzhou Service intro page
 
@@ -12722,5 +12722,178 @@ update church_content set body = STRINGDECODE('<p>
 	
 ----------------  ends  Africa - Cape Town
 
+
+	
+---------- saitama  New church July 2021 ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(63, 'saitama', 1, 11, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(63, 'en', 'menu_name', 'CEC in Saitama');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(63, 'zh', 'menu_name', '埼玉督教生命堂 ');                     
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 63);   
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'intro', 'en', 'CEC in Saitama  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor: </td>
+			<td>Ev. LiHong Lin, (C) 090-3797-8428</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+	<table cellpadding="1px" cellspacing="0px">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">Address:</td>
+				<td>Room 508，9-9-4 kamiochiai，Saitama-Shi Chuo-Ku，Saitama-Ken, Japan</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">Tel#:</td>
+				<td>(C) 090-3797-8428</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">Email:</td>
+				<td>shmily9973@yahoo.co.jp</td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+	<p><span class="label">Established Date: Nov. 15, 2015</span></p>
+<p>
+</p>
+</div>
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'intro', 'zh', '埼玉基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+			<tr>
+				<td class="label">牧者: </td>
+				<td>林麗鴻 傳道, (C) 090-3797-8428</td>
+			</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+	<table cellpadding="1" cellspacing="0">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">地址:</td>
+				<td>埼玉縣埼玉市中央區上落合9-9-4-508號</td>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">電話:</td>
+				<td>(C) 090-3797-8428</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">電郵:</td>
+				<td>shmily9973@yahoo.co.jp</td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<b>成立日期:</b> 2015年 11月 15 日
+</p>
+<p>
+<span class=\"label\">簡史: </span>
+</p>
+<p>
+</p>
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'contactus', 'en', 'CEC in Saitama - Contact Us', 'CEC in Saitama<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'contactus', 'zh', '埼玉基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'schedule', 'en', 'CEC in Saitama - Church Services Schedule', 
+'<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');            
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'schedule', 'zh', '埼玉基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');             
+
+update church set address='Room 508，9-9-4 kamiochiai，Saitama-Shi Chuo-Ku，Saitama-Ken, Japan', latitude = 35.90042128626243, longitude = 139.6240947684791 where church_path = 'saitama';
+
+update church_content set body = STRINGDECODE('         
+<style>
+.indentation {margin:20px;}
+</style>
+<p>
+<b>Pastor: </b>Ev. LiHong Lin, (C) 090-3797-8428
+</p>
+<p>
+<b>Address: </b>Room 508，9-9-4 kamiochiai，Saitama-Shi Chuo-Ku，Saitama-Ken, Japan
+</p>
+<p>
+<b>Tel #: </b> (C) 090-3797-8428
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.9092273179504!2d139.6219168148686!3d35.90023878014376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c16942edd69d%3A0x6de2fd784ae28125!2s9-ch%C5%8Dme-9-4%20Kamiochiai%2C%20Chuo%20Ward%2C%20Saitama%2C%20338-0001%2C%20Japan!5e0!3m2!1sen!2sus!4v1626892204339!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+')	where church_id = (select church_id from church where church_path = 'saitama')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+update church_content set body = STRINGDECODE('<p>
+<b>牧者: </b> 林麗鴻 傳道, (C) 090-3797-8428
+</p>
+<p>
+<b>地 址: </b>4埼玉縣埼玉市中央區上落合9-9-4-508號
+</p>
+<p>
+<b>電 話: </b>(C) 090-3797-8428
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.9092273179504!2d139.6219168148686!3d35.90023878014376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c16942edd69d%3A0x6de2fd784ae28125!2s9-ch%C5%8Dme-9-4%20Kamiochiai%2C%20Chuo%20Ward%2C%20Saitama%2C%20338-0001%2C%20Japan!5e0!3m2!1sen!2sus!4v1626892204339!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'saitama')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+
+
+-----------------------end Saitama 
 
 	
