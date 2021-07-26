@@ -12754,7 +12754,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">Address:</td>
-				<td>Room 508，9-9-4 kamiochiai，Saitama-Shi Chuo-Ku，Saitama-Ken, Japan</td>
+				<td>Saitama-Ken Saitama-Shi Chuo-Ku Kamiochiai 9-9-4-508, Japan</td>
 			</tr>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -12854,7 +12854,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <p>&nbsp;</p>
 ');             
 
-update church set address='Room 508，9-9-4 kamiochiai，Saitama-Shi Chuo-Ku，Saitama-Ken, Japan', latitude = 35.90042128626243, longitude = 139.6240947684791 where church_path = 'saitama';
+update church set address='Saitama-Ken Saitama-Shi Chuo-Ku Kamiochiai 9-9-4-508, Japan', latitude = 35.90042128626243, longitude = 139.6240947684791 where church_path = 'saitama';
 
 update church_content set body = STRINGDECODE('         
 <style>
@@ -12864,7 +12864,7 @@ update church_content set body = STRINGDECODE('
 <b>Pastor: </b>Ev. LiHong Lin, (C) 090-3797-8428
 </p>
 <p>
-<b>Address: </b>Room 508，9-9-4 kamiochiai，Saitama-Shi Chuo-Ku，Saitama-Ken, Japan
+<b>Address: </b>Saitama-Ken Saitama-Shi Chuo-Ku Kamiochiai 9-9-4-508, Japan
 </p>
 <p>
 <b>Tel #: </b> (C) 090-3797-8428
