@@ -11776,7 +11776,7 @@ p span.label {font-weight: bold;}
 <tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor: </td>
-			<td>Rev. Hosea Chi 973-335-7337, ext. 219</td>
+			<td>Rev. Hosea Chi 973-335-7337, ext. 219,  (C) 646-763-3209</td>
 		</tr>
 
 </tbody>
@@ -11793,12 +11793,12 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 <td class="label">Tel#:</td>
-<td> 646-979-0107 </td>
+<td> 718-871-8828 </td>
 </tr>
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 <td class="label">Email:</td>
-<td> ecmsibrl@gmail.com </td>
+<td> ecmsibkl@gmail.com</td>
 </tr>
 </tbody>
 </table>
@@ -11834,7 +11834,7 @@ p span.label {font-weight: bold;}
 <tbody class="borderless-table">
 		<tr>
 			<td class="label">牧師: </td>
-			<td>戚厚生牧師 973-335-7337, ext. 219</td>
+			<td>戚厚生牧師 973-335-7337, ext. 219, (手機) 646-763-3209</td>
 		</tr>
 </tbody>
 </table>
@@ -11851,12 +11851,12 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 <td class="label">電話:</td>
-<td> 646-979-0107</td>
+<td> 718-871-8828</td>
 </tr>
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 <td class="label">電郵:</td>
-<td> ecmsibrl@gmail.com </td>
+<td> ecmsibkl@gmail.com</td>
 </tr>
 </tbody>
 </table>
@@ -11976,16 +11976,16 @@ update church_content set body = STRINGDECODE('
 .indentation {margin:20px;}
 </style>
 <p>
-<b>Pastors </b>Rev. Hosea Chi 973-335-7337, ext. 219</br>
+<b>Pastors </b>Rev. Hosea Chi 973-335-7337, ext. 219, (C) 646-763-3209</br>
 </p>
 <p style="padding-left: 55px;">
 Mrs. Chialin Chi, (C) 973-932-3534</p>
 <p>
 <b>Address: </b>861 51st Street, Brooklyn, NY 11220, USA</p>
 <p>
-<b>Tel #: </b>646-979-0107</p>
+<b>Tel #: </b>718-871-8828</p>
 <p>
-<b>Email: </b>ecmsibrl@gmail.com</p>
+<b>Email: </b>ecmsibkl@gmail.com</p>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.5506352609455!2d-74.0047536847096!3d40.63979097933986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25acb309f4c8f%3A0xc0a6c546de404469!2s861+51st+St%2C+Brooklyn%2C+NY+11220!5e0!3m2!1sen!2sus!4v1550699399572" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
@@ -11994,16 +11994,16 @@ Mrs. Chialin Chi, (C) 973-932-3534</p>
 	and page_id = 'contactus';
 	
 update church_content set body = STRINGDECODE('<p>
-<b>牧師: </b> 戚厚生 牧師 973-335-7337, ext. 219<br />
+<b>牧師: </b> 戚厚生 牧師 973-335-7337, ext. 219, (手機) 646-763-3209<br />
 </p>
 <p style="padding-left: 40px;">
 戚陳佳琳 師母, (手機) 973-932-3534</p>
 <p>
 <b>地 址: </b>861 51st Street, Brooklyn, NY 11220, USA</p>
 <p>
-<b>電 話: </b>646-979-0107</p>
+<b>電 話: </b>718-871-8828</p>
 <p>
-<b>電 郵: </b>ecmsibrl@gmail.com</p>
+<b>電 郵: </b>ecmsibkl@gmail.com</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3027.5506352609455!2d-74.0047536847096!3d40.63979097933986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25acb309f4c8f%3A0xc0a6c546de404469!2s861+51st+St%2C+Brooklyn%2C+NY+11220!5e0!3m2!1sen!2sus!4v1550699399572" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'brooklynmandarin')
