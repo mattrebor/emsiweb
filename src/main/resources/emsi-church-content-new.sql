@@ -11268,7 +11268,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>701 SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan</td>
+			<td>Tokyo-To, Shinagawa-Ku, Minami-Oi 3-20-5, SS1 Biru, 701</td>
 		</tr>
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -11455,7 +11455,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Xiu Lan Fang</p>
 <p>
-<b>Address: </b>701 SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan</p>
+<b>Address: </b>Tokyo-To, Shinagawa-Ku, Minami-Oi 3-20-5, SS1 Biru, 701</p>
 <p>
 <b>Tel #: </b>81-3-6423-1773</p>
 <p>
@@ -11484,7 +11484,7 @@ update church_content set body = STRINGDECODE('<p>
 
 
 
-update church set address='701 SS1 BIRU 3-20-5 Minamioi, Sinagawa-ku, Tokyo, Japan', latitude = 35.589223, longitude = 139.735285 where church_path = 'tokyo';
+update church set address='Tokyo-To, Shinagawa-Ku, Minami-Oi 3-20-5, SS1 Biru, 701', latitude = 35.589223, longitude = 139.735285 where church_path = 'tokyo';
 
 ------------ CEC TOKYO end ----------
 
