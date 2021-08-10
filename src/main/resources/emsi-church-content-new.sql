@@ -12545,7 +12545,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. William Ng, (C) 0027-(0)76-515-1934</td>
+			<td>Intern Evg. Luke Feng, (C) 0027-(0)74-961-6036</td>
 		</tr>
 	</tbody>
 </table>
@@ -12560,12 +12560,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> 0027-(0)21-686-2783(CEM), 0027-(0)21-686-0714(church)</td>
+			<td> 0027-(0)21-686-0714, (C) 0027-(0)74-961-6036</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:emsi.cecsa@gmail.com">emsi.cecsa@gmail.com</a><br />
+			<td><a href="mailto:haoweifeng23@gmail.com"> haoweifeng23@gmail.com</a><br />
 			</td>
 		</tr>
 		<tr>
@@ -12610,7 +12610,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>吳偉南 傳道 , (C) 0027-(0)76-515-1934</td>
+			<td>實習傳道: 馮皓威, (C) 0027-(0)74-961-6036</td>
 		</tr>
 	</tbody>
 </table>
@@ -12625,12 +12625,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 0027-(0)21-686-2783(佈道會), 0027-(0)21-686-0714(教會) </td>
+			<td> 0027-(0)21-686-0714, (C) 0027-(0)74-961-6036 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: emsi.cecsa@gmail.com"> emsi.cecsa@gmail.com</a></td>
+			<td><a href=\"mailto: haoweifeng23@gmail.com"> haoweifeng23@gmail.com</a></td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_skype.gif\" height=\"16\" width=\"16\" /></td>
@@ -12672,16 +12672,16 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. William Ng, (C) 0027-(0)76-515-1934
+<b>Evangelist: </b> Intern Evg. Luke Feng, (C) 0027-(0)74-961-6036
 </p>
 <p>
 <b>Address: </b>94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa
 </p>
 <p>
-<b>Tel #: 0027-(0)21-686-2783(CEM), 0027-(0)21-686-0714(church)
+<b>Tel #: 0027-(0)21-686-0714, (C) 0027-(0)74-961-6036
 </p>
 <p>
-<b>Email: </b>emsi.cecsa@gmail.com
+<b>Email: </b>haoweifeng23@gmail.com
 </p>
 <p>
 <b>Skype: </b>cemcapetownsa
@@ -12697,16 +12697,16 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道: </b>吳偉南 傳道 , (C) 0027-(0)76-515-1934
+<b>傳道: </b>實習傳道: 馮皓威, (C) 0027-(0)74-961-6036
 </p>
 <p>
 <b>地址: </b>94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa
 </p>
 <p>
-<b>電話:</b> 0027-(0)21-686-2783(佈道會), 0027-(0)21-686-0714(教會)
+<b>電話:</b> 0027-(0)21-686-0714, (C) 0027-(0)74-961-6036
 </p>
 <p>
-<b>電郵: </b>emsi.cecsa@gmail.com
+<b>電郵: </b>haoweifeng23@gmail.com
 </p>
 <p>
 <b>Skype: </b>cemcapetownsa
