@@ -12949,8 +12949,19 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 	<p><span class="label">Established Date: July 2020</span></p>
+
+
 <p>
+In 2019, a sister in my online Bible Study suggested that we should reach out to the Chinese in Kita-Ku, Tokyo and preach the Gospel to them. So I (Evangelist Yang Xi) discussed it with Rev. Moses Yang who then commissioned me to begin that ministry in Kita-Ku, Tokyo. When I went to Tokyo, sister Wang Yu Xing received me, and allowed me to use her house to start a Bible Study.
 </p>
+<p>
+In July 2020, Evangelist Dong Jinbo, who finished her study in EBI in the USA, was commissioned by Rev. Yang to serve with Evangelist Yang Xi in Kita-Ku, Tokyo to outreach to the Chinese there. Soon after, we started Sunday Worship Service in the home of sister Wang Yu Xing as well as a series of Bible teaching classes for those brothers and sisters who want to serve the Lord and preach the Gospel during the pandemic.
+</p>
+<p>
+May the Lord lead us, and bless us so that we can be a blessing for many! May the Lord remember the brothers and sisters who give selflessly for the Lord’s work! May the Lord’s house prosper!
+</p>
+
+
 </div>
 ');
 
