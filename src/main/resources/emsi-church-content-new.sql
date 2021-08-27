@@ -8466,11 +8466,11 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 <table cellPadding="0" cellSpacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
+			<td class="label">Evangelists:</td>
 			<td>Ev. Ruo Shu Chen, +34-618-521-400</td>
 		</tr>
 		<tr>
-			<td class="label">Evangelist:</td>
+			<td class="label"></td>
 			<td>Ev. Na Li, +34-640-292-666</td>
 		</tr>
 	</tbody>
@@ -8529,7 +8529,7 @@ p span.label {font-weight: bold;}
 			<td>陳若抒 傳道, +34-618-521-400</td>
 		</tr>
 		<tr>
-			<td class=\"label\">傳道:</td>
+			<td class=\"label\"></td>
 			<td>李娜 傳道, +34-640-292-666</td>
 		</tr>
 	</tbody>
@@ -8577,10 +8577,11 @@ p span.label {font-weight: bold;}
 update church_content set body = STRINGDECODE('<p>
 <p>
 <p>
-<b>Evangelist: </b>Ruo Shu Chen, +34-618-521-400
+<b>Evangelists: </b>
 </p>
-<p>
-<b>Evangelist: </b>Na Li, +34-640-292-666
+<p style="padding-left: 55px;">Ruo Shu Chen, +34-618-521-400
+</p>
+<p style="padding-left: 55px;">Na Li, +34-640-292-666
 </p>
 <p>
 <b>Address: </b>C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain
@@ -8600,8 +8601,8 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道:</b> 陳若抒 傳道, +34-618-521-400
 </p>
-<p>
-<b>傳道:</b> 李娜 傳道, +34-640-292-666
+<p style="padding-left: 40px;">
+李娜 傳道, +34-640-292-666
 </p>
 <p>
 <b>地址: </b>C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain
@@ -12544,8 +12545,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Intern Evg. Luke Feng, (C) 0027-(0)74-961-6036</td>
+			<td class="label">Intern Evangelist:</td>
+			<td>Luke Feng, (C) 0027-(0)74-961-6036</td>
 		</tr>
 	</tbody>
 </table>
@@ -12609,8 +12610,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>實習傳道: 馮皓威, (C) 0027-(0)74-961-6036</td>
+			<td class=\"label\">實習傳道:</td>
+			<td>馮皓威, (C) 0027-(0)74-961-6036</td>
 		</tr>
 	</tbody>
 </table>
@@ -12672,7 +12673,7 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b> Intern Evg. Luke Feng, (C) 0027-(0)74-961-6036
+<b>Intern Evangelist: </b> Luke Feng, (C) 0027-(0)74-961-6036
 </p>
 <p>
 <b>Address: </b>94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa
@@ -12697,7 +12698,7 @@ update church_content set body = STRINGDECODE('<p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道: </b>實習傳道: 馮皓威, (C) 0027-(0)74-961-6036
+<b>實習傳道: </b>馮皓威, (C) 0027-(0)74-961-6036
 </p>
 <p>
 <b>地址: </b>94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa
@@ -12911,11 +12912,11 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Pastor: </td>
+			<td class="label">Evangelists: </td>
 			<td>Ev. Yang Xi, 070-7546-8175</td>
 		</tr>
 		<tr>
-			<td class="label">Pastor: </td>
+			<td class="label"></td>
 			<td>Ev. Dong Jinbo, 070-7046-5578</td>
 		</tr>
 
@@ -12979,11 +12980,11 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 	<tbody class="borderless-table">
 			<tr>
-				<td class="label">牧者: </td>
+				<td class="label">傳道: </td>
 				<td>楊熙 傳道 (C) 070-7546-8175</td>
 			</tr>
 			<tr>
-				<td class="label">牧者: </td>
+				<td class="label"></td>
 				<td>董金波 傳道 (C) 070-7046-5578</td>
 			</tr>
 	</tbody>
@@ -13069,7 +13070,7 @@ update church_content set body = STRINGDECODE('
 .indentation {margin:20px;}
 </style>
 <p>
-<b>Pastors: </b>
+<b>Evangelists: </b>
 <p style="padding-left: 55px;">
 Ev. Yang Xi, 070-7546-8175</p>
 <p style="padding-left: 55px;">
@@ -13088,13 +13089,14 @@ Ev. Dong Jinbo, 070-7046-5578</p>
 	and locale = 'en'
 	and page_id = 'contactus';
 	
-update church_content set body = STRINGDECODE('<p>
-<b>牧者: </b> 
-<p style="padding-left: 55px;">
-楊熙 傳道, (C) 070-7546-8175</p>
-<p style="padding-left: 55px;">
-董金波 傳道, (C) 070-7046-5578</p></p>
+update church_content set body = STRINGDECODE('
 <p>
+<b>傳道:</b> 楊熙 傳道, (C) 070-7546-8175
+</p>
+<p style="padding-left: 40px;">
+董金波 傳道, (C) 070-7046-5578
+</p>
+
 <b>地 址: </b>4埼玉縣埼玉市中央區上落合9-9-4-508號
 </p>
 <p>
