@@ -6443,8 +6443,20 @@ p span.label {font-weight: bold;}
 			<td>Rev. Tze Mui (mobile: +31-(0)-62-879-0131)</td>
 		</tr>
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Yen Chow Chan (+31-(0)63-440-0330)
+			<td class="label">Evangelists:</td>
+			<td>Ev. Yen Chow Chan (+31-(0)63-440-0330)</td>
+		</tr>
+		<tr>
+			<td class=\"label\"></td>
+			<td>Ev. Tao Wang (+31-(0)-61-749-3457)</td>
+		</tr>
+		<tr>
+			<td class=\"label\"></td>
+			<td>Ev. Chun Yu Lau (+31-(0)61-357-4829)</td>
+		</tr>
+		<tr>
+			<td class=\"label\"></td>
+			<td>Ev. Chandice Lau-Lee (+31-(0)62-884-7813)</td>
 		</tr>
 	</tbody>
 </table>
@@ -6502,7 +6514,19 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>陳遠洲 傳道, 手機: (+31-(0)63-440-0330)</td>
+			<td>陳遠洲 傳道 (+31-(0)63-440-0330)</td>
+		</tr>
+		<tr>
+			<td class=\"label\"></td>
+			<td>王濤 傳道 (+31-(0)61-749-3457)</td>
+		</tr>
+		<tr>
+			<td class=\"label\"></td>
+			<td>劉震宇 傳道 (+31-(0)61-357-4829)</td>
+		</tr>
+		<tr>
+			<td class=\"label\"></td>
+			<td>劉李嘉欣 傳道 (+31-(0)62-884-7813)</td>		
 		</tr>
 	</tbody>
 </table>
@@ -6544,7 +6568,71 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
+
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Senior Pastor: </b>Rev. Tze Mui
+</p>
+<p>
+<b>Evangelists: </b>
+<p style="padding-left: 55px;">
+Ev. Yen Chow Chan (+31-(0)63-440-0330)</p>
+<p style="padding-left: 55px;">
+Ev. Tao Wang (+31-(0)61-749-3457)</p>
+<p style="padding-left: 55px;">
+Ev. Chun Yu Lau (+31-(0)61-357-4829)</p>
+<p style="padding-left: 55px;">
+Ev. Chandice Lau-Lee (+31-(0)62-884-7813)</p>
+<p>
+<b>Address: </b>Isingstraat 165 A, 2522 JS Den Haag, The Netherlands
+</p>
+<p>
+<b>Tel #: </b>+31-(0)70-388-1785
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.005193968731!2d4.321356179334377!3d52.06142907796436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b6e6633f2af7%3A0x3e004e8674e999f2!2sIsingstraat%20165A%2C%202522%20JS%20Den%20Haag%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1631932192900!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'denhaag')
+	and locale = 'en'
+	and page_id = 'contactus';
 	
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>主任牧師:</b> 梅子開 牧師
+</p>
+<p>
+<b>傳道: </b>
+<p style="padding-left: 40px;">
+陳遠洲 傳道 (+31-(0)63-440-0330)</p>
+<p style="padding-left: 40px;">
+王濤 傳道 (+31-(0)61-749-3457)</p>
+<p style="padding-left: 40px;">
+劉震宇 傳道 (+31-(0)61-357-4829)</p>
+<p style="padding-left: 40px;">
+劉李嘉欣 傳道 (+31-(0)62-884-781)</p>
+<p>
+<b>地址: </b>Isingstraat 165 A, 2522 JS Den Haag, The Netherlands
+</p>
+<p>
+<b>電話:</b>+31-(0)70-388-1785
+</p>
+
+
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.005193968731!2d4.321356179334377!3d52.06142907796436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b6e6633f2af7%3A0x3e004e8674e999f2!2sIsingstraat%20165A%2C%202522%20JS%20Den%20Haag%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1631932192900!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'denhaag')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+
+
+
+
+
 
 	
 ----------  ends Holland Den Haag
