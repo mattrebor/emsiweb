@@ -44,7 +44,7 @@ update church set address='Esdoornstraat 25, 8021 WB Zwolle, The Netherlands', l
 update church set address='Goeseelsstraat 30, 4817 MV Breda, The Netherlands', latitude = 51.595722, longitude = 4.796017 where church_path = 'breda';
 update church set address='Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherlands', latitude = 51.502719, longitude = 4.282703  where church_path = 'bergenopzoom';
 update church set address='Calle Carolinas, 10, 28039 Madrid, Spain', latitude = 40.4512378, longitude = -3.7048897 where church_path = 'madrid';
-update church set address='C/ Cura Femenia, 1, 46006 Valencia, Spain', latitude = 39.4619848, longitude = -0.3717682 where church_path = 'valencia';
+update church set address='Calle Brasil 73, Valencia 46018, Spain', latitude = 39.47280, longitude = -0.40080 where church_path = 'valencia';
 update church set address='Avda. Europa 25, Local-9, 03503 Benidorm Alicante ', latitude = 38.542950192104264, longitude = -0.12028468755987111 where church_path = 'benidorm';
 update church set address='C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain', latitude = 38.339698, longitude = -0.489878 where church_path = 'alicante'; 
 update church set address='Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain', latitude = 28.134365, longitude = -15.432344 where church_path = 'canaria';
@@ -8771,6 +8771,315 @@ update church_content set body = '<table border="1" cellpadding="5">
 
 ----------  ends spain - Alicante	
 	
+
+	
+	
+----------  starts spain - Valencia	
+update church_content set body = STRINGDECODE('<style>
+.contact-content {
+FONT-FAMILY: Arial,helvetica,sans-serif
+}
+.contact-content TD {
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px: 
+}
+TD.label {
+WIDTH: 1%; WHITE-SPACE: nowrap; FONT-WEIGHT: bold
+}
+P SPAN.label {
+FONT-WEIGHT: bold
+}
+.main-content {
+FONT-FAMILY: Arial, MingLiU, Helvetica, san-serif; COLOR: #333; FONT-SIZE: 13px
+}
+.borderless-table {
+BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px
+}</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellPadding="0" cellSpacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Yong Chun Ye, (0034)61-861-8993</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellPadding="1" cellSpacing="0">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>Calle Brasil 73, Valencia 46018, Spain</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>34-96-336-5441</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Fax#:</td>
+			<td>34-96-336-5441</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsivalencia@hotmail.com">emsivalencia@hotmail.com</a></td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_skype.gif" height="16" width="16" /></td>
+			<td class="label">Skype:</td>
+			<td>emsivalencia<br />	</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" SIZE="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>December 16, 1996
+</p>
+<p>
+<img hspace="5" src="/emsi/images/Church-Valencia-9-2021.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />
+ The CEC Church in Valencia started in July 1996 when Jian Wei Ye and his brother Yong Wei Ye and a few Christians requested Ev.Yueh Yun Li to come to Valencia and to care for the flock of Christians and to train them. In October, Yueh Yun Li came and started a series of training courses for them. On December 16, 1997 the CEC Church in Valencia was established. They started by using the Baptist Church in C/Ramiro de Maeztu. When there was not enough space in the church, they moved to the present site in July 1998. There were 91 congregants who were baptized from February 1997 to April 2000. The average church attendance is 40-60 people. The previous pastors and evangelists are: Rev. Hosea Chi, Ev. Joan Dan, Ev. Yue Ping Chen, and Ev. Fanny Fu for the caring ministry. Aside from the Church Worship Service, there are two Bible Study groups, prayer meeting, Youth Group and Women’s group. 
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'valencia')
+	and locale = 'en'
+	and page_id = 'intro';
+	
+	
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>葉永春 牧師, (0034) 61-861-8993</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td>Calle Brasil 73, Valencia 46018, Spain</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> 34-96-336-5441</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">傳真:</td>
+			<td>34-96-336-5441</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">電郵:</td>
+			<td><a href="mailto:emsivalencia@hotmail.com">emsivalencia@hotmail.com</a></td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_skype.gif" height="16" width="16" /></td>
+			<td class="label">Skype:</td>
+			<td>emsivalencia<br />	</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<b>成立日期:</b> 1996年 12月16日 
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/images/Church-Valencia-9-2021.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />1996年7月，居住在瓦伦西亚的几位基督徒因渴慕主的话语，风闻马德里基督教生命堂的成立和良好发展，于是邀请李月云传道来培训造就。李月云传道鉴于信徒迫切的灵性需求，开办一系列的造就课程。后来在圣灵的带领和印证之下，于1996年12月26日成立教会。 
+</p>
+<p> 宗旨：我们积极响应主耶稣的大使命，以福音为目的，以圣经为准则，以基督为生命。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'valencia')
+	and locale = 'zh'
+	and page_id = 'intro';
+	
+	
+update church_content set body = STRINGDECODE('<p>
+<p>
+<p>
+<b>Pastor: </b>Rev. Yong Chun Ye, (0034)61-861-8993
+</p>
+<p>
+<b>Address: </b>Calle Brasil 73, Valencia 46018, Spain
+</p>
+<p>
+<b>Tel #: </b>34-96-336-5441
+</p>
+<p>
+<b>Fax #:</b> 34-96-336-5441
+</p>
+<p>
+<b>Email:</b> emsivalencia@hotmail.com
+</p>
+<p>
+<b>Skype:</b> emsivalencia
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.8618019810206!2d-0.4029692504991963!3d39.472450679385396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f6e565c7a4d%3A0xf29cc049270219b9!2sCarrer%20del%20Brasil%2C%2073%2C%2046018%20Val%C3%A8ncia%2C%20Spain!5e0!3m2!1sen!2sus!4v1633228872549!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'valencia')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+	
+update church_content set body = STRINGDECODE('
+<p>
+<b>牧師:</b> 葉永春 牧師, (0034) 61-861-8993
+</p>
+<p>
+<b>地址: </b>Calle Brasil 73, Valencia 46018, Spain
+</p>
+<p>
+<b>電話:</b> 34-96-336-5441
+</p>
+<p>
+<b>傳真:</b> 34-96-336-5441
+</p>
+<p>
+<b>電郵:</b> emsivalencia@hotmail.com
+</p>
+<p>
+<b>Skype:</b> emsivalencia
+</p>
+
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3079.8618019810206!2d-0.4029692504991963!3d39.472450679385396!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd604f6e565c7a4d%3A0xf29cc049270219b9!2sCarrer%20del%20Brasil%2C%2073%2C%2046018%20Val%C3%A8ncia%2C%20Spain!5e0!3m2!1sen!2sus!4v1633228872549!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'valencia')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+	
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(28, 'schedule', 'en', 'CEC in Valencia - Church Services Schedule', 
+'<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+
+
+		<tr>
+			<td>Chinese School </td>
+			<td>Sunday</td>
+			<td>3:00 pm - 4:45 pm</td>
+		</tr>
+		<tr>
+			<td>Sunday Worship/Children Sunday School</td>
+			<td>Sunday</td>
+			<td>5:30 pm - 7:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Fellowship （English Bible Study）</td>
+			<td>Monday</td>
+			<td>6:30 pm - 8:00 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study</td>
+			<td>Tuesday</td>
+			<td>5:30 pm - 6:45 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study/Prayer Meeting</td>
+			<td>Thursday</td>
+			<td>10:00 pm - 11:30 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Basketball</td>
+			<td>Saturday</td>
+			<td>3:30 pm - 6:30 pm</td>
+		</tr>
+		<tr>
+			<td>Sister Fellowship </td>
+			<td>Montly</td>
+			<td>5:30 pm - 7:00 pm</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'); 	
+
+
+
+
+	
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>中文学校 </td>
+			<td>星期日下午</td>
+			<td>3:00 pm - 4:45 pm</td>
+		</tr>
+		<tr>
+			<td>主日崇拜 / 兒童主日學</td>
+			<td>星期日晚上</td>
+			<td>5:30 pm - 7:00 pm</td>
+		</tr>
+		<tr>
+			<td>青少年團契 （西语查经）</td>
+			<td>星期一晚上</td>
+			<td>6:30 pm - 8:00 pm</td>
+		</tr>
+		<tr>
+			<td>查經班</td>
+			<td>星期二晚上</td>
+			<td>5:30 pm - 6:45 pm</td>
+		</tr>
+		<tr>
+			<td>查經禱告會</td>
+			<td>星期四晚上</td>
+			<td>10:00 pm - 11:30 pm</td>
+		</tr>
+		<tr>
+			<td>青年篮球活动</td>
+			<td>星期六下午</td>
+			<td>3:30 pm - 6:30 pm</td>
+		</tr>
+		<tr>
+			<td>姊妹团契 </td>
+			<td>每月一次</td>
+			<td>5:30 pm - 7:00 pm</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'valencia')
+	and locale = 'zh'
+	and page_id = 'schedule';	
+	
+----------  ends spain - Valencia	
+	
+
+
+
+
+
 	
 ---------begins Gran Canaria
 
