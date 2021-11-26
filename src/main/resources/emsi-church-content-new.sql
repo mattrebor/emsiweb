@@ -4847,7 +4847,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">Address:</td>
-				<td>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</td>
+				<td>35-15 Farrington St., Flushing, NY 11354, USA</td>
 			</tr>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -4908,7 +4908,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">地址:</td>
-				<td>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</td>
+				<td>35-15 Farrington St., Flushing, NY 11354, USA</td>
 			</tr>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -5008,7 +5008,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ');             
 
 
-update church set address='41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA', latitude = 40.7550219, longitude = -73.8357917 where church_path = 'performingArtists';
+update church set address='35-15 Farrington St., Flushing, NY 11354, USA', latitude = 40.76409, longitude = -73.83127 where church_path = 'performingArtists';
 
 update church_content set body = STRINGDECODE('
 <style>
@@ -5018,13 +5018,13 @@ update church_content set body = STRINGDECODE('
 <b>Pastor: </b>Professor Jing Huang, 973-335-7177 ext.211
 </p>
 <p>
-<b>Address: </b>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</p>
+<b>Address: </b>35-15 Farrington St., Flushing, NY 11354, USA</p>
 <p>
 <b>Tel #: </b> 917-488-8610</p>
 <p>
 <b>Email: </b>jhuang277@gmail.com </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3183712579007!2d-73.8357916845937!3d40.75502187932727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600ce68c3171%3A0x38c7f1950cd74a88!2s41-42+College+Point+Blvd%2C+Flushing%2C+NY+11355!5e0!3m2!1sen!2sus!4v1485060369549" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.911356709479!2d-73.8334810855588!3d40.763974342372926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600544107ba7%3A0xffe7af47d1e17ca9!2s35-15%20Farrington%20St%2C%20Flushing%2C%20NY%2011354!5e0!3m2!1sen!2sus!4v1637937570878!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'performingArtists')
 	and locale = 'en'
@@ -5035,7 +5035,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧者: </b>黃靜 教授, 973-335-7177 ext.211
 </p>
 <p>
-<b>地 址: </b>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA
+<b>地 址: </b>35-15 Farrington St., Flushing, NY 11354, USA
 </p>
 <p>
 <b>電 話: </b>917-488-8610
@@ -5044,7 +5044,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電 郵: </b>jhuang277@gmail.com
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3183712579007!2d-73.8357916845937!3d40.75502187932727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600ce68c3171%3A0x38c7f1950cd74a88!2s41-42+College+Point+Blvd%2C+Flushing%2C+NY+11355!5e0!3m2!1sen!2sus!4v1485060369549" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.911356709479!2d-73.8334810855588!3d40.763974342372926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600544107ba7%3A0xffe7af47d1e17ca9!2s35-15%20Farrington%20St%2C%20Flushing%2C%20NY%2011354!5e0!3m2!1sen!2sus!4v1637937570878!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'performingArtists')
 	and locale = 'zh'
