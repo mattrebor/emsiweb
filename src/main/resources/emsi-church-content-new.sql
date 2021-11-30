@@ -19,7 +19,7 @@ update church_hierarchy
 
 update church set address='733 47th Street, Brooklyn, NY 11220, USA', latitude =  40.643776, longitude = -74.003064 where church_path = 'brooklyn';
 update church set address='248 Grand Street, New York, NY 10002, USA', latitude = 40.71841, longitude = -73.994011 where church_path = 'chinatown';
-update church set address='41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA', latitude = 40.7550813, longitude = -73.8354977 where church_path = 'queens';
+update church set address='138-10 35th Ave. Flushing, NY 11354, USA', latitude = 40.76549, longitude = -73.882834 where church_path = 'queens';
 update church set address='23 South 2nd Avenue, Highland Park, NJ 08904, USA', latitude = 40.4976633, longitude = -74.4299261 where church_path = 'highlandpark';
 update church set address='71 Old Road, Livingston, NJ 07039, USA', latitude = 40.794605, longitude = -74.348285 where church_path = 'livingston';
 update church set address='725 Mountain Avenue, Berkeley Heights, NJ 07922, USA', latitude = 40.669049, longitude = -74.438916 where church_path = 'murrayhill';
@@ -347,7 +347,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> 41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</td>
+			<td> 138-10 35th Ave. Flushing, NY 11354, USA</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -419,7 +419,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> 41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</td>
+			<td> 138-10 35th Ave. Flushing, NY 11354, USA</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -470,13 +470,13 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Address: </b>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA
+<b>Address: </b>138-10 35th Ave. Flushing, NY 11354, USA
 </p>
 <p>
 <b>Tel #: </b> (C) 917-361-6866
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3154862151764!2d-73.83550304989103!3d40.755085342815654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600ce23452b9%3A0x17655461d6a389e9!2s41-42+College+Point+Blvd+%232b%2C+Flushing%2C+NY+11355!5e0!3m2!1sen!2sus!4v1484795713676" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8680388404505!2d-73.83080068555874!3d40.764927042314525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2601ae0bc4447%3A0xf80373c635c346db!2s138-10%2035th%20Ave%2C%20Flushing%2C%20NY%2011354!5e0!3m2!1sen!2sus!4v1638228936615!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'queens')
 	and locale = 'en'
@@ -484,13 +484,13 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>地址: </b>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA
+<b>地址: </b>138-10 35th Ave. Flushing, NY 11354, USA
 </p>
 <p>
 <b>電話:</b> (手機)917-361-6866
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.3154862151764!2d-73.83550304989103!3d40.755085342815654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600ce23452b9%3A0x17655461d6a389e9!2s41-42+College+Point+Blvd+%232b%2C+Flushing%2C+NY+11355!5e0!3m2!1sen!2sus!4v1484795713676" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8680388404505!2d-73.83080068555874!3d40.764927042314525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2601ae0bc4447%3A0xf80373c635c346db!2s138-10%2035th%20Ave%2C%20Flushing%2C%20NY%2011354!5e0!3m2!1sen!2sus!4v1638228936615!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'queens')
 	and locale = 'zh'
@@ -12415,7 +12415,7 @@ update church_content set body = STRINGDECODE('<p>
 ---------- StatenIsland  New church June 2019 ---------
 INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(62, 'statenIsland', 1, 11, 0);               
 INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(62, 'en', 'menu_name', 'ECMSI in Staten Island');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(62, 'zh', 'menu_name', '希頓島督教生命堂 ');            
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(62, 'zh', 'menu_name', '希頓島基督教生命堂 ');            
 INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 62);          
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'intro', 'en', 'ECMSI in Staten Island  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -13125,7 +13125,7 @@ update church_content set body = STRINGDECODE('<p>
 ---------- saitama  New church July 2021 ---------
 INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(63, 'saitama', 1, 11, 0);               
 INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(63, 'en', 'menu_name', 'CEC in Saitama');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(63, 'zh', 'menu_name', '埼玉督教生命堂 ');                     
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(63, 'zh', 'menu_name', '埼玉基督教生命堂 ');                     
 INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 63);   
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'intro', 'en', 'CEC in Saitama  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -13295,7 +13295,7 @@ update church_content set body = STRINGDECODE('<p>
 ---------- Akabane   New church July 2021 ---------
 INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(64, 'akabane', 1, 11, 0);               
 INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(64, 'en', 'menu_name', 'CEC in Akabane ');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(64, 'zh', 'menu_name', '赤羽督教生命堂 ');                     
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(64, 'zh', 'menu_name', '赤羽基督教生命堂 ');                     
 INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 64);   
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'intro', 'en', 'CEC in Akabane   - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
