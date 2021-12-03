@@ -19,7 +19,7 @@ update church_hierarchy
 
 update church set address='733 47th Street, Brooklyn, NY 11220, USA', latitude =  40.643776, longitude = -74.003064 where church_path = 'brooklyn';
 update church set address='248 Grand Street, New York, NY 10002, USA', latitude = 40.71841, longitude = -73.994011 where church_path = 'chinatown';
-update church set address='138-10 35th Ave. Flushing, NY 11354, USA', latitude = 40.76549, longitude = -73.882834 where church_path = 'queens';
+update church set address='41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA', latitude = 40.7550813, longitude = -73.8354977 where church_path = 'queens';
 update church set address='23 South 2nd Avenue, Highland Park, NJ 08904, USA', latitude = 40.4976633, longitude = -74.4299261 where church_path = 'highlandpark';
 update church set address='71 Old Road, Livingston, NJ 07039, USA', latitude = 40.794605, longitude = -74.348285 where church_path = 'livingston';
 update church set address='725 Mountain Avenue, Berkeley Heights, NJ 07922, USA', latitude = 40.669049, longitude = -74.438916 where church_path = 'murrayhill';
@@ -347,7 +347,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> 138-10 35th Ave. Flushing, NY 11354, USA</td>
+			<td> 41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -419,7 +419,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> 138-10 35th Ave. Flushing, NY 11354, USA</td>
+			<td> 41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -470,13 +470,13 @@ p span.label {font-weight: bold;}
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Address: </b>138-10 35th Ave. Flushing, NY 11354, USA
+<b>Address: </b>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA
 </p>
 <p>
 <b>Tel #: </b> (C) 917-361-6866
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8680388404505!2d-73.83080068555874!3d40.764927042314525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2601ae0bc4447%3A0xf80373c635c346db!2s138-10%2035th%20Ave%2C%20Flushing%2C%20NY%2011354!5e0!3m2!1sen!2sus!4v1638228936615!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.317445531817!2d-73.83570588504826!3d40.75504224291902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600ce68c3171%3A0xe8d52cfce9506432!2s41-42%20College%20Point%20Blvd%20%232b%2C%20Flushing%2C%20NY%2011355!5e0!3m2!1sen!2sus!4v1638498772877!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'queens')
 	and locale = 'en'
@@ -484,13 +484,13 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>地址: </b>138-10 35th Ave. Flushing, NY 11354, USA
+<b>地址: </b>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA
 </p>
 <p>
 <b>電話:</b> (手機)917-361-6866
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8680388404505!2d-73.83080068555874!3d40.764927042314525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2601ae0bc4447%3A0xf80373c635c346db!2s138-10%2035th%20Ave%2C%20Flushing%2C%20NY%2011354!5e0!3m2!1sen!2sus!4v1638228936615!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.317445531817!2d-73.83570588504826!3d40.75504224291902!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600ce68c3171%3A0xe8d52cfce9506432!2s41-42%20College%20Point%20Blvd%20%232b%2C%20Flushing%2C%20NY%2011355!5e0!3m2!1sen!2sus!4v1638498772877!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'queens')
 	and locale = 'zh'
@@ -4847,7 +4847,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">Address:</td>
-				<td>35-15 Farrington St., Flushing, NY 11354, USA</td>
+				<td>138-10 35th Ave, Flushing, NY 11354, USA</td>
 			</tr>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -4908,7 +4908,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">地址:</td>
-				<td>35-15 Farrington St., Flushing, NY 11354, USA</td>
+				<td>138-10 35th Ave, Flushing, NY 11354, USA</td>
 			</tr>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -5008,7 +5008,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ');             
 
 
-update church set address='35-15 Farrington St., Flushing, NY 11354, USA', latitude = 40.76409, longitude = -73.83127 where church_path = 'performingArtists';
+update church set address='138-10 35th Ave, Flushing, NY 11354, USA', latitude = 40.76509, longitude = -73.82859 where church_path = 'performingArtists';
 
 update church_content set body = STRINGDECODE('
 <style>
@@ -5018,13 +5018,13 @@ update church_content set body = STRINGDECODE('
 <b>Pastor: </b>Professor Jing Huang, 973-335-7177 ext.211
 </p>
 <p>
-<b>Address: </b>35-15 Farrington St., Flushing, NY 11354, USA</p>
+<b>Address: </b>138-10 35th Ave, Flushing, NY 11354, USA</p>
 <p>
 <b>Tel #: </b> 917-488-8610</p>
 <p>
 <b>Email: </b>jhuang277@gmail.com </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.911356709479!2d-73.8334810855588!3d40.763974342372926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600544107ba7%3A0xffe7af47d1e17ca9!2s35-15%20Farrington%20St%2C%20Flushing%2C%20NY%2011354!5e0!3m2!1sen!2sus!4v1637937570878!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8680388404923!2d-73.8308006850479!3d40.764927042313595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2601ae0bc4447%3A0xf80373c635c346db!2s138-10%2035th%20Ave%2C%20Flushing%2C%20NY%2011354!5e0!3m2!1sen!2sus!4v1638496895201!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'performingArtists')
 	and locale = 'en'
@@ -5035,7 +5035,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧者: </b>黃靜 教授, 973-335-7177 ext.211
 </p>
 <p>
-<b>地 址: </b>35-15 Farrington St., Flushing, NY 11354, USA
+<b>地 址: </b>138-10 35th Ave, Flushing, NY 11354, USA
 </p>
 <p>
 <b>電 話: </b>917-488-8610
@@ -5044,7 +5044,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電 郵: </b>jhuang277@gmail.com
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.911356709479!2d-73.8334810855588!3d40.763974342372926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2600544107ba7%3A0xffe7af47d1e17ca9!2s35-15%20Farrington%20St%2C%20Flushing%2C%20NY%2011354!5e0!3m2!1sen!2sus!4v1637937570878!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.8680388404923!2d-73.8308006850479!3d40.764927042313595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2601ae0bc4447%3A0xf80373c635c346db!2s138-10%2035th%20Ave%2C%20Flushing%2C%20NY%2011354!5e0!3m2!1sen!2sus!4v1638496895201!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'performingArtists')
 	and locale = 'zh'
