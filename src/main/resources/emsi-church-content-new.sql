@@ -6448,10 +6448,6 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\"></td>
-			<td>Ev. Tao Wang (+31-(0)-61-749-3457)</td>
-		</tr>
-		<tr>
-			<td class=\"label\"></td>
 			<td>Ev. Chun Yu Lau (+31-(0)61-357-4829)</td>
 		</tr>
 		<tr>
@@ -6518,10 +6514,6 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\"></td>
-			<td>王濤 傳道 (+31-(0)61-749-3457)</td>
-		</tr>
-		<tr>
-			<td class=\"label\"></td>
 			<td>劉震宇 傳道 (+31-(0)61-357-4829)</td>
 		</tr>
 		<tr>
@@ -6578,8 +6570,6 @@ update church_content set body = STRINGDECODE('<p>
 <p style="padding-left: 55px;">
 Ev. Yen Chow Chan (+31-(0)63-440-0330)</p>
 <p style="padding-left: 55px;">
-Ev. Tao Wang (+31-(0)61-749-3457)</p>
-<p style="padding-left: 55px;">
 Ev. Chun Yu Lau (+31-(0)61-357-4829)</p>
 <p style="padding-left: 55px;">
 Ev. Chandice Lau-Lee (+31-(0)62-884-7813)</p>
@@ -6606,8 +6596,6 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道: </b>
 <p style="padding-left: 40px;">
 陳遠洲 傳道 (+31-(0)63-440-0330)</p>
-<p style="padding-left: 40px;">
-王濤 傳道 (+31-(0)61-749-3457)</p>
 <p style="padding-left: 40px;">
 劉震宇 傳道 (+31-(0)61-357-4829)</p>
 <p style="padding-left: 40px;">
