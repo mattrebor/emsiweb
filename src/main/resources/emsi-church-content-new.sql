@@ -6440,7 +6440,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Senior Pastor:</td>
-			<td>Rev. Tze Mui (mobile: +31-(0)-62-879-0131)</td>
+			<td>Rev. Hugo K. Y. Chan</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelists:</td>
@@ -6506,7 +6506,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">主任牧師:</td>
-			<td>梅子開 牧師, 手機: (+31-(0)62-879-0131)</td>
+			<td>陳啟猷 牧師</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
@@ -6563,7 +6563,7 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Senior Pastor: </b>Rev. Tze Mui
+<b>Senior Pastor: </b>Rev. Hugo K. Y. Chan
 </p>
 <p>
 <b>Evangelists: </b>
@@ -6590,7 +6590,7 @@ Ev. Chandice Lau-Lee (+31-(0)62-884-7813)</p>
 	
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>主任牧師:</b> 梅子開 牧師
+<b>主任牧師:</b> 陳啟猷 牧師
 </p>
 <p>
 <b>傳道: </b>
@@ -12194,8 +12194,10 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">Established Date: </span>December 23, 2014</p>
-<p>We held our first evangelical meeting at the intersection of 44th St. near 8th Av. on Dec. 23, 2014. Rev. Moses Yang, the Bishop of Christian Evangelical Mission presided over the meeting. The Evangelical Church, Mission & Seminary International in Brooklyn was established that day. Rev. Hosea Chi was appointed the minister of the church and several brothers and sisters from our sister church in Chinatown were assigned to serve in this new church. A few brothers and sisters were moved to volunteer themselves in this evangelical outreach work at the 8th Avenue in Brooklyn.
+<p><span class="label">Established Date: </span>December 23, 2014</p>                                
+<p>
+<img src="/emsi/images/Brooklyn-1-2022.jpg" alt="view church photo gallery" height="255" align="left" hspace="5" width="360" />
+We held our first evangelical meeting at the intersection of 44th St. near 8th Av. on Dec. 23, 2014. Rev. Moses Yang, the Bishop of Christian Evangelical Mission presided over the meeting. The Evangelical Church, Mission & Seminary International in Brooklyn was established that day. Rev. Hosea Chi was appointed the minister of the church and several brothers and sisters from our sister church in Chinatown were assigned to serve in this new church. A few brothers and sisters were moved to volunteer themselves in this evangelical outreach work at the 8th Avenue in Brooklyn.
 </p>
 <p>In searching for a church location, we saw the leading of our Lord. In God’s miraculous leading, Rev. Moses Yang located the phone number of the Bay Ridge Christian Center from the name cards of the pastor he met in the Israel tour in 2008 and contacted them. We had faith that they would lease their church building to us for Sunday worship, and they did. On Mother’s day, May 10th, 2015, we held our first Sunday worship there.
 </p>
@@ -12258,7 +12260,9 @@ p span.label {font-weight: bold;}
 <p>
 <span class=\"label\">簡史: </span><br />
 </p>
-<p>2014年12月23日我們在八大道44街舉辦第一次福音佈道會，佈道會監督楊摩西牧師主持，當晚希伯崙基督教生命堂教會成立，指派戚厚生牧師夫婦牧養、及幾位中國城生命堂的弟兄姊妹協助教會事工；是日亦有弟兄姊妹被感動願意投入布祿崙八大道的華人福音事工。
+<p>
+<img src="/emsi/images/Brooklyn-1-2022.jpg" alt="view church photo gallery" height="255" align="left" hspace="5" width="360" />
+2014年12月23日我們在八大道44街舉辦第一次福音佈道會，佈道會監督楊摩西牧師主持，當晚希伯崙基督教生命堂教會成立，指派戚厚生牧師夫婦牧養、及幾位中國城生命堂的弟兄姊妹協助教會事工；是日亦有弟兄姊妹被感動願意投入布祿崙八大道的華人福音事工。
 </p>
 <p>在尋找禮拜堂堂址時，我們也見到神的帶領。楊牧師從2008年參加以色列牧者考察團認識的許多傳道人的名片中，找到Bay Ridge Christian Center (灣脊區基督徒中心) 的電話，和他們連絡，很奇妙地，主帶領我們有信心、相信可以租借到該教會作為主日崇拜使用；感謝聖靈的帶領及應證，我們於五月第二個星期日，也就是母親節主日，開始在這裏的主日崇拜、及福音事工。
 </p>
