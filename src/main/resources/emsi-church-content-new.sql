@@ -12458,6 +12458,8 @@ p span.label {font-weight: bold;}
 <div class="main-content">
 	<p><span class="label">Established Date: June 1, 2019</span></p>
 <p>
+The Chinese population in Staten Island has been increasing. Many of them send their children to schools in Brooklyn. We even have five families from Staten Island among our congregation in the Brooklyn church. Therefore, under the suggestion of Rev. Moses Yang, we started a church in Staten Island to preach the gospel of Jesus Christ in 2019. It is our hope that more Chinese people in Staten Island will become the beneficiaries of this good news.
+
 </p>
 </div>
 ');
@@ -12516,6 +12518,7 @@ p span.label {font-weight: bold;}
 <span class=\"label\">簡史: </span>
 </p>
 <p>
+在總會的宣教異象中，2019年6月我們由希伯崙生命堂Brooklyn前往Staten Island 拓展主耶穌基督的福音，願這大好的消息能在Staten Island成為華人的祝福。
 </p>
 </div>');
 
@@ -13386,7 +13389,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">地址:</td>
-				<td>東京都北区赤羽北2丁目36番3-307号</td>
+				<td>東京都北區赤羽北2丁目36番3-307號</td>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">電話:</td>
@@ -13486,10 +13489,10 @@ update church_content set body = STRINGDECODE('
 董金波 傳道, (C) 070-7046-5578
 </p>
 
-<b>地 址: </b>4埼玉縣埼玉市中央區上落合9-9-4-508號
+<b>地 址: </b>東京都北區赤羽北2丁目36番3-307號
 </p>
 <p>
-<b>電 話: </b>(C) 090-3797-8428
+<b>電 話: </b>(C) 070-7546-8175 / (C) 070-7046-5578
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.4887233435566!2d139.707498714865!3d35.78793358016955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018933e658d3fd1%3A0xaa33515261a9902d!2s2-ch%C5%8Dme-36-3%20Akabanekita%2C%20Kita%20City%2C%20Tokyo%20115-0052%2C%20Japan!5e0!3m2!1sen!2sus!4v1626898888527!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
