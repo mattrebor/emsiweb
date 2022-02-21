@@ -4869,7 +4869,7 @@ p span.label {font-weight: bold;}
 <div class="main-content">
 	<p><span class="label">Established Date: </span>January 13, 2017</p>
 <p>
-<img src="/emsi/images/Church Performing Artists 2-2022.jpg" alt="view church photo gallery" height="255" align="left" hspace="5" width="360" />
+<img src="/emsi/images/Church_Performing_Artists_2_2022.JPG" alt="view church photo gallery" height="255" align="left" hspace="5" width="360" />
 On January 13, 2017, the former “The New York Performing Artists Fellowship” became the "Performing Artists Gospel Fellowship” after joining EMSI.
 </p>
 <p>
@@ -4935,7 +4935,7 @@ p span.label {font-weight: bold;}
 <p>
 <span class=\"label\">簡史: </span><br />
 </p>
-<p> <img src="/emsi/images/Performing Artists 2-2022.jpg" alt="view church photo gallery" height="255" align="left" hspace="5" width="360" />
+<p> <img src="/emsi/images/Church_Performing_Artists_2_2022.JPG" alt="view church photo gallery" height="255" align="left" hspace="5" width="360" />
 紐約藝人生命堂前身為紐約藝人團契，2017年ㄧ月紐約藝人福音團契加盟國際神學福音佈道會，更名為紐約藝人基督教生命堂。
 </p>
 <p>紐約藝人團契第一次聚會是在1987年十月的最後一個主日。李水蓮牧師（藝名：康嘉欣）邀請了十多位演藝界的朋友們在一家中國餐館聚會，由楊摩西牧師短講信息；同年十二月底，又在法拉盛的新橋之家舉辦聖誕節晚會，特別邀請了熊玠教授分享見證，楊摩西牧師證道。共有三十多位兩岸的演藝界朋友前來參加。那次聚會後，有人願意開放家庭為聚會所用，於是開始了週五晚上的查經班，兩個月後開始了團契崇拜。
