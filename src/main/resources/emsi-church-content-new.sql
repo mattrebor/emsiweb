@@ -4869,6 +4869,7 @@ p span.label {font-weight: bold;}
 <div class="main-content">
 	<p><span class="label">Established Date: </span>January 13, 2017</p>
 <p>
+<img src="/emsi/images/Church Performing Artists 2-2022.jpg" alt="view church photo gallery" height="255" align="left" hspace="5" width="360" />
 On January 13, 2017, the former “The New York Performing Artists Fellowship” became the "Performing Artists Gospel Fellowship” after joining EMSI.
 </p>
 <p>
@@ -4929,12 +4930,13 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<b>成立日期:</b> 2017年 1月13日
+<b>成立日期:</b> 2017年 1月13日 
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
 </p>
-<p>紐約藝人生命堂前身為紐約藝人團契，2017年ㄧ月紐約藝人福音團契加盟國際神學福音佈道會，更名為紐約藝人基督教生命堂。
+<p> <img src="/emsi/images/Performing Artists 2-2022.jpg" alt="view church photo gallery" height="255" align="left" hspace="5" width="360" />
+紐約藝人生命堂前身為紐約藝人團契，2017年ㄧ月紐約藝人福音團契加盟國際神學福音佈道會，更名為紐約藝人基督教生命堂。
 </p>
 <p>紐約藝人團契第一次聚會是在1987年十月的最後一個主日。李水蓮牧師（藝名：康嘉欣）邀請了十多位演藝界的朋友們在一家中國餐館聚會，由楊摩西牧師短講信息；同年十二月底，又在法拉盛的新橋之家舉辦聖誕節晚會，特別邀請了熊玠教授分享見證，楊摩西牧師證道。共有三十多位兩岸的演藝界朋友前來參加。那次聚會後，有人願意開放家庭為聚會所用，於是開始了週五晚上的查經班，兩個月後開始了團契崇拜。
 </p>
@@ -13309,7 +13311,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class="label"></td>
-			<td>Ev. Dong Jinbo, 070-7046-5578</td>
+			<td>Ev. Dong Jinbo, 080-7046-5578</td>
 		</tr>
 
 	</tbody>
@@ -13326,7 +13328,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">Tel#:</td>
-				<td>(C) 070-7546-8175 / (C) 070-7046-5578</td>
+				<td>(C) 070-7546-8175 / (C) 080-7046-5578</td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -13377,7 +13379,7 @@ p span.label {font-weight: bold;}
 			</tr>
 			<tr>
 				<td class="label"></td>
-				<td>董金波 傳道 (C) 070-7046-5578</td>
+				<td>董金波 傳道 (C) 080-7046-5578</td>
 			</tr>
 	</tbody>
 </table>
@@ -13393,7 +13395,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">電話:</td>
-				<td>(C) 070-7546-8175 / (C) 070-7046-5578</td>
+				<td>(C) 070-7546-8175 / (C) 080-7046-5578</td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -13440,17 +13442,55 @@ p span.label {font-weight: bold;}
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'contactus', 'en', 'CEC in Akabane  - Contact Us', 'CEC in Akabane<br><br>');          
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'contactus', 'zh', '赤羽基督教生命堂  - 連絡我們','');          
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'schedule', 'en', 'CEC in Akabane  - Church Services Schedule', 
-'<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+'
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周日上午 十時卅分</br>Sunday 10:30 am</td>
+		</tr>
+		<tr>
+			<td>禱告會</br>Prayer Meeting</td>
+			<td>周六晚上 七時卅分</br>Saturday 07:30 pm</td>
+		</tr>
+		<tr>
+			<td>國語查經</br>Mandarin Bible Study</td>
+			<td>周三晚上 七時卅分</br>Friday 07:30 pm</td>
+		</tr>
+		<tr>
+			<td>基要真理學習班</br>Basic Doctrines</td>
+			<td>周三上午 十時</br>Wednesday 10:00 am</td>
+		</tr>
 	</tbody>
 </table>
+</br>
 
 <p>&nbsp;</p>
-');            
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'schedule', 'zh', '赤羽基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+');    
+        
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'schedule', 'zh', '赤羽基督教生命堂  - 聚會日程', 
+'
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周日上午 十時卅分</br>Sunday 10:30 am</td>
+		</tr>
+		<tr>
+			<td>禱告會</br>Prayer Meeting</td>
+			<td>周六晚上 七時卅分</br>Saturday 07:30 pm</td>
+		</tr>
+		<tr>
+			<td>國語查經</br>Mandarin Bible Study</td>
+			<td>周三晚上 七時卅分</br>Friday 07:30 pm</td>
+		</tr>
+		<tr>
+			<td>基要真理學習班</br>Basic Doctrines</td>
+			<td>周三上午 十時</br>Wednesday 10:00 am</td>
+		</tr>
 	</tbody>
 </table>
+</br>
 
 <p>&nbsp;</p>
 ');             
@@ -13466,14 +13506,14 @@ update church_content set body = STRINGDECODE('
 <p style="padding-left: 55px;">
 Ev. Yang Xi, 070-7546-8175</p>
 <p style="padding-left: 55px;">
-Ev. Dong Jinbo, 070-7046-5578</p>
+Ev. Dong Jinbo, 080-7046-5578</p>
 
 </p>
 <p>
 <b>Address: </b>Tokyo-To Kita-Ku Akabane Kita 2-36-3-307, Japan
 </p>
 <p>
-<b>Tel #: </b> (C) 070-7546-8175 / (C) 070-7046-5578
+<b>Tel #: </b> (C) 070-7546-8175 / (C) 080-7046-5578
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.4887233435566!2d139.707498714865!3d35.78793358016955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018933e658d3fd1%3A0xaa33515261a9902d!2s2-ch%C5%8Dme-36-3%20Akabanekita%2C%20Kita%20City%2C%20Tokyo%20115-0052%2C%20Japan!5e0!3m2!1sen!2sus!4v1626898888527!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -13486,13 +13526,13 @@ update church_content set body = STRINGDECODE('
 <b>傳道:</b> 楊熙 傳道, (C) 070-7546-8175
 </p>
 <p style="padding-left: 40px;">
-董金波 傳道, (C) 070-7046-5578
+董金波 傳道, (C) 080-7046-5578
 </p>
 
 <b>地 址: </b>東京都北區赤羽北2丁目36番3-307號
 </p>
 <p>
-<b>電 話: </b>(C) 070-7546-8175 / (C) 070-7046-5578
+<b>電 話: </b>(C) 070-7546-8175 / (C) 080-7046-5578
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.4887233435566!2d139.707498714865!3d35.78793358016955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018933e658d3fd1%3A0xaa33515261a9902d!2s2-ch%C5%8Dme-36-3%20Akabanekita%2C%20Kita%20City%2C%20Tokyo%20115-0052%2C%20Japan!5e0!3m2!1sen!2sus!4v1626898888527!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
