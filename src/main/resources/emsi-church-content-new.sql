@@ -12278,15 +12278,15 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	<tbody>
 		<tr>
 			<td>Worship Service</td>
-			<td>Sunday 11 am</td>
+			<td>Sunday 10:30 am</td>
 		</tr>
 		<tr>
 			<td>Adult Sunday School</td>
-			<td>Sunday 10 am</td>
+			<td>Sunday 9:30 am</td>
 		</tr>
 		<tr>
 			<td>Children Sunday School</td>
-			<td>Sunday 11am</td>
+			<td>Sunday 10:30 am</td>
 		</tr>
 		<tr>
 			<td>Choir Practice</td>
@@ -12321,15 +12321,15 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	<tbody>
 		<tr>
 			<td>主日崇拜</td>
-			<td>週日上午 11 am</td>
+			<td>週日上午 10:30 am</td>
 		</tr>
 		<tr>
 			<td>成人主日學</td>
-			<td>週日上午 10 am</td>
+			<td>週日上午 9:30 am</td>
 		</tr>
 		<tr>
 			<td>兒童主日學</td>
-			<td>週日上午 11am</td>
+			<td>週日上午 10:30 am</td>
 		</tr>
 		<tr>
 			<td>詩歌練習</td>
@@ -12337,19 +12337,19 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		</tr>
 		<tr>
 			<td>日間查經班</td>
-			<td>週 二 下 午  2 pm</td>
+			<td>週二下午  2 pm</td>
 		</tr>
 		<tr>
 			<td>禱告查經班</td>
-			<td>週 三晚上 7:30 pm</td>
+			<td>週三晚上 7:30 pm</td>
 		</tr>
 		<tr>
 			<td>少年團契</td>
-			<td>週 五晚上  7:30 pm</td>
+			<td>週五晚上  7:30 pm</td>
 		</tr>
 		<tr>
 			<td>成人查經班</td>
-			<td>週 五晚上  7:30 pm</td>
+			<td>週五晚上  7:30 pm</td>
 		</tr>
 		<tr>
 			<td>弟兄團契 </td>
