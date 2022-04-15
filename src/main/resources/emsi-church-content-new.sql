@@ -13543,3 +13543,230 @@ update church_content set body = STRINGDECODE('
 
 -----------------------end Akabane  
 	
+	
+---------- Mandarin in Den Haag   New church April 2022 ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(65, 'denhaag_mandarin', 1, 11, 0);               
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(65, 'en', 'menu_name', 'CEC Mandarin in Den Haag');             
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(65, 'zh', 'menu_name', '海牙普通話基督教生命堂');                     
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(7, NULL, 65);   
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'intro', 'en', 'CEC Mandarin in Den Haag   - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelists: </td>
+			<td>Ev. Tao Wang (+31-(0)61-749-3457)</td>
+		</tr>
+		<tr>
+			<td class="label"></td>
+			<td>Ev. Songlin Hu (+31-(0)64-881-5977)</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+	<table cellpadding="1px" cellspacing="0px">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">Address:</td>
+				<td>Oranjelaan 62, 2281 GG Rijswijk, The Netherlands</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">Tel#:</td>
+				<td>+31-(0)61-749-3457 / +31-(0)64-881-5977</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">Email:</td>
+				<td>emsimandrindh@fmail.com</td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+	<p><span class="label">Established Date: January 2, 2022</span></p>
+
+
+<p><img hspace="5" src="/emsi/images/ChurchDenHaagMadarin3_2022.JPG" align="left" height="255" width="360" />
+Rev. Moses Yang has been burdened for The Netherlands Mandarin gospel ministry for the past two decades. Through the years, the EMSI pastors and church members have seen an increasing number of Chinese arriving to The Netherlands from mainland China. Because of this, there is an urgent need to develop and expand the Mandarin ministry. This need has been committed to much prayer. Thank God, our prayers have finally been answered. At the end of 2021, the EMSI headquarter authorized the start of the Mandarin Christian Evangelical Church in Den Haag ministry to specifically carry out the gospel work among the Mandarin-speaking Chinese community in The Netherlands.
+</p>
+<p>
+On January 2, 2022, the EMSI headquarter officially established the Mandarin Christian Evangelical Church in Den Haag. This is under the leadership of Rev. Moses Yang. It is the 59th church of the Christian Evangelical Mission, and the 36th church of the European branch.
+</p>
+<p>
+Ev. Tao Wang and Ev. Songlin Hu have been formally commissioned by Rev. Moses Yang, to start this church to advance the gospel. May the Lord lead us and use us to become a blessing for many with this church. Glory to His name.
+</p>
+
+
+</div>
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'intro', 'zh', '海牙普通話基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+			<tr>
+				<td class="label">傳道: </td>
+				<td>王濤 傳道 (+31-(0)61-749-3457)</td>
+			</tr>
+			<tr>
+				<td class="label"></td>
+				<td>胡松林 傳道 (+31-(0)64-881-5977)</td>
+			</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+	<table cellpadding="1" cellspacing="0">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">地址:</td>
+				<td>Oranjelaan 62, 2281 GG Rijswijk, The Netherlands</td>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">電話:</td>
+				<td>+31-(0)61-749-3457 / +31-(0)64-881-5977</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">電郵:</td>
+				<td>emsimandrindh@fmail.com</td>			
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<b>成立日期:</b> 2022 年 1月 2日
+</p>
+<p>
+<span class=\"label\">簡史: </span>
+</p>
+
+<p><img hspace="5" src="/emsi/images/ChurchDenHaagMadarin3_2022.JPG" align="left" height="255" width="360" />
+二十多年來楊摩西牧師對荷蘭普通話福音事工一直有負擔和感動，越來越多的傳道人和弟兄姐妹也漸漸看到每年來荷蘭的中國同胞在增加，推動專門的普通話事工將逐漸成為未來教會發展的方向，大家也常常同心為此事工禱告。感謝神，我們的禱告終於有了回應。2021年年末總會授權我們開始籌辦荷蘭普通話生命堂事工，專門對荷蘭講普通話的華人開展福音工作。
+</p>
+
+<p>
+022年1月2日總會正式成立海牙普通話生命堂，這是由楊摩西牧師領導下的，國際福音佈道會總會屬下的第59間生命堂，也是歐洲分會的第36間生命堂。
+</p>
+
+<p>
+王濤傳道和胡松林傳道受總會國際神學福音佈道會差派，到海牙普通話生命堂開始作荷蘭新工場的開拓工作。求主帶我們，使用我們，也使用海牙普通話生命堂成為越來越多華人的祝福。
+</p>
+
+
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'contactus', 'en', 'CEC Mandarin in Den Haag  - Contact Us', 'CEC Madarin in Den Haag<br><br>');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'contactus', 'zh', '海牙普通話基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'schedule', 'en', 'CEC Mandarin in Den Haag  - Church Services Schedule', 
+'
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td></br> </td>
+		</tr>
+	
+	</tbody>
+</table>
+</br>
+
+<p>&nbsp;</p>
+');    
+        
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'schedule', 'zh', '海牙普通話基督教生命堂  - 聚會日程', 
+'
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td> </br></td>
+		</tr>
+
+	</tbody>
+</table>
+</br>
+
+<p>&nbsp;</p>
+');             
+
+update church set address='Oranjelaan 62, 2281 GG Rijswijk, The Netherlands',  latitude = 52.056249239592425, longitude = 4.339608890836412 where church_path = 'denhaag_mandarin';
+
+update church_content set body = STRINGDECODE('         
+<style>
+.indentation {margin:20px;}
+</style>
+<p>
+<b>Evangelists: </b>
+<p style="padding-left: 55px;">
+Ev. Yang Xi, 070-7546-8175</p>
+<p style="padding-left: 55px;">
+Ev. Dong Jinbo, 080-7046-5578</p>
+
+</p>
+<p>
+<b>Address: </b>Oranjelaan 62, 2281 GG Rijswijk, The Netherlands
+</p>
+<p>
+<b>Tel #: </b> +31-(0)61-749-3457 / +31-(0)64-881-5977
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.294367340524!2d4.3374041153436!3d52.05616347825251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b6f706c6ede3%3A0x68d96ea9095ea2c8!2sOranjelaan%2062%2C%202281%20GG%20Rijswijk%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1649973951246!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'denhaag_mandarin')
+	and locale = 'en'
+	and page_id = 'contactus';
+	
+update church_content set body = STRINGDECODE('
+<p>
+<b>傳道:</b> 王濤 傳道 (+31-(0)61-749-3457)
+</p>
+<p style="padding-left: 40px;">
+胡松林 傳道 (+31-(0)64-881-5977)
+</p>
+
+<b>地 址: </b>Oranjelaan 62, 2281 GG Rijswijk, The Netherlands
+</p>
+<p>
+<b>電 話: </b>+31-(0)61-749-3457 / +31-(0)64-881-5977
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.294367340524!2d4.3374041153436!3d52.05616347825251!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b6f706c6ede3%3A0x68d96ea9095ea2c8!2sOranjelaan%2062%2C%202281%20GG%20Rijswijk%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1649973951246!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'denhaag_mandarin')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+-----------------------end Madarin in Den Haag  
+	
