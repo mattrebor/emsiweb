@@ -4,8 +4,8 @@ delete from church_hierarchy where church_id = (select church_id from church whe
 delete from church where church_path = 'nagoya';
 
 INSERT INTO PUBLIC.CHURCH_ORG(CHURCH_ORG_ID, CHURCH_ORG_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(17, 'southafrica', 1, 0, 0);
-INSERT INTO PUBLIC.CHURCH_ORG_DETAIL(CHURCH_ORG_ID, LOCALE, KEY, VALUE) VALUES(17, 'en', 'menu_name', 'CEM in South Africa');          
-INSERT INTO PUBLIC.CHURCH_ORG_DETAIL(CHURCH_ORG_ID, LOCALE, KEY, VALUE) VALUES(17, 'zh', 'menu_name', '南非分會');          
+INSERT INTO PUBLIC.CHURCH_ORG_DETAIL(CHURCH_ORG_ID, LOCALE, KEY, VALUE) VALUES(17, 'en', 'menu_name', 'CEM in South Africa');
+INSERT INTO PUBLIC.CHURCH_ORG_DETAIL(CHURCH_ORG_ID, LOCALE, KEY, VALUE) VALUES(17, 'zh', 'menu_name', '南非分會');
 
 delete from public.church_hierarchy where parent_entity_id = 1 and church_org_id = 16;
 INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(1, 16, NULL);
@@ -46,7 +46,7 @@ update church set address='Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherland
 update church set address='Calle Carolinas, 10, 28039 Madrid, Spain', latitude = 40.4512378, longitude = -3.7048897 where church_path = 'madrid';
 update church set address='Calle Brasil 73, Valencia 46018, Spain', latitude = 39.47280, longitude = -0.40080 where church_path = 'valencia';
 update church set address='Avda. Europa 25, Local-9, 03503 Benidorm Alicante ', latitude = 38.542950192104264, longitude = -0.12028468755987111 where church_path = 'benidorm';
-update church set address='C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain', latitude = 38.339698, longitude = -0.489878 where church_path = 'alicante'; 
+update church set address='C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain', latitude = 38.339698, longitude = -0.489878 where church_path = 'alicante';
 update church set address='Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain', latitude = 28.134365, longitude = -15.432344 where church_path = 'canaria';
 update church set address='Calle Alguacil, 8, 28038 Madrid, Spain', latitude = 40.3960213, longitude = -3.6630519 where church_path = 'southmadrid';
 update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', latitude = 41.3709592, longitude = 2.1374551 where church_path = 'barcelona';
@@ -186,8 +186,8 @@ ll.JPG" align="left" height="255" width="360" />布路倫生命堂成立于2009�
 ')	where church_id = (select church_id from church where church_path = 'brooklyn')
 	and locale = 'zh'
 	and page_id = 'intro';
-	
-	
+
+
 update church_content set body = STRINGDECODE('
 <p>
 <b>Evangelist: </b>Ev. Paul Cheng, (c) 917-361-0823
@@ -208,7 +208,7 @@ update church_content set body = STRINGDECODE('
 	and locale = 'en'
 	and page_id = 'contactus';
 
-	
+
 update church_content set body = STRINGDECODE('
 <p>
 <b>傳道: </b>陳松曦 傳道, (手機)917-361-0823
@@ -270,10 +270,10 @@ update church_content set body = '<table border="1" cellpadding="5">
 </table>
 '	where church_id = (select church_id from church where church_path = 'brooklyn')
 	and locale = 'en'
-	and page_id = 'schedule';	
-	
+	and page_id = 'schedule';
 
-	
+
+
 update church_content set body = '<table border="1" cellpadding="5">
 <tr>
 	<td>主日崇拜</td>
@@ -314,12 +314,12 @@ update church_content set body = '<table border="1" cellpadding="5">
 </table>
 '	where church_id = (select church_id from church where church_path = 'brooklyn')
 	and locale = 'zh'
-	and page_id = 'schedule';	
-	
+	and page_id = 'schedule';
+
 ------------end  brooklyn
-	
-	
-		
+
+
+
 ---------------------update queens pages
 ---------------------updated address 2-8-17
 
@@ -466,8 +466,8 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Address: </b>41-42 College Point Boulevard, Unit 2B, Flushing NY 11355, USA
@@ -499,7 +499,7 @@ update church_content set body = STRINGDECODE('<p>
 
 ------------end queens
 
-	
+
 ---------------------update murrayhill - Changed to Berkeley Heights in name (Jan 2015)pages
 
 update church_content set body = '<style>
@@ -553,7 +553,7 @@ p span.label {font-weight: bold;}
 
 <img src="/emsi/files/murrayhill/murrayhill.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />
 <p>
-1984 - CEC in Berkeley Heights established 
+1984 - CEC in Berkeley Heights established
 </p>
 <p>
 The CEC in Berkeley Heights is located in Berkeley Heights, New Jersey. It was originally CEC in Murray Hill as the church was located at Murray Hill when it was established. It is located thirty miles south of Towaco, the headquarter. The church was established in 1984. There were two big companies – Lucent and AT & T that were located near the church at that time. There were many Chinese professionals employed in this area. Because of the big population of Chinese here, Rev. Moses Yang saw the need of developing the ministry. Through the assistance of Dr. James Huang, they were able to find a place and start the church. The church has been pastured by more than ten pastors in the past years.
@@ -572,7 +572,7 @@ In August, 2012, EMSI sent Prof. Jing Huang to be responsible for the church min
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -638,8 +638,8 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Address: </b>725 Mountain Avenue, Berkeley Heights, NJ 07922, USA
@@ -653,9 +653,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'murrayhill')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
 
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>725 Mountain Avenue, Berkeley Heights, NJ 07922, USA
 </p>
@@ -672,7 +672,7 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
-	
+
 update church_content set body = STRINGDECODE('
 
 <b>Sunday Worship│Sunday 2:00PM </b>
@@ -754,8 +754,8 @@ Church is planning to open the tutoring class for students in middle and primary
 ')	where church_id = (select church_id from church where church_path = 'murrayhill')
 	and locale = 'en'
 	and page_id = 'schedule';
-	
-	
+
+
 update church_content set body = STRINGDECODE('
 
 <b>主日崇拜│週日下午2:00 PM</b>
@@ -891,21 +891,21 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>1978
 </p>
 <p>
-<img src="/emsi/files/highlandpark.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />About a decade ago, a group of devoted members initiated the Zion Fellowship in order to cultivate spiritual growth and carry out evangelical missions. The fellowship takes turns meeting at the homes of our brothers and sisters. The hosts are hardworking and more than willing to open their houses as their sacrifice to the Lord. They never complained about overtime and their efforts in serving God. Furthermore, they invited neighbors and friends to the fellowship meetings. Some people don’t like to come to the church, but like to come to our fellowship gatherings. The meetings inspire them. Some newcomers accepted Jesus Christ as their personal Savior and later, participated actively in serving the Lord to glorify God’s name. 
-In the earlier days, our restaurant Bible-study meetings were attended by two large families and held, in turn, at their homes. Recently, the senior of another large family accepted Jesus Christ as the Lord and led her brother and sister-in-law to be Christians. Now we have three large families attending our restaurant Bible-study meetings. The relatives and friends of those family members also attend often. We can see a growing number of attendants coming to the weekly meetings. Whenever we have a pot-luck lunch, the brothers and sisters of the restaurant Bible-study group are always willing to prepare food for us. I would like to give special thanks to a grandma, who brings home-made cakes and snacks every week to the church for us to share. 
+<img src="/emsi/files/highlandpark.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />About a decade ago, a group of devoted members initiated the Zion Fellowship in order to cultivate spiritual growth and carry out evangelical missions. The fellowship takes turns meeting at the homes of our brothers and sisters. The hosts are hardworking and more than willing to open their houses as their sacrifice to the Lord. They never complained about overtime and their efforts in serving God. Furthermore, they invited neighbors and friends to the fellowship meetings. Some people don’t like to come to the church, but like to come to our fellowship gatherings. The meetings inspire them. Some newcomers accepted Jesus Christ as their personal Savior and later, participated actively in serving the Lord to glorify God’s name.
+In the earlier days, our restaurant Bible-study meetings were attended by two large families and held, in turn, at their homes. Recently, the senior of another large family accepted Jesus Christ as the Lord and led her brother and sister-in-law to be Christians. Now we have three large families attending our restaurant Bible-study meetings. The relatives and friends of those family members also attend often. We can see a growing number of attendants coming to the weekly meetings. Whenever we have a pot-luck lunch, the brothers and sisters of the restaurant Bible-study group are always willing to prepare food for us. I would like to give special thanks to a grandma, who brings home-made cakes and snacks every week to the church for us to share.
 Praise the Lord! In recent years, CEMC in Highland Park realized the need of our new generation and they established an English worship service for the youth group. During special occasions, we hold English and Chinese combined service so that all groups gather to worship the Lord and share our joy in Christ. Our Sunday school is also under the loving care of the Lord. The devoted teachers train our children to know Jesus Christ ever since they learned to talk. With more and more people involving themselves in our choir, it has become another pride that we take in glorifying God’s name.
 Apostle Paul thanked God upon every remembrance of the church at Philippi. Why did he thank God? There were a lot of occurrences at Philippi for Paul to be thankful. Likewise, upon every remembrance of CEM in Highland Park, I am thankful. I was extremely inspired by a few recently baptized new believers and their Christian pilgrimage of faith.
 First of all, I would like to share the story of Uncle Jung. A sister Evelyn from our church met Uncle Jung when they were walking leisurely in their own community. She brought him to the church and thus opened the opportunity for him to listen to the Gospel. He then accepted Jesus Christ as the Lord. Uncle Jung had read a few Christian articles before. His heart was prepared and the seed of the Gospel was able to take root and grow promptly in his heart. Praise the Lord for His wonderful work!
 Sister Chen is a senior. She was also brought to our church by senior sister Lee. As soon as she had the opportunity to hear the Gospel, she opened her heart and accepted Jesus Christ as her personal savior. It is amazing that she turned out to have such a craving for God’s Word. She actively participates in Bible studies and has experienced unremitting spiritual growth. Sister Chen is from mainland China and she was not able to listen to the Gospel there freely. Her background of being raised in a traditionally large family also resulted in huge burdens and responsibilities. Now that she is in America, her hunger and thirst for the truth can be satisfied without restraint. Praise the Lord!
 Last but not least, is our sister Lim. She has been attending worship services for many years. However, she had been experiencing inner struggles which kept putting off her commitment to God. Surprisingly, she showed her dedication in front of all her relatives and friends by choosing to be baptized on Christmas. There are a lot of problems that we can not resolve by ourselves. We should come humbly before God and accept the Lord as our personal Savior. This is the one and only choice for us because Christ is the only way (John 14:6).
-We are thankful that CEMC in Highland Park is blessed. Just like the verses in the hymn, ‘Higher Ground’: 
+We are thankful that CEMC in Highland Park is blessed. Just like the verses in the hymn, ‘Higher Ground’:
 “I’m pressing on the upward way, new heights I’m gaining everyday; still praying as I’m onward bound, ‘Lord, plant my feet on higher ground.’ Lord lift me up and let me stand. By faith on heaven’s tableland, A higher plane than I have found: Lord, plant my feet on higher ground.”</p>
 </div>
 '	where church_id = (select church_id from church where church_path = 'highlandpark')
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -963,8 +963,8 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Address: </b>23 South 2nd Ave. Highland Park, NJ 08904, USA
@@ -978,9 +978,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'highlandpark')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>地址: </b>23 South 2nd Ave. Highland Park, NJ 08904, USA
@@ -996,7 +996,7 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
- 
+
 	<tbody>
 		<tr>
 			<td>中文主日崇拜</br> Chinese Sunday Worship Service</td>
@@ -1034,11 +1034,11 @@ update church_content set body = '<table border="1" cellpadding="5" style= "font
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'highlandpark')
 	and locale = 'en'
-	and page_id = 'schedule';	
-	
-	
+	and page_id = 'schedule';
+
+
 update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
- 
+
 	<tbody>
 		<tr>
 			<td>中文主日崇拜 </br>Chinese Sunday Worship Service</td>
@@ -1076,21 +1076,21 @@ update church_content set body = '<table border="1" cellpadding="5" style= "font
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'highlandpark')
 	and locale = 'zh'
-	and page_id = 'schedule';	
-	
+	and page_id = 'schedule';
+
 
 
 ------------- end Highland park
 
-	
-	
-	
-	
+
+
+
+
 -----------update losangeles
 
-	
+
 update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
- 
+
 	<tbody>
 		<tr>
 			<td>印尼語 崇拜 Indonesian Worship Service</td>
@@ -1118,11 +1118,11 @@ update church_content set body = '<table border="1" cellpadding="5" style= "font
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'losangeles')
 	and locale = 'en'
-	and page_id = 'schedule';	
-	
-	
+	and page_id = 'schedule';
+
+
 update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
- 
+
 	<tbody>
 		<tr>
 			<td>印尼語 崇拜 Indonesian Worship Service</td>
@@ -1150,23 +1150,23 @@ update church_content set body = '<table border="1" cellpadding="5" style= "font
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'losangeles')
 	and locale = 'zh'
-	and page_id = 'schedule';	
-	
+	and page_id = 'schedule';
+
 ------------ end losangeles
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 -- update paris intro page
 update church_content set body = '<style>
 .contact-content {
 FONT-FAMILY: Arial,helvetica,sans-serif
 }
 .contact-content TD {
-PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px: 
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px:
 }
 TD.label {
 WIDTH: 1%; WHITE-SPACE: nowrap; FONT-WEIGHT: bold
@@ -1225,7 +1225,7 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 </div>
 <div class="main-content">
 <p>
-<span class="label">Established Date: </span>October 2001 
+<span class="label">Established Date: </span>October 2001
 </p>
 <p>
 <img src="/emsi/files/parissmall_0.jpg" alt="CEC in Paris" title="CEC in Paris" height="239" hspace="5" align="left" width="360" />In April 2000, Rev. Moses Yang had a vision for a gospel ministry in Paris; he then organized a short-term mission trip from the CEM Headquarter in America. With the aid of C.E.C. in Holland and devoted believers in Paris, two musical evangelistic meetings were held in a church in District thirteen in Paris, resulting in forty some people accepting Christ.<br /><br />In July 2000, Bible students Mix and Anny Chan were sent by Rev. Moses Yang to Paris during the summer break to gain experience on how to establish C.E.C. churches. For the following three months, Rev. Zion Wu, Ev. Sorina Yang and Rev. Hosea Chi took turns to lead the church in Paris, with assistance from Rev. and Mrs. Hugo Chan and brothers and sisters from Holland.<br /><br />In the early part of 2001, the CEM Headquarter in America purchased the current CEC Paris church building by faith. In June 2001, Rev. Moses Yang sent three Bible students, Ev. Mix and Anny Chan and Ev. Paul Ye to shepherd the CEC in Paris. In October 2001, the renovation of the building was completed and is being used for both E.B.I. and C.E.C. in Paris. It then became the regular meeting place and home for the Paris congregation.
@@ -1235,8 +1235,8 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 	where church_id = (select church_id from church where church_path = 'paris')
 	and locale = 'en'
 	and page_id = 'intro';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -1317,7 +1317,7 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-		
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Pastor: </b>Rev. Mix Chan
@@ -1343,9 +1343,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'paris')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>牧師: </b>陳茂祥  牧師
@@ -1374,22 +1374,22 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 
-	
+
 ----------ends paris
-	
+
 -- North Paris
-INSERT INTO PUBLIC.CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(51, 'northparis', 0, 1, 0);  
+INSERT INTO PUBLIC.CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(51, 'northparis', 0, 1, 0);
 
 --update church set address='38 Rue des Gardinoux, 93300 Aubervilliers, France', latitude = 48.90682970, longitude = 2.36753750 where church_path = 'northparis';
 
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(51, 'en', 'menu_name', 'CEC in North Paris');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(51, 'zh', 'menu_name', '巴黎北區基督教生命堂');     
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(51, 'en', 'menu_name', 'CEC in North Paris');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(51, 'zh', 'menu_name', '巴黎北區基督教生命堂');
 
 --INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(10, NULL, 51);
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(51, 'intro', 'en', 'CEC in North Paris - Brief History', STRINGDECODE('<style>\r\n.contact-content {\r\nFONT-FAMILY: Arial,helvetica,sans-serif\r\n}\r\n.contact-content TD {\r\nPADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px: \r\n}\r\nTD.label {\r\nWIDTH: 1%; WHITE-SPACE: nowrap; FONT-WEIGHT: bold\r\n}\r\nP SPAN.label {\r\nFONT-WEIGHT: bold\r\n}\r\n.main-content {\r\nFONT-FAMILY: Arial, MingLiU, Helvetica, san-serif; COLOR: #333; FONT-SIZE: 13px\r\n}\r\n.borderless-table {\r\nBORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px\r\n}</style>\r\n<div class=\"contact-content\">\r\n<div style=\"color: #000000; font-size: small\">\r\n<table cellpadding=\"0\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\">Pastor:</td>\r\n\t\t\t<td>Rev. Mix Chan</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\" rowspan=\"2\" valign=\"top\">Evangelists:</td>\r\n\t\t\t<td>Ev. Martin Ding</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n<div style=\"margin-left: 20px\">\r\n<table cellpadding=\"1\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Address:</td>\r\n\t\t\t<td>38, rue des gardinoux 93300 Aubervilliers, Paris, France</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Tel#:</td>\r\n\t\t\t<td>33-1-5846-0892</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Fax#:</td>\r\n\t\t\t<td>33-9-5455-0056</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Email:</td>\r\n\t\t\t<td><a href=\"mailto:emsifrance@hotmail.com\">emsifrance@hotmail.com</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_skype.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Skype:</td>\r\n\t\t\t<td>emsifrance</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n<hr align=\"center\" size=\"1\" width=\"100%\" />\r\n</div>\r\n<div class=\"main-content\">\r\n<p>\r\n<span class=\"label\">Zion Fellowship in Northern Paris</span></p>\r\n<p>\r\nCEC in Paris is starting its evangelistic outreach program in Northern Paris. Bible study classes are conducted every Thursday, and Saturday. Please invite your friends in the area to attend.</p>\r\n</div>\r\n'));
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(51, 'intro', 'zh', STRINGDECODE('巴黎北區基督教生命堂 - 教會簡介'), STRINGDECODE('<style>\r\n.contact-content {font-family: Arial,helvetica,sans-serif,\u65b0\u7d30\u660e\u9ad4 ;}\r\n.contact-content td {font-size: 14px; padding: 2px; 3px;}\r\ntd.label {font-weight: bold; width: 1%; white-space: nowrap;}\r\np span.label {font-weight: bold;}\r\n.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, \u65b0\u7d30\u660e\u9ad4; font-size: 13px; color: #333;}\r\n.borderless-table {border-width: 0px;}\r\n</style>\r\n<div class=\"contact-content\">\r\n<div style=\"color: #000000; font-size: small\">\r\n<table cellpadding=\"0\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\">\u6703\u7267:</td>\r\n\t\t\t<td>\u9673\u8302\u7965 \u7267\u5e2b</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\">\u99d0\u5802\u50b3\u9053:</td>\r\n\t\t\t<td>\u4E01\u696D\u65B0 \u50b3\u9053</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n<br />\r\n<div style=\"margin-left: 20px\">\r\n<table cellpadding=\"1\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u5730\u5740:</td>\r\n\t\t\t<td>38, rue des gardinoux 93300 Aubervilliers, Paris, France</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u96fb\u8a71:</td>\r\n\t\t\t<td>33-1-5846-0892</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u50b3\u771f:</td>\r\n\t\t\t<td>33-9-5455-0056</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u96fb\u90f5:</td>\r\n\t\t\t<td><a href=\"mailto:emsifrance@hotmail.com\">emsifrance@hotmail.com</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_skype.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Skype:</td>\r\n\t\t\t<td>emsifrance </td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n<hr align=\"center\" size=\"1\" width=\"100%\" />\r\n</div>\r\n<div class=\"main-content\">\r\n<p>\r\n<span class=\"label\">錫安團契</span></p>\r\n<p>\r\n<br />巴黎基督教生命堂在北區福音工作，屢次中段。近期 (2013) 再度展開。每星期四、星期六有查經，約有十多人固定前來，研讀神的話語。也歡迎弟兄姐妹邀請當地華人朋友參加。\r\n&nbsp;\r\n</p>\r\n</div>\r\n')); 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(51, 'contactus', 'en', 'CEC in North Paris - Contact Us', STRINGDECODE('<p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\">\r\n<span style=\"font-size: small\"><span style=\"color: #000000\"><b><span lang=\"EN-US\"><span style=\"font-family: Times New Roman\">Address</span></span></b><span style=\"font-family: \u65b0\u7d30\u660e\u9ad4\">\uff1a</span></span></span><span lang=\"EN-US\"><span style=\"font-family: Times New Roman; color: #000000; font-size: small\">38, rue des gardinoux 93300 Aubervilliers, Paris, France<br />\r\n<b>Telephone</b> : 33-1-5846-0892</span><br />\r\n<br />\r\n</span>\r\n</p>\r\n<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=38,+rue+des+gardinoux+93300+Aubervilliers,+Paris,+France&amp;ie=UTF8&amp;hq=&amp;hnear=38+Rue+des+Gardinoux,+93300+Aubervilliers,+Seine-Saint-Denis,+%C3%8Ele-de-France,+France&amp;gl=us&amp;t=m&amp;z=14&amp;ll=48.90683,2.367538&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=38,+rue+des+gardinoux+93300+Aubervilliers,+Paris,+France&amp;ie=UTF8&amp;hq=&amp;hnear=38+Rue+des+Gardinoux,+93300+Aubervilliers,+Seine-Saint-Denis,+%C3%8Ele-de-France,+France&amp;gl=us&amp;t=m&amp;z=14&amp;ll=48.90683,2.367538&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>\r\n'));          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(51, 'contactus', 'zh', STRINGDECODE('巴黎北區基督教生命堂 - \u9023\u7d61\u6211\u5011'), STRINGDECODE('<p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\">\r\n<span style=\"font-size: small\"><span style=\"color: #000000\"><b><span style=\"font-family: \u65b0\u7d30\u660e\u9ad4\">\u5730\u5740</span></b><span style=\"font-family: \u65b0\u7d30\u660e\u9ad4\">\uff1a</span></span></span><span style=\"font-size: small\"><span style=\"color: #000000\"><span lang=\"EN-US\"><span style=\"font-family: Times New Roman\">38, rue des gardinoux 93300 Aubervilliers, Paris, France<br />\r\n</span></span><b><span style=\"font-family: \u65b0\u7d30\u660e\u9ad4\">\u96fb\u8a71</span><span style=\"font-family: Times New Roman\"> <span lang=\"EN-US\">:</span></span></b></span></span><span lang=\"EN-US\"><span style=\"font-family: Times New Roman; color: #000000; font-size: small\"> 33-1-5846-0892</span><br />\r\n<br />\r\n</span>\r\n</p>\r\n<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=38,+rue+des+gardinoux+93300+Aubervilliers,+Paris,+France&amp;ie=UTF8&amp;hq=&amp;hnear=38+Rue+des+Gardinoux,+93300+Aubervilliers,+Seine-Saint-Denis,+%C3%8Ele-de-France,+France&amp;gl=us&amp;t=m&amp;z=14&amp;ll=48.90683,2.367538&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=38,+rue+des+gardinoux+93300+Aubervilliers,+Paris,+France&amp;ie=UTF8&amp;hq=&amp;hnear=38+Rue+des+Gardinoux,+93300+Aubervilliers,+Seine-Saint-Denis,+%C3%8Ele-de-France,+France&amp;gl=us&amp;t=m&amp;z=14&amp;ll=48.90683,2.367538&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>\r\n'));           
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(51, 'intro', 'zh', STRINGDECODE('巴黎北區基督教生命堂 - 教會簡介'), STRINGDECODE('<style>\r\n.contact-content {font-family: Arial,helvetica,sans-serif,\u65b0\u7d30\u660e\u9ad4 ;}\r\n.contact-content td {font-size: 14px; padding: 2px; 3px;}\r\ntd.label {font-weight: bold; width: 1%; white-space: nowrap;}\r\np span.label {font-weight: bold;}\r\n.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, \u65b0\u7d30\u660e\u9ad4; font-size: 13px; color: #333;}\r\n.borderless-table {border-width: 0px;}\r\n</style>\r\n<div class=\"contact-content\">\r\n<div style=\"color: #000000; font-size: small\">\r\n<table cellpadding=\"0\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\">\u6703\u7267:</td>\r\n\t\t\t<td>\u9673\u8302\u7965 \u7267\u5e2b</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\">\u99d0\u5802\u50b3\u9053:</td>\r\n\t\t\t<td>\u4E01\u696D\u65B0 \u50b3\u9053</td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n<br />\r\n<div style=\"margin-left: 20px\">\r\n<table cellpadding=\"1\" cellspacing=\"0\">\r\n\t<tbody class=\"borderless-table\">\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u5730\u5740:</td>\r\n\t\t\t<td>38, rue des gardinoux 93300 Aubervilliers, Paris, France</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u96fb\u8a71:</td>\r\n\t\t\t<td>33-1-5846-0892</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u50b3\u771f:</td>\r\n\t\t\t<td>33-9-5455-0056</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">\u96fb\u90f5:</td>\r\n\t\t\t<td><a href=\"mailto:emsifrance@hotmail.com\">emsifrance@hotmail.com</a></td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td><img src=\"/emsi/images/icon_skype.gif\" height=\"16\" width=\"16\" /></td>\r\n\t\t\t<td class=\"label\">Skype:</td>\r\n\t\t\t<td>emsifrance </td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n</div>\r\n</div>\r\n<hr align=\"center\" size=\"1\" width=\"100%\" />\r\n</div>\r\n<div class=\"main-content\">\r\n<p>\r\n<span class=\"label\">錫安團契</span></p>\r\n<p>\r\n<br />巴黎基督教生命堂在北區福音工作，屢次中段。近期 (2013) 再度展開。每星期四、星期六有查經，約有十多人固定前來，研讀神的話語。也歡迎弟兄姐妹邀請當地華人朋友參加。\r\n&nbsp;\r\n</p>\r\n</div>\r\n'));
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(51, 'contactus', 'en', 'CEC in North Paris - Contact Us', STRINGDECODE('<p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\">\r\n<span style=\"font-size: small\"><span style=\"color: #000000\"><b><span lang=\"EN-US\"><span style=\"font-family: Times New Roman\">Address</span></span></b><span style=\"font-family: \u65b0\u7d30\u660e\u9ad4\">\uff1a</span></span></span><span lang=\"EN-US\"><span style=\"font-family: Times New Roman; color: #000000; font-size: small\">38, rue des gardinoux 93300 Aubervilliers, Paris, France<br />\r\n<b>Telephone</b> : 33-1-5846-0892</span><br />\r\n<br />\r\n</span>\r\n</p>\r\n<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=38,+rue+des+gardinoux+93300+Aubervilliers,+Paris,+France&amp;ie=UTF8&amp;hq=&amp;hnear=38+Rue+des+Gardinoux,+93300+Aubervilliers,+Seine-Saint-Denis,+%C3%8Ele-de-France,+France&amp;gl=us&amp;t=m&amp;z=14&amp;ll=48.90683,2.367538&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=38,+rue+des+gardinoux+93300+Aubervilliers,+Paris,+France&amp;ie=UTF8&amp;hq=&amp;hnear=38+Rue+des+Gardinoux,+93300+Aubervilliers,+Seine-Saint-Denis,+%C3%8Ele-de-France,+France&amp;gl=us&amp;t=m&amp;z=14&amp;ll=48.90683,2.367538&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>\r\n'));
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(51, 'contactus', 'zh', STRINGDECODE('巴黎北區基督教生命堂 - \u9023\u7d61\u6211\u5011'), STRINGDECODE('<p style=\"margin: 0cm 0cm 0pt\" class=\"MsoNormal\">\r\n<span style=\"font-size: small\"><span style=\"color: #000000\"><b><span style=\"font-family: \u65b0\u7d30\u660e\u9ad4\">\u5730\u5740</span></b><span style=\"font-family: \u65b0\u7d30\u660e\u9ad4\">\uff1a</span></span></span><span style=\"font-size: small\"><span style=\"color: #000000\"><span lang=\"EN-US\"><span style=\"font-family: Times New Roman\">38, rue des gardinoux 93300 Aubervilliers, Paris, France<br />\r\n</span></span><b><span style=\"font-family: \u65b0\u7d30\u660e\u9ad4\">\u96fb\u8a71</span><span style=\"font-family: Times New Roman\"> <span lang=\"EN-US\">:</span></span></b></span></span><span lang=\"EN-US\"><span style=\"font-family: Times New Roman; color: #000000; font-size: small\"> 33-1-5846-0892</span><br />\r\n<br />\r\n</span>\r\n</p>\r\n<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=38,+rue+des+gardinoux+93300+Aubervilliers,+Paris,+France&amp;ie=UTF8&amp;hq=&amp;hnear=38+Rue+des+Gardinoux,+93300+Aubervilliers,+Seine-Saint-Denis,+%C3%8Ele-de-France,+France&amp;gl=us&amp;t=m&amp;z=14&amp;ll=48.90683,2.367538&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=38,+rue+des+gardinoux+93300+Aubervilliers,+Paris,+France&amp;ie=UTF8&amp;hq=&amp;hnear=38+Rue+des+Gardinoux,+93300+Aubervilliers,+Seine-Saint-Denis,+%C3%8Ele-de-France,+France&amp;gl=us&amp;t=m&amp;z=14&amp;ll=48.90683,2.367538&amp;source=embed" style="color:#0000FF;text-align:left">View Larger Map</a></small>\r\n'));
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(51, 'schedule', 'en', 'CEC in North Paris - Church Services Schedule', '
 <table cellPadding="0" border="0" style="width: 100%" class="MsoNormalTable" width="100%">
@@ -1443,10 +1443,10 @@ delete from church_content where length(body) < 50;
 -- Add christian to the chinese menu name
 update church_detail
 set value = replace(value, '生命堂', '基督教生命堂')
-where locale = 'zh' 
-	and key = 'menu_name' 
+where locale = 'zh'
+	and key = 'menu_name'
 	and value not like '%基督教%';
-	
+
 update church_detail
 set value = concat(value, '基督教生命堂')
 where church_id = (select church_id from church where church_path = 'portoalto')
@@ -1455,7 +1455,7 @@ and key = 'menu_name';
 
 --------  Chinatown
 update church_content
-set body = 
+set body =
 '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
@@ -1521,7 +1521,7 @@ and page_id = 'intro';
 
 
 update church_content
-set body = 
+set body =
 '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
@@ -1588,9 +1588,9 @@ and locale = 'zh'
 and page_id = 'intro';
 
 
-	
+
 update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
- 
+
 Sunday Worship 10:30 PM, 1:30 PM and 6:30 PM<br>
 The Chinese Service at 10:30 AM is conducted mainly in Cantonese with Mandarin translation.<br>
 The English service at 1:30 PM is solely conducted in English.<br>
@@ -1687,11 +1687,11 @@ The Fuzhou/Mandarin service at 6:30 PM is conducted mainly in Mandarin.<br><br>
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'chinatown')
 	and locale = 'en'
-	and page_id = 'schedule';	
-	
-	
+	and page_id = 'schedule';
+
+
 update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
- 
+
 	<tbody>
 		<tr>
 			<td>粵語/國語堂崇拜 Cantonese/Mandarin Worship Service</td>
@@ -1784,7 +1784,7 @@ update church_content set body = '<table border="1" cellpadding="5" style= "font
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'chinatown')
 	and locale = 'zh'
-	and page_id = 'schedule';	
+	and page_id = 'schedule';
 
 
 ------------  ends chinatown
@@ -1927,7 +1927,7 @@ p span.label {font-weight: bold;}
 </div>');
 
 
-	
+
 update church_content set body = STRINGDECODE('
 <p>
 <b>Pastor: </b>Rev. Guo Dan Jiang, 34-620-630-901
@@ -1953,7 +1953,7 @@ update church_content set body = STRINGDECODE('
 	and locale = 'en'
 	and page_id = 'contactus';
 
-	
+
 update church_content set body = STRINGDECODE('
 <p>
 <b>牧師: </b>蔣國淡 牧師, 34-620-630-901
@@ -1990,7 +1990,7 @@ insert into church_content (church_id, locale, page_id, title, body) values (34,
 	<td>Bible Study</td>
 	<td>Tuesday 6:00 - 7:00 pm</td>
 </tr>
-</table>');	
+</table>');
 
 
 insert into church_content (church_id, locale, page_id, title, body) values (34, 'zh', 'schedule','福恩城基督教生命堂 - 聚會日程',
@@ -2003,9 +2003,9 @@ insert into church_content (church_id, locale, page_id, title, body) values (34,
 	<td>查經</td>
 	<td>週二晚上 6:00 - 7:00 pm</td>
 </tr>
-</table>');	
-	
-	
+</table>');
+
+
 
 --------------  ends Fuenlabrada -------------
 
@@ -2080,10 +2080,10 @@ Yueh Yun Li was sent to Spain to start the CEC Church by the end of 1995. On Apr
 </div>
 '	where church_id = (select church_id from church where church_path = 'madrid')
 	and locale = 'en'
-	and page_id = 'intro';		
+	and page_id = 'intro';
 
 
-	
+
 update church_content set body = '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
@@ -2148,7 +2148,7 @@ p span.label {font-weight: bold;}
 </div>
 '	where church_id = (select church_id from church where church_path = 'madrid')
 	and locale = 'zh'
-	and page_id = 'intro';	
+	and page_id = 'intro';
 
 
 
@@ -2276,7 +2276,7 @@ update church_content set body = '<p>&nbsp;</p>
 	and locale = 'en'
 	and page_id = 'schedule';
 
-	
+
 update church_content set body = '<p><b>主日崇拜 | 週日下午5:30PM</b></p>
 
 <p>&nbsp;</p>
@@ -2352,10 +2352,10 @@ update church_content set body = '<p><b>主日崇拜 | 週日下午5:30PM</b></p
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'madrid')
 	and locale = 'zh'
-	and page_id = 'schedule';	
+	and page_id = 'schedule';
 
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Pastor: </b>Rev. Yueh-Yun Li, 34-629-035-717
@@ -2378,9 +2378,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'madrid')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>牧師: </b>李月雲  牧師, 34-629-035-717
@@ -2407,9 +2407,9 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 
------------- ends madrid	
-	
------------- starts southmadrid	
+------------ ends madrid
+
+------------ starts southmadrid
 update church_content set body = '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
@@ -2471,9 +2471,9 @@ p span.label {font-weight: bold;}
 </div>
 '	where church_id = (select church_id from church where church_path = 'southmadrid')
 	and locale = 'en'
-	and page_id = 'intro';		
-	
-	
+	and page_id = 'intro';
+
+
 update church_content set body = '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
@@ -2532,12 +2532,12 @@ p span.label {font-weight: bold;}
 <img align="left" alt="CEC South Madrid" height="258" hspace="5" src="/emsiweb/images/southmadrid/SMadrid8_18_13.jpg" title="CEC South Madrid" width="344" />馬德里是西班牙的首都、政治、經濟、文化中心，而馬德里的北邊是以經濟文化為主，多屬已發展的城市；相較以工商業為主的南邊則屬正在發展中的區域，所以南邊住房的價格就相對比較低，也是許多華人集中區，而馬德里南區生命堂即坐落於此。馬德里的總會地處北邊，以至於對南區的人來講，自然就有許多不便之處；因此我們早就計劃在馬德里南區建教會。感謝主，二○○四年馬德里南區生命堂成立。當時楊摩西牧師派王艷華傳道來幫助牧養，後因巴塞羅那事工之需又派其前往。馬德里南區生命堂在二○○六年建堂，二○○七年擴建完畢，蒙主的帶領，福音工作如期展開。同工們的同心配搭，盡心盡力擺上，人數一天天增長，但我們知道仍要繼續努力，完成主的托付。<br />
 馬德里南區生命堂的開始，我們還沒有自己的 事奉同工，信徒也不多。一開始是北區來支援兩年的時間，直到建堂後，兩邊同時間聚會，南堂必須有自己的事奉人員。感謝主，一批批的同工就產生了，大家同心合意，興旺福音。二○○六年十月獻堂後，由於場地不大，只有一百坪米，七十人就坐滿了。為了更好地發展，我們需要空間，而剛好我們當初買這教堂時，位在中間，左右兩邊還有兩間是空的。當時我們找過房東，但沒找到，而就在獻堂時，有位西班牙人向我們推銷椅子，本來我們不打算買，但我想買十張椅子放在講台上用，結果他送來的時侯告訴我，我們右邊空房子是他父親的，我一聽：「啊！原來如此。」當時我們不急用，直到十二月他父親來找我，我們用很便宜的租金租下來，馬上開始裝修。二○○七年的三月，我們擴建完畢。<br />
 馬德里南區生命堂是很年輕的堂會，在北堂(總會)的愛心護養下慢慢地成長。感謝主，回顧馬德里南區生命堂成立四年來，不但人數增長，弟兄姐妹們的靈命也成長許多；而更看到不論是我們的生活、事業和家庭都蒙主賜福。詩人大衛說：「若不是耶和華建造房屋，建造的人就枉然勞力；若不是耶和華看守城池，看守的人就枉然儆醒。」(詩一二七1) 所以，我們的生命與生活都是在主裡得豐富。願馬德里南區生命堂的信徒同心事奉永生的真神，並同蒙主豐厚的賜福！</p>
-</div>	
+</div>
 '	where church_id = (select church_id from church where church_path = 'southmadrid')
 	and locale = 'zh'
-	and page_id = 'intro';		
+	and page_id = 'intro';
 
-	
+
 insert into church_content (church_id, locale, page_id, title, body) values (32, 'en', 'schedule', 'CEC in South Madrid - Church Services Schedule',
 '<table border="1" cellpadding="5">
 <tr>
@@ -2560,7 +2560,7 @@ insert into church_content (church_id, locale, page_id, title, body) values (32,
 	<td>Chinese School</td>
 	<td>Sunday 6 pm</td>
 </tr>
-</table>');	
+</table>');
 
 
 update church_content set body = '<table border="1" cellpadding="5">
@@ -2587,10 +2587,10 @@ update church_content set body = '<table border="1" cellpadding="5">
 </table>
 '	where church_id = (select church_id from church where church_path = 'southmadrid')
 	and locale = 'zh'
-	and page_id = 'schedule';	
-------------ends southmadrid	
-	
-------------starts barcelona	
+	and page_id = 'schedule';
+------------ends southmadrid
+
+------------starts barcelona
 update church_content set body = '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
@@ -2650,9 +2650,9 @@ p span.label {font-weight: bold;}
 </div>
 '	where church_id = (select church_id from church where church_path = 'barcelona')
 	and locale = 'zh'
-	and page_id = 'intro';	
+	and page_id = 'intro';
 
-	
+
 update church_content set body = '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
@@ -2712,8 +2712,8 @@ Subway: #2 line, # 5 line getting off at Sagrada Familia station, #2 line: exit 
 </div>
 '	where church_id = (select church_id from church where church_path = 'barcelona')
 	and locale = 'en'
-	and page_id = 'intro';	
-	
+	and page_id = 'intro';
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -2742,9 +2742,9 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'barcelona')
 	and locale = 'en'
-	and page_id = 'schedule';	
-	
-	
+	and page_id = 'schedule';
+
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -2774,9 +2774,9 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'barcelona')
 	and locale = 'zh'
-	and page_id = 'schedule';	
+	and page_id = 'schedule';
 
-	
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Evangelist: </b>Ev. Esther Wang, (C)+34-69-827-2704
@@ -2796,9 +2796,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'barcelona')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道: </b>王艷華傳道, (手機)+34-69-827-2704
@@ -2895,7 +2895,7 @@ Our vision and mission of our church is to “Reach out our community to reach t
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -2966,9 +2966,9 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
-	
+
+
+
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(9, 'schedule', 'en', 'IEC in San Diego  - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -3001,7 +3001,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 <p>&nbsp;</p>
 
-'); 
+');
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(9, 'schedule', 'zh', '聖地亞哥基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 
@@ -3038,7 +3038,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <p>&nbsp;</p>
 ');
 
-	
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Senior Pastor: </b>Rev. Stephen Hosea
@@ -3059,9 +3059,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'sandiego')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>牧師:</b> 何兆威 牧師
@@ -3119,7 +3119,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 <p>&nbsp;</p>
 
-'); 
+');
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(13, 'schedule', 'zh', '沙加緬度基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 
@@ -3236,8 +3236,8 @@ Thank God that He began His good work in this church and we believe He will fini
 ')	where church_id = (select church_id from church where church_path = 'sanfrancisco')
 	and locale = 'en'
 	and page_id = 'intro';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -3285,7 +3285,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<b>成立日期:</b> 1985年 4月 21日 
+<b>成立日期:</b> 1985年 4月 21日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -3302,8 +3302,8 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Senior Pastor: </b>Rev. Stephen Hosea, (415)309-5661
@@ -3327,9 +3327,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'sanfrancisco')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>主任牧師:</b> 何兆威 牧師,  (415)309-5661
@@ -3354,8 +3354,8 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
-	
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(11, 'schedule', 'en', 'IEC in San Francisco - Church Services Schedule', 
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(11, 'schedule', 'en', 'IEC in San Francisco - Church Services Schedule',
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -3376,10 +3376,10 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 
-	
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(11, 'schedule', 'zh', '三籓市基督教生命堂 - 聚會日程', 
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(11, 'schedule', 'zh', '三籓市基督教生命堂 - 聚會日程',
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -3402,9 +3402,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 
 <p>&nbsp;</p>
-');            
-		
-	
+');
+
+
 --------------------ends san francisco
 
 ------------starts sanjose
@@ -3463,14 +3463,14 @@ p span.label {font-weight: bold;}
 <img src="/emsi/images/church_sanjose_2014.JPG" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />C.E.C. in San Jose was officially established on September 22, 1985, under the need and request of fellow Indonesians and the support of E.M.S.I.<br />
 When the church was first formed, the attendance was in the teens.  As the church ministry expanded, God continually added to our congregation with new Christians.  As the number of attendants increased, our meeting place had relocated.  In these 24 years, we have been renting churches for our services.  But in November 1990, we moved into our first newly purchased church building.  But in the last ten years, due to the increase in Sunday Worship Service and Sunday school attendance, we didn\u2019t have sufficient space for ministry.  Therefore, in the last few years, we had to use the Government sponsored Senior Citizens place for our Wednesday Prayer Meeting and Friday Youth Group.  We also used another church and their classrooms for our Sunday Service and activities.  Facing these difficulties, we continually prayed that God  may be gracious to us, granting us a bigger church to expand His ministry.  Right now, we are in the process of looking for a more suitable place to purchase and that we have our own church building and expand His ministry.<br />
 We have expanded our church ministries to mission, discipleship, evangelism, caring and Laymen\u2019s Institute.  The brothers and sisters actively participate and are very supportive.  Every year we could see that the Lord has given us new believers.  Not only do we have Indonesian Worship Service, but started the English Service too.<br />
-Thanks and praises to the Lord!  For the past 24 years, God\u2019s wondrous working is clearly manifested in the church, leading many to salvation, and growing spiritually with steadfastness.  Just as the Bible says, \u201cNow unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us, Unto him be glory in the church by Christ Jesus throughout all ages, world without end. Amen.\u201d (Ephesians 3:20-21). 
+Thanks and praises to the Lord!  For the past 24 years, God\u2019s wondrous working is clearly manifested in the church, leading many to salvation, and growing spiritually with steadfastness.  Just as the Bible says, \u201cNow unto him that is able to do exceeding abundantly above all that we ask or think, according to the power that worketh in us, Unto him be glory in the church by Christ Jesus throughout all ages, world without end. Amen.\u201d (Ephesians 3:20-21).
 </p>
 </div>
 ')	where church_id = (select church_id from church where church_path = 'sanjose')
 	and locale = 'en'
 	and page_id = 'intro';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -3537,8 +3537,8 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Senior Pastor: </b>Rev. Stephen Hosea, 415-309-5661
@@ -3561,9 +3561,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'sanjose')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>主任牧師:</b> 	何兆威 牧師,  415-309-5661
@@ -3634,7 +3634,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 			<td style="padding: 0px 10px 0px 10px">青年及專業人士團契</td>
 			<td style="padding: 0px 10px 0px 10px">星期五</td>
 			<td style="padding: 0px 10px 0px 10px">晚 上七 時</td>
-		</tr> 
+		</tr>
 		<tr>
 			<td style="padding: 0px 10px 0px 10px">南灣及東灣團契</td>
 			<td style="padding: 0px 10px 0px 10px">星期六</td>
@@ -3715,7 +3715,7 @@ That evening in the prayer meeting of CEC in Lisbon, Pastor Chen shared with eve
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -3799,8 +3799,8 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Evangelist: </b> Ev. Yong Yong Guo, (Cell) 965-333-777
@@ -3817,9 +3817,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'portoalto')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道: </b>郭永勇 傳道, (手機) 965-333-777
@@ -3828,7 +3828,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal
 </p>
 <p>
-<b>電話: </b>3351-263-658-466/(手機) 351-965-077-777 
+<b>電話: </b>3351-263-658-466/(手機) 351-965-077-777
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m" style="color:#0000FF;text-align:left">View Larger Map</a></small>
@@ -3839,7 +3839,7 @@ update church_content set body = STRINGDECODE('<p>
 
 ----------------- porto alto
 
-	
+
 ---------------------update lisbon  pages
 
 update church_content set body = '<style>
@@ -3898,7 +3898,7 @@ p span.label {font-weight: bold;}
 <img hspace="5" src="/emsi/images/Church-Lisbon-pic-2-8-18.jpg" align="left" height="255" width="360" />The Portuguese church, CEC in Lisbon, was founded on October 21, 1999 by Rev. Moses Yang.
 </p>
 <p>
-In July, 1999 Evangelist Yueing Chen was serving in Valencia, Spain. He received acall from his sister Xiao Li Chen. She told him that Lisbon urgently needed the Gospel. After many prayers and discussions with the CEM headquarters in North America, brothers from CEM in the United States and him went to visit the Christians in Lisbon and have an appreciation the need of the gospel there.Evangelist Chen was then transferred to Lisbon in September for starting a church/ministry there with the support of CEC Europe. There were a number of loving Christian families participated in the ministry. A sister in Lord then offered 
+In July, 1999 Evangelist Yueing Chen was serving in Valencia, Spain. He received acall from his sister Xiao Li Chen. She told him that Lisbon urgently needed the Gospel. After many prayers and discussions with the CEM headquarters in North America, brothers from CEM in the United States and him went to visit the Christians in Lisbon and have an appreciation the need of the gospel there.Evangelist Chen was then transferred to Lisbon in September for starting a church/ministry there with the support of CEC Europe. There were a number of loving Christian families participated in the ministry. A sister in Lord then offered
 her restaurant as a meeting place. On October 3rd, 1999, the first worship service was held. Later on October 21st, Rev. Yang and Rev. Chi went to formally establish the CEC in Lisbon, followed by visitation of Rev. and Mrs. Chan on November 14th to initiate the first co-workers meeting. On December 5th, Sunday Worship was moved to the rented church in Lisbon.
 </p>
 </div>
@@ -3906,7 +3906,7 @@ her restaurant as a meeting place. On October 3rd, 1999, the first worship servi
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -3982,8 +3982,8 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Senior Pastor: </b>Rev. Yue Ping Chen, (cell) 351-963-333-777
@@ -4006,9 +4006,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'lisbon')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>牧師:</b> 陳岳平 牧師,(手機) 351-963-333-777
@@ -4035,10 +4035,10 @@ update church_content set body = STRINGDECODE('<p>
 
 ----------------- end Lisbon
 
-	
-	
-	
-	
+
+
+
+
 ---------------------update Portugal - porto  pages
 
 update church_content set body = '<style>
@@ -4094,7 +4094,7 @@ p span.label {font-weight: bold;}
 <p>
 <img hspace="5" src="/emsi/images/Church-Porto-pic-2-8-18.jpg" align="left" height="255" width="360" />
 CEC in Lisbon co-workers usually reciprocates CEC Holland Churches generosity. During the 2nd year anniversary, CEC Lisbon decided to do a Missionary trip in Porto, following CEC Holland’s footsteps. So during Christmas 2001, Evangelist Chan and co-workers went to Porto to visit Chinese Christians and Chinese non-believers and invited them to attend the first worship service. There was an enthusiastic response, the co-workers decided to continue this worship service.
-CEC Headquarters in North America upon hearing this good news immediately sent group of 
+CEC Headquarters in North America upon hearing this good news immediately sent group of
 missionaries to Porto to spread the Gospel in a revival meeting in January, 2002. The North American Short Missionary Group with Pastor Moses Yang witnessed the establishment of the CEC in Porto on January 22nd, 2002.
 </p>
 </div>
@@ -4102,7 +4102,7 @@ missionaries to Porto to spread the Gospel in a revival meeting in January, 2002
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -4176,29 +4176,29 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Address: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
 <p>
-<b>Tel #: </b> (cell) 351-252-612-642 
+<b>Tel #: </b> (cell) 351-252-612-642
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.9619421941993!2d-8.616034784580663!3d41.17899727928379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464357d7708af%3A0x3f1595d11819de60!2sRua+do+Amial+698%2C+4200-062+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1476580063460" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
 ')	where church_id = (select church_id from church where church_path = 'porto')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>地址: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
 <p>
-<b>電話:</b> 351-252-612-642  
+<b>電話:</b> 351-252-612-642
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.9619421941993!2d-8.616034784580663!3d41.17899727928379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464357d7708af%3A0x3f1595d11819de60!2sRua+do+Amial+698%2C+4200-062+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1476580063460" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -4216,7 +4216,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(37, 'schedule', 'zh', '波爾圖基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -4227,9 +4227,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');             
+');
 
-	
+
 ----------------- end Portugal - porto
 
 -----------------starts Portugal - Mindelo
@@ -4290,7 +4290,7 @@ CEC in Mindelo was established on June 11, 2006 in the Mindelo Warehouse Wholesa
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -4357,8 +4357,8 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Address: </b>Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal
@@ -4378,9 +4378,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'mindelo')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>地址: </b>Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal
@@ -4393,7 +4393,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>電郵: </b>emsimindelo@hotmail.com
-</p> 
+</p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=41.333965,+-8.720221&amp;aq=&amp;sll=41.334996,-8.723702&amp;sspn=0.008249,0.015664&amp;ie=UTF8&amp;ll=41.334996,-8.723702&amp;spn=0.008249,0.015664&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=41.333965,+-8.720221&amp;aq=&amp;sll=41.334996,-8.723702&amp;sspn=0.008249,0.015664&amp;ie=UTF8&amp;ll=41.334996,-8.723702&amp;spn=0.008249,0.015664&amp;t=m&amp;z=14;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
@@ -4405,10 +4405,10 @@ update church_content set body = STRINGDECODE('<p>
 -----------------ends Portugal - Mindelo
 
 ---------- Portugal - Azores  New church Sept 2015 ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(57, 'azores', 1, 5, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(57, 'en', 'menu_name', 'CEC in Azores');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(57, 'zh', 'menu_name', '亞速爾基督教生命堂 ');            
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(9, NULL, 57);          
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(57, 'azores', 1, 5, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(57, 'en', 'menu_name', 'CEC in Azores');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(57, 'zh', 'menu_name', '亞速爾基督教生命堂 ');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(9, NULL, 57);
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'intro', 'en', 'CEC in Azores  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -4445,7 +4445,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td><a href=\"mailto: emsiazores@hotmail.com"> emsiazores@hotmail.com</a></td>			
+				<td><a href=\"mailto: emsiazores@hotmail.com"> emsiazores@hotmail.com</a></td>
 			</tr>
 		</tbody>
 	</table>
@@ -4456,7 +4456,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 	<p><span class="label">Established Date: </span>August 22, 2015</p>
-	<p><img hspace="5" src="/emsi/images/Church-Azores-pic-2-23-18.jpg" align="left" height="255" width="360" />In May 2015, I received a phone call from Brother Jianfeng Ji. After Mr. Ji had witnessed to one of his customer for a long time, he was ready to accept Jesus Christ as his Savior. We made an appointment at 12 am Thursday evening during our restaurant Bible Study hour to speak to him on the phone and lead him to Christ. 
+	<p><img hspace="5" src="/emsi/images/Church-Azores-pic-2-23-18.jpg" align="left" height="255" width="360" />In May 2015, I received a phone call from Brother Jianfeng Ji. After Mr. Ji had witnessed to one of his customer for a long time, he was ready to accept Jesus Christ as his Savior. We made an appointment at 12 am Thursday evening during our restaurant Bible Study hour to speak to him on the phone and lead him to Christ.
 	</p>
 	<p>On Thursday night at 12 am, we called him. I thank God that our friend answered the phone and accepted Jesus Christ as his Savior. When I put down the phone, I told Jianfeng that: we thank the Lord that his friend believes in Jesus. It is too bad he lives so far away from us, a solid three hours by plane. A new believer will be very lonely without church life. Let us pray for him and ask the Holy Spirit to help him. Later I heard from Jianfeng that the brother who just believed in the Lord called him to share with him that since he believed in Jesus, he does not know why he was so joyful, and this joy he never had.  I was very grateful for him!
 	</p>
@@ -4466,7 +4466,7 @@ p span.label {font-weight: bold;}
 	</p>
 	<p>We arrived at the island the same day. After we checked in the hotel, some of us went for visitation in seven groups; the rest of the brothers and sisters set up the site, installed audio and video equipment etc.
 	</p>
-	<p>At nine o&#39;clock that evening, our musical evangelistic meeting started. We were very grateful for the number of people that came. We expected twenty-plus people to show up. Instead we had more than sixty local Chinese turning out. Among them twenty-plus were Christians. A few accepted Jesus Christ as their Lord that evening. All of us were exhilarated at the fruit of our labor. People were reluctant to leave afterwards. I asked them: “Will you come if we are going to hold meetings here again?” They replied that they will.  We invited a few actively involved brothers and sisters to stay and exchanged ideas. We thank our Lord that the thought to start a church at Azores was born that evening. We thank 
+	<p>At nine o&#39;clock that evening, our musical evangelistic meeting started. We were very grateful for the number of people that came. We expected twenty-plus people to show up. Instead we had more than sixty local Chinese turning out. Among them twenty-plus were Christians. A few accepted Jesus Christ as their Lord that evening. All of us were exhilarated at the fruit of our labor. People were reluctant to leave afterwards. I asked them: “Will you come if we are going to hold meetings here again?” They replied that they will.  We invited a few actively involved brothers and sisters to stay and exchanged ideas. We thank our Lord that the thought to start a church at Azores was born that evening. We thank
 the Lord that under the leading of our Almighty God the Azores Musical Evangelistic mission trip came to a satisfying end!
 	</p>
 	<p>I immediately reported the result of our mission trip to our bishop at CEM headquarter, Rev. Moses Yang that evening. I also reported to him our desire to start a CEC church in Azores. God’s timing is the best. It happened that Rev. Moses Yang was coming to speak in our CEM Portugal Summer Conference in Aug. 24 -28, 2015. So we decided to establish the CEC in Azores on August 22.
@@ -4516,7 +4516,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td><a href=\"mailto: emsiazores@hotmail.com"> emsiazores@hotmail.com</a></td>			
+				<td><a href=\"mailto: emsiazores@hotmail.com"> emsiazores@hotmail.com</a></td>
 			</tr>
 		</tbody>
 	</table>
@@ -4527,7 +4527,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<b>成立日期:</b> 2015年 8月 22日 
+<b>成立日期:</b> 2015年 8月 22日
 </p>
 <p>
 <span class=\"label\">簡史: </span>
@@ -4561,8 +4561,8 @@ p span.label {font-weight: bold;}
 
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'contactus', 'en', 'CEC in Azores - Contact Us', 'Christian Evangelical Church in Azores<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'contactus', 'zh', '亞速爾基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'contactus', 'en', 'CEC in Azores - Contact Us', 'Christian Evangelical Church in Azores<br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'contactus', 'zh', '亞速爾基督教生命堂  - 連絡我們','');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'schedule', 'en', 'CEC in Azores - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -4574,7 +4574,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'schedule', 'zh', '亞速爾基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -4586,7 +4586,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');             
+');
 
 
 update church set address='Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal', latitude = 37.7419884, longitude = -25.6883702 where church_path = 'azores';
@@ -4607,7 +4607,7 @@ update church_content set body = STRINGDECODE('
 ')	where church_id = (select church_id from church where church_path = 'azores')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
+
 update church_content set body = STRINGDECODE('<p>
 <p><b>地 址: </b>Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal</p>
 <p>
@@ -4621,13 +4621,13 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 -----------------------end Portugal - Azores
-	
+
 
 ---------- Portugal - Setubal  New church Aug 2016 ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(58, 'setubal', 1, 5, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(58, 'en', 'menu_name', 'CEC in Setubal');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(58, 'zh', 'menu_name', '思督堡基督教生命堂 ');            
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(9, NULL, 58);          
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(58, 'setubal', 1, 5, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(58, 'en', 'menu_name', 'CEC in Setubal');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(58, 'zh', 'menu_name', '思督堡基督教生命堂 ');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(9, NULL, 58);
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'intro', 'en', 'CEC in Setubal  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -4664,7 +4664,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td><a href=\"mailto: emsisetubal@hotmail.com"> emsisetubal@hotmail.com</a></td>			
+				<td><a href=\"mailto: emsisetubal@hotmail.com"> emsisetubal@hotmail.com</a></td>
 			</tr>
 		</tbody>
 	</table>
@@ -4716,7 +4716,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td><a href=\"mailto: emsisetubal@hotmail.com"> emsisetubal@hotmail.com</a></td>			
+				<td><a href=\"mailto: emsisetubal@hotmail.com"> emsisetubal@hotmail.com</a></td>
 			</tr>
 		</tbody>
 	</table>
@@ -4727,7 +4727,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<b>成立日期:</b> 2016年 8月 5日 
+<b>成立日期:</b> 2016年 8月 5日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -4749,8 +4749,8 @@ p span.label {font-weight: bold;}
 
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'contactus', 'en', 'CEC in Setubal - Contact Us', 'Christian Evangelical Church in Setubal<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'contactus', 'zh', '思督堡基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'contactus', 'en', 'CEC in Setubal - Contact Us', 'Christian Evangelical Church in Setubal<br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'contactus', 'zh', '思督堡基督教生命堂  - 連絡我們','');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'schedule', 'en', 'CEC in Setubal - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -4762,7 +4762,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'schedule', 'zh', '思督堡基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -4774,7 +4774,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');             
+');
 
 
 update church set address='Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal', latitude = 38.5270432, longitude = -8.8843252 where church_path = 'setubal';
@@ -4798,7 +4798,7 @@ update church_content set body = STRINGDECODE('
 ')	where church_id = (select church_id from church where church_path = 'setubal')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道: </b>郭永勇 傳道, (手機) 965-333-777
@@ -4815,12 +4815,12 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 -----------------------end Portugal - Setubal
-	
+
 ---------- Queens - performingArtists  New church Jan 2017 ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(59, 'performingArtists', 1, 10, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(59, 'en', 'menu_name', 'Performing Artists Gospel Fellowship in New York');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(59, 'zh', 'menu_name', '紐約藝人基督教生命堂 ');            
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 59);          
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(59, 'performingArtists', 1, 10, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(59, 'en', 'menu_name', 'Performing Artists Gospel Fellowship in New York');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(59, 'zh', 'menu_name', '紐約藝人基督教生命堂 ');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 59);
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'intro', 'en', 'Performing Artists Gospel Fellowship in New York  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -4857,7 +4857,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td><a href=\"mailto: jhuang277@gmail.com"> jhuang277@gmail.com</a></td>			
+				<td><a href=\"mailto: jhuang277@gmail.com"> jhuang277@gmail.com</a></td>
 			</tr>
 		</tbody>
 	</table>
@@ -4919,7 +4919,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td><a href=\"mailto: jhuang277@gmail.com"> jhuang277@gmail.com</a></td>			
+				<td><a href=\"mailto: jhuang277@gmail.com"> jhuang277@gmail.com</a></td>
 			</tr>
 		</tbody>
 	</table>
@@ -4930,7 +4930,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<b>成立日期:</b> 2017年 1月13日 
+<b>成立日期:</b> 2017年 1月13日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -4951,9 +4951,9 @@ p span.label {font-weight: bold;}
 
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'contactus', 'en', 'Performing Artists Gospel Fellowship in New York - Contact Us', 'Performing Artists Gospel Fellowship in New York<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'contactus', 'zh', '紐約藝人基督教生命堂  - 連絡我們','');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'schedule', 'en', 'Performing Artists Gospel Fellowship in New York - Church Services Schedule', 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'contactus', 'en', 'Performing Artists Gospel Fellowship in New York - Contact Us', 'Performing Artists Gospel Fellowship in New York<br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'contactus', 'zh', '紐約藝人基督教生命堂  - 連絡我們','');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'schedule', 'en', 'Performing Artists Gospel Fellowship in New York - Church Services Schedule',
 '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -4980,7 +4980,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'schedule', 'zh', '紐約藝人基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -5007,7 +5007,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');             
+');
 
 
 update church set address='138-10 35th Ave, Flushing, NY 11354, USA', latitude = 40.76509, longitude = -73.82859 where church_path = 'performingArtists';
@@ -5031,7 +5031,7 @@ update church_content set body = STRINGDECODE('
 ')	where church_id = (select church_id from church where church_path = 'performingArtists')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>牧者: </b>黃靜 教授, 973-335-7177 ext.211
@@ -5053,12 +5053,12 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 -----------------------end Queens - performingArtists
-	
+
 ---------- Portugal - Madeira  New church Aug 2017 ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(60, 'madeira', 1, 7, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(60, 'en', 'menu_name', 'CEC in Madeira');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(60, 'zh', 'menu_name', '馬德拉基督教生命堂 ');            
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(9, NULL, 60);          
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(60, 'madeira', 1, 7, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(60, 'en', 'menu_name', 'CEC in Madeira');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(60, 'zh', 'menu_name', '馬德拉基督教生命堂 ');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(9, NULL, 60);
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'intro', 'en', 'CEC in Madeira  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -5100,7 +5100,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td></td>			
+				<td></td>
 			</tr>
 		</tbody>
 	</table>
@@ -5158,7 +5158,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td></td>			
+				<td></td>
 			</tr>
 		</tbody>
 	</table>
@@ -5169,7 +5169,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<b>成立日期:</b> 2016年 5月 29日 
+<b>成立日期:</b> 2016年 5月 29日
 </p>
 <p>
 <span class=\"label\">簡史: </span>
@@ -5187,23 +5187,23 @@ p span.label {font-weight: bold;}
 </p>
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'contactus', 'en', 'CEC in Madeira - Contact Us', 'Performing Artists Gospel Fellowship in New York<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'contactus', 'zh', '馬德拉基督教生命堂  - 連絡我們','');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'schedule', 'en', 'CEC in Madeira - Church Services Schedule', 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'contactus', 'en', 'CEC in Madeira - Contact Us', 'Performing Artists Gospel Fellowship in New York<br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'contactus', 'zh', '馬德拉基督教生命堂  - 連絡我們','');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'schedule', 'en', 'CEC in Madeira - Church Services Schedule',
 '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'schedule', 'zh', '馬德拉基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
-');             
+');
 
 
 update church set address='Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal', latitude = 32.6195995, longitude = -17.0640852 where church_path = 'madeira';
@@ -5226,7 +5226,7 @@ update church_content set body = STRINGDECODE('
 ')	where church_id = (select church_id from church where church_path = 'madeira')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>地 址: </b>Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal
@@ -5244,10 +5244,10 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 -----------------------end Portugal - Madeira
-	
-	
-	
-	
+
+
+
+
 -----------------starts Hungary - budapest
 
 update church_content set body = '<style>
@@ -5310,7 +5310,7 @@ I will send you the word document.
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -5371,11 +5371,11 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Minhui Xie  
+<b>Evangelist: </b>Ev. Minhui Xie
 </p>
 <p>
 <b>Address: </b>1107 Budapest, Monori u.2-4. E12-12 Hungary
@@ -5394,9 +5394,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'budapest')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道: </b>謝敏惠 傳道
@@ -5423,7 +5423,7 @@ update church_content set body = STRINGDECODE('<p>
 -----------------ends Hungary - budapest
 
 -----------------starts kobe
-	
+
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -5481,7 +5481,7 @@ When Pastor Moses Yang came to Japan on September 2007 to teach theological cour
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -5541,8 +5541,8 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'kobe')
 	and locale = 'zh'
 	and page_id = 'intro';
-	
-	
+
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -5597,7 +5597,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 
 '	where church_id = (select church_id from church where church_path = 'kobe')
 	and locale = 'zh'
-	and page_id = 'schedule';	
+	and page_id = 'schedule';
 
 update church_content set body = STRINGDECODE('<p>
 <p>
@@ -5618,9 +5618,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'kobe')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道:</b> 張瓊 傳道
@@ -5641,23 +5641,23 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'kobe')
 	and locale = 'zh'
 	and page_id = 'contactus';
-	
-	
+
+
 update church_content set title = STRINGDECODE('
 神戶基督教生命堂 - 聚會日程
 ')	where church_id = (select church_id from church where church_path = 'kobe')
 	and locale = 'zh'
 	and page_id = 'schedule';
-	
+
 update church_content set title = STRINGDECODE('
 神戶基督教生命堂 - 連絡我們
 ')	where church_id = (select church_id from church where church_path = 'kobe')
 	and locale = 'zh'
 	and page_id = 'contactus';
-	
+
 
 -----------------ends kobe
-	
+
 -----------------starts Japan - osaka
 
 update church_content set body = '<style>
@@ -5719,7 +5719,7 @@ p span.label {font-weight: bold;}
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -5771,7 +5771,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/osaka_small[1].jpg\" align=\"left\" height=\"255\" width=\"360\" />2009年10月楊牧師有感動要在大阪發展聖工，成立教會。然而租借聚會地方的道路卻屢屢受阻。經過迫切地禱告，2010年2月一間肯租給我們當教會的地方成為我們購堂的對象。 
+<img hspace=\"5\" src=\"/emsi/files/osaka_small[1].jpg\" align=\"left\" height=\"255\" width=\"360\" />2009年10月楊牧師有感動要在大阪發展聖工，成立教會。然而租借聚會地方的道路卻屢屢受阻。經過迫切地禱告，2010年2月一間肯租給我們當教會的地方成為我們購堂的對象。
 購堂過程並不順利，第一間預定購買的禮拜堂沒有成交。神的旨意卻超乎所求所想，將一間更好的禮拜堂賜給我們，2010年 9月3日總監督楊摩西牧師來日本親自簽約; 簽約後開始為期約3個月的準備及裝修， 2010年10月10日我們在三樓不用裝修的房間首次禮拜; 2010年12月5日總監督楊摩西牧師親臨主持日本亞洲宣教大樓落成暨大阪基督教生命堂啟用剪彩與獻堂感恩禮拜。
 </p>
 
@@ -5780,8 +5780,8 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Evangelist: </b>Chao, Yong Ning, 0081-080-3118-8434
@@ -5804,9 +5804,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'osaka')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道:</b>曹永寧 傳道, 0081-080-3118-8434
@@ -5835,13 +5835,13 @@ update church_content set title = STRINGDECODE('
 ')	where church_id = (select church_id from church where church_path = 'osaka')
 	and locale = 'zh'
 	and page_id = 'intro';
-	
+
 update church_content set title = STRINGDECODE('
 大阪(美國)基督教生命堂 - 連絡我們
 ')	where church_id = (select church_id from church where church_path = 'osaka')
 	and locale = 'zh'
 	and page_id = 'contactus';
-	
+
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(47, 'schedule', 'en', 'CEC in Osaka - Church Services Schedule', STRINGDECODE('
 <table  border="1">
 	<tbody>
@@ -5932,7 +5932,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 
 -----------------ends Japan - osaka
-	
+
 -----------------starts Taiwan - taipei
 
 
@@ -5997,7 +5997,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ---** 	and locale = 'en'
 ---** 	and page_id = 'intro';
 
-	
+
 ---** update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 ---** font-family: Arial,helvetica,sans-serif,新細明體;}
 ---** .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -6058,7 +6058,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ---** ')	where church_id = (select church_id from church where church_path = 'taipei')
 ---** 	and locale = 'zh'
 ---** 	and page_id = 'intro';
-	
+
 
 ---** INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(48, 'schedule', 'en', 'CEC in Taipei - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 ---** 	<tbody>
@@ -6096,12 +6096,12 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ---** </table>
 
 ---** <p>&nbsp;</p>
----** ');            
-	
+---** ');
+
 
 -----------------ends Taiwan - taipei
 
-	
+
 -----------------starts Italy - milan
 update church_content set body = STRINGDECODE('<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -6242,7 +6242,7 @@ p span.label {font-weight: bold;}
 
 ----------ends Italy - milan
 
-	
+
 ---------  starts Holland rotterdam
 
 update church_content set body = '<style>
@@ -6300,7 +6300,7 @@ p span.label {font-weight: bold;}
 <div class="main-content">
 <p>
 <span class="label">Established Date: </span>July 1975
-</p>                                  
+</p>
 <p>
 <img src="/emsi/files/rotterdamsmall.jpg" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />
 We are the first of twelve Netherlands churches established under C.E.M. in Europe (formerly Chinese Evangelical Mission in Europe).
@@ -6384,7 +6384,7 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<b>成立日期:</b> 1975年 7月 
+<b>成立日期:</b> 1975年 7月
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -6420,10 +6420,10 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
+
+
 ---------  ends Holland rotterdam
-	
+
 ----------  starts Holland Den Haag
 
 
@@ -6480,7 +6480,7 @@ p span.label {font-weight: bold;}
 <div class="main-content">
 <p>
 <span class="label">Established Date: </span>September 3, 1977
-</p>                                  
+</p>
 <p>
 <img src="/emsi/files/church_denhaag.jpg" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />
 With the growth of Rotterdam families and youths, Elder Tung Lee proposed to start Youth Fellowship and Chinese School on Saturdays in Den Haag. With Ev. Erna Chan (Shi-Mu) leading the youths to spearhead these ministries, and missionary Sister Annemarie Reichel from Germany visiting the Chinses families, contacts were made with the locals in Den Haag, paving the way for establishing a church in Den Haag. In 1977, Elder Lee found a 2 story building in Paulus Petterstraat. With the help of the youth group in renovation, the church dedicated the building on September 3rd, 1977, beginning its Worship Service and Sunday School, thus begin the second church in The Netherlands.
@@ -6520,7 +6520,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\"></td>
-			<td>劉李嘉欣 傳道 (+31-(0)62-884-7813)</td>		
+			<td>劉李嘉欣 傳道 (+31-(0)62-884-7813)</td>
 		</tr>
 	</tbody>
 </table>
@@ -6547,7 +6547,7 @@ p span.label {font-weight: bold;}
 <p>
 <b>成立日期:</b> 1977年 9月3日
 
- 
+
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -6587,9 +6587,9 @@ Ev. Chandice Lau-Lee (+31-(0)62-884-7813)</p>
 ')	where church_id = (select church_id from church where church_path = 'denhaag')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>主任牧師:</b> 陳啟猷 牧師 (+31-(0)64-009-4225)
@@ -6624,10 +6624,10 @@ update church_content set body = STRINGDECODE('<p>
 
 
 
-	
+
 ----------  ends Holland Den Haag
-	
-	
+
+
 ----------  starts Holland - arnhem
 
 update church_content set body = '<style>
@@ -6676,7 +6676,7 @@ p span.label {font-weight: bold;}
 <div class="main-content">
 <p>
 <span class="label">Established Date: </span>February 12, 2012
-</p>                                  
+</p>
 <p>
 <img src="/emsi/files/cec%20arnhem%20group%20small.jpg" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />Arnhem is an important city in the central East of the Netherlands near Germany. Chinese are spread out near Arnhem, just as other places. We needed a centralized location to spread Gospel to the entire area. Near Arnhem and its neighbor city of Duiven, there is a supermarket chain "Amazing Oriental". Amazing Oriental considers it important to spread Gospel among its staff and encourage their staff to attend church services and meetings. They invited evangelists to visit their staff, and do personal evangelism work among them. God has blessed them. Many of the staff members and their families believed in Christ. We made arrangement to bring them to our church for baptismal and worship services. However, there were practical difficulties as they live very far from us. The Christian brothers and sisters of CEC in Amsterdam and brothers and sisters prayed and asked God for guidance to further the Gospel work here and to establish a church so that brothers and sisters at Arnhem and Duivan may worship God more locally. The promise of “all things work together for good to them that love God, to them who are the called according to his purpose” was fulfilled. There was a room accommodating 200 people on an upper floor of the Amazing Oriental at Duiven. Its owner agreed that we may use it for church activities. Thus CEC in Arnhem found a gathering place, where the brothers and sisters may serve, and worship with one accord. The church was established on Feb. 12, 2012, and held its first worship service that day.
 </p>
@@ -6746,8 +6746,8 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Pastor: </b>Rev. LeungMing Wong
@@ -6767,9 +6767,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'arnhem')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>牧師:</b> 黃良明 牧師
@@ -6790,9 +6790,9 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
-	
-	
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(17, 'schedule', 'en', 'CEC in Arnhem - Church Services Schedule', 
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(17, 'schedule', 'en', 'CEC in Arnhem - Church Services Schedule',
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -6808,9 +6808,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	</tbody>
 </table>
 <p>&nbsp;</p>
-');            
-	
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(17, 'schedule', 'zh', '安恆基督教生命堂 - 聚會日程', 
+');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(17, 'schedule', 'zh', '安恆基督教生命堂 - 聚會日程',
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -6826,10 +6826,10 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	</tbody>
 </table>
 <p>&nbsp;</p>
-');            
-	
-	
-	
+');
+
+
+
 ----------  ends Holland - arnhem
 
 ----------  starts Holland - veenendaal
@@ -6884,9 +6884,9 @@ p span.label {font-weight: bold;}
 <div class="main-content">
 <p>
 <span class="label">Established Date: </span>October 20, 2012
-</p>                                  
+</p>
 <p>
-<img src="/emsi/images/VeenendaalChurch.JPG" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />We started Bible study classes twice a month in September, 2009 at Petra Kerk for church members in Veenendaal. They lived or owned business in Veenendaal. They were not able to come to CEC in Utrecht regularly.  
+<img src="/emsi/images/VeenendaalChurch.JPG" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />We started Bible study classes twice a month in September, 2009 at Petra Kerk for church members in Veenendaal. They lived or owned business in Veenendaal. They were not able to come to CEC in Utrecht regularly.
 </p>
 <p>
 There were many Chinese who live or run restaurants in Veenendaal and neighboring towns. Many of these families are with two or three children. It was too far for these children to come to the youth fellowship of CEC in Utrecht even we invited them. So we started youth fellowship in September, 2011 for children in the area.
@@ -6895,7 +6895,7 @@ There were many Chinese who live or run restaurants in Veenendaal and neighborin
 There are street fairs in Veenendaal every Sunday. Chinese from neighboring towns come to buy groceries. We met many Chinese from neighboring towns. It occurred to us if it is Lord’s will, we would start a small church in Veenendaal. We started looking for a meeting place after we had consensus with coworkers.
 </p>
 <p>
-A coworker, Brother Chung, searched through internet and found a house for sale at a decent price. It covers 540 square meters, with usable floor area of 287 square meters. One could sit 80 persons in the sanctuary. In addition, there were an auditorium of 60 square meters, and an apartment of four rooms. It was close to the center of town, and was easily accessible. We believed God had provided this building for us, and decided to purchase it. At the time of economic downturn, we thank our Lord and praise Him that brothers and sisters did not neglect God’s work and were giving willingly, and generously, that we had more than enough. Our Father in heaven has provided more than we asked. It is just like what is said in the Bible:”This is the LORD''s doing; it is marvelous in our eyes”. 
+A coworker, Brother Chung, searched through internet and found a house for sale at a decent price. It covers 540 square meters, with usable floor area of 287 square meters. One could sit 80 persons in the sanctuary. In addition, there were an auditorium of 60 square meters, and an apartment of four rooms. It was close to the center of town, and was easily accessible. We believed God had provided this building for us, and decided to purchase it. At the time of economic downturn, we thank our Lord and praise Him that brothers and sisters did not neglect God’s work and were giving willingly, and generously, that we had more than enough. Our Father in heaven has provided more than we asked. It is just like what is said in the Bible:”This is the LORD''s doing; it is marvelous in our eyes”.
 </p>
 <p>
 The closing of the church building at Veenendaal was held on Oct. 11, 2012. CEM Bishop Pastor Moses Yang with a team of pastors came to the Netherlands. He presided over the church dedication on Oct. 20, 2012. CEC in Veenendaal became the 11th church of CEM in The Netherlands. May heavenly blessings come abundantly to this place.
@@ -6979,7 +6979,7 @@ Veenendaal會址終於在2012年10月11日正式簽約, 於同年10年20日藉�
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Pastor: </b>Rev. Louis Chung
@@ -7002,9 +7002,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'veenendaal')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>牧師:</b> 鍾志勳牧師
@@ -7029,9 +7029,9 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
-	
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(18, 'schedule', 'en', 'CEC in Veenendaal - Church Services Schedule', 
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(18, 'schedule', 'en', 'CEC in Veenendaal - Church Services Schedule',
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -7056,10 +7056,10 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 
-	
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(18, 'schedule', 'zh', '福臨道基督教生命堂 - 聚會日程', 
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(18, 'schedule', 'zh', '福臨道基督教生命堂 - 聚會日程',
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -7086,13 +7086,13 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 
 <p>&nbsp;</p>
-');            
-			
-	
+');
+
+
 ----------  ends Holland - veenendaal
 
 ----------  starts Holland - Leeuwarden
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(19, 'schedule', 'en', 'CEC in Leeuwarden - Church Services Schedule', 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(19, 'schedule', 'en', 'CEC in Leeuwarden - Church Services Schedule',
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 600px;">
@@ -7112,9 +7112,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	</tbody>
 </table>
 <p>&nbsp;</p>
-');            
-	
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(19, 'schedule', 'zh', '樂華城基督教生命堂 - 聚會日程', 
+');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(19, 'schedule', 'zh', '樂華城基督教生命堂 - 聚會日程',
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 600px;">
@@ -7134,21 +7134,21 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	</tbody>
 </table>
 <p>&nbsp;</p>
-');            
-	
-	
-	
+');
+
+
+
 ----------  ends Holland - Leeuwarden
 
 
-	
+
 ----------  starts Holland - Groningen
 update church_content set body = STRINGDECODE('<style>
 .contact-content {
 font-family: Arial,helvetica,sans-serif
 }
 .contact-content td {
-padding-bottom: 2px; padding-left: 2px; padding-right: 2px; font-size: small; padding-top: 2px; 3px: 
+padding-bottom: 2px; padding-left: 2px; padding-right: 2px; font-size: small; padding-top: 2px; 3px:
 }
 td.label {
 width: 1%; white-space: nowrap; font-weight: bold
@@ -7204,11 +7204,11 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 <img hspace="5" src="/emsi/images/church_groningen.jpg" align="left" height="255" width="360" />"Unless the Lord builds the house, They labor in vain; Unless the Lord guards the city, The watchman stays awake in vain." Psalm 127:1
 </p>
 <p>
-Praise the Lord, Pastor Moses Yang, Bishop of EMSI has been moved to start a church in the northern Netherlands. He commissioned Pastor Hugo Chan and his wife for pioneering the work. In April, 2009, Pastor Chen and his wife visited Chinese firms in the northern Netherlands area. They met many students, but there was no Chinese Church there. At the end of May, God prepared a 110 square meter meeting place for us at Korreweg 37, Groningen. The transportation is very convenient, It isclose to the "Oriental Supermarket", which 
+Praise the Lord, Pastor Moses Yang, Bishop of EMSI has been moved to start a church in the northern Netherlands. He commissioned Pastor Hugo Chan and his wife for pioneering the work. In April, 2009, Pastor Chen and his wife visited Chinese firms in the northern Netherlands area. They met many students, but there was no Chinese Church there. At the end of May, God prepared a 110 square meter meeting place for us at Korreweg 37, Groningen. The transportation is very convenient, It isclose to the "Oriental Supermarket", which
 the Chinese and foreign students in the neighboring towns are very familiar with.
 We are also grateful to the Lord that more than thirty brothers and sisters from different CEM churches in the Netherlands joined this pioneering ministry. On June 6, in the first meeting of the ministry, we set the time table for the progress of the work, and staffed each task. In the middle of June we began transporting the tools and items, and started the interior renovation. In mid-July the renovation was completed. By the end of July, we started visiting restaurants, Chinese shops and Chinese families door to door, and distributed tracts in the streets, inviting friends interested to know the Lord, to share, to dine and to attend gospel meetings. In August Student Fellowship from CEMC at Utrecht came to arrange student activities and to distribute leaflets in the weekends on a regular basis. The brothers and sisters of CEMC at The Hague also came to to lead the gospel cafe on Saturday. On August 2nd the first Sunday service was held, followed by a second worship service on August 16, with more than thirty participants each time.
 </p>
-<p>Twelve made a commitment to accept Christ as Savior in early August. On August 28 a talent show was organized for international students’ orientation by the Lamb Fellowship to reach Chinese oversea students. Pastor Yang presided over the beginning ceremony of the CEMC at Groningen on August 29 and conducted a Baptism and Baby Dedication services. He preached at the Renew Life Series, "Who Holds Tomorrow?" Weekly Sunday Worship and Sunday school began in mid September. 
+<p>Twelve made a commitment to accept Christ as Savior in early August. On August 28 a talent show was organized for international students’ orientation by the Lamb Fellowship to reach Chinese oversea students. Pastor Yang presided over the beginning ceremony of the CEMC at Groningen on August 29 and conducted a Baptism and Baby Dedication services. He preached at the Renew Life Series, "Who Holds Tomorrow?" Weekly Sunday Worship and Sunday school began in mid September.
 
 </p>
 </div>
@@ -7216,7 +7216,7 @@ We are also grateful to the Lord that more than thirty brothers and sisters from
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -7277,9 +7277,9 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Evangelist: </b>Ev. Yiu Cheung (mobile: 06 - 81 556 777)
@@ -7299,9 +7299,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'groningen')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道:</b> 張堯 傳道, 06-81-55-6777
@@ -7324,20 +7324,20 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 ----------  ends Holland - Groningen
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 ---------------------starts Holland - Utrecht
 update church_content set body = STRINGDECODE('<style>
 .contact-content {
 font-family: Arial,helvetica,sans-serif
 }
 .contact-content td {
-padding-bottom: 2px; padding-left: 2px; padding-right: 2px; font-size: small; padding-top: 2px; 3px: 
+padding-bottom: 2px; padding-left: 2px; padding-right: 2px; font-size: small; padding-top: 2px; 3px:
 }
 td.label {
 width: 1%; white-space: nowrap; font-weight: bold
@@ -7387,19 +7387,19 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 </div>
 <div class="main-content">
 <p>
-<span class="label">Established Date: </span>October 24, 1981 
+<span class="label">Established Date: </span>October 24, 1981
 </p>
 <p>
-<img src="/emsi/files/utrechtsmall_0.jpg" alt="CEC in Utrecht" title="CEC in Utrecht" align="left" height="270" hspace="5" width="360" />On a Saturday morning on August 1978, Pastor Hugo Chen drove the gospel bus &quot;Heavenly Journey&quot; to a parking lot near the Utrecht\u2019s train station to start the first youth fellowship in Utrecht for those who recently accepted Lord as Savior in a Gospel camp. We were grateful to the Lord that shortly afterwards, He prepared for us a church fellowship hall at Onder Marieplaats 22 as the meeting place. 
+<img src="/emsi/files/utrechtsmall_0.jpg" alt="CEC in Utrecht" title="CEC in Utrecht" align="left" height="270" hspace="5" width="360" />On a Saturday morning on August 1978, Pastor Hugo Chen drove the gospel bus &quot;Heavenly Journey&quot; to a parking lot near the Utrecht\u2019s train station to start the first youth fellowship in Utrecht for those who recently accepted Lord as Savior in a Gospel camp. We were grateful to the Lord that shortly afterwards, He prepared for us a church fellowship hall at Onder Marieplaats 22 as the meeting place.
 </p>
 <p>
-God blessed this small group of young people. In three years, they grew spiritually, and their desires to spread the gospel increased. The number of participants in the fellowship also increased. In the summer of 1981, we found a two-stories building at 1e Atjestraat 18 as our church building. On October 24, the church Dedication Ceremony was held. This was the beginning of the third CEM church in Netherlands. 
+God blessed this small group of young people. In three years, they grew spiritually, and their desires to spread the gospel increased. The number of participants in the fellowship also increased. In the summer of 1981, we found a two-stories building at 1e Atjestraat 18 as our church building. On October 24, the church Dedication Ceremony was held. This was the beginning of the third CEM church in Netherlands.
 </p>
 <p>
-With a church site, we immediately began with Chinese school ministry, and developed various fellowships. The number of believers increased, and the church building space became insufficient. On November 12, 1989, God prepared a Dutch church building at Krommerijn 1, Utrecht for us to rent for worship and Sunday school. Other group activities remained at the old venue. At the end of December 2003 the church needed to find a new place for gathering as the Dutch church had been sold. So we rented College Blaukapel at Winklierlaan 373, Utrecht for worship in 2004 and 2005. 
+With a church site, we immediately began with Chinese school ministry, and developed various fellowships. The number of believers increased, and the church building space became insufficient. On November 12, 1989, God prepared a Dutch church building at Krommerijn 1, Utrecht for us to rent for worship and Sunday school. Other group activities remained at the old venue. At the end of December 2003 the church needed to find a new place for gathering as the Dutch church had been sold. So we rented College Blaukapel at Winklierlaan 373, Utrecht for worship in 2004 and 2005.
 </p>
 <p>
-On December 26, 2005 God wonderfully helped us buy our current church premises at Marokkodreef 3, Utrecht to continue the Gospel ministry, so to enable more people to turn to God. 
+On December 26, 2005 God wonderfully helped us buy our current church premises at Marokkodreef 3, Utrecht to continue the Gospel ministry, so to enable more people to turn to God.
 </p>
 </div>
 ')	where church_id = (select church_id from church where church_path = 'utrecht')
@@ -7467,7 +7467,7 @@ p span.label {font-weight: bold;}
 	and page_id = 'intro';
 
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(22, 'schedule', 'en', 'CEC in Utrecht - Church Services Schedule', 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(22, 'schedule', 'en', 'CEC in Utrecht - Church Services Schedule',
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -7523,9 +7523,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	</tbody>
 </table>
 <p>&nbsp;</p>
-');            
-	
-update church_content set body = 
+');
+
+update church_content set body =
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -7585,12 +7585,12 @@ update church_content set body =
 '	where church_id = (select church_id from church where church_path = 'utrecht')
 	and locale = 'zh'
 	and page_id = 'schedule';
-		
-	
--------------- ends Holland - Utrecht	
+
+
+-------------- ends Holland - Utrecht
 ----------  starts Holland - zwolle
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(24, 'schedule', 'en', 'CEC in Zwolle - Church Services Schedule', 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(24, 'schedule', 'en', 'CEC in Zwolle - Church Services Schedule',
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -7616,9 +7616,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	</tbody>
 </table>
 <p>&nbsp;</p>
-');            
-	
-update church_content set body = 
+');
+
+update church_content set body =
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -7647,16 +7647,16 @@ update church_content set body =
 '	where church_id = (select church_id from church where church_path = 'zwolle')
 	and locale = 'zh'
 	and page_id = 'schedule';
-	
+
 
 
 ----------  ends Holland zwolle
-	
-	
 
-	
+
+
+
 ------------ Starts breda --------
-	
+
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -7816,9 +7816,9 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'breda')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道:</b> 趙麗娟 傳道
@@ -7890,7 +7890,7 @@ p span.label {font-weight: bold;}
 <div class="main-content">
 <p>
 <span class="label">Established Date: </span>April 1985
-</p>                                  
+</p>
 <p>
 <img src="/emsi/images/Church_Amsterdam10_2018.png" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />CEC in Amsterdam (The Holland Capital church) was founded in 1990 by CEC in Europe. It is located in the capital of Holland, Amsterdam. Previously, it was a fellowship of young men, which was set up on October 27, 1984 in Amsterdam
 </p>
@@ -7959,7 +7959,7 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Pastor: </b>Rev. LeungMing Wong
@@ -7979,9 +7979,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'amsterdam')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>牧師:</b> 黃良明 牧師
@@ -8003,7 +8003,7 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
-	INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(23, 'schedule', 'en', 'CEC in Amsterdam - Church Services Schedule', 
+	INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(23, 'schedule', 'en', 'CEC in Amsterdam - Church Services Schedule',
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -8047,9 +8047,9 @@ update church_content set body = STRINGDECODE('<p>
 	</tbody>
 </table>
 <p>&nbsp;</p>
-');            
-	
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(23, 'schedule', 'zh', '荷京基督教生命堂 - 聚會日程', 
+');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(23, 'schedule', 'zh', '荷京基督教生命堂 - 聚會日程',
 '
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
@@ -8093,22 +8093,22 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	</tbody>
 </table>
 <p>&nbsp;</p>
-');            
-	
+');
 
-	
+
+
 ----------  ends Holland - amsterdam
-	
-	
-	
-	
+
+
+
+
 ----------  starts Holland - bergenopzoom
 update church_content set body = STRINGDECODE('<style>
 .contact-content {
 font-family: Arial,helvetica,sans-serif
 }
 .contact-content td {
-padding-bottom: 2px; padding-left: 2px; padding-right: 2px; font-size: small; padding-top: 2px; 3px: 
+padding-bottom: 2px; padding-left: 2px; padding-right: 2px; font-size: small; padding-top: 2px; 3px:
 }
 td.label {
 width: 1%; white-space: nowrap; font-weight: bold
@@ -8171,7 +8171,7 @@ After the church was established, brother Lam Kowk On decided to take a one year
 	and locale = 'en'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -8228,9 +8228,9 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Pastor: </b>Rev. Kwok On Lam (Eric Lam)
@@ -8249,9 +8249,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'bergenopzoom')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>牧師:</b> 林國安 牧師
@@ -8274,15 +8274,15 @@ update church_content set body = STRINGDECODE('<p>
 
 ----------  ends Holland - bergenopzoom
 
-	
-	
-----------  starts spain - benidorm	
+
+
+----------  starts spain - benidorm
 update church_content set body = STRINGDECODE('<style>
 .contact-content {
 FONT-FAMILY: Arial,helvetica,sans-serif
 }
 .contact-content TD {
-PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px: 
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px:
 }
 TD.label {
 WIDTH: 1%; WHITE-SPACE: nowrap; FONT-WEIGHT: bold
@@ -8337,7 +8337,7 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 </div>
 <div class="main-content">
 <p>
-<span class="label">Established Date: </span>December 25, 1997 
+<span class="label">Established Date: </span>December 25, 1997
 </p>
 <meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
 <p>
@@ -8347,8 +8347,8 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 ')	where church_id = (select church_id from church where church_path = 'benidorm')
 	and locale = 'en'
 	and page_id = 'intro';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -8411,8 +8411,8 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'benidorm')
 	and locale = 'zh'
 	and page_id = 'intro';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <p>
@@ -8436,8 +8436,8 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'benidorm')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道:</b> 周長宇 傳道, +34-64-029-2666
@@ -8461,8 +8461,8 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'benidorm')
 	and locale = 'zh'
 	and page_id = 'contactus';
-	
-	
+
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -8486,9 +8486,9 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'benidorm')
 	and locale = 'en'
-	and page_id = 'schedule';	
-	
-	
+	and page_id = 'schedule';
+
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -8513,19 +8513,19 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'benidorm')
 	and locale = 'zh'
-	and page_id = 'schedule';	
+	and page_id = 'schedule';
 
 
-----------  ends spain - Benidorm	
-	
-	
-----------  starts spain - Alicante	
+----------  ends spain - Benidorm
+
+
+----------  starts spain - Alicante
 update church_content set body = STRINGDECODE('<style>
 .contact-content {
 FONT-FAMILY: Arial,helvetica,sans-serif
 }
 .contact-content TD {
-PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px: 
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px:
 }
 TD.label {
 WIDTH: 1%; WHITE-SPACE: nowrap; FONT-WEIGHT: bold
@@ -8574,23 +8574,23 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 </div>
 <div class="main-content">
 <p>
-<span class="label">Established Date: </span>December 25, 2002 
+<span class="label">Established Date: </span>December 25, 2002
 </p>
 <p>
-<img hspace="5" src="/emsi/files/alicante-6-2020.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />The Ministries of Benidorm and Alicante began about the same time in May 1997. With God\u2019s leading, Benodorm was the first established. Because the driving time between Benidorm to Alicante is 40 minutes, Alicante Brothers and Sisters came to Benidorm to worship. 
+<img hspace="5" src="/emsi/files/alicante-6-2020.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />The Ministries of Benidorm and Alicante began about the same time in May 1997. With God\u2019s leading, Benodorm was the first established. Because the driving time between Benidorm to Alicante is 40 minutes, Alicante Brothers and Sisters came to Benidorm to worship.
 </p>
 <p>
-After 5 years, the CEC in Alicante in Christmas of 2002 was established. In 2005 February, an apartment in the center of Alicante behind the bus stations was leased for living and worship. Evangelist Li Suxin was sent from the Paris Seminary School in MAY to the CEC in Alicante to establish the missionary work for the Church for CEC in Alicante. 
+After 5 years, the CEC in Alicante in Christmas of 2002 was established. In 2005 February, an apartment in the center of Alicante behind the bus stations was leased for living and worship. Evangelist Li Suxin was sent from the Paris Seminary School in MAY to the CEC in Alicante to establish the missionary work for the Church for CEC in Alicante.
 </p>
 <p>
-In 2005 September, Evangelist Li Suxin became ill and went to China for treatment. During this time, Evangelist Pan Saopin began to minister temporarily. Evangelist Lai Zuquan continued to minister the Church till January 2006. Evangelist Li Suxin returned but returned to China in the beginning of July 2006 for treatment. Subsequently, Evangelist Lai Zuquan resume the responsibilities of the Church again. 
+In 2005 September, Evangelist Li Suxin became ill and went to China for treatment. During this time, Evangelist Pan Saopin began to minister temporarily. Evangelist Lai Zuquan continued to minister the Church till January 2006. Evangelist Li Suxin returned but returned to China in the beginning of July 2006 for treatment. Subsequently, Evangelist Lai Zuquan resume the responsibilities of the Church again.
 </p>
 </div>
 ')	where church_id = (select church_id from church where church_path = 'alicante')
 	and locale = 'en'
 	and page_id = 'intro';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -8650,8 +8650,8 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'alicante')
 	and locale = 'zh'
 	and page_id = 'intro';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <p>
@@ -8673,8 +8673,8 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'alicante')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道:</b> 陳若抒 傳道, +34-618-521-400
@@ -8696,7 +8696,7 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
-	
+
 	update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -8725,9 +8725,9 @@ update church_content set body = STRINGDECODE('<p>
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'alicante')
 	and locale = 'en'
-	and page_id = 'schedule';	
-	
-	
+	and page_id = 'schedule';
+
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -8757,20 +8757,20 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'alicante')
 	and locale = 'zh'
-	and page_id = 'schedule';	
+	and page_id = 'schedule';
 
-----------  ends spain - Alicante	
-	
+----------  ends spain - Alicante
 
-	
-	
-----------  starts spain - Valencia	
+
+
+
+----------  starts spain - Valencia
 update church_content set body = STRINGDECODE('<style>
 .contact-content {
 FONT-FAMILY: Arial,helvetica,sans-serif
 }
 .contact-content TD {
-PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px: 
+PADDING-BOTTOM: 2px; PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: small; PADDING-TOP: 2px; 3px:
 }
 TD.label {
 WIDTH: 1%; WHITE-SPACE: nowrap; FONT-WEIGHT: bold
@@ -8834,14 +8834,14 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 </p>
 <p>
 <img hspace="5" src="/emsi/images/Church-Valencia-9-2021.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />
- The CEC Church in Valencia started in July 1996 when Jian Wei Ye and his brother Yong Wei Ye and a few Christians requested Ev.Yueh Yun Li to come to Valencia and to care for the flock of Christians and to train them. In October, Yueh Yun Li came and started a series of training courses for them. On December 16, 1997 the CEC Church in Valencia was established. They started by using the Baptist Church in C/Ramiro de Maeztu. When there was not enough space in the church, they moved to the present site in July 1998. There were 91 congregants who were baptized from February 1997 to April 2000. The average church attendance is 40-60 people. The previous pastors and evangelists are: Rev. Hosea Chi, Ev. Joan Dan, Ev. Yue Ping Chen, and Ev. Fanny Fu for the caring ministry. Aside from the Church Worship Service, there are two Bible Study groups, prayer meeting, Youth Group and Women’s group. 
+ The CEC Church in Valencia started in July 1996 when Jian Wei Ye and his brother Yong Wei Ye and a few Christians requested Ev.Yueh Yun Li to come to Valencia and to care for the flock of Christians and to train them. In October, Yueh Yun Li came and started a series of training courses for them. On December 16, 1997 the CEC Church in Valencia was established. They started by using the Baptist Church in C/Ramiro de Maeztu. When there was not enough space in the church, they moved to the present site in July 1998. There were 91 congregants who were baptized from February 1997 to April 2000. The average church attendance is 40-60 people. The previous pastors and evangelists are: Rev. Hosea Chi, Ev. Joan Dan, Ev. Yue Ping Chen, and Ev. Fanny Fu for the caring ministry. Aside from the Church Worship Service, there are two Bible Study groups, prayer meeting, Youth Group and Women’s group.
 </p>
 </div>
 ')	where church_id = (select church_id from church where church_path = 'valencia')
 	and locale = 'en'
 	and page_id = 'intro';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -8895,11 +8895,11 @@ p span.label {font-weight: bold;}
 </div>
 <div class=\"main-content\">
 <p>
-<b>成立日期:</b> 1996年 12月16日 
+<b>成立日期:</b> 1996年 12月16日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/images/Church-Valencia-9-2021.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />1996年7月，居住在瓦伦西亚的几位基督徒因渴慕主的话语，风闻马德里基督教生命堂的成立和良好发展，于是邀请李月云传道来培训造就。李月云传道鉴于信徒迫切的灵性需求，开办一系列的造就课程。后来在圣灵的带领和印证之下，于1996年12月26日成立教会。 
+<img hspace=\"5\" src=\"/emsi/images/Church-Valencia-9-2021.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />1996年7月，居住在瓦伦西亚的几位基督徒因渴慕主的话语，风闻马德里基督教生命堂的成立和良好发展，于是邀请李月云传道来培训造就。李月云传道鉴于信徒迫切的灵性需求，开办一系列的造就课程。后来在圣灵的带领和印证之下，于1996年12月26日成立教会。
 </p>
 <p> 宗旨：我们积极响应主耶稣的大使命，以福音为目的，以圣经为准则，以基督为生命。
 </p>
@@ -8908,8 +8908,8 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'valencia')
 	and locale = 'zh'
 	and page_id = 'intro';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <p>
@@ -8936,8 +8936,8 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'valencia')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
+
+
 update church_content set body = STRINGDECODE('
 <p>
 <b>牧師:</b> 葉永春 牧師, (0034) 61-861-8993
@@ -8965,8 +8965,8 @@ update church_content set body = STRINGDECODE('
 	and locale = 'zh'
 	and page_id = 'contactus';
 
-	
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(28, 'schedule', 'en', 'CEC in Valencia - Church Services Schedule', 
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(28, 'schedule', 'en', 'CEC in Valencia - Church Services Schedule',
 '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 
@@ -9011,12 +9011,12 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-'); 	
+');
 
 
 
 
-	
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -9061,16 +9061,16 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'valencia')
 	and locale = 'zh'
-	and page_id = 'schedule';	
-	
-----------  ends spain - Valencia	
-	
+	and page_id = 'schedule';
+
+----------  ends spain - Valencia
 
 
 
 
 
-	
+
+
 ---------begins Gran Canaria
 
 update church_content set body = '<style>
@@ -9140,7 +9140,7 @@ p span.label {font-weight: bold;}
 '	where church_id = (select church_id from church where church_path = 'canaria')
 	and locale = 'en'
 	and page_id = 'intro';
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -9207,8 +9207,8 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'canaria')
 	and locale = 'zh'
 	and page_id = 'intro';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Evangelist: </b>Ev. Jin Fang Huan, 628-667-879
@@ -9240,8 +9240,8 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'canaria')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道:</b> 金歡 傳道, 628-667-879
@@ -9277,7 +9277,7 @@ update church_content set body = STRINGDECODE('<p>
 ---<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1765.1999677417473!2d-15.575821842293736!3d27.766648673935727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc3f62bcee9dd59d%3A0x1864f22c69625f0!2sAv.+de+Galdar%2C+10%2C+35100+San+Bartolom%C3%A9+de+Tirajana%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1536497887144" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(31, 'schedule', 'en', 'CEC in Gran Canaria - Church Services Schedule', 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(31, 'schedule', 'en', 'CEC in Gran Canaria - Church Services Schedule',
 '
 <h4>南部聚會時間表 Southern Region Meeting Schedule</h4>
 
@@ -9325,10 +9325,10 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 
-	
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(31, 'schedule', 'zh', '加納利亞基督教生命堂 - 聚會日程', 
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(31, 'schedule', 'zh', '加納利亞基督教生命堂 - 聚會日程',
 '
 <h4>南部聚會時間表 Southern Region Meeting Schedule</h4>
 
@@ -9376,17 +9376,17 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');            
-		
+');
+
 ---------ends Spain - Gran Canaria
 
-	
+
 
 ---------- Spain - usera  New church June 2018 ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(61, 'usera', 1, 9, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(61, 'en', 'menu_name', 'CEC in Usera');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(61, 'zh', 'menu_name', '以斯拉基督教生命堂 ');            
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(8, NULL, 61);          
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(61, 'usera', 1, 9, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(61, 'en', 'menu_name', 'CEC in Usera');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(61, 'zh', 'menu_name', '以斯拉基督教生命堂 ');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(8, NULL, 61);
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'intro', 'en', 'CEC in Usera  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -9423,7 +9423,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td></td>			
+				<td></td>
 			</tr>
 		</tbody>
 	</table>
@@ -9492,7 +9492,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td></td>			
+				<td></td>
 			</tr>
 		</tbody>
 	</table>
@@ -9503,7 +9503,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<b>成立日期:</b> 2018 年6 月 23 日 
+<b>成立日期:</b> 2018 年6 月 23 日
 </p>
 <p>
 <span class=\"label\">簡史: </span>
@@ -9532,9 +9532,9 @@ p span.label {font-weight: bold;}
 
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'contactus', 'en', 'CEC in Usera - Contact Us', '');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'contactus', 'zh', '以斯拉基督教生命堂  - 連絡我們','');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'schedule', 'en', 'CEC in Usera - Church Services Schedule', 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'contactus', 'en', 'CEC in Usera - Contact Us', '');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'contactus', 'zh', '以斯拉基督教生命堂  - 連絡我們','');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'schedule', 'en', 'CEC in Usera - Church Services Schedule',
 '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -9551,7 +9551,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(61, 'schedule', 'zh', '以斯拉基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -9569,7 +9569,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>                     40.381922, -3.714913
-');             
+');
 
 
 update church set address='Santoña 7 28026-Usera Madrid, Spain', latitude = 40.381922, longitude = -3.714913 where church_path = 'usera';
@@ -9589,7 +9589,7 @@ update church_content set body = STRINGDECODE('
 ') where church_id = (select church_id from church where church_path = 'usera')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>地 址: </b>Santoña 7 28026-usera Madrid, Spain
@@ -9604,11 +9604,11 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 -----------------------end Spain - Usera
-	
-	
 
-	
------------ starts enschede 
+
+
+
+----------- starts enschede
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -9655,9 +9655,9 @@ p span.label {font-weight: bold;}
 <div class="main-content">
 <p>
 <span class="label">Established Date: </span>September 6, 2009
-</p>                                  
+</p>
 <p>
-<img hspace="5" src="/emsi/images/Church_Enschede_11_2019.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /> </a>Enschede is in the northernmost part of the Nethelands bordering of Germany. The city is home to many Universities. There are many overseas Chinese Students studying here, and also many restaurants nearby. In 2003, the Mission Board sent Sister Pan xx to Enschede for summer training, and upon her graduation in 2004, she was sent to start a Gospel Ministry among college students. Through the support of a college professor, she started a weekly bible study in the dining hall of a dormitory, and many overseas students came to know Christ through this ministry. In the ensuing five years that we have been in Enschede, we have longed to start Sunday Worship Services. In 2009, we started to diligently search for a place, and to pray. The Lord ultimately provided for us unexpectedly good news. A catholic church in the city center was willing to let us hold services there. Within a very short one week span, they agreed to let us use a part of the church for Sunday services and Sunday school at a rental we could afford. On Sept 6, 2009, we held our first Sunday Worship and Baptism Service. We call our church CEC in Enschede 
+<img hspace="5" src="/emsi/images/Church_Enschede_11_2019.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /> </a>Enschede is in the northernmost part of the Nethelands bordering of Germany. The city is home to many Universities. There are many overseas Chinese Students studying here, and also many restaurants nearby. In 2003, the Mission Board sent Sister Pan xx to Enschede for summer training, and upon her graduation in 2004, she was sent to start a Gospel Ministry among college students. Through the support of a college professor, she started a weekly bible study in the dining hall of a dormitory, and many overseas students came to know Christ through this ministry. In the ensuing five years that we have been in Enschede, we have longed to start Sunday Worship Services. In 2009, we started to diligently search for a place, and to pray. The Lord ultimately provided for us unexpectedly good news. A catholic church in the city center was willing to let us hold services there. Within a very short one week span, they agreed to let us use a part of the church for Sunday services and Sunday school at a rental we could afford. On Sept 6, 2009, we held our first Sunday Worship and Baptism Service. We call our church CEC in Enschede
 </p>
 </div>
 '	where church_id = (select church_id from church where church_path = 'enschede')
@@ -9720,8 +9720,8 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'enschede')
 	and locale = 'zh'
 	and page_id = 'intro';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Pastor: </b>Rev. Louis Chung
@@ -9742,8 +9742,8 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'enschede')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>牧師:</b> 鍾志勳 牧師
@@ -9764,7 +9764,7 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'enschede')
 	and locale = 'zh'
 	and page_id = 'contactus';
-	
+
 ----------- starts USA - Towaco pages
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -9831,7 +9831,7 @@ p span.label {font-weight: bold;}
 Christian Evangelical Mission Church (CEMC) in Towaco was first established in 1980 by a small group of believers gathering together to pray, worship, and fellowship at Waughaw Road in Towaco. In 1982, CEMC in Towaco along with Evangelical Bible Institute moved to our current location at 36 Alpine Road, Towaco, NJ. This is a 26 acre campus and facility which provides the seminary students and the congregation with many indoor and outdoor activities such as basketball, handball, softball, table tennis, tennis, volleyball and etc. After 30 years since the birth of CEMC in Towaco, today the congregation has grown to approximately 300 people. The congregation is composed of mostly members from Burma, China, Hong Kong, Indonesia, Malaysia, Philippines, Singapore, and Taiwan ancestry. Many live within ten miles of Towaco, including Lincoln Park, Montville, Parsippany, Pine Brook, Pompton Lakes, Wayne and etc. But some even come as far as Trenton, Pennsylvania, upstate New York, and Connecticut.
 </p>
 <p>
-We have two separate Sunday Worship Services, one in Mandarin with English translation and one in English with no translation.  During the week, we also have many gatherings including various bible studies and fellowship in English, Mandarin and other Chinese dialects. Please see the Ministries &amp; Fellowships section for more detail. 
+We have two separate Sunday Worship Services, one in Mandarin with English translation and one in English with no translation.  During the week, we also have many gatherings including various bible studies and fellowship in English, Mandarin and other Chinese dialects. Please see the Ministries &amp; Fellowships section for more detail.
 </p>
 <p>
 &nbsp;
@@ -9849,7 +9849,7 @@ We have two separate Sunday Worship Services, one in Mandarin with English trans
 ' 	where church_id = (select church_id from church where church_path = 'towaco')
 	and locale = 'en'
 	and page_id = 'intro';
-	
+
 update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -9922,167 +9922,167 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'towaco')
 	and locale = 'zh'
 	and page_id = 'intro';
-	
+
 
 update church_content set body = STRINGDECODE('<p>
-<b>地址: </b>36 Alpine Road, Towaco, NJ 07082, USA 
+<b>地址: </b>36 Alpine Road, Towaco, NJ 07082, USA
 </p>
 <p>
-<b>電話:</b>\u00a0 973-335-7337 
+<b>電話:</b>\u00a0 973-335-7337
 </p>
 <p>
-<b>電郵:\u00a0<span style="color: #0062a0"><u>cemc.towaco@gmail.com</u></span>\u00a0</b> 
+<b>電郵:\u00a0<span style="color: #0062a0"><u>cemc.towaco@gmail.com</u></span>\u00a0</b>
 </p>
-<b>\u00a0 
+<b>\u00a0
 <table cellpadding="0" cellspacing="0" border="1" style="border-collapse: collapse; border: medium none" class="MsoTableGrid">
 	<tbody>
 		<tr>
 			<td style="padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border: 1pt solid windowtext" valign="top" width="139"><span lang="EN-US"><o:p><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">\u00a0</span></o:p></span></td>
 			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">辦公室電話分機</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">辦公室電話分機</span></span>
 			</p>
 			</td>
 			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">手機</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">手機</span></span>
 			</p>
 			</td>
 			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: 新細明體,''Times New Roman''; color: #000000">電子郵件</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: 新細明體,''Times New Roman''; color: #000000">電子郵件</span></span>
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:,新細明體 ''Times New Roman''; color: #000000">楊摩西 牧師</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family:,新細明體 ''Times New Roman''; color: #000000">楊摩西 牧師</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 209</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 209</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">201-650-1923</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">201-650-1923</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><a href="mailto:emsimoses@optonline.net"><span style="font-size: small; font-family: ''Times New Roman''">bishop_mosesyang@yahoo.com</span></a></span> 
+			<span lang="EN-US"><a href="mailto:emsimoses@optonline.net"><span style="font-size: small; font-family: ''Times New Roman''">bishop_mosesyang@yahoo.com</span></a></span>
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">楊陳愛玫 師母</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">楊陳愛玫 師母</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 208</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 208</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-919-6456</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-919-6456</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><a href="mailto:roseayang@gmail.com"><span style="font-size: small; font-family: ''Times New Roman''">roseayang@gmail.com</span></a></span> 
+			<span lang="EN-US"><a href="mailto:roseayang@gmail.com"><span style="font-size: small; font-family: ''Times New Roman''">roseayang@gmail.com</span></a></span>
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">吳錫安 牧師</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">吳錫安 牧師</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 202</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 202</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-768-5805</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-768-5805</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><a href="mailto:zionwu@hotmail.com"><span style="font-size: small; font-family: ''Times New Roman''">zionwu@hotmail.com</span></a></span> 
+			<span lang="EN-US"><a href="mailto:zionwu@hotmail.com"><span style="font-size: small; font-family: ''Times New Roman''">zionwu@hotmail.com</span></a></span>
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: 新細明體,''Times New Roman''; color: #000000">吳周麗華 師母</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: 新細明體,''Times New Roman''; color: #000000">吳周麗華 師母</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 213</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 213</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-941-1873</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-941-1873</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><a href="mailto:wujudy2008@gmail.com"><span style="font-size: small; font-family: ''Times New Roman''">wujudy2008@gmail.com</span></a></span> 
+			<span lang="EN-US"><a href="mailto:wujudy2008@gmail.com"><span style="font-size: small; font-family: ''Times New Roman''">wujudy2008@gmail.com</span></a></span>
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">錢舜 傳道</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">錢舜 傳道</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 200</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 200</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">201-993-3043</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">201-993-3043</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">pattym33@juno.com</span></span></span> 
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">pattym33@juno.com</span></span></span>
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000"> 陳永傑 傳道</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000"> 陳永傑 傳道</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 250</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 250</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-413-4132</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-413-4132</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">Wk_chan@hotmail.com</span></span></span> 
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">Wk_chan@hotmail.com</span></span></span>
 			</p>
 			</td>
 		</tr>
@@ -10090,7 +10090,7 @@ update church_content set body = STRINGDECODE('<p>
 </table>
 </b>
 <hr />
-<b>路線:</b> 
+<b>路線:</b>
 <p>
 <iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=36+Alpine+Road,+Towaco,+NJ+07082&amp;sll=40.794806,-74.34828&amp;sspn=0.0109,0.019698&amp;ie=UTF8&amp;hq=&amp;hnear=36+Alpine+Rd,+Towaco,+Morris,+New+Jersey+07082&amp;ll=40.930829,-74.318218&amp;spn=0.031126,0.054932&amp;z=14&amp;output=embed" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" height="480" width="640"></iframe><br />
 <small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=36+Alpine+Road,+Towaco,+NJ+07082&amp;sll=40.794806,-74.34828&amp;sspn=0.0109,0.019698&amp;ie=UTF8&amp;hq=&amp;hnear=36+Alpine+Rd,+Towaco,+Morris,+New+Jersey+07082&amp;ll=40.930829,-74.318218&amp;spn=0.031126,0.054932&amp;z=14" style="text-align: left; color: #0000ff">View Larger Map</a></small> <b><i>By car</i> </b>
@@ -10114,164 +10114,164 @@ update church_content set body = STRINGDECODE('<p>
 Christian Evangelical Mission Church in Towaco
 </p>
 <p>
-<b>Address: </b>36 Alpine Road, Towaco, NJ 07082, USA 
+<b>Address: </b>36 Alpine Road, Towaco, NJ 07082, USA
 </p>
 <p>
-<b>Tel #:</b>\u00a0 973-335-7337 
+<b>Tel #:</b>\u00a0 973-335-7337
 </p>
 <p>
-<b>Email:\u00a0<span style="color: #0062a0"><u>cemc.towaco@gmail.com</u></span>\u00a0</b> 
+<b>Email:\u00a0<span style="color: #0062a0"><u>cemc.towaco@gmail.com</u></span>\u00a0</b>
 </p>
-<b>\u00a0 
+<b>\u00a0
 <table cellpadding="0" cellspacing="0" border="1" style="border-collapse: collapse; border: medium none" class="MsoTableGrid">
 	<tbody>
 		<tr>
 			<td style="padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border: 1pt solid windowtext" valign="top" width="139"><span lang="EN-US"><o:p><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">\u00a0</span></o:p></span></td>
 			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Office Phone Extenstion</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Office Phone Extenstion</span></span>
 			</p>
 			</td>
 			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Cell Phone</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Cell Phone</span></span>
 			</p>
 			</td>
 			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">e-mail</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">e-mail</span></span>
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Pastor Moses Yang</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Pastor Moses Yang</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 209</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 209</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">201-650-1923</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">201-650-1923</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><a href="mailto:emsimoses@optonline.net"><span style="font-size: small; font-family: ''Times New Roman''">bishop_mosesyang@yahoo.com</span></a></span> 
+			<span lang="EN-US"><a href="mailto:emsimoses@optonline.net"><span style="font-size: small; font-family: ''Times New Roman''">bishop_mosesyang@yahoo.com</span></a></span>
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Mrs. Rose Yang</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Mrs. Rose Yang</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 208</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 208</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-919-6456</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-919-6456</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><a href="mailto:roseayang@gmail.com"><span style="font-size: small; font-family: ''Times New Roman''">roseayang@gmail.com</span></a></span> 
+			<span lang="EN-US"><a href="mailto:roseayang@gmail.com"><span style="font-size: small; font-family: ''Times New Roman''">roseayang@gmail.com</span></a></span>
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Pastor Zion Wu</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Pastor Zion Wu</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 202</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 202</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-768-5805</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-768-5805</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><a href="mailto:hoseachi@hotmail.com"><span style="font-size: small; font-family: ''Times New Roman''">zionwu@hotmail.com</span></a></span> 
+			<span lang="EN-US"><a href="mailto:hoseachi@hotmail.com"><span style="font-size: small; font-family: ''Times New Roman''">zionwu@hotmail.com</span></a></span>
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Mrs. Judy Wu</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Mrs. Judy Wu</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 213</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 213</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-941-1873</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-941-1873</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><a href="mailto:jalin7@hotmail.com"><span style="font-size: small; font-family: ''Times New Roman''">wujudy2008@gmail.com</span></a></span> 
+			<span lang="EN-US"><a href="mailto:jalin7@hotmail.com"><span style="font-size: small; font-family: ''Times New Roman''">wujudy2008@gmail.com</span></a></span>
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ev. Patty Chien</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ev. Patty Chien</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 200</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 200</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">201-993-3043</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">201-993-3043</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">pattym33@juno.com</span></span></span> 
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">pattym33@juno.com</span></span></span>
 			</p>
 			</td>
 		</tr>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ev. Wingkit Chan</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ev. Wingkit Chan</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 250</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 250</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-413-4132</span></span> 
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-413-4132</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">Wk_chan@hotmail.com</span></span></span> 
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">Wk_chan@hotmail.com</span></span></span>
 			</p>
 			</td>
 		</tr>
@@ -10279,7 +10279,7 @@ Christian Evangelical Mission Church in Towaco
 </table>
 </b>
 <hr />
-<b>Directions:</b> 
+<b>Directions:</b>
 <p>
 <iframe src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=36+Alpine+Road,+Towaco,+NJ+07082&amp;sll=40.794806,-74.34828&amp;sspn=0.0109,0.019698&amp;ie=UTF8&amp;hq=&amp;hnear=36+Alpine+Rd,+Towaco,+Morris,+New+Jersey+07082&amp;ll=40.930829,-74.318218&amp;spn=0.031126,0.054932&amp;z=14&amp;output=embed" scrolling="no" marginheight="0" marginwidth="0" frameborder="0" height="480" width="640"></iframe><br />
 <small><a href="http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=36+Alpine+Road,+Towaco,+NJ+07082&amp;sll=40.794806,-74.34828&amp;sspn=0.0109,0.019698&amp;ie=UTF8&amp;hq=&amp;hnear=36+Alpine+Rd,+Towaco,+Morris,+New+Jersey+07082&amp;ll=40.930829,-74.318218&amp;spn=0.031126,0.054932&amp;z=14" style="text-align: left; color: #0000ff">View Larger Map</a></small> <b><i>By car</i> </b>
@@ -10296,11 +10296,11 @@ Christian Evangelical Mission Church in Towaco
 ')	where church_id = (select church_id from church where church_path = 'towaco')
 	and locale = 'en'
 	and page_id = 'contactus';
-		
+
 -----------------  end USA - Towaco
 
-	
------------------ starts Italy - prato	
+
+----------------- starts Italy - prato
 -----   use &#39  for apostrophe
 
 --update church_content set body = '<style>
@@ -10372,7 +10372,7 @@ Christian Evangelical Mission Church in Towaco
 ----- 	and locale = 'en'
 ----- 	and page_id = 'intro';
 
-	
+
 ----- update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
 ----- font-family: Arial,helvetica,sans-serif,新細明體;}
 ----- .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -10443,8 +10443,8 @@ Christian Evangelical Mission Church in Towaco
 ----- 	and locale = 'zh'
 ----- 	and page_id = 'intro';
 
-	
-	
+
+
 ----- update church_content set body = STRINGDECODE('<p>
 ----- <p>
 ----- <b>Evangelist: </b>Ev. David Zhou
@@ -10464,9 +10464,9 @@ Christian Evangelical Mission Church in Towaco
 ----- ')	where church_id = (select church_id from church where church_path = 'prato')
 ----- 	and locale = 'en'
 ----- 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 -----  church_content set body = STRINGDECODE('<p>
 ----- <p>
 ----- <b>傳道:</b> 周長宇 傳道
@@ -10487,12 +10487,12 @@ Christian Evangelical Mission Church in Towaco
 ----- ')	where church_id = (select church_id from church where church_path = 'prato')
 ----- 	and locale = 'zh'
 ----- 	and page_id = 'contactus';
-	
-	
+
+
 
 
 -----------------ends Italy - prato
-	
+
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(39, 'schedule', 'en', 'CEC in Paris - Church Services Schedule', STRINGDECODE('
 <table  border="1">
 	<tbody>
@@ -10537,7 +10537,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <br/>
 * Jabez fellowship is held at the restaurant "Fu Yuan Feng" at 22 rue de Trévisse, 7509 Paris.
 '));
- 
+
 
 update PUBLIC.CHURCH_CONTENT
 set body = '
@@ -10582,7 +10582,7 @@ set body = '
 </table>
 
 <br/>
-* 雅比斯 團契聚會地址: Fu Yuan Feng福源豐餐館, 巴黎九區22 rue de Trévisse, 7509 Paris, 地鐵7 號線Cadet 站. 
+* 雅比斯 團契聚會地址: Fu Yuan Feng福源豐餐館, 巴黎九區22 rue de Trévisse, 7509 Paris, 地鐵7 號線Cadet 站.
 '
 where church_id = 39
 and page_id = 'schedule'
@@ -10645,7 +10645,7 @@ p span.label {font-weight: bold;}
 <a href="/emsi/gallery/?g2_itemId=119"><img src="/emsi/images/church_livingston.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /></a>
 </p>
 <p>
-The CEC in Livingston (former name: CEC in West Orange) is the first CEC in New Jersey. Because of the requests of some Chinese Christian families who lived in New Jersey, the preparation to establish the CEC in West Orange was set in motion in 1973. During that time, Rev. Moses Yang had a car accident and was hurt. From this incident, he thought to himself that this could not be God&#39s will to establish the West Orange Church. So, he knelt and prayed to the Lord for clear direction. The Lord revealed to him a Bible verse from Psalm 66:12: &#39Thou hast caused men to ride over our heads; we went through fire and through water; 
+The CEC in Livingston (former name: CEC in West Orange) is the first CEC in New Jersey. Because of the requests of some Chinese Christian families who lived in New Jersey, the preparation to establish the CEC in West Orange was set in motion in 1973. During that time, Rev. Moses Yang had a car accident and was hurt. From this incident, he thought to himself that this could not be God&#39s will to establish the West Orange Church. So, he knelt and prayed to the Lord for clear direction. The Lord revealed to him a Bible verse from Psalm 66:12: &#39Thou hast caused men to ride over our heads; we went through fire and through water;
 but thou broughtest us out into a wealthy place.&#39 This verse revealed God&#39s will to Rev. Yang. With great faith, the church was established in early 1974.</p>
 <p>
 Currently the church has a diverse congregational mix. We welcome people from all walks of life.
@@ -10712,19 +10712,19 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class="label">簡史: </span><br />
-<img hspace="5" src="/emsi/images/church_livingston.jpg" align="left" height="255" width="360" />活石園基督教生命堂 (前名: 西橘園基督教生命堂) 是本會在新澤西州設立的第一個教會。一九七三年底，楊摩西牧師因應新澤西州信徒的要求，籌備成立西橘園生命堂。正當緊鑼密鼓地籌備時，楊牧師發生了一次車禍，頭部受傷。他想，也許上帝對成立西橘園生命堂不喜悅，進行攔阻。於是跪下迫切禱告，盼望主明示旨意。上帝給他的經文是詩篇六十六篇十二節：「你使人坐車，軋我們的頭，我們經過水火，你卻使我們到豐富之地。」這節經文十分清楚地把上帝的旨意告訴楊牧師，於是，他信心十足地繼續籌備工作。一九七四年初，西橘園生命堂誕生了。 
+<img hspace="5" src="/emsi/images/church_livingston.jpg" align="left" height="255" width="360" />活石園基督教生命堂 (前名: 西橘園基督教生命堂) 是本會在新澤西州設立的第一個教會。一九七三年底，楊摩西牧師因應新澤西州信徒的要求，籌備成立西橘園生命堂。正當緊鑼密鼓地籌備時，楊牧師發生了一次車禍，頭部受傷。他想，也許上帝對成立西橘園生命堂不喜悅，進行攔阻。於是跪下迫切禱告，盼望主明示旨意。上帝給他的經文是詩篇六十六篇十二節：「你使人坐車，軋我們的頭，我們經過水火，你卻使我們到豐富之地。」這節經文十分清楚地把上帝的旨意告訴楊牧師，於是，他信心十足地繼續籌備工作。一九七四年初，西橘園生命堂誕生了。
 </p>
 <p>
-活石園生命堂是個多元化的教會。教會會友以華人佔多數，分別來自菲律賓、印尼、香港、馬來西亞、台灣和中國。除此以外，也有美國人。主日崇拜是中、英語並用，此外尚有禱告會、查經班、青少年團契、社青小組及各級主日學、詩班等。 
+活石園生命堂是個多元化的教會。教會會友以華人佔多數，分別來自菲律賓、印尼、香港、馬來西亞、台灣和中國。除此以外，也有美國人。主日崇拜是中、英語並用，此外尚有禱告會、查經班、青少年團契、社青小組及各級主日學、詩班等。
 </p>
 <p>
-本會於二零零六年四月在李文斯頓鎮Livingston 購堂, 並於當年六月三日舉行獻堂禮。 
+本會於二零零六年四月在李文斯頓鎮Livingston 購堂, 並於當年六月三日舉行獻堂禮。
 </p>
 </div>
 ' where church_id = (select church_id from church where church_path = 'livingston')
 	and locale = 'zh'
 	and page_id = 'intro';
-	
+
 
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
@@ -10774,9 +10774,9 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'livingston')
 	and locale = 'en'
-	and page_id = 'schedule';	
-	
-	
+	and page_id = 'schedule';
+
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -10825,9 +10825,9 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'livingston')
 	and locale = 'zh'
-	and page_id = 'schedule';	
+	and page_id = 'schedule';
 
-	
+
 -------- ends USA - livingston
 
 -----------------starts Belgium - antwerpen
@@ -10947,7 +10947,7 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Pastor: </b>Rev. Mix Chan
@@ -10967,9 +10967,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'antwerpen')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>牧師: </b>陳茂祥 牧師
@@ -11031,9 +11031,9 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'antwerpen')
 	and locale = 'en'
-	and page_id = 'schedule';	
-	
-	
+	and page_id = 'schedule';
+
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -11073,13 +11073,13 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'antwerpen')
 	and locale = 'zh'
-	and page_id = 'schedule';	
+	and page_id = 'schedule';
 
-	
-	
+
+
 ---------------  ends  Belgium - antwerpen
 
-	
+
 --------------  Belgium - Brussels
 
 update church_content set body = '<style>
@@ -11200,7 +11200,7 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Pastor: </b>Rev. Mix Chan
@@ -11220,9 +11220,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'brussels')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>牧師: </b>陳茂祥 牧師
@@ -11231,7 +11231,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>32 Rue du Fossé aux Loups, 1000 Brussels, Belgium
 </p>
 <p>
-<b>電話:</b> +32-(0)484-148682 
+<b>電話:</b> +32-(0)484-148682
 </p>
 <p>
 <b>電郵: </b>emsibelgium@hotmail.com
@@ -11244,8 +11244,8 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'brussels')
 	and locale = 'zh'
 	and page_id = 'contactus';
-	
-	
+
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -11284,9 +11284,9 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'brussels')
 	and locale = 'en'
-	and page_id = 'schedule';	
-	
-	
+	and page_id = 'schedule';
+
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -11326,13 +11326,13 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'brussels')
 	and locale = 'zh'
-	and page_id = 'schedule';	
+	and page_id = 'schedule';
 
-	
-	
+
+
 ----------------  ends  Belgium - Brussels
-	
-	
+
+
 ----------------  Belgium - Gent
 
 update church_content set body = '<table border="1" cellpadding="5">
@@ -11348,9 +11348,9 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'gent')
 	and locale = 'en'
-	and page_id = 'schedule';	
-	
-	
+	and page_id = 'schedule';
+
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -11366,18 +11366,18 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'gent')
 	and locale = 'zh'
-	and page_id = 'schedule';	
+	and page_id = 'schedule';
 
-	
+
 ----------------  ends  Belgium - Gent
-	
-	
-	
+
+
+
 ---------- Leuven , Belgium ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(56, 'leuven', 1, 4, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(56, 'en', 'menu_name', 'CEC in Leuven');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(56, 'zh', 'menu_name', '魯汶基督教生命堂 ');            
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(11, NULL, 56);         
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(56, 'leuven', 1, 4, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(56, 'en', 'menu_name', 'CEC in Leuven');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(56, 'zh', 'menu_name', '魯汶基督教生命堂 ');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(11, NULL, 56);
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'intro', 'en', 'CEC in Leuven - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -11519,8 +11519,8 @@ p span.label {font-weight: bold;}
 </p>
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'schedule', 'en', 'CEC in Leuven - Church Services Schedule', 'Christian Evangelical Church in Leuven <br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'schedule', 'zh', '魯汶基督教生命堂  - 聚會日程','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'schedule', 'en', 'CEC in Leuven - Church Services Schedule', 'Christian Evangelical Church in Leuven <br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'schedule', 'zh', '魯汶基督教生命堂  - 聚會日程','');
 
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
@@ -11550,9 +11550,9 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'leuven')
 	and locale = 'en'
-	and page_id = 'schedule';	
-	
-	
+	and page_id = 'schedule';
+
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -11582,13 +11582,13 @@ update church_content set body = '<table border="1" cellpadding="5">
 <p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'leuven')
 	and locale = 'zh'
-	and page_id = 'schedule';	
+	and page_id = 'schedule';
 
 
 
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'contactus', 'en', 'CEC in Leuven - Contact Us', 'Christian Evangelical Church in Leuven <br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'contactus', 'zh', '魯汶基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'contactus', 'en', 'CEC in Leuven - Contact Us', 'Christian Evangelical Church in Leuven <br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(56, 'contactus', 'zh', '魯汶基督教生命堂  - 連絡我們','');
 
 
 update church set address='Burgemeestersstraat 28, 3000 Leuven, Belgium', latitude = 50.875825, longitude = 4.711236 where church_path = 'leuven';
@@ -11607,7 +11607,7 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'leuven')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
+
 update church_content set body = STRINGDECODE('<p>
 <b>牧師: </b> 陳茂祥 牧師<br />
 </p><p>
@@ -11623,14 +11623,14 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 -----------------------end Leuven Belgium
-	
-	
-	
+
+
+
 ---------- TOKYO ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(52, 'tokyo', 1, 1, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(52, 'en', 'menu_name', 'CEC in Tokyo');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(52, 'zh', 'menu_name', '東京基督教生命堂');            
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 52);          
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(52, 'tokyo', 1, 1, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(52, 'en', 'menu_name', 'CEC in Tokyo');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(52, 'zh', 'menu_name', '東京基督教生命堂');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 52);
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'intro', 'en', 'CEC in Tokyo - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -11694,7 +11694,7 @@ Rev. Yang asked the Lord for a sign that there would be at least 20 people in th
 <br />
 CEM in Tokyo is in a residential area. The church had about 10 regular members in the beginning when we rented the place. There are many Chinese nearby. Through our prayers and everyone working together, God opens a door for us, and we have new people coming every week.</p>
 </div>
-');    
+');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'intro', 'zh', '東京基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {
 font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
@@ -11759,7 +11759,7 @@ p span.label {font-weight: bold;}
 <p><b>教會現況</b><br />
 <br />
 東京生命堂位於住宅區，附近有不少的中國人。正式開始崇拜時有近十人的固定弟兄姐妹參加，在代禱與弟兄姐妹共同地努力下，上帝為我們開路，幾乎每週都有新朋友來到我們當中。</p>
-</div>');         
+</div>');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'schedule', 'en', 'CEC in Tokyo - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -11796,7 +11796,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'schedule', 'zh', '東京基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -11833,10 +11833,10 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');             
+');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'en', 'CEC in Tokyo - Contact Us','Christian Evangelical Church in Tokyo<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'zh', '東京基督教生命堂 - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'en', 'CEC in Tokyo - Contact Us','Christian Evangelical Church in Tokyo<br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'contactus', 'zh', '東京基督教生命堂 - 連絡我們','');
 
 
 
@@ -11854,8 +11854,8 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'tokyo')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <b>傳道: </b>方秀蘭傳道, 81-90-9700-4895</p>
 <p>
@@ -11877,10 +11877,10 @@ update church set address='Tokyo-To, Shinagawa-Ku, Minami-Oi 3-20-5, SS1 Biru, 7
 ------------ CEC TOKYO end ----------
 
 ---------- Oradell ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(53, 'oradell', 1, 9, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(53, 'en', 'menu_name', 'CEMC in Oradell');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(53, 'zh', 'menu_name', '俄備得基督教生命堂');            
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 53);          
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(53, 'oradell', 1, 9, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(53, 'en', 'menu_name', 'CEMC in Oradell');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(53, 'zh', 'menu_name', '俄備得基督教生命堂');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 53);
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'intro', 'en', 'CEMC in Oradell - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -12031,8 +12031,8 @@ p span.label {font-weight: bold;}
 
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'en', 'CEMC in Oradell - Contact Us', 'Christian Evangelical Church in Oradell<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'zh', '俄備得基督教生命堂 - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'en', 'CEMC in Oradell - Contact Us', 'Christian Evangelical Church in Oradell<br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'contactus', 'zh', '俄備得基督教生命堂 - 連絡我們','');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'schedule', 'en', 'CEMC in Oradell - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -12069,7 +12069,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'schedule', 'zh', '俄備得基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -12106,7 +12106,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');             
+');
 
 
 update church set address='343 Kinderkamack Road, Oradell, NJ 07649 USA', latitude = 40.9521361, longitude = -74.0320762 where church_path = 'oradell';
@@ -12126,7 +12126,7 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'oradell')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
+
 update church_content set body = STRINGDECODE('<p>
 <b>牧者: </b>楊張秀蘭 傳道, (H)973-331-0438
 </p>
@@ -12146,10 +12146,10 @@ update church_content set body = STRINGDECODE('<p>
 
 
 ---------- Brooklyn 7th ave - used to called Brooklyn Mandarin - 8th Ave ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(55, 'brooklynmandarin', 1, 10, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(55, 'en', 'menu_name', 'ECMSI in Brooklyn');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(55, 'zh', 'menu_name', '希伯崙基督教生命堂 ');            
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 55);          
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(55, 'brooklynmandarin', 1, 10, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(55, 'en', 'menu_name', 'ECMSI in Brooklyn');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(55, 'zh', 'menu_name', '希伯崙基督教生命堂 ');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 55);
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'intro', 'en', 'ECMSI in Brooklyn  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -12196,7 +12196,7 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">Established Date: </span>December 23, 2014</p>                                
+<p><span class="label">Established Date: </span>December 23, 2014</p>
 <p>
 <img src="/emsi/images/Brooklyn-1-2022.JPG" alt="view church photo gallery" height="255" align="left" hspace="5" width="360" />
 We held our first evangelical meeting at the intersection of 44th St. near 8th Av. on Dec. 23, 2014. Rev. Moses Yang, the Bishop of Christian Evangelical Mission presided over the meeting. The Evangelical Church, Mission & Seminary International in Brooklyn was established that day. Rev. Hosea Chi was appointed the minister of the church and several brothers and sisters from our sister church in Chinatown were assigned to serve in this new church. A few brothers and sisters were moved to volunteer themselves in this evangelical outreach work at the 8th Avenue in Brooklyn.
@@ -12257,7 +12257,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<b>成立日期:</b> 2014年 12月 23日 
+<b>成立日期:</b> 2014年 12月 23日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -12272,8 +12272,8 @@ p span.label {font-weight: bold;}
 </p>
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'contactus', 'en', 'ECMSI in Brooklyn - Contact Us', 'Christian Evangelical Church in Brooklyn Mandaring Service<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'contactus', 'zh', '希伯崙基督教生命堂  - 連絡我們','');          
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'contactus', 'en', 'ECMSI in Brooklyn - Contact Us', 'Christian Evangelical Church in Brooklyn Mandaring Service<br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'contactus', 'zh', '希伯崙基督教生命堂  - 連絡我們','');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'schedule', 'en', 'ECMSI in Brooklyn - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -12316,7 +12316,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'schedule', 'zh', '希伯崙基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
@@ -12359,7 +12359,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 
 <p>&nbsp;</p>
-');             
+');
 
 
 update church set address='861 51st Street, Brooklyn, NY 11220, USA', latitude =  40.639791, longitude = -74.0047537  where church_path = 'brooklynmandarin';
@@ -12384,7 +12384,7 @@ Mrs. Chialin Chi, (C) 973-932-3534</p>
 ')	where church_id = (select church_id from church where church_path = 'brooklynmandarin')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
+
 update church_content set body = STRINGDECODE('<p>
 <b>牧師: </b> 戚厚生 牧師 973-335-7337, ext. 219, (手機) 646-763-3209<br />
 </p>
@@ -12403,14 +12403,14 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 -----------------------end Brooklyn 7th ave - used to be called Brooklyn Mandarin - 8th Ave
-	
 
-	
+
+
 ---------- StatenIsland  New church June 2019 ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(62, 'statenIsland', 1, 11, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(62, 'en', 'menu_name', 'ECMSI in Staten Island');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(62, 'zh', 'menu_name', '希頓島基督教生命堂 ');            
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 62);          
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(62, 'statenIsland', 1, 11, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(62, 'en', 'menu_name', 'ECMSI in Staten Island');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(62, 'zh', 'menu_name', '希頓島基督教生命堂 ');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(3, NULL, 62);
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'intro', 'en', 'ECMSI in Staten Island  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
@@ -12448,7 +12448,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td></td>			
+				<td></td>
 			</tr>
 		</tbody>
 	</table>
@@ -12503,7 +12503,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td></td>			
+				<td></td>
 			</tr>
 		</tbody>
 	</table>
@@ -12514,7 +12514,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<b>成立日期:</b> 2019年 6月 1日 
+<b>成立日期:</b> 2019年 6月 1日
 </p>
 <p>
 <span class=\"label\">簡史: </span>
@@ -12524,27 +12524,27 @@ p span.label {font-weight: bold;}
 </p>
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'contactus', 'en', 'ECMSI in Staten Island - Contact Us', 'ECMSI in Staten Island<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'contactus', 'zh', '希頓島基督教生命堂  - 連絡我們','');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'schedule', 'en', 'ECMSI in Staten Island - Church Services Schedule', 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'contactus', 'en', 'ECMSI in Staten Island - Contact Us', 'ECMSI in Staten Island<br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'contactus', 'zh', '希頓島基督教生命堂  - 連絡我們','');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'schedule', 'en', 'ECMSI in Staten Island - Church Services Schedule',
 '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(62, 'schedule', 'zh', '希頓島基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
-');             
+');
 
 update church set address='4550 Amboy Road, Staten Island, NY 10312, USA', latitude = 40.5421763, longitude = -74.1667657 where church_path = 'statenIsland';
 
-update church_content set body = STRINGDECODE('         
+update church_content set body = STRINGDECODE('
 <style>
 .indentation {margin:20px;}
 </style>
@@ -12565,7 +12565,7 @@ Mrs. Chialin Chi, (C) 973-932-3534</p>
 ')	where church_id = (select church_id from church where church_path = 'statenIsland')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
+
 update church_content set body = STRINGDECODE('<p>
 <b>牧師: </b> 戚厚生 牧師 973-335-7337, ext. 219<br />
 </p>
@@ -12589,13 +12589,13 @@ update church_content set body = STRINGDECODE('<p>
 
 
 -----------------------end StatenIsland
-	
-	
-	
-	
-	
-	
-	
+
+
+
+
+
+
+
 
 -----------------starts pearlriver
 
@@ -12727,9 +12727,9 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
 
-	
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Minister: </b>Ev. Sorina Yang 973-335-7337, ext. 220, (C) 973-699-3223
@@ -12749,9 +12749,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'pearlriver')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>牧者: </b>楊張秀蘭 傳道 , 973-335-7337, ext. 220, (C) 973-699-3223
@@ -12773,8 +12773,8 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'pearlriver')
 	and locale = 'zh'
 	and page_id = 'contactus';
-	
-	
+
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
@@ -12845,7 +12845,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 '	where church_id = (select church_id from church where church_path = 'pearlriver')
 	and locale = 'en'
 	and page_id = 'schedule';
-	
+
 
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
@@ -12917,9 +12917,9 @@ update church_content set body = '<table border="1" cellpadding="5">
 
 '	where church_id = (select church_id from church where church_path = 'pearlriver')
 	and locale = 'zh'
-	and page_id = 'schedule';	
+	and page_id = 'schedule';
 
-	
+
 ----------------  ends  pearlriver
 
 
@@ -13064,7 +13064,7 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
-	
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Intern Evangelist: </b> Luke Feng, (C) 0027-(0)74-961-6036
@@ -13087,9 +13087,9 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'capetown')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
-	
-	
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>實習傳道: </b>馮皓威, (C) 0027-(0)74-961-6036
@@ -13114,16 +13114,16 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'capetown')
 	and locale = 'zh'
 	and page_id = 'contactus';
-	
+
 ----------------  ends  Africa - Cape Town
 
 
-	
+
 ---------- saitama  New church July 2021 ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(63, 'saitama', 1, 11, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(63, 'en', 'menu_name', 'CEC in Saitama');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(63, 'zh', 'menu_name', '埼玉基督教生命堂 ');                     
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 63);   
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(63, 'saitama', 1, 11, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(63, 'en', 'menu_name', 'CEC in Saitama');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(63, 'zh', 'menu_name', '埼玉基督教生命堂 ');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 63);
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'intro', 'en', 'CEC in Saitama  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
@@ -13159,7 +13159,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td>shmily9973@yahoo.co.jp</td>			
+				<td>shmily9973@yahoo.co.jp</td>
 			</tr>
 		</tbody>
 	</table>
@@ -13211,7 +13211,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td>shmily9973@yahoo.co.jp</td>			
+				<td>shmily9973@yahoo.co.jp</td>
 			</tr>
 		</tbody>
 	</table>
@@ -13231,27 +13231,27 @@ p span.label {font-weight: bold;}
 </p>
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'contactus', 'en', 'CEC in Saitama - Contact Us', 'CEC in Saitama<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'contactus', 'zh', '埼玉基督教生命堂  - 連絡我們','');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'schedule', 'en', 'CEC in Saitama - Church Services Schedule', 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'contactus', 'en', 'CEC in Saitama - Contact Us', 'CEC in Saitama<br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'contactus', 'zh', '埼玉基督教生命堂  - 連絡我們','');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'schedule', 'en', 'CEC in Saitama - Church Services Schedule',
 '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
-');            
+');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'schedule', 'zh', '埼玉基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
-');             
+');
 
 update church set address='Saitama-Ken Saitama-Shi Chuo-Ku Kamiochiai 9-9-4-508, Japan', latitude = 35.90042128626243, longitude = 139.6240947684791 where church_path = 'saitama';
 
-update church_content set body = STRINGDECODE('         
+update church_content set body = STRINGDECODE('
 <style>
 .indentation {margin:20px;}
 </style>
@@ -13269,7 +13269,7 @@ update church_content set body = STRINGDECODE('
 ')	where church_id = (select church_id from church where church_path = 'saitama')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
+
 update church_content set body = STRINGDECODE('<p>
 <b>牧者: </b> 林麗鴻 傳道, (C) 090-3797-8428
 </p>
@@ -13286,14 +13286,14 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
------------------------end Saitama 
+-----------------------end Saitama
 
-	
+
 ---------- Akabane   New church July 2021 ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(64, 'akabane', 1, 11, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(64, 'en', 'menu_name', 'CEC in Akabane ');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(64, 'zh', 'menu_name', '赤羽基督教生命堂 ');                     
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 64);   
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(64, 'akabane', 1, 11, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(64, 'en', 'menu_name', 'CEC in Akabane ');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(64, 'zh', 'menu_name', '赤羽基督教生命堂 ');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 64);
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'intro', 'en', 'CEC in Akabane   - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
@@ -13333,7 +13333,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td>emsi_chiyu@hotmail.com</td>			
+				<td>emsi_chiyu@hotmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -13400,7 +13400,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td>emsi_chiyu@hotmail.com</td>			
+				<td>emsi_chiyu@hotmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -13439,9 +13439,9 @@ p span.label {font-weight: bold;}
 </p>
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'contactus', 'en', 'CEC in Akabane  - Contact Us', 'CEC in Akabane<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'contactus', 'zh', '赤羽基督教生命堂  - 連絡我們','');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'schedule', 'en', 'CEC in Akabane  - Church Services Schedule', 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'contactus', 'en', 'CEC in Akabane  - Contact Us', 'CEC in Akabane<br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'contactus', 'zh', '赤羽基督教生命堂  - 連絡我們','');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'schedule', 'en', 'CEC in Akabane  - Church Services Schedule',
 '
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
@@ -13466,9 +13466,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </br>
 
 <p>&nbsp;</p>
-');    
-        
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'schedule', 'zh', '赤羽基督教生命堂  - 聚會日程', 
+');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'schedule', 'zh', '赤羽基督教生命堂  - 聚會日程',
 '
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
@@ -13493,11 +13493,11 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </br>
 
 <p>&nbsp;</p>
-');             
+');
 
 update church set address='Tokyo-To Kita-Ku Akabane Kita 2-36-3-307, Japan', latitude = 35.78805542336534, longitude = 139.70970885498207 where church_path = 'akabane';
 
-update church_content set body = STRINGDECODE('         
+update church_content set body = STRINGDECODE('
 <style>
 .indentation {margin:20px;}
 </style>
@@ -13520,7 +13520,7 @@ Ev. Dong Jinbo, 080-7046-5578</p>
 ')	where church_id = (select church_id from church where church_path = 'akabane')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
+
 update church_content set body = STRINGDECODE('
 <p>
 <b>傳道:</b> 楊熙 傳道, (C) 070-7546-8175
@@ -13541,14 +13541,14 @@ update church_content set body = STRINGDECODE('
 	and locale = 'zh'
 	and page_id = 'contactus';
 
------------------------end Akabane  
-	
-	
+-----------------------end Akabane
+
+
 ---------- Mandarin in Den Haag   New church April 2022 ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(65, 'denhaag_mandarin', 1, 11, 0);               
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(65, 'en', 'menu_name', 'CEC Mandarin in Den Haag');             
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(65, 'zh', 'menu_name', '海牙普通話基督教生命堂');                     
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(7, NULL, 65);   
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(65, 'denhaag_mandarin', 1, 11, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(65, 'en', 'menu_name', 'CEC Mandarin in Den Haag');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(65, 'zh', 'menu_name', '海牙普通話基督教生命堂');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(18, NULL, 65);
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'intro', 'en', 'CEC Mandarin in Den Haag   - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 .contact-content td {font-size: small; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
@@ -13588,7 +13588,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td>emsimandrindh@fmail.com</td>			
+				<td>emsimandrindh@fmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -13655,7 +13655,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td>emsimandrindh@fmail.com</td>			
+				<td>emsimandrindh@fmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -13687,9 +13687,9 @@ p span.label {font-weight: bold;}
 
 </div>');
 
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'contactus', 'en', 'CEC Mandarin in Den Haag  - Contact Us', 'CEC Madarin in Den Haag<br><br>');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'contactus', 'zh', '海牙普通話基督教生命堂  - 連絡我們','');          
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'schedule', 'en', 'CEC Mandarin in Den Haag  - Church Services Schedule', 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'contactus', 'en', 'CEC Mandarin in Den Haag  - Contact Us', 'CEC Madarin in Den Haag<br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'contactus', 'zh', '海牙普通話基督教生命堂  - 連絡我們','');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'schedule', 'en', 'CEC Mandarin in Den Haag  - Church Services Schedule',
 '
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
@@ -13697,15 +13697,15 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 			<td>主日崇拜</br>Worship Service</td>
 			<td></br> </td>
 		</tr>
-	
+
 	</tbody>
 </table>
 </br>
 
 <p>&nbsp;</p>
-');    
-        
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'schedule', 'zh', '海牙普通話基督教生命堂  - 聚會日程', 
+');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'schedule', 'zh', '海牙普通話基督教生命堂  - 聚會日程',
 '
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
@@ -13719,11 +13719,11 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </br>
 
 <p>&nbsp;</p>
-');             
+');
 
 update church set address='Oranjelaan 62, 2281 GG Rijswijk, The Netherlands',  latitude = 52.056249239592425, longitude = 4.339608890836412 where church_path = 'denhaag_mandarin';
 
-update church_content set body = STRINGDECODE('         
+update church_content set body = STRINGDECODE('
 <style>
 .indentation {margin:20px;}
 </style>
@@ -13747,7 +13747,7 @@ Ev. Dong Jinbo, 080-7046-5578</p>
 ')	where church_id = (select church_id from church where church_path = 'denhaag_mandarin')
 	and locale = 'en'
 	and page_id = 'contactus';
-	
+
 update church_content set body = STRINGDECODE('
 <p>
 <b>傳道:</b> 王濤 傳道 (+31-(0)61-749-3457)
@@ -13768,5 +13768,5 @@ update church_content set body = STRINGDECODE('
 	and locale = 'zh'
 	and page_id = 'contactus';
 
------------------------end Madarin in Den Haag  
-	
+-----------------------end Madarin in Den Haag
+
