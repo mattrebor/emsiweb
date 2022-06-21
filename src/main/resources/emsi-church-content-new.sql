@@ -6444,11 +6444,7 @@ p span.label {font-weight: bold;}
 			<td>Rev. Hugo K. Y. Chan (+31-(0)64-009-4225)</td>
 		</tr>
 		<tr>
-			<td class="label">Evangelists:</td>
-			<td>Ev. Yen Chow Chan (+31-(0)63-440-0330)</td>
-		</tr>
-		<tr>
-			<td class=\"label\"></td>
+			<td class=\"label\">Evangelists:</td>
 			<td>Ev. Chun Yu Lau (+31-(0)61-357-4829)</td>
 		</tr>
 		<tr>
@@ -6511,10 +6507,6 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>陳遠洲 傳道 (+31-(0)63-440-0330)</td>
-		</tr>
-		<tr>
-			<td class=\"label\"></td>
 			<td>劉震宇 傳道 (+31-(0)61-357-4829)</td>
 		</tr>
 		<tr>
@@ -6569,8 +6561,6 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Evangelists: </b>
 <p style="padding-left: 55px;">
-Ev. Yen Chow Chan (+31-(0)63-440-0330)</p>
-<p style="padding-left: 55px;">
 Ev. Chun Yu Lau (+31-(0)61-357-4829)</p>
 <p style="padding-left: 55px;">
 Ev. Chandice Lau-Lee (+31-(0)62-884-7813)</p>
@@ -6596,11 +6586,9 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道: </b>
 <p style="padding-left: 40px;">
-陳遠洲 傳道 (+31-(0)63-440-0330)</p>
-<p style="padding-left: 40px;">
 劉震宇 傳道 (+31-(0)61-357-4829)</p>
 <p style="padding-left: 40px;">
-劉李嘉欣 傳道 (+31-(0)62-884-781)</p>
+劉李嘉欣 傳道 (+31-(0)62-884-7813)</p>
 <p>
 <b>地址: </b>Isingstraat 165 A, 2522 JS Den Haag, The Netherlands
 </p>
@@ -13295,7 +13283,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td>emsimandrindh@fmail.com</td>
+				<td>emsimandrindh@gmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -13362,7 +13350,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td>emsimandrindh@fmail.com</td>
+				<td>emsimandrindh@gmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -13437,9 +13425,9 @@ update church_content set body = STRINGDECODE('
 <p>
 <b>Evangelists: </b>
 <p style="padding-left: 55px;">
-Ev. Yang Xi, 070-7546-8175</p>
+Ev. Tao Wang (+31-(0)61-749-3457)</p>
 <p style="padding-left: 55px;">
-Ev. Dong Jinbo, 080-7046-5578</p>
+Ev. Songlin Hu (+31-(0)64-881-5977)</p>
 
 </p>
 <p>
