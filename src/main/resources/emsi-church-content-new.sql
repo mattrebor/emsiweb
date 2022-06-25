@@ -13516,8 +13516,24 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜</br>Worship Service</td>
-			<td></br> </td>
+			<td>國語堂崇拜 (大堂)</br>Mandarin Worship Service (Sanctuary)</td>
+			<td>週日下午</br>Sunday</td>
+			<td>12:45 pm</td>
+		</tr>
+		<tr>
+			<td>荷語堂崇拜 (副堂) </br>Dutch Worship Service (Auditorium)</td>
+			<td>週日下午 </br>Sunday</td>
+			<td>12:45 pm</td>
+		</tr>
+		<tr>
+			<td>兒童主日學 (中、荷)</br>Children Sunday School </td>
+			<td>週日下午 </br>Sunday</td>
+			<td>12:45 pm</td>
+		</tr>
+		<tr>
+			<td>中文查經班</br>Mandarin Bible Study</td>
+			<td>週一上午</br>Monday</td>
+			<td>10:00 - 11:30 am</td>
 		</tr>
 
 	</tbody>
@@ -13532,8 +13548,24 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜</br>Worship Service</td>
-			<td> </br></td>
+			<td>國語堂崇拜 (大堂)</br>Mandarin Worship Service (Sanctuary)</td>
+			<td>週日下午</br>Sunday</td>
+			<td>12:45 pm</td>
+		</tr>
+		<tr>
+			<td>荷語堂崇拜 (副堂) </br>Dutch Worship Service (Auditorium)</td>
+			<td>週日下午 </br>Sunday</td>
+			<td>12:45 pm</td>
+		</tr>
+		<tr>
+			<td>兒童主日學 (中、荷)</br>Children Sunday School </td>
+			<td>週日下午 </br>Sunday</td>
+			<td>12:45 pm</td>
+		</tr>
+		<tr>
+			<td>中文查經班</br>Mandarin Bible Study</td>
+			<td>週一上午</br>Monday</td>
+			<td>10:00 - 11:30 am</td>
 		</tr>
 
 	</tbody>
