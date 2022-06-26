@@ -13410,7 +13410,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td>emsimandrindh@gmail.com</td>
+				<td>emsimandarindh@gmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -13477,7 +13477,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td>emsimandrindh@gmail.com</td>
+				<td>emsimandarindh@gmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -13499,7 +13499,7 @@ p span.label {font-weight: bold;}
 </p>
 
 <p>
-022年1月2日總會正式成立海牙普通話生命堂，這是由楊摩西牧師領導下的，國際福音佈道會總會屬下的第59間生命堂，也是歐洲分會的第36間生命堂。
+2022年1月2日總會正式成立海牙普通話生命堂，這是由楊摩西牧師領導下的，國際福音佈道會總會屬下的第59間生命堂，也是歐洲分會的第36間生命堂。
 </p>
 
 <p>
