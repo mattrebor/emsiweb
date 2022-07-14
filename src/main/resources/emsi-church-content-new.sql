@@ -5401,50 +5401,25 @@ Weekly Regular Meetings
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日祷告</br>Sunday Prayer Meeting</td>
-			<td>礼拜天</br>Sunday </td>
-			<td>晚4:00 - 5:30 </br>4:00 - 5:30pm</td>
-		</tr>
-
-		<tr>
 			<td>主日崇拜</br>Sunday Worship</td>
-			<td>礼拜天</br>Sunday </td>
-			<td>晚6:40 - 8:00 </br>6:40 - 8:00pm</td>
-		</tr>
-		<tr>
-			<td>祷告会</br>Prayer Meeting</td>
-			<td>礼拜四</br>Thursday </td>
-			<td>晚4:00-5:30  </br>4:00 - 5:30 pm</td>
-		</tr>
-		<tr>
-			<td>查经班</br>Bible Study</td>
-			<td>礼拜四</br>Thursday </td>
-			<td>晚6:30-8:00  </br>6:30 - 8:00 pm</td>
-		</tr>
-
-	</tbody>
-</table>
-<p>&nbsp;</p>
-
-对外开放时间：(礼拜二--礼拜五）</br> 
-Weekdays day time program (Tuesday - Friday)
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<tbody>
-		<tr>
-			<td>清晨祈福</br>Prayer Time</td>
-			<td>早9:00-11:00 </br>9:00-11:00am</td>
-			<td>人不能给予的帮助，上帝能给予；人不能点破的迷津，上帝能引领；因为惟有他是创世救世的全能大主宰！欢迎您到圣殿中向上帝祈求！对于诚心探索和祈求的人，上帝必定垂听他的祷告，成全他的所想所求！ </br>Come to His temple and pray. God listens to the prayers of those who seek Him! God leads and God provides  because God is the creator of the earth, the almighty God. </td>
+			<td>星期日</br>Sunday </td>
+			<td>晚6:30 - 8:00 </br>6:30 - 8:00pm</td>
 		</tr>
 
 		<tr>
-			<td>午间饮茶 </br>Tea Time</td>
-			<td>午12:30-2:30</br>12:30-2:30pm</td>
-			<td>欢迎您在午间来到生命堂饮茶！我们将向您介绍天下第一奇书——圣经。愿您也成为得上帝拣选的有福子民！ </br>Come to church and have a cup of tea with us! We will introduce you to this most wonderful book in this world – Bible. May you become a blessed chosen people of God. </td>
+			<td>主日學</br>Sunday School</td>
+			<td>星期日</br>Sunday </td>
+			<td>晚6:30 - 8:00 </br>6:30 - 8:00pm</td>
 		</tr>
 		<tr>
-			<td>黄昏小聚</br>Afternoon Gathering</td>
-			<td>晚4:00-5:00</br>4:00-5:00pm</td>
-			<td>当您确实得到上帝祝福的时候，欢迎您到圣殿中向上帝感恩、还愿！(不收取任何费用，也无任何硬性捐助。) 愿上帝使您力上加力、恩上加恩、福上加福！ </br>We welcome you to give thanks to God in God’s sanctuary. (No fee required.) </td>
+			<td>查經禱告會</br>Bible Study and Prayer Meeting</td>
+			<td>星期三</br>Wednesday </td>
+			<td>晚6:00 - 7:30 </br>6:00 - 7:30pm</td>
+		</tr>
+		<tr>
+			<td>青少年團契</br>Youth Fellowship</td>
+			<td>群裡通知</br>To be announced </td>
+			<td>   </br> </td>
 		</tr>
 
 	</tbody>
@@ -5464,55 +5439,30 @@ Weekly Regular Meetings
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日祷告</br>Sunday Prayer Meeting</td>
-			<td>礼拜天</br>Sunday </td>
-			<td>晚4:00 - 5:30 </br>4:00 - 5:30pm</td>
-		</tr>
-
-		<tr>
 			<td>主日崇拜</br>Sunday Worship</td>
-			<td>礼拜天</br>Sunday </td>
-			<td>晚6:40 - 8:00 </br>6:40 - 8:00pm</td>
+			<td>星期日</br>Sunday </td>
+			<td>晚6:30 - 8:00 </br>6:30 - 8:00pm</td>
 		</tr>
 		<tr>
-			<td>祷告会</br>Prayer Meeting</td>
-			<td>礼拜四</br>Thursday </td>
-			<td>晚4:00-5:30  </br>4:00 - 5:30 pm</td>
+			<td>主日學</br>Sunday School</td>
+			<td>星期日</br>Sunday </td>
+			<td>晚6:30 - 8:00 </br>6:30 - 8:00pm</td>
 		</tr>
 		<tr>
-			<td>查经班</br>Bible Study</td>
-			<td>礼拜四</br>Thursday </td>
-			<td>晚6:30-8:00  </br>6:30 - 8:00 pm</td>
+			<td>查經禱告會</br>Bible Study and Prayer Meeting</td>
+			<td>星期三</br>Wednesday </td>
+			<td>晚6:00 - 7:30 </br>6:00 - 7:30pm</td>
+		</tr>
+		<tr>
+			<td>青少年團契</br>Youth Fellowship</td>
+			<td>群裡通知</br>To be announced </td>
+			<td>   </br> </td>
 		</tr>
 
 	</tbody>
 </table>
 <p>&nbsp;</p>
 
-对外开放时间：(礼拜二--礼拜五）</br> 
-Weekdays day time program (Tuesday - Friday)
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<tbody>
-		<tr>
-			<td>清晨祈福</br>Prayer Time</td>
-			<td>早9:00-11:00 </br>9:00-11:00am</td>
-			<td>人不能给予的帮助，上帝能给予；人不能点破的迷津，上帝能引领；因为惟有他是创世救世的全能大主宰！欢迎您到圣殿中向上帝祈求！对于诚心探索和祈求的人，上帝必定垂听他的祷告，成全他的所想所求！ </br>Come to His temple and pray. God listens to the prayers of those who seek Him! God leads and God provides  because God is the creator of the earth, the almighty God. </td>
-		</tr>
-
-		<tr>
-			<td>午间饮茶 </br>Tea Time</td>
-			<td>午12:30-2:30</br>12:30-2:30pm</td>
-			<td>欢迎您在午间来到生命堂饮茶！我们将向您介绍天下第一奇书——圣经。愿您也成为得上帝拣选的有福子民！ </br>Come to church and have a cup of tea with us! We will introduce you to this most wonderful book in this world – Bible. May you become a blessed chosen people of God. </td>
-		</tr>
-		<tr>
-			<td>黄昏小聚</br>Afternoon Gathering</td>
-			<td>晚4:00-5:00</br>4:00-5:00pm</td>
-			<td>当您确实得到上帝祝福的时候，欢迎您到圣殿中向上帝感恩、还愿！(不收取任何费用，也无任何硬性捐助。) 愿上帝使您力上加力、恩上加恩、福上加福！ </br>We welcome you to give thanks to God in God’s sanctuary. (No fee required.) </td>
-		</tr>
-
-	</tbody>
-</table>
-<p>&nbsp;</p>
 
 
 
@@ -13390,6 +13340,10 @@ p span.label {font-weight: bold;}
 			<td class="label"></td>
 			<td>Ev. Songlin Hu (+31-(0)64-881-5977)</td>
 		</tr>
+		<tr>
+			<td class="label"></td>
+			<td>Ev. Yen Chow Chan (+31-(0)63-440-0330)</td>
+		</tr>
 
 	</tbody>
 </table>
@@ -13405,7 +13359,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">Tel#:</td>
-				<td>+31-(0)61-749-3457 / +31-(0)64-881-5977</td>
+				<td>+31-(0)61-749-3457 / +31-(0)64-881-5977 / +31-(0)63-440-0330</td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -13458,6 +13412,10 @@ p span.label {font-weight: bold;}
 				<td class="label"></td>
 				<td>胡松林 傳道 (+31-(0)64-881-5977)</td>
 			</tr>
+			<tr>
+				<td class="label"></td>
+				<td>陳遠洲 傳道 (+31-(0)63-440-0330)</td>
+			</tr>
 	</tbody>
 </table>
 &nbsp;
@@ -13472,7 +13430,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">電話:</td>
-				<td>+31-(0)61-749-3457 / +31-(0)64-881-5977</td>
+				<td>+31-(0)61-749-3457 / +31-(0)64-881-5977 / +31-(0)63-440-0330</td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -13587,8 +13545,9 @@ update church_content set body = STRINGDECODE('
 Ev. Tao Wang (+31-(0)61-749-3457)</p>
 <p style="padding-left: 55px;">
 Ev. Songlin Hu (+31-(0)64-881-5977)</p>
+</p><p style="padding-left: 55px;">
+Ev. Yen Chow Chan (+31-(0)63-440-0330)</p>
 
-</p>
 <p>
 <b>Address: </b>Oranjelaan 62, 2281 GG Rijswijk, The Netherlands
 </p>
@@ -13608,6 +13567,9 @@ update church_content set body = STRINGDECODE('
 </p>
 <p style="padding-left: 40px;">
 胡松林 傳道 (+31-(0)64-881-5977)
+</p>
+<p style="padding-left: 40px;">
+陳遠洲 傳道 (+31-(0)63-440-0330)
 </p>
 
 <b>地 址: </b>Oranjelaan 62, 2281 GG Rijswijk, The Netherlands
