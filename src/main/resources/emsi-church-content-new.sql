@@ -5273,12 +5273,17 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> 1107 Budapest, Monori u.2-4. E12-12 Hungary</td>
+			<td> 1101 Budapest, Monori u.2-4. E12-12 Hungary</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
 			<td> 0036-30-728-8888</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">WeChat ID:</td>
+			<td>83834284</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -5333,12 +5338,17 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> 1107 Budapest, Monori u.2-4. E12-12 Hungary</td>
+			<td> 1101 Budapest, Monori u.2-4. E12-12 Hungary</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
 			<td> 0036-30-728-8888</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">微信號:</td>
+			<td>83834284 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -5360,8 +5370,7 @@ p span.label {font-weight: bold;}
 <img hspace=\"5\" src=\"/emsi/files/Budapest_small_2019.jpg\" align=\"left\" height=\"255\" width=\"360\" />2010年10月18日陳寶珩傳道受美國國際神學福音佈道會差派，來到匈牙利布達佩斯開始新工場的開拓。經過六個多月耕耘撒種的前期工作，總會決定正式成立布達佩斯基督教生命堂。這是由楊摩西牧師領導下的美國國際神學福音佈道會屬下的第47間生命堂，也是歐洲分會的第28間生命堂。
 </p>
 <p>
-2015年十一月，翟廣奇傳道接下陳寶珩傳道在此的事奉。2017年五月，謝敏惠姐妹從美國返回教會實習。願主帶領，讓布達佩斯生命堂在穩定中不斷地成長。
-
+2015年十一月，翟廣奇傳道接下陳寶珩傳道在此的事奉。2017年五月，謝敏惠傳道讀神學從美國回到布達佩斯，與翟傳道同工，一同事奉教會。2020年翟傳道回到美國服事，布達佩斯生命堂由謝敏惠傳道負責。願主帶領，讓布達佩斯生命堂在穩定中不斷地成長2015年十一月，翟廣奇傳道接下陳寶珩傳道在此的事奉。2017年五月，謝敏惠傳道讀神學從美國回到布達佩斯，與翟傳道同工，一同事奉教會。2020年翟傳道回到美國服事，布達佩斯生命堂由謝敏惠傳道負責。願主帶領，讓布達佩斯生命堂在穩定中不斷地成長。
 </p>
 
 
@@ -5377,10 +5386,13 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Minhui Xie
 </p>
 <p>
-<b>Address: </b>1107 Budapest, Monori u.2-4. E12-12 Hungary
+<b>Address: </b>1101 Budapest, Monori u.2-4. E12-12 Hungary
 </p>
 <p>
 <b>Tel #: </b>0036-30-728-8888
+</p>
+<p>
+<b>WeChat ID: </b>83834284
 </p>
 <p>
 <b>Email: </b>hqxxmh@gmail.com
@@ -5478,10 +5490,13 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道: </b>謝敏惠 傳道
 </p>
 <p>
-<b>地址: </b>1107 Budapest, Monori u.2-4. E12-12 Hungary
+<b>地址: </b>1101 Budapest, Monori u.2-4. E12-12 Hungary
 </p>
 <p>
 <b>電話:</b> 0036-30-728-8888
+</p>
+<p>
+<b>微信號:</b> 83834284
 </p>
 <p>
 <b>電郵: </b>hqxxmh@gmail.com
