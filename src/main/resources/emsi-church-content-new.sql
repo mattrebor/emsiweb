@@ -5302,12 +5302,11 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>April 11, 2011
 </p>
 <p>
-<img src="/emsi/files/Budapest_small_2019.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />On October 18, 2010, Christian Evangelical Mission International sent Ev. Angela Chen to Budapest, Hungary as a missionary. After six months of labor, CEMC in Budapest is established. This is the 47th CEM church established by the Evangelical Mission and Seminary International under the leadership of Rev. Moses Yang. It is also the 28th CEM church established by the CEMI in Europe.
+<img src="/emsi/files/Budapest_small_2019.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />On October 18, 2010, Christian Evangelical Mission International sent Ev. Angela Chen as a missionary to Budapest, Hungary. After six months of labor, CEMC in Budapest was established. It became the 47th CEM church by Evangelical Mission and Seminary International under the leadership of Rev. Moses Yang as well as the 28th CEM church by CEMI in Europe.
 </p>
 
 <p>
-In November, 2015, Ev. Guanqi Zhai replaced Ev. Angela Chen. In May, 2017, sister Minhui Xie became assistant to Ev. Zhai after returning from the States. May CEC Budapest grow steadily in Lord.
-I will send you the word document.
+In November, 2015, Ev. Guanqi Zhai replaced Ev. Angela Chen. In May, 2017, Ev. Minhui Xie became assistant to Ev. Zhai after returning from her study in the United States. In 2020, Ev. Minhui Xie took over the full responsibility of ministering to CEC Budapest after Ev. Zhai returned to the United States to serve.
 </p>
 </div>
 '	where church_id = (select church_id from church where church_path = 'budapest')
