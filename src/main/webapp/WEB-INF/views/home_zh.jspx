@@ -11,7 +11,7 @@
 	<spring:url value="/resources/images/home/ebi_zh.jpg" var="banner_image_url2" />
 	<spring:url value="/resources/images/home/ceom_zh.jpg" var="banner_image_url3" />
 	<spring:url value="/resources/images/home/cemi_zh.jpg" var="banner_image_url4" />
-	
+
 
 	<div id="myCarousel" class="carousel slide">
 		<ol class="carousel-indicators">
@@ -23,7 +23,7 @@
 		<!-- carousel items -->
 		<div class="carousel-inner">
 			<div class="active item">
-				
+
 				<a href="${emsiUrl}"><img src="${banner_image_url1}" width="870" height="330" alt="" /></a>
 				<div class="carousel-caption emsi-carousel-caption">
 					<!-- <h4>Place holder 0</h4> -->
@@ -50,7 +50,7 @@
 					<!-- <h4>Place holder 2</h4> -->
 					<p>下設美洲福音佈道會、歐洲福音佈道會、非洲福音佈道會、亞洲福音佈道會，主要工作是監管教會、牧養羊群和聯合各生命堂舉辦年度聚會。國際福音佈道會已在美東建立九間生命堂、美西五間、荷蘭 十二間、法國巴黎一間、葡萄牙四間、比利時四間、西班牙八間、意大利二間、匈牙利一間、南非三間、日本三間、台灣一間，總共五十三間教會。</p>
 				</div>
-			</div>			
+			</div>
 		</div>
 		<a class="left carousel-control" href="#myCarousel" data-slide="prev">&amp;lsaquo;</a>
 		<a class="right carousel-control" href="#myCarousel" data-slide="next">&amp;rsaquo;</a>
@@ -67,19 +67,19 @@
 				<spring:url value="/resources/images/home/whatsup.jpg"
 					var="whats_up_image_url" />
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
-				
-				<ul>				
 
-					<li>5/27/22 - 5/3022 美東區生命堂家庭聯合退修會<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>			
-					<li>11/27/21 紐約藝人生命堂獻堂典禮<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>			
-					<li>11/7/2021 瓦倫西亞生命堂25週年慶暨獻堂典禮<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>			
-					<li>11/6/21 貝妮東生命堂獻堂典禮<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>			
-					<li>請看生命之泉第297期。<br/><a href="https://emsionline-my.sharepoint.com/:b:/g/personal/emsi_emsionline_org/EYPxR6Ew22JEiDwtkKrP0RMBZCvJbIBMURLKYAf3bBY_0A"><i>詳情</i>&#9656;</a></li>				
-					<!--<li>12/27/2020 美東生命堂青少年網上冬令會<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>	-->			
+				<ul>
+
+					<li>5/27/22 - 5/3022 美東區生命堂家庭聯合退修會<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>
+					<li>11/27/21 紐約藝人生命堂獻堂典禮<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>
+					<li>11/7/2021 瓦倫西亞生命堂25週年慶暨獻堂典禮<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>
+					<li>11/6/21 貝妮東生命堂獻堂典禮<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>
+					<li>請看生命 之泉第 300 期。<br/><a href="https://emsionline-my.sharepoint.com/:b:/g/personal/emsi_emsionline_org/EXoB64hLmIpKiYytV8ZwIpMBPLQ_u4hwsRBJQNTpOLrGQQ?e=Awozak"><i>詳情</i>&#9656;</a></li>
+					<!--<li>12/27/2020 美東生命堂青少年網上冬令會<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>	-->
 					<li>新冠病毒猖獗，全球各地許多佈道會生命堂改為網上聚會，欲知詳情，請洽各佈道會生命堂牧者。<br/></li>
 				</ul>
-			</div>			
-		
+			</div>
+
 		</div>
 		<div class="span11">
 			<spring:url value="/resources/images/home/broadcasting_zh.jpg"
@@ -91,7 +91,7 @@
 			<spring:url value="/resources/images/home/bookstore_zh.jpg"
 				var="banner2_img_url" />
 			<spring:url value="/order" var="banner2_url"/>
-				
+
 			<a href="${banner2_url}"><img src="${banner2_img_url}" alt="" width="450" height="125" /></a>
 		</div>
 	</div>
