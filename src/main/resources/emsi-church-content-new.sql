@@ -3421,11 +3421,15 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Senior Pastor:</td>
-			<td>Rev. Stephen Hosea, 415-309-5661</td>
+			<td>Rev. Stephen Hosea, (415)309-5661</td>
 		</tr>
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. Timotius Tjing, 510-972-0473</td>
+			<td>Rev. Timotius Tjing, (510)972-0473</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Glenn Sebastian, (510)219-1894</td>
 		</tr>
 	</tbody>
 </table>
@@ -3440,13 +3444,17 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>(408)459-1678</td>
+			<td>(408)634-9875</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:timotiuschuang@yahoo.com">timotiuschuang@yahoo.com</a><br />
-			</td>
+			<td><a href="mailto:timotiuschuang@yahoo.com">timotiuschuang@yahoo.com</a><br /></td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:rehuel.sebastian@gmail.com">rehuel.sebastian@gmail.com</a><br /></td>
 		</tr>
 	</tbody>
 </table>
@@ -3483,11 +3491,15 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">主任牧師:</td>
-			<td>何兆威 牧師, 415-309-5661</td>
+			<td>何兆威 牧師, (415)309-5661</td>
 		</tr>
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>莊恭進 牧師, 510-972-0473</td>
+			<td>莊恭進 牧師, (510)972-0473</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>Glenn Sebastian 傳道, (510)219-1894</td>
 		</tr>
 	</tbody>
 </table>
@@ -3502,12 +3514,17 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> (408)459-1678 </td>
+			<td> (408)634-9875 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
 			<td><a href=\"mailto: timotiuschuang@yahoo.com"> timotiuschuang@yahoo.com</a></td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:rehuel.sebastian@gmail.com">rehuel.sebastian@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3540,19 +3557,25 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Senior Pastor: </b>Rev. Stephen Hosea, 415-309-5661
+<b>Senior Pastor: </b>Rev. Stephen Hosea, (415)309-5661
 </p>
 <p>
-<b>Pastor: </b>Rev. Timotius Tjing, 510-972-0473
+<b>Pastor: </b>Rev. Timotius Tjing, (510)972-0473
+</p>
+<p>
+<b>Evangelist: </b>Ev. Glenn Sebastian, (510)219-1894
 </p>
 <p>
 <b>Address: </b>191 E Gish Road, San Jose, CA 95112-4704 USA
 </p>
 <p>
-<b>Tel #: </b>(408)459-1678
+<b>Tel #: </b>(408)634-9875
 </p>
 <p>
 <b>Email: </b>timotiuschuang@yahoo.com
+</p>
+<p>
+<b>Email: </b>rehuel.sebastian@gmail.com
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=191+E+Gish+Rd,+San+Jose,+CA+95112&amp;ie=UTF8&amp;hq=&amp;hnear=191+E+Gish+Rd,+San+Jose,+California+95112-4704&amp;t=m&amp;z=14&amp;ll=37.36407,-121.905978&amp;z=17&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=191+E+Gish+Rd,+San+Jose,+CA+95112&amp;ie=UTF8&amp;hq=&amp;hnear=191+E+Gish+Rd,+San+Jose,+California+95112-4704&amp;t=m&amp;z=14&amp;ll=37.36407,-121.905978&amp;z=17&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -3565,19 +3588,25 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>主任牧師:</b> 	何兆威 牧師,  415-309-5661
+<b>主任牧師:</b> 何兆威 牧師, (415)309-5661
 </p>
 <p>
-<b>牧師:</b> 莊恭進 牧師,  510-972-0473
+<b>牧師:</b> 莊恭進 牧師, (510)972-0473
+</p>
+<p>
+<b>傳道:</b> Glenn Sebastian 傳道, (510)219-1894
 </p>
 <p>
 <b>地址: </b>191 E Gish Road, San Jose, CA 95112-4704 USA
 </p>
 <p>
-<b>電話:</b> (408)459-1678
+<b>電話:</b> (408)634-9875
 </p>
 <p>
 <b>電郵: </b>timotiuschuang@yahoo.com
+</p>
+<p>
+<b>電郵: </b>rehuel.sebastian@gmail.com
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=191+E+Gish+Rd,+San+Jose,+CA+95112&amp;ie=UTF8&amp;hq=&amp;hnear=191+E+Gish+Rd,+San+Jose,+California+95112-4704&amp;t=m&amp;z=14&amp;ll=37.36407,-121.905978&amp;z=17&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=191+E+Gish+Rd,+San+Jose,+CA+95112&amp;ie=UTF8&amp;hq=&amp;hnear=191+E+Gish+Rd,+San+Jose,+California+95112-4704&amp;t=m&amp;z=14&amp;ll=37.36407,-121.905978&amp;z=17&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
