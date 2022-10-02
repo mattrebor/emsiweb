@@ -3421,11 +3421,15 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Senior Pastor:</td>
-			<td>Rev. Stephen Hosea, 415-309-5661</td>
+			<td>Rev. Stephen Hosea, (415)309-5661</td>
 		</tr>
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. Timotius Tjing, 510-972-0473</td>
+			<td>Rev. Timotius Tjing, (510)972-0473</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Glenn Sebastian, (510)219-1894</td>
 		</tr>
 	</tbody>
 </table>
@@ -3440,13 +3444,17 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>(408)459-1678</td>
+			<td>(408)634-9875</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:timotiuschuang@yahoo.com">timotiuschuang@yahoo.com</a><br />
-			</td>
+			<td><a href="mailto:timotiuschuang@yahoo.com">timotiuschuang@yahoo.com</a><br /></td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:rehuel.sebastian@gmail.com">rehuel.sebastian@gmail.com</a><br /></td>
 		</tr>
 	</tbody>
 </table>
@@ -3483,11 +3491,15 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">主任牧師:</td>
-			<td>何兆威 牧師, 415-309-5661</td>
+			<td>何兆威 牧師, (415)309-5661</td>
 		</tr>
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>莊恭進 牧師, 510-972-0473</td>
+			<td>莊恭進 牧師, (510)972-0473</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>Glenn Sebastian 傳道, (510)219-1894</td>
 		</tr>
 	</tbody>
 </table>
@@ -3502,12 +3514,17 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> (408)459-1678 </td>
+			<td> (408)634-9875 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
 			<td><a href=\"mailto: timotiuschuang@yahoo.com"> timotiuschuang@yahoo.com</a></td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:rehuel.sebastian@gmail.com">rehuel.sebastian@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -3540,19 +3557,25 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Senior Pastor: </b>Rev. Stephen Hosea, 415-309-5661
+<b>Senior Pastor: </b>Rev. Stephen Hosea, (415)309-5661
 </p>
 <p>
-<b>Pastor: </b>Rev. Timotius Tjing, 510-972-0473
+<b>Pastor: </b>Rev. Timotius Tjing, (510)972-0473
+</p>
+<p>
+<b>Evangelist: </b>Ev. Glenn Sebastian, (510)219-1894
 </p>
 <p>
 <b>Address: </b>191 E Gish Road, San Jose, CA 95112-4704 USA
 </p>
 <p>
-<b>Tel #: </b>(408)459-1678
+<b>Tel #: </b>(408)634-9875
 </p>
 <p>
 <b>Email: </b>timotiuschuang@yahoo.com
+</p>
+<p>
+<b>Email: </b>rehuel.sebastian@gmail.com
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=191+E+Gish+Rd,+San+Jose,+CA+95112&amp;ie=UTF8&amp;hq=&amp;hnear=191+E+Gish+Rd,+San+Jose,+California+95112-4704&amp;t=m&amp;z=14&amp;ll=37.36407,-121.905978&amp;z=17&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=191+E+Gish+Rd,+San+Jose,+CA+95112&amp;ie=UTF8&amp;hq=&amp;hnear=191+E+Gish+Rd,+San+Jose,+California+95112-4704&amp;t=m&amp;z=14&amp;ll=37.36407,-121.905978&amp;z=17&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -3565,19 +3588,25 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>主任牧師:</b> 	何兆威 牧師,  415-309-5661
+<b>主任牧師:</b> 何兆威 牧師, (415)309-5661
 </p>
 <p>
-<b>牧師:</b> 莊恭進 牧師,  510-972-0473
+<b>牧師:</b> 莊恭進 牧師, (510)972-0473
+</p>
+<p>
+<b>傳道:</b> Glenn Sebastian 傳道, (510)219-1894
 </p>
 <p>
 <b>地址: </b>191 E Gish Road, San Jose, CA 95112-4704 USA
 </p>
 <p>
-<b>電話:</b> (408)459-1678
+<b>電話:</b> (408)634-9875
 </p>
 <p>
 <b>電郵: </b>timotiuschuang@yahoo.com
+</p>
+<p>
+<b>電郵: </b>rehuel.sebastian@gmail.com
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=191+E+Gish+Rd,+San+Jose,+CA+95112&amp;ie=UTF8&amp;hq=&amp;hnear=191+E+Gish+Rd,+San+Jose,+California+95112-4704&amp;t=m&amp;z=14&amp;ll=37.36407,-121.905978&amp;z=17&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=191+E+Gish+Rd,+San+Jose,+CA+95112&amp;ie=UTF8&amp;hq=&amp;hnear=191+E+Gish+Rd,+San+Jose,+California+95112-4704&amp;t=m&amp;z=14&amp;ll=37.36407,-121.905978&amp;z=17&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -3647,6 +3676,186 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 
 --------------------ends sanjose
+
+
+------------starts sacramento
+
+update church_content set body = STRINGDECODE('<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Senior Pastor:</td>
+			<td>Rev. Stephen Hosea, (415)309-5661</td>
+		</tr>
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Fam Muk Thiam, (916)600-9539</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>Chinese Grace Bible Church, 6656 Park Riviera Way, Sacramento, CA 95831 USA</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>(916)600-9539</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:gerejaiisacramento@gmail.com">gerejaiisacramento@gmail.com</a><br /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>May 1993
+</p>
+<p><img hspace=\"5\" src=\"/emsi/files/gii%20sac.jpg\" align=\"left\" height=\"255\" width=\"360\" />
+In May 1993, IEC in Sacramento was established. Church ministries such as evangelism, mission, discipleship training, caring program, Chinese Language School, and a laymen’s Institute exist to aid to the spiritual growth of believers. 
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'sacramento')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">主任牧師:</td>
+			<td>何兆威 牧師, (415)309-5661</td>
+		</tr>
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>范慕天 牧師, (916)600-9539</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td>Chinese Grace Bible Church, 6656 Park Rivieraway Sacramento, CA 95831 USA</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> (916)600-9539</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href="mailto:gerejaiisacramento@gmail.com">gerejaiisacramento@gmail.com</a><br /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<b>成立日期:</b> 1993年 5月 
+</p>
+<p>
+<span class=\"label\">簡史: </span><br /><img hspace=\"5\" src=\"/emsi/files/gii%20sac.jpg\" align=\"left\" height=\"255\" width=\"360\" />
+這十幾年來，西岸各地的生命堂特別蒙神恩待，不但在內部福音培育事工上成長，也在對外差傳的事工上推展。一九九三年，舊金山生命堂與聖河水、洛杉磯生命堂一同聯合開展植堂事工，於同年五月設立了沙加緬度生命堂。目前這個堂會仍然外租別人的禮拜堂崇拜聚會。為了保持西岸各堂會之間的合一和關懷，西岸的五間堂會於九三年九月在國際福音佈道會的監護下成立區會，通稱為「美國西岸福音佈道會區會」，並且委任舊金山生命堂為區會辦事處。 
+</p>
+<p>目前教會事工發展包括差傳佈道、門徒訓練、關懷培談、中文學校，以及平信徒聖經學校。此外，還有許多事工等待我們去開展，許多莊稼等待我們去收割，求神在這些事上，加添我們的智慧和能力。
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'sacramento')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Senior Pastor: </b>Rev. Stephen Hosea, (415)309-5661
+</p>
+<p>
+<b>Pastor: </b>Rev. Fam Muk Thiam, (916)600-9539
+</p>
+<p>
+<b>Address: </b>6656 Park Riviera Way, Sacramento, CA 95831, USA
+</p>
+<p>
+<b>Tel #: </b>(916)600-9539
+</p>
+<p>
+<b>Email: </b>gerejaiisacramento@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3122.158506951917!2d-121.55181078522514!3d38.50705507746402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad217490a2c39%3A0x2534d9578e67eb0b!2s6656%20Park%20Riviera%20Way%2C%20Sacramento%2C%20CA%2095831!5e0!3m2!1sen!2sus!4v1664715998068!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'sacramento')
+	and locale = 'en'
+	and page_id = 'contactus';
+
+
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>主任牧師:</b> 何兆威 牧師, (415)309-5661
+</p>
+<p>
+<b>牧師:</b> 范慕天 牧師, (916)600-9539
+</p>
+<p>
+<b>地址: </b>6656 Park Riviera Way, Sacramento, CA 95831, USA
+</p>
+<p>
+<b>電話:</b> (916)600-9539
+</p>
+<p>
+<b>電郵: </b>gerejaiisacramento@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3122.158506951917!2d-121.55181078522514!3d38.50705507746402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ad217490a2c39%3A0x2534d9578e67eb0b!2s6656%20Park%20Riviera%20Way%2C%20Sacramento%2C%20CA%2095831!5e0!3m2!1sen!2sus!4v1664715998068!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'sacramento')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+
+--------------------ends sacramento
+
+
+
+
 
 ---------------------update porto alto - portugal pages
 
