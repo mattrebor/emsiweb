@@ -10079,7 +10079,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class="label">Youth Minister:</td>
-			<td>Ev. Wingkit Chan, 973-335-7337 ext. 250, (C) 973-413-4132</td>
+			<td>Brother Darrin Chien, (C) 973-415-9302</td>
 		</tr>
 	</tbody>
 </table>
@@ -10162,7 +10162,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\">青年事工:</td>
-			<td>陳永傑  傳道, 973-335-7337 ext. 250, (手機) 973-413-4132</td>
+			<td>Darrin Chien 弟兄, (手機) 718-415-9302</td>
 		</tr>
 	</tbody>
 </table>
@@ -10354,22 +10354,22 @@ update church_content set body = STRINGDECODE('<p>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000"> 陳永傑 傳道</span></span>
+			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000"> Darrin Chien 弟兄</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 250</span></span>
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000"></span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-413-4132</span></span>
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">718-415-9302</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">Wk_chan@hotmail.com</span></span></span>
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">drrnchn8@gmail.com</span></span></span>
 			</p>
 			</td>
 		</tr>
@@ -10543,22 +10543,22 @@ Christian Evangelical Mission Church in Towaco
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ev. Wingkit Chan</span></span>
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Brother Darrin Chien</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 250</span></span>
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000"></span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-413-4132</span></span>
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">718-415-9302</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">Wk_chan@hotmail.com</span></span></span>
+			<span class="MsoHyperlink"><span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #027ac6">drrnchn8@gmail.com</span></span></span>
 			</p>
 			</td>
 		</tr>
