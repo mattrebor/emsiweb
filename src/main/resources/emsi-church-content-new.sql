@@ -1087,6 +1087,214 @@ update church_content set body = '<table border="1" cellpadding="5" style= "font
 
 -----------update losangeles
 
+update church_content set body = STRINGDECODE('<style>
+.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Senior Pastor:</td>
+			<td>Rev. Kristianto Hosea, (909) 636-4193</td>
+		</tr>
+		<tr>
+			<td class="label">Associate Pastor:</td>
+			<td>Rev. Steve Lee, (714) 496-3244</td>
+		</tr>
+		<tr>
+			<td class="label">Assistant Pastor:</td>
+			<td>Ev. Emil Zheng, (651) 587-7175</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>539 North Sunset Ave., Azusa, CA 91702 USA</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Tel#:</td>
+			<td>(909) 597-6841</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:sthyelee@gmail.com">sthyelee@gmail.com</a><br /></td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emilthe@gmail.com">emilthe@gmail.com</a><br /></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>March 1983
+</p>
+<p>
+<img src="/emsi/images/church_LA.jpg\" alt="view church photo gallery" height="250" align="left" hspace="5" width="375" />
+In March 1983, we started a fellowship with just 10 people, led by Pastor Hosea. Six months later, we began our regular Sunday Worship with 29 people in an auditorium which we rented on the campus of Azusa Pacific University. The starting of this early church was under the guidance of the Christian Evangelical Mission, with the founder, Rev. Dr. Moses Yang. God guided our growth during the next eight years in this location until 1991, when we were finally able to purchase this church facility. By the grace of God, this has become the worship home of several hundred church members. We have grown and are still growing to become a bigger family in Christ. 
+</p>
+<p>
+We believe solely in the Bible, the infallible Word based on the Divine Trinity, God the Father, the Son, and the Holy Spirit. We believe in teaching the Bible, to win back the lost souls to God through evangelism. We also believe that the church is the God chosen institution where spiritual nurture and edification take place. 
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'losangeles')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">主任牧師:</td>
+			<td>何少民 牧師, (909) 636-4193</td>
+		</tr>
+		<tr>
+			<td class=\"label\">副牧師:</td>
+			<td>Rev. Steve Lee, (714) 496-3244</td>
+		</tr>
+		<tr>
+			<td class=\"label\">助理牧師:</td>
+			<td>郑扬庆 傳道, (651) 587-7175</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td>539 North Sunset Ave., Azusa, CA 91702 USA</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電話:</td>
+			<td> (909) 597-6841</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto: sthyelee@gmail.com"> sthyelee@gmail.com</a></td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:emilthe@gmail.com">emilthe@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<b>成立日期:</b>1983年 9月 12日 
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/images/church_LA.jpg\" align=\"left\" height=\"255\" width=\"360\" />
+看到很多來自印尼的華僑在美國深造，我們心中很有負擔。經過了一段短時間的禱告，再加上國際福音佈道神學院楊摩西牧師之支持，我們於一九八三年三月開始了十人的禱告查經班。神繼續不斷地帶領，經過了六個月的查經班籌備，一九八三年九月十二日，洛杉磯生命堂就正式成立，並舉行首次的主日崇拜聚會。感謝主，神把得救的人數加添給我們，經過了多年的栽培，有些信徒靈性長進，他們也開始學習事奉神，並且願意與神的僕人們合作同心事奉，實在感謝神奇妙的帶領。一九八五年，教會同工們開始籌備建堂工作，經歷了多年的奮鬥、勞苦與同心的禱告，於一九九一年，神果然奇妙地開路，為我們預備了一間超乎我們所求所想的禮拜堂。非常感謝神，神恩浩大，神的名是應當稱頌的。詩人說：「若不是耶和華建造房屋，建造的人就枉然勞力；若不是耶和華看守城池，看守的人就枉然儆醒。」（詩一二七1）這話是真實的。洛杉磯生命堂於一九九一年九月就搬遷到新址教會。
+</p>
+<p>
+近十年來，神豐盛的恩典常足夠我們用，每時每刻看到神不斷地帶領與供應一切，現今教會人數已增至二百人，我們在主裡所做的工不是徒然的。聖經上說：「流淚撒種的，必歡呼收割。」（詩一二六5）願一切榮耀歸給神。
+</p>
+
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'losangeles')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+
+
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Senior Pastor: </b>Rev. Kristianto Hosea, (909) 636-4193
+</p>
+<p>
+<b>Associate Pastor: </b>Rev. Steve Lee, (714) 496-3244
+</p>
+<p>
+<b>Assistant Pastor: </b>Ev. Emil Zheng, (651) 587-7175
+</p>
+<p>
+<b>Address: </b>539 North Sunset Ave., Azusa, CA 91702 USA
+</p>
+<p>
+<b>Tel #: </b>(909) 597-6841
+</p>
+<p>
+<b>Email: </b>sthyelee@gmail.com
+</p>
+<p>
+<b>Email: </b>emilthe@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.588404609751!2d-117.91395288490556!3d34.13128548058451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c3279293a5ece3%3A0xe3321d6fafea381e!2s539%20N%20Sunset%20Ave%2C%20Azusa%2C%20CA%2091702!5e0!3m2!1sen!2sus!4v1665623341559!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'losangeles')
+	and locale = 'en'
+	and page_id = 'contactus';
+
+
+
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>主任牧師:</b> 何少民 牧師, (909) 636-4193
+</p>
+<p>
+<b>副牧師:</b> Rev. Steve Lee, (714) 496-3244
+</p>
+<p>
+<b>助理牧師:</b> 郑扬庆 傳道, (651) 587-7175
+</p>
+<p>
+<b>地址: </b>539 North Sunset Ave., Azusa, CA 91702 USA
+</p>
+<p>
+<b>電話:</b> (909) 597-6841
+</p>
+<p>
+<b>電郵: </b>sthyelee@gmail.com
+</p>
+<p>
+<b>電郵: </b>emilthe@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3302.588404609751!2d-117.91395288490556!3d34.13128548058451!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c3279293a5ece3%3A0xe3321d6fafea381e!2s539%20N%20Sunset%20Ave%2C%20Azusa%2C%20CA%2091702!5e0!3m2!1sen!2sus!4v1665623341559!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'losangeles')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
 
 update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
 
@@ -3428,7 +3636,7 @@ p span.label {font-weight: bold;}
 			<td>Rev. Timotius Tjing, (510)972-0473</td>
 		</tr>
 		<tr>
-			<td class="label">Evangelist:</td>
+			<td class="label">Assistant Pastor:</td>
 			<td>Ev. Glenn Sebastian, (510)219-1894</td>
 		</tr>
 	</tbody>
@@ -3498,7 +3706,7 @@ p span.label {font-weight: bold;}
 			<td>莊恭進 牧師, (510)972-0473</td>
 		</tr>
 		<tr>
-			<td class=\"label\">傳道:</td>
+			<td class=\"label\">助理牧師:</td>
 			<td>Glenn Sebastian 傳道, (510)219-1894</td>
 		</tr>
 	</tbody>
@@ -3563,7 +3771,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. Timotius Tjing, (510)972-0473
 </p>
 <p>
-<b>Evangelist: </b>Ev. Glenn Sebastian, (510)219-1894
+<b>Assistant Pastor: </b>Ev. Glenn Sebastian, (510)219-1894
 </p>
 <p>
 <b>Address: </b>191 E Gish Road, San Jose, CA 95112-4704 USA
@@ -3594,7 +3802,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師:</b> 莊恭進 牧師, (510)972-0473
 </p>
 <p>
-<b>傳道:</b> Glenn Sebastian 傳道, (510)219-1894
+<b>助理牧師:</b> Glenn Sebastian 傳道, (510)219-1894
 </p>
 <p>
 <b>地址: </b>191 E Gish Road, San Jose, CA 95112-4704 USA
