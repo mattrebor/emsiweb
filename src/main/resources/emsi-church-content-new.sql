@@ -3636,7 +3636,7 @@ p span.label {font-weight: bold;}
 			<td>Rev. Timotius Tjing, (510)972-0473</td>
 		</tr>
 		<tr>
-			<td class="label">Assistant Pastor:</td>
+			<td class="label">Evangelist:</td>
 			<td>Ev. Glenn Sebastian, (510)219-1894</td>
 		</tr>
 	</tbody>
@@ -3706,7 +3706,7 @@ p span.label {font-weight: bold;}
 			<td>莊恭進 牧師, (510)972-0473</td>
 		</tr>
 		<tr>
-			<td class=\"label\">助理牧師:</td>
+			<td class=\"label\">傳道:</td>
 			<td>Glenn Sebastian 傳道, (510)219-1894</td>
 		</tr>
 	</tbody>
@@ -3771,7 +3771,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. Timotius Tjing, (510)972-0473
 </p>
 <p>
-<b>Assistant Pastor: </b>Ev. Glenn Sebastian, (510)219-1894
+<b>Evangelist: </b>Ev. Glenn Sebastian, (510)219-1894
 </p>
 <p>
 <b>Address: </b>191 E Gish Road, San Jose, CA 95112-4704 USA
@@ -3802,7 +3802,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師:</b> 莊恭進 牧師, (510)972-0473
 </p>
 <p>
-<b>助理牧師:</b> Glenn Sebastian 傳道, (510)219-1894
+<b>傳道:</b> Glenn Sebastian 傳道, (510)219-1894
 </p>
 <p>
 <b>地址: </b>191 E Gish Road, San Jose, CA 95112-4704 USA
@@ -10791,6 +10791,113 @@ Christian Evangelical Mission Church in Towaco
 ')	where church_id = (select church_id from church where church_path = 'towaco')
 	and locale = 'en'
 	and page_id = 'contactus';
+
+update church_content set body = '<table border="1" cellpadding="5">
+    <b>Ministries and Fellowships </b>
+	<tbody>
+		<tr>
+			<td>Sunday Worship Service</td>
+			<td>Sunday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>Children&#39; s  Sunday School</td>
+			<td>Sunday</td>
+			<td>10:00 am</td>
+		</tr>
+		<tr>
+			<td>Mandarin Wednesday Bible Study<br>
+			(Led by Pastor Moses)</td>
+			<td>Wednesday</td>
+			<td>08:00 pm</td>
+		</tr>
+		<tr>
+			<td>Friday Night Fellowship <br>
+			(Youth 13 - 18 years old)</td>
+			<td>Friday</td>
+			<td>08:00 pm</td>
+		</tr>
+		<tr>
+			<td>Young Adult Fellowship <br>
+			(College Students)</td>
+			<td>Friday</td>
+			<td>08:00 pm</td>
+		</tr>
+		<tr>
+			<td>Joy<br>
+			(Post College)</td>
+			<td>Friday</td>
+			<td>08:00 pm</td>
+		</tr>
+		<tr>
+			<td>Adult Friday Night Fellowship
+			<br> (AFNF) </td>
+			<td>Friday</td>
+			<td>08:00pm</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'towaco')
+	and locale = 'en'
+	and page_id = 'schedule';
+
+
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>主日崇拜 </td>
+			<td>星期日上午</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>兒童主日學  </td>
+			<td>星期日上午</td>
+			<td>10:00 am</td>
+		</tr>
+		<tr>
+			<td>國語查經禱告會<br>
+			(楊摩西牧師帶領)</td>
+			<td>星期三晚上</td>
+			<td>07:30 pm</td>
+		</tr>
+		<tr>
+			<td>少年團契
+			<br>(十三 至 十八歲少年) </td>
+			<td>星期五晚上</td>
+			<td>08:00 pm</td>
+		</tr>
+		<tr>
+			<td>青年團契
+			<br> (十八歲至二十四歲青年)</td>
+			<td>星期五晚上</td>
+			<td>08:00 pm</td>
+		</tr>
+		<tr>
+			<td>喜樂團契
+			<br> (二十四歲以上青年)</td>
+			<td>星期五晚上</td>
+			<td>08:00 pm</td>
+		</tr>
+		<tr>
+			<td>成人英語團契
+			<br> (網上查經)</td>
+			<td>星期五晚上</td>
+			<td>8:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+'	where church_id = (select church_id from church where church_path = 'towaco')
+	and locale = 'zh'
+	and page_id = 'schedule';
+
+
+
+
 
 -----------------  end USA - Towaco
 
