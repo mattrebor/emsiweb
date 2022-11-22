@@ -7854,6 +7854,14 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 			<td class="label">Pastor:</td>
 			<td>Rev. Chi Fan Chung</td>
 		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Wingkit Chan, +31-(0)64-325-4718 </td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Donna Chan, +31-(0)64-325-4717</td>
+		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -7915,6 +7923,14 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\">牧師:</td>
 			<td>鍾志勳 牧師</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>陳永傑傳道，+31-(0)64-325-4718</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>廖美恩傳道，+31-(0)64-325-4717</td>
 		</tr>
 	</tbody>
 </table>
