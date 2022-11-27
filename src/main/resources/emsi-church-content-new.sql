@@ -1108,7 +1108,7 @@ p span.label {font-weight: bold;}
 			<td>Rev. Steve Lee, (714) 496-3244</td>
 		</tr>
 		<tr>
-			<td class="label">Assistant Pastor:</td>
+			<td class="label">Evangelist:</td>
 			<td>Ev. Emil Zheng, (651) 587-7175</td>
 		</tr>
 	</tbody>
@@ -1179,7 +1179,7 @@ p span.label {font-weight: bold;}
 			<td>Rev. Steve Lee, (714) 496-3244</td>
 		</tr>
 		<tr>
-			<td class=\"label\">助理牧師:</td>
+			<td class=\"label\">傳道:</td>
 			<td>郑扬庆 傳道, (651) 587-7175</td>
 		</tr>
 	</tbody>
@@ -1242,7 +1242,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Associate Pastor: </b>Rev. Steve Lee, (714) 496-3244
 </p>
 <p>
-<b>Assistant Pastor: </b>Ev. Emil Zheng, (651) 587-7175
+<b>Evangelist: </b>Ev. Emil Zheng, (651) 587-7175
 </p>
 <p>
 <b>Address: </b>539 North Sunset Ave., Azusa, CA 91702 USA
@@ -1273,7 +1273,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>副牧師:</b> Rev. Steve Lee, (714) 496-3244
 </p>
 <p>
-<b>助理牧師:</b> 郑扬庆 傳道, (651) 587-7175
+<b>傳道:</b> 郑扬庆 傳道, (651) 587-7175
 </p>
 <p>
 <b>地址: </b>539 North Sunset Ave., Azusa, CA 91702 USA
