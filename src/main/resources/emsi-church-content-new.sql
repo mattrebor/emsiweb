@@ -46,7 +46,7 @@ update church set address='Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherland
 update church set address='Calle Carolinas, 10, 28039 Madrid, Spain', latitude = 40.4512378, longitude = -3.7048897 where church_path = 'madrid';
 update church set address='Calle Brasil 73, Valencia 46018, Spain', latitude = 39.47280, longitude = -0.40080 where church_path = 'valencia';
 update church set address='Avda. Europa 25, Local-9, 03503 Benidorm Alicante ', latitude = 38.542950192104264, longitude = -0.12028468755987111 where church_path = 'benidorm';
-update church set address='C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain', latitude = 38.339698, longitude = -0.489878 where church_path = 'alicante';
+update church set address='Rigoberto Ferrer 18, 03006 Alicante, Spain, Spain', latitude = 38.343951413922, longitude = -0.49827673122162464 where church_path = 'alicante';
 update church set address='Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain', latitude = 28.134365, longitude = -15.432344 where church_path = 'canaria';
 update church set address='Calle Alguacil, 8, 28038 Madrid, Spain', latitude = 40.3960213, longitude = -3.6630519 where church_path = 'southmadrid';
 update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', latitude = 41.3709592, longitude = 2.1374551 where church_path = 'barcelona';
@@ -9062,6 +9062,10 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 			<td class="label"></td>
 			<td>Ev. Na Li, +34-640-292-666</td>
 		</tr>
+		<tr>
+			<td class="label"></td>
+			<td>Ev. Jenny Jiang, +34-651-771-102</td>
+		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -9070,7 +9074,7 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain</td>
+			<td>Rigoberto Ferrer 18, 03006 Alicante, Spain</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -9121,6 +9125,10 @@ p span.label {font-weight: bold;}
 			<td class=\"label\"></td>
 			<td>李娜 傳道, +34-640-292-666</td>
 		</tr>
+		<tr>
+			<td class=\"label\"></td>
+			<td>蔣凌芳 傳道，+34-651-771-102</td>
+		</tr>
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -9129,7 +9137,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain</td>
+			<td>Rigoberto Ferrer 18, 03006 Alicante, Spain</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -9172,14 +9180,16 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p style="padding-left: 55px;">Na Li, +34-640-292-666
 </p>
+<p style="padding-left: 55px;">Jenny Jiang, +34-651-771-102
+</p>
 <p>
-<b>Address: </b>C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain
+<b>Address: </b>Rigoberto Ferrer 18, 03006 Alicante, Spain
 </p>
 <p>
 <b>Tel #: </b>34-965-123-563
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100150.39507217969!2d-0.53903!3d38.332781!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd62364b06f6ecf1%3A0x5d92193cef4f2137!2sCarrer+Pintor+Aparicio%2C+10%2C+03003+Alacant%2C+Alicante%2C+Spain!5e0!3m2!1sen!2sus!4v1493602921810" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.2229724060794!2d-0.5004546853825683!3d38.34382098698975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd62364590a46c9f%3A0x9b466eda206f1d0e!2sC.%20Rigoberto%20Ferrer%2C%2018%2C%2003006%20Alicante%20(Alacant)%2C%20Alicante%2C%20Spain!5e0!3m2!1sen!2sus!4v1670639696032!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'alicante')
 	and locale = 'en'
@@ -9193,15 +9203,18 @@ update church_content set body = STRINGDECODE('<p>
 <p style="padding-left: 40px;">
 李娜 傳道, +34-640-292-666
 </p>
+<p style="padding-left: 40px;">
+蔣凌芳 傳道, +34-651-771-102
+</p>
 <p>
-<b>地址: </b>C / Pintor Aparicio, 9, Local-IZ 03003 Alicante, Spain
+<b>地址: </b>Rigoberto Ferrer 18, 03006 Alicante, Spain
 </p>
 <p>
 <b>電話:</b> 34-965-123-563
 </p>
 
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d100150.39507217969!2d-0.53903!3d38.332781!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd62364b06f6ecf1%3A0x5d92193cef4f2137!2sCarrer+Pintor+Aparicio%2C+10%2C+03003+Alacant%2C+Alicante%2C+Spain!5e0!3m2!1sen!2sus!4v1493602921810" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.2229724060794!2d-0.5004546853825683!3d38.34382098698975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd62364590a46c9f%3A0x9b466eda206f1d0e!2sC.%20Rigoberto%20Ferrer%2C%2018%2C%2003006%20Alicante%20(Alacant)%2C%20Alicante%2C%20Spain!5e0!3m2!1sen!2sus!4v1670639696032!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'alicante')
 	and locale = 'zh'
