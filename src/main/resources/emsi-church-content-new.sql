@@ -5719,7 +5719,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>April 11, 2011
 </p>
 <p>
-<img src="/emsi/files/Budapest_small_2019.jpg" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />On October 18, 2010, Christian Evangelical Mission International sent Ev. Angela Chen as a missionary to Budapest, Hungary. After six months of labor, CEMC in Budapest was established. It became the 47th CEM church by Evangelical Mission and Seminary International under the leadership of Rev. Moses Yang as well as the 28th CEM church by CEMI in Europe.
+<img src="/emsi/files/Church-Budapest-2-2023.JPG" style="width: 466px; height: 282px" height="480" align="left" hspace="5" width="640" />On October 18, 2010, Christian Evangelical Mission International sent Ev. Angela Chen as a missionary to Budapest, Hungary. After six months of labor, CEMC in Budapest was established. It became the 47th CEM church by Evangelical Mission and Seminary International under the leadership of Rev. Moses Yang as well as the 28th CEM church by CEMI in Europe.
 </p>
 
 <p>
@@ -5783,10 +5783,10 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/Budapest_small_2019.jpg\" align=\"left\" height=\"255\" width=\"360\" />2010年10月18日陳寶珩傳道受美國國際神學福音佈道會差派，來到匈牙利布達佩斯開始新工場的開拓。經過六個多月耕耘撒種的前期工作，總會決定正式成立布達佩斯基督教生命堂。這是由楊摩西牧師領導下的美國國際神學福音佈道會屬下的第47間生命堂，也是歐洲分會的第28間生命堂。
+<img hspace=\"5\" src=\"/emsi/files/Church-Budapest-2-2023.JPG\" align=\"left\" height=\"255\" width=\"360\" />2010年10月18日陳寶珩傳道受美國國際神學福音佈道會差派，來到匈牙利布達佩斯開始新工場的開拓。經過六個多月耕耘撒種的前期工作，總會決定正式成立布達佩斯基督教生命堂。這是由楊摩西牧師領導下的美國國際神學福音佈道會屬下的第47間生命堂，也是歐洲分會的第28間生命堂。
 </p>
 <p>
-2015年十一月，翟廣奇傳道接下陳寶珩傳道在此的事奉。2017年五月，謝敏惠傳道讀神學從美國回到布達佩斯，與翟傳道同工，一同事奉教會。2020年翟傳道回到美國服事，布達佩斯生命堂由謝敏惠傳道負責。願主帶領，讓布達佩斯生命堂在穩定中不斷地成長2015年十一月，翟廣奇傳道接下陳寶珩傳道在此的事奉。2017年五月，謝敏惠傳道讀神學從美國回到布達佩斯，與翟傳道同工，一同事奉教會。2020年翟傳道回到美國服事，布達佩斯生命堂由謝敏惠傳道負責。願主帶領，讓布達佩斯生命堂在穩定中不斷地成長。
+2015年十一月，翟廣奇傳道接下陳寶珩傳道在此的事奉。2017年五月，謝敏惠傳道讀神學從美國回到布達佩斯，與翟傳道同工，一同事奉教會。2020年翟傳道回到美國服事，布達佩斯生命堂由謝敏惠傳道負責。願主帶領，讓布達佩斯生命堂在穩定中不斷地成長。
 </p>
 
 
