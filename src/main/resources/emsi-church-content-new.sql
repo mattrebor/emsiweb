@@ -6952,11 +6952,11 @@ p span.label {font-weight: bold;}
 			<td>Rev. Hugo K. Y. Chan (+31-(0)64-009-4225)</td>
 		</tr>
 		<tr>
-			<td class=\"label\">Evangelists:</td>
+			<td class="label">Evangelists:</td>
 			<td>Ev. Chun Yu Lau (+31-(0)61-357-4829)</td>
 		</tr>
 		<tr>
-			<td class=\"label\"></td>
+			<td class="label"></td>
 			<td>Ev. Chandice Lau-Lee (+31-(0)62-884-7813)</td>
 		</tr>
 	</tbody>
@@ -7064,20 +7064,18 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Senior Pastor: </b>Rev. Hugo K. Y. Chan (+31-(0)64-009-4225)
-</p>
+<b>Senior Pastor: </b>Rev. Hugo K. Y. Chan (+31-(0)64-009-4225) </p>
 <p>
 <b>Evangelists: </b>
 <p style="padding-left: 55px;">
 Ev. Chun Yu Lau (+31-(0)61-357-4829)</p>
 <p style="padding-left: 55px;">
 Ev. Chandice Lau-Lee (+31-(0)62-884-7813)</p>
+
 <p>
-<b>Address: </b>Isingstraat 165 A, 2522 JS Den Haag, The Netherlands
-</p>
+<b>Address: </b>Isingstraat 165 A, 2522 JS Den Haag, The Netherlands </p>
 <p>
-<b>Tel #: </b>+31-(0)70-388-1785
-</p>
+<b>Tel #: </b>+31-(0)70-388-1785 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.005193968731!2d4.321356179334377!3d52.06142907796436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b6e6633f2af7%3A0x3e004e8674e999f2!2sIsingstraat%20165A%2C%202522%20JS%20Den%20Haag%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1631932192900!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </p>
@@ -7089,21 +7087,19 @@ Ev. Chandice Lau-Lee (+31-(0)62-884-7813)</p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>主任牧師:</b> 陳啟猷 牧師 (+31-(0)64-009-4225)
-</p>
+<b>主任牧師:</b> 陳啟猷 牧師 (+31-(0)64-009-4225) </p>
 <p>
 <b>傳道: </b>
 <p style="padding-left: 40px;">
-劉震宇 傳道 (+31-(0)61-357-4829)</p>
+劉震宇 傳道 (+31-(0)61-357-4829) </p>
 <p style="padding-left: 40px;">
-劉李嘉欣 傳道 (+31-(0)62-884-7813)</p>
-<p>
-<b>地址: </b>Isingstraat 165 A, 2522 JS Den Haag, The Netherlands
-</p>
-<p>
-<b>電話:</b>+31-(0)70-388-1785
-</p>
+劉李嘉欣 傳道 (+31-(0)62-884-7813) </p>
 
+
+<p>
+<b>地址: </b>Isingstraat 165 A, 2522 JS Den Haag, The Netherlands </p>
+<p>
+<b>電話:</b>+31-(0)70-388-1785 </p>
 
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.005193968731!2d4.321356179334377!3d52.06142907796436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b6e6633f2af7%3A0x3e004e8674e999f2!2sIsingstraat%20165A%2C%202522%20JS%20Den%20Haag%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1631932192900!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
@@ -13900,18 +13896,21 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelists: </td>
+			<td class="label">Mission: </td>
+			<td>Rev. Tze Hoi Mui (+31-(0)62-879-0131)</td>
+		</tr>
+		<tr>
+			<td class="label">Mandarin Language: </td>
 			<td>Ev. Tao Wang (+31-(0)61-749-3457)</td>
 		</tr>
 		<tr>
-			<td class="label"></td>
-			<td>Ev. Songlin Hu (+31-(0)64-881-5977)</td>
+			<td class="label">Dutch Language: </td>
+			<td>Ev. Yan Chow Chan (+31-(0)63-440-0330)</td>
 		</tr>
 		<tr>
-			<td class="label"></td>
-			<td>Ev. Yen Chow Chan (+31-(0)63-440-0330)</td>
+			<td class="label">Evangelist: </td>
+			<td>Ev. Songlin Hu (+31-(0)64-881-5977)</td>
 		</tr>
-
 	</tbody>
 </table>
 
@@ -13971,18 +13970,22 @@ p span.label {font-weight: bold;}
 <div style="color: #000000; font-size: small">
 <table cellpadding="0" cellspacing="0">
 	<tbody class="borderless-table">
-			<tr>
-				<td class="label">傳道: </td>
-				<td>王濤 傳道 (+31-(0)61-749-3457)</td>
-			</tr>
-			<tr>
-				<td class="label"></td>
-				<td>胡松林 傳道 (+31-(0)64-881-5977)</td>
-			</tr>
-			<tr>
-				<td class="label"></td>
-				<td>陳遠洲 傳道 (+31-(0)63-440-0330)</td>
-			</tr>
+		<tr>
+			<td class="label">佈道會: </td>
+			<td>梅子開 牧師 (+31-(0)62-879-0131)</td>
+		</tr>
+		<tr>
+			<td class="label">普通話傳道: </td>
+			<td>王濤 傳道 (+31-(0)61-749-3457)</td>
+		</tr>
+		<tr>
+			<td class="label">荷語傳道: </td>
+			<td>陳遠洲 傳道 (+31-(0)63 -440-0330)</td>
+		</tr>
+		<tr>
+			<td class="label">傳道: </td>
+			<td>胡松林 傳道 (+31-(0)64-881-5977)</td>
+		</tr>
 	</tbody>
 </table>
 &nbsp;
@@ -14106,14 +14109,15 @@ update church_content set body = STRINGDECODE('
 <style>
 .indentation {margin:20px;}
 </style>
+
 <p>
-<b>Evangelists: </b>
-<p style="padding-left: 55px;">
-Ev. Tao Wang (+31-(0)61-749-3457)</p>
-<p style="padding-left: 55px;">
-Ev. Songlin Hu (+31-(0)64-881-5977)</p>
-</p><p style="padding-left: 55px;">
-Ev. Yen Chow Chan (+31-(0)63-440-0330)</p>
+<b>Mission: </b>Rev. Tze Hoi Mui (+31-(0)62-879-0131)</p>
+<p>
+<b>Mandarin Language: </b>Ev. Tao Wang (+31-(0)61-749-3457)</p>
+<p>
+<b>Dutch Language: </b>Ev. Yan Chow Chan (+31-(0)63-440-0330)</p>
+<p>
+<b>Evangelist: </b>Ev. Songlin Hu (+31-(0)64-881-5977)</p>
 
 <p>
 <b>Address: </b>Oranjelaan 62, 2281 GG Rijswijk, The Netherlands
@@ -14130,15 +14134,13 @@ Ev. Yen Chow Chan (+31-(0)63-440-0330)</p>
 
 update church_content set body = STRINGDECODE('
 <p>
-<b>傳道:</b> 王濤 傳道 (+31-(0)61-749-3457)
-</p>
-<p style="padding-left: 40px;">
-胡松林 傳道 (+31-(0)64-881-5977)
-</p>
-<p style="padding-left: 40px;">
-陳遠洲 傳道 (+31-(0)63-440-0330)
-</p>
-
+<b>佈道會:</b> 梅子開 牧師 (+31-(0)62-879-0131) </p>
+<p>
+<b>普通話傳道:</b> 王濤 傳道 (+31-(0)61-749-3457) </p>
+<p>
+<b>荷語傳道:</b> 陳遠洲 傳道 (+31-(0)63 -440-0330) </p>
+<p>
+<b>傳道:</b> 胡松林 傳道 (+31-(0)64-881-5977)</p>
 <b>地 址: </b>Oranjelaan 62, 2281 GG Rijswijk, The Netherlands
 </p>
 <p>
