@@ -13896,10 +13896,6 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Mission: </td>
-			<td>Rev. Tze Hoi Mui (+31-(0)62-879-0131)</td>
-		</tr>
-		<tr>
 			<td class="label">Mandarin Language: </td>
 			<td>Ev. Tao Wang (+31-(0)61-749-3457)</td>
 		</tr>
@@ -13970,10 +13966,6 @@ p span.label {font-weight: bold;}
 <div style="color: #000000; font-size: small">
 <table cellpadding="0" cellspacing="0">
 	<tbody class="borderless-table">
-		<tr>
-			<td class="label">佈道會: </td>
-			<td>梅子開 牧師 (+31-(0)62-879-0131)</td>
-		</tr>
 		<tr>
 			<td class="label">普通話傳道: </td>
 			<td>王濤 傳道 (+31-(0)61-749-3457)</td>
@@ -14111,8 +14103,6 @@ update church_content set body = STRINGDECODE('
 </style>
 
 <p>
-<b>Mission: </b>Rev. Tze Hoi Mui (+31-(0)62-879-0131)</p>
-<p>
 <b>Mandarin Language: </b>Ev. Tao Wang (+31-(0)61-749-3457)</p>
 <p>
 <b>Dutch Language: </b>Ev. Yan Chow Chan (+31-(0)63-440-0330)</p>
@@ -14133,8 +14123,6 @@ update church_content set body = STRINGDECODE('
 	and page_id = 'contactus';
 
 update church_content set body = STRINGDECODE('
-<p>
-<b>佈道會:</b> 梅子開 牧師 (+31-(0)62-879-0131) </p>
 <p>
 <b>普通話傳道:</b> 王濤 傳道 (+31-(0)61-749-3457) </p>
 <p>
