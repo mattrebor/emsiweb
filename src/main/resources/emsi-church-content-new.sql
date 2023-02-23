@@ -13900,12 +13900,12 @@ p span.label {font-weight: bold;}
 			<td>Ev. Tao Wang (+31-(0)61-749-3457)</td>
 		</tr>
 		<tr>
-			<td class="label">Dutch Language: </td>
-			<td>Ev. Yan Chow Chan (+31-(0)63-440-0330)</td>
+			<td class="label">Mandarin Language: </td>
+			<td>Ev. Songlin Hu (+31-(0)64-881-5977)</td>
 		</tr>
 		<tr>
-			<td class="label">Evangelist: </td>
-			<td>Ev. Songlin Hu (+31-(0)64-881-5977)</td>
+			<td class="label">Dutch Language: </td>
+			<td>Ev. Yan Chow Chan (+31-(0)63-440-0330)</td>
 		</tr>
 	</tbody>
 </table>
@@ -13971,12 +13971,12 @@ p span.label {font-weight: bold;}
 			<td>王濤 傳道 (+31-(0)61-749-3457)</td>
 		</tr>
 		<tr>
-			<td class="label">荷語傳道: </td>
-			<td>陳遠洲 傳道 (+31-(0)63 -440-0330)</td>
+			<td class="label">普通話傳道: </td>
+			<td>胡松林 傳道 (+31-(0)64-881-5977)</td>
 		</tr>
 		<tr>
-			<td class="label">傳道: </td>
-			<td>胡松林 傳道 (+31-(0)64-881-5977)</td>
+			<td class="label">荷語傳道: </td>
+			<td>陳遠洲 傳道 (+31-(0)63 -440-0330)</td>
 		</tr>
 	</tbody>
 </table>
@@ -14105,9 +14105,9 @@ update church_content set body = STRINGDECODE('
 <p>
 <b>Mandarin Language: </b>Ev. Tao Wang (+31-(0)61-749-3457)</p>
 <p>
-<b>Dutch Language: </b>Ev. Yan Chow Chan (+31-(0)63-440-0330)</p>
+<b>Mandarin Evangelist: </b>Ev. Songlin Hu (+31-(0)64-881-5977)</p>
 <p>
-<b>Evangelist: </b>Ev. Songlin Hu (+31-(0)64-881-5977)</p>
+<b>Dutch Language: </b>Ev. Yan Chow Chan (+31-(0)63-440-0330)</p>
 
 <p>
 <b>Address: </b>Oranjelaan 62, 2281 GG Rijswijk, The Netherlands
@@ -14126,9 +14126,9 @@ update church_content set body = STRINGDECODE('
 <p>
 <b>普通話傳道:</b> 王濤 傳道 (+31-(0)61-749-3457) </p>
 <p>
-<b>荷語傳道:</b> 陳遠洲 傳道 (+31-(0)63 -440-0330) </p>
+<b>普通話傳道:</b> 胡松林 傳道 (+31-(0)64-881-5977)</p>
 <p>
-<b>傳道:</b> 胡松林 傳道 (+31-(0)64-881-5977)</p>
+<b>荷語傳道:</b> 陳遠洲 傳道 (+31-(0)63 -440-0330) </p>
 <b>地 址: </b>Oranjelaan 62, 2281 GG Rijswijk, The Netherlands
 </p>
 <p>
