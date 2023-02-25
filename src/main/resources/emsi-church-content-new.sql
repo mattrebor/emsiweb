@@ -65,7 +65,7 @@ update church set address='Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome
 update church set address='94 Campground Road, Rondebosch, Cape Town 7700, South Africa', latitude = -33.965856, longitude = 18.474988 where church_path = 'capetown';
 
 update church set address='Geograaf 13, Centerpoort-Nieuwgraaf, 6921 EW Duiven, The Netherlands', latitude = 51.96284559999999, longitude = 6.00577570 where church_path = 'arnhem';
-update church set address='Via Stresa, 3, 20125 Milan, Italy', latitude = 45.49278710, longitude = 9.2040530 where church_path = 'milan';
+update church set address='Via Braga 1-20125 Milano Italia', latitude = 45.49282825762779, longitude = 9.206116532844819 where church_path = 'milan';
 --update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prato, Italy', latitude = 43.88184649999999, longitude = 11.09375730 where church_path = 'prato';
 
 ---------------------update Brooklyn - 7th Ave Fuzhou Service intro page
@@ -6633,13 +6633,8 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
-			<td class="label">Office Address:</td>
-			<td>Via Stresa 3, 20125 Milano, Italy</td>
-		</tr>
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
-			<td class="label">Worship Address:</td>
-			<td>Via Melchiorre Gioia 193, Milano, Italy</td>
+			<td class="label">Address:</td>
+			<td>Via Braga 1-20125 Milano, Italia</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -6704,13 +6699,8 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">佈道會地址:</td>
-			<td> Via Stresa 3，20125 Milano, Italy</td>
-		</tr>
-		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">主日崇拜:</td>
-			<td> Via Melchiorre Gioia 193, Milano, Italy </td>
+			<td class=\"label\">地址:</td>
+			<td> Via Braga 1-20125 Milano Italia </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -6745,6 +6735,47 @@ p span.label {font-weight: bold;}
 ')	where church_id = (select church_id from church where church_path = 'milan')
 	and locale = 'zh'
 	and page_id = 'intro';
+
+update church_content set body = STRINGDECODE('
+<style>
+.indentation {margin:20px;}
+</style>
+
+<p>
+<b>Evangelist: </b>Ev. Grace Zheng</p>
+<p>
+<b>Address: </b>Via Braga 1-20125 Milano Italia
+</p>
+<p>
+<b>Tel #: </b> (0039) 02–7862-4031 / Cell: (0039) 331-728-1265
+</p>
+<p>
+<b>Email: </b> gracez.777@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.864274370228!2d9.203933214885312!3d45.49267783956492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6d849af93b1%3A0x989e82cfcfa26079!2sVia%20Gaetano%20Braga%2C%201%2C%2020125%20Milano%20MI%2C%20Italy!5e0!3m2!1sen!2sus!4v1677292688798!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'milan')
+	and locale = 'en'
+	and page_id = 'contactus';
+
+update church_content set body = STRINGDECODE('
+<p>
+<b>傳道:</b> 鄭恩惠 傳道 </p>
+<p>
+<b>地址: </b>Via Braga 1-20125 Milano Italia
+</p>
+<p>
+<b>電話: </b>(0039)02–7862-4031, 手机：(0039) 331-728-1265 
+</p>
+<p>
+<b>電郵:</b> gracez.777@gmail.com  </p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2796.864274370228!2d9.203933214885312!3d45.49267783956492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c6d849af93b1%3A0x989e82cfcfa26079!2sVia%20Gaetano%20Braga%2C%201%2C%2020125%20Milano%20MI%2C%20Italy!5e0!3m2!1sen!2sus!4v1677292688798!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'milan')
+	and locale = 'zh'
+	and page_id = 'contactus';
 
 
 ----------ends Italy - milan
