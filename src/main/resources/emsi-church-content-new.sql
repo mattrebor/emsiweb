@@ -65,7 +65,7 @@ update church set address='Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome
 update church set address='94 Campground Road, Rondebosch, Cape Town 7700, South Africa', latitude = -33.965856, longitude = 18.474988 where church_path = 'capetown';
 
 update church set address='Geograaf 13, Centerpoort-Nieuwgraaf, 6921 EW Duiven, The Netherlands', latitude = 51.96284559999999, longitude = 6.00577570 where church_path = 'arnhem';
-update church set address='Via Braga 1-20125 Milano Italia', latitude = 45.49282825762779, longitude = 9.206116532844819 where church_path = 'milan';
+update church set address='Via Gaetano Braga, 1, 20125 Milano Italia', latitude = 45.49282825762779, longitude = 9.206116532844819 where church_path = 'milan';
 --update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prato, Italy', latitude = 43.88184649999999, longitude = 11.09375730 where church_path = 'prato';
 
 ---------------------update Brooklyn - 7th Ave Fuzhou Service intro page
@@ -6634,7 +6634,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>Via Braga 1-20125 Milano, Italia</td>
+			<td>Via Gaetano Braga, 1, 20125 Milano, Italia</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -6700,7 +6700,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> Via Braga 1-20125 Milano Italia </td>
+			<td> Via Gaetano Braga, 1, 20125 Milano Italia </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -6744,7 +6744,7 @@ update church_content set body = STRINGDECODE('
 <p>
 <b>Evangelist: </b>Ev. Grace Zheng</p>
 <p>
-<b>Address: </b>Via Braga 1-20125 Milano Italia
+<b>Address: </b>Via Gaetano Braga, 1, 20125 Milano Italia
 </p>
 <p>
 <b>Tel #: </b> (0039) 02–7862-4031 / Cell: (0039) 331-728-1265
@@ -6763,7 +6763,7 @@ update church_content set body = STRINGDECODE('
 <p>
 <b>傳道:</b> 鄭恩惠 傳道 </p>
 <p>
-<b>地址: </b>Via Braga 1-20125 Milano Italia
+<b>地址: </b>Via Gaetano Braga, 1, 20125 Milano Italia
 </p>
 <p>
 <b>電話: </b>(0039)02–7862-4031, 手机：(0039) 331-728-1265 
