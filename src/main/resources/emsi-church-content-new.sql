@@ -1796,12 +1796,11 @@ and page_id = 'intro';
 
 
 
-update church_content set body = '<table border="1" cellpadding="5" style= "font-size:10pt;">
-
-Sunday Worship 10:30 PM, 1:30 PM and 6:30 PM<br>
+update church_content set body = '
 The Chinese Service at 10:30 AM is conducted mainly in Cantonese with Mandarin translation.<br>
-The English service at 1:30 PM is solely conducted in English.<br>
-The Fuzhou/Mandarin service at 6:30 PM is conducted mainly in Mandarin.<br><br>
+  The English service at 10:30 AM is solely conducted in English.<br><br>
+
+<table border="1" cellpadding="5" style= "font-size:10pt;">
 	<tbody>
 		<tr>
 			<td>粵語/國語堂崇拜 Cantonese/Mandarin Worship Service</td>
@@ -1811,82 +1810,7 @@ The Fuzhou/Mandarin service at 6:30 PM is conducted mainly in Mandarin.<br><br>
 		<tr>
 			<td>英語堂崇拜 English Worship Service</td>
 			<td>週日下午 Sunday</td>
-			<td>01:30 pm</td>
-		</tr>
-		<tr>
-			<td>福州語/國語堂崇拜 FuZhou/Mandarin Worship Service</td>
-			<td>週日晚上 Sunday</td>
-			<td>06:30 pm</td>
-		</tr>
-		<tr>
-			<td>兒童主日學 Children Sunday School</td>
-			<td>週日下午 Sunday</td>
-			<td>01:00 pm</td>
-		</tr>
-		<tr >
-			<td>詩班 Choir</td>
-			<td>週日上午 Sunday</td>
-			<td>09:30 am</td>
-		</tr>
-		<tr>
-			<td>兒童節目 Children’s Program</td>
-			<td>週日上午 Sunday</td>
 			<td>10:30 am</td>
-		</tr>
-		<tr>
-			<td>兒童詩班 Children’s Choir</td>
-			<td>週日上午 Sunday</td>
-			<td>11:00 am</td>
-		</tr>
-		<tr>
-			<td>青少年團契 Youth Fellowship</td>
-			<td>週日上午 Sunday</td>
-			<td>11:00 am</td>
-		</tr>
-		<tr>
-			<td>粵語/國語查經班 Cantonese/Mandarin Bible Study</td>
-			<td>週日上午 Sunday</td>
-			<td>11:45 am</td>
-		</tr>
-		<tr>
-			<td>兒童團契 Children Fellowship</td>
-			<td>週日中午  Sunday</td>
-			<td>12:30 pm</td>
-		</tr>
-		<tr>
-			<td>中英文查經班 Mandarin/English Bible Study　 </td>
-			<td>每月第三個週日下午 Every 3rd Sunday</td>
-			<td>01:00 pm</td>
-		</tr>
-		<tr>
-			<td>姐妹團契 (英文) Women&#39;s Fellowship (English)</td>
-			<td>每月第二個週日下午 Every 2nd Sunday </td>
-			<td>02:45 pm</td>
-		</tr>
-		<tr>
-			<td>夫婦團契 (英文) Couple’s Fellowship (English)</td>
-			<td>每月第四個週日下午 Every 4th Sunday</td>
-			<td>03:00 pm</td>
-		</tr>
-		<tr>
-			<td>粵語生命團契 Cantonese Gospel Fellowship　 </td>
-			<td>週三上午 Wednesday</td>
-			<td>11:00 am</td>
-		</tr>
-		<tr>
-			<td>國語查經禱告會 Mandarin Prayer Meeting & Bible Study</td>
-			<td>週五上午 Friday</td>
-			<td>11:00 am</td>
-		</tr>
-		<tr>
-			<td>紐約市福音團契 New York City Evangelical Fellowship</td>
-			<td>週五晚上 Friday</td>
-			<td>07:00 pm</td>
-		</tr>
-		<tr>
-			<td>國語查經班 Mandarin Bible Study</td>
-			<td>週六晚上 Saturday</td>
-			<td>06:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -1908,82 +1832,7 @@ update church_content set body = '<table border="1" cellpadding="5" style= "font
 		<tr>
 			<td>英語堂崇拜 English Worship Service</td>
 			<td>週日下午 Sunday</td>
-			<td>01:30 pm</td>
-		</tr>
-		<tr>
-			<td>福州語/國語堂崇拜 FuZhou/Mandarin Worship Service</td>
-			<td>週日晚上 Sunday</td>
-			<td>06:30 pm</td>
-		</tr>
-		<tr>
-			<td>兒童主日學 Children Sunday School</td>
-			<td>週日下午 Sunday</td>
-			<td>01:00 pm</td>
-		</tr>
-		<tr >
-			<td>詩班 Choir</td>
-			<td>週日上午 Sunday</td>
-			<td>09:30 am</td>
-		</tr>
-		<tr>
-			<td>兒童節目 Children’s Program</td>
-			<td>週日上午 Sunday</td>
 			<td>10:30 am</td>
-		</tr>
-		<tr>
-			<td>兒童詩班 Children’s Choir</td>
-			<td>週日上午 Sunday</td>
-			<td>11:00 am</td>
-		</tr>
-		<tr>
-			<td>青少年團契 Youth Fellowship</td>
-			<td>週日上午 Sunday</td>
-			<td>11:00 am</td>
-		</tr>
-		<tr>
-			<td>粵語/國語查經班 Cantonese/Mandarin Bible Study</td>
-			<td>週日上午 Sunday</td>
-			<td>11:45 am</td>
-		</tr>
-		<tr>
-			<td>兒童團契 Children Fellowship</td>
-			<td>週日中午  Sunday</td>
-			<td>12:30 pm</td>
-		</tr>
-		<tr>
-			<td>中英文查經班 Mandarin/English Bible Study　 </td>
-			<td>每月第三個週日下午 Every 3rd Sunday</td>
-			<td>01:00 pm</td>
-		</tr>
-		<tr>
-			<td>姐妹團契 (英文) Women&#39;s Fellowship (English)</td>
-			<td>每月第二個週日下午 Every 2nd Sunday </td>
-			<td>02:45 pm</td>
-		</tr>
-		<tr>
-			<td>夫婦團契 (英文) Couple’s Fellowship (English)</td>
-			<td>每月第四個週日下午 Every 4th Sunday</td>
-			<td>03:00 pm</td>
-		</tr>
-		<tr>
-			<td>粵語生命團契 Cantonese Gospel Fellowship　 </td>
-			<td>週三上午 Wednesday</td>
-			<td>11:00 am</td>
-		</tr>
-		<tr>
-			<td>國語查經禱告會 Mandarin Prayer Meeting & Bible Study</td>
-			<td>週五上午 Friday</td>
-			<td>11:00 am</td>
-		</tr>
-		<tr>
-			<td>紐約市福音團契 New York City Evangelical Fellowship</td>
-			<td>週五晚上 Friday</td>
-			<td>07:00 pm</td>
-		</tr>
-		<tr>
-			<td>國語查經班 Mandarin Bible Study</td>
-			<td>週六晚上 Saturday</td>
-			<td>06:30 pm</td>
 		</tr>
 	</tbody>
 </table>
