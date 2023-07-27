@@ -1809,7 +1809,7 @@ The Chinese Service at 10:30 AM is conducted mainly in Cantonese with Mandarin t
 		</tr>
 		<tr>
 			<td>英語堂崇拜 English Worship Service</td>
-			<td>週日下午 Sunday</td>
+			<td>週日上午 Sunday</td>
 			<td>10:30 am</td>
 		</tr>
 	</tbody>
@@ -1831,7 +1831,7 @@ update church_content set body = '<table border="1" cellpadding="5" style= "font
 		</tr>
 		<tr>
 			<td>英語堂崇拜 English Worship Service</td>
-			<td>週日下午 Sunday</td>
+			<td>週日上午 Sunday</td>
 			<td>10:30 am</td>
 		</tr>
 	</tbody>
@@ -5132,7 +5132,7 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-	<p><span class="label">Established Date: </span>January 13, 2017</p>
+	<p><span class="label">Established Date: </span>November 26, 1988</p>
 <p>
 <img src="/emsi/images/Church_Performing_Artists_2_2022.JPG" alt="view church photo gallery" height="255" align="left" hspace="5" width="360" />
 On January 13, 2017, the former “The New York Performing Artists Fellowship” became the "Performing Artists Gospel Fellowship” after joining EMSI.
@@ -5195,7 +5195,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<b>成立日期:</b> 2017年 1月13日
+<b>成立日期:</b> 1988 年 11 月 26 日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
