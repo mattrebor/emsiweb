@@ -1809,7 +1809,7 @@ The Chinese Service at 10:30 AM is conducted mainly in Cantonese with Mandarin t
 		</tr>
 		<tr>
 			<td>英語堂崇拜 English Worship Service</td>
-			<td>週日下午 Sunday</td>
+			<td>週日上午 Sunday</td>
 			<td>10:30 am</td>
 		</tr>
 	</tbody>
@@ -1831,7 +1831,7 @@ update church_content set body = '<table border="1" cellpadding="5" style= "font
 		</tr>
 		<tr>
 			<td>英語堂崇拜 English Worship Service</td>
-			<td>週日下午 Sunday</td>
+			<td>週日上午 Sunday</td>
 			<td>10:30 am</td>
 		</tr>
 	</tbody>
@@ -5132,7 +5132,7 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-	<p><span class="label">Established Date: </span>January 13, 2017</p>
+	<p><span class="label">Established Date: </span>November 26, 1988</p>
 <p>
 <img src="/emsi/images/Church_Performing_Artists_2_2022.JPG" alt="view church photo gallery" height="255" align="left" hspace="5" width="360" />
 On January 13, 2017, the former “The New York Performing Artists Fellowship” became the "Performing Artists Gospel Fellowship” after joining EMSI.
@@ -5195,7 +5195,7 @@ p span.label {font-weight: bold;}
 
 <div class="main-content">
 <p>
-<b>成立日期:</b> 2017年 1月13日
+<b>成立日期:</b> 1988 年 11 月 26 日
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
@@ -10711,13 +10711,19 @@ update church_content set body = '<table border="1" cellpadding="5">
 			<td>10:00 am</td>
 		</tr>
 		<tr>
-			<td>Mandarin Wednesday Bible Study<br>
-			(Led by Pastor Moses)</td>
-			<td>Wednesday</td>
+			<td>Monday English Bible Study <br>
+			</td>
+			<td>Every 2nd and 4th Monday</td>
 			<td>08:00 pm</td>
 		</tr>
 		<tr>
-			<td>Friday Night Fellowship <br>
+			<td>Wednesday Mandarin Bible Study<br>
+			(Led by Pastor Moses)</td>
+			<td>Wednesday <br> (cancelled temporarily</td>
+			<td>07:30 pm</td>
+		</tr>
+		<tr>
+			<td>Friday Night Youth/Junior Fellowship <br>
 			(Youth 13 - 18 years old)</td>
 			<td>Friday</td>
 			<td>08:00 pm</td>
@@ -10735,9 +10741,9 @@ update church_content set body = '<table border="1" cellpadding="5">
 			<td>08:00 pm</td>
 		</tr>
 		<tr>
-			<td>Adult Friday Night Fellowship
+			<td>Online Adult Friday Night Fellowship
 			<br> (AFNF) </td>
-			<td>Friday</td>
+			<td>Every 2nd and 4th Friday</td>
 			<td>08:00pm</td>
 		</tr>
 
@@ -10763,9 +10769,14 @@ update church_content set body = '<table border="1" cellpadding="5">
 			<td>10:00 am</td>
 		</tr>
 		<tr>
+			<td>英語查經班  </td>
+			<td>每月第二、 第四 週 星期一晚上</td>
+			<td>08:00 pm</td>
+		</tr>
+		<tr>
 			<td>國語查經禱告會<br>
 			(楊摩西牧師帶領)</td>
-			<td>星期三晚上</td>
+			<td>星期三晚上 (暫停)</td>
 			<td>07:30 pm</td>
 		</tr>
 		<tr>
@@ -10789,7 +10800,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 		<tr>
 			<td>成人英語團契
 			<br> (網上查經)</td>
-			<td>星期五晚上</td>
+			<td>每月第二、 第四 週 星期五晚上</td>
 			<td>8:00 pm</td>
 		</tr>
 	</tbody>
