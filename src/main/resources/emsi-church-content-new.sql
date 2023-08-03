@@ -12261,34 +12261,54 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'schedule', 'en', 'CEMC in Oradell - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>New-life Fellowship</td>
-			<td>Sunday</td>
-			<td>1:00pm</td>
-		</tr>
-		<tr>
-			<td>Sunday Worship</td>
-			<td>Sunday</td>
-			<td>2:00pm</td>
-		</tr>
-		<tr>
 			<td>Sunday School </td>
 			<td>Sunday</td>
-			<td>2:00pm</td>
+			<td>2:00 pm</td>
 		</tr>
 		<tr>
-			<td>Bible Study</td>
+			<td>Youth Fellowship</td>
+			<td>Sunday</td>
+			<td>2:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Orchestra</td>
+			<td>Sunday</td>
+			<td>3:30 pm</td>
+		</tr>
+		<tr>
+			<td>Men&#39; s Fellowship</td>
+			<td>1st Sunday of the Month</td>
+			<td>3:30 pm</td>
+		</tr>
+		<tr>
+			<td>Sister&#39; s Fellowship</td>
+			<td>1st Sunday of the Month</td>
+			<td>3:30 pm</td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting (online)</td>
 			<td>Wednesday</td>
-			<td>7:45pm</td>
+			<td>7:00 pm</td>
 		</tr>
 		<tr>
-			<td>Bible Study</td>
+			<td>Bible Study (online)</td>
 			<td>Friday</td>
-			<td>11:00am</td>
+			<td>10:00 am</td>
+		</tr>
+		<tr>
+			<td>New-life Fellowship</td>
+			<td>Sunday</td>
+			<td>Cancelled temporarily</td>
 		</tr>
 		<tr>
 			<td>English Class</td>
 			<td>Friday</td>
-			<td>1:00pm</td>
+			<td>Cancelled temporarily</td>
+		</tr>
+		<tr>
+			<td>Summer Bible School</td>
+			<td>8/28/23 - 9/1/23</td>
+			<td>9:00 am - 3:00 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -12298,34 +12318,54 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'schedule', 'zh', '俄備得基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>新生命團契 </td>
-			<td>星期日 下午</td>
-			<td>1:00pm</td>
-		</tr>
-		<tr>
-			<td>主日崇拜 </td>
-			<td>星期日 下午</td>
-			<td>2:00pm</td>
-		</tr>
-		<tr>
 			<td>兒童主日學 </td>
 			<td>星期日 下午</td>
+			<td>2:00 pm</td>
+		</tr>
+		<tr>
+			<td>青少年團契 </td>
+			<td>星期日 下午</td>
 			<td>2:00pm</td>
 		</tr>
 		<tr>
-			<td>週三查經班</td>
+			<td>少年樂團 </td>
+			<td>星期日 下午</td>
+			<td>3:30 pm</td>
+		</tr>
+		<tr>
+			<td>弟兄團契 </td>
+			<td>每月第一個星期日 下午</td>
+			<td>3:30 pm</td>
+		</tr>
+		<tr>
+			<td>姊妹團契 </td>
+			<td>每月第一個星期日 下午</td>
+			<td>3:30 pm</td>
+		</tr>
+		<tr>
+			<td>週三線上禱告會</td>
 			<td>星期三 晚</td>
-			<td>7:45pm</td>
+			<td>7:00 pm</td>
 		</tr>
 		<tr>
-			<td>週五查經班</td>
-			<td>星期五上午 </td>
-			<td>11:00am</td>
+			<td>週五線上查經班</td>
+			<td>星期五 上午 </td>
+			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td>英文會話課 </td>
-			<td>星期五下午</td>
-			<td>1:00pm</td>
+			<td>新生命團契 </td>
+			<td>星期日 下午</td>
+			<td>暫停</td>
+		</tr>
+		<tr>
+			<td>英語會話 </td>
+			<td>星期五 下午</td>
+			<td>暫停</td>
+		</tr>
+		<tr>
+			<td>暑期聖經學校</td>
+			<td>8/28/23 -9/1/23 </td>
+			<td>9:00  am – 3:00 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -12672,8 +12712,8 @@ p span.label {font-weight: bold;}
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
-				<td class="label">Email:</td>
-				<td></td>
+				<td class="label">Email: </td>
+				<td>ecmsisiny@gmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -12728,7 +12768,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td></td>
+				<td>ecmsisiny@gmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -12786,6 +12826,9 @@ Mrs. Chialin Chi, (C) 973-932-3534</p>
 <b>Tel #: </b> 646-979-0107
 </p>
 <p>
+<b>Email: </b> ecmsisiny@gmail.com
+</p>
+<p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3031.9734245411933!2d-74.16676565029083!3d40.54217627924937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24a535c7f445d%3A0x5613df9f7a2b2cba!2s4550+Amboy+Rd%2C+Staten+Island%2C+NY+10312!5e0!3m2!1sen!2sus!4v1560827263863!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 ')	where church_id = (select church_id from church where church_path = 'statenIsland')
 	and locale = 'en'
@@ -12797,11 +12840,14 @@ update church_content set body = STRINGDECODE('<p>
 <p style="padding-left: 40px;">
 戚陳佳琳 師母, (手機) 973-932-3534</p>
 <p>
-<b>地 址: </b>4550 Amboy Road, Staten Island, NY 10312, USA
+<b>地址: </b>4550 Amboy Road, Staten Island, NY 10312, USA
 <br/>(Bethal Evangelical Free Church)
 </p>
 <p>
-<b>電 話: </b>646-979-0107
+<b>電話: </b>646-979-0107
+</p>
+<p>
+<b>電郵: </b>ecmsisiny@gmail.com
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3031.9734245411933!2d-74.16676565029083!3d40.54217627924937!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24a535c7f445d%3A0x5613df9f7a2b2cba!2s4550+Amboy+Rd%2C+Staten+Island%2C+NY+10312!5e0!3m2!1sen!2sus!4v1560827263863!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
