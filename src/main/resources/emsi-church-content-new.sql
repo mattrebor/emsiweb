@@ -11247,44 +11247,29 @@ p span.label {font-weight: bold;}
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>Worship Service</td>
-			<td>Sunday</td>
-			<td>10:30 am</td>
-		</tr>
-		<tr>
 			<td>Sunday School(Youth & Children)</td>
 			<td>Sunday</td>
-			<td>10:30 am</td>
+			<td>10:00 am</td>
 		</tr>
 		<tr>
-			<td>Restaurant Bible Study</td>
-			<td>Monday</td>
-			<td>10:30 am</td>
-		</tr>
-		<tr>
-			<td>English Bible Study/Church Prayer Meeting</td>
+			<td>Christian Service Brigade</td>
 			<td>Friday</td>
 			<td>8:00 pm</td>
 		</tr>
 		<tr>
-			<td>Youth / Junior Fellowship</td>
-			<td>Friday</td>
-			<td>8:00 pm</td>
+			<td>Youth and College Fellowship</td>
+			<td>Sunday</td>
+			<td>12:00 pm</td>
 		</tr>
 		<tr>
 			<td>Chinese Bible Study</td>
 			<td>Every 1st, 3rd Saturday</td>
-			<td>11:00 am</td>
+			<td>10:00 am</td>
 		</tr>
 		<tr>
-			<td>Men&#39; s Fellowship</td>
-			<td>Every 2nd Saturday</td>
-			<td>10:30 am</td>
-		</tr>
-		<tr>
-			<td>Women&#39; s Fellowship</td>
-			<td>Every 2nd Saturday</td>
-			<td>10:30 am</td>
+			<td>English Fellowship</td>
+			<td>Once a month on Sunday</td>
+			<td>12:00 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -11298,44 +11283,24 @@ update church_content set body = '<table border="1" cellpadding="5">
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>主日崇拜</td>
-			<td>星期日上午</td>
-			<td>10:30 am</td>
-		</tr>
-		<tr>
 			<td>主日學(青少年與兒童)</td>
 			<td>星期日上午</td>
-			<td>10:30 am</td>
-		</tr>
-		<tr>
-			<td>餐館查經</td>
-			<td>星期一上午</td>
-			<td>10:30 am</td>
-		</tr>
-		<tr>
-			<td>英文查經 /禱告會</td>
-			<td>星期五晚上</td>
-			<td>8:00 pm</td>
+			<td>10:00 am</td>
 		</tr>
 		<tr>
 			<td>青年 , 少年團契</td>
-			<td>星期五晚上</td>
-			<td>8:00 pm</td>
+			<td>星期日 下午</td>
+			<td>12:00 pm</td>
 		</tr>
 		<tr>
 			<td>中文查經</td>
 			<td>每月第一，第三 星期六上午</td>
-			<td>11:00 am</td>
+			<td>10:00 am</td>
 		</tr>
 		<tr>
-			<td>弟兄團契</td>
-			<td>每月第二星期六上午</td>
-			<td>10:30 am</td>
-		</tr>
-		<tr>
-			<td>姊妹團契</td>
-			<td>每月第二星期六上午</td>
-			<td>10:30 am</td>
+			<td>英文團契</td>
+			<td>每月第一星期日 下午</td>
+			<td>12:00 pm </td>
 		</tr>
 	</tbody>
 </table>
