@@ -11254,7 +11254,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 		<tr>
 			<td>Christian Service Brigade</td>
 			<td>Friday</td>
-			<td>8:00 pm</td>
+			<td>08:00 pm</td>
 		</tr>
 		<tr>
 			<td>Youth and College Fellowship</td>
@@ -11288,8 +11288,13 @@ update church_content set body = '<table border="1" cellpadding="5">
 			<td>10:00 am</td>
 		</tr>
 		<tr>
+			<td>基督徒服務團</td>
+			<td>星期五晚上</td>
+			<td>08:00 pm</td>
+		</tr>
+		<tr>
 			<td>青年 , 少年團契</td>
-			<td>星期日 下午</td>
+			<td>星期日中午</td>
 			<td>12:00 pm</td>
 		</tr>
 		<tr>
@@ -11299,7 +11304,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 		</tr>
 		<tr>
 			<td>英文團契</td>
-			<td>每月第一星期日 下午</td>
+			<td>星期日中午, 每月一次</td>
 			<td>12:00 pm </td>
 		</tr>
 	</tbody>
