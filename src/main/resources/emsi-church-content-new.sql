@@ -13026,57 +13026,32 @@ update church_content set body = '<table border="1" cellpadding="5">
 		<tr>
 			<td>Children&#39; Sunday School </td>
 			<td>Sunday</td>
-			<td>11:00 AM</td>
+			<td>10:30 AM</td>
 		</tr>
 		<tr>
-			<td>Chinese Bible Study</td>
-			<td>Every Other Tues</td>
-			<td>8:00 PM</td>
+			<td>Choir Practice</td>
+			<td>Sunday</td>
+			<td>11:45 AM</td>
 		</tr>
 		<tr>
-			<td>Berea Bible Study Group</td>
+			<td>Berea Bible Study Group (online)</td>
 			<td>Wednesday</td>
-			<td>11:00 AM</td>
+			<td>10:00 AM</td>
 		</tr>
 		<tr>
-			<td>Wayne Restaurant Bible Study</td>
-			<td>Thursday</td>
-			<td>3:30 PM</td>
-		</tr>
-		<tr>
-			<td>Joy Fellowship </td>
-			<td>Saturday</td>
-			<td>3:30 PM</td>
-		</tr>
-		<tr>
-			<td>Prayer Meeting </td>
+			<td>Prayer Meeting (online)</td>
 			<td>Friday</td>
 			<td>8:00 PM</td>
 		</tr>
 		<tr>
-			<td>Senior Fellowship </td>
-			<td>Every 3rd Wednesday</td>
-			<td>10:30 AM</td>
+			<td>Brothers&#39; Fellowship </td>
+			<td>(cancelled temporarily)</td>
+			<td></td>
 		</tr>
 		<tr>
-			<td>Brothers Fellowship </td>
-			<td>Every 1st Saturday</td>
-			<td>5:30 AM</td>
-		</tr>
-		<tr>
-			<td>Sisters Fellowship </td>
-			<td>Every 1st Saturday</td>
-			<td>5:30 AM</td>
-		</tr>
-		<tr>
-			<td>Elim Fellowship </td>
-			<td>Every 3rd or 4th Saturday</td>
-			<td>5:30 PM</td>
-		</tr>
-		<tr>
-			<td>Gospel Fellowship </td>
-			<td>Sunday</td>
-			<td>12:45 PM</td>
+			<td>Sisters&#39; Fellowship </td>
+			<td>(cancelled temporarily)</td>
+			<td></td>
 		</tr>
 	</tbody>
 </table>
@@ -13098,58 +13073,34 @@ update church_content set body = '<table border="1" cellpadding="5">
 		<tr>
 			<td>兒童主日學 </td>
 			<td>星期日 上午</td>
-			<td>11:00 AM</td>
-		</tr>
-		<tr>
-			<td>中文查經班</td>
-			<td>每月雙週週二晚間 </td>
-			<td>8:00 PM</td>
-		</tr>
-		<tr>
-			<td>庇哩亞查經小組 </td>
-			<td>週三上午</td>
-			<td>11:00 AM</td>
-		</tr>
-		<tr>
-			<td>惟恩餐館查經小組</td>
-			<td>週四下午  </td>
-			<td>3:30 pm</td>
-		</tr>
-		<tr>
-			<td>喜樂團契 </td>
-			<td>週六下午 3:30</td>
-			<td>3:30 PM</td>
-		</tr>
-		<tr>
-			<td>查經禱告會 </td>
-			<td>週五晚間</td>
-			<td>8:00 PM</td>
-		</tr>
-		<tr>
-			<td>長青團契</td>
-			<td>每月第三個週三上午</td>
 			<td>10:30 AM</td>
 		</tr>
 		<tr>
+			<td>詩班練習</td>
+			<td>星期日 上午 </td>
+			<td>11:45 AM</td>
+		</tr>
+		<tr>
+			<td>庇哩亞查經小組 (網上)</td>
+			<td>星期三 上午</td>
+			<td>10:00 AM</td>
+		</tr>
+		<tr>
+			<td>禱告會 (網上)</td>
+			<td>星期五晚</td>
+			<td>7:00 PM</td>
+		</tr>
+		<tr>
 			<td>弟兄團契</td>
-			<td>每月第一個週六下午</td>
-			<td>5:30 PM</td>
+			<td>暫停</td>
+			<td></td>
 		</tr>
 		<tr>
 			<td>姐妹團契</td>
-			<td>每月第一個週六下午</td>
-			<td>5:30 PM</td>
+			<td>暫停</td>
+			<td></td>
 		</tr>
-		<tr>
-			<td>以琳團契 </td>
-			<td>每月第三或第四週週六下午</td>
-			<td>5:30 PM</td>
-		</tr>
-		<tr>
-			<td>福音團契 </td>
-			<td>主日下午 12:45</td>
-			<td>12:45 PM</td>
-		</tr>
+
 	</tbody>
 	</tbody>
 </table>
