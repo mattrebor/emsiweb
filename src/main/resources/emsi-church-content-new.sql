@@ -12071,7 +12071,7 @@ update church set address='Tokyo-To, Shinagawa-Ku, Minami-Oi 3-20-5, SS1 Biru, 7
 
 ------------ CEC TOKYO end ----------
 
----------- Oradell ---------
+---------- Starts Oradell ---------
 INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(53, 'oradell', 1, 9, 0);
 INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(53, 'en', 'menu_name', 'CEMC in Oradell');
 INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(53, 'zh', 'menu_name', '俄備得基督教生命堂');
@@ -12089,8 +12089,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 <tbody class="borderless-table">
 		<tr>
-			<td class="label">Pastors: </td>
-			<td>Ev. Sorina Yang, (H)973-331-0438</td>
+			<td class="label">Pastor: </td>
+			<td>Rev. Sorina Yang, (H)973-331-0438</td>
 		</tr>
 
 </tbody>
@@ -12112,7 +12112,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 <td class="label">Email:</td>
-<td><a href="mailto: emsilan2013@gmail.com"> emsilan2013@gmail.com</a></td>
+<td><a href="mailto: hlan_yang@yahoo.com"> hlan_yang@yahoo.com</a></td>
 </tr>
 </tbody>
 </table>
@@ -12170,8 +12170,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 <tbody class="borderless-table">
 		<tr>
-			<td class="label">牧者: </td>
-			<td>楊張秀蘭 傳道, (H)973-331-0438</td>
+			<td class="label">牧師: </td>
+			<td>楊張秀蘭 牧師, (H)973-331-0438</td>
 		</tr>
 </tbody>
 </table>
@@ -12193,7 +12193,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 <td class="label">電郵:</td>
-<td><a href="mailto: emsilan2013@gmail.com"> emsilan2013@gmail.com</a></td>
+<td><a href="mailto: hlan_yang@yahoo.com"> hlan_yang@yahoo.com</a></td>
 </tr>
 </tbody>
 </table>
@@ -12347,14 +12347,14 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 update church set address='343 Kinderkamack Road, Oradell, NJ 07649 USA', latitude = 40.9521361, longitude = -74.0320762 where church_path = 'oradell';
 
 update church_content set body = STRINGDECODE('<p>
-<b>Pastors: </b>Ev. Sorina Yang, (H)973-331-0438
+<b>Pastor: </b>Rev. Sorina Yang, (H)973-331-0438
 </p>
 <p>
 <b>Address: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
 <p>
 <b>Tel #: </b>(973) 335-7337 ext. 220, (C)(973) 699-3223</p>
 <p>
-<b>Email: </b>emsilan2013@gmail.com</p>
+<b>Email: </b>hlan_yang@yahoo.com</p>
 
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?sll=40.9521347,-74.0320579&amp;sspn=0.0062231,0.0109864&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&amp;t=m&amp;z=14&amp;ll=40.952136,-74.032076&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
@@ -12363,14 +12363,14 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 update church_content set body = STRINGDECODE('<p>
-<b>牧者: </b>楊張秀蘭 傳道, (H)973-331-0438
+<b>牧師: </b>楊張秀蘭 牧師, (H)973-331-0438
 </p>
 <p>
 <b>地 址: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
 <p>
 <b>電 話: </b>(973) 335-7337 ext. 220, (C) (973) 699-3223</p>
 <p>
-<b>電 郵: </b>emsilan2013@gmail.com</p>
+<b>電 郵: </b>hlan_yang@yahoo.com</p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?sll=40.9521347,-74.0320579&amp;sspn=0.0062231,0.0109864&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&amp;t=m&amp;z=14&amp;ll=40.952136,-74.032076&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'oradell')
