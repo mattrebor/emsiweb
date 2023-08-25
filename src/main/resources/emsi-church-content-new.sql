@@ -11247,9 +11247,24 @@ p span.label {font-weight: bold;}
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
+			<td>Sunday Worship Service</td>
+			<td>Sunday</td>
+			<td>10:00 am</td>
+		</tr>
+		<tr>
 			<td>Sunday School(Youth & Children)</td>
 			<td>Sunday</td>
 			<td>10:00 am</td>
+		</tr>
+		<tr>
+			<td>Youth & College Fellowship</td>
+			<td>Sunday</td>
+			<td>12:00 pm</td>
+		</tr>
+		<tr>
+			<td>English Fellowship</td>
+			<td>Once a month on Sunday</td>
+			<td>12:00 pm</td>
 		</tr>
 		<tr>
 			<td>Christian Service Brigade</td>
@@ -11257,19 +11272,9 @@ update church_content set body = '<table border="1" cellpadding="5">
 			<td>08:00 pm</td>
 		</tr>
 		<tr>
-			<td>Youth and College Fellowship</td>
-			<td>Sunday</td>
-			<td>12:00 pm</td>
-		</tr>
-		<tr>
 			<td>Chinese Bible Study</td>
 			<td>Every 1st, 3rd Saturday</td>
 			<td>10:00 am</td>
-		</tr>
-		<tr>
-			<td>English Fellowship</td>
-			<td>Once a month on Sunday</td>
-			<td>12:00 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -11283,29 +11288,34 @@ update church_content set body = '<table border="1" cellpadding="5">
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
+			<td>主日崇拜</td>
+			<td>星期日上午</td>
+			<td>10 時</td>
+		</tr>
+		<tr>
 			<td>主日學(青少年與兒童)</td>
 			<td>星期日上午</td>
-			<td>10:00 am</td>
+			<td>10 時</td>
+		</tr>
+		<tr>
+			<td>青年, 大學生團契</td>
+			<td>星期日中午</td>
+			<td>12 時</td>
+		</tr>
+		<tr>
+			<td>英語團契</td>
+			<td>星期日中午, 每月一次</td>
+			<td>12 時</td>
 		</tr>
 		<tr>
 			<td>基督徒服務團</td>
 			<td>星期五晚上</td>
-			<td>08:00 pm</td>
-		</tr>
-		<tr>
-			<td>青年 , 少年團契</td>
-			<td>星期日中午</td>
-			<td>12:00 pm</td>
+			<td>8 時</td>
 		</tr>
 		<tr>
 			<td>中文查經</td>
 			<td>每月第一，第三 星期六上午</td>
-			<td>10:00 am</td>
-		</tr>
-		<tr>
-			<td>英文團契</td>
-			<td>星期日中午, 每月一次</td>
-			<td>12:00 pm </td>
+			<td>10 時</td>
 		</tr>
 	</tbody>
 </table>
