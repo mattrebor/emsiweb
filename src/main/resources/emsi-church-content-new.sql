@@ -13051,7 +13051,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 		<tr>
 			<td>Prayer Meeting (online)</td>
 			<td>Friday</td>
-			<td>8:00 PM</td>
+			<td>7:00 PM</td>
 		</tr>
 		<tr>
 			<td>Brothers&#39; Fellowship </td>
