@@ -515,7 +515,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Prof. Jing Huang</td>
+			<td>Rev. Jing Huang</td>
 		</tr>
 	</tbody>
 </table>
@@ -584,8 +584,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">牧 者:</td>
-			<td>黃靜 教授  </td>
+			<td class=\"label\">牧師:</td>
+			<td>黃靜 牧師  </td>
 		</tr>
 	</tbody>
 </table>
@@ -672,175 +672,184 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 
-update church_content set body = STRINGDECODE('
-
-<b>Sunday Worship│Sunday 2:00PM </b>
-<br/>
-Currently our Sunday Worship service is conducted in Mandarin with simultaneous English and
-Cantonese translation available (in a separate area).
-<br/><br/>
-<b>Meeting Schedule</b>
-<table  border="1">
+update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Sunday Worship</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">1:30pm - 2:30pm <br/>(Transportation can be arranged)</td>
+			<td>Sunday Worship Service <br>
+				主日崇拜
+			</td>
+			<td>Sunday<br>
+
+				星期日
+			</td>
+			<td>1:30 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Sunday Prayer Meeting</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">3:00pm - 3:30pm</td>
+			<td>Children&#39; Sunday School <br>
+				兒童主日學
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>1:30 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Sunday Bible Study</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:30pm</td>
+			<td>Sunday Prayer Meeting<br>
+				主日禱告會
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>After Sunday Service<br>
+				主日崇拜後
+			</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Children’s Sunday School</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">1:30pm - 2:30pm</td>
+			<td>Brothers&#39; Fellowship<br>
+				弟兄團契
+			</td>
+			<td>Tuesday <br>
+				星期二
+			</td>
+			<td>8:00 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Cantonese Fellowship</td>
-			<td style="padding: 0px 10px 0px 10px">Every 3rd Sunday of the Month</td>
-			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:30pm</td>
+			<td>Evergreen Fellowship<br>
+				長青團契
+			</td>
+			<td>Wednesday<br>
+				星期三
+			</td>
+			<td>3:00 PM</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Daytime Bible Study & Prayer Meeting</td>
-			<td style="padding: 0px 10px 0px 10px">Tuesday</td>
-			<td style="padding: 0px 10px 0px 10px">9:30am – 11:00am</td>
+			<td>Sisters&#39; Fellowship <br>
+				姐妹團契
+			</td>
+			<td>Thursday<br>
+			
+			</td>
+			<td>2:00 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Evening Bible Study & Prayer Meeting</td>
-			<td style="padding: 0px 10px 0px 10px">Friday</td>
-			<td style="padding: 0px 10px 0px 10px">7:00pm - 9:00pm<br/></td>
+			<td>English Class<br>
+				英語班
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>1:00 - 1:30 pm</td>
+		</tr>
+		<tr>
+			<td>Chinese Class<br>
+				(Simplified Chinese)<br> <br>
+				簡體中文班
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>3:00 - 4:00 pm</td>
 		</tr>
 	</tbody>
 </table>
 
-<br/>
+<p>&nbsp;</p>
 
-<b>Class Schedule</b>
-<table  border="1">
-	<tbody>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">English Class</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">1:00pm - 1:30pm (No Age Limit)</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Chinese Class</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">3:00pm - 4:30pm (Traditional & Simplified)</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Music Class</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">3:30pm - 4:30pm<br/>(Piano, voice and guitar lessons plus learning how to read music)</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Karate </td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">1:30pm -3:00pm (five years and older)</td>
-		</tr>
-	</tbody>
-</table>
-
-Church is planning to open the tutoring class for students in middle and primary schools.
-
-')	where church_id = (select church_id from church where church_path = 'murrayhill')
+'	where church_id = (select church_id from church where church_path = 'murrayhill')
 	and locale = 'en'
 	and page_id = 'schedule';
 
 
-update church_content set body = STRINGDECODE('
-
-<b>主日崇拜│週日下午2:00 PM</b>
-<br/>
-<br/>
-教會目前只有中文國語崇拜，備有英文和粵語台下同步翻譯。
-<br/>
-<br/>
-
-<b>聚會日程</b>
-<table  border="1">
+update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">主日崇拜</td>
-			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 1:30 - 2:30 （可安排接送）</td>
+			<td>Sunday Worship Service <br>
+				主日崇拜
+			</td>
+			<td>Sunday<br>
+
+				星期日
+			</td>
+			<td>1:30 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">主日禱告會</td>
-			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 3:00 - 3:30</td>
+			<td>Children&#39; Sunday School <br>
+				兒童主日學
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>1:30 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">主日查經班</td>
-			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 4:30</td>
+			<td>Sunday Prayer Meeting<br>
+				主日禱告會
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>After Sunday Service<br>
+				主日崇拜後
+			</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">兒童主日學</td>
-			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 1:30 - 2:30</td>
+			<td>Brothers&#39; Fellowship<br>
+				弟兄團契
+			</td>
+			<td>Tuesday <br>
+				星期二
+			</td>
+			<td>8:00 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">廣東團契</td>
-			<td style="padding: 0px 10px 0px 10px">每月第三週日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 4:30</td>
+			<td>Evergreen Fellowship<br>
+				長青團契
+			</td>
+			<td>Wednesday<br>
+				星期三
+			</td>
+			<td>3:00 PM</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">日間查經班 & 禱告會</td>
-			<td style="padding: 0px 10px 0px 10px">星期二</td>
-			<td style="padding: 0px 10px 0px 10px">上 午 9:30 - 11:00</td>
+			<td>Sisters&#39; Fellowship <br>
+				姐妹團契
+			</td>
+			<td>Thursday<br>
+			
+			</td>
+			<td>2:00 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">晚間查經班 & 禱告會</td>
-			<td style="padding: 0px 10px 0px 10px">星期五</td>
-			<td style="padding: 0px 10px 0px 10px">晚上 7:30 - 9:00</td>
+			<td>English Class<br>
+				英語班
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>1:00 - 1:30 pm</td>
+		</tr>
+		<tr>
+			<td>Chinese Class<br>
+				(Simplified Chinese)<br> <br>
+				簡體中文班
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>3:00 - 4:00 pm</td>
 		</tr>
 	</tbody>
 </table>
-<br/>
-<br/>
-<b>學習班</b>
-<table  border="1">
-	<tbody>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">英文班</td>
-			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 1:00 - 1:30 （年齡不限)</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">中文班</td>
-			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 3:00 - 4:30 （繁、簡體）</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">音樂班</td>
-			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 3:30 - 4:30 （鋼琴、聲樂、吉他、識譜)</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">空手道班</td>
-			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 1:30pm -3:00pm （五歲以上）</td>
-		</tr>
-	</tbody>
-</table>
 
+<p>&nbsp;</p>
 
-')	where church_id = (select church_id from church where church_path = 'murrayhill')
+'	where church_id = (select church_id from church where church_path = 'murrayhill')
 	and locale = 'zh'
 	and page_id = 'schedule';
 
+-----------------------end Berkeley Heights (old murrayhill)
 
--------------end  murrayhill
-
-------------- Highland park
+------------- Start Highland park
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -5222,24 +5231,60 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>Sunday Worship</td>
-			<td>Sunday</td>
-			<td>7:00pm</td>
+			<td>Sunday Morning Worship Service<br>
+				主日崇拜(早堂)
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>10:30 am</td>
 		</tr>
 		<tr>
-			<td>Prayer Meeting</td>
-			<td>Sunday</td>
-			<td>6:00pm</td>
+			<td>Sunday Evening Worship Service<br>
+				主日崇拜(晚堂)
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>6:30 pm</td>
 		</tr>
 		<tr>
-			<td>Bible Study</td>
-			<td>Tuesday</td>
-			<td>7:30pm</td>
+			<td>Sunday Prayer Meeting<br>
+				主日禱告會
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>Right after each <br>Sunday Worship Service<br>
+				早、晚堂崇拜後
+			</td>
 		</tr>
 		<tr>
-			<td>Fellowship</td>
-			<td>Thursday</td>
-			<td>7:30pm</td>
+			<td>Tuesday Prayer Meeting<br>
+				禱告會
+			</td>
+			<td>Tuesday<br>
+				星期二晚上
+			</td>
+			<td>7:30 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study<br>
+				查經
+			</td>
+			<td>Tuesday<br>
+				星期二晚上
+			</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>Fellowship<br>
+				團契
+			</td>
+			<td>Thursday<br>
+				星期四
+			</td>
+			<td>7:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -5249,24 +5294,60 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(59, 'schedule', 'zh', '紐約藝人基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜</td>
-			<td>星期日 晚</td>
-			<td>7:00pm</td>
+			<td>Sunday Morning Worship Service<br>
+				主日崇拜(早堂)
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>10:30 am</td>
 		</tr>
 		<tr>
-			<td>禱告會</td>
-			<td>星期日 晚</td>
-			<td>6:00pm</td>
+			<td>Sunday Evening Worship Service<br>
+				主日崇拜(晚堂)
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>6:30 pm</td>
 		</tr>
 		<tr>
-			<td>查經班</td>
-			<td>星期二 晚</td>
-			<td>7:30pm</td>
+			<td>Sunday Prayer Meeting<br>
+				主日禱告會
+			</td>
+			<td>Sunday<br>
+				星期日
+			</td>
+			<td>Right after each <br>Sunday Worship Service<br>
+				早、晚堂崇拜後
+			</td>
 		</tr>
 		<tr>
-			<td>團契</td>
-			<td>星期四 晚</td>
-			<td>7:30pm</td>
+			<td>Tuesday Prayer Meeting<br>
+				禱告會
+			</td>
+			<td>Tuesday<br>
+				星期二晚上
+			</td>
+			<td>7:30 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study<br>
+				查經
+			</td>
+			<td>Tuesday<br>
+				星期二晚上
+			</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>Fellowship<br>
+				團契
+			</td>
+			<td>Thursday<br>
+				星期四
+			</td>
+			<td>7:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -10187,6 +10268,10 @@ p span.label {font-weight: bold;}
 			<td>Rev. Zion Wu, 973-335-7337 ext. 202, (C) 973-768-5805</td>
 		</tr>
 		<tr>
+			<td class="label">Associate Pastor:</td>
+			<td>Rev. Judy Chou, (C) 973-941-1873</td>
+		</tr>
+		<tr>
 			<td class="label">Evangelist:</td>
 			<td>Ev. Patty Chien, 973-335-7337 ext. 200, (C) 201-993-3043</td>
 		</tr>
@@ -10268,6 +10353,10 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\">牧師:</td>
 			<td>吳錫安 牧師, 973-335-7337 ext. 202, (手機) 973-768-5805</td>
+		</tr>
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>周麗華  牧師,(手機) 973-941-1873</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
@@ -10379,28 +10468,6 @@ update church_content set body = STRINGDECODE('<p>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">楊陳愛玫 師母</span></span>
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 208</span></span>
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-919-6456</span></span>
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><a href="mailto:roseayang@gmail.com"><span style="font-size: small; font-family: ''Times New Roman''">roseayang@gmail.com</span></a></span>
-			</p>
-			</td>
-		</tr>
-		<tr>
-			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">吳錫安 牧師</span></span>
 			</p>
 			</td>
@@ -10423,12 +10490,12 @@ update church_content set body = STRINGDECODE('<p>
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: 新細明體,''Times New Roman''; color: #000000">吳周麗華 師母</span></span>
+			<span lang="EN-US"><span style="font-size: small; font-family: 新細明體,''Times New Roman''; color: #000000">周麗華 牧師</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 213</span></span>
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000"></span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
@@ -10565,28 +10632,7 @@ Christian Evangelical Mission Church in Towaco
 			</p>
 			</td>
 		</tr>
-		<tr>
-			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Mrs. Rose Yang</span></span>
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 208</span></span>
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-919-6456</span></span>
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 166.2pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="222">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><a href="mailto:roseayang@gmail.com"><span style="font-size: small; font-family: ''Times New Roman''">roseayang@gmail.com</span></a></span>
-			</p>
-			</td>
-		</tr>
+
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
@@ -10612,12 +10658,12 @@ Christian Evangelical Mission Church in Towaco
 		<tr>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Mrs. Judy Wu</span></span>
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Pastor Judy Chou</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 213</span></span>
+			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000"></span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
@@ -12241,54 +12287,109 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'schedule', 'en', 'CEMC in Oradell - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>Sunday School </td>
-			<td>Sunday</td>
+			<td>Sunday Worship <br>
+				主日崇拜
+			</td>
+			<td>Sunday <br>
+			星期日 下午
+			</td>
 			<td>2:00 pm</td>
 		</tr>
 		<tr>
-			<td>Youth Fellowship</td>
-			<td>Sunday</td>
+			<td>Sunday School <br>
+				兒童主日學
+			</td>
+			<td>Sunday <br>
+				星期日 下午
+			</td>
 			<td>2:00 pm</td>
 		</tr>
 		<tr>
-			<td>Youth Orchestra</td>
-			<td>Sunday</td>
+			<td>Youth Fellowship<br>
+				青少年團契
+			</td>
+			<td>Sunday <br>
+				星期日 下午
+			</td>
+			<td>2:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Orchestra<br>
+				少年樂團
+			</td>
+			<td>Sunday<br>
+				星期日 下午
+			</td>
 			<td>3:30 pm</td>
 		</tr>
 		<tr>
-			<td>Men&#39; s Fellowship</td>
-			<td>1st Sunday of the Month</td>
+			<td>Men&#39; s Fellowship<br>
+				弟兄團契
+			</td>
+			<td>1st Sunday of the Month<br>
+				每月第一個星期日下午
+			</td>
 			<td>3:30 pm</td>
 		</tr>
 		<tr>
-			<td>Sister&#39; s Fellowship</td>
-			<td>1st Sunday of the Month</td>
+			<td>Sister&#39; s Fellowship<br>
+				姊妹團契
+			</td>
+			<td>1st Sunday of the Month<br>
+				每月第一個星期日下午
+			</td>
 			<td>3:30 pm</td>
 		</tr>
 		<tr>
-			<td>Prayer Meeting (online)</td>
-			<td>Wednesday</td>
+			<td>Prayer Meeting (online)<br>
+				週三線上禱告會
+			</td>
+			<td>Wednesday<br>
+				星期三 晚
+			</td>
 			<td>7:00 pm</td>
 		</tr>
 		<tr>
-			<td>Bible Study (online)</td>
-			<td>Friday</td>
+			<td>Bible Study (online)<br>
+				週五線上查經班
+			</td>
+			<td>Friday<br>
+				星期五上午
+			</td>
 			<td>10:00 am</td>
 		</tr>
 		<tr>
-			<td>New-life Fellowship</td>
-			<td>Sunday</td>
-			<td>Cancelled temporarily</td>
+			<td>New-life Fellowship<br>
+				新生命團契
+			</td>
+			<td>Sunday<br>
+				星期日 下午
+			</td>
+			<td>Cancelled temporarily<br>
+				暫停
+			</td>
 		</tr>
 		<tr>
-			<td>English Class</td>
-			<td>Friday</td>
-			<td>Cancelled temporarily</td>
+			<td>English Class<br>
+				英語會話
+			</td>
+			<td>Friday<br>
+				星期五下午
+			</td>
+			<td>Cancelled temporarily<br>
+				暫停
+			</td>
 		</tr>
 		<tr>
-			<td>Summer Bible School</td>
-			<td>8/28/23 - 9/1/23</td>
-			<td>9:00 am - 3:00 pm</td>
+			<td>Summer Bible School<br>
+				暑期聖經學校
+			</td>
+			<td>8/28/23 - 9/1/23
+			
+			</td>
+			<td>9:00 am - 3:00 pm<br>
+			
+			</td>
 		</tr>
 	</tbody>
 </table>
@@ -12298,54 +12399,109 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(53, 'schedule', 'zh', '俄備得基督教生命堂 - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>兒童主日學 </td>
-			<td>星期日 下午</td>
+			<td>Sunday Worship <br>
+				主日崇拜
+			</td>
+			<td>Sunday <br>
+			星期日 下午
+			</td>
 			<td>2:00 pm</td>
 		</tr>
 		<tr>
-			<td>青少年團契 </td>
-			<td>星期日 下午</td>
-			<td>2:00pm</td>
+			<td>Sunday School <br>
+				兒童主日學
+			</td>
+			<td>Sunday <br>
+				星期日 下午
+			</td>
+			<td>2:00 pm</td>
 		</tr>
 		<tr>
-			<td>少年樂團 </td>
-			<td>星期日 下午</td>
+			<td>Youth Fellowship<br>
+				青少年團契
+			</td>
+			<td>Sunday <br>
+				星期日 下午
+			</td>
+			<td>2:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Orchestra<br>
+				少年樂團
+			</td>
+			<td>Sunday<br>
+				星期日 下午
+			</td>
 			<td>3:30 pm</td>
 		</tr>
 		<tr>
-			<td>弟兄團契 </td>
-			<td>每月第一個星期日 下午</td>
+			<td>Men&#39; s Fellowship<br>
+				弟兄團契
+			</td>
+			<td>1st Sunday of the Month<br>
+				每月第一個星期日下午
+			</td>
 			<td>3:30 pm</td>
 		</tr>
 		<tr>
-			<td>姊妹團契 </td>
-			<td>每月第一個星期日 下午</td>
+			<td>Sister&#39; s Fellowship<br>
+				姊妹團契
+			</td>
+			<td>1st Sunday of the Month<br>
+				每月第一個星期日下午
+			</td>
 			<td>3:30 pm</td>
 		</tr>
 		<tr>
-			<td>週三線上禱告會</td>
-			<td>星期三 晚</td>
+			<td>Prayer Meeting (online)<br>
+				週三線上禱告會
+			</td>
+			<td>Wednesday<br>
+				星期三 晚
+			</td>
 			<td>7:00 pm</td>
 		</tr>
 		<tr>
-			<td>週五線上查經班</td>
-			<td>星期五 上午 </td>
-			<td>11:00 am</td>
+			<td>Bible Study (online)<br>
+				週五線上查經班
+			</td>
+			<td>Friday<br>
+				星期五上午
+			</td>
+			<td>10:00 am</td>
 		</tr>
 		<tr>
-			<td>新生命團契 </td>
-			<td>星期日 下午</td>
-			<td>暫停</td>
+			<td>New-life Fellowship<br>
+				新生命團契
+			</td>
+			<td>Sunday<br>
+				星期日 下午
+			</td>
+			<td>Cancelled temporarily<br>
+				暫停
+			</td>
 		</tr>
 		<tr>
-			<td>英語會話 </td>
-			<td>星期五 下午</td>
-			<td>暫停</td>
+			<td>English Class<br>
+				英語會話
+			</td>
+			<td>Friday<br>
+				星期五下午
+			</td>
+			<td>Cancelled temporarily<br>
+				暫停
+			</td>
 		</tr>
 		<tr>
-			<td>暑期聖經學校</td>
-			<td>8/28/23 -9/1/23 </td>
-			<td>9:00  am – 3:00 pm</td>
+			<td>Summer Bible School<br>
+				暑期聖經學校
+			</td>
+			<td>8/28/23 - 9/1/23
+			
+			</td>
+			<td>9:00 am - 3:00 pm<br>
+			
+			</td>
 		</tr>
 	</tbody>
 </table>
