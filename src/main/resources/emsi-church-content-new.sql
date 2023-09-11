@@ -1688,8 +1688,8 @@ p span.label {font-weight: bold;}
 			<td>Rev. Moses Yang 973-335-7337, ext. 209, (C) 201-650-1923</td>
 		</tr>
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Jonathan Poon, 973-335-7337 ext. 203, (C) 973-979-1950</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Yat Hoo (Jonathan) Poon, 973-335-7337 ext. 203, (C) 973-979-1950</td>
 		</tr>
 	</tbody>
 </table>
@@ -1754,8 +1754,8 @@ p span.label {font-weight: bold;}
 			<td>楊摩西 牧師, 973-335-7337 ext. 209, (手機)201-650-1923</td>
 		</tr>
 		<tr>
-			<td class="label">傳道:</td>
-			<td>潘逸豪 傳道, 973-335-7337 ext. 203, (手機) 973-979-1950</td>
+			<td class="label">牧師:</td>
+			<td>潘逸豪 牧師, 973-335-7337 ext. 203, (手機) 973-979-1950</td>
 		</tr>
 	</tbody>
 </table>
@@ -2668,8 +2668,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">傳道:</td>
-			<td>王艷華 傳道, +34-69-827-2704</td>
+			<td class="label">牧師:</td>
+			<td>王艷華 牧師, +34-69-827-2704</td>
 		</tr>
 	</tbody>
 </table>
@@ -2730,8 +2730,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Esther Wang, +34-69-827-2704</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Esther Wang, +34-69-827-2704</td>
 		</tr>
 	</tbody>
 </table>
@@ -2844,7 +2844,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Esther Wang, (C)+34-69-827-2704
+<b>Pastor: </b>Rev. Esther Wang, (C)+34-69-827-2704
 </p>
 <p>
 <b>Address: </b>Calle D&rsquo;Olzinelles 91 ,08014 ,Barcelona, Spain
@@ -2866,7 +2866,7 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道: </b>王艷華傳道, (手機)+34-69-827-2704
+<b>牧師: </b>王艷華 牧師, (手機)+34-69-827-2704
 </p>
 <p>
 <b>地址: </b>Calle D&rsquo;Olzinelles 91 ,08014 ,Barcelona, Spain<br>
@@ -5609,8 +5609,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Minhui Xie</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Minhui Xie</td>
 		</tr>
 	</tbody>
 </table>
@@ -5673,8 +5673,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>謝敏惠 傳道</td>
+			<td class=\"label\">牧師:</td>
+			<td>謝敏惠 牧師</td>
 		</tr>
 	</tbody>
 </table>
@@ -5729,7 +5729,7 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Minhui Xie
+<b>Pastor: </b>Rev. Minhui Xie
 </p>
 <p>
 <b>Address: </b>1101 Budapest, Monori u.2-4. E12-12 Hungary
@@ -5833,7 +5833,7 @@ Weekly Regular Meetings
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道: </b>謝敏惠 傳道
+<b>牧師: </b>謝敏惠 牧師
 </p>
 <p>
 <b>地址: </b>1101 Budapest, Monori u.2-4. E12-12 Hungary
@@ -8769,8 +8769,8 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 <table cellPadding="0" cellSpacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. David Zhou, +34-64-029-2666</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Chang-Yu ( David) Zhou, +34-64-029-2666</td>
 		</tr>
 	</tbody>
 </table>
@@ -8829,8 +8829,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>周長宇 傳道, +34-64-029-2666</td>
+			<td class=\"label\">牧師:</td>
+			<td>周長宇 牧師, +34-64-029-2666</td>
 		</tr>
 	</tbody>
 </table>
@@ -8884,7 +8884,7 @@ p span.label {font-weight: bold;}
 update church_content set body = STRINGDECODE('<p>
 <p>
 <p>
-<b>Evangelist: </b>Ev. David Zhou, +34-64-029-2666
+<b>Pastor: </b>Rev. Chang-Yu ( David) Zhou, +34-64-029-2666
 </p>
 <p>
 <b>Address: </b>Avda. Europa 25, Local-9, 03503 Benidorm Alicante , Spain
@@ -8908,7 +8908,7 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 周長宇 傳道, +34-64-029-2666
+<b>牧師:</b> 周長宇 牧師, +34-64-029-2666
 </p>
 <p>
 <b>地址: </b>Avda. Europa 25, Local-9, 03503 Benidorm Alicante , Spain
@@ -11169,6 +11169,10 @@ p span.label {font-weight: bold;}
 			<td class="label">Pastor:</td>
 			<td>Rev. Stephen Lim 973-335-7337, ext. 204, (C) 973-960-6088</td>
 		</tr>
+		<tr>
+			<td class="label">Associate Pastor:</td>
+			<td>Rev. Eunice Shang Kuan 973-335-7337, ext.204, (C) 973-216-5009</td>
+		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -11235,8 +11239,12 @@ p span.label {font-weight: bold;}
 <table cellPadding="0" cellSpacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">牧師:</td>
+			<td class="label">主任牧師:</td>
 			<td>林耀奇 牧師, (973) 335-7337 ext. 204, (手機) (973) 960-6088</td>
+		</tr>
+		<tr>
+			<td class="label">牧師:</td>
+			<td>上官賢真 牧師 , (973) 335-7337 ext. 204, (手機) (973)216-5009</td>
 		</tr>
 	</tbody>
 </table>
@@ -11371,6 +11379,61 @@ update church_content set body = '<table border="1" cellpadding="5">
 	and locale = 'zh'
 	and page_id = 'schedule';
 
+
+
+
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Pastor: </b> Rev. Stephen Lim, 973-335-7337, ext. 204, (C) 973-960-6088
+</p>
+<p>
+<b>Associate Pastor: </b> Rev. Eunice Shang Kuan 973-335-7337, ext.204, (C) 973-216-5009
+</p>
+<p>
+<b>Address: </b>71 Old Road Livingston NJ 07039, USA
+</p>
+<p>
+<b>Tel #: </b> 973-994-0079
+</p>
+<p>
+<b>Fax #: </b> 973-335-0535
+</p>
+<p>
+<b>Email: </b> ceclinfo@gmail.com
+</p>
+<p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24161.926394763814!2d-74.345457!3d40.800702!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a91a97383c13%3A0x2eda4ff12b63201b!2s71%20Old%20Rd%2C%20Livingston%2C%20NJ%2007039!5e0!3m2!1sen!2sus!4v1694397255997!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'livingston')
+	and locale = 'en'
+	and page_id = 'contactus';
+
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>主任牧師:</b> 林耀奇 牧師, (973) 335-7337 ext. 204, (手機) (973) 960-6088
+</p>
+<p>
+<b>牧師:</b> 上官賢真 牧師 , (973) 335-7337 ext. 204, (手機) (973)216-5009
+</p>
+<p>
+<b>地址: </b>71 Old Road Livingston NJ 07039, USA
+</p>
+<p>
+<b>電話:</b> 973-994-0079
+</p>
+<p><p>
+<b>傳真:</b> (973) 335-0535
+</p>
+<p>
+<b>電郵:</b> ceclinfo@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24161.926394763814!2d-74.345457!3d40.800702!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c3a91a97383c13%3A0x2eda4ff12b63201b!2s71%20Old%20Rd%2C%20Livingston%2C%20NJ%2007039!5e0!3m2!1sen!2sus!4v1694397255997!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'livingston')
+	and locale = 'zh'
+	and page_id = 'contactus';
 
 -------- ends USA - livingston
 
