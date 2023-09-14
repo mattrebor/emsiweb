@@ -10765,7 +10765,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 		<tr>
 			<td>Wednesday Mandarin Bible Study<br>
 			(Led by Pastor Moses)</td>
-			<td>Wednesday <br> (cancelled temporarily</td>
+			<td>Wednesday <br> (resumed on 9/20/23)</td>
 			<td>07:30 pm</td>
 		</tr>
 		<tr>
@@ -10822,7 +10822,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 		<tr>
 			<td>國語查經禱告會<br>
 			(楊摩西牧師帶領)</td>
-			<td>星期三晚上 (暫停)</td>
+			<td>星期三晚上 (九月二十日恢復)</td>
 			<td>07:30 pm</td>
 		</tr>
 		<tr>
