@@ -9567,12 +9567,12 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelists:</td>
-			<td>Ev. Jin Fang Huan, 628-667-879</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Lin Tao Wu, 654-852-708</td>
 		</tr>
 		<tr>
-			<td class="label"></td>
-			<td>Ev. Lin Tao Wu, 654-852-708</td>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Jin Fang Huan, 628-667-879</td>
 		</tr>
 	</tbody>
 
@@ -9613,7 +9613,7 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>August 26, 2003
 </p>
 <p>
-<a href="/emsi/gallery/?g2_itemId=1034"><img src="/emsi/images/Church_Gran_Canaria_18_small.jpg" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /> </a>We planned our first short missionary trip led by Ev. Yeh, and brother Guo Dan Jiang. to the coastal islands in August, 2000 after some CEC church members’ families/businesses moved there from mainland Spain. We visited Tenerife, Gran Canaria two islands, and organized meetings there.
+<a href="/emsi/gallery/?g2_itemId=1034"><img src="/emsi/images/Church_GranCanaria09_21_23.JPG" alt="view church photo gallery" align="left" height="250" hspace="5" width="375" /> </a>We planned our first short missionary trip led by Ev. Yeh, and brother Guo Dan Jiang. to the coastal islands in August, 2000 after some CEC church members’ families/businesses moved there from mainland Spain. We visited Tenerife, Gran Canaria two islands, and organized meetings there.
 </p>
 <p>In the beginning of 2003, brother Guo Dan Jiang opened a store in Gran Canaria for Gospel work and started visitation. After many prayers and planning, some mission coworkers restarted missionary work in the islands in the summer of 2003. They included several coworkers of CEC in Madrid and two EBI students Zhang, Jian and John Zhang from Paris. On Aug. 26 ,2003 the Christian Evangelical Mission Church in Gran Canaria was established in Las Palmas de Gran Canaria, the capital city of Gran Canaria. A meeting was held at the Imperial Restaurant in the Northern District; and another meeting in the Playa del Inglés in the Southern District the following day.
 </p>
@@ -9634,12 +9634,12 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>金歡 傳道, 628-667-879</td>
+			<td class=\"label\">牧師</td>
+			<td>吳林濤 牧師, 654-852-708</td>
 		</tr>
 		<tr>
-			<td class=\"label\"></td>
-			<td>吳林濤 傳道, 654-852-708</td>
+			<td class=\"label\">傳道:</td>
+			<td>金歡 傳道, 628-667-879</td>
 		</tr>
 	</tbody>
 </table>
@@ -9679,7 +9679,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/images/Church_Gran_Canaria_18_small.jpg\" align=\"left\" height=\"255\" width=\"360\" />因部份會友的事業、家庭從西班牙内陸轉移到海島，二○○○年八月首次籌劃海島短宣，由葉傳道與蔣國淡弟兄至Tenerife、Gran Canaria兩海島探訪、組織聚會。
+<img hspace=\"5\" src=\"/emsi/images/Church_GranCanaria09_21_23.JPG\" align=\"left\" height=\"255\" width=\"360\" />因部份會友的事業、家庭從西班牙内陸轉移到海島，二○○○年八月首次籌劃海島短宣，由葉傳道與蔣國淡弟兄至Tenerife、Gran Canaria兩海島探訪、組織聚會。
 </p>
 <p>二○○三年年初，蔣國淡弟兄因福音負擔，前往Gran canaria開店，恢復該區的探訪聯絡。2003年夏見時機成熟，傳道同工經過禱告、策劃，重開海島宣教工作。馬德里生命堂的幾位同工和本會巴黎神學院兩位神學生張健與張約翰配搭，前往Gran Canaria海島佈道。八月廿六日在Gran canaria首府Las Palmas de Gran canaria成立加納利亞基督教生命堂，於皇城酒家舉行北區聚會，隔日在南區Playa del Inglés舉行南區聚會。
 </p>
@@ -9692,10 +9692,10 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Jin Fang Huan, 628-667-879
+<b>Pastor: </b>Rev. Lin Tao Wu, 654-852-708
 </p>
 <p>
-<b>Evangelist: </b>Ev. Lin Tao Wu, 654-852-708
+<b>Evangelist: </b>Ev. Jin Fang Huan, 628-667-879
 </p>
 <p>
 <b>Address: </b>(North) Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain<br/>
@@ -9725,10 +9725,10 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 金歡 傳道, 628-667-879
+<b>牧師:</b> 吳林濤 牧師, 654-852-708
 </p>
 <p>
-<b>傳道:</b> 吳林濤 傳道, 654-852-708
+<b>傳道:</b> 金歡 傳道, 628-667-879
 </p>
 <p>
 <b>地址: </b>(北) Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain<br/>
@@ -11958,8 +11958,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Xiu Lan Fang, 81-90-9700-4895</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Xiu Lan Fang, 81-90-9700-4895</td>
 		</tr>
 	</tbody>
 </table>
@@ -12022,8 +12022,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">牧者:</td>
-			<td>方秀蘭傳道, 81-90-9700-4895</td>
+			<td class="label">牧師:</td>
+			<td>方秀蘭 牧師, 81-90-9700-4895</td>
 		</tr>
 	</tbody>
 </table>
@@ -12155,7 +12155,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 
 update church_content set body = STRINGDECODE('<p>
-<b>Evangelist: </b>Ev. Xiu Lan Fang</p>
+<b>Pastor: </b>Rev. Xiu Lan Fang</p>
 <p>
 <b>Address: </b>Tokyo-To, Shinagawa-Ku, Minami-Oi 3-20-5, SS1 Biru, 701</p>
 <p>
@@ -12171,7 +12171,7 @@ update church_content set body = STRINGDECODE('<p>
 
 
 update church_content set body = STRINGDECODE('<p>
-<b>傳道: </b>方秀蘭傳道, 81-90-9700-4895</p>
+<b>牧師: </b>方秀蘭 牧師, 81-90-9700-4895</p>
 <p>
 <b>地 址: </b>東京都品川區南大井 3-20-5 ＳＳ１大樓 701室</p>
 <p>
