@@ -47,7 +47,7 @@ update church set address='Calle Carolinas, 10, 28039 Madrid, Spain', latitude =
 update church set address='Calle Brasil 73, Valencia 46018, Spain', latitude = 39.47280, longitude = -0.40080 where church_path = 'valencia';
 update church set address='Avda. Europa 25, Local-9, 03503 Benidorm Alicante ', latitude = 38.542950192104264, longitude = -0.12028468755987111 where church_path = 'benidorm';
 update church set address='Rigoberto Ferrer 18, 03006 Alicante, Spain, Spain', latitude = 38.343951413922, longitude = -0.49827673122162464 where church_path = 'alicante';
-update church set address='Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain', latitude = 28.134365, longitude = -15.432344 where church_path = 'canaria';
+update church set address='Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain', latitude = 27.76671512555498, longitude = -15.574908261420322 where church_path = 'canaria';
 update church set address='Calle Alguacil, 8, 28038 Madrid, Spain', latitude = 40.3960213, longitude = -3.6630519 where church_path = 'southmadrid';
 update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', latitude = 41.3709592, longitude = 2.1374551 where church_path = 'barcelona';
 update church set address='Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain', latitude = 40.2646057, longitude = -3.7542281 where church_path = 'fuenlabrada';
@@ -9583,8 +9583,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>(North) Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(South) Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain</td>
+			<td>Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -9649,8 +9648,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td>(北) Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(南) Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain</td>
+			<td>Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -9698,8 +9696,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Jin Fang Huan, 628-667-879
 </p>
 <p>
-<b>Address: </b>(North) Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(South) Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain
+<b>Address: </b>Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain
 </p>
 <p>
 <b>Tel #: </b>628-667-879, 654-852-708
@@ -9711,11 +9708,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Email: </b>emsigrancanaria@yahoo.com
 </p>
 <p>
-<b>Address: </b>(North)</br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.398000984193!2d-15.434532185967733!3d28.134369713205093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409514918b4ba5%3A0xd515196d2d7b921e!2sAv.+Jos%C3%A9+Mesa+y+L%C3%B3pez%2C+15%2C+11%2C+35006+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1549850435054" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-</p>
-<p>
-<b>Address: </b>(South)</br>
+<b>Address: </b></br>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624.092567471171!2d-15.574886980977986!3d27.76662534271069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDQ2JzAxLjQiTiAxNcKwMzQnMzIuMiJX!5e0!3m2!1szh-CN!2ses!4v1541972676978" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'canaria')
@@ -9731,8 +9724,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道:</b> 金歡 傳道, 628-667-879
 </p>
 <p>
-<b>地址: </b>(北) Av. Mesa y Lopez 15, Local 11, 35006 Las Palmas, de Gran Canaria, Spain<br/>
-			(南) Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain
+<b>地址: </b>Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gran Canaria, Spain
 </p>
 <p>
 <b>電話:</b> 628-667-879, 654-852-708
@@ -9745,11 +9737,7 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 
 <p>
-<b>地址: </b>(北)</br>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3518.398000984193!2d-15.434532185967733!3d28.134369713205093!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc409514918b4ba5%3A0xd515196d2d7b921e!2sAv.+Jos%C3%A9+Mesa+y+L%C3%B3pez%2C+15%2C+11%2C+35006+Las+Palmas+de+Gran+Canaria%2C+Las+Palmas%2C+Spain!5e0!3m2!1sen!2sus!4v1549850435054" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-</p>
-<p>
-<b>地址: </b>(南)</br>
+<b>地址: </b></br>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d624.092567471171!2d-15.574886980977986!3d27.76662534271069!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjfCsDQ2JzAxLjQiTiAxNcKwMzQnMzIuMiJX!5e0!3m2!1szh-CN!2ses!4v1541972676978" width="640" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'canaria')
@@ -12099,12 +12087,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		<tr>
 			<td>Sisters&#39; Fellowship</td>
 			<td>Second Friday of the Month</td>
-			<td>7:00pm ~ 8:30pm</td>
-		</tr>
-		<tr>
-			<td>Japanese Language Class</td>
-			<td>Saturday</td>
-			<td>7:00pm ~ 8:30pm</td>
+			<td>7:30pm ~ 8:45pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -12136,12 +12119,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		<tr>
 			<td>姐妹團契</td>
 			<td>每月第二週 星期五晚</td>
-			<td>7:00pm ~ 8:30pm</td>
-		</tr>
-		<tr>
-			<td>日語班</td>
-			<td>星期六晚上</td>
-			<td>7:00pm ~ 8:30pm</td>
+			<td>7:30pm ~ 8:45pm</td>
 		</tr>
 	</tbody>
 </table>
