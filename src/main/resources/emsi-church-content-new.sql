@@ -9748,7 +9748,6 @@ update church_content set body = STRINGDECODE('<p>
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(31, 'schedule', 'en', 'CEC in Gran Canaria - Church Services Schedule',
 '
-<h4>南部聚會時間表 Southern Region Meeting Schedule</h4>
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
@@ -9768,30 +9767,6 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 </br>
 
-<h4>北部聚會時間表 Northern Region Meeting Schedule</h4>
-
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<tbody>
-		<tr>
-			<td>主日崇拜</br>Worship Service</td>
-			<td>周 日 晚上 六時三十分</br> Sunday 6:30 pm</td>
-		</tr>
-		<tr>
-			<td>查經</br>Bible Study</td>
-			<td>周 日 晚上 八時 </br>Sunday 8:00 pm</td>
-		</tr>
-	</tbody>
-</table>
-</br>
-
-<h4>中部聚會時間表 Middle Region Meeting Schedule</h4>
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-		<tr>
-			<td>查經</br>Bible Study</td>
-			<td>周 三 上 午 十時十五分 </br>Wednesday 10:15 am</td>
-		</tr>
-	</tbody>
-</table>
 
 <p>&nbsp;</p>
 ');
@@ -9799,7 +9774,6 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(31, 'schedule', 'zh', '加納利亞基督教生命堂 - 聚會日程',
 '
-<h4>南部聚會時間表 Southern Region Meeting Schedule</h4>
 
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
@@ -9819,30 +9793,6 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 </table>
 </br>
 
-<h4>北部聚會時間表 Northern Region Meeting Schedule</h4>
-
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<tbody>
-		<tr>
-			<td>主日崇拜</br>Worship Service</td>
-			<td>周 日 晚上 六時三十分</br> Sunday 6:30 pm</td>
-		</tr>
-		<tr>
-			<td>查經</br>Bible Study</td>
-			<td>周 日 晚上 八時 </br>Sunday 8:00 pm</td>
-		</tr>
-	</tbody>
-</table>
-</br>
-
-<h4>中部聚會時間表 Middle Region Meeting Schedule</h4>
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-		<tr>
-			<td>查經</br>Bible Study</td>
-			<td>周 三 上 午 十時十五分 </br>Wednesday 10:15 am</td>
-		</tr>
-	</tbody>
-</table>
 
 <p>&nbsp;</p>
 ');
@@ -13060,8 +13010,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Minister:</td>
-			<td>Ev. Sorina Yang 973-335-7337, ext. 220, (C) 973-699-3223</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Sorina Yang 973-335-7337, ext. 220, (C) 973-699-3223</td>
 		</tr>
 	</tbody>
 </table>
@@ -13125,8 +13075,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">牧者:</td>
-			<td>楊張秀蘭 傳道 973-335-7337, ext. 220, (C) 973-699-3223</td>
+			<td class=\"label\">牧師 :</td>
+			<td>楊張秀蘭 牧師  973-335-7337, ext. 220, (C) 973-699-3223</td>
 		</tr>
 	</tbody>
 </table>
@@ -13180,7 +13130,7 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Minister: </b>Ev. Sorina Yang 973-335-7337, ext. 220, (C) 973-699-3223
+<b>Pastor: </b>Rev. Sorina Yang 973-335-7337, ext. 220, (C) 973-699-3223
 </p>
 <p>
 <b>Address: </b>456 North Middle Town Rd, Pearl River, NY 10965 USA
@@ -13202,7 +13152,7 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧者: </b>楊張秀蘭 傳道 , 973-335-7337, ext. 220, (C) 973-699-3223
+<b>牧師 : </b>楊張秀蘭 牧師  , 973-335-7337, ext. 220, (C) 973-699-3223
 </p>
 <p>
 <b>地址: </b>456 North Middle Town Rd, Pearl River, NY 10965 USA
