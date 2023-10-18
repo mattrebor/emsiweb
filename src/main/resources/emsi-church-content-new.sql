@@ -495,6 +495,155 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>Worship Service <br>
+				主日崇拜
+			</td>
+			<td>Sunday<br>
+
+				星期日上午
+			</td>
+			<td>10:00 am</td>
+		</tr>
+		<tr>
+			<td>Children&#39; Sunday School <br>
+				主日學
+			</td>
+			<td>Sunday<br>
+				星期日上午
+			</td>
+			<td>10:00 am</td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting & Bible Study<br>
+				查經禱告會 
+			</td>
+			<td>Wednesday<br>
+				星期三晚上
+			</td>
+			<td>7:30 pm	</td>
+		</tr>
+		<tr>
+			<td>Layman Bible Study<br>
+				造就班 
+			</td>
+			<td>1st Friday of the Month <br>
+				每月第一週五晚上
+			</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>Choir Practice<br>
+				詩班練唱 
+			</td>
+			<td>Sunday<br>
+				星期日中午 
+			</td>
+			<td>12:30 PM</td>
+		</tr>
+		<tr>
+			<td>Youth/Junior Fellowship<br>
+				青少年團契 
+			</td>
+			<td>Friday<br>
+			星期五晚上 
+			</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>Sister & Brother Fellowship<br>
+				姐妹弟兄團契 
+			</td>
+			<td>2nd Saturday of the Month<br>
+				每月第二星期六上午 
+			</td>
+			<td>11:30 am</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+'	where church_id = (select church_id from church where church_path = 'queens')
+	and locale = 'en'
+	and page_id = 'schedule';
+
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>Worship Service <br>
+				主日崇拜
+			</td>
+			<td>Sunday<br>
+
+				星期日上午
+			</td>
+			<td>10:00 am</td>
+		</tr>
+		<tr>
+			<td>Children&#39; Sunday School <br>
+				主日學
+			</td>
+			<td>Sunday<br>
+				星期日上午
+			</td>
+			<td>10:00 am</td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting & Bible Study<br>
+				查經禱告會 
+			</td>
+			<td>Wednesday<br>
+				星期三晚上
+			</td>
+			<td>7:30 pm	</td>
+		</tr>
+		<tr>
+			<td>Layman Bible Study<br>
+				造就班 
+			</td>
+			<td>1st Friday of the Month <br>
+				每月第一週五晚上
+			</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>Choir Practice<br>
+				詩班練唱 
+			</td>
+			<td>Sunday<br>
+				星期日中午 
+			</td>
+			<td>12:30 PM</td>
+		</tr>
+		<tr>
+			<td>Youth/Junior Fellowship<br>
+				青少年團契 
+			</td>
+			<td>Friday<br>
+			星期五晚上 
+			</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>Sister & Brother Fellowship<br>
+				姐妹弟兄團契 
+			</td>
+			<td>2nd Saturday of the Month<br>
+				每月第二星期六上午 
+			</td>
+			<td>11:30 am</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+'	where church_id = (select church_id from church where church_path = 'queens')
+	and locale = 'zh'
+	and page_id = 'schedule';
 
 ------------end queens
 
@@ -1022,19 +1171,19 @@ update church_content set body = '<table border="1" cellpadding="5" style= "font
 			<td>1:30 pm</td>
 		</tr>
 		<tr>
-			<td>餐館查經班 </br>Restaurant Bible Study</td>
-			<td>週 一(每隔一週) </br>Every Other Monday</td>
-			<td>8:00 pm</td>
-		</tr>
-		<tr>
 			<td>禱告會 </br>Prayer Meeting</td>
 			<td>週三 </br>Wednesday</td>
 			<td>8:00 pm</td>
 		</tr>
 		<tr>
+			<td>查經班  </br>Bible Study</td>
+			<td>每週六 </br> Every Saturday</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
 			<td>錫安團契 </br>Zion Fellowship</td>
 			<td>每月第三週六  </br>Every Third Saturday</td>
-			<td>7:30 pm</td>
+			<td>6:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -1049,7 +1198,7 @@ update church_content set body = '<table border="1" cellpadding="5" style= "font
 
 	<tbody>
 		<tr>
-			<td>中文主日崇拜 </br>Chinese Sunday Worship Service</td>
+			<td>中文主日崇拜</br> Chinese Sunday Worship Service</td>
 			<td>週 日 下 午 </br>Sunday</td>
 			<td>1:30 pm</td>
 		</tr>
@@ -1064,19 +1213,19 @@ update church_content set body = '<table border="1" cellpadding="5" style= "font
 			<td>1:30 pm</td>
 		</tr>
 		<tr>
-			<td>餐館查經班 </br>Restaurant Bible Study</td>
-			<td>週 一(每隔一週) </br>Every Other Monday</td>
-			<td>8:00 pm</td>
-		</tr>
-		<tr>
 			<td>禱告會 </br>Prayer Meeting</td>
 			<td>週三 </br>Wednesday</td>
 			<td>8:00 pm</td>
 		</tr>
 		<tr>
+			<td>查經班  </br>Bible Study</td>
+			<td>每週六 </br> Every Saturday</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
 			<td>錫安團契 </br>Zion Fellowship</td>
-			<td>每月第三週六     </br> Every Third Saturday</td>
-			<td>7:30 pm</td>
+			<td>每月第三週六  </br>Every Third Saturday</td>
+			<td>6:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -10671,50 +10820,74 @@ update church_content set body = '<table border="1" cellpadding="5">
     <b>Ministries and Fellowships </b>
 	<tbody>
 		<tr>
-			<td>Sunday Worship Service</td>
-			<td>Sunday</td>
-			<td>10:30 am</td>
+			<td><b>聚會  Services </b></td>
+			<td><b>時間 Time</b></td>
+			<td><b>負責人 In Charge</b></td>
 		</tr>
 		<tr>
-			<td>Children&#39; s  Sunday School</td>
-			<td>Sunday</td>
-			<td>10:00 am</td>
+			<td>國語崇拜(英語翻譯)  <br />
+			Mandarin Worship (English Translation)</td>
+			<td>每主日早上10:30 <br>
+			Every Sunday at 10:30 am</td>
+			<td>楊牧師</td>
 		</tr>
 		<tr>
-			<td>Monday English Bible Study <br>
-			</td>
-			<td>Every 2nd and 4th Monday</td>
-			<td>08:00 pm</td>
+			<td>英語崇拜   <br />
+			English Worship (no translation)</td>
+			<td>每月第二、三、四主日早上10:30 <br>
+			Every 2nd, 3rd and 4th Sunday at 10:30am</td>
+			<td>Rev. Yang</td>
 		</tr>
 		<tr>
-			<td>Wednesday Mandarin Bible Study<br>
-			(Led by Pastor Moses)</td>
-			<td>Wednesday <br> (resumed on 9/20/23)</td>
-			<td>07:30 pm</td>
+			<td>兒童主日學<br />
+			 Children&#39; s  Sunday School</td>
+			<td>每主日早上 10:30<br />
+			    Every Sunday 10:30am</td>
+			<td>Anita Lee and <br />
+			Christine Chuang</td>
 		</tr>
 		<tr>
-			<td>Friday Night Youth/Junior Fellowship <br>
-			(Youth 13 - 18 years old)</td>
-			<td>Friday</td>
-			<td>08:00 pm</td>
+			<td>週一英語查經班<br />
+			 Monday English Bible Study</td>
+			<td>每月第二、四週一晚上8:00<br />
+			    Every 2nd & 4th Monday at 8 pm</td>
+			<td>Darrin Chien</td>
 		</tr>
 		<tr>
-			<td>Young Adult Fellowship <br>
-			(College Students)</td>
-			<td>Friday</td>
-			<td>08:00 pm</td>
+			<td>週三國語查經禱告會<br />
+			 Wed. Mandarin Bible Study</td>
+			<td>每月第二、四週三晚上7:30<br />
+			    Every 2nd & 4th Wed at 7:30pm</td>
+			<td>楊牧師</td>
 		</tr>
 		<tr>
-			<td>Joy<br>
-			(Post College)</td>
-			<td>Friday</td>
-			<td>08:00 pm</td>
+			<td>週五英語少年團契<br />
+			 FNF Youth/Junior</td>
+			<td>每週五晚上8:00<br />
+			    Every Friday at 8:00 pm</td>
+			<td>Travis Chu</td>
 		</tr>
 		<tr>
-			<td>Online Adult Friday Night Fellowship
-			<br> (AFNF) </td>
-			<td>Every 2nd and 4th Friday</td>
-			<td>08:00pm</td>
+			<td>週五英語青年團契<br />
+			 Towaco Young Adult Fellowship</td>
+			<td>每週五晚上8:00<br />
+			    Every Friday at 8:00 pm</td>
+			<td>Tiffany Leung</td>
+		</tr>		<tr>
+			<td>週五英語中青團契<br />
+			 English JOY Fellowship</td>
+			<td>每週五晚上8:00<br />
+			    Every Friday at 8:00 pm</td>
+			<td>Daniel Lee</td>
+		</tr>
+
+		<tr>
+			<td>週五英語成人網上團契<br />
+			 Online English Adult Fellowship</td>
+			<td>每月第一、三週五晚上8:00<br />
+			    Every 1st & 3rd Friday at 8 pm <br/>
+				 https://discord.gg/hKVMmKZYbU</td>
+			<td>Ev. Patty Chien</td>
 		</tr>
 
 	</tbody>
@@ -10729,50 +10902,76 @@ update church_content set body = '<table border="1" cellpadding="5">
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>主日崇拜 </td>
-			<td>星期日上午</td>
-			<td>10:30 am</td>
+			<td><b>聚會  Services </b></td>
+			<td><b>時間 Time</b></td>
+			<td><b>負責人 In Charge</b></td>
 		</tr>
 		<tr>
-			<td>兒童主日學  </td>
-			<td>星期日上午</td>
-			<td>10:00 am</td>
+			<td>國語崇拜(英語翻譯)  <br />
+			Mandarin Worship (English Translation)</td>
+			<td>每主日早上10:30 <br>
+			Every Sunday at 10:30 am</td>
+			<td>楊牧師</td>
 		</tr>
 		<tr>
-			<td>英語查經班  </td>
-			<td>每月第二、 第四 週 星期一晚上</td>
-			<td>08:00 pm</td>
+			<td>英語崇拜   <br />
+			English Worship (no translation)</td>
+			<td>每月第二、三、四主日早上10:30 <br>
+			Every 2nd, 3rd and 4th Sunday at 10:30am</td>
+			<td>Rev. Yang</td>
 		</tr>
 		<tr>
-			<td>國語查經禱告會<br>
-			(楊摩西牧師帶領)</td>
-			<td>星期三晚上 (九月二十日恢復)</td>
-			<td>07:30 pm</td>
+			<td>兒童主日學<br />
+			 Children&#39; s  Sunday School</td>
+			<td>每主日早上 10:30<br />
+			    Every Sunday 10:30am</td>
+			<td>Anita Lee and <br />
+			Christine Chuang</td>
 		</tr>
 		<tr>
-			<td>少年團契
-			<br>(十三 至 十八歲少年) </td>
-			<td>星期五晚上</td>
-			<td>08:00 pm</td>
+			<td>週一英語查經班<br />
+			 Monday English Bible Study</td>
+			<td>每月第二、四週一晚上8:00<br />
+			    Every 2nd & 4th Monday at 8 pm</td>
+			<td>Darrin Chien</td>
 		</tr>
 		<tr>
-			<td>青年團契
-			<br> (十八歲至二十四歲青年)</td>
-			<td>星期五晚上</td>
-			<td>08:00 pm</td>
+			<td>週三國語查經禱告會<br />
+			 Wed. Mandarin Bible Study</td>
+			<td>每月第二、四週三晚上7:30<br />
+			    Every 2nd & 4th Wed at 7:30pm</td>
+			<td>楊牧師</td>
 		</tr>
 		<tr>
-			<td>喜樂團契
-			<br> (二十四歲以上青年)</td>
-			<td>星期五晚上</td>
-			<td>08:00 pm</td>
+			<td>週五英語少年團契<br />
+			 FNF Youth/Junior</td>
+			<td>每週五晚上8:00<br />
+			    Every Friday at 8:00 pm</td>
+			<td>Travis Chu</td>
 		</tr>
 		<tr>
-			<td>成人英語團契
-			<br> (網上查經)</td>
-			<td>每月第二、 第四 週 星期五晚上</td>
-			<td>8:00 pm</td>
+			<td>週五英語青年團契<br />
+			 Towaco Young Adult Fellowship</td>
+			<td>每週五晚上8:00<br />
+			    Every Friday at 8:00 pm</td>
+			<td>Tiffany Leung</td>
+		</tr>		<tr>
+			<td>週五英語中青團契<br />
+			 English JOY Fellowship</td>
+			<td>每週五晚上8:00<br />
+			    Every Friday at 8:00 pm</td>
+			<td>Daniel Lee</td>
 		</tr>
+
+		<tr>
+			<td>週五英語成人網上團契<br />
+			 Online English Adult Fellowship</td>
+			<td>每月第一、三週五晚上8:00<br />
+			    Every 1st & 3rd Friday at 8 pm <br/>
+				 https://discord.gg/hKVMmKZYbU</td>
+			<td>Ev. Patty Chien</td>
+		</tr>
+
 	</tbody>
 </table>
 
@@ -12533,6 +12732,211 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'oradell')
 	and locale = 'zh'
 	and page_id = 'contactus';
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>Sunday Worship<br>
+				主日崇拜
+			</td>
+			<td>Sunday<br>
+
+				星期日下午
+			</td>
+			<td>2:00 pm</td>
+		</tr>
+		<tr>
+			<td>Children&#39; Sunday School <br>
+				 兒童主日
+			</td>
+			<td>Sunday<br>
+				星期日下午
+			</td>
+			<td>2:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Fellowship<br>
+				青少年團契 
+			</td>
+			<td>Sunday<br>
+				星期日下午
+			</td>
+			<td>2:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Orchestra <br>
+				少年樂團 
+			</td>
+			<td>Sunday<br>
+				星期日 下午
+			</td>
+			<td>3:30 pm</td>
+		</tr>
+		<tr>
+			<td>Men&#39; Fellowship <br>
+				弟兄團契 
+			</td>
+			<td>1st Sunday of the Month<br>
+				每月第一個星期日下午 
+			</td>
+			<td>3:30 PM</td>
+		</tr>
+		<tr>
+			<td>Sister&#39; Fellowship <br>
+				姊妹團契 
+			</td>
+			<td>1st Sunday of the Month<br>
+				每月第一個星期日下午 
+			</td>
+			<td>3:30 PM</td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting (online)<br>
+				週三線上禱告會 
+			</td>
+			<td>Wednesday<br> 
+				星期三 晚 
+			</td>
+			<td>7:00 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study (online)  <br>
+				週五線上查經班 
+			</td>
+			<td>Friday<br>
+				 星期五上午 
+			</td>
+			<td>10:00 am</td>
+		</tr>
+		<tr>
+			<td>New-life Fellowship<br>
+				新生命團契 
+			</td>
+			<td>Sunday<br>
+				星期日 下午 
+			</td>
+			<td>Cancelled temporarily 暫停</td>
+		</tr>
+		<tr>
+			<td>English Class <br>
+				英語會話 
+			</td>
+			<td>Friday<br>
+				星期五下午 
+			</td>
+			<td>Cancelled temporarily 暫停</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+'	where church_id = (select church_id from church where church_path = 'oradell')
+	and locale = 'en'
+	and page_id = 'schedule';
+
+
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>Sunday Worship<br>
+				主日崇拜
+			</td>
+			<td>Sunday<br>
+
+				星期日下午
+			</td>
+			<td>2:00 pm</td>
+		</tr>
+		<tr>
+			<td>Children&#39; Sunday School <br>
+				 兒童主日
+			</td>
+			<td>Sunday<br>
+				星期日下午
+			</td>
+			<td>2:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Fellowship<br>
+				青少年團契 
+			</td>
+			<td>Sunday<br>
+				星期日下午
+			</td>
+			<td>2:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Orchestra <br>
+				少年樂團 
+			</td>
+			<td>Sunday<br>
+				星期日 下午
+			</td>
+			<td>3:30 pm</td>
+		</tr>
+		<tr>
+			<td>Men&#39; Fellowship <br>
+				弟兄團契 
+			</td>
+			<td>1st Sunday of the Month<br>
+				每月第一個星期日下午 
+			</td>
+			<td>3:30 PM</td>
+		</tr>
+		<tr>
+			<td>Sister&#39; Fellowship <br>
+				姊妹團契 
+			</td>
+			<td>1st Sunday of the Month<br>
+				每月第一個星期日下午 
+			</td>
+			<td>3:30 PM</td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting (online)<br>
+				週三線上禱告會 
+			</td>
+			<td>Wednesday<br> 
+				星期三 晚 
+			</td>
+			<td>7:00 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study (online)  <br>
+				週五線上查經班 
+			</td>
+			<td>Friday<br>
+				 星期五上午 
+			</td>
+			<td>10:00 am</td>
+		</tr>
+		<tr>
+			<td>New-life Fellowship<br>
+				新生命團契 
+			</td>
+			<td>Sunday<br>
+				星期日 下午 
+			</td>
+			<td>Cancelled temporarily 暫停</td>
+		</tr>
+		<tr>
+			<td>English Class <br>
+				英語會話 
+			</td>
+			<td>Friday<br>
+				星期五下午 
+			</td>
+			<td>Cancelled temporarily 暫停</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+'	where church_id = (select church_id from church where church_path = 'oradell')
+	and locale = 'zh'
+	and page_id = 'schedule';
+
 
 -----------------------end Oradell
 
@@ -13202,13 +13606,13 @@ update church_content set body = '<table border="1" cellpadding="5">
 		</tr>
 		<tr>
 			<td>Brothers&#39; Fellowship </td>
-			<td>(cancelled temporarily)</td>
-			<td></td>
+			<td>2nd Sunday of the month</td>
+			<td>1:00 PM</td>
 		</tr>
 		<tr>
 			<td>Sisters&#39; Fellowship </td>
-			<td>(cancelled temporarily)</td>
-			<td></td>
+			<td>2nd Sunday of the month</td>
+			<td>1:00 PM</td>
 		</tr>
 	</tbody>
 </table>
@@ -13249,13 +13653,13 @@ update church_content set body = '<table border="1" cellpadding="5">
 		</tr>
 		<tr>
 			<td>弟兄團契</td>
-			<td>暫停</td>
-			<td></td>
+			<td>每月第二個主日</td>
+			<td>1:00 PM</td>
 		</tr>
 		<tr>
 			<td>姐妹團契</td>
-			<td>暫停</td>
-			<td></td>
+			<td>每月第二個主日</td>
+			<td>1:00 PM</td>
 		</tr>
 
 	</tbody>
