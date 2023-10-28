@@ -1677,7 +1677,7 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor: </b>Yehxin Martin Ding
+<b>Pastor: </b>Rev. Yehxin Martin Ding
 </p>
 <p>
 <b>Address: </b>73 Avenue de Verdun, 94200 Ivry-sur-Seine, Paris, France
@@ -11575,8 +11575,12 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Pastor:</td>
+			<td class="label">Senior Pastor:</td>
 			<td>Rev. Mix Chan</td>
+		</tr>
+		<tr>
+			<td class="label">Associate Pastor:</td>
+			<td>Rev. Sau-Chun Wan</td>
 		</tr>
 	</tbody>
 </table>
@@ -11631,8 +11635,12 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">牧師:</td>
+			<td class=\"label\">主任牧師:</td>
 			<td>陳茂祥 牧師</td>
+		</tr>
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>溫秀珍 牧師</td>
 		</tr>
 	</tbody>
 </table>
@@ -11680,7 +11688,10 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor: </b>Rev. Mix Chan
+<b>Senior Pastor: </b>Rev. Mix Chan
+</p>
+<p>
+<b>Associate Pastor: </b>Rev. Sau-Chun Wan
 </p>
 <p>
 <b>Address: </b>Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium
@@ -11702,7 +11713,10 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師: </b>陳茂祥 牧師
+<b>主任牧師: </b>陳茂祥 牧師
+</p>
+<p>
+<b>牧師: </b>溫秀珍 牧師
 </p>
 <p>
 <b>地址: </b>Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium
