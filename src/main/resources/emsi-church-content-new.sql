@@ -13444,7 +13444,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> (845)623-2045</td>
+			<td>973-335-7337, ext. 220</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -13509,7 +13509,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> (845)623-2045 </td>
+			<td>973-335-7337, ext. 220 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -13554,7 +13554,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Address: </b>456 North Middle Town Rd, Pearl River, NY 10965 USA
 </p>
 <p>
-<b>Tel #: (845)623-2045
+<b>Tel #: 973-335-7337, ext. 220
 </p>
 <p>
 <b>Email: </b>emsilan2013@gmail.com
@@ -13576,7 +13576,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>456 North Middle Town Rd, Pearl River, NY 10965 USA
 </p>
 <p>
-<b>電話:</b> (845)623-2045
+<b>電話:</b> 973-335-7337, ext. 220
 </p>
 <p>
 <b>電郵: </b>emsilan2013@gmail.com
