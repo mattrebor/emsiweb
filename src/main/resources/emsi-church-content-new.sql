@@ -498,6 +498,16 @@ update church_content set body = STRINGDECODE('<p>
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
+			<td>Basic Doctrine <br>
+				基要真理 
+			</td>
+			<td>Sunday<br>
+
+				星期日上午
+			</td>
+			<td>9:00 am</td>
+		</tr>
+		<tr>
 			<td>Worship Service <br>
 				主日崇拜
 			</td>
@@ -572,6 +582,16 @@ update church_content set body = '<table border="1" cellpadding="5">
 
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
+		<tr>
+			<td>Basic Doctrine <br>
+				基要真理 
+			</td>
+			<td>Sunday<br>
+
+				星期日上午
+			</td>
+			<td>9:00 am</td>
+		</tr>
 		<tr>
 			<td>Worship Service <br>
 				主日崇拜
@@ -13087,40 +13107,22 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'schedule', 'en', 'ECMSI in Brooklyn - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>Worship Service</td>
-			<td>Sunday 10:30 am</td>
+			<td>Worship Service</br>
+				主日崇拜
+			</td>
+			<td>Sunday</br>
+			 	 星期日上午
+			</td>
+			<td>10:30 am</td>
 		</tr>
 		<tr>
-			<td>Adult Sunday School</td>
-			<td>Sunday 9:30 am</td>
-		</tr>
-		<tr>
-			<td>Children Sunday School</td>
-			<td>Sunday 10:30 am</td>
-		</tr>
-		<tr>
-			<td>Choir Practice</td>
-			<td>Sunday 1 pm</td>
-		</tr>
-		<tr>
-			<td>Bible Class</td>
-			<td>Tuesday 2 pm</td>
-		</tr>
-		<tr>
-			<td>Prayer and Bible Study</td>
-			<td>Wednesday 7:30 pm</td>
-		</tr>
-		<tr>
-			<td>Youth Fellowship</td>
-			<td>Friday 7:30 pm</td>
-		</tr>
-		<tr>
-			<td>Adult Bible Study</td>
-			<td>Friday 7:30 pm</td>
-		</tr>
-		<tr>
-			<td>Men’s Fellowship</td>
-			<td>Fourth Sunday 7:30 pm</td>
+			<td>Bible Study and Prayer Meeting</br>
+				查經禱告會
+			</td>
+			<td>Wednesday </br>
+				星期三晚上
+			</td>
+			<td>7:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -13130,40 +13132,22 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(55, 'schedule', 'zh', '希伯崙基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜</td>
-			<td>週日上午 10:30 am</td>
+			<td>Worship Service</br>
+				主日崇拜
+			</td>
+			<td>Sunday</br>
+			 	 星期日上午
+			</td>
+			<td>10:30 am</td>
 		</tr>
 		<tr>
-			<td>成人主日學</td>
-			<td>週日上午 9:30 am</td>
-		</tr>
-		<tr>
-			<td>兒童主日學</td>
-			<td>週日上午 10:30 am</td>
-		</tr>
-		<tr>
-			<td>詩歌練習</td>
-			<td>週日上午 1 pm</td>
-		</tr>
-		<tr>
-			<td>日間查經班</td>
-			<td>週二下午  2 pm</td>
-		</tr>
-		<tr>
-			<td>禱告查經班</td>
-			<td>週三晚上 7:30 pm</td>
-		</tr>
-		<tr>
-			<td>少年團契</td>
-			<td>週五晚上  7:30 pm</td>
-		</tr>
-		<tr>
-			<td>成人查經班</td>
-			<td>週五晚上  7:30 pm</td>
-		</tr>
-		<tr>
-			<td>弟兄團契 </td>
-			<td>每月第四週日下午  7:30 pm</td>
+			<td>Bible Study and Prayer Meeting</br>
+				查經禱告會
+			</td>
+			<td>Wednesday </br>
+				星期三晚上
+			</td>
+			<td>7:30 pm</td>
 		</tr>
 	</tbody>
 </table>
