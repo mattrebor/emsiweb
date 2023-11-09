@@ -5915,25 +5915,30 @@ Weekly Regular Meetings
 	<tbody>
 		<tr>
 			<td>主日崇拜</br>Sunday Worship</td>
-			<td>星期日</br>Sunday </td>
-			<td>晚6:30 - 8:00 </br>6:30 - 8:00pm</td>
+			<td>星期日晚</br>Sunday </td>
+			<td>6:30 - 8:00 pm</td>
 		</tr>
 
 		<tr>
 			<td>主日學</br>Sunday School</td>
-			<td>星期日</br>Sunday </td>
-			<td>晚6:30 - 8:00 </br>6:30 - 8:00pm</td>
+			<td>星期日晚</br>Sunday </td>
+			<td>6:30 - 8:00pm</td>
 		</tr>
 		<tr>
 			<td>查經禱告會</br>Bible Study and Prayer Meeting</td>
-			<td>星期三</br>Wednesday </td>
-			<td>晚6:00 - 7:30 </br>6:00 - 7:30pm</td>
+			<td>星期四晚</br>Thursday </td>
+			<td>6:00 - 8:00pm</td>
 		</tr>
 		<tr>
+			<td>喜樂團契 </br>Joy Fellowship</td>
+			<td>星期六下午 </br>Saturday</td>
+			<td>5:30 pm   </br> </td>
+		</tr>		<tr>
 			<td>青少年團契</br>Youth Fellowship</td>
-			<td>群裡通知</br>To be announced </td>
-			<td>   </br> </td>
+			<td>星期六下午 </br>Saturday</td>
+			<td>5:30 pm   </br> </td>
 		</tr>
+
 
 	</tbody>
 </table>
@@ -5953,23 +5958,28 @@ Weekly Regular Meetings
 	<tbody>
 		<tr>
 			<td>主日崇拜</br>Sunday Worship</td>
-			<td>星期日</br>Sunday </td>
-			<td>晚6:30 - 8:00 </br>6:30 - 8:00pm</td>
+			<td>星期日晚</br>Sunday </td>
+			<td>6:30 - 8:00 pm</td>
 		</tr>
+
 		<tr>
 			<td>主日學</br>Sunday School</td>
-			<td>星期日</br>Sunday </td>
-			<td>晚6:30 - 8:00 </br>6:30 - 8:00pm</td>
+			<td>星期日晚</br>Sunday </td>
+			<td>6:30 - 8:00pm</td>
 		</tr>
 		<tr>
 			<td>查經禱告會</br>Bible Study and Prayer Meeting</td>
-			<td>星期三</br>Wednesday </td>
-			<td>晚6:00 - 7:30 </br>6:00 - 7:30pm</td>
+			<td>星期四晚</br>Thursday </td>
+			<td>6:00 - 8:00pm</td>
 		</tr>
 		<tr>
+			<td>喜樂團契 </br>Joy Fellowship</td>
+			<td>星期六下午 </br>Saturday</td>
+			<td>5:30 pm   </br> </td>
+		</tr>		<tr>
 			<td>青少年團契</br>Youth Fellowship</td>
-			<td>群裡通知</br>To be announced </td>
-			<td>   </br> </td>
+			<td>星期六下午 </br>Saturday</td>
+			<td>5:30 pm   </br> </td>
 		</tr>
 
 	</tbody>
