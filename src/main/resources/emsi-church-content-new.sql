@@ -2304,8 +2304,16 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Pastor:</td>
+			<td class="label">Senior Pastor:</td>
 			<td>Rev. Yueh-Yun Li, 34-629-035-717</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Jiang Guojin, 34-687-587-688</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Chen Min, 34-635-037-035</td>
 		</tr>
 	</tbody>
 </table>
@@ -2321,17 +2329,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>34-91-4595775, 34-91-4507306</td>
+			<td>34-91-459-5775, 34-91-450-7306</td>
 		</tr>
 		<tr>
 			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:iglesiamadrid@telefonica.net">iglesiamadrid@telefonica.net</a></td>
-		</tr>
-		<tr>
-			<td><img height="16" src="/emsiweb/images/emsi/icon_skype.gif" width="16" /></td>
-			<td class="label">Skype:</td>
-			<td>yueh2004</td>
+			<td><a href="mailto:ceminspain@gmail.com">ceminspain@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -2371,8 +2374,16 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">牧師:</td>
+			<td class="label">主任牧師:</td>
 			<td>李月雲 牧師, 34-629-035-717</td>
+		</tr>
+		<tr>
+			<td class="label">傳道:</td>
+			<td>蔣國金 傳道, 34-687-587-688</td>
+		</tr>
+		<tr>
+			<td class="label">傳道:</td>
+			<td>陳敏 傳道, 34-635-037-035</td>
 		</tr>
 	</tbody>
 </table>
@@ -2384,7 +2395,10 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 			<td class="label">地址:</td>
-			<td>C/ Las Carolinas 10, 28039 Madrid, Spain</td>
+			<td>C/ Las Carolinas 10, 28039 Madrid, Spain</br>
+			地鐵1線 Alvarado站, Impares出口, 第二條街 (La Caixa銀行)左轉即達
+			
+			</td>
 		</tr>
 		<tr>
 			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -2394,12 +2408,17 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 			<td class="label">電郵:</td>
-			<td><a href="mailto:iglesiamadrid@telefonica.net">iglesiamadrid@telefonica.net</a></td>
+			<td><a href="mailto:ceminspain@gmail.com">ceminspain@gmail.com</a></td>
 		</tr>
 		<tr>
-			<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_skype.gif" width="16" /></td>
-			<td class="label">Skype:</td>
-			<td>yueh2004</td>
+			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+			<td class="label">西班牙佈道會</br> 微信公眾號:</td>
+			<td>『西班牙生命堂』</td>
+		</tr>
+		<tr>
+			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+			<td class="label">本堂中文學校</br> 微信公眾號:</td>
+			<td>『國際中文』</td>
 		</tr>
 	</tbody>
 </table>
@@ -2633,19 +2652,22 @@ update church_content set body = '<p><b>主日崇拜 | 週日下午5:30PM</b></p
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor: </b>Rev. Yueh-Yun Li, 34-629-035-717
+<b>Senior Pastor: </b>Rev. Yueh-Yun Li, 34-629-035-717
+</p>
+<p>
+<b>Evangelist: </b>Ev. Jiang Guojin, 34-687-587-688
+</p>
+<p>
+<b>Evangelist: </b>Ev. Chen Min, 34-635-037-035
 </p>
 <p>
 <b>Address: </b>C/Las Carolinas 10, 28039 Madrid, Spain
 </p>
 <p>
-<b>Tel #: </b>34-91-4595775, 34-91-4507306
+<b>Tel #: </b>34-91-459-5775, 34-91-450-7306
 </p>
 <p>
-<b>Email: </b>iglesiamadrid@telefonica.net
-</p>
-<p>
-<b>Skype: </b>yueh2004
+<b>Email: </b>ceminspain@gmail.com
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.081297316464!2d-3.7071105846030368!3d40.451337579361116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422855055d5179%3A0xc2ed99e53f130fb7!2sCalle+Carolinas%2C+10%2C+28039+Madrid%2C+Spain!5e0!3m2!1sen!2sus!4v1521661158644" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -2658,22 +2680,32 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師: </b>李月雲  牧師, 34-629-035-717
+<b>主任牧師: </b>李月雲  牧師, 34-629-035-717
 </p>
 <p>
-<b>地址: </b>C/Las Carolinas 10, 28039 Madrid, Spain
+<b>傳道: </b>蔣國金 傳道, 34-687-587-688
 </p>
 <p>
-<b>電話: </b>34-91-4595775, 34-91-4507306
+<b>傳道: </b>陳 敏傳道, 34-635-037-035
 </p>
 <p>
-<b>電郵: </b>iglesiamadrid@telefonica.net
+<b>地址: </b>C/Las Carolinas 10, 28039 Madrid, Spain</br>
+<b>路線: </b>地鐵1線 Alvarado站, Impares出口, 第二條街 (La Caixa銀行)左轉即達
 </p>
 <p>
-<b>Skype: </b>yueh2004
+<b>電話: </b>34-91-459-5775, 34-91-450-7306
 </p>
 <p>
-路線: 地鐵1線 Alvarado站, Impares出口, 第二條街 (La Caixa銀行)左轉即達 </br>
+<b>電郵: </b>ceminspain@gmail.com<br>
+</p>
+<p>
+<b>西班牙佈道會 微信公眾號：</b>『西班牙生命堂』
+</p>
+<p>
+<b>本堂中文學校 微信公眾號：</b>『國際中文』
+</p>
+<p>
+
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3036.081297316464!2d-3.7071105846030368!3d40.451337579361116!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd422855055d5179%3A0xc2ed99e53f130fb7!2sCalle+Carolinas%2C+10%2C+28039+Madrid%2C+Spain!5e0!3m2!1sen!2sus!4v1521661158644" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 
