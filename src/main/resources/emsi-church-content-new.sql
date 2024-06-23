@@ -7968,7 +7968,11 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Yiu Cheung (mobile: 06 - 81 556 777)</td>
+			<td>Ev. Chun Yu Lau, +31-(0)61-357-4829</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Chandice Lau-Lee, +31-(0)62-884-7813</td>
 		</tr>
 	</tbody>
 </table>
@@ -7983,7 +7987,7 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0031-(0)50-571-8040 / 0031-(0)681-55-6777</td>
+			<td>+31-(0)50-571-8040</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -8030,7 +8034,11 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>張堯 傳道, 06-81-55-6777</td>
+			<td>劉震宇傳道, +31-(0)61-357-4829</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>劉李嘉欣傳道, +31-(0)62-884-7813</td>
 		</tr>
 	</tbody>
 </table>
@@ -8045,7 +8053,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td>0031-(0)50-571-8040 / 0031-(0)681-55-6777</td>
+			<td>+31-(0)50-571-8040</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -8082,13 +8090,16 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Yiu Cheung (mobile: 06 - 81 556 777)
+<b>Evangelist: </b>Ev. Chun Yu Lau, +31-(0)61-357-4829
+</p>
+<p>
+<b>Evangelist: </b>Ev. Chandice Lau-Lee, +31-(0)62-884-7813
 </p>
 <p>
 <b>Address: </b>Korreweg 37, 9714 AB Groningen, The Netherlands
 </p>
 <p>
-<b>Tel #: </b>0031-(0)50-571-8040 / 0031-(0)681-55-6777
+<b>Tel #: </b>+31-(0)50-571-8040
 <p>
 <b>Email: </b>emsigroningen@gmail.com
 </p>
@@ -8104,13 +8115,16 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 張堯 傳道, 06-81-55-6777
+<b>傳道:</b> 劉震宇傳道, +31-(0)61-357-4829
+</p>
+<p>
+<b>傳道:</b> 劉李嘉欣傳道, +31-(0)62-884-7813
 </p>
 <p>
 <b>地址: </b>Korreweg 37, 9714 AB Groningen, The Netherlands
 </p>
 <p>
-<b>電話:</b> 0031-(0)50-571-8040 / 0031-(0)681-55-6777
+<b>電話:</b> +31-(0)50-571-8040
 </p>
 <p>
 <b>電郵: </b>emsigroningen@gmail.com
@@ -8723,7 +8737,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Linda Chiu</td>
+			<td>Ev. Linda Lai Kuen Chiu, +31-(0)62-454-2277</td>
 		</tr>
 	</tbody>
 </table>
@@ -8738,7 +8752,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>31-76-532-3351 / 31-62-454-2277</td>
+			<td>+31-(0)76-532-3351</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -8792,7 +8806,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>趙麗娟 傳道</td>
+			<td>趙麗娟傳道, +31-(0)62-454-2277</td>
 		</tr>
 	</tbody>
 </table>
@@ -8807,7 +8821,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 31-76-532-3351 / 31-62-454-2277 </td>
+			<td> +31-(0)76-532-3351 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -8851,13 +8865,13 @@ p span.label {font-weight: bold;}
 
 	update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Linda Chiu
+<b>Evangelist: </b>Ev. Linda Lai Kuen Chiu, +31-(0)62-454-2277
 </p>
 <p>
 <b>Address: </b>Goeseelsstraat 30, 4817 MV Breda, The Netherlands
 </p>
 <p>
-<b>Tel #: </b>31-76-532-3351 / 31-62-454-2277
+<b>Tel #: </b>+31-(0)76-532-3351
 </p>
 <p>
 <b>Email: </b>emsibreda@gmail.com
@@ -8873,13 +8887,13 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 趙麗娟 傳道
+<b>傳道:</b> 趙麗娟傳道, +31-(0)62-454-2277
 </p>
 <p>
 <b>地址: </b>Goeseelsstraat 30, 4817 MV Breda, The Netherlands
 </p>
 <p>
-<b>電話:</b> 31-76-532-3351 / 31-62-454-2277
+<b>電話:</b> +31-(0)76-532-3351
 </p>
 <p>
 <b>電郵: </b>emsibreda@gmail.com
@@ -9178,7 +9192,7 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. Kwok On Lam (Eric Lam)</td>
+			<td>Rev. Kwok On Lam, +31-(0)62-955-1772</td>
 		</tr>
 	</tbody>
 </table>
@@ -9193,7 +9207,7 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0031-(0)164 78 58 22 / 0031-(0)629 55 17 72</td>
+			<td>+31-(0)164-78-5822</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -9235,7 +9249,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>林國安 牧師</td>
+			<td>林國安牧師, +31-(0)62-955-1772</td>
 		</tr>
 	</tbody>
 </table>
@@ -9250,7 +9264,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td>0031-(0)164 78 58 22 / 0031-(0)629 55 17 72</td>
+			<td>+31-(0)164-78-5822</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -9283,13 +9297,13 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor: </b>Rev. Kwok On Lam (Eric Lam)
+<b>Pastor: </b>Rev. Kwok On Lam, +31-(0)62-955-1772
 </p>
 <p>
 <b>Address: </b>Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherlands
 </p>
 <p>
-<b>Tel #: </b>0031-(0)164 78 58 22 / 0031-(0)629 55 17 72
+<b>Tel #: </b>+31-(0)164-78-5822
 <p>
 <b>Email: </b>ekolam@hotmail.com
 </p>
@@ -9304,13 +9318,13 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師:</b> 林國安 牧師
+<b>牧師:</b> 林國安牧師, +31-(0)62-955-1772
 </p>
 <p>
 <b>地址: </b>Rozenstraat 2, 4613 AJ Bergen Op Zoom, The Netherlands
 </p>
 <p>
-<b>電話:</b> 0031-(0)164 78 58 22 / 0031-(0)629 55 17 72
+<b>電話:</b> +31-(0)164-78-5822
 </p>
 <p>
 <b>電郵: </b>ekolam@hotmail.com
@@ -10719,7 +10733,11 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. Louis Chung</td>
+			<td>Rev. Chi Fan Chung, +31-(0)65-065-2284</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Yuet Chun Chung-Lee, +31-(0)63-616-8393</td>
 		</tr>
 	</tbody>
 </table>
@@ -10734,7 +10752,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0031-53-231-0798 / 0031-(0)65-065-2284</td>
+			<td>+31-(0)53-231-0798</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -10774,7 +10792,11 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>鍾志勳 牧師</td>
+			<td>鍾志勳牧師, +31-(0)65-065-2284</td>
+		</tr>
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>鍾李月珍師母, +31-(0)63-616-8393</td>
 		</tr>
 	</tbody>
 </table>
@@ -10789,7 +10811,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 0031-53-231-0798 / 0031-(0)65-065-2284 </td>
+			<td> +31-(0)53-231-0798 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -10820,13 +10842,16 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor: </b>Rev. Louis Chung
+<b>Pastor: </b>Rev. Chi Fan Chung, +31-(0)65-065-2284
+</p>
+<p>
+<b>Evangelist: </b>Ev. Yuet Chun Chung-Lee, +31-(0)63-616-8393
 </p>
 <p>
 <b>Address: </b>Boddenkampstraat 2, 7514 ZA Enschede, The Netherlands
 </p>
 <p>
-<b>Tel #: </b>0031-53-231-0798 / 0031-(0)65-065-2284
+<b>Tel #: </b>+31-(0)53-231-0798
 </p>
 <p>
 <b>Email: </b>emsienschede@gmail.com
@@ -10842,13 +10867,16 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師:</b> 鍾志勳 牧師
+<b>牧師:</b> 鍾志勳牧師, +31-(0)65-065-2284
+</p>
+<p>
+<b>傳道:</b> 鍾李月珍師母, +31-(0)63-616-8393
 </p>
 <p>
 <b>地址: </b>Boddenkampstraat 2, 7514 ZA Enschede, The Netherlands
 </p>
 <p>
-<b>電話:</b> 0031-53-231-0798 / 0031-(0)65-065-2284
+<b>電話:</b> +31-(0)53-231-0798
 </p>
 <p>
 <b>電郵: </b>emsienschede@gmail.com
