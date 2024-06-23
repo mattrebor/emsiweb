@@ -8910,7 +8910,11 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. LeungMing Wong</td>
+			<td>Rev. Leung Ming Wong, +31-(0)61-296-5512</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Kwok Cheung Fung, +31-(0)64-679-5938</td>
 		</tr>
 	</tbody>
 </table>
@@ -8921,11 +8925,6 @@ p span.label {font-weight: bold;}
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
 			<td>Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands</td>
-		</tr>
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">Tel#:</td>
-			<td>0031-(0)-612965512</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -8966,7 +8965,11 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>黃良明 牧師</td>
+			<td>黃良明牧師, +31-(0)61-296-5512</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>馮國璋傳道, +31-(0)64-679-5938/td>
 		</tr>
 	</tbody>
 </table>
@@ -8977,11 +8980,6 @@ p span.label {font-weight: bold;}
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
 			<td> Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands</td>
-		</tr>
-		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">電話:</td>
-			<td> 0031-(0)-612965512 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -9014,13 +9012,13 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor: </b>Rev. LeungMing Wong
+<b>Pastor: </b>Rev. Leung Ming Wong, +31-(0)61-296-5512
+</p>
+<p>
+<b>Evangelist: </b>Ev. Kwok Cheung Fung, +31-(0)64-679-5938
 </p>
 <p>
 <b>Address: </b>Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands
-</p>
-<p>
-<b>Tel #: </b>0031-(0)-612965512
 </p>
 <p>
 <b>Email: </b>emsiamsterdam@gmail.com
@@ -9036,13 +9034,13 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師:</b> 黃良明 牧師
+<b>牧師:</b> 黃良明牧師, +31-(0)61-296-5512
+</p>
+<p>
+<b>傳道:</b> 馮國璋傳道, +31-(0)64-679-5938
 </p>
 <p>
 <b>地址: </b>Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands
-</p>
-<p>
-<b>電話:</b> 0031-(0)-612965512
 </p>
 <p>
 <b>電郵: </b>emsiamsterdam@gmail.com
