@@ -8157,15 +8157,15 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. Chi Fan Chung</td>
+			<td>Rev. Chi Fan Chung, +31-(0)65-065-2284</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Wingkit Chan, +31-(0)64-325-4718 </td>
+			<td>Ev. Yuet Chun Chung-Lee, +31-(0)63-616-8393</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Donna Chan, +31-(0)64-325-4717</td>
+			<td>Ev. Wing Kit Chan, +31-(0)64-325-4718 </td>
 		</tr>
 	</tbody>
 </table>
@@ -8175,12 +8175,12 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>Marokkodreef 3, 3564 EV , Utrecht, The Netherlands</td>
+			<td>Marokkodreef 3, 3564 EV, Utrecht, The Netherlands</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0031-30-261-6167 / 0031-65-065-2284</td>
+			<td>0031-30-261-6167</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -8227,15 +8227,15 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>鍾志勳 牧師</td>
+			<td>鍾志勳 牧師<, +31-(0)65-065-2284/td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>鍾李月珍師母, +31-(0)63-616-8393</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
 			<td>陳永傑傳道，+31-(0)64-325-4718</td>
-		</tr>
-		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>廖美恩傳道，+31-(0)64-325-4717</td>
 		</tr>
 	</tbody>
 </table>
@@ -8403,8 +8403,200 @@ update church_content set body =
 	and page_id = 'schedule';
 
 
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Pastor: </b>Rev. Chi Fan Chung, +31-(0)65-065-2284
+</p>
+<p>
+<b>Evangelist: </b>Ev. Yuet Chun Chung-Lee, +31-(0)63-616-8393
+</p>
+<p>
+<b>Evangelist: </b>Ev. Wing Kit Chan, +31-(0)64-325-4718
+</p>
+<p>
+<b>Address: </b>Marokkodreef 3, 3564 EV, Utrecht, The Netherlands
+</p>
+<p>
+<b>Tel #: </b>+31-(0)30-261-6167
+</p>
+<p>
+<b>Email: </b>emsiutrecht@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2449.701163475838!2d5.1066846!3d52.1215659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f1db96319ab%3A0xe48e7fcd646dab99!2sMarokkodreef%203%2C%203564%20EV%20Utrecht%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1719172675094!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'utrecht')
+	and locale = 'en'
+	and page_id = 'contactus';
+
+
+
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>牧師:</b> 鍾志勳牧師, +31-(0)65-065-2284
+</p>
+<p>
+<b>傳道:</b> 鍾李月珍師母, +31-(0)63-616-8393
+</p>
+<p>
+<b>傳道:</b> 陳永傑傳道, +31-(0)64-325-4718
+</p>
+<p>
+<b>地址: </b>Marokkodreef 3, 3564 EV, Utrecht , The Netherlands
+</p>
+<p>
+<b>電話: </b> +31-(0)30-261-6167
+</p>
+<p>
+<b>電郵: </b>emsiutrecht@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2449.701163475838!2d5.1066846!3d52.1215659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c66f1db96319ab%3A0xe48e7fcd646dab99!2sMarokkodreef%203%2C%203564%20EV%20Utrecht%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1719172675094!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'utrecht')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+
+
+
+
 -------------- ends Holland - Utrecht
+
+
+
+
+
 ----------  starts Holland - zwolle
+
+update church_content set body = STRINGDECODE('<style>
+.contact-content {
+font-family: Arial,helvetica,sans-serif
+}
+.contact-content td {
+padding-bottom: 2px; padding-left: 2px; padding-right: 2px; font-size: small; padding-top: 2px; 3px:
+}
+td.label {
+width: 1%; white-space: nowrap; font-weight: bold
+}
+p span.label {
+font-weight: bold
+}
+.main-content {
+font-family: Arial, MingLiU, Helvetica, san-serif; color: #333; font-size: 13px
+}
+.borderless-table {
+border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px
+}</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Chi Fan Chung, +31-(0)65-065-2284</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Yuet Chun Chung-Lee, +31-(0)63-616-8393</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>Esdoornstraat 25, 8021 WB Zwolle, The Netherlands</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsiutrecht@gmail.com">emsiutrecht@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>November 11, 1996
+</p>
+<p>
+<img src="/emsi/files/zwolle.jpg\" alt="CEC in Utrecht" title="CEC in Utrecht" align="left" height="270" hspace="5" width="360" />
+The church was founded on November 11, 1996 and joined CEC in Europe in September, 1998. Later the church was renamed CEC in Zwolle in 1999.
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'zwolle')
+	and locale = 'en'
+	and page_id = 'intro';
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>鍾志勳 牧師<, +31-(0)65-065-2284/td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>鍾李月珍師母, +31-(0)63-616-8393</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td> Esdoornstraat 25, 8021 WB Zwolle, The Netherlands </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:emsiutrecht@gmail.com\">emsiutrecht@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<b>成立日期:</b> 1996年 11月 11日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace=\"5\" src=\"/emsi/files/zwolle.jpg\" align=\"left\" height=\"255\" width=\"360\" />
+這個堂會前身是中華福音教會，是蔡偉雄牧師於一九九六年創立的。由於蔡牧師於一九九八年九月受聘在海牙生命堂牧會，經協商佈道會接納該會於98年10月正式加入成為本會堂會，易名為「思活路生命堂」，並得海牙生命堂願意繼續支持蔡牧師到該堂牧會的工作。
+<br />
+由1996年11月至2004年12月一直在Koestraat 4,Zwolle一所路得會教會聚會,由2005年搬到Esdoornstraat 25 ,Zwolle的一所改革宗教會聚至現在 。 
+<br />
+
+由於大部份會友都做飲食行業,所以思活路生命堂一直在星期一進行崇拜。 
+</p></div>
+')	where church_id = (select church_id from church where church_path = 'zwolle')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+
+
+
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(24, 'schedule', 'en', 'CEC in Zwolle - Church Services Schedule',
 '
@@ -8464,6 +8656,50 @@ update church_content set body =
 	and locale = 'zh'
 	and page_id = 'schedule';
 
+
+
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Pastor: </b>Rev. Chi Fan Chung, +31-(0)65-065-2284
+</p>
+<p>
+<b>Evangelist: </b>Ev. Yuet Chun Chung-Lee, +31-(0)63-616-8393
+</p>
+<p>
+<b>Address: </b>Esdoornstraat 25, 8021 WB Zwolle, The Netherlands
+</p>
+<p>
+<b>Email: </b>emsiutrecht@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.6385584414743!2d6.0963595999999995!3d52.521879899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7df377f47e79d%3A0x53cc60140df03ba7!2sEsdoornstraat%2025%2C%208021%20WB%20Zwolle%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1719175190793!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'zwolle')
+	and locale = 'en'
+	and page_id = 'contactus';
+
+
+
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>牧師:</b> 鍾志勳牧師, +31-(0)65-065-2284
+</p>
+<p>
+<b>傳道:</b> 鍾李月珍師母, +31-(0)63-616-8393
+</p>
+<p>
+<b>地址: </b>Esdoornstraat 25, 8021 WB Zwolle, The Netherlands
+</p>
+<p>
+<b>電郵: </b>emsiutrecht@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2427.6385584414743!2d6.0963595999999995!3d52.521879899999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c7df377f47e79d%3A0x53cc60140df03ba7!2sEsdoornstraat%2025%2C%208021%20WB%20Zwolle%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1719175190793!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+
+')	where church_id = (select church_id from church where church_path = 'zwolle')
+	and locale = 'zh'
+	and page_id = 'contactus';
 
 
 ----------  ends Holland zwolle
