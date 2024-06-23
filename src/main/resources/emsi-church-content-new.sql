@@ -6975,11 +6975,23 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Senior Pastor:</td>
-			<td>Rev. Hugo K.Y. Chan</td>
+			<td>Rev. Hugo Kai Yau Chan, +31-(0)64-009-4225</td>
 		</tr>
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. W.H. Tang</td>
+			<td>Rev. Wai Hong Tang, +31-(0)61-529-2609</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Erna Sheung P. Chan-Lee, +31-(0)68-180-1116</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Mie Ling Tang-Wong, +31-(0)61-568-2352</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Kai Yan, +31-(0)62-485-1045</td>
 		</tr>
 	</tbody>
 </table>
@@ -6997,14 +7009,9 @@ p span.label {font-weight: bold;}
 			<td>31-(0)10-411-4990</td>
 		</tr>
 		<tr>
-			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">Fax#:</td>
-			<td>31-(0)84-223-9576</td>
-		</tr>
-		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:emsi-rotterdam@zonnet.nl">emsirotterdam@gmail.com</a><br />
+			<td><a href="mailto:emsirotterdam@gmail.com">emsirotterdam@gmail.com</a><br />
 			</td>
 		</tr>
 	</tbody>
@@ -7061,11 +7068,23 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">主任牧師:</td>
-			<td>陳啟猷 牧師</td>
+			<td>陳啟猷牧師, +31-(0)64-009-4225</td>
 		</tr>
 		<tr>
-			<td class=\"label\">牧師:</td>
-			<td>鄧偉康  牧師</td>
+			<td class=\"label\">本堂牧師:</td>
+			<td>鄧偉康牧師, +31-(0)61-529-2609</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>陳李湘萍師母, +31-(0)68-180-1116 </td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>鄧黃美玲師母, +31-(0)61-568-2352 </td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>鄢開傳道, +31-(0)62-485-1045 </td>
 		</tr>
 	</tbody>
 </table>
@@ -7083,14 +7102,9 @@ p span.label {font-weight: bold;}
 			<td> 31-(0)10-411-4990</td>
 		</tr>
 		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">傳真:</td>
-			<td>31-(0)84-223-9576</td>
-		</tr>
-		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto:emsi-rotterdam@zonnet.nl">emsirotterdam@gmail.com</a></td>
+			<td><a href=\"mailto:emsirotterdam@gmail.com">emsirotterdam@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -7138,6 +7152,78 @@ p span.label {font-weight: bold;}
 
 
 
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Senior Pastor: </b>Rev. Hugo Kai Yau Chan, +31-(0)64-009-4225
+</p>
+<p>
+<b>Pastor: </b> Rev. Wai Hong Tang, +31-(0)61-529-2609
+</p>
+<p>
+<b>Evangelist: </b> Ev. Erna Sheung P. Chan-Lee, +31-(0)68-180-1116
+</p>
+<p>
+<b>Evangelist: </b> Ev. Mie Ling Tang-Wong, +31-(0)61-568-2352
+</p>
+<p>
+<b>Evangelist: </b> Ev. Kai Yan, +31-(0)62-485-1045
+</p>
+<p>
+<b>Address: </b>Donarpad 9, 3072 EB Rotterdam, The Netherlands
+</p>
+<p>
+<b>Tel #: </b>+31-(0)10-411-4990
+</p>
+<p>
+<b>Email: </b>emsirotterdam@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.9598296017275!2d4.476674975988084!3d51.898197182080345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c4337ebed9911f%3A0x4360ef41e8df041!2sDonarpad%209%2C%203072%20EB%20Rotterdam%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1719136500947!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'rotterdam')
+	and locale = 'en'
+	and page_id = 'contactus';
+
+
+
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>主任牧師:</b> 陳啟猷 牧師, +31-(0)64-009-4225
+</p>
+<p>
+<b>本堂牧師:</b> 鄧偉康 牧師, +31-(0)61-529-2609
+</p>
+<p>
+<b>傳道:</b> 陳李湘萍師母, +31-(0)68-180-1116
+</p>
+<p>
+<b>傳道:</b> 鄧黃美玲師母, +31-(0)61-568-2352
+</p>
+<p>
+<b>傳道:</b> 鄢開傳道, +31-(0)62-485-1045
+</p>
+
+<p>
+<b>地址: </b>Donarpad 9, 3072 EB Rotterdam, The Netherlands
+</p>
+<p>
+<b>電話:</b> +31-(0)10-411-4990
+</p>
+<p>
+<b>電郵: </b>emsirotterdam@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2461.9598296017275!2d4.476674975988084!3d51.898197182080345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c4337ebed9911f%3A0x4360ef41e8df041!2sDonarpad%209%2C%203072%20EB%20Rotterdam%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1719136500947!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'rotterdam')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+
+
+
+
 ---------  ends Holland rotterdam
 
 ----------  starts Holland Den Haag
@@ -7158,15 +7244,15 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Senior Pastor:</td>
-			<td>Rev. Hugo K. Y. Chan (+31-(0)64-009-4225)</td>
+			<td>Rev. Hugo Kai Yau Chan, +31-(0)64-009-4225</td>
 		</tr>
 		<tr>
-			<td class="label">Evangelists:</td>
-			<td>Ev. Chun Yu Lau (+31-(0)61-357-4829)</td>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Wei Jie Xia, +31-(0)68-194-7896</td>
 		</tr>
 		<tr>
-			<td class="label"></td>
-			<td>Ev. Chandice Lau-Lee (+31-(0)62-884-7813)</td>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Donna Chan-Liu, +31-(0)64-325-4717</td>
 		</tr>
 	</tbody>
 </table>
@@ -7176,12 +7262,17 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td>Isingstraat 165 A, 2522 JS Den Haag, The Netherlands</td>
+			<td>Isingstraat 165A, 2522 JS Den Haag, The Netherlands</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
 			<td>+31-(0)70-388-1785</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href=\"mailto:emsi.denhaag@emsi.nl">emsi.denhaag@emsi.nl</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -7220,15 +7311,15 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">主任牧師:</td>
-			<td>陳啟猷 牧師 (+31-(0)64-009-4225)</td>
+			<td>陳啟猷牧師, +31-(0)64-009-4225</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>劉震宇 傳道 (+31-(0)61-357-4829)</td>
+			<td>夏偉捷傳道, +31-(0)68-194-7896</td>
 		</tr>
 		<tr>
-			<td class=\"label\"></td>
-			<td>劉李嘉欣 傳道 (+31-(0)62-884-7813)</td>
+			<td class=\"label\">傳道:</td>
+			<td>陳廖美恩傳道, +31-(0)64-325-4717</td>
 		</tr>
 	</tbody>
 </table>
@@ -7238,12 +7329,17 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> Isingstraat 165 A, 2522 JS Den Haag, The Netherlands</td>
+			<td> Isingstraat 165A, 2522 JS Den Haag, The Netherlands</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
 			<td> +31-(0)70-388-1785</td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href=\"mailto:emsi.denhaag@emsi.nl">emsi.denhaag@emsi.nl</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -7273,18 +7369,20 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Senior Pastor: </b>Rev. Hugo K. Y. Chan (+31-(0)64-009-4225) </p>
+<b>Senior Pastor: </b>Rev. Hugo Kai Yau Chan, +31-(0)64-009-4225 </p>
 <p>
 <b>Evangelists: </b>
 <p style="padding-left: 55px;">
-Ev. Chun Yu Lau (+31-(0)61-357-4829)</p>
+Ev. Wei Jie Xia, +31-(0)68-194-7896</p>
 <p style="padding-left: 55px;">
-Ev. Chandice Lau-Lee (+31-(0)62-884-7813)</p>
+Ev. Donna Chan-Liu, +31-(0)64-325-4717</p>
 
 <p>
-<b>Address: </b>Isingstraat 165 A, 2522 JS Den Haag, The Netherlands </p>
+<b>Address: </b>Isingstraat 165A, 2522 JS Den Haag, The Netherlands </p>
 <p>
 <b>Tel #: </b>+31-(0)70-388-1785 </p>
+<p>
+<b>Email: </b>emsi.denhaag@emsi.nl </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.005193968731!2d4.321356179334377!3d52.06142907796436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b6e6633f2af7%3A0x3e004e8674e999f2!2sIsingstraat%20165A%2C%202522%20JS%20Den%20Haag%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1631932192900!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </p>
@@ -7300,15 +7398,17 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>傳道: </b>
 <p style="padding-left: 40px;">
-劉震宇 傳道 (+31-(0)61-357-4829) </p>
+夏偉捷傳道, +31-(0)68-194-7896 </p>
 <p style="padding-left: 40px;">
-劉李嘉欣 傳道 (+31-(0)62-884-7813) </p>
+陳廖美恩傳道, +31-(0)64-325-4717 </p>
 
 
 <p>
-<b>地址: </b>Isingstraat 165 A, 2522 JS Den Haag, The Netherlands </p>
+<b>地址: </b>Isingstraat 165A, 2522 JS Den Haag, The Netherlands </p>
 <p>
 <b>電話:</b>+31-(0)70-388-1785 </p>
+<p>
+<b>電郵:</b>emsi.denhaag@emsi.nl</p>
 
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.005193968731!2d4.321356179334377!3d52.06142907796436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b6e6633f2af7%3A0x3e004e8674e999f2!2sIsingstraat%20165A%2C%202522%20JS%20Den%20Haag%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1631932192900!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
