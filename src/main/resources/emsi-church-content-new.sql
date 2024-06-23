@@ -7632,6 +7632,10 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 ----------  ends Holland - arnhem
 
+
+
+
+
 ----------  starts Holland - veenendaal
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -7647,7 +7651,11 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. Louis Chung</td>
+			<td>Rev. Chi Fan Chung, +31-(0)65-065-2284</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Yuet Chun Chung-Lee, +31-(0)63-616-8393</td>
 		</tr>
 	</tbody>
 </table>
@@ -7656,18 +7664,13 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
-			<td class="label">Worship Address:</td>
-			<td>Zandstraat 36-38, 3901 CM, Veenendaal, The Netherlands</td>
-		</tr>
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
-			<td class="label">Office Address:</td>
-			<td>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands</td>
+			<td class="label">Address:</td>
+			<td>Zandstraat 103, 3905 EB Veenendaal, The Netherlands</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>+31(0)318-76-9144 / +31(0)650-65-2284</td>
+			<td>+31-(0)318-76-9144</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -7720,7 +7723,11 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>鍾志勳牧師</td>
+			<td>鍾志勳牧師, +31-(0)65-065-2284</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>鍾李月珍師母, +31-(0)63-616-8393</td>
 		</tr>
 	</tbody>
 </table>
@@ -7729,18 +7736,13 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">教會崇拜地址:</td>
-			<td> Zandstraat 36-38, 3901 CM, Veenendaal, The Netherlands</td>
-		</tr>
-		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">辦公室地址:</td>
-			<td> Zandstraat 103, 3905 EB, Veenendaal , The Netherlands</td>
+			<td class=\"label\">地址:</td>
+			<td> Zandstraat 103, 3905 EB Veenendaal, The Netherlands</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> +31(0)318-76-9144 / +31(0)650-65-2284 </td>
+			<td> +31-(0)318-76-9144</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -7782,16 +7784,16 @@ Veenendaal會址終於在2012年10月11日正式簽約, 於同年10年20日藉�
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor: </b>Rev. Louis Chung
+<b>Pastor: </b>Rev. Chi Fan Chung, +31-(0)65-065-2284
 </p>
 <p>
-<b>Worship Address: </b>Zandstraat 36-38, 3901 CM, Veenendaal, The Netherlands
+<b>Evangelist: </b>Ev. Yuet Chun Chung-Lee, +31-(0)63-616-8393
+</p>
+p>
+<b>Office Address: </b>Zandstraat 103, 3905 EB Veenendaal, The Netherlands
 </p>
 <p>
-<b>Office Address: </b>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands
-</p>
-<p>
-<b>Tel #: </b>+31(0)318-76-9144 / +31(0)650-65-2284
+<b>Tel #: </b>+31-(0)318-76-9144
 </p>
 <p>
 <b>Email: </b>emsiveenendaal@gmail.com
@@ -7807,16 +7809,16 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師:</b> 鍾志勳牧師
+<b>牧師:</b> 鍾志勳牧師, +31-(0)65-065-2284
 </p>
 <p>
-<b>教會崇拜地址: </b>Zandstraat 36-38, 3901 CM, Veenendaal, The Netherlands
+<b>傳道:</b> 鍾李月珍師母, +31-(0)63-616-8393
 </p>
 <p>
-<b>辦公室地址: </b>Zandstraat 103, 3905 EB, Veenendaal , The Netherlands
+<b>地址: </b>Zandstraat 103, 3905 EB Veenendaal, The Netherlands
 </p>
 <p>
-<b>電話:</b> +31(0)318-76-9144 / +31(0)650-65-2284
+<b>電話:</b> +31(0)318-76-9144
 </p>
 <p>
 <b>電郵: </b>emsiveenendaal@gmail.com
@@ -7891,7 +7893,199 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 ----------  ends Holland - veenendaal
 
-----------  starts Holland - Leeuwarden
+
+
+
+
+----------  starts Holland - leeuwarden
+
+update church_content set body = STRINGDECODE('<style>
+.contact-content {
+font-family: Arial,helvetica,sans-serif
+}
+.contact-content td {
+padding-bottom: 2px; padding-left: 2px; padding-right: 2px; font-size: small; padding-top: 2px; 3px:
+}
+td.label {
+width: 1%; white-space: nowrap; font-weight: bold
+}
+p span.label {
+font-weight: bold
+}
+.main-content {
+font-family: Arial, MingLiU, Helvetica, san-serif; color: #333; font-size: 13px
+}
+.borderless-table {
+border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border-left-width: 0px
+}</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Chun Yu Lau, +31-(0)61-357-4829</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Chandice Lau-Lee, +31-(0)62-884-7813</td>
+		</tr>
+	</tbody>
+</table>
+<div style="margin-left: 20px">
+<table cellpadding="1px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Address:</td>
+			<td>De Hooidollen 8, 8918 HV Leeuwarden, The Netherlands</td>
+		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:emsileeuwarden@gmail.com">emsileeuwarden@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align="center" size="1" width="100%" />
+</div>
+<div class="main-content">
+<p>
+<span class="label">Established Date: </span>January 15, 2013 
+</p>
+<p>
+<img hspace="5" src="/emsi/files/leeuwardensmall.png\" align="left" height="255" width="360" />"Except the Lord build the house, they labor in vain that built it; except the LORD keep the city, the watchman waketh but in vain." Psalm 127:1
+</p>
+<p>
+In the three remote northeastern provinces of the Netherlands, the Chinese population is scattered throughout towns and villages of varying sizes. This region has been regarded as “rocky soil for the gospel, a land still to be possessed”. The CEC in Groningen was established on this very soil in 2009. In mid-January, 2012, under the inspiration of the Holy Spirit, we crossed over from Groningen to the two cities of Leeuwarden and Bolsward in Friesland to begin the evangelistic work there. One evening every month, we came together at a restaurant for a worship service. Eleven months later, the Holy Spirit inspired us yet again, showing us that there are plenty of overseas students, women, elderly people and young people in the Leeuwarden area who need the gospel but may find it inconvenient to attend the evening service at the restaurant. 
+</p>
+<p>In light of the needs for the furtherance of the gospel ministry, we decided to switch the worship service from nighttime to daytime. After praying, we found a Dutch church that we could rent and use for daytime worship as well as evening Bible study. In the beginning we lacked confidence. Not knowing if the people who attended the evening restaurant worship would continue attending during the daytime, we had planned to continue only with the once-a-month worship service. We did not know too many people and did not have any new friends, so we could only pray and ask God for His provision. Thank the Lord! We found a place of worship. Everyone just needed to diligently seek out the “sheep”. In the weeks that led up to the first worship service, Ev. Yiu Cheung and some co-workers visited restaurants and homes, made phone calls, sent out invitation cards, and placed ads in Chinese newspapers to invite people to come.
+</p>
+<p>
+Ev. Yiu Cheung and the co-workers heeded the guidance and encouragement of Rev. Hugo Chan, founder of the CEC in the Netherlands, who said, “Since we are moving the service to the daytime, there is no need to wait. Let us formally put up the church sign.” With consent from Rev. Moses Yang, we conducted the opening ceremony for the CEC in Leeuwarden at the first worship service held on January 15, 2013. Rev. Hugo Chan officiated in the ceremony and delivered the sermon. The weather that day was unusual. There was heavy snow and traffic gridlock all over the central and southern regions, but it was sunny up north where we were. God had prepared this for us. Beyond our expectations, forty six people, of whom two-thirds were newcomers, attended the service that day. Some came as a result of newspaper ads; some were Christians who had waited all of twenty years to attend a worship service. 
+</p>
+<p> Thank the Lord! We have seen the need for the gospel and are diligently working towards expanding the ministry at the CEC in Leeuwarden.
+
+</p>
+
+</div>
+')	where church_id = (select church_id from church where church_path = 'leeuwarden')
+	and locale = 'en'
+	and page_id = 'intro';
+
+
+update church_content set body = STRINGDECODE('<style>\r\n.contact-content {
+font-family: Arial,helvetica,sans-serif,新細明體;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>\r\n<div class=\"contact-content\">
+<div style=\"color: #000000; font-size: small\">
+<table cellpadding=\"0\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>劉震宇傳道, +31-(0)61-357-4829</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>劉李嘉欣傳道, +31-(0)62-884-7813</td>
+		</tr>
+	</tbody>
+</table>
+<br /><div style=\"margin-left: 20px\">
+<table cellpadding=\"1\" cellspacing=\"0\">
+	<tbody class=\"borderless-table\">
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">地址:</td>
+			<td>De Hooidollen 8, 8918 HV Leeuwarden, The Netherlands </td>
+		</tr>
+		<tr>
+			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">電郵:</td>
+			<td><a href="mailto:emsileeuwarden@gmail.com">emsileeuwarden@gmail.com</a></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</div>
+<hr align=\"center\" size=\"1\" width=\"100%\" />
+</div>
+<div class=\"main-content\">
+<p>
+<b>成立日期:</b> 2013年 1月 15日
+</p>
+<p>
+<span class=\"label\">簡史: </span><br />
+<img hspace="5" src="/emsi/files/leeuwardensmall.png\" align="left" height="255" width="360" />「若不是耶和華建造房屋，建造的人就枉然勞力；若不是耶和華看守城池，看守的人就枉然警醒。」詩127:1
+<p>
+荷蘭東北三省地勢偏遠，華人散居在不同大小的城市和鄉村裡，有「福音硬土，未得之地」之稱的荷蘭東北三省，三年多前「高寧根基督教生命堂」就在這塊硬土上建立，去年在聖靈的感動下，我們在一月中便從高寧根「越省」開始了在Leeuwarden和 Bolsward两個城市的福音工作，每月舉行一次晚上餐館崇拜聚會。11個月後，聖靈再次感動我們，讓我們看到在 Leeuwarden (菲士蘭省省府) 和鄰近地方還有很多留學生、婦女、老人和青少年人，他們也需要福音，而現時晚上的餐館崇拜聚會是很難適合他們。 
+</p>
+<p>
+有鑑於福音工作發展的需要，我們決定將夜間崇拜改為日間崇拜，在禱告下我們終於找到了一間荷蘭教堂，可租用作日間崇拜和留學生晚間查經班之用，開始的時候，我們信心很少，只希望繼續保持一個月一次崇拜，因為我們不知道原有參加餐館崇拜的人會不會來，我們認識的人不多，新的朋友我們一個也沒有，我們只有靠禱告求上帝預備。感謝主現今有了地方，我們還需要努力的去找「羊」，在準備崇拜的數週前，我們開始了探訪各餐館和住家、打電話邀請、寄發邀請函及在華文報章上打廣告，最後最重要的工作還是邀請各堂弟兄姊妹的代禱。 
+</p>
+<p>
+一月15日首次崇拜的日子即將來臨，我們憑著荷蘭分會創辦人陳啟猷牧師的一句指導和鼓勵的說話：「現在改為日間崇拜，既然如此，不要再等，正式掛牌」，其後我們徵得總監督楊摩西牧師的同意，在首次崇拜的程序中，我們舉行了「樂華城基督教生命堂」的啟堂禮，並邀請陳啟猷牧師蒞臨主禮及証道。當天荷蘭天氣一反常態，中南部整天下大雪以致交通癱瘓，然而我們北部卻陽光普照，這是上帝對我們啟堂禮美好的預備，那天竟意想不到的有46人出席參加，其中有三份之二是新朋友，有一些是看了的報章廣告而來，也有巳等了廿多年要參加崇拜的基督徒，我們看到福音的需要，在他們的要求下，我們正積極安排改為一個月两次崇拜。現時我們的崇拜是在星期二早上舉行，這段時間青少年人要上學是沒法參加的，這樣的發展只是暫時性，在未來裡我們會努力朝向把崇拜改為每週一次的禮拜天主日崇拜，有主日學有青少年人工作，福音工作才有延展性。 
+</p>
+</div>
+')	where church_id = (select church_id from church where church_path = 'leeuwarden')
+	and locale = 'zh'
+	and page_id = 'intro';
+
+
+
+
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>Evangelist: </b>Ev. Chun Yu Lau, +31-(0)61-357-4829
+</p>
+<p>
+<b>Evangelist: </b>Ev. Chandice Lau-Lee, +31-(0)62-884-7813
+</p>
+<p>
+<b>Address: </b>De Hooidollen 8, 8918 HV Leeuwarden, The Netherlands
+</p>
+<p>
+<b>Email: </b>emsileeuwarden@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2389.103443467579!2d5.789174411792501!3d53.21599358435373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c8fdd7c4a4f9b3%3A0xfaf080ac056090da!2sDe%20Hooidollen%208%2C%208918%20HV%20Leeuwarden%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1719183416082!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'leeuwarden')
+	and locale = 'en'
+	and page_id = 'contactus';
+
+
+
+update church_content set body = STRINGDECODE('<p>
+<p>
+<b>傳道:</b> 劉震宇傳道, +31-(0)61-357-4829
+</p>
+<p>
+<b>傳道:</b> 劉李嘉欣傳道, +31-(0)62-884-7813
+</p>
+<p>
+<b>地址: </b>De Hooidollen 8, 8918 HV Leeuwarden, The Netherlands
+</p>
+<p>
+<b>電郵: </b>emsileeuwarden@gmail.com
+</p>
+<p>
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2389.103443467579!2d5.789174411792501!3d53.21599358435373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c8fdd7c4a4f9b3%3A0xfaf080ac056090da!2sDe%20Hooidollen%208%2C%208918%20HV%20Leeuwarden%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1719183416082!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'leeuwarden')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+
+
+
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(19, 'schedule', 'en', 'CEC in Leeuwarden - Church Services Schedule',
 '
 
@@ -10795,7 +10989,7 @@ p span.label {font-weight: bold;}
 			<td>鍾志勳牧師, +31-(0)65-065-2284</td>
 		</tr>
 		<tr>
-			<td class=\"label\">牧師:</td>
+			<td class=\"label\">傳道:</td>
 			<td>鍾李月珍師母, +31-(0)63-616-8393</td>
 		</tr>
 	</tbody>
