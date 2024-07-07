@@ -14562,8 +14562,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Intern Evangelist:</td>
-			<td>Luke Feng, (C) 0027-(0)74-961-6036</td>
+			<td class="label">Evangelist:</td>
+			<td>Guo Li</td>
 		</tr>
 	</tbody>
 </table>
@@ -14578,18 +14578,18 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> 0027-(0)21-686-0714, (C) 0027-(0)74-961-6036</td>
+			<td> 0027-(0)73-799-9205</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:haoweifeng23@gmail.com"> haoweifeng23@gmail.com</a><br />
+			<td><a href="mailto:li7675esther@hotmail.com"> li7675esther@hotmail.com</a><br />
 			</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_skype.gif" height="16" width="16" /></td>
-			<td class="label">Skype:</td>
-			<td>cemcapetownsa<br />
+			<td class="label">Wechat:</td>
+			<td>Estherli7675<br />
 			</td>
 		</tr>
 	</tbody>
@@ -14627,8 +14627,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">實習傳道:</td>
-			<td>馮皓威, (C) 0027-(0)74-961-6036</td>
+			<td class=\"label\">傳道:</td>
+			<td>郭莉</td>
 		</tr>
 	</tbody>
 </table>
@@ -14643,17 +14643,17 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 0027-(0)21-686-0714, (C) 0027-(0)74-961-6036 </td>
+			<td> 0027-(0)73-799-9205</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: haoweifeng23@gmail.com"> haoweifeng23@gmail.com</a></td>
+			<td><a href=\"mailto: li7675esther@hotmail.com"> li7675esther@hotmail.com</a></td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_skype.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">Skype:</td>
-			<td>cemcapetownsa<br />
+			<td class=\"label\">微信:</td>
+			<td>Estherli7675<br />
 			</td>
 		</tr>
 	</tbody>
@@ -14690,19 +14690,19 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Intern Evangelist: </b> Luke Feng, (C) 0027-(0)74-961-6036
+<b>Evangelist: </b> Guo Li
 </p>
 <p>
 <b>Address: </b>94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa
 </p>
 <p>
-<b>Tel #: 0027-(0)21-686-0714, (C) 0027-(0)74-961-6036
+<b>Tel #: 0027-(0)73-799-9205
 </p>
 <p>
-<b>Email: </b>haoweifeng23@gmail.com
+<b>Email: </b>li7675esther@hotmail.com
 </p>
 <p>
-<b>Skype: </b>cemcapetownsa
+<b>Wechat: </b>Estherli7675
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=94+Campground+Rd,+Cape+Town+7700,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=94+Campground+Rd,+Southern+Suburbs,+Cape+Town,+Western+Cape+7700,+South+Africa&amp;ll=-33.965856,18.474988&amp;spn=0.002625,0.004259&amp;t=m&amp;z=14&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=94+Campground+Rd,+Cape+Town+7700,+South+Africa&amp;ie=UTF8&amp;hq=&amp;hnear=94+Campground+Rd,+Southern+Suburbs,+Cape+Town,+Western+Cape+7700,+South+Africa&amp;ll=-33.965856,18.474988&amp;spn=0.002625,0.004259&amp;t=m&amp;z=14&amp;iwloc=A&amp;\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -14715,19 +14715,19 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>實習傳道: </b>馮皓威, (C) 0027-(0)74-961-6036
+<b>傳道: </b>郭莉
 </p>
 <p>
 <b>地址: </b>94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa
 </p>
 <p>
-<b>電話:</b> 0027-(0)21-686-0714, (C) 0027-(0)74-961-6036
+<b>電話:</b> 0027-(0)73-799-9205
 </p>
 <p>
-<b>電郵: </b>haoweifeng23@gmail.com
+<b>電郵: </b> li7675esther@hotmail.com
 </p>
 <p>
-<b>Skype: </b>cemcapetownsa
+<b>微信: </b>Estherli7675
 </p>
 
 <p>
