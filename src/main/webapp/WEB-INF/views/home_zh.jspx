@@ -69,7 +69,7 @@
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
 
 				<ul>
-					<li>10/24/24 - 10/27/24 歐洲荷蘭分會五十週年慶<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>
+					<li>10/25/24 - 10/27/24 歐洲荷蘭分會五十週年慶<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>
 					<li>7/20/24 美東區生命堂運動會<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>
 					<li>6/16/24 俄備得生命堂十週年慶<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>
 					<li>5/24/24 - 5/27/24 美東區生命堂家庭退修會<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>
