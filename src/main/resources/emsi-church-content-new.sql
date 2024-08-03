@@ -7394,7 +7394,7 @@ Ev. Donna Chan-Liu, +31-(0)64-325-4717</p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>主任牧師:</b> 陳啟猷 牧師 (+31-(0)64-009-4225) </p>
+<b>主任牧師:</b> 陳啟猷 牧師 +31-(0)64-009-4225 </p>
 <p>
 <b>傳道: </b>
 <p style="padding-left: 40px;">
@@ -8388,7 +8388,7 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>0031-30-261-6167</td>
+			<td>+31-(0)30-261-6167</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -8435,7 +8435,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>鍾志勳 牧師<, +31-(0)65-065-2284/td>
+			<td>鍾志勳 牧師, +31-(0)65-065-2284</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
@@ -8458,7 +8458,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td>0031-30-261-6167 / 0031-65-065-2284</td>
+			<td>+31-(0)30-261-6167 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -8757,11 +8757,11 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>鍾志勳 牧師<, +31-(0)65-065-2284/td>
+			<td>鍾志勳 牧師, +31-(0)65-065-2284</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>鍾李月珍師母, +31-(0)63-616-8393</td>
+			<td>鍾李月珍 師母, +31-(0)63-616-8393</td>
 		</tr>
 	</tbody>
 </table>
@@ -9177,7 +9177,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>馮國璋傳道, +31-(0)64-679-5938/td>
+			<td>馮國璋傳道, +31-(0)64-679-5938</td>
 		</tr>
 	</tbody>
 </table>
