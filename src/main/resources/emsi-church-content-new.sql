@@ -10838,6 +10838,77 @@ p span.label {font-weight: bold;}
 	and locale = 'zh'
 	and page_id = 'intro';
 
+insert into church_content (church_id, locale, page_id, title, body) values (16, 'zh', 'schedule','恩慈地基督教生命堂 - 聚會日程',
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周 日 上午十時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>周 日 上午十時  </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>少年團契</br>Youth Fellowship</td>
+			<td>每月第一,第三個星期日 中午十二時 </br>1st and 3rd Sundays 12:00 pm</td>
+		</tr>
+		<tr>
+			<td>馬可團契</br>Mark Fellowship</td>
+			<td>每月第三個星期二 上午十時  </br>3rd Tuesdays 10:00 am</td>
+		</tr>
+		<tr>
+			<td>迦勒團契</br>Caleb Fellowship</td>
+			<td>每月第一個星期一 下午一時  </br>1st Mondays 1:00 pm</td>
+		</tr>
+		<tr>
+			<td>國語查經班</br>Mandarin Bible Study</td>
+			<td>每月第二,第四個星期二 上午十時  </br> 2nd and 4th Tuesdays 10:00 am</td>
+		</tr>
+	</tbody>
+</table>');
+
+update church_content set body = STRINGDECODE(
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>周 日 上午十時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>周 日 上午十時  </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>少年團契</br>Youth Fellowship</td>
+			<td>每月第一,第三個星期日 中午十二時 </br>1st and 3rd Sundays 12:00 pm</td>
+		</tr>
+		<tr>
+			<td>馬可團契</br>Mark Fellowship</td>
+			<td>每月第三個星期二 上午十時  </br>3rd Tuesdays 10:00 am</td>
+		</tr>
+		<tr>
+			<td>迦勒團契</br>Caleb Fellowship</td>
+			<td>每月第一個星期一 下午一時  </br>1st Mondays 1:00 pm</td>
+		</tr>
+		<tr>
+			<td>國語查經班</br>Mandarin Bible Study</td>
+			<td>每月第二,第四個星期二 上午十時  </br> 2nd and 4th Tuesdays 10:00 am</td>
+		</tr>
+	</tbody>
+</table>
+</br>
+
+')	where church_id = (select church_id from church where church_path = 'enschede')
+	and locale = 'en'
+	and page_id = 'schedule';
+
+
+
 
 update church_content set body = STRINGDECODE('<p>
 <p>
@@ -10887,6 +10958,10 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'enschede')
 	and locale = 'zh'
 	and page_id = 'contactus';
+
+
+----------- Ends enschede  pages
+
 
 ----------- starts USA - Towaco pages
 update church_content set body = '<style>
