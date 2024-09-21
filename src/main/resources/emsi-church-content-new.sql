@@ -7600,14 +7600,19 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	<tbody>
 		<tr>
 			<td>主日崇拜</br>Worship Service</td>
-			<td>每月第二、第四個星期日 上 午 十一 時</br>Every 2nd and 4th Sundays 11:00 am</td>
+			<td>周日 上午 十時</br>Sunday 10:00 am</td>
 		</tr>
 		<tr>
 			<td>主日學</br>Sunday School</td>
-			<td>每月第二、第四個星期日 上 午 十 一時 </br>Every 2nd and 4th Sundays 11:00 am</td>
+			<td>周日 上午 十時</br>Sunday 10:00 am</td>
 		</tr>
 	</tbody>
 </table>
+主日崇拜及主日學改在荷京生命堂舉行, </br>
+地址: Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands.
+</br></br>
+The Sunday Service and the Sunday School are held at CEC Amsterdam, </br>
+Address:Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands.
 <p>&nbsp;</p>
 ');
 
@@ -7618,14 +7623,19 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	<tbody>
 		<tr>
 			<td>主日崇拜</br>Worship Service</td>
-			<td>每月第二、第四個星期日 上 午 十一 時</br>Every 2nd and 4th Sundays 11:00 am</td>
+			<td>周日 上午 十時</br>Sunday 10:00 am</td>
 		</tr>
 		<tr>
 			<td>主日學</br>Sunday School</td>
-			<td>每月第二、第四個星期日 上 午 十 一時 </br>Every 2nd and 4th Sundays 11:00 am</td>
+			<td>周日 上午 十時</br>Sunday 10:00 am</td>
 		</tr>
 	</tbody>
 </table>
+主日崇拜及主日學改在荷京生命堂舉行, </br>
+地址: Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands.
+</br></br>
+The Sunday Service and the Sunday School are held at CEC Amsterdam, </br>
+Address:Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands.
 <p>&nbsp;</p>
 ');
 
@@ -7930,7 +7940,7 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Chandice Lau-Lee, +31-(0)62-884-7813</td>
+			<td>Ev. Candice Lau-Lee, +31-(0)62-884-7813</td>
 		</tr>
 	</tbody>
 </table>
@@ -8047,7 +8057,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Chun Yu Lau, +31-(0)61-357-4829
 </p>
 <p>
-<b>Evangelist: </b>Ev. Chandice Lau-Lee, +31-(0)62-884-7813
+<b>Evangelist: </b>Ev. Candice Lau-Lee, +31-(0)62-884-7813
 </p>
 <p>
 <b>Address: </b>De Hooidollen 8, 8918 HV Leeuwarden, The Netherlands
@@ -8090,7 +8100,7 @@ update church_content set body = STRINGDECODE('<p>
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(19, 'schedule', 'en', 'CEC in Leeuwarden - Church Services Schedule',
 '
-
+Temporily closed.
 <table border="1" cellpadding="1" cellspacing="1" style="width: 600px;">
 	<tbody>
 		<tr>
@@ -8112,7 +8122,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(19, 'schedule', 'zh', '樂華城基督教生命堂 - 聚會日程',
 '
-
+暫時停止聚會.
 <table border="1" cellpadding="1" cellspacing="1" style="width: 600px;">
 	<tbody>
 		<tr>
