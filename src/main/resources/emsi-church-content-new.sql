@@ -7606,6 +7606,34 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 			<td>主日學</br>Sunday School</td>
 			<td>周日 上午 十時</br>Sunday 10:00 am</td>
 		</tr>
+		<tr>
+			<td>但以理少年團契 </br>Daniel (Youth) Fellowship </td>
+			<td>星期日 每月兩次 主日崇拜後</br>Twice a Month on Sunday after service</td>
+		</tr>
+		<tr>
+			<td>提多青年團契</br>Titus (Young Adult) Fellowship </td>
+			<td>星期五晚上 七時半</br>Friday 7:30 pm</td>
+		</tr>
+		<tr>
+			<td> A+P 成人團契</br>A+P (Adult) Fellowship </td>
+			<td>星期三晚上 七時半 </br>Wednesday 7:30 pm</td>
+		</tr>
+		<tr>
+			<td> 長青恩典團契</br>Evergreen Grace Fellowship </td>
+			<td>每月第四個星期六 中午 十二時</br>4th Saturdays 12:00 noon</td>
+		</tr>
+		<tr>
+			<td>教會查經聚會 </br> Bible Study </td>
+			<td>每月第二、第四個星期一晚上 七時半</br> 2nd and 4th Mondays 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>約書亞弟兄團契  </br>Joshua (Brothers&#39;) Fellowship </td>
+			<td>每月一次</td>
+		</tr>
+		<tr>
+			<td> 以斯帖姐妹團契</br>Esther (Sisters&#39;) Fellowship </td>
+			<td>每月一次</td>
+		</tr>
 	</tbody>
 </table>
 主日崇拜及主日學改在荷京生命堂舉行, </br>
@@ -7628,6 +7656,34 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		<tr>
 			<td>主日學</br>Sunday School</td>
 			<td>周日 上午 十時</br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>但以理少年團契 </br>Daniel (Youth) Fellowship </td>
+			<td>星期日 每月兩次 主日崇拜後</br>Twice a Month on Sunday after service</td>
+		</tr>
+		<tr>
+			<td>提多青年團契</br>Titus (Young Adult) Fellowship </td>
+			<td>星期五晚上 七時半</br>Friday 7:30 pm</td>
+		</tr>
+		<tr>
+			<td> A+P 成人團契</br>A+P (Adult) Fellowship </td>
+			<td>星期三晚上 七時半 </br>Wednesday 7:30 pm</td>
+		</tr>
+		<tr>
+			<td> 長青恩典團契</br>Evergreen Grace Fellowship </td>
+			<td>每月第四個星期六 中午 十二時</br>4th Saturdays 12:00 noon</td>
+		</tr>
+		<tr>
+			<td>教會查經聚會 </br> Bible Study </td>
+			<td>每月第二、第四個星期一晚上 七時半</br> 2nd and 4th Mondays 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>約書亞弟兄團契  </br>Joshua (Brothers&#39;) Fellowship </td>
+			<td>每月一次</td>
+		</tr>
+		<tr>
+			<td> 以斯帖姐妹團契</br>Esther (Sisters&#39;) Fellowship </td>
+			<td>每月一次</td>
 		</tr>
 	</tbody>
 </table>
