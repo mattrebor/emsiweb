@@ -8399,6 +8399,84 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
+
+update church_content set body =
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜(國語)</br>Worship Service (Mandarin)</td>
+			<td>星期日 上午 十時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學(荷語)</br>Sunday School (Dutch)</td>
+			<td>星期日 上午 十時  </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>少年團契</br>Youth Fellowship (Dutch)</td>
+			<td>每月第一個及第三星期日 中午十二時  </br>1st and 3rd Sundays 12:00 pm</td>
+		</tr>
+		<tr>
+			<td>馬可團契 (國語)</br>Mark Fellowship</td>
+			<td>每月第三個星期二 上午 十時</br>3rd Tuesday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>迦勒團契 (國語)</br>Caleb Fellowship</td>
+			<td>每月第一個星期一 下午 一時  </br>1st Monday 1:00 pm</td>
+		</tr>
+		<tr>
+			<td>國語查經班</br>Mandarin Bible Study</td>
+			<td>每月第二、第四個星期二上午十時  </br>2nd and 4th Tuesdays 10:00 am</td>
+		</tr>
+	</tbody>
+</table>
+</br>
+
+'	where church_id = (select church_id from church where church_path = 'groningen')
+	and locale = 'zh'
+	and page_id = 'schedule';
+
+update church_content set body =
+'
+
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜(國語)</br>Worship Service (Mandarin)</td>
+			<td>星期日 上午 十時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學(荷語)</br>Sunday School (Dutch)</td>
+			<td>星期日 上午 十時  </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>少年團契</br>Youth Fellowship (Dutch)</td>
+			<td>每月第一個及第三星期日 中午十二時  </br>1st and 3rd Sundays 12:00 pm</td>
+		</tr>
+		<tr>
+			<td>馬可團契 (國語)</br>Mark Fellowship</td>
+			<td>每月第三個星期二 上午 十時</br>3rd Tuesday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>迦勒團契 (國語)</br>Caleb Fellowship</td>
+			<td>每月第一個星期一 下午 一時  </br>1st Monday 1:00 pm</td>
+		</tr>
+		<tr>
+			<td>國語查經班</br>Mandarin Bible Study</td>
+			<td>每月第二、第四個星期二上午十時  </br>2nd and 4th Tuesdays 10:00 am</td>
+		</tr>
+	</tbody>
+</table>
+</br>
+
+'	where church_id = (select church_id from church where church_path = 'groningen')
+	and locale = 'en'
+	and page_id = 'schedule';
+
+
+
+
 ----------  ends Holland - Groningen
 
 
