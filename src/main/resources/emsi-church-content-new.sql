@@ -7220,10 +7220,93 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 
+update church_content set body =
+'
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>粵語崇拜(荷語或普通話翻譯)</br>Cantonese Worship Service </br>
+			(Dutch or Mandarin Translation)</td>
+			<td>主日 上午十時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>荷語崇拜</br>Dutch Worship Service (no translation)</td>
+			<td>每月第一、三主日 上午十時 </br>1st, 3rd Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>普通話崇拜</br>Mandarin Worship Service (no translation)</td>
+			<td>每月第二、四主日 上午十時 </br>2nd , 4th Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學 (0-18 歲)</br>Sunday School (up to 18 years old)</td>
+			<td>主日 上午十時  </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>中文 (普通話) 聖經學校(6-12歲兒童) </br>Mandarin Bible School (6-12 years old)</td>
+			<td>主日崇拜後</br>After Sunday Worship service</td>
+		</tr>
+		<tr>
+			<td>荷語少年團契 (11-17歲)</br>Dutch Youth Fellowship</td>
+			<td>星期五下午五時  </br>Friday 5:00 pm</td>
+		</tr>
+		<tr>
+			<td>約書亞團契(18 歲以上年青人)</br>Joshua Young Adult Fellowship</td>
+			<td>星期五晚上7:30   </br>Friday 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>“週一與你” 開放日(說普通話的弟兄姊妹和慕道朋友)</br>“Monday and You” Open House </br>(For Mandarin speaking brothers, sisters, and friends)</td>
+			<td>星期一  </br> Monday</td>
+		</tr>
+	</tbody>
+</table>
 
+'	where church_id = (select church_id from church where church_path = 'rotterdam')
+	and locale = 'zh'
+	and page_id = 'schedule';
 
+update church_content set body =
+'
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>粵語崇拜(荷語或普通話翻譯)</br>Cantonese Worship Service </br>
+			(Dutch or Mandarin Translation)</td>
+			<td>主日 上午十時 </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>荷語崇拜</br>Dutch Worship Service (no translation)</td>
+			<td>每月第一、三主日 上午十時 </br>1st, 3rd Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>普通話崇拜</br>Mandarin Worship Service (no translation)</td>
+			<td>每月第二、四主日 上午十時 </br>2nd , 4th Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學 (0-18 歲)</br>Sunday School (up to 18 years old)</td>
+			<td>主日 上午十時  </br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>中文 (普通話) 聖經學校(6-12歲兒童) </br>Mandarin Bible School (6-12 years old)</td>
+			<td>主日崇拜後</br>After Sunday Worship service</td>
+		</tr>
+		<tr>
+			<td>荷語少年團契 (11-17歲)</br>Dutch Youth Fellowship</td>
+			<td>星期五下午五時  </br>Friday 5:00 pm</td>
+		</tr>
+		<tr>
+			<td>約書亞團契(18 歲以上年青人)</br>Joshua Young Adult Fellowship</td>
+			<td>星期五晚上7:30   </br>Friday 7:30 pm</td>
+		</tr>
+		<tr>
+			<td>“週一與你” 開放日(說普通話的弟兄姊妹和慕道朋友)</br>“Monday and You” Open House </br>(For Mandarin speaking brothers, sisters, and friends)</td>
+			<td>星期一  </br> Monday</td>
+		</tr>
+	</tbody>
+</table>
 
-
+'	where church_id = (select church_id from church where church_path = 'rotterdam')
+	and locale = 'en'
+	and page_id = 'schedule';
 ---------  ends Holland rotterdam
 
 ----------  starts Holland Den Haag
@@ -8157,44 +8240,13 @@ update church_content set body = STRINGDECODE('<p>
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(19, 'schedule', 'en', 'CEC in Leeuwarden - Church Services Schedule',
 '
 Temporily closed.
-<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;">
-	<tbody>
-		<tr>
-			<td>崇拜</br>Worship Service</td>
-			<td>星期二  </br>Tuesday</td>
-			<td>上 午 十 時至十二時</br>10:00 am - 12:00 pm</td>
-			<td>Wijkcentrum Bilgaard</br>社區中心</br>De Hooidollen 8 8918 HV Leeuwarden</td>
-		</tr>
-		<tr>
-			<td>荷蘭東北三省弟兄姊妹聯合聚會</br>The Three Northeastern Provinces of Netherlands Fellowship</td>
-			<td>每月第四個星期一</br>4th Mondays</td>
-			<td>上 午 十 一時 </br>11:00 am</td>
-			<td>Wereldgeluk 餐廳</br>Atoomweg 3 Groningen</td>
-		</tr>
-	</tbody>
-</table>
+
 <p>&nbsp;</p>
 ');
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(19, 'schedule', 'zh', '樂華城基督教生命堂 - 聚會日程',
 '
 暫時停止聚會.
-<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;">
-	<tbody>
-		<tr>
-			<td>崇拜</br>Worship Service</td>
-			<td>星期二  </br>Tuesday</td>
-			<td>上 午 十 時至十二時</br>10:00 am - 12:00 pm</td>
-			<td>Wijkcentrum Bilgaard</br>社區中心</br>De Hooidollen 8 8918 HV Leeuwarden</td>
-		</tr>
-		<tr>
-			<td>荷蘭東北三省弟兄姊妹聯合聚會</br>The Three Northeastern Provinces of Netherlands Fellowship</td>
-			<td>每月第四個星期一</br>4th Mondays</td>
-			<td>上 午 十 一時 </br>11:00 am</td>
-			<td>Wereldgeluk 餐廳</br>Atoomweg 3 Groningen</td>
-		</tr>
-	</tbody>
-</table>
 <p>&nbsp;</p>
 ');
 
