@@ -7689,34 +7689,6 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 			<td>主日學</br>Sunday School</td>
 			<td>周日 上午 十時</br>Sunday 10:00 am</td>
 		</tr>
-		<tr>
-			<td>但以理少年團契 </br>Daniel (Youth) Fellowship </td>
-			<td>星期日 每月兩次 主日崇拜後</br>Twice a Month on Sunday after service</td>
-		</tr>
-		<tr>
-			<td>提多青年團契</br>Titus (Young Adult) Fellowship </td>
-			<td>星期五晚上 七時半</br>Friday 7:30 pm</td>
-		</tr>
-		<tr>
-			<td> A+P 成人團契</br>A+P (Adult) Fellowship </td>
-			<td>星期三晚上 七時半 </br>Wednesday 7:30 pm</td>
-		</tr>
-		<tr>
-			<td> 長青恩典團契</br>Evergreen Grace Fellowship </td>
-			<td>每月第四個星期六 中午 十二時</br>4th Saturdays 12:00 noon</td>
-		</tr>
-		<tr>
-			<td>教會查經聚會 </br> Bible Study </td>
-			<td>每月第二、第四個星期一晚上 七時半</br> 2nd and 4th Mondays 7:30 pm</td>
-		</tr>
-		<tr>
-			<td>約書亞弟兄團契  </br>Joshua (Brothers&#39;) Fellowship </td>
-			<td>每月一次</td>
-		</tr>
-		<tr>
-			<td> 以斯帖姐妹團契</br>Esther (Sisters&#39;) Fellowship </td>
-			<td>每月一次</td>
-		</tr>
 	</tbody>
 </table>
 主日崇拜及主日學改在荷京生命堂舉行, </br>
@@ -7739,34 +7711,6 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		<tr>
 			<td>主日學</br>Sunday School</td>
 			<td>周日 上午 十時</br>Sunday 10:00 am</td>
-		</tr>
-		<tr>
-			<td>但以理少年團契 </br>Daniel (Youth) Fellowship </td>
-			<td>星期日 每月兩次 主日崇拜後</br>Twice a Month on Sunday after service</td>
-		</tr>
-		<tr>
-			<td>提多青年團契</br>Titus (Young Adult) Fellowship </td>
-			<td>星期五晚上 七時半</br>Friday 7:30 pm</td>
-		</tr>
-		<tr>
-			<td> A+P 成人團契</br>A+P (Adult) Fellowship </td>
-			<td>星期三晚上 七時半 </br>Wednesday 7:30 pm</td>
-		</tr>
-		<tr>
-			<td> 長青恩典團契</br>Evergreen Grace Fellowship </td>
-			<td>每月第四個星期六 中午 十二時</br>4th Saturdays 12:00 noon</td>
-		</tr>
-		<tr>
-			<td>教會查經聚會 </br> Bible Study </td>
-			<td>每月第二、第四個星期一晚上 七時半</br> 2nd and 4th Mondays 7:30 pm</td>
-		</tr>
-		<tr>
-			<td>約書亞弟兄團契  </br>Joshua (Brothers&#39;) Fellowship </td>
-			<td>每月一次</td>
-		</tr>
-		<tr>
-			<td> 以斯帖姐妹團契</br>Esther (Sisters&#39;) Fellowship </td>
-			<td>每月一次</td>
 		</tr>
 	</tbody>
 </table>
@@ -8094,7 +8038,7 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:emsileeuwarden@gmail.com">emsileeuwarden@gmail.com</a></td>
+			<td><a href="mailto:ceme.leeuwarden@gmail.com">ceme.leeuwarden@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -8159,7 +8103,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href="mailto:emsileeuwarden@gmail.com">emsileeuwarden@gmail.com</a></td>
+			<td><a href="mailto:ceme.leeuwarden@gmail.com">ceme.leeuwarden@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -8202,7 +8146,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Address: </b>De Hooidollen 8, 8918 HV Leeuwarden, The Netherlands
 </p>
 <p>
-<b>Email: </b>emsileeuwarden@gmail.com
+<b>Email: </b>ceme.leeuwarden@gmail.com
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2389.103443467579!2d5.789174411792501!3d53.21599358435373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c8fdd7c4a4f9b3%3A0xfaf080ac056090da!2sDe%20Hooidollen%208%2C%208918%20HV%20Leeuwarden%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1719183416082!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -8224,7 +8168,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>De Hooidollen 8, 8918 HV Leeuwarden, The Netherlands
 </p>
 <p>
-<b>電郵: </b>emsileeuwarden@gmail.com
+<b>電郵: </b>ceme.leeuwarden@gmail.com
 </p>
 <p>
 
@@ -8239,7 +8183,7 @@ update church_content set body = STRINGDECODE('<p>
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(19, 'schedule', 'en', 'CEC in Leeuwarden - Church Services Schedule',
 '
-Temporily closed.
+Temporarily closed.
 
 <p>&nbsp;</p>
 ');
@@ -8286,7 +8230,7 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Chandice Lau-Lee, +31-(0)62-884-7813</td>
+			<td>Ev. Candice Lau-Lee, +31-(0)62-884-7813</td>
 		</tr>
 	</tbody>
 </table>
@@ -8306,7 +8250,7 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:emsigroningen@gmail.com">emsigroningen@gmail.com</a></td>
+			<td><a href="mailto:ceme.groningen@gmail.com">ceme.groningen@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -8372,7 +8316,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href="mailto:emsigroningen@gmail.com">emsigroningen@gmail.com</a></td>
+			<td><a href="mailto:ceme.groningen@gmail.com">ceme.groningen@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -8407,7 +8351,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Evangelist: </b>Ev. Chun Yu Lau, +31-(0)61-357-4829
 </p>
 <p>
-<b>Evangelist: </b>Ev. Chandice Lau-Lee, +31-(0)62-884-7813
+<b>Evangelist: </b>Ev. Candice Lau-Lee, +31-(0)62-884-7813
 </p>
 <p>
 <b>Address: </b>Korreweg 37, 9714 AB Groningen, The Netherlands
@@ -8415,7 +8359,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Tel #: </b>+31-(0)50-571-8040
 <p>
-<b>Email: </b>emsigroningen@gmail.com
+<b>Email: </b>ceme.groningen@gmail.com
 </p>
 <p>
 
@@ -8441,7 +8385,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電話:</b> +31-(0)50-571-8040
 </p>
 <p>
-<b>電郵: </b>emsigroningen@gmail.com
+<b>電郵: </b>ceme.groningen@gmail.com
 </p>
 <p>
 
