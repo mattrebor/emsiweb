@@ -7330,8 +7330,8 @@ p span.label {font-weight: bold;}
 			<td>Rev. Hugo Kai Yau Chan, +31-(0)64-009-4225</td>
 		</tr>
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Wei Jie Xia, +31-(0)68-194-7896</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Wei Jie Xia, +31-(0)68-194-7896</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
@@ -7397,8 +7397,8 @@ p span.label {font-weight: bold;}
 			<td>陳啟猷牧師, +31-(0)64-009-4225</td>
 		</tr>
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>夏偉捷傳道, +31-(0)68-194-7896</td>
+			<td class=\"label\">牧師:</td>
+			<td>夏偉捷牧師, +31-(0)68-194-7896</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
@@ -7454,12 +7454,9 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Senior Pastor: </b>Rev. Hugo Kai Yau Chan, +31-(0)64-009-4225 </p>
 <p>
-<b>Evangelists: </b>
-<p style="padding-left: 55px;">
-Ev. Wei Jie Xia, +31-(0)68-194-7896</p>
-<p style="padding-left: 55px;">
-Ev. Donna Chan-Liu, +31-(0)64-325-4717</p>
-
+<b>Pastor: </b> Rev. Wei Jie Xia, +31-(0)68-194-7896</p>
+<p>
+<b>Evangelist: </b> Ev. Donna Chan-Liu, +31-(0)64-325-4717</p>
 <p>
 <b>Address: </b>Isingstraat 165A, 2522 JS Den Haag, The Netherlands </p>
 <p>
@@ -7479,13 +7476,9 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>主任牧師:</b> 陳啟猷 牧師 +31-(0)64-009-4225 </p>
 <p>
-<b>傳道: </b>
-<p style="padding-left: 40px;">
-夏偉捷傳道, +31-(0)68-194-7896 </p>
-<p style="padding-left: 40px;">
-陳廖美恩傳道, +31-(0)64-325-4717 </p>
-
-
+<b>牧師:</b> 夏偉捷 牧師 +31-(0)68-194-7896 </p>
+<p>
+<b>傳道:</b> 陳廖美恩 傳道 +31-(0)64-325-4717 </p>
 <p>
 <b>地址: </b>Isingstraat 165A, 2522 JS Den Haag, The Netherlands </p>
 <p>
