@@ -4176,8 +4176,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Yong Yong Guo, (Cell) 965-333-777</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Yong Yong Guo, (Cell) 965-333-777</td>
 		</tr>
 	</tbody>
 </table>
@@ -4240,8 +4240,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>郭永勇 傳道, (手機) 965-333-777</td>
+			<td class=\"label\">牧師:</td>
+			<td>郭永勇 牧師, (手機) 965-333-777</td>
 		</tr>
 	</tbody>
 </table>
@@ -4315,7 +4315,7 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b> Ev. Yong Yong Guo, (Cell) 965-333-777
+<b>Pastor: </b> Rev. Yong Yong Guo, (Cell) 965-333-777
 </p>
 <p>
 <b>Address: </b>Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal
@@ -4334,7 +4334,7 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道: </b>郭永勇 傳道, (手機) 965-333-777
+<b>牧師: </b>郭永勇 牧師, (手機) 965-333-777
 </p>
 <p>
 <b>地址: </b>Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal
@@ -4566,6 +4566,12 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
+			<td class=\"label\">Senior Pastor:</td>
+			<td>Rev. Yue Ping Chen, (C) 963-444-777</td>
+		</tr>
+		<tr>
+			<td class=\"label\">Pastor:</td>
+			<td>Rev. Jian Pan, (C) 962-222-221</td>
 		</tr>
 	</tbody>
 </table>
@@ -4627,6 +4633,12 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
+			<td class=\"label\">主任牧師:</td>
+			<td>陳岳平 牧師, (手機) 963-444-777</td>
+		</tr>
+		<tr>
+			<td class=\"label\">牧師:</td>
+			<td>潘建 牧師, (手機) 962-222-221</td>
 		</tr>
 	</tbody>
 </table>
@@ -4692,6 +4704,12 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
+<b>Senior Pastor:</b> Rev. Yue Ping Chen, (C) 963-444-777
+</p>
+<p>
+<b>Pastor:</b> Rev. Jian Pan, (C) 962-222-221
+</p>
+<p>
 <b>Address: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
 <p>
@@ -4706,6 +4724,12 @@ update church_content set body = STRINGDECODE('<p>
 
 
 update church_content set body = STRINGDECODE('<p>
+<p>
+<b>主任牧師:</b> 陳岳平 牧師,(手機) 963-444-777
+</p>
+<p>
+<b>牧師:</b> 潘建 牧師,(手機) 962-222-221
+</p>
 <p>
 <b>地址: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
@@ -8503,12 +8527,12 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 			<td>Rev. Chi Fan Chung, +31-(0)65-065-2284</td>
 		</tr>
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Yuet Chun Chung-Lee, +31-(0)63-616-8393</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Wing Kit Chan, +31-(0)64-325-4718 </td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Wing Kit Chan, +31-(0)64-325-4718 </td>
+			<td>Ev. Yuet Chun Chung-Lee, +31-(0)63-616-8393</td>
 		</tr>
 	</tbody>
 </table>
@@ -8573,12 +8597,12 @@ p span.label {font-weight: bold;}
 			<td>鍾志勳 牧師, +31-(0)65-065-2284</td>
 		</tr>
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>鍾李月珍師母, +31-(0)63-616-8393</td>
+			<td class=\"label\">牧師:</td>
+			<td>陳永傑 牧師，+31-(0)64-325-4718</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>陳永傑傳道，+31-(0)64-325-4718</td>
+			<td>鍾李月珍 師母, +31-(0)63-616-8393</td>
 		</tr>
 	</tbody>
 </table>
@@ -8751,10 +8775,10 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. Chi Fan Chung, +31-(0)65-065-2284
 </p>
 <p>
-<b>Evangelist: </b>Ev. Yuet Chun Chung-Lee, +31-(0)63-616-8393
+<b>Pastor: </b>Rev. Wing Kit Chan, +31-(0)64-325-4718
 </p>
 <p>
-<b>Evangelist: </b>Ev. Wing Kit Chan, +31-(0)64-325-4718
+<b>Evangelist: </b>Ev. Yuet Chun Chung-Lee, +31-(0)63-616-8393
 </p>
 <p>
 <b>Address: </b>Marokkodreef 3, 3564 EV, Utrecht, The Netherlands
@@ -8776,13 +8800,13 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師:</b> 鍾志勳牧師, +31-(0)65-065-2284
+<b>牧師:</b> 鍾志勳 牧師, +31-(0)65-065-2284
 </p>
 <p>
-<b>傳道:</b> 鍾李月珍師母, +31-(0)63-616-8393
+<b>牧師:</b> 陳永傑 牧師, +31-(0)64-325-4718
 </p>
 <p>
-<b>傳道:</b> 陳永傑傳道, +31-(0)64-325-4718
+<b>傳道:</b> 鍾李月珍 師母, +31-(0)63-616-8393
 </p>
 <p>
 <b>地址: </b>Marokkodreef 3, 3564 EV, Utrecht , The Netherlands
@@ -9256,8 +9280,8 @@ p span.label {font-weight: bold;}
 			<td>Rev. Leung Ming Wong, +31-(0)61-296-5512</td>
 		</tr>
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Kwok Cheung Fung, +31-(0)64-679-5938</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Kwok Cheung Fung, +31-(0)64-679-5938</td>
 		</tr>
 	</tbody>
 </table>
@@ -9311,8 +9335,8 @@ p span.label {font-weight: bold;}
 			<td>黃良明牧師, +31-(0)61-296-5512</td>
 		</tr>
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>馮國璋傳道, +31-(0)64-679-5938</td>
+			<td class=\"label\">牧師:</td>
+			<td>馮國璋牧師, +31-(0)64-679-5938</td>
 		</tr>
 	</tbody>
 </table>
@@ -9358,7 +9382,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b>Rev. Leung Ming Wong, +31-(0)61-296-5512
 </p>
 <p>
-<b>Evangelist: </b>Ev. Kwok Cheung Fung, +31-(0)64-679-5938
+<b>Pastor: </b>Rev. Kwok Cheung Fung, +31-(0)64-679-5938
 </p>
 <p>
 <b>Address: </b>Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands
@@ -9380,7 +9404,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師:</b> 黃良明牧師, +31-(0)61-296-5512
 </p>
 <p>
-<b>傳道:</b> 馮國璋傳道, +31-(0)64-679-5938
+<b>牧師:</b> 馮國璋牧師, +31-(0)64-679-5938
 </p>
 <p>
 <b>地址: </b>Poeldijkstraat 8, 1059 VM Amsterdam. The Netherlands
