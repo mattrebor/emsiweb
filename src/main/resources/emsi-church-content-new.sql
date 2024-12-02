@@ -4567,7 +4567,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class=\"label\">Senior Pastor:</td>
-			<td>Rev. Yue Ping Chen, (C) 963-444-777</td>
+			<td>Rev. Yue Ping Chen, (C) 963-333-777</td>
 		</tr>
 		<tr>
 			<td class=\"label\">Pastor:</td>
@@ -4634,7 +4634,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">主任牧師:</td>
-			<td>陳岳平 牧師, (手機) 963-444-777</td>
+			<td>陳岳平 牧師, (手機) 963-333-777</td>
 		</tr>
 		<tr>
 			<td class=\"label\">牧師:</td>
@@ -4704,7 +4704,7 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Senior Pastor:</b> Rev. Yue Ping Chen, (C) 963-444-777
+<b>Senior Pastor:</b> Rev. Yue Ping Chen, (C) 963-333-777
 </p>
 <p>
 <b>Pastor:</b> Rev. Jian Pan, (C) 962-222-221
@@ -4725,7 +4725,7 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>主任牧師:</b> 陳岳平 牧師,(手機) 963-444-777
+<b>主任牧師:</b> 陳岳平 牧師,(手機) 963-333-777
 </p>
 <p>
 <b>牧師:</b> 潘建 牧師,(手機) 962-222-221
