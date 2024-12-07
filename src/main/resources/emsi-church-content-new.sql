@@ -4569,10 +4569,6 @@ p span.label {font-weight: bold;}
 			<td class=\"label\">Senior Pastor:</td>
 			<td>Rev. Yue Ping Chen, (C) 963-333-777</td>
 		</tr>
-		<tr>
-			<td class=\"label\">Pastor:</td>
-			<td>Rev. Jian Pan, (C) 962-222-221</td>
-		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -4596,7 +4592,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:emsiporto@hotmail.com">emsiporto@hotmail.com</a><br />
+			<td><a href="mailto:emsimindelo@hotmail.com">emsimindelo@hotmail.com</a><br />
 			</td>
 		</tr>
 	</tbody>
@@ -4636,10 +4632,6 @@ p span.label {font-weight: bold;}
 			<td class=\"label\">主任牧師:</td>
 			<td>陳岳平 牧師, (手機) 963-333-777</td>
 		</tr>
-		<tr>
-			<td class=\"label\">牧師:</td>
-			<td>潘建 牧師, (手機) 962-222-221</td>
-		</tr>
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -4663,7 +4655,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: emsiporto@hotmail.com"> emsiporto@hotmail.com</a></td>
+			<td><a href=\"mailto: emsimindelo@hotmail.com"> emsimindelo@hotmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4707,9 +4699,6 @@ update church_content set body = STRINGDECODE('<p>
 <b>Senior Pastor:</b> Rev. Yue Ping Chen, (C) 963-333-777
 </p>
 <p>
-<b>Pastor:</b> Rev. Jian Pan, (C) 962-222-221
-</p>
-<p>
 <b>Address: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
 <p>
@@ -4726,9 +4715,6 @@ update church_content set body = STRINGDECODE('<p>
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>主任牧師:</b> 陳岳平 牧師,(手機) 963-333-777
-</p>
-<p>
-<b>牧師:</b> 潘建 牧師,(手機) 962-222-221
 </p>
 <p>
 <b>地址: </b>Rua do Amial 698, 4200-053 Porto, Portugal
@@ -5177,8 +5163,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Yong Yong Guo, (Cell) 965-333-777</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Yong Yong Guo, (Cell) 965-333-777</td>
 		</tr>
 
 	</tbody>
@@ -5195,7 +5181,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">Tel#:</td>
-				<td> (cell) 351-965-333-777/ (cell)351-963-333-777 </td>
+				<td> (cell) 351-965-333-777</td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -5230,8 +5216,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道: </td>
-			<td>郭永勇 傳道, (手機) 965-333-777</td>
+			<td class=\"label\">牧師: </td>
+			<td>郭永勇 牧師, (手機) 965-333-777</td>
 		</tr>
 	</tbody>
 </table>
@@ -5247,7 +5233,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">電話:</td>
-				<td> (手機) 351-965-333-777/ (手機)351-963-333-777</td>
+				<td> (手機) 351-965-333-777</td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -5320,12 +5306,12 @@ update church_content set body = STRINGDECODE('
 .indentation {margin:20px;}
 </style>
 <p>
-<b>Evangelist: </b> Ev. Yong Yong Guo, (Cell) 965-333-777
+<b>Pastor: </b> Rev. Yong Yong Guo, (Cell) 965-333-777
 </p>
 <p>
 <b>Address: </b>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</p>
 <p>
-<b>Tel #: </b> (cell) 351-965-333-777/ (cell)351-963-333-777</p>
+<b>Tel #: </b> (cell) 351-965-333-777</p>
 <p>
 <b>Email: </b>emsisetubal@hotmail.com </p>
 
@@ -5337,11 +5323,11 @@ update church_content set body = STRINGDECODE('
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道: </b>郭永勇 傳道, (手機) 965-333-777
+<b>牧師: </b>郭永勇 牧師, (手機) 965-333-777
 </p>
 <p><b>地 址: </b>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</p>
 <p>
-<b>電 話: </b>(手機) 351-965-333-777/ (手機)351-963-333-777</p>
+<b>電 話: </b>(手機) 351-965-333-777</p>
 <p>
 <b>電 郵: </b>emsisetubal@hotmail.com</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.291716680683!2d-8.884325184660526!3d38.527043179629395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1943aae93372c1%3A0x96997d85c0181d50!2sR.+Camilo+Castelo+Branco+163%2C+2910-448+Set%C3%BAbal%2C+Portugal!5e0!3m2!1sen!2sus!4v1476592748025" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -7545,7 +7531,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. LeungMing Wong</td>
+			<td>Rev. Leung Ming Wong</td> 
 		</tr>
 	</tbody>
 </table>
@@ -7651,7 +7637,7 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor: </b>Rev. LeungMing Wong
+<b>Pastor: </b>Rev. Leung Ming Wong
 </p>
 <p>
 <b>Address: </b>Geograaf 13, 6921 EW Duiven, The Netherlands
@@ -8055,7 +8041,7 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:ceme.leeuwarden@gmail.com">ceme.leeuwarden@gmail.com</a></td>
+			<td><a href="mailto:ceme.leeuwarden@emsi.nl">ceme.leeuwarden@emsi.nl</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -8120,7 +8106,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href="mailto:ceme.leeuwarden@gmail.com">ceme.leeuwarden@gmail.com</a></td>
+			<td><a href="mailto:ceme.leeuwarden@emsi.nl">ceme.leeuwarden@emsi.nl</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -8163,7 +8149,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Address: </b>De Hooidollen 8, 8918 HV Leeuwarden, The Netherlands
 </p>
 <p>
-<b>Email: </b>ceme.leeuwarden@gmail.com
+<b>Email: </b>ceme.leeuwarden@emsi.nl
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2389.103443467579!2d5.789174411792501!3d53.21599358435373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c8fdd7c4a4f9b3%3A0xfaf080ac056090da!2sDe%20Hooidollen%208%2C%208918%20HV%20Leeuwarden%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1719183416082!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -8185,7 +8171,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>De Hooidollen 8, 8918 HV Leeuwarden, The Netherlands
 </p>
 <p>
-<b>電郵: </b>ceme.leeuwarden@gmail.com
+<b>電郵: </b>ceme.leeuwarden@emsi.nl
 </p>
 <p>
 
@@ -8267,7 +8253,7 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:ceme.groningen@gmail.com">ceme.groningen@gmail.com</a></td>
+			<td><a href="mailto:ceme.groningen@emsi.nl">ceme.groningen@emsi.nl</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -8333,7 +8319,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href="mailto:ceme.groningen@gmail.com">ceme.groningen@gmail.com</a></td>
+			<td><a href="mailto:ceme.groningen@emsi.nl">ceme.groningen@emsi.nl</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -8376,7 +8362,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Tel #: </b>+31-(0)50-571-8040
 <p>
-<b>Email: </b>ceme.groningen@gmail.com
+<b>Email: </b>ceme.groningen@emsi.nl
 </p>
 <p>
 
@@ -8402,7 +8388,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電話:</b> +31-(0)50-571-8040
 </p>
 <p>
-<b>電郵: </b>ceme.groningen@gmail.com
+<b>電郵: </b>ceme.groningen@emsi.nl
 </p>
 <p>
 
@@ -9276,7 +9262,7 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Pastor:</td>
+			<td class="label">Senior Pastor:</td>
 			<td>Rev. Leung Ming Wong, +31-(0)61-296-5512</td>
 		</tr>
 		<tr>
@@ -9331,7 +9317,7 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">牧師:</td>
+			<td class=\"label\">主任牧師:</td>
 			<td>黃良明牧師, +31-(0)61-296-5512</td>
 		</tr>
 		<tr>
@@ -9379,7 +9365,7 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor: </b>Rev. Leung Ming Wong, +31-(0)61-296-5512
+<b>Senior Pastor: </b>Rev. Leung Ming Wong, +31-(0)61-296-5512
 </p>
 <p>
 <b>Pastor: </b>Rev. Kwok Cheung Fung, +31-(0)64-679-5938
@@ -9401,7 +9387,7 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師:</b> 黃良明牧師, +31-(0)61-296-5512
+<b>主任牧師:</b> 黃良明牧師, +31-(0)61-296-5512
 </p>
 <p>
 <b>牧師:</b> 馮國璋牧師, +31-(0)64-679-5938
