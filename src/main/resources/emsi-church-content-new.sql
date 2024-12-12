@@ -2447,123 +2447,41 @@ p span.label {font-weight: bold;}
 
 
 
-update church_content set body = '<p>&nbsp;</p>
-
-<p style="margin: 0.6em 0px 1.2em; padding: 0px"><b>Sunday Worship</b>&nbsp;<b style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px">| Sunday 5:30PM</b></p>
-
-<p style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px; margin: 0.6em 0px 1.2em; padding: 0px">&nbsp;</p>
-
-<hr id="null" style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px; height: 1px; background-color: #5294c1; border-style: none; padding: 0px; margin: 0px" />
-<p><br />
-<b style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px">Church Services Schedule</b></p>
-
-<table align="center" border="0" style="text-align: center">
+update church_content set body = '
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td style="text-align: center"><b>Content</b></td>
-			<td style="text-align: center"><b>Time&nbsp;</b></td>
-			<td style="text-align: center"><b>Location&nbsp;</b></td>
+			<td>中文學校</br>Chinese School</td>
+			<td>週日下午 1:30 PM</br>Sunday 1:30 pm</td>
 		</tr>
 		<tr>
-			<td style="text-align: center">Chinese school&nbsp;</td>
-			<td style="text-align: center">&nbsp;Sunday 1:30 PM</td>
-			<td style="text-align: center">&nbsp;</td>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>週日下午 5:30 PM</br>Sunday 5:30 pm</td>
 		</tr>
 		<tr>
-			<td style="text-align: center">&nbsp;Worship Service</td>
-			<td style="text-align: center">&nbsp;Sunday 5:30 PM</td>
-			<td style="text-align: center">&nbsp;</td>
+			<td>大詩班</br>Choir</td>
+			<td>周日下午 7:15 PM</br>Sunday 7:15 pm</td>
 		</tr>
 		<tr>
-			<td style="text-align: center">&nbsp;Senior Choir</td>
-			<td style="text-align: center">&nbsp; Sunday 7:15 PM&nbsp;</td>
-			<td style="text-align: center">&nbsp;</td>
+			<td>青少年團契</br>Youth Fellowship</td>
+			<td>週四下午 6:30 PM </br>Thursday 6:30 pm</td>
 		</tr>
 		<tr>
-			<td style="text-align: center">&nbsp;Youth fellowship</td>
-			<td style="text-align: center">&nbsp;Thursday 6:30 PM&nbsp;</td>
-			<td style="text-align: center">&nbsp;</td>
+			<td>見證, 禱告會</br>Prayer and Testimony</td>
+			<td>週四晚 9:30 PM</br>Thursday 9:30 pm</td>
 		</tr>
 		<tr>
-			<td style="text-align: center">&nbsp;Prayer &amp; Testimonial Service</td>
-			<td style="text-align: center">Thursday 9:30 PM</td>
-			<td style="text-align: center">&nbsp;</td>
+			<td>留學生團契</br>Overseas Students Fellowship</td>
+			<td>週五下午 6:00 PM</br>Friday 6:00 pm</td>
 		</tr>
 		<tr>
-			<td style="text-align: center">&nbsp;Oversea Student Fellowship</td>
-			<td style="text-align: center">Friday 6:00 PM</td>
-			<td style="text-align: center">&nbsp;</td>
+			<td>查經班, 團契</br>Bible Study Fellowship</td>
+			<td>週六下午 5:30 PM</br>Saturday 5:30 pm</td>
 		</tr>
 		<tr>
-			<td style="text-align: center">&nbsp;Bible study, Fellowship</td>
-			<td style="text-align: center">Saturday 5:30 PM&nbsp;</td>
-			<td style="text-align: center">&nbsp;</td>
-		</tr>
-		<tr>
-			<td style="text-align: center">Junior Choir</td>
-			<td style="text-align: center">Saturday 7:00 PM</td>
-			<td style="text-align: center">&nbsp;</td>
-		</tr>
-	</tbody>
-</table>
-
-<p style="text-align: center; font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px; margin: 0.6em 0px 1.2em; padding: 0px">&nbsp;</p>
-
-<p style="margin: 0.6em 0px 1.2em; padding: 0px"><b>Culto Dominical</b> <b style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px">| Domingos 17:30</b></p>
-
-<p style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px; margin: 0.6em 0px 1.2em; padding: 0px">&nbsp;</p>
-
-<hr id="null" style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px; height: 1px; background-color: #5294c1; border-style: none; padding: 0px; margin: 0px" />
-<p><br />
-<b style="font-family: Arial,MingLiU,Helvetica,san-serif; font-size: 13px">Horario de las Actividades de la Iglesia</b></p>
-
-<table align="center" border="0" height="183" style="text-align: center" width="635">
-	<tbody>
-		<tr>
-			<td style="text-align: center"><b>Actividad</b></td>
-			<td style="text-align: center"><b>Horiario</b></td>
-			<td style="text-align: center"><b>Localizaci&oacute;n </b></td>
-		</tr>
-		<tr>
-			<td style="text-align: center">Escuela china</td>
-			<td style="text-align: center">Domingo 13:30</td>
-			<td style="text-align: center">&nbsp;</td>
-		</tr>
-		<tr>
-			<td style="text-align: center">&nbsp;Culto Dominical</td>
-			<td style="text-align: center">Domingo 17:30</td>
-			<td style="text-align: center">&nbsp;</td>
-		</tr>
-		<tr>
-			<td style="text-align: center">Coro grande</td>
-			<td style="text-align: center">&nbsp;Domingo 19:15</td>
-			<td style="text-align: center">&nbsp;</td>
-		</tr>
-		<tr>
-			<td style="text-align: center">Reuni&oacute;n de adolescentes y j&oacute;venes</td>
-			<td style="text-align: center">&nbsp;Jueves 18:30</td>
-			<td style="text-align: center">&nbsp;</td>
-		</tr>
-		<tr>
-			<td style="text-align: center">Testimonios, Reuni&oacute;n de oraci&oacute;n</td>
-			<td style="text-align: center">Jueves 21:30</td>
-			<td style="text-align: center">&nbsp;</td>
-		</tr>
-		<tr>
-			<td style="text-align: center">Estudiantes Reuni&oacute;n</td>
-			<td style="text-align: center">Viernes 18:00</td>
-			<td style="text-align: center">&nbsp;</td>
-		</tr>
-		<tr>
-			<td style="text-align: center">Escuela B&iacute;blica, Reuniones (hnos y hnas)</td>
-			<td style="text-align: center">S&aacute;bado 17:30</td>
-			<td style="text-align: center">&nbsp;</td>
-		</tr>
-		<tr>
-			<td style="text-align: center">Coro peque&ntilde;o</td>
-			<td style="text-align: center">S&aacute;bado 19:00</td>
-			<td style="text-align: center">&nbsp;</td>
-		</tr>
+			<td>小詩班</br>Small Group Choir</td>
+			<td>週六晚 7:00 PM</br>Saturday 7:00 pm</td>
+		</tr> 
 	</tbody>
 </table>
 '	where church_id = (select church_id from church where church_path = 'madrid')
@@ -2571,79 +2489,43 @@ update church_content set body = '<p>&nbsp;</p>
 	and page_id = 'schedule';
 
 
-update church_content set body = '<p><b>主日崇拜 | 週日下午5:30PM</b></p>
-
-<p>&nbsp;</p>
-
-<hr id="null" />
-<p><br />
-<b>聚會日程</b></p>
-
-<p>&nbsp;</p>
-
-<table border="0">
+update church_content set body = '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td align="center"><span style="font-size: small"><b><span style="font-size: small"><span style="font-size: medium">&nbsp;内容</span></span></b></span></td>
-			<td align="center"><span style="font-size: small"><b><span style="font-size: small"><span style="font-size: medium">&nbsp;時間</span></span></b></span></td>
-			<td align="center"><span style="font-size: small"><b><span style="font-size: small"><span style="font-size: medium">地點&nbsp;</span></span></b></span></td>
+			<td>中文學校</br>Chinese School</td>
+			<td>週日下午 1:30 PM</br>Sunday 1:30 pm</td>
 		</tr>
 		<tr>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">中文學校</span></span></td>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">週日下午 1:30PM&nbsp;</span></span></td>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+			<td>主日崇拜</br>Worship Service</td>
+			<td>週日下午 5:30 PM</br>Sunday 5:30 pm</td>
 		</tr>
 		<tr>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">主日崇拜</span></span></span></td>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">週日下午 5:30PM</span>&nbsp;</span></span></td>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+			<td>大詩班</br>Choir</td>
+			<td>周日下午 7:15 PM</br>Sunday 7:15 pm</td>
 		</tr>
 		<tr>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">大詩班</span></span></td>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">週日下午 7:15PM&nbsp;</span></span></td>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+			<td>青少年團契</br>Youth Fellowship</td>
+			<td>週四下午 6:30 PM </br>Thursday 6:30 pm</td>
 		</tr>
 		<tr>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">青少年團契</span></span></td>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">週四下午 6:30 PM&nbsp;</span></span></td>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+			<td>見證, 禱告會</br>Prayer and Testimony</td>
+			<td>週四晚 9:30 PM</br>Thursday 9:30 pm</td>
 		</tr>
 		<tr>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">見證, 禱告會</span></span></span></td>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">週四晚間 9:30PM</span>&nbsp;</span></span></td>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+			<td>留學生團契</br>Overseas Students Fellowship</td>
+			<td>週五下午 6:00 PM</br>Friday 6:00 pm</td>
 		</tr>
 		<tr>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">&nbsp;留學生團契</span></span></td>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">週五下午 6:00 PM</span></span></span></td>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+			<td>查經班, 團契</br>Bible Study Fellowship</td>
+			<td>週六下午 5:30 PM</br>Saturday 5:30 pm</td>
 		</tr>
 		<tr>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium">&nbsp;查經班, 團契</span></span></td>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">週六下午 5:30PM</span></span></span></td>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
-		</tr>
-		<tr>
-			<td align="center"><span style="font-size: medium">&nbsp;</span><span style="font-size: x-small"><span style="font-size: medium">小</span></span><span style="font-size: x-small"><span style="font-size: medium">詩班</span></span></td>
-			<td align="center"><span style="font-size: x-small"><span style="font-size: medium"><span style="font-size: medium">週六下午 7:00PM</span></span></span><span style="font-size: medium"> </span></td>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
-		</tr>
-		<tr>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
-		</tr>
-		<tr>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
-			<td align="center"><span style="font-size: medium">&nbsp;</span></td>
+			<td>小詩班</br>Small Group Choir</td>
+			<td>週六晚 7:00 PM</br>Saturday 7:00 pm</td>
 		</tr>
 	</tbody>
 </table>
 
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
 '	where church_id = (select church_id from church where church_path = 'madrid')
 	and locale = 'zh'
 	and page_id = 'schedule';
@@ -2686,7 +2568,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道: </b>蔣國金 傳道, 34-687-587-688
 </p>
 <p>
-<b>傳道: </b>陳 敏傳道, 34-635-037-035
+<b>傳道: </b>陳敏 傳道, 34-635-037-035
 </p>
 <p>
 <b>地址: </b>C/Las Carolinas 10, 28039 Madrid, Spain</br>
@@ -2770,7 +2652,10 @@ p span.label {font-weight: bold;}
 
 <div style="float: left">&nbsp;</div>
 
-<p><img align="left" alt="CEC South Madrid" height="258" hspace="5" src="/emsiweb/images/southmadrid/SMadrid8_18_13.jpg" title="CEC South Madrid" width="344" />Madrid is the capital city of Spain and it is the center for politics, finance and culture. North Madrid is mainly financial and cultural, and people are more affluent than those in South Madrid. Houses in South Madrid are less expensive and many Chinese lived in this area. The CEC in Madrid South is situated in this area. The CEC Spain headquarters is in North Madrid, and it is not convenient to travel to North Madrid. We had plans to establish the South Madrid church for quite some time. Thank God that the CEC in Madrid South was established in 2004. Rev. Yang assigned Ev. Sophia Wang to help pastor the church, but because of the need in Barcelona, she was transferred to Barcelona. The CEC in Madrid South CEC in S Madridstarted constructing the church building in 2006, and the renovation and expansion was finished in 2007. By God&rsquo;s guidance, the work of the ministry was expanded due to the unity of the co-workers and the total commitment of the church members. The church attendance has increased, but we need to continue to work hard and fulfill the commission set by our Lord.</p>
+<p><img align="left" alt="CEC South Madrid" height="258" hspace="5" src="/emsiweb/images/southmadrid/SMadrid8_18_13.jpg" title="CEC South Madrid" width="344" /> </br>
+<img align="left" alt=" South Madrid 2" height="258" hspace="5" src="/emsi/files/Church_South_Madrid2.jpg" title="South Madrid 2" width="344" /> </br>
+<img align="left" alt="South Madrid 3" height="258" hspace="5" src="/emsi/files/Church_South_Madrid3.jpg" title="CEC Madrid 3" width="344" /></br>
+Madrid is the capital city of Spain and it is the center for politics, finance and culture. North Madrid is mainly financial and cultural, and people are more affluent than those in South Madrid. Houses in South Madrid are less expensive and many Chinese lived in this area. The CEC in Madrid South is situated in this area. The CEC Spain headquarters is in North Madrid, and it is not convenient to travel to North Madrid. We had plans to establish the South Madrid church for quite some time. Thank God that the CEC in Madrid South was established in 2004. Rev. Yang assigned Ev. Sophia Wang to help pastor the church, but because of the need in Barcelona, she was transferred to Barcelona. The CEC in Madrid South CEC in S Madridstarted constructing the church building in 2006, and the renovation and expansion was finished in 2007. By God&rsquo;s guidance, the work of the ministry was expanded due to the unity of the co-workers and the total commitment of the church members. The church attendance has increased, but we need to continue to work hard and fulfill the commission set by our Lord.</p>
 
 <p>When we started the CEC in Madrid South, we did not have any co-workers to serve, and only a few Christians. The CEC in North Madrid came to help for two years until we have our church building and services at the same time. Then our south Madrid church needed to have our own co-workers. Thank the Lord that He raised up a number of co-workers, everyone worked and served together harmoniously. When the church was dedicated in October 2006, we found out that the space was not enough. It can only seat 70 people. We need more space to expand the ministry; it is good that both sides of our building have empty space, but we can not find the landowner. Until one day a Spaniard came to sell chairs, although I hesitated first, but then decided to buy ten chairs to be put on stage. He then told me that his father own the empty house on the right. His father came to see us in December and we were able to rent the place at a reasonable price, and immediately did the renovation. By March of 2007, we were able to finish the expansion.</p>
 
@@ -2836,7 +2721,11 @@ p span.label {font-weight: bold;}
 </p>
 
 <p><span class="label">簡史: </span><br />
-<img align="left" alt="CEC South Madrid" height="258" hspace="5" src="/emsiweb/images/southmadrid/SMadrid8_18_13.jpg" title="CEC South Madrid" width="344" />馬德里是西班牙的首都、政治、經濟、文化中心，而馬德里的北邊是以經濟文化為主，多屬已發展的城市；相較以工商業為主的南邊則屬正在發展中的區域，所以南邊住房的價格就相對比較低，也是許多華人集中區，而馬德里南區生命堂即坐落於此。馬德里的總會地處北邊，以至於對南區的人來講，自然就有許多不便之處；因此我們早就計劃在馬德里南區建教會。感謝主，二○○四年馬德里南區生命堂成立。當時楊摩西牧師派王艷華傳道來幫助牧養，後因巴塞羅那事工之需又派其前往。馬德里南區生命堂在二○○六年建堂，二○○七年擴建完畢，蒙主的帶領，福音工作如期展開。同工們的同心配搭，盡心盡力擺上，人數一天天增長，但我們知道仍要繼續努力，完成主的托付。<br />
+<img align="left" alt="CEC South Madrid" height="258" hspace="5" src="/emsiweb/images/southmadrid/SMadrid8_18_13.jpg" title="CEC South Madrid" width="344" />
+</br>
+<img align="left" alt=" South Madrid 2" height="258" hspace="5" src="/emsi/files/Church_South_Madrid2.jpg" title="South Madrid 2" width="344" /> </br>
+<img align="left" alt="South Madrid 3" height="258" hspace="5" src="/emsi/files/Church_South_Madrid3.jpg" title="CEC Madrid 3" width="344" /></br>
+馬德里是西班牙的首都、政治、經濟、文化中心，而馬德里的北邊是以經濟文化為主，多屬已發展的城市；相較以工商業為主的南邊則屬正在發展中的區域，所以南邊住房的價格就相對比較低，也是許多華人集中區，而馬德里南區生命堂即坐落於此。馬德里的總會地處北邊，以至於對南區的人來講，自然就有許多不便之處；因此我們早就計劃在馬德里南區建教會。感謝主，二○○四年馬德里南區生命堂成立。當時楊摩西牧師派王艷華傳道來幫助牧養，後因巴塞羅那事工之需又派其前往。馬德里南區生命堂在二○○六年建堂，二○○七年擴建完畢，蒙主的帶領，福音工作如期展開。同工們的同心配搭，盡心盡力擺上，人數一天天增長，但我們知道仍要繼續努力，完成主的托付。<br />
 馬德里南區生命堂的開始，我們還沒有自己的 事奉同工，信徒也不多。一開始是北區來支援兩年的時間，直到建堂後，兩邊同時間聚會，南堂必須有自己的事奉人員。感謝主，一批批的同工就產生了，大家同心合意，興旺福音。二○○六年十月獻堂後，由於場地不大，只有一百坪米，七十人就坐滿了。為了更好地發展，我們需要空間，而剛好我們當初買這教堂時，位在中間，左右兩邊還有兩間是空的。當時我們找過房東，但沒找到，而就在獻堂時，有位西班牙人向我們推銷椅子，本來我們不打算買，但我想買十張椅子放在講台上用，結果他送來的時侯告訴我，我們右邊空房子是他父親的，我一聽：「啊！原來如此。」當時我們不急用，直到十二月他父親來找我，我們用很便宜的租金租下來，馬上開始裝修。二○○七年的三月，我們擴建完畢。<br />
 馬德里南區生命堂是很年輕的堂會，在北堂(總會)的愛心護養下慢慢地成長。感謝主，回顧馬德里南區生命堂成立四年來，不但人數增長，弟兄姐妹們的靈命也成長許多；而更看到不論是我們的生活、事業和家庭都蒙主賜福。詩人大衛說：「若不是耶和華建造房屋，建造的人就枉然勞力；若不是耶和華看守城池，看守的人就枉然儆醒。」(詩一二七1) 所以，我們的生命與生活都是在主裡得豐富。願馬德里南區生命堂的信徒同心事奉永生的真神，並同蒙主豐厚的賜福！</p>
 </div>
