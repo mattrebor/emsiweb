@@ -10672,15 +10672,15 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	<tbody>
 		<tr>
 			<td>主日崇拜</br>Worship Service</td>
-			<td>周 日 上 午 十 時 </br>Sunday 10:00 am</td>
+			<td>周日上午 九時十五分 </br>Sunday 9:15 am</td>
 		</tr>
 		<tr>
 			<td>查經/練詩</br>Bible Study and Choir Practice </td>
-			<td>周 二 上 午 九時十五分 </br>Tuesday 9:15 am</td>
+			<td>周二上午 九時十五分 </br>Tuesday 9:15 am</td>
 		</tr>
 		<tr>
 			<td>查經/禱告</br>Bible Study and Prayer Meeting</td>
-			<td>周 四 上 午 九時十五分 </br>Thursday 9:15 am</td>
+			<td>周四上午 九時十五分 </br>Thursday 9:15 am</td>
 		</tr>
 	</tbody>
 </table>
@@ -10698,15 +10698,15 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	<tbody>
 		<tr>
 			<td>主日崇拜</br>Worship Service</td>
-			<td>周 日 上 午 十 時 </br>Sunday 10:00 am</td>
+			<td>周日上午 九時十五分 </br>Sunday 9:15 am</td>
 		</tr>
 		<tr>
 			<td>查經/練詩</br>Bible Study and Choir Practice </td>
-			<td>周 二 上 午 九時十五分 </br>Tuesday 9:15 am</td>
+			<td>周二上午 九時十五分 </br>Tuesday 9:15 am</td>
 		</tr>
 		<tr>
 			<td>查經/禱告</br>Bible Study and Prayer Meeting</td>
-			<td>周 四 上 午 九時十五分 </br>Thursday 9:15 am</td>
+			<td>周四上午 九時十五分 </br>Thursday 9:15 am</td>
 		</tr>
 	</tbody>
 </table>
