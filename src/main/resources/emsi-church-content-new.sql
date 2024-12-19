@@ -2451,37 +2451,53 @@ update church_content set body = '
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
+			<td>早堂崇拜</br>Morning Worship Service</td>
+			<td>主日上午 10:00 am</br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>主日上午 10:00 am</br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>午堂崇拜</br>Afternoon Worship Service</td>
+			<td>主日下午 5:15 pm</br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>主日下午 1:30 pm</br>Sunday 1:30 pm</td>
+		</tr>
+		<tr>
 			<td>中文學校</br>Chinese School</td>
-			<td>週日下午 1:30 PM</br>Sunday 1:30 pm</td>
+			<td>主日下午 1:30 pm</br>Sunday 1:30 pm</td>
 		</tr>
 		<tr>
-			<td>主日崇拜</br>Worship Service</td>
-			<td>週日下午 5:30 PM</br>Sunday 5:30 pm</td>
+			<td>少年團契、學生團契、</br>弟兄團契、姊妹團契</br>
+			Youth/Junior Fellowship、</br>
+			Student Fellowship,</br>
+			Brothers Fellowship、</br>
+			Sisters Fellowship</td>
+			<td>每月第三主日晚上 7:30</br>Every 3rd Sunday of the month at 7:30 pm</td>
 		</tr>
 		<tr>
-			<td>大詩班</br>Choir</td>
-			<td>周日下午 7:15 PM</br>Sunday 7:15 pm</td>
+			<td>成人西語班</br>Adult Spanish Class</td>
+			<td>星期三上午 10:00 am</br>Wednesday 10:00 am </td>
 		</tr>
 		<tr>
-			<td>青少年團契</br>Youth Fellowship</td>
-			<td>週四下午 6:30 PM </br>Thursday 6:30 pm</td>
+			<td>禱告會</br>Prayer Meeting</td>
+			<td>星期四下午 8:00 pm</br> Thursday 8:00 pm</td>
 		</tr>
 		<tr>
-			<td>見證, 禱告會</br>Prayer and Testimony</td>
-			<td>週四晚 9:30 PM</br>Thursday 9:30 pm</td>
+			<td>學生團契</br>Student Fellowship</td>
+			<td>星期五下午 6:45 pm</br> Friday 6:45 pm</td>
 		</tr>
 		<tr>
-			<td>留學生團契</br>Overseas Students Fellowship</td>
-			<td>週五下午 6:00 PM</br>Friday 6:00 pm</td>
+			<td>對外漢語班</br>Mandarin Class</td>
+			<td>星期六下午 5:30 pm</br> Saturday 5:30 pm</td>
 		</tr>
 		<tr>
-			<td>查經班, 團契</br>Bible Study Fellowship</td>
-			<td>週六下午 5:30 PM</br>Saturday 5:30 pm</td>
+			<td>詩班練唱</br>Choir Practice</td>
+			<td>星期六下午 6:45 pm</br>Saturday 6:45 pm</td>
 		</tr>
-		<tr>
-			<td>小詩班</br>Small Group Choir</td>
-			<td>週六晚 7:00 PM</br>Saturday 7:00 pm</td>
-		</tr> 
 	</tbody>
 </table>
 '	where church_id = (select church_id from church where church_path = 'madrid')
@@ -2492,36 +2508,52 @@ update church_content set body = '
 update church_content set body = '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
+			<td>早堂崇拜</br>Morning Worship Service</td>
+			<td>主日上午 10:00 am</br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>主日上午 10:00 am</br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>午堂崇拜</br>Afternoon Worship Service</td>
+			<td>主日下午 5:15 pm</br>Sunday 10:00 am</td>
+		</tr>
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>主日下午 1:30 pm</br>Sunday 1:30 pm</td>
+		</tr>
+		<tr>
 			<td>中文學校</br>Chinese School</td>
-			<td>週日下午 1:30 PM</br>Sunday 1:30 pm</td>
+			<td>主日下午 1:30 pm</br>Sunday 1:30 pm</td>
 		</tr>
 		<tr>
-			<td>主日崇拜</br>Worship Service</td>
-			<td>週日下午 5:30 PM</br>Sunday 5:30 pm</td>
+			<td>少年團契、學生團契、</br>弟兄團契、姊妹團契</br>
+			Youth/Junior Fellowship、</br>
+			Student Fellowship,</br>
+			Brothers Fellowship、</br>
+			Sisters Fellowship</td>
+			<td>每月第三主日晚上 7:30</br>Every 3rd Sunday of the month at 7:30 pm</td>
 		</tr>
 		<tr>
-			<td>大詩班</br>Choir</td>
-			<td>周日下午 7:15 PM</br>Sunday 7:15 pm</td>
+			<td>成人西語班</br>Adult Spanish Class</td>
+			<td>星期三上午 10:00 am</br>Wednesday 10:00 am </td>
 		</tr>
 		<tr>
-			<td>青少年團契</br>Youth Fellowship</td>
-			<td>週四下午 6:30 PM </br>Thursday 6:30 pm</td>
+			<td>禱告會</br>Prayer Meeting</td>
+			<td>星期四下午 8:00 pm</br> Thursday 8:00 pm</td>
 		</tr>
 		<tr>
-			<td>見證, 禱告會</br>Prayer and Testimony</td>
-			<td>週四晚 9:30 PM</br>Thursday 9:30 pm</td>
+			<td>學生團契</br>Student Fellowship</td>
+			<td>星期五下午 6:45 pm</br> Friday 6:45 pm</td>
 		</tr>
 		<tr>
-			<td>留學生團契</br>Overseas Students Fellowship</td>
-			<td>週五下午 6:00 PM</br>Friday 6:00 pm</td>
+			<td>對外漢語班</br>Mandarin Class</td>
+			<td>星期六下午 5:30 pm</br> Saturday 5:30 pm</td>
 		</tr>
 		<tr>
-			<td>查經班, 團契</br>Bible Study Fellowship</td>
-			<td>週六下午 5:30 PM</br>Saturday 5:30 pm</td>
-		</tr>
-		<tr>
-			<td>小詩班</br>Small Group Choir</td>
-			<td>週六晚 7:00 PM</br>Saturday 7:00 pm</td>
+			<td>詩班練唱</br>Choir Practice</td>
+			<td>星期六下午 6:45 pm</br>Saturday 6:45 pm</td>
 		</tr>
 	</tbody>
 </table>
