@@ -2081,10 +2081,6 @@ p span.label {font-weight: bold;}
 <td class="label">Pastor:</td>
 <td>Rev. Guo Dan Jiang, 34-620-630-901</td>
 </tr>
-<tr>
-<td class="label">Evangelist:</td>
-<td>Ev. Zhi Chuan Li, 34-622-526-181</td>
-</tr>
 </tbody>
 </table>
 <div style="margin-left: 20px">
@@ -2098,12 +2094,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img src="/emsi/images/icon_phone.gif" width="16" height="16" /></td>
 <td class="label">Tel#:</td>
-<td>34-910-160-197</td>
-</tr>
-<tr>
-<td class="label"><img src="/emsi/images/icon_phone.gif" width="16" height="16" /></td>
-<td class="label">Fax#:</td>
-<td>34-91-459-5844</td>
+<td>34-910-331-469</td>
 </tr>
 <tr>
 <td><img src="/emsi/images/icon_email.gif" width="16" height="16" /></td>
@@ -2144,10 +2135,6 @@ p span.label {font-weight: bold;}
 <td class="label">牧師:</td>
 <td>蔣國淡 牧師, 34-620-630-901</td>
 </tr>
-<tr>
-<td class="label">傳道:</td>
-<td>李志川  傳道, 34-622-526-181</td>
-</tr>
 </tbody>
 </table>
 <p></p>
@@ -2162,13 +2149,9 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 <td class="label">電話:</td>
-<td>34-910-160-197</td>
+<td>34-910-331-469</td>
 </tr>
 <tr>
-<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-<td class="label">傳真:</td>
-<td>34-91-459-5844</td>
-</tr>
 <tr>
 <td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 <td class="label">電郵:</td>
@@ -2208,16 +2191,10 @@ update church_content set body = STRINGDECODE('
 <b>Pastor: </b>Rev. Guo Dan Jiang, 34-620-630-901
 </p>
 <p>
-<b>Evangelist: </b>Ev. Zhi Chuan Li, 34-622-526-181
-</p>
-<p>
 <b>Address: </b>Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain
 </p>
 <p>
-<b>Tel #: </b>34-910-160-197
-</p>
-<p>
-<b>Fax #: </b>34-91-459-5844
+<b>Tel #: </b>34-910-331-469
 </p>
 <p>
 <b>Email: </b>emsifuencheng@gmail.com
@@ -2234,16 +2211,10 @@ update church_content set body = STRINGDECODE('
 <b>牧師: </b>蔣國淡 牧師, 34-620-630-901
 </p>
 <p>
-<b>傳道: </b>李志川 傳道, 34-622-526-181
-</p>
-<p>
 <b>地址: </b>Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain
 </p>
 <p>
-<b>電話: </b>34-910-160-197
-</p>
-<p>
-<b>傳真: </b>34-91-459-5844
+<b>電話: </b>34-910-331-469
 </p>
 <p>
 <b>電郵: </b>emsifuencheng@gmail.com
@@ -2257,28 +2228,48 @@ update church_content set body = STRINGDECODE('
 
 insert into church_content (church_id, locale, page_id, title, body) values (34, 'en', 'schedule', 'CEC in Fuenlabrada - Church Services Schedule',
 '<table border="1" cellpadding="5">
-<tr>
-	<td>Worship Service</td>
-	<td>Sunday 7:15 - 8:30 pm</td>
-</tr>
-<tr>
-	<td>Bible Study</td>
-	<td>Tuesday 6:00 - 7:00 pm</td>
-</tr>
-</table>');
+	<tr>
+		<td>主日崇拜 Sunday Worship Service</td>
+		<td>星期日晚上 Sunday</td>
+		<td>7:10 – 8:30 pm</td>
+	</tr>
+	<tr>
+		<td>查經班 English Bible Study</td>
+		<td>星期二晚上 Tuesday</td>
+		<td>7:00 – 8:00 pm</td>
+	</tr>
+
+</table> </br>
+教會開放時間: 星期一 至 星期五 10:00 -19:00,   星期天 10:00-20:30 </br></br>
+
+Church is open from 10 am to 7 pm during weekdays; and from 10 am to 8:30 pm on Sunday.
+
+');
 
 
 insert into church_content (church_id, locale, page_id, title, body) values (34, 'zh', 'schedule','福恩城基督教生命堂 - 聚會日程',
 '<table border="1" cellpadding="5">
-<tr>
-	<td>主日崇拜</td>
-	<td>週日晚上 7:15 - 8:30 pm</td>
-</tr>
-<tr>
-	<td>查經</td>
-	<td>週二晚上 6:00 - 7:00 pm</td>
-</tr>
-</table>');
+	<tr>
+		<td>主日崇拜 Sunday Worship Service</td>
+		<td>星期日晚上 Sunday</td>
+		<td>7:10 – 8:00 pm</td>
+	</tr>
+	<tr>
+		<td>查經班 English Bible Study</td>
+		<td>星期二晚上 Tuesday</td>
+		<td>7:00 – 8:00 pm</td>
+	</tr>
+	
+</table> </br>
+教會開放時間: 星期一 至 星期五 10:00 -19:00,   星期天 10:00-20:30 </br></br>
+
+Church is open from 10 am to 7 pm during weekdays; and from 10 am to 8:30 pm on Sunday.
+
+
+'
+
+
+);
 
 
 
@@ -9790,40 +9781,24 @@ update church_content set body = STRINGDECODE('<p>
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>Sunday Service</br>
-			 主日崇拜 - 早堂
-			</td>
-			<td>Sunday</br>
-			 星期日上午
-			</td>
+			<td>主日崇拜 - 早堂 Worship Service - Morning
+			<td>星期日  Sunday</td>
 			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td>Sunday Service</br>
-			 主日崇拜 - 晚堂
-			</td>
-			<td>Sunday</br>
-			  星期日晚上
-			</td>
+			<td>主日崇拜 - 晚堂 Worship Service - Night
+			<td>星期日  Sunday</td>
 			<td>11:00 pm</td>
 		</tr>
 		<tr>
-			<td>Bible Study</br>
-			 查經
-			</td>
-			<td>Wednesday</br>
-			 星期三
-			</td>
-			<td>10:30 pm</td>
+			<td>查經 - 下午 Bible Study - Afternoon</td>
+			<td>星期三  Wednesday</td>
+			<td>4:00 pm</td>
 		</tr>
-		<tr>
-			<td>Bible Study</br>
-			 查經
-			</td>
-			<td>Friday</br>
-			  星期五
-			</td>
-			<td>04:00 pm</td>
+		</tr>
+			<td>查經 - 晚上 Bible Study - Night</td>
+			<td>星期三  Wednesday</td>
+			<td>11:00 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -9837,42 +9812,25 @@ update church_content set body = '<table border="1" cellpadding="5">
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>Sunday Service</br>
-			 主日崇拜 - 早堂
-			</td>
-			<td>Sunday</br>
-			 星期日上午
-			</td>
+			<td>主日崇拜 - 早堂 Worship Service - Morning
+			<td>星期日  Sunday</td>
 			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td>Sunday Service</br>
-			 主日崇拜 - 晚堂
-			</td>
-			<td>Sunday</br>
-			  星期日晚上
-			</td>
+			<td>主日崇拜 - 晚堂 Worship Service - Night
+			<td>星期日  Sunday</td>
 			<td>11:00 pm</td>
 		</tr>
 		<tr>
-			<td>Bible Study</br>
-			 查經
-			</td>
-			<td>Wednesday</br>
-			 星期三
-			</td>
-			<td>10:30 pm</td>
+			<td>查經 - 下午 Bible Study - Afternoon</td>
+			<td>星期三  Wednesday</td>
+			<td>4:00 pm</td>
 		</tr>
-		<tr>
-			<td>Bible Study</br>
-			 查經
-			</td>
-			<td>Friday</br>
-			  星期五
-			</td>
-			<td>04:00 pm</td>
 		</tr>
-
+			<td>查經 - 晚上 Bible Study - Night</td>
+			<td>星期三  Wednesday</td>
+			<td>11:00 pm</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -9915,7 +9873,7 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 		</tr>
 		<tr>
 			<td class="label"></td>
-			<td>Ev. Na Li, +34-640-292-666</td>
+			<td>Ev. Na Li, +34-654-836-884</td>
 		</tr>
 		<tr>
 			<td class="label"></td>
@@ -9947,7 +9905,7 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 <span class="label">Established Date: </span>December 25, 2002
 </p>
 <p>
-<img hspace="5" src="/emsi/files/alicante-6-2020.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />The Ministries of Benidorm and Alicante began about the same time in May 1997. With God\u2019s leading, Benodorm was the first established. Because the driving time between Benidorm to Alicante is 40 minutes, Alicante Brothers and Sisters came to Benidorm to worship.
+<img hspace="5" src="/emsi/files/Church_Alicante_12_24.JPG" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />The Ministries of Benidorm and Alicante began about the same time in May 1997. With God\u2019s leading, Benodorm was the first established. Because the driving time between Benidorm to Alicante is 40 minutes, Alicante Brothers and Sisters came to Benidorm to worship.
 </p>
 <p>
 After 5 years, the CEC in Alicante in Christmas of 2002 was established. In 2005 February, an apartment in the center of Alicante behind the bus stations was leased for living and worship. Evangelist Li Suxin was sent from the Paris Seminary School in MAY to the CEC in Alicante to establish the missionary work for the Church for CEC in Alicante.
@@ -9978,7 +9936,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\"></td>
-			<td>李娜 傳道, +34-640-292-666</td>
+			<td>李娜 傳道, +34-654-836-884</td>
 		</tr>
 		<tr>
 			<td class=\"label\"></td>
@@ -10011,7 +9969,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-<img hspace=\"5\" src=\"/emsi/files/alicante-6-2020.jpg" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />一九九七年五月間，貝妮東（Benidorm）和愛麗甘地（Alicante）兩城的拓荒工作同時展開。神引導、帶領我們先於貝妮東成立生命堂。由於貝妮東至愛麗甘地只要四十分鐘的車程，因此貝妮東生命堂成立後，就有許多愛麗甘地的弟兄姐妹前來聚會。時隔五年之後，愛麗甘地基督教生命堂終於在二○○二年的聖誕節成立了。
+<img hspace=\"5\" src=\"/emsi/files/Church_Alicante_12_24.JPG" alt="CEC Alicante" align="left" title="CEC Alicante" height="270" width="360" />一九九七年五月間，貝妮東（Benidorm）和愛麗甘地（Alicante）兩城的拓荒工作同時展開。神引導、帶領我們先於貝妮東成立生命堂。由於貝妮東至愛麗甘地只要四十分鐘的車程，因此貝妮東生命堂成立後，就有許多愛麗甘地的弟兄姐妹前來聚會。時隔五年之後，愛麗甘地基督教生命堂終於在二○○二年的聖誕節成立了。
 </p>
 <p>2005年２月，教会在市中心的汽车站后面租到了一套房子可以作为住宿和聚会使用，５月初，从巴黎神学院回来西班牙实习的李素欣就被差派前来爱丽甘地生命堂开展这里教会圣工．
 </p>
@@ -10031,11 +9989,11 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Evangelists: </b>
 </p>
-<p style="padding-left: 55px;">Ruo Shu Chen, +34-618-521-400
+<p style="padding-left: 55px;">Ev. Ruo Shu Chen, +34-618-521-400
 </p>
-<p style="padding-left: 55px;">Na Li, +34-640-292-666
+<p style="padding-left: 55px;">Ev. Na Li, +34-654-836-884
 </p>
-<p style="padding-left: 55px;">Jenny Jiang, +34-651-771-102
+<p style="padding-left: 55px;">Ev. Jenny Jiang, +34-651-771-102
 </p>
 <p>
 <b>Address: </b>Rigoberto Ferrer 18, 03006 Alicante, Spain
@@ -10056,7 +10014,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>傳道:</b> 陳若抒 傳道, +34-618-521-400
 </p>
 <p style="padding-left: 40px;">
-李娜 傳道, +34-640-292-666
+李娜 傳道, +34-654-836-884
 </p>
 <p style="padding-left: 40px;">
 蔣凌芳 傳道, +34-651-771-102
@@ -10079,25 +10037,35 @@ update church_content set body = STRINGDECODE('<p>
 	update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>Sunday Worship</td>
-			<td>Sunday</td>
-			<td>5:30 pm - 6:45 pm</td>
+			<td>主日崇拜 Worship Service</td>
+			<td>主日下午 Sunday</td>
+			<td>5:30 pm</td>
 		</tr>
 		<tr>
-			<td>Children Sunday School</td>
-			<td>Sunday</td>
-			<td>5:30 pm - 6:45 pm</td>
+			<td>主日學 Sunday School</td>
+			<td>主日下午 Sunday</td>
+			<td>5:30 pm</td>
 		</tr>
 		<tr>
-			<td>Bible Study</td>
-			<td>Wednesday</td>
-			<td>10:00 am - 11:00 am</td>
+			<td>禱告會 Prayer Meeting</td>
+			<td>星期二上午 Tuesday </td>
+			<td>10:00 am </td>
 		</tr>
 		<tr>
-			<td>Youth Fellowship </td>
-			<td>Friday</td>
-			<td>5:30 pm - 6:30 pm</td>
+			<td>查經班 Bible Study</td>
+			<td>星期四上午 Thursday</td>
+			<td>10:00 am </td>
 		</tr>
+		<tr>
+			<td>查經班 Bible Study</td>
+			<td>星期五上午 Friday</td>
+			<td>10:30 am </td>
+		</tr>
+		<tr>
+			<td>青少年團契 Youth/Junior Fellowship </td>
+			<td> 星期六下午 Saturday</td>
+			<td>4:30 pm </td>
+		</tr>		
 	</tbody>
 </table>
 
@@ -10110,25 +10078,35 @@ update church_content set body = STRINGDECODE('<p>
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>主日崇拜</td>
-			<td>星期日晚上</td>
-			<td>5:30 pm - 6:45 pm</td>
+			<td>主日崇拜 Worship Service</td>
+			<td>主日下午 Sunday</td>
+			<td>5:30 pm</td>
 		</tr>
 		<tr>
-			<td>兒童主日學</td>
-			<td>星期日晚上</td>
-			<td>5:30 pm - 6:45 pm</td>
+			<td>主日學 Sunday School</td>
+			<td>主日下午 Sunday</td>
+			<td>5:30 pm</td>
 		</tr>
 		<tr>
-			<td>查經禱告會</td>
-			<td>星期三早晨</td>
-			<td>10:00 am - 11:00 am</td>
+			<td>禱告會 Prayer Meeting</td>
+			<td>星期二上午 Tuesday </td>
+			<td>10:00 am </td>
 		</tr>
 		<tr>
-			<td>青少年團契 </td>
-			<td>星期五晚上</td>
-			<td>5:30 pm - 6:30 pm</td>
+			<td>查經班 Bible Study</td>
+			<td>星期四上午 Thursday</td>
+			<td>10:00 am </td>
 		</tr>
+		<tr>
+			<td>查經班 Bible Study</td>
+			<td>星期五上午 Friday</td>
+			<td>10:30 am </td>
+		</tr>
+		<tr>
+			<td>青少年團契 Youth/Junior Fellowship </td>
+			<td> 星期六下午 Saturday</td>
+			<td>4:30 pm </td>
+		</tr>		
 
 	</tbody>
 </table>
