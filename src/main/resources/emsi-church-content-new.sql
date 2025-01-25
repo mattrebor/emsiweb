@@ -7339,10 +7339,6 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Senior Pastor:</td>
-			<td>Rev. Hugo Kai Yau Chan, +31-(0)64-009-4225</td>
-		</tr>
-		<tr>
 			<td class="label">Pastor:</td>
 			<td>Rev. Wei Jie Xia, +31-(0)68-194-7896</td>
 		</tr>
@@ -7368,7 +7364,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href=\"mailto:emsi.denhaag@emsi.nl">emsi.denhaag@emsi.nl</a></td>
+			<td><a href=\"mailto:samuel.xia@emsi.nl">samuel.xia@emsi.nl</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -7406,10 +7402,6 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">主任牧師:</td>
-			<td>陳啟猷牧師, +31-(0)64-009-4225</td>
-		</tr>
-		<tr>
 			<td class=\"label\">牧師:</td>
 			<td>夏偉捷牧師, +31-(0)68-194-7896</td>
 		</tr>
@@ -7435,7 +7427,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto:emsi.denhaag@emsi.nl">emsi.denhaag@emsi.nl</a></td>
+			<td><a href=\"mailto:samuel.xia@emsi.nl">samuel.xia@emsi.nl</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -7465,8 +7457,6 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Senior Pastor: </b>Rev. Hugo Kai Yau Chan, +31-(0)64-009-4225 </p>
-<p>
 <b>Pastor: </b> Rev. Wei Jie Xia, +31-(0)68-194-7896</p>
 <p>
 <b>Evangelist: </b> Ev. Donna Chan-Liu, +31-(0)64-325-4717</p>
@@ -7475,7 +7465,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Tel #: </b>+31-(0)70-388-1785 </p>
 <p>
-<b>Email: </b>emsi.denhaag@emsi.nl </p>
+<b>Email: </b>samuel.xia@emsi.nl </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.005193968731!2d4.321356179334377!3d52.06142907796436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b6e6633f2af7%3A0x3e004e8674e999f2!2sIsingstraat%20165A%2C%202522%20JS%20Den%20Haag%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1631932192900!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 </p>
@@ -7487,8 +7477,6 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>主任牧師:</b> 陳啟猷 牧師 +31-(0)64-009-4225 </p>
-<p>
 <b>牧師:</b> 夏偉捷 牧師 +31-(0)68-194-7896 </p>
 <p>
 <b>傳道:</b> 陳廖美恩 傳道 +31-(0)64-325-4717 </p>
@@ -7497,7 +7485,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>電話:</b>+31-(0)70-388-1785 </p>
 <p>
-<b>電郵:</b>emsi.denhaag@emsi.nl</p>
+<b>電郵:</b>samuel.xia@emsi.nl</p>
 
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2453.005193968731!2d4.321356179334377!3d52.06142907796436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c5b6e6633f2af7%3A0x3e004e8674e999f2!2sIsingstraat%20165A%2C%202522%20JS%20Den%20Haag%2C%20Netherlands!5e0!3m2!1sen!2sus!4v1631932192900!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
