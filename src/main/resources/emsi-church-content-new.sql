@@ -7455,6 +7455,312 @@ p span.label {font-weight: bold;}
 	and page_id = 'intro';
 
 
+
+
+
+
+update church_content set body =
+'
+每週聚會 Weekly Services	
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td></b>聚會 Services </td>
+			<td></b>時間 Time </td>
+			<td></b>對象 Invitee </td>
+		</tr>
+
+		<tr>
+			<td>主日晨禱會</br>Prayer Meeting </td>
+			<td>星期日早上</br>Sunday</br>9:00–9:30</td>
+			<td>本堂弟兄姐妹 </br> Church members</td>
+
+		</tr>
+		<tr>
+			<td>主日崇拜 </br>Sunday Worship </td>
+			<td>星期日早上</br> Sunday </br>10:00-11:30</td>
+			<td>荷蘭語、廣東話、普通話崇拜 In Dutch, Cantonese, Mandarin</td>
+
+		</tr>
+		<tr>
+			<td>荷語少年團契  </br> Youth Fellowship</td>
+			<td>星期五 </br>Friday </br>18:30-21:30 </td>
+			<td>10-18 歲講荷語少年人 </br> Dutch Speaking Youth</br> (10-18 yrs. old) </td>
+
+		</tr>
+		<tr>
+			<td>荷語青年團契  </br> Young Adult Fellowship</td>
+			<td>星期五 </br>Friday </br>18:30-21:30 </td>
+			<td>18-28 歲講荷語青年人 </br> Dutch Speaking Young Adult (18-28 yrs. old) </td>
+
+		</tr>
+		<tr>
+			<td>荷語職青團契  </br> Young Professional</td>
+			<td>星期五 </br>Friday </br>18:30-21:30 </td>
+			<td>28歲以上講荷語青年人 </br> Dutch Speaking Young Adult (Over 28 yrs) </td>
+
+		</tr>
+	</tbody>
+
+</table>
+</br>
+每月定期聚會 * Monthly Meeting *
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+<tbody>
+		<tr>
+			<td></b>聚會 Services </td>
+			<td></b>時間 Time </td>
+			<td></b>對象 Invitee </td>
+		</tr>
+		<tr>
+			<td>弟兄團契  </br> Brothers Fellowship</td>
+			<td>第一個星期日 </br>First Sunday</br>13:00-15:00 </td>
+			<td>中青年弟兄和慕道友 </br>Brothers and Friends in their thirties  </td>
+		</tr>
+		<tr>
+			<td>姊妹團契  </br> Sisters Fellowship</td>
+			<td>第一個星期日  </br>First Sunday</br>13:00-15:00 </td>
+			<td>中青年姐妹和慕道友 </br>Sisters and Friends in their thirties  </td>
+		</tr>
+		<tr>
+			<td>弟兄飲早茶福音團契 </br>Brothers Gospel Outreach Fellowship </td>
+			<td>第一個星期一 </br>1st Monday</br> 10:30-13:00 </td>
+			<td>教會弟兄和慕道的男士 </br> Brothers and Friends</td>
+
+		</tr>
+		<tr>
+			<td>長青查經祈禱會 </br> Elders Bible Study </td>
+			<td>第一個星期三 </br>1st Wednesday </br>14:00-16:00 </td>
+			<td> 會講粵語的年長弟兄姊妹</br> Cantonese speaking elderly</td>
+
+		</tr>
+		<tr>
+			<td>家庭團契 </br> Family Fellowship </td>
+			<td>第一個星期五 </br>1st Friday</br> 19:30-21:00 </td>
+			<td>教會弟兄姐妹和慕道友</br>Brothers, Sisters and Friends</td>
+
+		</tr>
+		<tr>
+			<td>兒童團契</br>Children Fellowship</td>
+			<td>第一個星期五  </br>1st Friday </br>19:30-21:00 </td>
+			<td>4-10歲兒童 </br>Children 4-10 yrs old  </td>
+
+		</tr>
+		<tr>
+			<td>普通话團契 </br>Mandarin Fellowship </td>
+			<td>第二個星期一</br>2nd Monday </br>11:00-13:00</td>
+			<td>講普通话弟兄姊妹和慕道友 </br>Brothers, Sisters, and Friends</td>
+
+		</tr>
+		<tr>
+			<td>粵曲福音團契</br> Cantonese Music Gospel Fellowship</td>
+			<td>第二個星期二 </br>2nd Tuesday </br>12:00-14:00 </td>
+			<td> </br>  </td>
+
+		</tr>
+		<tr>
+			<td>教會線上查經</br>Online Bible Study</td>
+			<td>第二個星期三 </br>2nd Wednesday</br> 19:30-21:00 </td>
+			<td> </br>  </td>
+
+		</tr>
+		<tr>
+			<td>長青福音團契</br>Evergreen Gospel Fellowship</td>
+			<td>第三個星期三 </br>3rd Wednesday</br> 14:00-16:30 </td>
+			<td> </br>  </td>
+
+		</tr>
+		<tr>
+			<td>姊妹查經祈禱會</br>Sisters Bible Study and Prayer Meeting</td>
+			<td>第三個星期六 </br>3rd Saturday</br> 11:00-13:00 </td>
+			<td> </br>  </td>
+
+		</tr>
+		<tr>
+			<td>活力團契</br>Vitality Fellowship</td>
+			<td>第三個星期日 </br>3rd Sunday </br>13:00-15:00 </td>
+			<td>歡迎中年弟兄姐妹和慕道友</br>Brothers, Sisters and Friends</td>
+
+		</tr>
+		<tr>
+			<td>普通話查經</br>Mandarin Bible Study</td>
+			<td>第四個星期一  </br>4th Monday</br> 11:00-13:00 </td>
+			<td>講普通話弟兄姊妹和慕道友</br>Brothers, Sisters, and Friends</td>
+
+		</tr>
+	</tbody>
+
+</table>
+*部分團契和聚會時間可能因為假期或特殊原因調整，請提前資詢具體時間
+</br>
+
+Please call ahead before going, in case the schedule may have been changed for any reasons.
+
+
+
+'	where church_id = (select church_id from church where church_path = 'denhaag')
+	and locale = 'en'
+	and page_id = 'schedule';
+
+
+
+
+
+update church_content set body =
+'
+每週聚會 Weekly Services	
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td></b>聚會 Services </td>
+			<td></b>時間 Time </td>
+			<td></b>對象 Invitee </td>
+		</tr>
+
+		<tr>
+			<td>主日晨禱會</br>Prayer Meeting </td>
+			<td>星期日早上</br>Sunday</br>9:00–9:30</td>
+			<td>本堂弟兄姐妹 </br> Church members</td>
+
+		</tr>
+		<tr>
+			<td>主日崇拜 </br>Sunday Worship </td>
+			<td>星期日早上</br> Sunday </br>10:00-11:30</td>
+			<td>荷蘭語、廣東話、普通話崇拜 In Dutch, Cantonese, Mandarin</td>
+
+		</tr>
+		<tr>
+			<td>荷語少年團契  </br> Youth Fellowship</td>
+			<td>星期五 </br>Friday </br>18:30-21:30 </td>
+			<td>10-18 歲講荷語少年人 </br> Dutch Speaking Youth</br> (10-18 yrs. old) </td>
+
+		</tr>
+		<tr>
+			<td>荷語青年團契  </br> Young Adult Fellowship</td>
+			<td>星期五 </br>Friday </br>18:30-21:30 </td>
+			<td>18-28 歲講荷語青年人 </br> Dutch Speaking Young Adult (18-28 yrs. old) </td>
+
+		</tr>
+		<tr>
+			<td>荷語職青團契  </br> Young Professional</td>
+			<td>星期五 </br>Friday </br>18:30-21:30 </td>
+			<td>28歲以上講荷語青年人 </br> Dutch Speaking Young Adult (Over 28 yrs) </td>
+
+		</tr>
+	</tbody>
+
+</table>
+</br>
+每月定期聚會 * Monthly Meeting *
+<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+<tbody>
+		<tr>
+			<td></b>聚會 Services </td>
+			<td></b>時間 Time </td>
+			<td></b>對象 Invitee </td>
+		</tr>
+		<tr>
+			<td>弟兄團契  </br> Brothers Fellowship</td>
+			<td>第一個星期日 </br>First Sunday</br>13:00-15:00 </td>
+			<td>中青年弟兄和慕道友 </br>Brothers and Friends in their thirties  </td>
+		</tr>
+		<tr>
+			<td>姊妹團契  </br> Sisters Fellowship</td>
+			<td>第一個星期日  </br>First Sunday</br>13:00-15:00 </td>
+			<td>中青年姐妹和慕道友 </br>Sisters and Friends in their thirties  </td>
+		</tr>
+		<tr>
+			<td>弟兄飲早茶福音團契 </br>Brothers Gospel Outreach Fellowship </td>
+			<td>第一個星期一 </br>1st Monday</br> 10:30-13:00 </td>
+			<td>教會弟兄和慕道的男士 </br> Brothers and Friends</td>
+
+		</tr>
+		<tr>
+			<td>長青查經祈禱會 </br> Elders Bible Study </td>
+			<td>第一個星期三 </br>1st Wednesday </br>14:00-16:00 </td>
+			<td> 會講粵語的年長弟兄姊妹</br> Cantonese speaking elderly</td>
+
+		</tr>
+		<tr>
+			<td>家庭團契 </br> Family Fellowship </td>
+			<td>第一個星期五 </br>1st Friday</br> 19:30-21:00 </td>
+			<td>教會弟兄姐妹和慕道友</br>Brothers, Sisters and Friends</td>
+
+		</tr>
+		<tr>
+			<td>兒童團契</br>Children Fellowship</td>
+			<td>第一個星期五  </br>1st Friday </br>19:30-21:00 </td>
+			<td>4-10歲兒童 </br>Children 4-10 yrs old  </td>
+
+		</tr>
+		<tr>
+			<td>普通话團契 </br>Mandarin Fellowship </td>
+			<td>第二個星期一</br>2nd Monday </br>11:00-13:00</td>
+			<td>講普通话弟兄姊妹和慕道友 </br>Brothers, Sisters, and Friends</td>
+
+		</tr>
+		<tr>
+			<td>粵曲福音團契</br> Cantonese Music Gospel Fellowship</td>
+			<td>第二個星期二 </br>2nd Tuesday </br>12:00-14:00 </td>
+			<td> </br>  </td>
+
+		</tr>
+		<tr>
+			<td>教會線上查經</br>Online Bible Study</td>
+			<td>第二個星期三 </br>2nd Wednesday</br> 19:30-21:00 </td>
+			<td> </br>  </td>
+
+		</tr>
+		<tr>
+			<td>長青福音團契</br>Evergreen Gospel Fellowship</td>
+			<td>第三個星期三 </br>3rd Wednesday</br> 14:00-16:30 </td>
+			<td> </br>  </td>
+
+		</tr>
+		<tr>
+			<td>姊妹查經祈禱會</br>Sisters Bible Study and Prayer Meeting</td>
+			<td>第三個星期六 </br>3rd Saturday</br> 11:00-13:00 </td>
+			<td> </br>  </td>
+
+		</tr>
+		<tr>
+			<td>活力團契</br>Vitality Fellowship</td>
+			<td>第三個星期日 </br>3rd Sunday </br>13:00-15:00 </td>
+			<td>歡迎中年弟兄姐妹和慕道友</br>Brothers, Sisters and Friends</td>
+
+		</tr>
+		<tr>
+			<td>普通話查經</br>Mandarin Bible Study</td>
+			<td>第四個星期一  </br>4th Monday</br> 11:00-13:00 </td>
+			<td>講普通話弟兄姊妹和慕道友</br>Brothers, Sisters, and Friends</td>
+
+		</tr>
+	</tbody>
+
+</table>
+*部分團契和聚會時間可能因為假期或特殊原因調整，請提前資詢具體時間
+</br>
+
+Please call ahead before going, in case the schedule may have been changed for any reasons.
+
+
+
+'	where church_id = (select church_id from church where church_path = 'denhaag')
+	and locale = 'zh'
+	and page_id = 'schedule';
+
+
+
+
+
+
+
+
+
+
+
+
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Pastor: </b> Rev. Wei Jie Xia, +31-(0)68-194-7896</p>
@@ -8948,21 +9254,17 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	<tbody>
 		<tr>
 			<td>主日崇拜</br>Worship Service</td>
-			<td>星期一 中午 十 二時  </br>Monday 12:00 noon</td>
+			<td>星期一 中午 十二時  </br>Monday 12:00 noon</td>
 		</tr>
 
 		<tr>
-			<td>家庭團契</br>Family Fellowship</td>
-			<td>每月第一個星期一 晚上 七時 </br>1st Mondays 7:00 pm</td>
-		</tr>
-		<tr>
 			<td>查經班</br>Bible Study</td>
-			<td>每月第一個星期一 下午二時  </br>1st Mondays 2:00 pm</td>
+			<td>每月第4及第5個星期一 中午十二時  </br>4th and 5th Mondays 12:00 noon</td>
 		</tr>
 
 		<tr>
 			<td>祈禱會</br>Prayer Meeting</td>
-			<td>每月兩次週一 下 午 二時 </br>Twice a month on Mondays 2:00 pm</td>
+			<td>每月第二個星期一 下午一時三十分 </br>2nd Monday 1:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -8976,21 +9278,17 @@ update church_content set body =
 	<tbody>
 		<tr>
 			<td>主日崇拜</br>Worship Service</td>
-			<td>星期一 中午 十 二時  </br>Monday 12:00 noon</td>
+			<td>星期一 中午 十二時  </br>Monday 12:00 noon</td>
 		</tr>
 
 		<tr>
-			<td>家庭團契</br>Family Fellowship</td>
-			<td>每月第一個星期一 晚上 七時 </br>1st Mondays 7:00 pm</td>
-		</tr>
-		<tr>
 			<td>查經班</br>Bible Study</td>
-			<td>每月第一個星期一 下午二時  </br>1st Mondays 2:00 pm</td>
+			<td>每月第4及第5個星期一 中午十二時  </br>4th and 5th Mondays 12:00 noon</td>
 		</tr>
 
 		<tr>
 			<td>祈禱會</br>Prayer Meeting</td>
-			<td>每月兩次週一 下 午 二時 </br>Twice a month on Mondays 2:00 pm</td>
+			<td>每月第二個星期一 下午一時三十分 </br>2nd Monday 1:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -9624,6 +9922,7 @@ p span.label {font-weight: bold;}
 
 
 
+
 update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Pastor: </b>Rev. Kwok On Lam, +31-(0)62-955-1772
@@ -9643,6 +9942,104 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'en'
 	and page_id = 'contactus';
 
+
+
+
+update church_content set body = STRINGDECODE('
+<table border="1" cellpadding="5">
+	<tr><b>
+		<td>聚會 Services</td>
+		<td>時間 Time</td>
+		</b>
+	</tr>
+	<tr>
+		<td>粵語崇拜(荷語或普通話翻譯) </br>
+		Cantonese Worship (Dutch or Mandarin Translation)</td>
+		<td>每主日 上午十時 </br>Every Sunday at 10:00 am</td>
+	</tr>
+	<tr>
+		<td>主日學 Sunday School </td>
+		<td>每主日 上午十時 </br>Every Sunday at 10:00 am </td>
+	</tr>
+	<tr>
+		<td>粵語查經 Cantonese Bible Study </td>
+		<td>每月第一、第三個星期二 早上十時 </br>1st and 3th Tuesdays at 10:00 am </td>
+	</tr>
+	<tr>
+		<td>普通話查經 Mandarin Bible Study </td>
+		<td>每月第一個星期三 早上十時 </br>1st Wednesday at 10:00 am </td>
+	</tr>
+	<tr>
+		<td>荷語少年團契 Dutch Youth Fellowship </td>
+		<td>每月第一、第三個星期六 早上十一時 </br>1st and 3th Saturdays at 11:00 am </td>
+	</tr>
+	<tr>
+		<td>荷語青年團契 Dutch Adult Fellowship</td>
+		<td>每月第二、第四個星期四 晚上七時 </br>2nd and 4th Thursdays at 7:00 pm </td>
+	</tr>
+	<tr>
+		<td>弟兄團契 Brothers Fellowship </td>
+		<td>每月第四個星期二 早上十時 </br>4th Tuesday at 10:00 am</td>
+	</tr>
+	<tr>
+		<td>姐妹團契 Sisters Fellowship</td>
+		<td>每月第四個星期二 早上十時 </br>4th Tuesday at 10:00 am</td>
+	</tr>
+
+</table>
+
+')	where church_id = (select church_id from church where church_path = 'bergenopzoom')
+	and locale = 'en'
+	and page_id = 'schedule';
+
+
+
+update church_content set body = STRINGDECODE('
+<table border="1" cellpadding="5">
+	<tr><b>
+		<td>聚會 Services</td>
+		<td>時間 Time</td>
+		</b>
+	</tr>
+	<tr>
+		<td>粵語崇拜(荷語或普通話翻譯) </br>
+		Cantonese Worship (Dutch or Mandarin Translation)</td>
+		<td>每主日 上午十時 </br>Every Sunday at 10:00 am</td>
+	</tr>
+	<tr>
+		<td>主日學 Sunday School </td>
+		<td>每主日 上午十時 </br>Every Sunday at 10:00 am </td>
+	</tr>
+	<tr>
+		<td>粵語查經 Cantonese Bible Study </td>
+		<td>每月第一、第三個星期二 早上十時 </br>1st and 3th Tuesdays at 10:00 am </td>
+	</tr>
+	<tr>
+		<td>普通話查經 Mandarin Bible Study </td>
+		<td>每月第一個星期三 早上十時 </br>1st Wednesday at 10:00 am </td>
+	</tr>
+	<tr>
+		<td>荷語少年團契 Dutch Youth Fellowship </td>
+		<td>每月第一、第三個星期六 早上十一時 </br>1st and 3th Saturdays at 11:00 am </td>
+	</tr>
+	<tr>
+		<td>荷語青年團契 Dutch Adult Fellowship</td>
+		<td>每月第二、第四個星期四 晚上七時 </br>2nd and 4th Thursdays at 7:00 pm </td>
+	</tr>
+	<tr>
+		<td>弟兄團契 Brothers Fellowship </td>
+		<td>每月第四個星期二 早上十時 </br>4th Tuesday at 10:00 am</td>
+	</tr>
+	<tr>
+		<td>姐妹團契 Sisters Fellowship</td>
+		<td>每月第四個星期二 早上十時 </br>4th Tuesday at 10:00 am</td>
+	</tr>
+
+</table>
+
+')	where church_id = (select church_id from church where church_path = 'bergenopzoom')
+	and locale = 'zh'
+	and page_id = 'schedule';
 
 
 update church_content set body = STRINGDECODE('<p>
@@ -9859,12 +10256,12 @@ update church_content set body = STRINGDECODE('<p>
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>主日崇拜 - 早堂 Worship Service - Morning
+			<td>主日崇拜 - 早堂 Worship Service - Morning</td>
 			<td>星期日  Sunday</td>
 			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td>主日崇拜 - 晚堂 Worship Service - Night
+			<td>主日崇拜 - 晚堂 Worship Service - Night</td>
 			<td>星期日  Sunday</td>
 			<td>11:00 pm</td>
 		</tr>
@@ -9890,12 +10287,12 @@ update church_content set body = '<table border="1" cellpadding="5">
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>主日崇拜 - 早堂 Worship Service - Morning
+			<td>主日崇拜 - 早堂 Worship Service - Morning</td>
 			<td>星期日  Sunday</td>
 			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td>主日崇拜 - 晚堂 Worship Service - Night
+			<td>主日崇拜 - 晚堂 Worship Service - Night</td>
 			<td>星期日  Sunday</td>
 			<td>11:00 pm</td>
 		</tr>
