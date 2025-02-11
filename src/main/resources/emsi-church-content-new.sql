@@ -8701,28 +8701,34 @@ update church_content set body =
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜(國語)</br>Worship Service (Mandarin)</td>
-			<td>星期日 上午 十時 </br>Sunday 10:00 am</td>
+			<td><b>聚會 Services</b></td>
+			<td><b>日期 Date</b></td>
+			<td><b>時間 Time</b></td>
 		</tr>
 		<tr>
-			<td>主日學(荷語)</br>Sunday School (Dutch)</td>
-			<td>星期日 上午 十時  </br>Sunday 10:00 am</td>
+			<td>主日崇拜</br>Sunday Worship </td>
+			<td>星期日 早上 Sunday</td>
+			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td>少年團契</br>Youth Fellowship (Dutch)</td>
-			<td>每月第一個及第三星期日 中午十二時  </br>1st and 3rd Sundays 12:00 pm</td>
+			<td>兒童主日學 </br>Children Sunday School</td>
+			<td>星期日 早上 Sunday</td>
+			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td>馬可團契 (國語)</br>Mark Fellowship</td>
-			<td>每月第三個星期二 上午 十時</br>3rd Tuesday 10:00 am</td>
+			<td>青少年查經</br>Teenagers/Youth Bible Study</td>
+			<td>每月第二、第四個星期日</br>2nd, 4th Sunday of Month</td>
+			<td>13:00 pm</td>
 		</tr>
 		<tr>
-			<td>迦勒團契 (國語)</br>Caleb Fellowship</td>
-			<td>每月第一個星期一 下午 一時  </br>1st Monday 1:00 pm</td>
+			<td>查經禱告會</br>Bible Study and Prayer Meeting</td>
+			<td>每月第一個星期一</br>1st Monday of Month</td>
+			<td>14:00 pm</td>
 		</tr>
 		<tr>
-			<td>國語查經班</br>Mandarin Bible Study</td>
-			<td>每月第二、第四個星期二上午十時  </br>2nd and 4th Tuesdays 10:00 am</td>
+			<td>查經禱告會</br>Bible Study and Prayer Meeting</td>
+			<td>每月第二個星期二</br>2nd Tuesday of Month</td>
+			<td>11:00 am</td>
 		</tr>
 	</tbody>
 </table>
@@ -8738,28 +8744,34 @@ update church_content set body =
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜(國語)</br>Worship Service (Mandarin)</td>
-			<td>星期日 上午 十時 </br>Sunday 10:00 am</td>
+			<td><b>聚會 Services</b></td>
+			<td><b>日期 Date</b></td>
+			<td><b>時間 Time</b></td>
 		</tr>
 		<tr>
-			<td>主日學(荷語)</br>Sunday School (Dutch)</td>
-			<td>星期日 上午 十時  </br>Sunday 10:00 am</td>
+			<td>主日崇拜</br>Sunday Worship </td>
+			<td>星期日 早上 Sunday</td>
+			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td>少年團契</br>Youth Fellowship (Dutch)</td>
-			<td>每月第一個及第三星期日 中午十二時  </br>1st and 3rd Sundays 12:00 pm</td>
+			<td>兒童主日學 </br>Children Sunday School</td>
+			<td>星期日 早上 Sunday</td>
+			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td>馬可團契 (國語)</br>Mark Fellowship</td>
-			<td>每月第三個星期二 上午 十時</br>3rd Tuesday 10:00 am</td>
+			<td>青少年查經</br>Teenagers/Youth Bible Study</td>
+			<td>每月第二、第四個星期日</br>2nd, 4th Sunday of Month</td>
+			<td>13:00 pm</td>
 		</tr>
 		<tr>
-			<td>迦勒團契 (國語)</br>Caleb Fellowship</td>
-			<td>每月第一個星期一 下午 一時  </br>1st Monday 1:00 pm</td>
+			<td>查經禱告會</br>Bible Study and Prayer Meeting</td>
+			<td>每月第一個星期一</br>1st Monday of Month</td>
+			<td>14:00 pm</td>
 		</tr>
 		<tr>
-			<td>國語查經班</br>Mandarin Bible Study</td>
-			<td>每月第二、第四個星期二上午十時  </br>2nd and 4th Tuesdays 10:00 am</td>
+			<td>查經禱告會</br>Bible Study and Prayer Meeting</td>
+			<td>每月第二個星期二</br>2nd Tuesday of Month</td>
+			<td>11:00 am</td>
 		</tr>
 	</tbody>
 </table>
