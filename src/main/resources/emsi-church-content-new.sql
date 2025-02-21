@@ -8184,7 +8184,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Evangelist: </b>Ev. Yuet Chun Chung-Lee, +31-(0)63-616-8393
 </p>
-p>
+<p>
 <b>Office Address: </b>Zandstraat 103, 3905 EB Veenendaal, The Netherlands
 </p>
 <p>
@@ -8711,23 +8711,28 @@ update church_content set body =
 			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td>兒童主日學 </br>Children Sunday School</td>
+			<td>兒童主日學 </br>Children&#39;s Sunday School</td>
 			<td>星期日 早上 Sunday</td>
 			<td>11:00 am</td>
 		</tr>
 		<tr>
 			<td>青少年查經</br>Teenagers/Youth Bible Study</td>
-			<td>每月第二、第四個星期日</br>2nd, 4th Sunday of Month</td>
+			<td>每月第二個星期日</br>2nd Sunday of the Month</td>
+			<td>13:00 pm</td>
+		</tr>
+		<tr>
+			<td>青少年查經</br>Teenagers/Youth Bible Study</td>
+			<td>每月第四個星期日</br>4th Sunday of the Month</td>
 			<td>13:00 pm</td>
 		</tr>
 		<tr>
 			<td>查經禱告會</br>Bible Study and Prayer Meeting</td>
-			<td>每月第一個星期一</br>1st Monday of Month</td>
+			<td>每月第一個星期一</br>1st Monday of the Month</td>
 			<td>14:00 pm</td>
 		</tr>
 		<tr>
 			<td>查經禱告會</br>Bible Study and Prayer Meeting</td>
-			<td>每月第二個星期二</br>2nd Tuesday of Month</td>
+			<td>每月第二個星期二</br>2nd Tuesday of the Month</td>
 			<td>11:00 am</td>
 		</tr>
 	</tbody>
@@ -8749,28 +8754,28 @@ update church_content set body =
 			<td><b>時間 Time</b></td>
 		</tr>
 		<tr>
-			<td>主日崇拜</br>Sunday Worship </td>
-			<td>星期日 早上 Sunday</td>
-			<td>11:00 am</td>
-		</tr>
-		<tr>
-			<td>兒童主日學 </br>Children Sunday School</td>
+			<td>兒童主日學 </br>Children&#39;s Sunday School</td>
 			<td>星期日 早上 Sunday</td>
 			<td>11:00 am</td>
 		</tr>
 		<tr>
 			<td>青少年查經</br>Teenagers/Youth Bible Study</td>
-			<td>每月第二、第四個星期日</br>2nd, 4th Sunday of Month</td>
+			<td>每月第二個星期日</br>2nd Sunday of the Month</td>
+			<td>13:00 pm</td>
+		</tr>
+		<tr>
+			<td>青少年查經</br>Teenagers/Youth Bible Study</td>
+			<td>每月第四個星期日</br>4th Sunday of the Month</td>
 			<td>13:00 pm</td>
 		</tr>
 		<tr>
 			<td>查經禱告會</br>Bible Study and Prayer Meeting</td>
-			<td>每月第一個星期一</br>1st Monday of Month</td>
+			<td>每月第一個星期一</br>1st Monday of the Month</td>
 			<td>14:00 pm</td>
 		</tr>
 		<tr>
 			<td>查經禱告會</br>Bible Study and Prayer Meeting</td>
-			<td>每月第二個星期二</br>2nd Tuesday of Month</td>
+			<td>每月第二個星期二</br>2nd Tuesday of the Month</td>
 			<td>11:00 am</td>
 		</tr>
 	</tbody>
@@ -12210,7 +12215,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 		</tr>
 		<tr>
 			<td>兒童主日學<br />
-			 Children&#39; s  Sunday School</td>
+			 Children&#39;s  Sunday School</td>
 			<td>每主日早上 10:30<br />
 			    Every Sunday 10:30am</td>
 			<td>Anita Lee and <br />
@@ -12659,12 +12664,20 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Pastor:</td>
-			<td>Rev. Stephen Lim 973-335-7337, ext. 204, (C) 973-960-6088</td>
+			<td class="label">Bishop:</td>
+			<td>Rev. Moses Yang</td>
 		</tr>
 		<tr>
-			<td class="label">Associate Pastor:</td>
-			<td>Rev. Eunice Shang Kuan 973-335-7337, ext.204, (C) 973-216-5009</td>
+			<td class="label">Pastor:</td>
+			<td>Pastor Ding Chan</td>
+		</tr>
+		<tr>
+			<td class="label">Assistant Pastor:</td>
+			<td>Mark Xu</td>
+		</tr>
+		<tr>
+			<td class="label">Assistant Pastor:</td>
+			<td>Elaine Huang</td>
 		</tr>
 	</tbody>
 </table>
@@ -12681,11 +12694,6 @@ p span.label {font-weight: bold;}
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
 			<td>973-994-0079</td>
-		</tr>
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">Fax#:</td>
-			<td>973-335-0535</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -12732,12 +12740,20 @@ p span.label {font-weight: bold;}
 <table cellPadding="0" cellSpacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">主任牧師:</td>
-			<td>林耀奇 牧師, (973) 335-7337 ext. 204, (手機) (973) 960-6088</td>
+			<td class="label">監督:</td>
+			<td>楊摩西 牧師 </td>
 		</tr>
 		<tr>
-			<td class="label">牧師:</td>
-			<td>上官賢真 牧師 , (973) 335-7337 ext. 204, (手機) (973)216-5009</td>
+			<td class="label">傳道:</td>
+			<td>陳鼎瑜 傳道</td>
+		</tr>
+		<tr>
+			<td class="label">助理傳道:</td>
+			<td>徐興國 傳道</td>
+		</tr>
+		<tr>
+			<td class="label">助理傳道:</td>
+			<td>黃雲秀 傳道</td>
 		</tr>
 	</tbody>
 </table>
@@ -12754,11 +12770,6 @@ p span.label {font-weight: bold;}
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">電話:</td>
 			<td>(973) 994-0079</td>
-		</tr>
-		<tr>
-			<td><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">傳真:</td>
-			<td>(973) 335-0535</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -12794,34 +12805,39 @@ p span.label {font-weight: bold;}
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>Sunday Worship Service</td>
-			<td>Sunday</td>
+			<td>Sunday Worship 主日崇拜</td>
+			<td>Sunday  星期日上午</td>
 			<td>10:00 am</td>
 		</tr>
 		<tr>
-			<td>Sunday School(Youth & Children)</td>
-			<td>Sunday</td>
+			<td>Children’s Sunday School 兒童主日學</td>
+			<td>Sunday  星期日上午</td>
 			<td>10:00 am</td>
 		</tr>
 		<tr>
-			<td>Youth & College Fellowship</td>
-			<td>Sunday</td>
+			<td>Christian Service Brigade 青少年團契</td>
+			<td>Friday 星期五晚上</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>Life Bible Study (Chinese) 生命查經班</td>
+			<td>Friday 星期五晚上</td>
+			<td>8:00 pm</td>
+		</tr>
+		<tr>
+			<td>Livingston Chinese Bible Study 活石查經班</td>
+			<td>Every Other Saturday 每隔一個星期六上午</td>
+			<td>10:00 am</td>
+		</tr>
+		<tr>
+			<td>Men’s Fellowship 弟兄團契</td>
+			<td>1st Sunday of Every Month 每月第一個星期日</td>
 			<td>12:00 pm</td>
 		</tr>
 		<tr>
-			<td>English Fellowship</td>
-			<td>Once a month on Sunday</td>
+			<td>Women’s Fellowship 姊妹團契</td>
+			<td>1st Sunday of Every Month 每月第一個星期日</td>
 			<td>12:00 pm</td>
-		</tr>
-		<tr>
-			<td>Christian Service Brigade</td>
-			<td>Friday</td>
-			<td>08:00 pm</td>
-		</tr>
-		<tr>
-			<td>Chinese Bible Study</td>
-			<td>Every 1st, 3rd Saturday</td>
-			<td>10:00 am</td>
 		</tr>
 	</tbody>
 </table>
@@ -12835,34 +12851,39 @@ update church_content set body = '<table border="1" cellpadding="5">
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>主日崇拜</td>
-			<td>星期日上午</td>
-			<td>10 時</td>
+			<td>Sunday Worship 主日崇拜</td>
+			<td>Sunday  星期日上午</td>
+			<td>10:00 am</td>
 		</tr>
 		<tr>
-			<td>主日學(青少年與兒童)</td>
-			<td>星期日上午</td>
-			<td>10 時</td>
+			<td>Children’s Sunday School 兒童主日學</td>
+			<td>Sunday  星期日上午</td>
+			<td>10:00 am</td>
 		</tr>
 		<tr>
-			<td>青年, 大學生團契</td>
-			<td>星期日中午</td>
-			<td>12 時</td>
+			<td>Christian Service Brigade 青少年團契</td>
+			<td>Friday 星期五晚上</td>
+			<td>8:00 pm</td>
 		</tr>
 		<tr>
-			<td>英語團契</td>
-			<td>星期日中午, 每月一次</td>
-			<td>12 時</td>
+			<td>Life Bible Study (Chinese) 生命查經班</td>
+			<td>Friday 星期五晚上</td>
+			<td>8:00 pm</td>
 		</tr>
 		<tr>
-			<td>基督徒服務團</td>
-			<td>星期五晚上</td>
-			<td>8 時</td>
+			<td>Livingston Chinese Bible Study 活石查經班</td>
+			<td>Every Other Saturday 每隔一個星期六上午</td>
+			<td>10:00 am</td>
 		</tr>
 		<tr>
-			<td>中文查經</td>
-			<td>每月第一，第三 星期六上午</td>
-			<td>10 時</td>
+			<td>Men’s Fellowship 弟兄團契</td>
+			<td>1st Sunday of Every Month 每月第一個星期日</td>
+			<td>12:00 pm</td>
+		</tr>
+		<tr>
+			<td>Women’s Fellowship 姊妹團契</td>
+			<td>1st Sunday of Every Month 每月第一個星期日</td>
+			<td>12:00 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -12877,19 +12898,22 @@ update church_content set body = '<table border="1" cellpadding="5">
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor: </b> Rev. Stephen Lim, 973-335-7337, ext. 204, (C) 973-960-6088
+<b>Bishop: </b> Rev. Moses Yang
 </p>
 <p>
-<b>Associate Pastor: </b> Rev. Eunice Shang Kuan 973-335-7337, ext.204, (C) 973-216-5009
+<b>Pastor: </b> Pastor Ding Chan
+</p>
+<p>
+<b>Assistant Pastor: </b> Mark Xu
+</p>
+<p>
+<b>Assistant Pastor: </b> Elaine Huang
 </p>
 <p>
 <b>Address: </b>71 Old Road Livingston NJ 07039, USA
 </p>
 <p>
 <b>Tel #: </b> 973-994-0079
-</p>
-<p>
-<b>Fax #: </b> 973-335-0535
 </p>
 <p>
 <b>Email: </b> ceclinfo@gmail.com
@@ -12904,19 +12928,22 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>主任牧師:</b> 林耀奇 牧師, (973) 335-7337 ext. 204, (手機) (973) 960-6088
+<b>監督:</b> 楊摩西 牧師
 </p>
 <p>
-<b>牧師:</b> 上官賢真 牧師 , (973) 335-7337 ext. 204, (手機) (973)216-5009
+<b>傳道:</b> 陳鼎瑜 傳道
+</p>
+<p>
+<b>助理傳道:</b> 徐興國 傳道
+</p>
+<p>
+<b>助理傳道:</b> 黃雲秀 傳道
 </p>
 <p>
 <b>地址: </b>71 Old Road Livingston NJ 07039, USA
 </p>
 <p>
 <b>電話:</b> 973-994-0079
-</p>
-<p><p>
-<b>傳真:</b> (973) 335-0535
 </p>
 <p>
 <b>電郵:</b> ceclinfo@gmail.com
