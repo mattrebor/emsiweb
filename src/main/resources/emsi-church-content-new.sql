@@ -8951,32 +8951,27 @@ p span.label {font-weight: bold;}
 
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(22, 'schedule', 'en', 'CEC in Utrecht - Church Services Schedule',
 '
-
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
 			<td>主日崇拜</br>Worship Service</td>
-			<td>周 日 上 午 十時 </br>Sunday 10:00 am</td>
+			<td>周日 上午 十時 </br>Sunday 10:00 am</td>
 		</tr>
 		<tr>
 			<td>主日學</br>Sunday School</td>
-			<td>周 日 上 午 十時  </br>Sunday 10:00 am</td>
+			<td>周日 上午 十時  </br>Sunday 10:00 am</td>
 		</tr>
 		<tr>
-			<td>青年團契</br>Yound Adult Fellowship </td>
-			<td>每月隔週五 晚上 八時</br>Every Other Friday 8:00 pm</td>
+			<td>青年團契</br>Young Adult Fellowship </td>
+			<td>每週五 晚上七時</br>Every Friday 7:00 pm</td>
 		</tr>
 		<tr>
-			<td>青年菏蘭語團契</br>Yound Adult Dutch Fellowship </td>
-			<td>每月隔週三  晚上 八時</br>Every Other Wednesday 8:00 pm</td>
-		</tr>
-		<tr>
-			<td>少年團契</br>Youth Fellowship</td>
-			<td>每月第一個星期日 下午一時  </br>1st Sundays 1:00 pm</td>
+			<td>少年團契</br>Youth Fellowship </td>
+			<td>每週五 晚上七時</br>Every Friday 7:00 pm</td>
 		</tr>
 		<tr>
 			<td>姊妹團契</br>Sister Fellowship</td>
-			<td>每月第一個星期六 上 午 十時  </br>1st Saturdays 10:00 am</td>
+			<td>每月第一個星期六 上午 十時  </br>1st Saturdays 10:00 am</td>
 		</tr>
 		<tr>
 			<td>弟兄團契</br>Brother Fellowship</td>
@@ -8984,18 +8979,10 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		</tr>
 		<tr>
 			<td>長青團契</br>Ever Green Fellowship</td>
-			<td>每月第三個星期一 下午三時  </br>3rd Mondays 3:00 pm</td>
+			<td>每月第三個星期一 下午一時  </br>3rd Mondays 1:00 pm</td>
 		</tr>
 		<tr>
-			<td>國語查經班</br>Mandarin Bible Study</td>
-			<td>每月第一,第三個星期日 下午一時  </br>1st and 3rd Sundays 1:00 pm</td>
-		</tr>
-		<tr>
-			<td>周一 查經班</br>Monday Bible Study</td>
-			<td>每月第二個星期一上 午十時  </br>2nd Mondays 10:00 am</td>
-		</tr>
-		<tr>
-			<td>周 六查經班</br>Saturday Bible Study</td>
+			<td>周六查經班</br>Saturday Bible Study</td>
 			<td>每月第三,第四個星期六 上午十時  </br>3rd and 4th Saturdays 10:00 am</td>
 		</tr>
 		<tr>
@@ -9014,27 +9001,23 @@ update church_content set body =
 	<tbody>
 		<tr>
 			<td>主日崇拜</br>Worship Service</td>
-			<td>周 日 上 午 十時 </br>Sunday 10:00 am</td>
+			<td>周日 上午 十時 </br>Sunday 10:00 am</td>
 		</tr>
 		<tr>
 			<td>主日學</br>Sunday School</td>
-			<td>周 日 上 午 十時  </br>Sunday 10:00 am</td>
+			<td>周日 上午 十時  </br>Sunday 10:00 am</td>
 		</tr>
 		<tr>
-			<td>青年團契</br>Yound Adult Fellowship </td>
-			<td>每月隔週五 晚上 八時</br>Every Other Friday 8:00 pm</td>
+			<td>青年團契</br>Young Adult Fellowship </td>
+			<td>每週五 晚上七時</br>Every Friday 7:00 pm</td>
 		</tr>
 		<tr>
-			<td>青年菏蘭語團契</br>Yound Adult Dutch Fellowship </td>
-			<td>每月隔週三  晚上 八時</br>Every Other Wednesday 8:00 pm</td>
-		</tr>
-		<tr>
-			<td>少年團契</br>Youth Fellowship</td>
-			<td>每月第一個星期日 下午一時  </br>1st Sundays 1:00 pm</td>
+			<td>少年團契</br>Youth Fellowship </td>
+			<td>每週五 晚上七時</br>Every Friday 7:00 pm</td>
 		</tr>
 		<tr>
 			<td>姊妹團契</br>Sister Fellowship</td>
-			<td>每月第一個星期六 上 午 十時  </br>1st Saturdays 10:00 am</td>
+			<td>每月第一個星期六 上午 十時  </br>1st Saturdays 10:00 am</td>
 		</tr>
 		<tr>
 			<td>弟兄團契</br>Brother Fellowship</td>
@@ -9042,18 +9025,10 @@ update church_content set body =
 		</tr>
 		<tr>
 			<td>長青團契</br>Ever Green Fellowship</td>
-			<td>每月第三個星期一 下午三時  </br>3rd Mondays 3:00 pm</td>
+			<td>每月第三個星期一 下午一時  </br>3rd Mondays 1:00 pm</td>
 		</tr>
 		<tr>
-			<td>國語查經班</br>Mandarin Bible Study</td>
-			<td>每月第一,第三個星期日 下午一時  </br>1st and 3rd Sundays 1:00 pm</td>
-		</tr>
-		<tr>
-			<td>周一 查經班</br>Monday Bible Study</td>
-			<td>每月第二個星期一上 午十時  </br>2nd Mondays 10:00 am</td>
-		</tr>
-		<tr>
-			<td>周 六查經班</br>Saturday Bible Study</td>
+			<td>周六查經班</br>Saturday Bible Study</td>
 			<td>每月第三,第四個星期六 上午十時  </br>3rd and 4th Saturdays 10:00 am</td>
 		</tr>
 		<tr>
@@ -9270,18 +9245,21 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜</br>Worship Service</td>
-			<td>星期一 中午 十二時  </br>Monday 12:00 noon</td>
+			<td>崇拜</br>Worship Service</td>
+			<td>星期一 中午 Monday</td>
+			<td>12:00 pm</td>
 		</tr>
 
 		<tr>
 			<td>查經班</br>Bible Study</td>
-			<td>每月第4及第5個星期一 中午十二時  </br>4th and 5th Mondays 12:00 noon</td>
+			<td>每月第4及第5個星期一 中午  </br>Every 4th and 5th Mondays </td>
+			<td>12:00 pm</td>
 		</tr>
 
 		<tr>
-			<td>祈禱會</br>Prayer Meeting</td>
-			<td>每月第二個星期一 下午一時三十分 </br>2nd Monday 1:30 pm</td>
+			<td>禱告會</br>Prayer Meeting</td>
+			<td>每月第二個星期一 下午</br>Everyy 2nd Monday of the month </td>
+			<td>1:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -9294,18 +9272,21 @@ update church_content set body =
 <table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜</br>Worship Service</td>
-			<td>星期一 中午 十二時  </br>Monday 12:00 noon</td>
+			<td>崇拜</br>Worship Service</td>
+			<td>星期一 中午 Monday</td>
+			<td>12:00 pm</td>
 		</tr>
 
 		<tr>
 			<td>查經班</br>Bible Study</td>
-			<td>每月第4及第5個星期一 中午十二時  </br>4th and 5th Mondays 12:00 noon</td>
+			<td>每月第4及第5個星期一 中午  </br>Every 4th and 5th Mondays </td>
+			<td>12:00 pm</td>
 		</tr>
 
 		<tr>
-			<td>祈禱會</br>Prayer Meeting</td>
-			<td>每月第二個星期一 下午一時三十分 </br>2nd Monday 1:30 pm</td>
+			<td>禱告會</br>Prayer Meeting</td>
+			<td>每月第二個星期一 下午</br>Everyy 2nd Monday of the month </td>
+			<td>1:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -15545,257 +15526,16 @@ update church_content set body = STRINGDECODE('<p>
 -----------------------end Saitama
 
 
----------- Akabane   New church July 2021 ---------
-INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(64, 'akabane', 1, 11, 0);
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(64, 'en', 'menu_name', 'CEC in Akabane ');
-INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(64, 'zh', 'menu_name', '赤羽基督教生命堂 ');
-INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 64);
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'intro', 'en', 'CEC in Akabane   - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
-.contact-content td {font-size: small; padding: 2px; 3px;}
-td.label {font-weight: bold; width: 1%; white-space: nowrap;}
-p span.label {font-weight: bold;}
-.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
-.borderless-table {border-width: 0px;}
-</style>
-<div class="contact-content">
-<div style="color: #000000; font-size: small">
-<table cellpadding="0px" cellspacing="0px">
-	<tbody class="borderless-table">
-		<tr>
-			<td class="label">Evangelists: </td>
-			<td>Ev. Yang Xi, 070-7546-8175</td>
+---------- Akabane   New church July 2021 --  Removed 2/22/2025---------
+---INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(64, 'akabane', 1, 11, 0);
+---INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(64, 'en', 'menu_name', 'CEC in Akabane ');
+---INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(64, 'zh', 'menu_name', '赤羽基督教生命堂 ');
+---INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 64);
+---INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'intro', 'en', 'CEC in Akabane   - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
 
-		</tr>
-		<tr>
-			<td class="label"></td>
-			<td>Ev. Dong Jinbo, 080-7046-5578</td>
-		</tr>
+---INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'contactus', 'en', 'CEC in Akabane  - Contact Us', 'CEC in Akabane<br><br>');
+---INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'contactus', 'zh', '赤羽基督教生命堂  - 連絡我們','');
+---INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'schedule', 'en', 'CEC in Akabane  - Church Services Schedule',
 
-	</tbody>
-</table>
-
-<div style="margin-left: 20px">
-	<table cellpadding="1px" cellspacing="0px">
-		<tbody class="borderless-table">
-			<tr>
-				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
-				<td class="label">Address:</td>
-				<td>Tokyo-To Kita-Ku Akabane Kita 2-36-3-307, Japan</td>
-			</tr>
-			<tr>
-				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-				<td class="label">Tel#:</td>
-				<td>(C) 070-7546-8175 / (C) 080-7046-5578</td>
-			</tr>
-			<tr>
-				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
-				<td class="label">Email:</td>
-				<td>emsi_chiyu@hotmail.com</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-</div>
-
-<hr align="center" size="1" width="100%" /></div>
-
-<div class="main-content">
-	<p><span class="label">Established Date: July 2020</span></p>
-
-
-<p>
-In 2019, a sister in my online Bible Study suggested that we should reach out to the Chinese in Kita-Ku, Tokyo and preach the Gospel to them. So I (Evangelist Yang Xi) discussed it with Rev. Moses Yang who then commissioned me to begin that ministry in Kita-Ku, Tokyo. When I went to Tokyo, sister Wang Yu Xing received me, and allowed me to use her house to start a Bible Study.
-</p>
-<p>
-In July 2020, Evangelist Dong Jinbo, who finished her study in EBI in the USA, was commissioned by Rev. Yang to serve with Evangelist Yang Xi in Kita-Ku, Tokyo to outreach to the Chinese there. Soon after, we started Sunday Worship Service in the home of sister Wang Yu Xing as well as a series of Bible teaching classes for those brothers and sisters who want to serve the Lord and preach the Gospel during the pandemic.
-</p>
-<p>
-May the Lord lead us, and bless us so that we can be a blessing for many! May the Lord remember the brothers and sisters who give selflessly for the Lord’s work! May the Lord’s house prosper!
-</p>
-
-
-</div>
-');
-
-
-
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'intro', 'zh', '赤羽基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
-.contact-content td {font-size: 14px; padding: 2px; 3px;}
-td.label {font-weight: bold; width: 1%; white-space: nowrap;}
-p span.label {font-weight: bold;}
-.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
-.borderless-table {border-width: 0px;}
-</style>
-<div class="contact-content">
-<div style="color: #000000; font-size: small">
-<table cellpadding="0" cellspacing="0">
-	<tbody class="borderless-table">
-			<tr>
-				<td class="label">傳道: </td>
-				<td>楊熙 傳道 (C) 070-7546-8175</td>
-			</tr>
-			<tr>
-				<td class="label"></td>
-				<td>董金波 傳道 (C) 080-7046-5578</td>
-			</tr>
-	</tbody>
-</table>
-&nbsp;
-
-<div style="margin-left: 20px">
-	<table cellpadding="1" cellspacing="0">
-		<tbody class="borderless-table">
-			<tr>
-				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
-				<td class="label">地址:</td>
-				<td>東京都北區赤羽北2丁目36番3-307號</td>
-			<tr>
-				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-				<td class="label">電話:</td>
-				<td>(C) 070-7546-8175 / (C) 080-7046-5578</td>
-			</tr>
-			<tr>
-				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
-				<td class="label">電郵:</td>
-				<td>emsi_chiyu@hotmail.com</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-</div>
-
-<hr align="center" size="1" width="100%" /></div>
-
-<div class="main-content">
-<p>
-<b>成立日期:</b> 2020年 7月
-</p>
-<p>
-<span class=\"label\">簡史: </span>
-</p>
-
-<p>2020年東京北區傳福音
-</p>
-
-<p>2020年一月東京疫情開始，也正是這個時候伴隨着疫情，福音工作在北區開始了。
-</p>
-
-<p>在此之前，2019年有一位東京的姐妹在網路上參加楊熙傳道帶領的查經班，提出希望在東京北區一帶的華人中傳福音，楊傳道向總會楊牧師滙報後，得到楊牧師支持， 於2020年前往東京開展福音事工， 王玉新姐妹接待，並把自己的家奉獻出來，為起初的查經開放使用。
-</p>
-
-<p>家庭教會建立
-</p>
-
-<p>2020年七月，從美國總會神學院學習歸來的董金波傳道被派至北區與楊熙傳道共同開展福音事工，並於本月在王玉新姐妹家中正式開始主日敬拜，並陸續開辦聖經教導班，幾位有心志傳福音事奉主的會友因此得以進一步學習、裝備，在疫情不斷蔓延的環境中，靠着主大能的保守，繼續開展着傳福音的事工。
-求主帶領，藉着弟兄姐妹的同心合意的事奉，願我們手中的事奉成為多人的祝福。
-求主紀念在疫情中靠着在主基督裡的信心為主的事工無私無畏奉獻的弟兄姐妹們！
-願主的家興旺！
-</p>
-
-<p>
-</p>
-</div>');
-
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'contactus', 'en', 'CEC in Akabane  - Contact Us', 'CEC in Akabane<br><br>');
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'contactus', 'zh', '赤羽基督教生命堂  - 連絡我們','');
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'schedule', 'en', 'CEC in Akabane  - Church Services Schedule',
-'
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<tbody>
-		<tr>
-			<td>主日崇拜</br>Worship Service</td>
-			<td>周日上午 十時卅分</br>Sunday 10:30 am</td>
-		</tr>
-		<tr>
-			<td>禱告會</br>Prayer Meeting</td>
-			<td>周六晚上 七時卅分</br>Saturday 07:30 pm</td>
-		</tr>
-		<tr>
-			<td>國語查經</br>Mandarin Bible Study</td>
-			<td>周三晚上 七時卅分</br>Friday 07:30 pm</td>
-		</tr>
-		<tr>
-			<td>基要真理學習班</br>Basic Doctrines</td>
-			<td>周三上午 十時</br>Wednesday 10:00 am</td>
-		</tr>
-	</tbody>
-</table>
-</br>
-
-<p>&nbsp;</p>
-');
-
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'schedule', 'zh', '赤羽基督教生命堂  - 聚會日程',
-'
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
-	<tbody>
-		<tr>
-			<td>主日崇拜</br>Worship Service</td>
-			<td>周日上午 十時卅分</br>Sunday 10:30 am</td>
-		</tr>
-		<tr>
-			<td>禱告會</br>Prayer Meeting</td>
-			<td>周六晚上 七時卅分</br>Saturday 07:30 pm</td>
-		</tr>
-		<tr>
-			<td>國語查經</br>Mandarin Bible Study</td>
-			<td>周三晚上 七時卅分</br>Friday 07:30 pm</td>
-		</tr>
-		<tr>
-			<td>基要真理學習班</br>Basic Doctrines</td>
-			<td>周三上午 十時</br>Wednesday 10:00 am</td>
-		</tr>
-	</tbody>
-</table>
-</br>
-
-<p>&nbsp;</p>
-');
-
-update church set address='Tokyo-To Kita-Ku Akabane Kita 2-36-3-307, Japan', latitude = 35.78805542336534, longitude = 139.70970885498207 where church_path = 'akabane';
-
-update church_content set body = STRINGDECODE('
-<style>
-.indentation {margin:20px;}
-</style>
-<p>
-<b>Evangelists: </b>
-<p style="padding-left: 55px;">
-Ev. Yang Xi, 070-7546-8175</p>
-<p style="padding-left: 55px;">
-Ev. Dong Jinbo, 080-7046-5578</p>
-
-</p>
-<p>
-<b>Address: </b>Tokyo-To Kita-Ku Akabane Kita 2-36-3-307, Japan
-</p>
-<p>
-<b>Tel #: </b> (C) 070-7546-8175 / (C) 080-7046-5578
-</p>
-<p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.4887233435566!2d139.707498714865!3d35.78793358016955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018933e658d3fd1%3A0xaa33515261a9902d!2s2-ch%C5%8Dme-36-3%20Akabanekita%2C%20Kita%20City%2C%20Tokyo%20115-0052%2C%20Japan!5e0!3m2!1sen!2sus!4v1626898888527!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-')	where church_id = (select church_id from church where church_path = 'akabane')
-	and locale = 'en'
-	and page_id = 'contactus';
-
-update church_content set body = STRINGDECODE('
-<p>
-<b>傳道:</b> 楊熙 傳道, (C) 070-7546-8175
-</p>
-<p style="padding-left: 40px;">
-董金波 傳道, (C) 080-7046-5578
-</p>
-
-<b>地 址: </b>東京都北區赤羽北2丁目36番3-307號
-</p>
-<p>
-<b>電 話: </b>(C) 070-7546-8175 / (C) 080-7046-5578
-</p>
-<p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3236.4887233435566!2d139.707498714865!3d35.78793358016955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018933e658d3fd1%3A0xaa33515261a9902d!2s2-ch%C5%8Dme-36-3%20Akabanekita%2C%20Kita%20City%2C%20Tokyo%20115-0052%2C%20Japan!5e0!3m2!1sen!2sus!4v1626898888527!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-</p>
-')	where church_id = (select church_id from church where church_path = 'akabane')
-	and locale = 'zh'
-	and page_id = 'contactus';
 
 -----------------------end Akabane
