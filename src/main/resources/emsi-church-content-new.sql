@@ -3833,12 +3833,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Senior Pastor:</td>
-			<td>Rev. Stephen Hosea, (415)309-5661</td>
-		</tr>
-		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. Fam Muk Thiam, (916)600-9359</td>
+			<td>Rev. Stephen Hosea, (415)309-5661</td>
 		</tr>
 	</tbody>
 </table>
@@ -3853,7 +3849,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>(916)600-9359</td>
+			<td>(415)309-5661</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -3891,12 +3887,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">主任牧師:</td>
-			<td>何兆威 牧師, (415)309-5661</td>
-		</tr>
-		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>范慕天 牧師, (916)600-9359</td>
+			<td>何兆威 牧師, (415)309-5661</td>
 		</tr>
 	</tbody>
 </table>
@@ -3911,7 +3903,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> (916)600-9359</td>
+			<td>(415)309-5661</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -3943,16 +3935,13 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Senior Pastor: </b>Rev. Stephen Hosea, (415)309-5661
-</p>
-<p>
-<b>Pastor: </b>Rev. Fam Muk Thiam, (916)600-9359
+<b>Pastor: </b>Rev. Stephen Hosea, (415)309-5661
 </p>
 <p>
 <b>Address: </b>6656 Park Riviera Way, Sacramento, CA 95831, USA
 </p>
 <p>
-<b>Tel #: </b>(916)600-9359
+<b>Tel #: </b>(415)309-5661
 </p>
 <p>
 <b>Email: </b>gerejaiisacramento@gmail.com
@@ -3967,16 +3956,13 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>主任牧師:</b> 何兆威 牧師, (415)309-5661
-</p>
-<p>
-<b>牧師:</b> 范慕天 牧師, (916)600-9359
+<b>牧師:</b> 何兆威 牧師, (415)309-5661
 </p>
 <p>
 <b>地址: </b>6656 Park Riviera Way, Sacramento, CA 95831, USA
 </p>
 <p>
-<b>電話:</b> (916)600-9359
+<b>電話:</b> (415)309-5661
 </p>
 <p>
 <b>電郵: </b>gerejaiisacramento@gmail.com
