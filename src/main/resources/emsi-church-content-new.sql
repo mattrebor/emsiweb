@@ -9518,6 +9518,177 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(25, 'schedule', 'en', 'CEC in Breda - Church Services Schedule',
+'
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜(普通話、廣東話及荷語) </br>
+			 Sunday Worship(Mandarin, Cantonese, Dutch)</td>
+			<td>星期日 上午 Sunday</td>
+			<td>10:00 am-12:00 pm</td>
+		</tr>
+		<tr>
+			<td>中文班 Chinese class</td>
+			<td>星期日 下午 Sunday</td>
+			<td>12:30-14:00</td>
+		</tr>
+		<tr>
+			<td>金色年華活動 Seniors’ Hour</td>
+			<td>星期一 下午 Sunday</td>
+			<td>13:00-14:30</td>
+		</tr>
+		<tr>
+			<td>普通話查經班* </br>
+			Mandarin Bible Class</td>
+			<td>星期二 Tuesday</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>荷語團契 Dutch Fellowship</td>
+			<td>每月第一個星期日  </br>
+			1st Sunday of the Month</td>
+			<td>12:30-16:00</td>
+		</tr>
+		<tr>
+			<td>粵語團契 Cantonese Fellowship</td>
+			<td>每月第一個星期日  </br>
+			1st Sunday of the Month</td>
+			<td>12:30-14:00</td>
+		</tr>
+		<tr>
+			<td>普通話團契 Mandarin Fellowship</td>
+			<td>每月第三個星期日  </br>
+			3rd Sunday of the Month</td>
+			<td>12:30-14:30</td>
+		</tr>
+		<tr>
+			<td>荷語夫妻團契 </br>
+			 Couples Fellowship in Dutch</td>
+			<td>每月第三個星期日 </br>
+			3rd Sunday of the Month</td>
+			<td>12:00-14:30</td>
+		</tr>
+		<tr>
+			<td>粵語查經班 Cantonese Bible Class</td>
+			<td>每月第一個星期六早上  </br>
+			1st Saturday of the Month</td>
+			<td>10:00-11:30</td>
+		</tr>
+		<tr>
+			<td>禱告會 Prayer Meeting</td>
+			<td>每月第一個星期六中午  </br>
+			1st Saturday of the Month</td>
+			<td>12:00-13:30</td>
+		</tr>
+		<tr>
+			<td>荷語查經班 Bible Class in Dutch</td>
+			<td>每月第二、第四個星期六  </br>
+			2nd, 4th Saturday of the Month</td>
+			<td>10:00-11:30</td>
+		</tr>
+		<tr>
+			<td>少年團契 Youth Fellowship</td>
+			<td>每月第三個星期六  </br>
+			3rd Saturday of the Month</td>
+			<td>11:00-14:00</td>
+		</tr>
+	</tbody>
+</table>
+</br>
+*普通話查經班在不同城市進行. </br>
+
+The Mandarin Bible class is held in different cities.
+
+<p>&nbsp;</p>
+');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(25, 'schedule', 'zh', '百利達基督教生命堂 - 聚會日程',
+'
+<table border="1" cellpadding="1" cellspacing="1" style="width: 600px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜(普通話、廣東話及荷語) </br>
+			 Sunday Worship(Mandarin, Cantonese, Dutch)</td>
+			<td>星期日 上午 Sunday</td>
+			<td>10:00 am-12:00 pm</td>
+		</tr>
+		<tr>
+			<td>中文班 Chinese class</td>
+			<td>星期日 下午 Sunday</td>
+			<td>12:30-14:00</td>
+		</tr>
+		<tr>
+			<td>金色年華活動 Seniors’ Hour</td>
+			<td>星期一 下午 Sunday</td>
+			<td>13:00-14:30</td>
+		</tr>
+		<tr>
+			<td>普通話查經班* </br>
+			Mandarin Bible Class</td>
+			<td>星期二 Tuesday</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>荷語團契 Dutch Fellowship</td>
+			<td>每月第一個星期日  </br>
+			1st Sunday of the Month</td>
+			<td>12:30-16:00</td>
+		</tr>
+		<tr>
+			<td>粵語團契 Cantonese Fellowship</td>
+			<td>每月第一個星期日  </br>
+			1st Sunday of the Month</td>
+			<td>12:30-14:00</td>
+		</tr>
+		<tr>
+			<td>普通話團契 Mandarin Fellowship</td>
+			<td>每月第三個星期日  </br>
+			3rd Sunday of the Month</td>
+			<td>12:30-14:30</td>
+		</tr>
+		<tr>
+			<td>荷語夫妻團契 </br>
+			 Couples Fellowship in Dutch</td>
+			<td>每月第三個星期日 </br>
+			3rd Sunday of the Month</td>
+			<td>12:00-14:30</td>
+		</tr>
+		<tr>
+			<td>粵語查經班 Cantonese Bible Class</td>
+			<td>每月第一個星期六早上  </br>
+			1st Saturday of the Month</td>
+			<td>10:00-11:30</td>
+		</tr>
+		<tr>
+			<td>禱告會 Prayer Meeting</td>
+			<td>每月第一個星期六中午  </br>
+			1st Saturday of the Month</td>
+			<td>12:00-13:30</td>
+		</tr>
+		<tr>
+			<td>荷語查經班 Bible Class in Dutch</td>
+			<td>每月第二、第四個星期六  </br>
+			2nd, 4th Saturday of the Month</td>
+			<td>10:00-11:30</td>
+		</tr>
+		<tr>
+			<td>少年團契 Youth Fellowship</td>
+			<td>每月第三個星期六  </br>
+			3rd Saturday of the Month</td>
+			<td>11:00-14:00</td>
+		</tr>
+	</tbody>
+</table>
+</br>
+*普通話查經班在不同城市進行. </br>
+
+The Mandarin Bible class is held in different cities.
+
+<p>&nbsp;</p>
+');
+
 ------------ Ends breda --------
 
 ----------  starts Holland - amsterdam
