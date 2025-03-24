@@ -4171,6 +4171,8 @@ update church_content set body = STRINGDECODE('<p>
 	and locale = 'zh'
 	and page_id = 'contactus';
 
+
+
 ----------------- porto alto
 
 
@@ -4365,6 +4367,7 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'lisbon')
 	and locale = 'zh'
 	and page_id = 'contactus';
+
 
 
 ----------------- end Lisbon
@@ -4744,6 +4747,36 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'mindelo')
 	and locale = 'zh'
 	and page_id = 'contactus';
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(38, 'schedule', 'en', 'CEC in Mindelo - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜 Worship Service</td>
+			<td>星期日 Sunday</td>
+			<td>20:30 – 22:30</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(38, 'schedule', 'zh', '明德路基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜 Worship Service</td>
+			<td>星期日 Sunday</td>
+			<td>20:30 – 22:30</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');
+
+
+
 
 
 -----------------ends Portugal - Mindelo
