@@ -4395,6 +4395,30 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(36, 'schedule', 'en', 'CEC in Lisbon - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜 Worship Service</td>
+			<td>星期日 Sunday</td>
+			<td>16:15  – 18:00</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(36, 'schedule', 'zh', '里斯本基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>主日崇拜 Worship Service</td>
+			<td>星期日 Sunday</td>
+			<td>16:15  – 18:00</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');
 
 ----------------- end Lisbon
 
@@ -4582,19 +4606,22 @@ update church_content set body = STRINGDECODE('<p>
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(37, 'schedule', 'en', 'CEC in Porto - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>Worship Service</td>
-			<td>Tuesday 8:30 pm – 10:30 pm</td>
+			<td>崇拜 Worship Service </td>
+			<td>星期六 Saturday</td>
+			<td>21:00 – 22:30</td>
 		</tr>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
 ');
+
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(37, 'schedule', 'zh', '波爾圖基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>崇拜 </td>
-			<td>星期二 晚上 8:30 pm – 10:30 pm</td>
+			<td>崇拜 Worship Service </td>
+			<td>星期六 Saturday</td>
+			<td>21:00 – 22:30</td>
 		</tr>
 	</tbody>
 </table>
@@ -4969,9 +4996,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'schedule', 'en', 'CEC in Azores - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>Sunday Worship</td>
-			<td></td>
-			<td></td>
+			<td>崇拜 Worship Service </td>
+			<td>星期六 Saturday</td>
+			<td>21:15 – 22:30</td>
 		</tr>
 	</tbody>
 </table>
@@ -4981,9 +5008,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(57, 'schedule', 'zh', '亞速爾基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜 </td>
-			<td></td>
-			<td></td>
+			<td>崇拜 Worship Service </td>
+			<td>星期六 Saturday</td>
+			<td>21:15 – 22:30</td>
 		</tr>
 	</tbody>
 </table>
@@ -5157,9 +5184,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'schedule', 'en', 'CEC in Setubal - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>Sunday Worship</td>
-			<td></td>
-			<td></td>
+			<td>崇拜 Worship Service </td>
+			<td>星期六 Saturday</td>
+			<td>21:15 – 22:30</td>
 		</tr>
 	</tbody>
 </table>
@@ -5169,9 +5196,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(58, 'schedule', 'zh', '思督堡基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜 </td>
-			<td></td>
-			<td></td>
+			<td>崇拜 Worship Service </td>
+			<td>星期六 Saturday</td>
+			<td>21:15 – 22:30</td>
 		</tr>
 	</tbody>
 </table>
@@ -5667,6 +5694,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'schedule', 'en', 'CEC in Madeira - Church Services Schedule',
 '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
+			<td>主日崇拜 Worship Service </td>
+			<td>星期日 Sunday</td>
+			<td>16:15 – 17:30</td>
 	</tbody>
 </table>
 
@@ -5674,6 +5704,9 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(60, 'schedule', 'zh', '馬德拉基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
+			<td>主日崇拜 Worship Service </td>
+			<td>星期日 Sunday</td>
+			<td>16:15 – 17:30</td>
 	</tbody>
 </table>
 
