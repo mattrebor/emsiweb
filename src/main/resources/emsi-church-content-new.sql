@@ -4217,7 +4217,11 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Senior Pastor:</td>
+			<td class="label">Bishop:</td>
+			<td>Rev. Moses Yang</td>
+		</tr>
+		<tr>
+			<td class="label">Chief Pastor:</td>
 			<td>Rev. Yue Ping Chen, (cell) 351-963-333-777</td>
 		</tr>
 	</tbody>
@@ -4227,7 +4231,12 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
-			<td class="label">Address:</td>
+			<td class="label">CEM Portugal Address:</td>
+			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Church Address:</td>
 			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
 		</tr>
 		<tr>
@@ -4245,6 +4254,11 @@ p span.label {font-weight: bold;}
 			<td class="label">Email:</td>
 			<td><a href="mailto:emsilisboa@hotmail.com">emsilisboa@hotmail.com</a><br />
 			</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">WeChat:</td>
+			<td>cheyueping</td>
 		</tr>
 	</tbody>
 </table>
@@ -4281,7 +4295,11 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">牧師:</td>
+			<td class=\"label\">監督:</td>
+			<td>楊摩西 牧師</td>
+		</tr>
+		<tr>
+			<td class=\"label\">會牧:</td>
 			<td>陳岳平 牧師, (手機) 351-963-333-777</td>
 		</tr>
 	</tbody>
@@ -4291,7 +4309,12 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">地址:</td>
+			<td class=\"label\">佈道會地址:</td>
+			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">教會地址:</td>
 			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
 		</tr>
 		<tr>
@@ -4308,6 +4331,11 @@ p span.label {font-weight: bold;}
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
 			<td><a href=\"mailto: emsilisboa@hotmail.com"> emsilisboa@hotmail.com</a></td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">微信:</td>
+			<td>cheyueping</td>
 		</tr>
 	</tbody>
 </table>
@@ -4348,10 +4376,16 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Senior Pastor: </b>Rev. Yue Ping Chen, (cell) 351-963-333-777
+<b>Bishop: </b>Rev. Moses Yang
 </p>
 <p>
-<b>Address: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+<b>Chief Pastor: </b>Rev. Yue Ping Chen, (cell) 351-963-333-777
+</p>
+<p>
+<b>CEM Portugal Address: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+</p>
+<p>
+<b>Church Address: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
 </p>
 <p>
 <b>Tel #: </b>(cell) 351-963-333-777
@@ -4361,6 +4395,9 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>Email: </b>emsilisboa@hotmail.com
+</p>
+<p>
+<b>WeChat: </b>cheyueping
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -4373,10 +4410,16 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師:</b> 陳岳平 牧師,(手機) 351-963-333-777
+<b>監督:</b> 楊摩西  牧師
 </p>
 <p>
-<b>地址: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+<b>會牧:</b> 陳岳平 牧師,(手機) 351-963-333-777
+</p>
+<p>
+<b>佈道地址: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+</p>
+<p>
+<b>教會地址: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
 </p>
 <p>
 <b>電話:</b> (手機) 351-963-333-777
@@ -4386,6 +4429,9 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>電郵: </b>emsilisboa@hotmail.com
+</p>
+<p>
+<b>微信: </b>cheyueping
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -4646,6 +4692,10 @@ p span.label {font-weight: bold;}
 <div style="color: #000000; font-size: small">
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Pastor:</td>
+			<td>Rev. Jian Pan, (Cell) 351-962-222-221</td>
+		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -4659,12 +4709,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> 351-252-612-642/(cell) 351-963-333-777</td>
+			<td> 351-962-222-221</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">Fax#:</td>
-			<td> 351-218-868-370</td>
+			<td class="label">WeChat:</td>
+			<td>panjian_789</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -4702,8 +4752,14 @@ p span.label {font-weight: bold;}
 <div style=\"color: #000000; font-size: small\">
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
+		<tr>
+			<td class="label">牧師:</td>
+			<td>潘建 牧師, (手機) 351-962-222-221</td>
+		</tr>
+
 	</tbody>
 </table>
+
 <br /><div style=\"margin-left: 20px\">
 <table cellpadding=\"1\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
@@ -4715,12 +4771,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 351-252-612-642/(手機) 351-963-333-777 </td>
+			<td> 351-962-222-221 </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">傳真:</td>
-			<td> 351-218-868-370 </td>
+			<td class=\"label\">微信:</td>
+			<td> panjian_789 </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -4761,13 +4817,16 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
+<b>Pastor:</b> Rev. Jian Pan, (cell) 351-962-222-221
+</p>
+<p>
 <b>Address: </b>Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal
 </p>
 <p>
-<b>Tel #: </b> 351-252-612-642/(cell) 351-963-333-777
+<b>Tel #: </b> 351-962-222-221
 </p>
 <p>
-<b>Fax #: </b>351-218-868-370
+<b>WeChat: </b>panjian_789
 </p>
 <p>
 <b>Email: </b>emsimindelo@hotmail.com
@@ -4782,14 +4841,16 @@ update church_content set body = STRINGDECODE('<p>
 
 
 update church_content set body = STRINGDECODE('<p>
-<p>
+<p><p>
+<b>牧師:</b> 潘建 牧師, (手機) 351-962-222-221
+</p>
 <b>地址: </b>Rua B 60 Zona Industrial DE Arvore Vila Do Conde 4480-622, Portugal
 </p>
 <p>
-<b>電話:</b> 351-252-612-642/(手機) 351-963-333-777
+<b>電話:</b> 351-962-222-221
 </p>
 <p>
-<b>傳真: </b>351-218-868-370
+<b>微信: </b> panjian_789
 </p>
 <p>
 <b>電郵: </b>emsimindelo@hotmail.com
@@ -4849,15 +4910,15 @@ p span.label {font-weight: bold;}
 </style>
 <div class="contact-content">
 <div style="color: #000000; font-size: small">
-<table cellpadding="0px" cellspacing="0px">
-	<tbody class="borderless-table">
-		<tr>
-			<td class="label"> </td>
-			<td></td>
-		</tr>
+	<table cellpadding="0px" cellspacing="0px">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label">Pastor:</td>
+				<td>Rev. DeGang Yang</td>
+			</tr>
 
-	</tbody>
-</table>
+		</tbody>
+	</table>
 
 <div style="margin-left: 20px">
 	<table cellpadding="1px" cellspacing="0px">
@@ -4870,7 +4931,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">Tel#:</td>
-				<td>  (cell) 351-963-333-777 </td>
+				<td>  (cell) 351-939-782-996 </td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -4923,8 +4984,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label"></td>
-			<td></td>
+			<td class="label">牧師:</td>
+			<td>楊德剛牧師</td>
 		</tr>
 	</tbody>
 </table>
@@ -4941,7 +5002,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">電話:</td>
-				<td> (手機) 351-963-333-777</td>
+				<td> 351-939-782-996</td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -5026,9 +5087,11 @@ update church_content set body = STRINGDECODE('
 .indentation {margin:20px;}
 </style>
 <p>
+<b>Pastor: </b>Rev. DeGang Yang</p>
+<p>
 <b>Address: </b>Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal</p>
 <p>
-<b>Tel #: </b> (cell) 351-963-333-777</p>
+<b>Tel #: </b> 351-939-782-996</p>
 <p>
 <b>Email: </b> emsiazores@hotmail.com</p>
 
@@ -5039,11 +5102,13 @@ update church_content set body = STRINGDECODE('
 	and page_id = 'contactus';
 
 update church_content set body = STRINGDECODE('<p>
-<p><b>地 址: </b>Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal</p>
 <p>
-<b>電 話: </b>(手機) 351-963-333-777</p>
+<b>牧師: </b> 楊德剛牧師</p>
+<p><b>地址: </b>Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal</p>
 <p>
-<b>電 郵: </b>emsiazores@hotmail.com</p>
+<b>電話: </b>351-939-782-996</p>
+<p>
+<b>電郵: </b>emsiazores@hotmail.com</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.0492678658356!2d-25.6905588867643!3d37.741988379765374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ0JzMxLjIiTiAyNcKwNDEnMTguMSJX!5e0!3m2!1sen!2sus!4v1476749807515" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'azores')
@@ -5574,9 +5639,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label"></td>
-			<td></td>
-		</tr>
+			<td class="label">Pastor: </td>
+			<td>Rev. DeGang Yang
 
 	</tbody>
 </table>
@@ -5592,17 +5656,12 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">Tel#:</td>
-				<td> 351-963-333-777 </td>
-			</tr>
-			<tr>
-				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-				<td class="label">Fax#:</td>
-				<td> 351-218-868-370 </td>
+				<td> 351-939-782-996</td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td></td>
+				<td>emsimadeira@hotmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -5632,8 +5691,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label"></td>
-			<td></td>
+			<td class="label">牧師: </td>
+			<td>楊德剛牧師</td>
 		</tr>
 	</tbody>
 </table>
@@ -5650,17 +5709,12 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">電話:</td>
-				<td> 351-963-333-777</td>
-			</tr>
-			<tr>
-				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
-				<td class="label">傳真:</td>
-				<td> 351-218-868-370</td>
+				<td> 351-939-782-996</td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td></td>
+				<td>emsimadeira@hotmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -5721,13 +5775,16 @@ update church_content set body = STRINGDECODE('
 .indentation {margin:20px;}
 </style>
 <p>
+<b>Pastor: </b> Rev. DeGang Yang
+</p>
+<p>
 <b>Address: </b>Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal
 </p>
 <p>
-<b>Tel #: </b> 351-963-333-777
+<b>Tel #: </b> 351-939-782-996
 </p>
 <p>
-<b>Fax #: </b> 351-218-868-370
+<b>Email: </b> emsimadeira@hotmail.com
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.411638675415!2d-16.913363684821267!3d32.64848838101103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6060083bf893e1%3A0x985f19b39740cbe0!2sR.+de+S%C3%A3o+Francisco+3%2C+9000-050+Funchal%2C+Portugal!5e0!3m2!1sen!2sus!4v1502682205190" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
@@ -5737,13 +5794,16 @@ update church_content set body = STRINGDECODE('
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>地 址: </b>Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal
+<b>牧師: </b>楊德剛牧師
 </p>
 <p>
-<b>電 話: </b>351-963-333-777
+<b>地址: </b>Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal
 </p>
 <p>
-<b>傳真: </b>351-218-868-370
+<b>電話: </b>351-939-782-996
+</p>
+<p>
+<b>電郵: </b>emsimadeira@hotmail.com
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.411638675415!2d-16.913363684821267!3d32.64848838101103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6060083bf893e1%3A0x985f19b39740cbe0!2sR.+de+S%C3%A3o+Francisco+3%2C+9000-050+Funchal%2C+Portugal!5e0!3m2!1sen!2sus!4v1502682205190" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
@@ -10597,10 +10657,6 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 			<td class="label"></td>
 			<td>Ev. Na Li, +34-654-836-884</td>
 		</tr>
-		<tr>
-			<td class="label"></td>
-			<td>Ev. Jenny Jiang, +34-651-771-102</td>
-		</tr>
 	</tbody>
 </table>
 <div style="margin-left: 20px">
@@ -10660,10 +10716,6 @@ p span.label {font-weight: bold;}
 			<td class=\"label\"></td>
 			<td>李娜 傳道, +34-654-836-884</td>
 		</tr>
-		<tr>
-			<td class=\"label\"></td>
-			<td>蔣凌芳 傳道，+34-651-771-102</td>
-		</tr>
 	</tbody>
 </table>
 <br /><div style=\"margin-left: 20px\">
@@ -10715,8 +10767,6 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p style="padding-left: 55px;">Ev. Na Li, +34-654-836-884
 </p>
-<p style="padding-left: 55px;">Ev. Jenny Jiang, +34-651-771-102
-</p>
 <p>
 <b>Address: </b>Rigoberto Ferrer 18, 03006 Alicante, Spain
 </p>
@@ -10737,9 +10787,6 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p style="padding-left: 40px;">
 李娜 傳道, +34-654-836-884
-</p>
-<p style="padding-left: 40px;">
-蔣凌芳 傳道, +34-651-771-102
 </p>
 <p>
 <b>地址: </b>Rigoberto Ferrer 18, 03006 Alicante, Spain
