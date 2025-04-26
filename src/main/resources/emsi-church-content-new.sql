@@ -6106,8 +6106,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Ev. Zhang Qiong</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Zhang Qiong</td>
 		</tr>
 
 	</tbody>
@@ -6142,7 +6142,12 @@ p span.label {font-weight: bold;}
 <span class="label">Established Date: </span>February 17, 2008
 </p>
 <p>
-When Pastor Moses Yang came to Japan on September 2007 to teach theological courses, he challenged us to start a church for spreading the Gospel in Kobe, Japan. He assigned Ev. Yahui Xie to serve in this church. Through prayers, our Lord prepared for us an assembly place in downtown Kobe. A couple who loved the Lord offered to pay for the monthly rent of that place. It was beyond what we asked for. May God bless them abundantly. After a few months of preparation, CEC in Kobe was established on 17 February, 2008.
+When Pastor Moses Yang came to Japan on September 2007 to teach theological courses, 
+he challenged us to start a church for spreading the Gospel in Kobe, Japan. 
+Through prayers, our Lord prepared for us an assembly place in downtown Kobe. 
+A couple who loved the Lord offered to pay for the monthly rent of that place. 
+It was beyond what we asked for. May God bless them abundantly. After a few months of preparation, 
+CEC in Kobe was established on 17 February, 2008.
 </p>
 
 </div>
@@ -6163,8 +6168,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>張瓊 傳道</td>
+			<td class=\"label\">牧師:</td>
+			<td>張瓊 牧師</td>
 		</tr>
 
 	</tbody>
@@ -6199,7 +6204,7 @@ p span.label {font-weight: bold;}
 </p>
 <p>
 <span class=\"label\">簡史: </span><br />
-2007年9月楊摩西牧師到日本教授神學課時向我們提出一個挑戰,就是在日本神戶設立教會, 以便福音廣傳. 楊牧師離開之前決定派謝雅惠傳道在神戶教會服事.
+2007年9月楊摩西牧師到日本教授神學課時向我們提出一個挑戰,就是在日本神戶設立教會, 以便福音廣傳.
 </p>
 <p>藉著禱告,主在神戶為我們預備了合適的地方, 在神戶繁華的地帶預備了聚會的場所, 同時神也感動一對愛主並對福音事工有負擔的夫婦為我們教會奉獻每月的房租,這真是超乎我們所求所想,相信主會紀念弟兄姐妹的擺上,並賜福給他們.讓他們在今後的服事上更加蒙恩,蒙福,榮神益人!
 </p>
@@ -6270,7 +6275,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Zhang Qiong
+<b>Pastor: </b>Rev. Zhang Qiong
 </p>
 <p>
 <b>Address: </b>神戶市中央區元町通 3-2-15ｾﾝﾄﾗﾙﾋﾞﾙ元町3F, Japan
@@ -6292,7 +6297,7 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 張瓊 傳道
+<b>牧師:</b> 張瓊 牧師
 </p>
 <p>
 <b>地址: </b>日本神戶市中央區元町通 3-2-15ｾﾝﾄﾗﾙﾋﾞﾙ元町3F
@@ -13971,8 +13976,18 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 <tbody class="borderless-table">
 		<tr>
-			<td class="label">Pastor: </td>
+			<td class="label">Senior Pastor: </td>
 			<td>Rev. Sorina Yang, (H)973-331-0438</td>
+		</tr>
+
+		<tr>
+			<td class="label">Evangelist: </td>
+			<td>Ev. Daniel Zhai, (C) 646-712-2592</td>
+		</tr>
+
+		<tr>
+			<td class="label">Evangelist: </td>
+			<td>Ev. Lydia Zhang, (C) 929-724-0472</td>
 		</tr>
 
 </tbody>
@@ -13989,7 +14004,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 <td class="label">Tel#:</td>
-<td> (973) 335-7337 ext. 220, (C) (973) 699-3223 </td>
+<td> (973) 335-7337 (C) (973) 699-3223 </td>
 </tr>
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -14052,8 +14067,18 @@ p span.label {font-weight: bold;}
 <table cellpadding="0" cellspacing="0">
 <tbody class="borderless-table">
 		<tr>
-			<td class="label">牧師: </td>
+			<td class="label">主任牧師: </td>
 			<td>楊張秀蘭 牧師, (H)973-331-0438</td>
+		</tr>
+
+		<tr>
+			<td class="label">傳道: </td>
+			<td>翟廣奇 傳道, (C) 646-712-2592</td>
+		</tr>
+
+		<tr>
+			<td class="label">傳道: </td>
+			<td>張語珈 傳道, (C) 929-724-0472</td>
 		</tr>
 </tbody>
 </table>
@@ -14070,7 +14095,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 <td class="label">電話:</td>
-<td> (973) 335-7337 ext. 220, (C) (973) 699-3223 </td>
+<td> (973) 335-7337 (C) (973) 699-3223 </td>
 </tr>
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -14339,12 +14364,18 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 update church set address='343 Kinderkamack Road, Oradell, NJ 07649 USA', latitude = 40.9521361, longitude = -74.0320762 where church_path = 'oradell';
 
 update church_content set body = STRINGDECODE('<p>
-<b>Pastor: </b>Rev. Sorina Yang, (H)973-331-0438
+<b>Senior Pastor: </b>Rev. Sorina Yang, (H)973-331-0438
+</p>
+<p>
+<b>Evangelist: </b>Ev. Daniel Zhai, (C)646-712-2592
+</p>
+<p>
+<b>Evangelist: </b>Ev. Lydia Zhang, (C)929-724-0472
 </p>
 <p>
 <b>Address: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
 <p>
-<b>Tel #: </b>(973) 335-7337 ext. 220, (C)(973) 699-3223</p>
+<b>Tel #: </b>(973) 335-7337 (C)(973) 699-3223</p>
 <p>
 <b>Email: </b>hlan_yang@yahoo.com</p>
 
@@ -14355,12 +14386,18 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 update church_content set body = STRINGDECODE('<p>
-<b>牧師: </b>楊張秀蘭 牧師, (H)973-331-0438
+<b>主任牧師: </b>楊張秀蘭 牧師, (H)973-331-0438
+</p>
+<p>
+<b>傳道: </b>翟廣奇 傳道, (C)646-712-2592
+</p>
+<p>
+<b>傳道: </b>張語珈 傳道, (C)929-724-0472
 </p>
 <p>
 <b>地 址: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
 <p>
-<b>電 話: </b>(973) 335-7337 ext. 220, (C) (973) 699-3223</p>
+<b>電 話: </b>(973) 335-7337 (C) (973) 699-3223</p>
 <p>
 <b>電 郵: </b>hlan_yang@yahoo.com</p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?sll=40.9521347,-74.0320579&amp;sspn=0.0062231,0.0109864&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&amp;t=m&amp;z=14&amp;ll=40.952136,-74.032076&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
