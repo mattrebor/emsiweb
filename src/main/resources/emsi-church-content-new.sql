@@ -9395,13 +9395,13 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 		<tr>
 			<td>查經班</br>Bible Study</td>
-			<td>每月第4及第5個星期一 中午  </br>Every 4th and 5th Mondays </td>
+			<td>每月第4及第5個星期一 中午  </br>Every 4th & 5th Mondays </td>
 			<td>12:00 pm</td>
 		</tr>
 
 		<tr>
 			<td>禱告會</br>Prayer Meeting</td>
-			<td>每月第二個星期一 下午</br>Everyy 2nd Monday of the month </td>
+			<td>每月第二個星期一 下午</br>Every 2nd Monday of the month </td>
 			<td>1:30 pm</td>
 		</tr>
 	</tbody>
@@ -9422,13 +9422,13 @@ update church_content set body =
 
 		<tr>
 			<td>查經班</br>Bible Study</td>
-			<td>每月第4及第5個星期一 中午  </br>Every 4th and 5th Mondays </td>
+			<td>每月第4及第5個星期一 中午  </br>Every 4th & 5th Mondays </td>
 			<td>12:00 pm</td>
 		</tr>
 
 		<tr>
 			<td>禱告會</br>Prayer Meeting</td>
-			<td>每月第二個星期一 下午</br>Everyy 2nd Monday of the month </td>
+			<td>每月第二個星期一 下午</br>Every 2nd Monday of the month </td>
 			<td>1:30 pm</td>
 		</tr>
 	</tbody>
