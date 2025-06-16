@@ -54,7 +54,7 @@ update church set address='Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain',
 update church set address='Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal', latitude = 38.711997, longitude = -8.980867 where church_path = 'portoalto';
 update church set address='Rua Francisco Sanches 17, 1170-140 Lisbon, Portugal', latitude = 38.7306258, longitude = -9.1339151 where church_path = 'lisbon';
 update church set address='Rua do Amial 698, 4200-053 Porto, Portugal', latitude = 41.1789973, longitude = -8.6160348 where church_path = 'porto';
-update church set address='Rua B 60, 4480-620 Arvore, Portugal', latitude = 41.331837889307224, longitude = -8.719326764470782 where church_path = 'mindelo';
+update church set address='Zona Industrial Arvore Rua B60, 4480-620 Arvore, Portugal', latitude = 41.331837889307224, longitude = -8.719326764470782 where church_path = 'mindelo';
 update church set address='73 Avenue de Verdun, 94200 Ivry-sur-Seine, Paris, France', latitude = 48.8135227, longitude = 2.3702061 where church_path = 'paris';
 update church set address='Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium', latitude = 51.219508, longitude = 4.417894 where church_path = 'antwerpen';
 update church set address='Rue du Fossé aux Loups 32, 1000 Brussels, Belgium', latitude = 50.8503111, longitude = 4.3546746 where church_path = 'brussels';
@@ -4704,7 +4704,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> Rua B 60, 4480-620 Arvore, Portugal</td>
+			<td> Zona Industrial Arvore Rua B60, 4480-620 Arvore, Portugal</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -4766,7 +4766,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> Rua B 60, 4480-620 Arvore, Portugal</td>
+			<td> Zona Industrial Arvore Rua B60, 4480-620 Arvore, Portugal</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -4820,7 +4820,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor:</b> Rev. Jian Pan, (cell) 351-962-222-221
 </p>
 <p>
-<b>Address: </b>Rua B 60, 4480-620 Arvore, Portugal
+<b>Address: </b>Zona Industrial Arvore Rua B60, 4480-620 Arvore, Portugal
 </p>
 <p>
 <b>Tel #: </b> 351-962-222-221
@@ -4844,7 +4844,7 @@ update church_content set body = STRINGDECODE('<p>
 <p><p>
 <b>牧師:</b> 潘建 牧師, (手機) 351-962-222-221
 </p>
-<b>地址: </b>Rua B 60, 4480-620 Arvore, Portugal
+<b>地址: </b>Zona Industrial Arvore Rua B60, 4480-620 Arvore, Portugal
 </p>
 <p>
 <b>電話:</b> 351-962-222-221
