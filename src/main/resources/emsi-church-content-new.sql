@@ -51,7 +51,7 @@ update church set address='Av. De Galdar, 10, Local 6A, 35100 Maspalomas, de Gra
 update church set address='Calle Alguacil, 8, 28038 Madrid, Spain', latitude = 40.3960213, longitude = -3.6630519 where church_path = 'southmadrid';
 update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', latitude = 41.3709592, longitude = 2.1374551 where church_path = 'barcelona';
 update church set address='Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain', latitude = 40.2646057, longitude = -3.7542281 where church_path = 'fuenlabrada';
-update church set address='Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal', latitude = 38.711997, longitude = -8.980867 where church_path = 'portoalto';
+update church set address='Rua da Papoila lote 6, 2135-085, Samora Correia, Portugal', latitude = 38.92276, longitude = -8.8774 where church_path = 'portoalto';
 update church set address='Rua Francisco Sanches 17, 1170-140 Lisbon, Portugal', latitude = 38.7306258, longitude = -9.1339151 where church_path = 'lisbon';
 update church set address='Rua do Amial 698, 4200-053 Porto, Portugal', latitude = 41.1789973, longitude = -8.6160348 where church_path = 'porto';
 update church set address='Zona Industrial Arvore Rua B60, 4480-620 Arvore, Portugal', latitude = 41.331837889307224, longitude = -8.719326764470782 where church_path = 'mindelo';
@@ -1864,7 +1864,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img height="16" src="/emsi/images/icon_email.gif" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:cec248@emsionline.org">cec248@emsionline.org</a></td>
+			<td><a href="mailto:ecmsict@gmail.com">ecmsict@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -1931,7 +1931,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img height="16" src="/emsi/images/icon_email.gif" width="16" /></td>
 			<td class="label">電郵:</td>
-			<td><a href="mailto:cec248@emsionline.org">cec248@emsionline.org</a></td>
+			<td><a href="mailto:ecmsict@gmail.com">ecmsict@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -4009,7 +4009,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal</td>
+			<td>Rua da Papoila lote 6, 2135-085, Samora Correia, Portugal</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -4073,7 +4073,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal</td>
+			<td>Rua da Papoila lote 6, 2135-085, Samora Correia, Portugal</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -4140,13 +4140,13 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor: </b> Rev. Yong Yong Guo, (Cell) 965-333-777
 </p>
 <p>
-<b>Address: </b>Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal
+<b>Address: </b>Rua da Papoila lote 6, 2135-085, Samora Correia, Portugal
 </p>
 <p>
 <b>Tel #: </b> 351-263-658-466/(cell)351-965-077-777
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sus!4v1750871726109!5m2!1sen!2sus!6m8!1m7!1sKz8NfffZ2bsAeuVytVMIRg!2m2!1d38.9227684130204!2d-8.877412590642786!3f21.4297518651062!4f-2.130876004391837!5f0.7820865974627469" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'portoalto')
 	and locale = 'en'
@@ -4159,13 +4159,13 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師: </b>郭永勇 牧師, (手機) 965-333-777
 </p>
 <p>
-<b>地址: </b>Rua Papoila 6A Porto Alto, 2135 Samora Correia, Portugal
+<b>地址: </b>Rua da Papoila lote 6, 2135-085, Samora Correia, Portugal
 </p>
 <p>
 <b>電話: </b>3351-263-658-466/(手機) 351-965-077-777
 </p>
 <p>
-<iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=d&amp;source=s_d&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?f=d&amp;source=embed&amp;saddr=Rua+Papoila+6A+Porto+Alto,+2135+Samora+Correia,+Portugal&amp;daddr=&amp;hl=en&amp;geocode=&amp;aq=&amp;sll=42.746632,-75.770041&amp;sspn=3.025213,5.811768&amp;mra=ls&amp;ie=UTF8&amp;ll=38.711997,-8.980867&amp;spn=0.006295,0.008068&amp;t=m" style="color:#0000FF;text-align:left">View Larger Map</a></small>
+<iframe src="https://www.google.com/maps/embed?pb=!3m2!1sen!2sus!4v1750871726109!5m2!1sen!2sus!6m8!1m7!1sKz8NfffZ2bsAeuVytVMIRg!2m2!1d38.9227684130204!2d-8.877412590642786!3f21.4297518651062!4f-2.130876004391837!5f0.7820865974627469" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'portoalto')
 	and locale = 'zh'
@@ -4199,7 +4199,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 
 
 
------------------ porto alto
+----------------- end porto alto
 
 
 ---------------------update lisbon  pages
