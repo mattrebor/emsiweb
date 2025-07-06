@@ -15,7 +15,6 @@
 		table#courses .date-or-time { font-style: italic; }
 		table#courses .emphasis { font-weight: bold; }
 	</style>
-	
 	<table id="courses" border="1px" style="width: 100%; border-collapse: collapse;">
 		<tr>
 			<th lang="zh-tw" class="chinese-font">課 程<br/>
@@ -29,93 +28,113 @@
 			<th lang="zh-tw" class="chinese-font">教 授<br/>
 			 Professor</th>
 		</tr>
-<tr>
-			<td lang="zh-tw" class="chinese-font">
-				釋經學   <br/> Hermeneutics
-			</td>
-			<td> 3
-			</td>
-			<td> <span class="date-or-time">03/04/25 – 05/20/25</span><br/>
-			</td>
-			<td> 星期二  Tuesday <br/>
-			     <span class="date-or-time">9:00 a.m. – 11:00 a.m.</span>
-			</td>
-			<td> 楊摩西 <br/> Moses Yang (MA/DD)
-			</td>
-		</tr>
 		<tr>
 			<td lang="zh-tw" class="chinese-font">
-				舊約概論 <br/>Old Testament Survey
+				教牧書信 <br/>Pastoral Epistles
 			</td>
-			<td> 3
+			<td> 3 </td>
+			<td> <span class="date-or-time">09/02/25 – 11/18/25</span><br/>
 			</td>
-			<td> <span class="date-or-time">03/05/25 – 05/21/25</span><br/>
-			</td>
-			<td> 星期三  Wednesday<br/>
+			<td> 星期二  Tuesday<br/>
 				<span class="date-or-time">9:00 a.m. – 11:00 a.m.</span>
 			</td>
-			<td> 黃靜<br/> 	Jing Huang (MA/DMA)
+			<td> 楊摩西<br/> Moses Yang (MA/DD)
 			</td>
 		</tr>
 		<tr>
 			<td lang="zh-tw" class="chinese-font">
-				系統神學 <br/> Systematic Theology
+				講道學<br/> Homiletics
 			</td>
-			<td> 3
-			</td>	
-			<td> <span class="date-or-time">03/06/25 – 05/22/25</span><br/>				
+			<td> 1  </td>
+			<td> <span class="date-or-time">09/02/25 – 11/18/25</span><br/>
 			</td>
-			<td> 星期四  Thursday <br/>
+			<td> 星期二  Tuesday<br/>
+				<span class="date-or-time">1:00 p.m. – 2:00 p.m.</span>
+			</td>
+			<td> 楊摩西<br/> Moses Yang (MA/DD)
+			</td>
+		</tr>
+		<tr>
+			<td lang="zh-tw" class="chinese-font">
+				新約概論<br/>New Testament Survey
+			</td>
+			<td> 2  </td>
+			<td> <span class="date-or-time">09/03/25 – 11/19/25</span><br/>
+			</td>
+			<td> 星期三  MWednesday<br/>
 				<span class="date-or-time">9:00 a.m. – 11:00 a.m.</span>
 			</td>
-			<td> 楊摩西 <br/> Moses Yang (MA/DD)
+			<td> 黃靜<br/> Jing Huang (MA/DMA)
 			</td>
 		</tr>
-	
 		<tr>
 			<td lang="zh-tw" class="chinese-font">
-				合唱指揮<br/>Choral Conducting
+				啟示錄 <br/>Revelation
 			</td>
-			<td> 1
+			<td> 3  </td>
+			<td> <span class="date-or-time">09/04/25 – 11/20/25</span><br/>
 			</td>
-			<td> <span class="date-or-time">03/03/25 – 05/19/25</span><br/>
+			<td> 星期四  Thursday<br/>
+				<span class="date-or-time">9:00 a.m. – 11:00 account.m.</span>
+			</td>
+			<td> 楊摩西<br/>Moses Yang (MA/DD)
+			</td>
+		</tr>
+		<tr>
+			<td lang="zh-tw" class="chinese-font">
+				監獄書信 <br/>Prison Epistles
+			</td>
+			<td> 2  </td>
+			<td> <span class="date-or-time">09/05/25 – 11/21/25</span><br/>
+			</td>
+			<td> 星期五  Friday<br/>
+				<span class="date-or-time">9:00 a.m. – 11:00 a.m.</span>
+			</td>
+			<td>Hsiulan Yang (M.A.)
+			</td>
+		</tr>
+		<tr>
+			<td lang="zh-tw" class="chinese-font">
+				合唱<br/>  Chorus
+			</td>
+			<td> 2	</td>
+			<td> <span class="date-or-time">09/08/25 – 11/17/25</span><br/>
 			</td>
 			<td> 星期一  Monday<br/>
-				<span class="date-or-time">10:00 a.m. – 11:00 a.m.</span>
+				<span class="date-or-time">10:00 a.m. – 12:00 p.m.</span>
 			</td>
-			<td> 黃靜<br/> 	Jing Huang (MA/DMA)
+			<td> 黃靜<br/> Jing Huang (MA/DMA)
 			</td>
-		</tr>
+		</tr>	
 		<tr>
 			<td lang="zh-tw" class="chinese-font">
-				合唱<br/> Chorus
+				基礎樂理<br/>Basic Music Theory
 			</td>
-			<td> 2
-			</td>
-			<td> <span class="date-or-time">03/03/25 – 05/19/25</span><br/>
+			<td> 1  </td>
+			<td> <span class="date-or-time">09/08/25 – 11/17/25</span><br/>
 			</td>
 			<td> 星期一  Monday<br/>
 				<span class="date-or-time">1:00 p.m. – 2:00 p.m.</span>
 			</td>
-			<td> 黃靜<br/> 	Jing Huang (MA/DMA)
+			<td> 黃靜<br/> Jing Huang (MA/DMA)
 			</td>
 		</tr>
 		<tr>
 			<td lang="zh-tw" class="chinese-font">
 				聲樂<br/>  Voice
 			</td>
-			<td> 1
-			</td>
-			<td> <span class="date-or-time">03/03/25 – 05/23/25</span><br/>
+			<td> 1	</td>
+			<td> <span class="date-or-time">09/08/25 – 11/21/25</span><br/>
 			</td>
 			<td> 星期一 - 星期五<br/> 
 				(單獨安排)<br/>
 				Monday - Friday <br/>
 				<span class="date-or-time">(Individually Arranged)</span>
 			</td>
-			<td> 黃靜<br/> 	Jing Huang (MA/DMA)
+			<td> 黃靜<br/> Jing Huang (MA/DMA)
 			</td>
 		</tr>	
 
 	</table>
+
 </div>
