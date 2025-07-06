@@ -683,7 +683,15 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. Jing Huang</td>
+			<td>Rev. Jing Huang, © 917-488-8610</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Joshua Ji, © 917-877-0906</td>
+		</tr>
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Cammy Sun, © 917-783-0846</td>
 		</tr>
 	</tbody>
 </table>
@@ -699,12 +707,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>917-488-8610</td>
+			<td>917-488-8610, 917-877-0906</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:jhuang277@gmail.com">jhuang277@gmail.com</a><br />
+			<td><a href="mailto:jhuang277@gmail.com,cammysun2012@gmail.com">jhuang277@gmail.com, cammysun2012@gmail.com</a><br />
 			</td>
 		</tr>
 	</tbody>
@@ -753,7 +761,15 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>黃靜 牧師  </td>
+			<td>黃靜 牧師, © 917-488-8610  </td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>季剛 傳道, © 917-877-0906 </td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>孫菁瑜 傳道, © 917-783-0846</td>
 		</tr>
 	</tbody>
 </table>
@@ -768,12 +784,12 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td>917-488-8610</td>
+			<td>917-488-8610, 917-877-0906</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: jhuang277@gmail.com"> jhuang277@gmail.com</a></td>
+			<td><a href=\"mailto: jhuang277@gmail.com,cammysun2012@gmail.com"> jhuang277@gmail.com, cammysun2012@gmail.com</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -812,7 +828,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Address: </b>725 Mountain Avenue, Berkeley Heights, NJ 07922, USA
 </p>
 <p>
-<b>Tel #:</b> 917-488-8610
+<b>Tel #:</b> 917-488-8610, 917-877-0906
 </p>
 <p>
 <iframe scrolling=\"no\" marginHeight=\"0\" marginWidth=\"0\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=725+Mountain+Ave,+Berkeley+Heights,+NJ+07922,+USA&amp;sll=40.498169,-74.428124&amp;sspn=0.009676,0.016801&amp;ie=UTF8&amp;hq=&amp;hnear=725+Mountain+Ave,+Berkeley+Heights,+Union,+New+Jersey+07922&amp;ll=40.6691,-74.439003&amp;spn=0.007812,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" height=\"480\" width=\"640\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=725+Mountain+Ave,+Berkeley+Heights,+NJ+07922,+USA&amp;sll=40.498169,-74.428124&amp;sspn=0.009676,0.016801&amp;ie=UTF8&amp;hq=&amp;hnear=725+Mountain+Ave,+Berkeley+Heights,+Union,+New+Jersey+07922&amp;ll=40.6691,-74.439003&amp;spn=0.007812,0.013733&amp;z=16&amp;iwloc=A\" style=\"text-align: left; color: #0000ff\">View Larger Map</a></small>
@@ -827,7 +843,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>地址: </b>725 Mountain Avenue, Berkeley Heights, NJ 07922, USA
 </p>
 <p>
-<b>電話:</b> 917-488-8610
+<b>電話:</b> 917-488-8610, 917-877-0906
 </p>
 <p>
 距離美東超市及梅山中文學校(Murray Hill Chinese School)開車約十分鐘
