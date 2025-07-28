@@ -15836,3 +15836,212 @@ update church_content set body = STRINGDECODE('<p>
 
 
 -----------------------end Akabane
+
+
+---------- Akabane   New church July 2021 --  Removed 2/22/2025---------
+---INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(64, 'akabane', 1, 11, 0);
+---INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(64, 'en', 'menu_name', 'CEC in Akabane ');
+---INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(64, 'zh', 'menu_name', '赤羽基督教生命堂 ');
+---INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(14, NULL, 64);
+---INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'intro', 'en', 'CEC in Akabane   - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+
+---INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'contactus', 'en', 'CEC in Akabane  - Contact Us', 'CEC in Akabane<br><br>');
+---INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'contactus', 'zh', '赤羽基督教生命堂  - 連絡我們','');
+---INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(64, 'schedule', 'en', 'CEC in Akabane  - Church Services Schedule',
+
+
+-----------------------end Akabane
+
+
+
+
+---------- rosemead West Coast  New church July 2025 ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(65, 'rosemead', 1, 11, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(65, 'en', 'menu_name', 'ECMSI in Rosemead');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(65, 'zh', 'menu_name', '柔似蜜基督教生命堂');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(4, NULL, 65);
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'intro', 'en', 'ECMSI in Rosemead  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Bishop: </td>
+			<td>Rev. Moses Yang</td>
+		</tr>
+		<tr>
+			<td class="label">Minister: </td>
+			<td>Ev. Lude Yuan, (C) 626-360-5071</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+	<table cellpadding="1px" cellspacing="0px">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">Address:</td>
+				<td>8618 Mission Dr., Rosemead, CA 91770 USA</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">Tel#:</td>
+				<td>626-360-5071</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">Email:</td>
+				<td>ecmsirm@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+	<p><span class="label">Established Date: July 2025</span></p>
+<p>
+</p>
+</div>
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'intro', 'zh', '柔似蜜基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+			<tr>
+				<td class="label">監督: </td>
+				<td>楊摩西 牧師</td>
+			</tr>
+			<tr>
+				<td class="label">傳道: </td>
+				<td>袁淑蓮 傳道, (C) 626-360-5071</td>
+			</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+	<table cellpadding="1" cellspacing="0">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">地址:</td>
+				<td>8618 Mission Dr., Rosemead, CA 91770 USA</td>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">電話:</td>
+				<td>626-360-5071</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">電郵:</td>
+				<td>ecmsirm@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<b>成立日期:</b> 2025年 7月
+</p>
+<p>
+<span class=\"label\">簡史: </span>
+</p>
+<p>
+</p>
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'contactus', 'en', 'ECMSI in Rosemead - Contact Us', 'ECMSI in Saitama<br><br>');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'contactus', 'zh', '柔似蜜基督教生命堂  - 連絡我們','');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'schedule', 'en', 'ECMSI in Rosemead - Church Services Schedule',
+'<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'schedule', 'zh', '柔似蜜基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');
+
+update church set address='8618 Mission Dr., Rosemead, CA 91770 USA', latitude = 34.086858299999996, longitude = -118.0813262 where church_path = 'rosemead';
+
+update church_content set body = STRINGDECODE('
+<style>
+.indentation {margin:20px;}
+</style>
+<p>
+<b>Bishop: </b>Rev. Moses Yang
+</p>
+<p>
+<b>Minister: </b>Ev. Lude Yuan, (C) 626-360-5071
+</p>
+<p>
+<b>Address: </b>8618 Mission Dr., Rosemead, CA 91770 USA
+</p>
+<p>
+<b>Tel #: </b> 626-360-5071
+</p>
+<p>
+<b>Email: </b> ecmsirm@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.3232631870414!2d-118.0813262!3d34.086858299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2da933780a9e7%3A0x88902f0454ba1a41!2s8618%20Mission%20Dr%2C%20Rosemead%2C%20CA%2091770!5e0!3m2!1sen!2sus!4v1753666737815!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+')	where church_id = (select church_id from church where church_path = 'rosemead')
+	and locale = 'en'
+	and page_id = 'contactus';
+
+update church_content set body = STRINGDECODE('
+<p>
+<b>監督: </b> 楊摩西牧師
+</p>
+<p>
+<b>傳道: </b> 袁淑蓮 傳道 (C) 626-360-5071
+</p>
+<p>
+<b>地址: </b>8618 Mission Dr., Rosemead, CA 91770 USA
+</p>
+<p>
+<b>電話: </b>626-360-5071
+</p>
+<p>
+<b>電郵: </b>ecmsirm@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.3232631870414!2d-118.0813262!3d34.086858299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2da933780a9e7%3A0x88902f0454ba1a41!2s8618%20Mission%20Dr%2C%20Rosemead%2C%20CA%2091770!5e0!3m2!1sen!2sus!4v1753666737815!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</p>
+')	where church_id = (select church_id from church where church_path = 'rosemead')
+	and locale = 'zh'
+	and page_id = 'contactus';
+
+-----------------------end Rosemead West Coast
+
