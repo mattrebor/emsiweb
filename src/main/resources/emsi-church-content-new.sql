@@ -57,7 +57,7 @@ update church set address='Rua do Amial 698, 4200-053 Porto, Portugal', latitude
 update church set address='Zona Industrial Arvore Rua B60, 4480-620 Arvore, Portugal', latitude = 41.331837889307224, longitude = -8.719326764470782 where church_path = 'mindelo';
 update church set address='73 Avenue de Verdun, 94200 Ivry-sur-Seine, Paris, France', latitude = 48.8135227, longitude = 2.3702061 where church_path = 'paris';
 update church set address='Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium', latitude = 51.219508, longitude = 4.417894 where church_path = 'antwerpen';
-update church set address='Rue du Fossé aux Loups 32, 1000 Brussels, Belgium', latitude = 50.8503111, longitude = 4.3546746 where church_path = 'brussels';
+update church set address='Antwerpselaan 35, 1000 Brussels, Belgium', latitude = 50.8503111, longitude = 4.3546746 where church_path = 'brussels';
 update church set address='Kobe-shi Chuo-ku Motomachi-dori 2-9-1 Shitsu [Room] 703, Japan', latitude = 34.688923, longitude = 135.186962 where church_path = 'kobe';
 update church set address='Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan', latitude = 34.647590987085295, longitude = 135.52234132273662 where church_path = 'osaka';
 --update church set address='Alley 25, Lane 113, Section 3, Mínshēng East Road, Songshan District, Taipei City, Taiwan 105', latitude = 25.0593059, longitude = 121.547255 where church_path = 'taipei';
@@ -13497,7 +13497,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> 32 Rue du Fossé aux Loups, 1000 Brussels, Belgium</td>
+			<td> Antwerpselaan 35, 1000 Brussels, Belgium</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -13562,7 +13562,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> 32 Rue du Fossé aux Loups, 1000 Brussels</td>
+			<td> Antwerpselaan 35, 1000 Brussels</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -13604,7 +13604,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Associate Pastor: </b>Rev. Sau-Chun Wan
 </p>
 <p>
-<b>Address: </b>32 Rue du Fossé aux Loups, 1000 Brussels, Belgium
+<b>Address: </b>Antwerpselaan 35, 1000 Brussels, Belgium
 </p>
 <p>
 <b>Tel #: </b>+32-(0)484-148682
@@ -13629,7 +13629,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師: </b>溫秀珍  牧師
 </p>
 <p>
-<b>地址: </b>32 Rue du Fossé aux Loups, 1000 Brussels, Belgium
+<b>地址: </b>Antwerpselaan 35, 1000 Brussels, Belgium
 </p>
 <p>
 <b>電話:</b> +32-(0)484-148682
