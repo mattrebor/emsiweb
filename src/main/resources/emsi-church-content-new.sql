@@ -13633,14 +13633,14 @@ update church_content set body = STRINGDECODE('<p>
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>Sunday Service</td>
-			<td>Sunday</td>
-			<td>03:30 pm - 05:00 pm</td>
+			<td>Sunday Service (Cantonese, Mandarin)</td>
+			<td>Every Sunday</td>
+			<td>03:30 pm - 04:30 pm</td>
 		</tr>
 		<tr>
 			<td>Children’s Sunday School</td>
-			<td>Sunday</td>
-			<td>03:30 pm - 05:00 pm</td>
+			<td>Every Sunday</td>
+			<td>03:30 pm - 04:30 pm</td>
 		</tr>
 		<tr>
 			<td>Basic French Class for Adults</td>
@@ -13674,14 +13674,14 @@ update church_content set body = '<table border="1" cellpadding="5">
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>主日崇拜</td>
-			<td>星期日</td>
-			<td>03:30 pm - 05:00 pm</td>
+			<td>主日崇拜 (粵語, 普通話)</td>
+			<td>每主日下午</td>
+			<td>03:30 pm - 04:30 pm</td>
 		</tr>
 		<tr>
 			<td>兒童主日學</td>
-			<td>星期日</td>
-			<td>03:30 pm - 05:00 pm</td>
+			<td>每主日下午</td>
+			<td>03:30 pm - 04:30 pm</td>
 		</tr>
 		<tr>
 			<td>成人法語初級班</td>
