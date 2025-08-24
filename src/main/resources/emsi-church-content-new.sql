@@ -57,7 +57,7 @@ update church set address='Rua do Amial 698, 4200-053 Porto, Portugal', latitude
 update church set address='Zona Industrial Arvore Rua B60, 4480-620 Arvore, Portugal', latitude = 41.331837889307224, longitude = -8.719326764470782 where church_path = 'mindelo';
 update church set address='73 Avenue de Verdun, 94200 Ivry-sur-Seine, Paris, France', latitude = 48.8135227, longitude = 2.3702061 where church_path = 'paris';
 update church set address='Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium', latitude = 51.219508, longitude = 4.417894 where church_path = 'antwerpen';
-update church set address='Rue du Fossé aux Loups 32, 1000 Brussels, Belgium', latitude = 50.8503111, longitude = 4.3546746 where church_path = 'brussels';
+update church set address='Antwerpselaan 35, 1000 Brussels, Belgium', latitude = 50.8503111, longitude = 4.3546746 where church_path = 'brussels';
 update church set address='Kobe-shi Chuo-ku Motomachi-dori 2-9-1 Shitsu [Room] 703, Japan', latitude = 34.688923, longitude = 135.186962 where church_path = 'kobe';
 update church set address='Osaka-shi Abeno-ku Tennoji-machi Kita [North] 1 chome 2-2, Japan', latitude = 34.647590987085295, longitude = 135.52234132273662 where church_path = 'osaka';
 --update church set address='Alley 25, Lane 113, Section 3, Mínshēng East Road, Songshan District, Taipei City, Taiwan 105', latitude = 25.0593059, longitude = 121.547255 where church_path = 'taipei';
@@ -12007,11 +12007,11 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Senior Pastor:</td>
-			<td>Rev. Moses Yang, 973-335-7337 ext. 209, (C) 201-650-1923</td>
+			<td>Rev. Moses Yang, 973-335-7337, (C) 201-650-1923</td>
 		</tr>
 		<tr>
 			<td class="label">Associate Pastor:</td>
-			<td>Rev. Zion Wu, 973-335-7337 ext. 202, (C) 973-768-5805</td>
+			<td>Rev. Zion Wu, 973-335-7337, (C) 973-768-5805</td>
 		</tr>
 		<tr>
 			<td class="label">Associate Pastor:</td>
@@ -12019,7 +12019,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Patty Chien, 973-335-7337 ext. 200, (C) 201-993-3043</td>
+			<td>Ev. Patty Chien, 973-335-7337, (C) 201-993-3043</td>
 		</tr>
 	</tbody>
 </table>
@@ -12090,11 +12090,11 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">主任牧師:</td>
-			<td>楊摩西 牧師, 973-335-7337 ext. 209, (手機) 201-650-1923</td>
+			<td>楊摩西 牧師, 973-335-7337, (手機) 201-650-1923</td>
 		</tr>
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>吳錫安 牧師, 973-335-7337 ext. 202, (手機) 973-768-5805</td>
+			<td>吳錫安 牧師, 973-335-7337, (手機) 973-768-5805</td>
 		</tr>
 		<tr>
 			<td class=\"label\">牧師:</td>
@@ -12102,7 +12102,7 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>錢舜 傳道, 973-335-7337 ext. 200, (手機) 201-993-3043</td>
+			<td>錢舜 傳道, 973-335-7337, (手機) 201-993-3043</td>
 		</tr>
 	</tbody>
 </table>
@@ -12165,11 +12165,6 @@ update church_content set body = STRINGDECODE('<p>
 	<tbody>
 		<tr>
 			<td style="padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border: 1pt solid windowtext" valign="top" width="139"><span lang="EN-US"><o:p><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">\u00a0</span></o:p></span></td>
-			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">辦公室電話分機</span></span>
-			</p>
-			</td>
 			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">手機</span></span>
@@ -12185,11 +12180,6 @@ update church_content set body = STRINGDECODE('<p>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span lang="EN-US"><span style="font-size: small; font-family:,新細明體 ''Times New Roman''; color: #000000">楊摩西 牧師</span></span>
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 209</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
@@ -12209,11 +12199,6 @@ update church_content set body = STRINGDECODE('<p>
 			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">吳錫安 牧師</span></span>
 			</p>
 			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 202</span></span>
-			</p>
-			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-768-5805</span></span>
@@ -12231,11 +12216,6 @@ update church_content set body = STRINGDECODE('<p>
 			<span lang="EN-US"><span style="font-size: small; font-family: 新細明體,''Times New Roman''; color: #000000">周麗華 牧師</span></span>
 			</p>
 			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000"></span></span>
-			</p>
-			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-941-1873</span></span>
@@ -12251,11 +12231,6 @@ update church_content set body = STRINGDECODE('<p>
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span lang="EN-US"><span style="font-size: small; font-family:新細明體, ''Times New Roman''; color: #000000">錢舜 傳道</span></span>
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 200</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
@@ -12310,11 +12285,6 @@ Christian Evangelical Mission Church in Towaco
 	<tbody>
 		<tr>
 			<td style="padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border: 1pt solid windowtext" valign="top" width="139"><span lang="EN-US"><o:p><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">\u00a0</span></o:p></span></td>
-			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Office Phone Extenstion</span></span>
-			</p>
-			</td>
 			<td style="border-color: windowtext windowtext windowtext #ece9d8; border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-top-width: 1pt; border-top-style: solid; border-right-width: 1pt; border-right-style: solid" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Cell Phone</span></span>
@@ -12330,11 +12300,6 @@ Christian Evangelical Mission Church in Towaco
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Pastor Moses Yang</span></span>
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 209</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
@@ -12355,11 +12320,6 @@ Christian Evangelical Mission Church in Towaco
 			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Pastor Zion Wu</span></span>
 			</p>
 			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 202</span></span>
-			</p>
-			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-768-5805</span></span>
@@ -12377,11 +12337,6 @@ Christian Evangelical Mission Church in Towaco
 			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Pastor Judy Chou</span></span>
 			</p>
 			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000"></span></span>
-			</p>
-			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">973-941-1873</span></span>
@@ -12397,11 +12352,6 @@ Christian Evangelical Mission Church in Towaco
 			<td style="border-color: #ece9d8 windowtext windowtext; border-bottom-width: 1pt; border-bottom-style: solid; border-left-width: 1pt; border-left-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 104.4pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="139">
 			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
 			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ev. Patty Chien</span></span>
-			</p>
-			</td>
-			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 76.7pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="102">
-			<p style="text-align: center; margin: 0cm 0cm 0pt" class="MsoNormal" align="center">
-			<span lang="EN-US"><span style="font-size: small; font-family: ''Times New Roman''; color: #000000">Ext. 200</span></span>
 			</p>
 			</td>
 			<td style="border-color: rgb(236, 233, 216) windowtext windowtext rgb(236, 233, 216); border-bottom-width: 1pt; border-bottom-style: solid; padding: 0cm 5.4pt; background-color: transparent; width: 78.8pt; border-right-width: 1pt; border-right-style: solid" valign="top" width="105">
@@ -13383,39 +13333,56 @@ update church_content set body = STRINGDECODE('<p>
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>Sunday Service</td>
-			<td>Sunday</td>
+			<td>主日崇拜 (粵語、普通話)*  Sunday Worship (Cantonese, Mandarin)</td>
+			<td>每主日上午 Every Sunday</td>
 			<td>09:30 am - 11:00 am</td>
 		</tr>
 		<tr>
-			<td>Sunday School(Children & Teenagers)</td>
-			<td>Sunday</td>
+			<td>主日學 (少年及兒童) Children&apos;s Sunday School</td>
+			<td>每主日上午 Every Sunday</td>
 			<td>09:30 am - 11:00 am</td>
 		</tr>
 		<tr>
-			<td>Adult Fellowship / Tuesday’s Worship Service (Cantonese)</td>
-			<td>2nd & 4th Tuesday</td>
-			<td>11:00 am - 01:00 pm</td>
+			<td>荷文崇拜 Dutch Language Sunday Service</td>
+			<td>每月第二、四個 星期日 Every 2nd & 4th Sunday</td>
+			<td>11:30 am - 01:00 pm</td>
 		</tr>
 		<tr>
-			<td>Dutch Bible Study</td>
-			<td>2nd & 4th Friday</td>
-			<td>08:00 pm - 09:30 pm</td>
+			<td>週二崇拜 Tuesday Worship</td>
+			<td>每月第一、三個 星期二 Every 1st & 3rd Tuesday</td>
+			<td>11:00 am - 12:30 pm</td>
 		</tr>
 		<tr>
-			<td>Youth Fellowship (Dutch)</td>
-			<td>1st & 3rd Saturday</td>
-			<td>10:30 am - 01:00 pm</td>
+			<td>司提反讀經小組 Steven’s Bible Study</td>
+			<td>每月第一、三個 星期日 1st and 3rd Sunday</td>
+			<td>11:45 am - 01:00 pm</td>
 		</tr>
 		<tr>
-			<td>Teenager Fellowship (Dutch)</td>
-			<td>2nd & 4th Saturday</td>
-			<td>12:30 pm - 03:00 pm</td>
+			<td>呂底亞讀經小組 Lydia’s Bible Study</td>
+			<td>每月第二、四個 星期四  2nd and 4th Thursday</td>
+			<td>11:00 am - 12:15 pm</td>
+		</tr>
+		<tr>
+			<td>青年團契 Young Adult Fellowship</td>
+			<td>每月第三個 星期日 3rd Sunday</td>
+			<td>11:30 am – 01:00 pm</td>
+		</tr>
+		<tr>
+			<td>成人團契 Adult Fellowship</td>
+			<td>每月第一、三個 星期二 1st and 3rd Tuesday</td>
+			<td>11:00 am – 12:30 pm</td>
+		</tr>
+		<tr>
+			<td>互助團 Mutual Aid Fellowship</td>
+			<td>每月第一、三個 星期二 1st and 3rd Tuesday</td>
+			<td>01:30 pm – 03:00 pm</td>
 		</tr>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
+* 耳機翻譯荷語及英語<br />
+Simultaneous translation from Chinese to Dutch or English via earphone is available.
 '	where church_id = (select church_id from church where church_path = 'antwerpen')
 	and locale = 'en'
 	and page_id = 'schedule';
@@ -13424,40 +13391,56 @@ update church_content set body = '<table border="1" cellpadding="5">
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>主日崇拜</td>
-			<td>星期日上午</td>
+			<td>主日崇拜 (粵語、普通話)*  Sunday Worship (Cantonese, Mandarin)</td>
+			<td>每主日上午 Every Sunday</td>
 			<td>09:30 am - 11:00 am</td>
 		</tr>
 		<tr>
-			<td>主日學(青少年與兒童)</td>
-			<td>星期日上午</td>
+			<td>主日學 (少年及兒童) Children&apos;s Sunday School</td>
+			<td>每主日上午 Every Sunday</td>
 			<td>09:30 am - 11:00 am</td>
 		</tr>
 		<tr>
-			<td>成人團契 / 週二崇拜 (粵語)</td>
-			<td>每月第二、四個 星期二</td>
-			<td>11:00 am - 01:00 pm</td>
+			<td>荷文崇拜 Dutch Language Sunday Service</td>
+			<td>每月第二、四個 星期日 Every 2nd & 4th Sunday</td>
+			<td>11:30 am - 01:00 pm</td>
 		</tr>
 		<tr>
-			<td>查經聚會 (荷語)</td>
-			<td>每月第二、四個 星期五</td>
-			<td>08:00 pm - 09:30 pm</td>
+			<td>週二崇拜 Tuesday Worship</td>
+			<td>每月第一、三個 星期二 Every 1st & 3rd Tuesday</td>
+			<td>11:00 am - 12:30 pm</td>
 		</tr>
 		<tr>
-			<td>青年團契 - 18-30歲未婚男女 (荷語)</td>
-			<td>每月第一、三個 星期六</td>
-			<td>10:30 am - 01:00 pm</td>
+			<td>司提反讀經小組 Steven’s Bible Study</td>
+			<td>每月第一、三個 星期日 1st and 3rd Sunday</td>
+			<td>11:45 am - 01:00 pm</td>
 		</tr>
 		<tr>
-			<td>少年團契 - 就讀中學階段的學生 (荷語)</td>
-			<td>每月第二、四個 星期六</td>
-			<td>12:30 pm - 3:00 pm</td>
+			<td>呂底亞讀經小組 Lydia’s Bible Study</td>
+			<td>每月第二、四個 星期四  2nd and 4th Thursday</td>
+			<td>11:00 am - 12:15 pm</td>
 		</tr>
-
+		<tr>
+			<td>青年團契 Young Adult Fellowship</td>
+			<td>每月第三個 星期日 3rd Sunday</td>
+			<td>11:30 am – 01:00 pm</td>
+		</tr>
+		<tr>
+			<td>成人團契 Adult Fellowship</td>
+			<td>每月第一、三個 星期二 1st and 3rd Tuesday</td>
+			<td>11:00 am – 12:30 pm</td>
+		</tr>
+		<tr>
+			<td>互助團 Mutual Aid Fellowship</td>
+			<td>每月第一、三個 星期二 1st and 3rd Tuesday</td>
+			<td>01:30 pm – 03:00 pm</td>
+		</tr>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
+* 耳機翻譯荷語及英語<br />
+Simultaneous translation from Chinese to Dutch or English via earphone is available.
 '	where church_id = (select church_id from church where church_path = 'antwerpen')
 	and locale = 'zh'
 	and page_id = 'schedule';
@@ -13497,7 +13480,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> 32 Rue du Fossé aux Loups, 1000 Brussels, Belgium</td>
+			<td> Antwerpselaan 35, 1000 Brussels, Belgium</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -13562,7 +13545,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> 32 Rue du Fossé aux Loups, 1000 Brussels</td>
+			<td> Antwerpselaan 35, 1000 Brussels</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -13604,7 +13587,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Associate Pastor: </b>Rev. Sau-Chun Wan
 </p>
 <p>
-<b>Address: </b>32 Rue du Fossé aux Loups, 1000 Brussels, Belgium
+<b>Address: </b>Antwerpselaan 35, 1000 Brussels, Belgium
 </p>
 <p>
 <b>Tel #: </b>+32-(0)484-148682
@@ -13629,7 +13612,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師: </b>溫秀珍  牧師
 </p>
 <p>
-<b>地址: </b>32 Rue du Fossé aux Loups, 1000 Brussels, Belgium
+<b>地址: </b>Antwerpselaan 35, 1000 Brussels, Belgium
 </p>
 <p>
 <b>電話:</b> +32-(0)484-148682
@@ -13650,14 +13633,14 @@ update church_content set body = STRINGDECODE('<p>
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>Sunday Service</td>
-			<td>Sunday</td>
-			<td>03:30 pm - 05:00 pm</td>
+			<td>Sunday Service (Cantonese, Mandarin)</td>
+			<td>Every Sunday</td>
+			<td>03:30 pm - 04:30 pm</td>
 		</tr>
 		<tr>
 			<td>Children’s Sunday School</td>
-			<td>Sunday</td>
-			<td>03:30 pm - 05:00 pm</td>
+			<td>Every Sunday</td>
+			<td>03:30 pm - 04:30 pm</td>
 		</tr>
 		<tr>
 			<td>Basic French Class for Adults</td>
@@ -13691,14 +13674,14 @@ update church_content set body = '<table border="1" cellpadding="5">
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>主日崇拜</td>
-			<td>星期日</td>
-			<td>03:30 pm - 05:00 pm</td>
+			<td>主日崇拜 (粵語, 普通話)</td>
+			<td>每主日下午</td>
+			<td>03:30 pm - 04:30 pm</td>
 		</tr>
 		<tr>
 			<td>兒童主日學</td>
-			<td>星期日</td>
-			<td>03:30 pm - 05:00 pm</td>
+			<td>每主日下午</td>
+			<td>03:30 pm - 04:30 pm</td>
 		</tr>
 		<tr>
 			<td>成人法語初級班</td>
@@ -13993,7 +13976,7 @@ p span.label {font-weight: bold;}
 <tbody class="borderless-table">
 		<tr>
 			<td class="label">Senior Pastor: </td>
-			<td>Rev. Sorina Yang, (H)973-331-0438</td>
+			<td>Rev. Sorina Yang, (C) 973-699-3223</td>
 		</tr>
 
 		<tr>
@@ -14025,7 +14008,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 <td class="label">Email:</td>
-<td><a href="mailto: hlan_yang@yahoo.com"> hlan_yang@yahoo.com</a></td>
+<td><a href="mailto: cemcoradell@gmail.com"> cemcoradell@gmail.com</a></td>
 </tr>
 </tbody>
 </table>
@@ -14084,7 +14067,7 @@ p span.label {font-weight: bold;}
 <tbody class="borderless-table">
 		<tr>
 			<td class="label">主任牧師: </td>
-			<td>楊張秀蘭 牧師, (H)973-331-0438</td>
+			<td>楊張秀蘭 牧師, (C) 973-699-3223</td>
 		</tr>
 
 		<tr>
@@ -14116,7 +14099,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 <td class="label">電郵:</td>
-<td><a href="mailto: hlan_yang@yahoo.com"> hlan_yang@yahoo.com</a></td>
+<td><a href="mailto: cemcoradell@gmail.com">cemcoradell@gmail.com</a></td>
 </tr>
 </tbody>
 </table>
@@ -14380,20 +14363,36 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 update church set address='343 Kinderkamack Road, Oradell, NJ 07649 USA', latitude = 40.9521361, longitude = -74.0320762 where church_path = 'oradell';
 
 update church_content set body = STRINGDECODE('<p>
-<b>Senior Pastor: </b>Rev. Sorina Yang, (H)973-331-0438
-</p>
-<p>
-<b>Evangelist: </b>Ev. Daniel Zhai, (C)646-712-2592
-</p>
-<p>
-<b>Evangelist: </b>Ev. Lydia Zhang, (C)929-724-0472
-</p>
-<p>
 <b>Address: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
 <p>
-<b>Tel #: </b>(973) 335-7337 (C)(973) 699-3223</p>
+<b>Tel #: </b>(973) 335-7337</p>
 <p>
-<b>Email: </b>hlan_yang@yahoo.com</p>
+<b>Email: </b>cemcoradell@gmail.com</p>
+
+<table border="1" cellpadding="5">
+  <tr>
+    <th></th>
+    <th><b>Tel #</b></th>
+    <th><b>Email</b></th>
+  </tr>
+  <tr>
+    <td>Rev. Sorina Yang</td>
+    <td>(H) 973-331-0438, (C) 973-699-3223</td>
+    <td><a href="mailto:hlan_yang@yahoo.com">hlan_yang@yahoo.com</a></td>
+  </tr>
+  <tr>
+    <td>Ev. Daniel Zhai</td>
+    <td>(C) 646-712-2592</td>
+    <td><a href="mailto:zhaiguangqi29@gmail.com">zhaiguangqi29@gmail.com</a></td>
+  </tr>
+  <tr>
+    <td>Ev. Lydia Zhang</td>
+    <td>(C) 929-724-0472</td>
+    <td><a href="mailto:lydiaice007@gmail.com">lydiaice007@gmail.com</a></td>
+  </tr>
+</table>
+<p>
+<p>
 
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?sll=40.9521347,-74.0320579&amp;sspn=0.0062231,0.0109864&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&amp;t=m&amp;z=14&amp;ll=40.952136,-74.032076&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
@@ -14402,25 +14401,43 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 update church_content set body = STRINGDECODE('<p>
-<b>主任牧師: </b>楊張秀蘭 牧師, (H)973-331-0438
-</p>
-<p>
-<b>傳道: </b>翟廣奇 傳道, (C)646-712-2592
-</p>
-<p>
-<b>傳道: </b>張語珈 傳道, (C)929-724-0472
-</p>
 <p>
 <b>地 址: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
 <p>
-<b>電 話: </b>(973) 335-7337 (C) (973) 699-3223</p>
+<b>電 話: </b>(973) 335-7337</p>
 <p>
-<b>電 郵: </b>hlan_yang@yahoo.com</p>
+<b>電 郵: </b>cemcoradell@gmail.com</p>
+
+<table border="1" cellpadding="5">
+  <tr>
+    <th></th>
+    <th><b>電話</b></th>
+    <th><b>電子郵件</b></th>
+  </tr>
+  <tr>
+    <td>楊張秀蘭 牧師</td>
+    <td>(H) 973-331-0438, (C) 973-699-3223</td>
+    <td><a href="mailto:hlan_yang@yahoo.com">hlan_yang@yahoo.com</a></td>
+  </tr>
+  <tr>
+    <td>翟廣奇 傳道</td>
+    <td>(C) 646-712-2592</td>
+    <td><a href="mailto:zhaiguangqi29@gmail.com">zhaiguangqi29@gmail.com</a></td>
+  </tr>
+  <tr>
+    <td>張語珈 傳道</td>
+    <td>(C) 929-724-0472</td>
+    <td><a href="mailto:lydiaice007@gmail.com">lydiaice007@gmail.com</a></td>
+  </tr>
+</table>
+<p>
+<p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?sll=40.9521347,-74.0320579&amp;sspn=0.0062231,0.0109864&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&amp;t=m&amp;z=14&amp;ll=40.952136,-74.032076&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'oradell')
 	and locale = 'zh'
 	and page_id = 'contactus';
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
