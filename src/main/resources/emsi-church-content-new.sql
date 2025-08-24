@@ -13993,7 +13993,7 @@ p span.label {font-weight: bold;}
 <tbody class="borderless-table">
 		<tr>
 			<td class="label">Senior Pastor: </td>
-			<td>Rev. Sorina Yang, (H)973-331-0438</td>
+			<td>Rev. Sorina Yang, (C) 973-699-3223</td>
 		</tr>
 
 		<tr>
@@ -14025,7 +14025,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 <td class="label">Email:</td>
-<td><a href="mailto: hlan_yang@yahoo.com"> hlan_yang@yahoo.com</a></td>
+<td><a href="mailto: cemcoradell@gmail.com"> cemcoradell@gmail.com</a></td>
 </tr>
 </tbody>
 </table>
@@ -14084,7 +14084,7 @@ p span.label {font-weight: bold;}
 <tbody class="borderless-table">
 		<tr>
 			<td class="label">主任牧師: </td>
-			<td>楊張秀蘭 牧師, (H)973-331-0438</td>
+			<td>楊張秀蘭 牧師, (C) 973-699-3223</td>
 		</tr>
 
 		<tr>
@@ -14116,7 +14116,7 @@ p span.label {font-weight: bold;}
 <tr>
 <td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 <td class="label">電郵:</td>
-<td><a href="mailto: hlan_yang@yahoo.com"> hlan_yang@yahoo.com</a></td>
+<td><a href="mailto: cemcoradell@gmail.com">cemcoradell@gmail.com</a></td>
 </tr>
 </tbody>
 </table>
@@ -14380,7 +14380,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 update church set address='343 Kinderkamack Road, Oradell, NJ 07649 USA', latitude = 40.9521361, longitude = -74.0320762 where church_path = 'oradell';
 
 update church_content set body = STRINGDECODE('<p>
-<b>Senior Pastor: </b>Rev. Sorina Yang, (H)973-331-0438
+<b>Senior Pastor: </b>Rev. Sorina Yang, (C) 973-699-3223
 </p>
 <p>
 <b>Evangelist: </b>Ev. Daniel Zhai, (C)646-712-2592
@@ -14393,7 +14393,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Tel #: </b>(973) 335-7337 (C)(973) 699-3223</p>
 <p>
-<b>Email: </b>hlan_yang@yahoo.com</p>
+<b>Email: </b>cemcoradell@gmail.com</p>
 
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?sll=40.9521347,-74.0320579&amp;sspn=0.0062231,0.0109864&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&amp;t=m&amp;z=14&amp;ll=40.952136,-74.032076&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
@@ -14402,7 +14402,7 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 update church_content set body = STRINGDECODE('<p>
-<b>主任牧師: </b>楊張秀蘭 牧師, (H)973-331-0438
+<b>主任牧師: </b>楊張秀蘭 牧師, (C) 973-699-3223
 </p>
 <p>
 <b>傳道: </b>翟廣奇 傳道, (C)646-712-2592
@@ -14415,7 +14415,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>電 話: </b>(973) 335-7337 (C) (973) 699-3223</p>
 <p>
-<b>電 郵: </b>hlan_yang@yahoo.com</p>
+<b>電 郵: </b>cemcoradell@gmail.com</p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?sll=40.9521347,-74.0320579&amp;sspn=0.0062231,0.0109864&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&amp;t=m&amp;z=14&amp;ll=40.952136,-74.032076&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'oradell')
