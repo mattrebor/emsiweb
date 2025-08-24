@@ -14363,20 +14363,36 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 update church set address='343 Kinderkamack Road, Oradell, NJ 07649 USA', latitude = 40.9521361, longitude = -74.0320762 where church_path = 'oradell';
 
 update church_content set body = STRINGDECODE('<p>
-<b>Senior Pastor: </b>Rev. Sorina Yang, (C) 973-699-3223
-</p>
-<p>
-<b>Evangelist: </b>Ev. Daniel Zhai, (C)646-712-2592
-</p>
-<p>
-<b>Evangelist: </b>Ev. Lydia Zhang, (C)929-724-0472
-</p>
-<p>
 <b>Address: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
 <p>
-<b>Tel #: </b>(973) 335-7337 (C)(973) 699-3223</p>
+<b>Tel #: </b>(973) 335-7337</p>
 <p>
 <b>Email: </b>cemcoradell@gmail.com</p>
+
+<table border="1" cellpadding="5">
+  <tr>
+    <th></th>
+    <th><b>Tel #</b></th>
+    <th><b>Email</b></th>
+  </tr>
+  <tr>
+    <td>Rev. Sorina Yang</td>
+    <td>(H) 973-331-0438, (C) 973-699-3223</td>
+    <td><a href="mailto:hlan_yang@yahoo.com">hlan_yang@yahoo.com</a></td>
+  </tr>
+  <tr>
+    <td>Ev. Daniel Zhai</td>
+    <td>(C) 646-712-2592</td>
+    <td><a href="mailto:zhaiguangqi29@gmail.com">zhaiguangqi29@gmail.com</a></td>
+  </tr>
+  <tr>
+    <td>Ev. Lydia Zhang</td>
+    <td>(C) 929-724-0472</td>
+    <td><a href="mailto:lydiaice007@gmail.com">lydiaice007@gmail.com</a></td>
+  </tr>
+</table>
+<p>
+<p>
 
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?sll=40.9521347,-74.0320579&amp;sspn=0.0062231,0.0109864&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&amp;t=m&amp;z=14&amp;ll=40.952136,-74.032076&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
@@ -14385,25 +14401,43 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 update church_content set body = STRINGDECODE('<p>
-<b>主任牧師: </b>楊張秀蘭 牧師, (C) 973-699-3223
-</p>
-<p>
-<b>傳道: </b>翟廣奇 傳道, (C)646-712-2592
-</p>
-<p>
-<b>傳道: </b>張語珈 傳道, (C)929-724-0472
-</p>
 <p>
 <b>地 址: </b>343 Kinderkamack Road, Oradell, NJ 07649 USA</p>
 <p>
-<b>電 話: </b>(973) 335-7337 (C) (973) 699-3223</p>
+<b>電 話: </b>(973) 335-7337</p>
 <p>
 <b>電 郵: </b>cemcoradell@gmail.com</p>
+
+<table border="1" cellpadding="5">
+  <tr>
+    <th></th>
+    <th><b>電話</b></th>
+    <th><b>電子郵件</b></th>
+  </tr>
+  <tr>
+    <td>楊張秀蘭 牧師</td>
+    <td>(H) 973-331-0438, (C) 973-699-3223</td>
+    <td><a href="mailto:hlan_yang@yahoo.com">hlan_yang@yahoo.com</a></td>
+  </tr>
+  <tr>
+    <td>翟廣奇 傳道</td>
+    <td>(C) 646-712-2592</td>
+    <td><a href="mailto:zhaiguangqi29@gmail.com">zhaiguangqi29@gmail.com</a></td>
+  </tr>
+  <tr>
+    <td>張語珈 傳道</td>
+    <td>(C) 929-724-0472</td>
+    <td><a href="mailto:lydiaice007@gmail.com">lydiaice007@gmail.com</a></td>
+  </tr>
+</table>
+<p>
+<p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?sll=40.9521347,-74.0320579&amp;sspn=0.0062231,0.0109864&amp;q=343+Kinderkamack+Rd&amp;ie=UTF8&amp;hq=&amp;hnear=343+Kinderkamack+Rd,+Oradell,+New+Jersey+07649&amp;t=m&amp;z=14&amp;ll=40.952136,-74.032076&amp;output=embed"></iframe><br /><small><a href="https://maps.google.com/maps?q=Piazza+San+Domenico+10,+59100,+Prato+(PO),+Italy&amp;ie=UTF8&amp;hq=&amp;hnear=Piazza+San+Domenico,+10,+59100+Prato,+Toscana,+Italy&amp;gl=us&amp;t=m&amp;z=14&amp;ll=43.881846,11.093757&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'oradell')
 	and locale = 'zh'
 	and page_id = 'contactus';
+
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
