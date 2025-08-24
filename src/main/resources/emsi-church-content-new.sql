@@ -13333,39 +13333,56 @@ update church_content set body = STRINGDECODE('<p>
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>Sunday Service</td>
-			<td>Sunday</td>
+			<td>主日崇拜 (粵語、普通話)*  Sunday Worship (Cantonese, Mandarin)</td>
+			<td>每主日上午 Every Sunday</td>
 			<td>09:30 am - 11:00 am</td>
 		</tr>
 		<tr>
-			<td>Sunday School(Children & Teenagers)</td>
-			<td>Sunday</td>
+			<td>主日學 (少年及兒童) Children&apos;s Sunday School</td>
+			<td>每主日上午 Every Sunday</td>
 			<td>09:30 am - 11:00 am</td>
 		</tr>
 		<tr>
-			<td>Adult Fellowship / Tuesday’s Worship Service (Cantonese)</td>
-			<td>2nd & 4th Tuesday</td>
-			<td>11:00 am - 01:00 pm</td>
+			<td>荷文崇拜 Dutch Language Sunday Service</td>
+			<td>每月第二、四個 星期日 Every 2nd & 4th Sunday</td>
+			<td>11:30 am - 01:00 pm</td>
 		</tr>
 		<tr>
-			<td>Dutch Bible Study</td>
-			<td>2nd & 4th Friday</td>
-			<td>08:00 pm - 09:30 pm</td>
+			<td>週二崇拜 Tuesday Worship</td>
+			<td>每月第一、三個 星期二 Every 1st & 3rd Tuesday</td>
+			<td>11:00 am - 12:30 pm</td>
 		</tr>
 		<tr>
-			<td>Youth Fellowship (Dutch)</td>
-			<td>1st & 3rd Saturday</td>
-			<td>10:30 am - 01:00 pm</td>
+			<td>司提反讀經小組 Steven’s Bible Study</td>
+			<td>每月第一、三個 星期日 1st and 3rd Sunday</td>
+			<td>11:45 am - 01:00 pm</td>
 		</tr>
 		<tr>
-			<td>Teenager Fellowship (Dutch)</td>
-			<td>2nd & 4th Saturday</td>
-			<td>12:30 pm - 03:00 pm</td>
+			<td>呂底亞讀經小組 Lydia’s Bible Study</td>
+			<td>每月第二、四個 星期四  2nd and 4th Thursday</td>
+			<td>11:00 am - 12:15 pm</td>
+		</tr>
+		<tr>
+			<td>青年團契 Young Adult Fellowship</td>
+			<td>每月第三個 星期日 3rd Sunday</td>
+			<td>11:30 am – 01:00 pm</td>
+		</tr>
+		<tr>
+			<td>成人團契 Adult Fellowship</td>
+			<td>每月第一、三個 星期二 1st and 3rd Tuesday</td>
+			<td>11:00 am – 12:30 pm</td>
+		</tr>
+		<tr>
+			<td>互助團 Mutual Aid Fellowship</td>
+			<td>每月第一、三個 星期二 1st and 3rd Tuesday</td>
+			<td>01:30 pm – 03:00 pm</td>
 		</tr>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
+* 耳機翻譯荷語及英語<br />
+Simultaneous translation from Chinese to Dutch or English via earphone is available.
 '	where church_id = (select church_id from church where church_path = 'antwerpen')
 	and locale = 'en'
 	and page_id = 'schedule';
@@ -13374,40 +13391,56 @@ update church_content set body = '<table border="1" cellpadding="5">
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>主日崇拜</td>
-			<td>星期日上午</td>
+			<td>主日崇拜 (粵語、普通話)*  Sunday Worship (Cantonese, Mandarin)</td>
+			<td>每主日上午 Every Sunday</td>
 			<td>09:30 am - 11:00 am</td>
 		</tr>
 		<tr>
-			<td>主日學(青少年與兒童)</td>
-			<td>星期日上午</td>
+			<td>主日學 (少年及兒童) Children&apos;s Sunday School</td>
+			<td>每主日上午 Every Sunday</td>
 			<td>09:30 am - 11:00 am</td>
 		</tr>
 		<tr>
-			<td>成人團契 / 週二崇拜 (粵語)</td>
-			<td>每月第二、四個 星期二</td>
-			<td>11:00 am - 01:00 pm</td>
+			<td>荷文崇拜 Dutch Language Sunday Service</td>
+			<td>每月第二、四個 星期日 Every 2nd & 4th Sunday</td>
+			<td>11:30 am - 01:00 pm</td>
 		</tr>
 		<tr>
-			<td>查經聚會 (荷語)</td>
-			<td>每月第二、四個 星期五</td>
-			<td>08:00 pm - 09:30 pm</td>
+			<td>週二崇拜 Tuesday Worship</td>
+			<td>每月第一、三個 星期二 Every 1st & 3rd Tuesday</td>
+			<td>11:00 am - 12:30 pm</td>
 		</tr>
 		<tr>
-			<td>青年團契 - 18-30歲未婚男女 (荷語)</td>
-			<td>每月第一、三個 星期六</td>
-			<td>10:30 am - 01:00 pm</td>
+			<td>司提反讀經小組 Steven’s Bible Study</td>
+			<td>每月第一、三個 星期日 1st and 3rd Sunday</td>
+			<td>11:45 am - 01:00 pm</td>
 		</tr>
 		<tr>
-			<td>少年團契 - 就讀中學階段的學生 (荷語)</td>
-			<td>每月第二、四個 星期六</td>
-			<td>12:30 pm - 3:00 pm</td>
+			<td>呂底亞讀經小組 Lydia’s Bible Study</td>
+			<td>每月第二、四個 星期四  2nd and 4th Thursday</td>
+			<td>11:00 am - 12:15 pm</td>
 		</tr>
-
+		<tr>
+			<td>青年團契 Young Adult Fellowship</td>
+			<td>每月第三個 星期日 3rd Sunday</td>
+			<td>11:30 am – 01:00 pm</td>
+		</tr>
+		<tr>
+			<td>成人團契 Adult Fellowship</td>
+			<td>每月第一、三個 星期二 1st and 3rd Tuesday</td>
+			<td>11:00 am – 12:30 pm</td>
+		</tr>
+		<tr>
+			<td>互助團 Mutual Aid Fellowship</td>
+			<td>每月第一、三個 星期二 1st and 3rd Tuesday</td>
+			<td>01:30 pm – 03:00 pm</td>
+		</tr>
 	</tbody>
 </table>
 
 <p>&nbsp;</p>
+* 耳機翻譯荷語及英語<br />
+Simultaneous translation from Chinese to Dutch or English via earphone is available.
 '	where church_id = (select church_id from church where church_path = 'antwerpen')
 	and locale = 'zh'
 	and page_id = 'schedule';
