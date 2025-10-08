@@ -68,7 +68,7 @@ update church set address='Geograaf 13, Centerpoort-Nieuwgraaf, 6921 EW Duiven, 
 update church set address='Via Gaetano Braga, 1, 20125 Milano Italia', latitude = 45.49282825762779, longitude = 9.206116532844819 where church_path = 'milan';
 --update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prato, Italy', latitude = 43.88184649999999, longitude = 11.09375730 where church_path = 'prato';
 
-------------------** no longer in use -update Brooklyn - 7th Ave Fuzhou Service intro page
+-----------------** no longer in use -update Brooklyn - 7th Ave Fuzhou Service intro page
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
