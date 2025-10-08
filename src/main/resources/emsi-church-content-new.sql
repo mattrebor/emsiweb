@@ -68,7 +68,7 @@ update church set address='Geograaf 13, Centerpoort-Nieuwgraaf, 6921 EW Duiven, 
 update church set address='Via Gaetano Braga, 1, 20125 Milano Italia', latitude = 45.49282825762779, longitude = 9.206116532844819 where church_path = 'milan';
 --update church set address='Piazza San Domenico, 10, 59100 Prato Province of Prato, Italy', latitude = 43.88184649999999, longitude = 11.09375730 where church_path = 'prato';
 
-------------------** no longer in use -update Brooklyn - 7th Ave Fuzhou Service intro page
+-----------------** no longer in use -update Brooklyn - 7th Ave Fuzhou Service intro page
 
 update church_content set body = '<style>
 .contact-content {font-family: Arial,helvetica,sans-serif;}
@@ -4503,8 +4503,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class=\"label\">Senior Pastor:</td>
-			<td>Rev. Yue Ping Chen, (C) 963-333-777</td>
+			<td class=\"label\">Pastor:</td>
+			<td>Rev. Jian Pan, (C) 962-222-221, WeChat: panjian_789</td>
 		</tr>
 	</tbody>
 </table>
@@ -4519,18 +4519,18 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> 351-252-612-642  </td>
-		</tr>
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">Fax#:</td>
-			<td> 351-218-868-370</td>
+			<td> 962-222-221, WeChat: panjian_789 </td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:emsimindelo@hotmail.com">emsimindelo@hotmail.com</a><br />
+			<td><a href="mailto:emsiPorto_1@hotmail.com">emsiPorto_1@hotmail.com</a><br />
 			</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
+			<td class="label">Church QQ:</td>
+			<td> 310 103 12</td>
 		</tr>
 	</tbody>
 </table>
@@ -4566,8 +4566,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">主任牧師:</td>
-			<td>陳岳平 牧師, (手機) 963-333-777</td>
+			<td class=\"label\">牧師:</td>
+			<td>潘建 牧師, (手機) 962-222-221, 微信: panjian_789</td>
 		</tr>
 	</tbody>
 </table>
@@ -4582,17 +4582,17 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td>  351-252-612-642  </td>
-		</tr>
-		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">傳真:</td>
-			<td> 351-218-868-370 </td>
+			<td>962-222-221, 微信: panjian_789</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
-			<td><a href=\"mailto: emsimindelo@hotmail.com"> emsimindelo@hotmail.com</a></td>
+			<td><a href=\"mailto: emsiPorto_1@hotmail.com">emsiPorto_1@hotmail.com</a></td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">教會QQ:群號:</td>
+			<td> 310 103 12 </td>
 		</tr>
 	</tbody>
 </table>
@@ -4633,13 +4633,19 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Senior Pastor:</b> Rev. Yue Ping Chen, (C) 963-333-777
+<b>Pastor:</b> Rev. Jian Pan, (C) 962-222-221, WeChat: panjian_789
 </p>
 <p>
 <b>Address: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
 <p>
-<b>Tel #: </b> (cell) 351-252-612-642
+<b>Tel #: </b> (c) 962-222-221, WeChat: panjian_789
+</p>
+<p>
+<b>Email #: </b> emsiPorto_1@hotmail.com
+</p>
+<p>
+<b>Church QQ: </b> 310 103 12
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.9619421941993!2d-8.616034784580663!3d41.17899727928379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464357d7708af%3A0x3f1595d11819de60!2sRua+do+Amial+698%2C+4200-062+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1476580063460" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
@@ -4651,14 +4657,20 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>主任牧師:</b> 陳岳平 牧師,(手機) 963-333-777
+<b>牧師:</b> 潘建 牧師,(手機) 962-222-221, 微信: panjian_789
 </p>
 <p>
 <b>地址: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
 <p>
-<b>電話:</b> 351-252-612-642
+<b>電話:</b> 962-222-221, 微信: panjian_789
 </p>
+<p>
+<b>電郵:</b> emsiPorto_1@hotmail.com
+</p>
+<p>
+<b>教會QQ: 群號</b> 310 103 12
+</p
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.9619421941993!2d-8.616034784580663!3d41.17899727928379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464357d7708af%3A0x3f1595d11819de60!2sRua+do+Amial+698%2C+4200-062+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1476580063460" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>')	where church_id = (select church_id from church where church_path = 'porto')
@@ -5153,9 +5165,12 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. Yong Yong Guo, (Cell) 965-333-777</td>
+			<td>Rev. Yong Yong Guo, (Cell) 351-965-333-777</td>
 		</tr>
-
+		<tr>
+			<td class="label">Evangelist:</td>
+			<td>Ev. Hai Xia Wang, (cell) 351-965-077-777</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -5206,7 +5221,11 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧師: </td>
-			<td>郭永勇 牧師, (手機) 965-333-777</td>
+			<td>郭永勇 牧師, (手機) 351-965-333-777</td>
+		</tr>
+		<tr>
+			<td class=\"label\">傳道:</td>
+			<td>王海霞傳道, (手機) 351-965-077-777</td>
 		</tr>
 	</tbody>
 </table>
@@ -5295,7 +5314,10 @@ update church_content set body = STRINGDECODE('
 .indentation {margin:20px;}
 </style>
 <p>
-<b>Pastor: </b> Rev. Yong Yong Guo, (Cell) 965-333-777
+<b>Pastor: </b> Rev. Yong Yong Guo, (Cell) 351-965-333-777
+</p>
+<p>
+<b>Evangelist: </b> Ev. Hai Xia Wang, (cell) 351-965-077-777
 </p>
 <p>
 <b>Address: </b>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</p>
@@ -5312,7 +5334,10 @@ update church_content set body = STRINGDECODE('
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師: </b>郭永勇 牧師, (手機) 965-333-777
+<b>牧師: </b>郭永勇 牧師, (手機) 351-965-333-777
+</p>
+<p>
+<b>傳道: </b>王海霞傳道, (手機) 351-965-077-777
 </p>
 <p><b>地 址: </b>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</p>
 <p>
@@ -13757,7 +13782,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 			<td class="label">Email:</td>
-			<td><a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</a></td>
+			<td><a href="mailto:linjunxiulan@hotmail.co.jp">linjunxiulan@hotmail.co.jp</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -13822,7 +13847,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 			<td class="label">電郵:</td>
-			<td><a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</a></td>
+			<td><a href="mailto:linjunxiulan@hotmail.co.jp">linjunxiulan@hotmail.co.jp</a></td>
 		</tr>
 	</tbody>
 </table>
@@ -13849,7 +13874,9 @@ p span.label {font-weight: bold;}
 
 <p><b>教會現況</b><br />
 <br />
-東京生命堂位於住宅區，附近有不少的中國人。正式開始崇拜時有近十人的固定弟兄姐妹參加，在代禱與弟兄姐妹共同地努力下，上帝為我們開路，幾乎每週都有新朋友來到我們當中。</p>
+東京生命堂發展至今，每週敬拜人數超過百人，主日學與母嬰兒室分別設在附近信徒家中。教會購堂迫在眉睫，由於東京人多地狹，遲遲未覓得適合的禮拜堂，願主憐憫開路。
+感恩本堂信徒願意熱心服事，並帶著福音的使命，抓住機會廣傳福音，也帶領很多日本人信主。願主繼續使用祝福，願福音之花處處開。
+</p>
 </div>');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'schedule', 'en', 'CEC in Tokyo - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
@@ -13928,7 +13955,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>Tel #: </b>81-3-6423-1773</p>
 <p>
-<b>Email: </b> <a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</p>
+<b>Email: </b> <a href="mailto:linjunxiulan@hotmail.co.jp">linjunxiulan@hotmail.co.jp</p>
 
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E3%80%92140-0013+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;t=m&amp;z=14&amp;ll=35.589223,139.735285&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=%E3%80%92140-0013+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;t=m&amp;z=14&amp;ll=35.589223,139.735285&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
@@ -13944,7 +13971,7 @@ update church_content set body = STRINGDECODE('<p>
 <p>
 <b>電 話: </b>81-3-6423-1773</p>
 <p>
-<b>電 郵: </b><a href="mailto:emsi_omoritokyo@hotmail.co.jp">emsi_omoritokyo@hotmail.co.jp</p>
+<b>電 郵: </b><a href="mailto:linjunxiulan@hotmail.co.jp">linjunxiulan@hotmail.co.jp</p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=%E3%80%92140-0013+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;t=m&amp;z=14&amp;ll=35.589223,139.735285&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=%E3%80%92140-0013+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;ie=UTF8&amp;hq=&amp;hnear=Japan,+T%C5%8Dky%C5%8D-to,+Shinagawa-ku,+Minami%C5%8Di,+3+Chome%E2%88%9220%E2%88%9217+%E3%82%B3%E3%83%BC%E3%83%85%E7%AC%AC%EF%BC%95%E5%A4%A7%E6%A3%AE&amp;t=m&amp;z=14&amp;ll=35.589223,139.735285&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'tokyo')
@@ -15779,6 +15806,10 @@ p span.label {font-weight: bold;}
 <span class=\"label\">簡史: </span>
 </p>
 <p>
+2015年3月25日，我們夫妻(林麗鴻傳道及夫婿)同方牧師有感動前往埼玉縣大宮開展福音事工，遇到三位中國人向他們問路、確認方向，同時，我們夫妻經過禱告後改變搬家計劃，決定搬至大宮配合事工。4月14日，意外一眼看中朋友突然提供的大宮房源信息裡的其中一處（現聚會點），大廳適合家庭聚會，並且大小、地點、價格都是最合適的，看房後當即簽約，經歷上帝許多的恩典。
+</p>
+<p>
+2015年7月1日我們搬進新家，8月開始查經班，11月正式成立埼玉基督教生命堂，最初每月一次主日禮拜，2017年增至每月兩次，感謝主2019年6月我從神學院回來之後在方牧師的協助下接手了大宮的服事，從8月份起開始每週固定禮拜。整個過程見證了上帝奇妙的帶領，從尋求方向到穩定聚會，逐步擴展了埼玉地區的福音事工。
 </p>
 </div>');
 
