@@ -6261,52 +6261,77 @@ p span.label {font-weight: bold;}
 update church_content set body = '<table border="1" cellpadding="5">
 	<tbody>
 		<tr>
-			<td>主日崇拜</td>
-			<td>每星期日</br>
-				上午 </br>
-				晚上</td>
-			<td><br>
-				10:30 - 11:30</br>
-			    21:30 - 22:30</td>
-		</tr>
-		<tr>
-			<td>主日學</td>
-			<td>每星期日上午</td>
-			<td>10:30 - 11:30</td>
-		</tr>
-		<tr>
-			<td>查經</td>
-			<td>每星期日</br>
-			每星期三</br>
-			每星期五
-				</td>
-			<td>12:30 - 13:30<br>
-			21:00 - 22:00<br>
-			17:30 - 18:30<br>
-			</td>
-		</tr>
-		<tr>
-			<td>禱告會</td>
-			<td>每星期三 </td>
-			<td>20:30 - 21:00</td>
-		</tr>
-		<tr>
-			<td>青年團契</td>
-			<td>每星期三</td>
-			<td>19:00 - 20:30</td>
-		</tr>
-		<tr>
-			<td>姐妹團契</td>
-			<td>每月第四週六</td>
-			<td>15:30 - 16:30</td>
+			<td>主日崇拜</br>Sunday Worship Service</td>
+			<td>星期日上午 </br>Sunday </td>
+			<td>10:30 am - 12:00 pm</td>
 		</tr>
 
 		<tr>
-			<td>弟兄團契</td>
-			<td>每月第四週六</td>
-			<td>21:00 - 22:00</td>
+			<td>主日學</br>Sunday School</td>
+			<td>星期日上午</br>Sunday </td>
+			<td>10:30 am - 12:00 pm</td>
+		</tr>
+		<tr>
+			<td>查經 </br>Bible Study</td>
+			<td>星期三晚上</br>Wednesday </td>
+			<td>7:00 pm – 9:00 pm</td>
+		</tr>
+		<tr>
+			<td>禱告會</br>Prayer Meeting</td>
+			<td>星期三晚上</br>Wednesday </td>
+			<td>7:00 pm – 9:00 pm</td>
+		</tr>
+		<tr>
+			<td>青少年團契</br>Youth & Young Adult Fellowship</td>
+			<td>每月第二週六 </br>Every 2nd Saturday</td>
+			<td>6:00 pm – 8:30 pm</td>
+		</tr>
+		<tr>
+			<td>姐妹團契 </br>Sisters’ Fellowship</td>
+			<td>每月第四週六</br>Every 4th Saturday</td>
+			<td>7:00 pm – 9:00 pm</td>
+		</tr>		
+	</tbody>
+</table>
+
+'	where church_id = (select church_id from church where church_path = 'kobe')
+	and locale = 'en'
+	and page_id = 'schedule';
+
+
+update church_content set body = '<table border="1" cellpadding="5">
+	<tbody>
+		<tr>
+			<td>主日崇拜</br>Sunday Worship Service</td>
+			<td>星期日上午 </br>Sunday </td>
+			<td>10:30 am - 12:00 pm</td>
 		</tr>
 
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>星期日上午</br>Sunday </td>
+			<td>10:30 am - 12:00 pm</td>
+		</tr>
+		<tr>
+			<td>查經 </br>Bible Study</td>
+			<td>星期三晚上</br>Wednesday </td>
+			<td>7:00 pm – 9:00 pm</td>
+		</tr>
+		<tr>
+			<td>禱告會</br>Prayer Meeting</td>
+			<td>星期三晚上</br>Wednesday </td>
+			<td>7:00 pm – 9:00 pm</td>
+		</tr>
+		<tr>
+			<td>青少年團契</br>Youth & Young Adult Fellowship</td>
+			<td>每月第二週六 </br>Every 2nd Saturday</td>
+			<td>6:00 pm – 8:30 pm</td>
+		</tr>
+		<tr>
+			<td>姐妹團契 </br>Sisters’ Fellowship</td>
+			<td>每月第四週六</br>Every 4th Saturday</td>
+			<td>7:00 pm – 9:00 pm</td>
+		</tr>		
 	</tbody>
 </table>
 
@@ -15737,7 +15762,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td>shmily9973@yahoo.co.jp</td>
+				<td>przx8921@yahoo.co.jp</td>
 			</tr>
 		</tbody>
 	</table>
@@ -15789,7 +15814,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td>shmily9973@yahoo.co.jp</td>
+				<td>przx8921@yahoo.co.jp</td>
 			</tr>
 		</tbody>
 	</table>
@@ -15847,6 +15872,9 @@ update church_content set body = STRINGDECODE('
 <b>Tel #: </b> (C) 090-3797-8428
 </p>
 <p>
+<b>Email: </b> przx8921@yahoo.co.jp
+</p>
+<p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.9092273179504!2d139.6219168148686!3d35.90023878014376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c16942edd69d%3A0x6de2fd784ae28125!2s9-ch%C5%8Dme-9-4%20Kamiochiai%2C%20Chuo%20Ward%2C%20Saitama%2C%20338-0001%2C%20Japan!5e0!3m2!1sen!2sus!4v1626892204339!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 ')	where church_id = (select church_id from church where church_path = 'saitama')
 	and locale = 'en'
@@ -15856,10 +15884,13 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧者: </b> 林麗鴻 傳道, (C) 090-3797-8428
 </p>
 <p>
-<b>地 址: </b>埼玉縣埼玉市中央區上落合9-9-4-508號
+<b>地址: </b>埼玉縣埼玉市中央區上落合9-9-4-508號
 </p>
 <p>
-<b>電 話: </b>(C) 090-3797-8428
+<b>電話: </b>(C) 090-3797-8428
+</p>
+<p>
+<b>電郵: </b> przx8921@yahoo.co.jp
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3231.9092273179504!2d139.6219168148686!3d35.90023878014376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018c16942edd69d%3A0x6de2fd784ae28125!2s9-ch%C5%8Dme-9-4%20Kamiochiai%2C%20Chuo%20Ward%2C%20Saitama%2C%20338-0001%2C%20Japan!5e0!3m2!1sen!2sus!4v1626892204339!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
