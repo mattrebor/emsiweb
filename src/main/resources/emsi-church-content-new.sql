@@ -2225,11 +2225,7 @@ insert into church_content (church_id, locale, page_id, title, body) values (34,
 
 Church is open from 10 am to 7 pm during weekdays; and from 10 am to 8:30 pm on Sunday.
 
-
-'
-
-
-);
+');
 
 
 
@@ -15779,7 +15775,6 @@ p span.label {font-weight: bold;}
 ');
 
 
-
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'intro', 'zh', '埼玉基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
 .contact-content td {font-size: 14px; padding: 2px; 3px;}
 td.label {font-weight: bold; width: 1%; white-space: nowrap;}
@@ -15843,17 +15838,57 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'schedule', 'en', 'CEC in Saitama - Church Services Schedule',
 '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
+		<tr>
+			<td>主日崇拜</br>Sunday Worship Service</td>
+			<td>星期日下午 </br>Sunday Afternoon</td>
+			<td>3:30pm - 5:00pm</td>
+		</tr>
+
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>星期日下午 </br>Sunday Afternoon</td>
+			<td>3:30pm - 5:00pm</td>
+		</tr>
+		<tr>
+			<td>禱告會</br>Prayer Meeting</td>
+			<td>星期四晚上</br>Thursday </td>
+			<td>7:30pm – 8:00pm</td>
+		</tr>
+		<tr>
+			<td>查經班</br>Bible Study</td>
+			<td>星期四晚上</br>Thursday </td>
+			<td>8:00pm – 9:00pm</td>
+		</tr>
 	</tbody>
 </table>
 
-<p>&nbsp;</p>
 ');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(63, 'schedule', 'zh', '埼玉基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
+		<tr>
+			<td>主日崇拜</br>Sunday Worship Service</td>
+			<td>星期日下午 </br>Sunday Afternoon</td>
+			<td>3:30pm - 5:00pm</td>
+		</tr>
+
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>星期日下午 </br>Sunday Afternoon</td>
+			<td>3:30pm - 5:00pm</td>
+		</tr>
+		<tr>
+			<td>禱告會</br>Prayer Meeting</td>
+			<td>星期四晚上</br>Thursday </td>
+			<td>7:30pm – 8:00pm</td>
+		</tr>
+		<tr>
+			<td>查經班</br>Bible Study</td>
+			<td>星期四晚上</br>Thursday </td>
+			<td>8:00pm – 9:00pm</td>
+		</tr>
 	</tbody>
 </table>
 
-<p>&nbsp;</p>
 ');
 
 update church set address='Saitama-Ken Saitama-Shi Chuo-Ku Kamiochiai 9-9-4-508, Japan', latitude = 35.90042128626243, longitude = 139.6240947684791 where church_path = 'saitama';
