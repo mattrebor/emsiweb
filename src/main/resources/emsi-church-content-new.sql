@@ -6582,39 +6582,40 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <table  border="1">
 	<tbody>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Sunday Worship</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">11 am</td>
+			<td>主日崇拜</br>Sunday Worship Service</td>
+			<td>星期日 </br>Sunday </td>
+			<td>11:00 am</td>
+		</tr>
+
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>星期日</br>Sunday </td>
+			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Sunday School</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">11 am</td>
+			<td>詩班練習</br>Choir Practice</td>
+			<td>星期日</br>Sunday </td>
+			<td>9:15 am</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Choir Practice</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">9:30 am</td>
+			<td>中文班 </br>Chinese Class</td>
+			<td>星期日</br>Sunday </td>
+			<td>10:15 am</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Prayer Meeting</td>
-			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
-			<td style="padding: 0px 10px 0px 10px">7:30 pm</td>
+			<td>禱告會</br>Prayer Meeting</td>
+			<td>星期三</br>Wednesday </td>
+			<td>7:30 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Bible Study</td>
-			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
-			<td style="padding: 0px 10px 0px 10px">8 pm</td>
+			<td>查經 </br>Bible Study</td>
+			<td>每月第二，第四週日</br> The 2nd, and 4th Sunday of the Month </td>
+			<td>1:00 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">Japanese Bible Reading</td>
-			<td style="padding: 0px 10px 0px 10px">Saturday</td>
-			<td style="padding: 0px 10px 0px 10px">7:30 pm</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Zion Fellowship</td>
-			<td style="padding: 0px 10px 0px 10px">3rd Sunday of the month</td>
-			<td style="padding: 0px 10px 0px 10px">2 pm</td>
+			<td>生命團契</br> The Life Fellowship</td>
+			<td>每月第二，第四週日</br> The 2nd, and 4th Sunday of the Month </td>
+			<td>2:00 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -6626,39 +6627,40 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <table  border="1">
 	<tbody>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">主日崇拜</td>
-			<td style="padding: 0px 10px 0px 10px">毎週日</td>
-			<td style="padding: 0px 10px 0px 10px">上午11点</td>
+			<td>主日崇拜</br>Sunday Worship Service</td>
+			<td>星期日 </br>Sunday </td>
+			<td>11:00 am</td>
+		</tr>
+
+		<tr>
+			<td>主日學</br>Sunday School</td>
+			<td>星期日</br>Sunday </td>
+			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">兒童主日學</td>
-			<td style="padding: 0px 10px 0px 10px">毎週日</td>
-			<td style="padding: 0px 10px 0px 10px">上午11点</td>
+			<td>詩班練習</br>Choir Practice</td>
+			<td>星期日</br>Sunday </td>
+			<td>9:15 am</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">詩班練習</td>
-			<td style="padding: 0px 10px 0px 10px">毎週日</td>
-			<td style="padding: 0px 10px 0px 10px">上午9点30</td>
+			<td>中文班 </br>Chinese Class</td>
+			<td>星期日</br>Sunday </td>
+			<td>10:15 am</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">祷告會</td>
-			<td style="padding: 0px 10px 0px 10px">毎週三</td>
-			<td style="padding: 0px 10px 0px 10px">晩上7点30分</td>
+			<td>禱告會</br>Prayer Meeting</td>
+			<td>星期三</br>Wednesday </td>
+			<td>7:30 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">査経班</td>
-			<td style="padding: 0px 10px 0px 10px">毎週三</td>
-			<td style="padding: 0px 10px 0px 10px">晩上8点</td>
+			<td>查經 </br>Bible Study</td>
+			<td>每月第二，第四週日</br> The 2nd, and 4th Sunday of the Month </td>
+			<td>1:00 pm</td>
 		</tr>
 		<tr>
-			<td style="padding: 0px 10px 0px 10px">日語讀經班　</td>
-			<td style="padding: 0px 10px 0px 10px">毎週六</td>
-			<td style="padding: 0px 10px 0px 10px">晩上7点30分</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">鍚安圑契</td>
-			<td style="padding: 0px 10px 0px 10px">毎月第三主日</td>
-			<td style="padding: 0px 10px 0px 10px">下午2点</td>
+			<td>生命團契</br> The Life Fellowship</td>
+			<td>每月第二，第四週日</br> The 2nd, and 4th Sunday of the Month </td>
+			<td>2:00 pm</td>
 		</tr>
 	</tbody>
 </table>
