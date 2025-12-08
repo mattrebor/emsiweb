@@ -5688,7 +5688,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">Address:</td>
-				<td>Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal</td>
+				<td>Rua da Carreira 244 r/c c 9000-042 Funchal, Portugal</td>
 			</tr>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -5710,7 +5710,7 @@ p span.label {font-weight: bold;}
 <div class="main-content">
 	<p><span class="label">Established Date: May 29, 2016</span></p>
 <p>
-<img hspace="5" src="/emsi/images/church_madeira2017.jpg" align="left" height="255"/></p>
+<img hspace="5" src="/emsi/images/Church_Madeira2025.png" align="left" height="255"/></p>
 </div>
 ');
 
@@ -5741,7 +5741,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">地址:</td>
-				<td>Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal</td>
+				<td>Rua da Carreira 244 r/c c 9000-042 Funchal, Portugal</td>
 			</tr>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
@@ -5768,7 +5768,7 @@ p span.label {font-weight: bold;}
 <span class=\"label\">簡史: </span>
 </p>
 <p>
-<img hspace="5" src="/emsi/images/church_madeira2017.jpg" align="left" height="255"  />2015年十二月26日，我們結束了亞速爾基督教生命堂聖誕晚會後，56位弟兄姐妹在亞速爾候機廳等候乘機回里斯本，當時ㄧ位弟兄和我說：「陳牧師啊，你每月要多去幾次亞速爾海島，一次還不夠；還有，趕快開始馬德拉的聖工，越快越好。」聽了他的話，心中也很感動，我就回應他的話說：「是啊，他們真的很渴慕，2016年開始我們計劃每月多去幾次亞速爾。至於馬德拉的聖工，本來亞速爾成立後就準備立刻去馬德拉的，後因我去美國進修三個月，所以這事就往後延了，既然神藉著你的口再次提醒此事，那麼我們年初馬上開始馬德拉的事工。」這位弟兄馬上就說，他願意從明年開始每月奉獻金錢來支持葡萄牙海島的聖工。感謝主，馬德拉基督教生命堂的聖工從此正式拉開序幕。
+<img hspace="5" src="/emsi/images/Church_Madeira2025.png" align="left" height="255"  />2015年十二月26日，我們結束了亞速爾基督教生命堂聖誕晚會後，56位弟兄姐妹在亞速爾候機廳等候乘機回里斯本，當時ㄧ位弟兄和我說：「陳牧師啊，你每月要多去幾次亞速爾海島，一次還不夠；還有，趕快開始馬德拉的聖工，越快越好。」聽了他的話，心中也很感動，我就回應他的話說：「是啊，他們真的很渴慕，2016年開始我們計劃每月多去幾次亞速爾。至於馬德拉的聖工，本來亞速爾成立後就準備立刻去馬德拉的，後因我去美國進修三個月，所以這事就往後延了，既然神藉著你的口再次提醒此事，那麼我們年初馬上開始馬德拉的事工。」這位弟兄馬上就說，他願意從明年開始每月奉獻金錢來支持葡萄牙海島的聖工。感謝主，馬德拉基督教生命堂的聖工從此正式拉開序幕。
 </p>
 <p>2016年一月，我帶著八位同工第一次踏上馬德拉海島，地毯式地探訪馬德拉的當地華人。那次我們就帶了八個人信耶穌。我們把找會址的這事委託給當地的奚姐妹，請她幫忙尋找。那段時間她為我們忙裏忙外，還有她的兒子以及當地知名熱心的酈女士一起幫忙尋找，為了找到合適的場地，他們看了很多地方，最後找到現在的堂會，實在是感謝讚美主。
 </p>
@@ -5805,7 +5805,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ');
 
 
-update church set address='Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal', latitude = 32.6195995, longitude = -17.0640852 where church_path = 'madeira';
+update church set address='Rua da Carreira 244 r/c c 9000-042 Funchal, Portugal', latitude = 32.64837, longitude = -16.89928 where church_path = 'madeira';
 
 update church_content set body = STRINGDECODE('
 <style>
@@ -5815,7 +5815,7 @@ update church_content set body = STRINGDECODE('
 <b>Pastor: </b> Rev. DeGang Yang
 </p>
 <p>
-<b>Address: </b>Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal
+<b>Address: </b>Rua da Carreira 244 r/c c 9000-042 Funchal, Portugal
 </p>
 <p>
 <b>Tel #: </b> 351-939-782-996
@@ -5824,7 +5824,7 @@ update church_content set body = STRINGDECODE('
 <b>Email: </b> emsimadeira@hotmail.com
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.411638675415!2d-16.913363684821267!3d32.64848838101103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6060083bf893e1%3A0x985f19b39740cbe0!2sR.+de+S%C3%A3o+Francisco+3%2C+9000-050+Funchal%2C+Portugal!5e0!3m2!1sen!2sus!4v1502682205190" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6718.772769686952!2d-16.92052641798914!3d32.6491606059493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc605fe3a9405963%3A0x59385078a86fed7f!2sRua%20da%20Carreira%20244%2C%20S%C3%A3o%20Martinho%2C%209000-042%20Funchal%2C%20Portugal!5e0!3m2!1sen!2sus!4v1765213869359!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" </p>
 ')	where church_id = (select church_id from church where church_path = 'madeira')
 	and locale = 'en'
 	and page_id = 'contactus';
@@ -5834,7 +5834,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師: </b>楊德剛牧師
 </p>
 <p>
-<b>地址: </b>Rua de São Francisco n&#39 3, 2E 9000-050 Funchal, Madeira, Portugal
+<b>地址: </b>Rua da Carreira 244 r/c c 9000-042 Funchal, Portugal
 </p>
 <p>
 <b>電話: </b>351-939-782-996
@@ -5843,7 +5843,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>電郵: </b>emsimadeira@hotmail.com
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3359.411638675415!2d-16.913363684821267!3d32.64848838101103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc6060083bf893e1%3A0x985f19b39740cbe0!2sR.+de+S%C3%A3o+Francisco+3%2C+9000-050+Funchal%2C+Portugal!5e0!3m2!1sen!2sus!4v1502682205190" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6718.772769686952!2d-16.92052641798914!3d32.6491606059493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc605fe3a9405963%3A0x59385078a86fed7f!2sRua%20da%20Carreira%20244%2C%20S%C3%A3o%20Martinho%2C%209000-042%20Funchal%2C%20Portugal!5e0!3m2!1sen!2sus!4v1765213869359!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" </p>
 ')	where church_id = (select church_id from church where church_path = 'madeira')
 	and locale = 'zh'
 	and page_id = 'contactus';
