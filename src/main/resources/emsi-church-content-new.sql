@@ -1760,6 +1760,99 @@ update church_content set body = STRINGDECODE('<p>
 	and page_id = 'contactus';
 
 
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(39, 'schedule', 'en', 'CEC in Paris - Church Services Schedule', '
+<table  border="1">
+	<tbody>
+		<tr>
+			<td>Sunday Worship </br> 主日崇拜</td>
+			<td>Sunday </br> 星期日下午</td>
+			<td>3:15 pm</td>
+		</tr>
+		<tr>
+			<td>Men’s Fellowship </br>弟兄團契</td>
+			<td>Sunday </br>星期日下午</td>
+			<td>5:45 - 6:30 pm</td>
+		</tr>
+		<tr>
+			<td> Jabez Fellowship </br>雅比斯團契</td>
+			<td>Tuesday </br>星期二下午</td>
+			<td>3:30 - 4:30 pm</td>
+		</tr>
+		<tr>
+			<td>Seniors’ Fellowship </br>長青團契</td>
+			<td>Wednesday</br> 星期三上午</td>
+			<td>11:00 am - 12:00 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study </br>周五查經</td>
+			<td>Friday </br>星期五晚上</td>
+			<td>8:00 - 9:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Fellowship </br>少年團契 </td>
+			<td>Saturday</br> 星期六上午</td>
+			<td>10:00 am - 12:00 pm</td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting</br> 禱告</td>
+			<td>Tues. Wed. Thurs. Sat. </br> 星期二、三、四、六晚上</td>
+			<td>9:00-10:00 pm</td>
+		</tr>
+	</tbody>
+</table>
+
+</br>
+* Jabez fellowship is held at the restaurant "Fu Yuan Feng" at 22 rue de Trévisse, 7509 Paris.</br>
+* 雅比斯 團契聚會地址: Fu Yuan Feng福源豐餐館, 巴黎九區22 rue de Trévisse, 7509 Paris, 地鐵7 號線Cadet 站.
+');
+
+update church_content set body = STRINGDECODE('
+<table  border="1">
+	<tbody>
+		<tr>
+			<td>Sunday Worship </br> 主日崇拜</td>
+			<td>Sunday </br> 星期日下午</td>
+			<td>3:15 pm</td>
+		</tr>
+		<tr>
+			<td>Men’s Fellowship </br>弟兄團契</td>
+			<td>Sunday </br>星期日下午</td>
+			<td>5:45 - 6:30 pm</td>
+		</tr>
+		<tr>
+			<td> Jabez Fellowship </br>雅比斯團契</td>
+			<td>Tuesday </br>星期二下午</td>
+			<td>3:30 - 4:30 pm</td>
+		</tr>
+		<tr>
+			<td>Seniors’ Fellowship </br>長青團契</td>
+			<td>Wednesday</br> 星期三上午</td>
+			<td>11:00 am - 12:00 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study </br>周五查經</td>
+			<td>Friday </br>星期五晚上</td>
+			<td>8:00 - 9:00 pm</td>
+		</tr>
+		<tr>
+			<td>Youth Fellowship </br>少年團契 </td>
+			<td>Saturday</br> 星期六上午 </td>
+			<td>10:00 am - 12:00 pm </td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting </br>禱告 </td>
+			<td>Tues. Wed. Thurs. Sat. </br> 星期二、三、四、六晚上 </td>
+			<td>9:00-10:00 pm </td>
+		</tr>
+	</tbody>
+</table>
+
+</br>
+* Jabez fellowship is held at the restaurant "Fu Yuan Feng" at 22 rue de Trévisse, 7509 Paris.</br>
+* 雅比斯 團契聚會地址: Fu Yuan Feng福源豐餐館, 巴黎九區22 rue de Trévisse, 7509 Paris, 地鐵7 號線Cadet 站.
+')	where church_id = (select church_id from church where church_path = 'paris')
+	and locale = 'zh'
+	and page_id = 'schedule';
 
 ----------ends paris
 
@@ -12798,101 +12891,6 @@ update church_content set body = '<table border="1" cellpadding="5">
 
 
 -----------------ends Italy - prato
-
-INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(39, 'schedule', 'en', 'CEC in Paris - Church Services Schedule', STRINGDECODE('
-<table  border="1">
-	<tbody>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Worship Service</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">3:15 pm</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Prayer Meeting</td>
-			<td style="padding: 0px 10px 0px 10px">1<sup>st</sup> Sunday of the month</td>
-			<td style="padding: 0px 10px 0px 10px">5:45 pm</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Youth Fellowship</td>
-			<td style="padding: 0px 10px 0px 10px">Sunday</td>
-			<td style="padding: 0px 10px 0px 10px">5:45 pm</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Jabez Fellowship*</td>
-			<td style="padding: 0px 10px 0px 10px">Tuesday</td>
-			<td style="padding: 0px 10px 0px 10px">3:30 pm</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Joy Fellowship</td>
-			<td style="padding: 0px 10px 0px 10px">Wednesday</td>
-			<td style="padding: 0px 10px 0px 10px">3:30 pm</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Chinese Bible Study</td>
-			<td style="padding: 0px 10px 0px 10px">Friday</td>
-			<td style="padding: 0px 10px 0px 10px">7:30 pm</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">Teenage Fellowship</td>
-			<td style="padding: 0px 10px 0px 10px">Saturday</td>
-			<td style="padding: 0px 10px 0px 10px">2:00 pm</td>
-		</tr>
-	</tbody>
-</table>
-
-<br/>
-* Jabez fellowship is held at the restaurant "Fu Yuan Feng" at 22 rue de Trévisse, 7509 Paris.
-'));
-
-
-update PUBLIC.CHURCH_CONTENT
-set body = '
-<table  border="1">
-	<tbody>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">主日崇拜</td>
-			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 3:15</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">禱告會</td>
-			<td style="padding: 0px 10px 0px 10px">每月第一個星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 5:45</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">青年團契</td>
-			<td style="padding: 0px 10px 0px 10px">星期日</td>
-			<td style="padding: 0px 10px 0px 10px">下午 5:45</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">雅比斯 團契 *</td>
-			<td style="padding: 0px 10px 0px 10px">星期二</td>
-			<td style="padding: 0px 10px 0px 10px">下午 3:30</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">喜樂團契</td>
-			<td style="padding: 0px 10px 0px 10px">星期三</td>
-			<td style="padding: 0px 10px 0px 10px">下午 3:30</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">中文查經</td>
-			<td style="padding: 0px 10px 0px 10px">星期五</td>
-			<td style="padding: 0px 10px 0px 10px">晚 7:30</td>
-		</tr>
-		<tr>
-			<td style="padding: 0px 10px 0px 10px">少年團契</td>
-			<td style="padding: 0px 10px 0px 10px">星期六</td>
-			<td style="padding: 0px 10px 0px 10px">下午 2:00</td>
-		</tr>
-	</tbody>
-</table>
-
-<br/>
-* 雅比斯 團契聚會地址: Fu Yuan Feng福源豐餐館, 巴黎九區22 rue de Trévisse, 7509 Paris, 地鐵7 號線Cadet 站.
-'
-where church_id = 39
-and page_id = 'schedule'
-and locale = 'zh';
 
 --------------------------starts USA - livingston
 update church_content set body = '<style>
