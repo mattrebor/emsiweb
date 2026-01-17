@@ -13813,23 +13813,11 @@ p span.label {font-weight: bold;}
 <hr align="center" size="1" width="100%" /></div>
 
 <div class="main-content">
-<p><span class="label">Established Date: </span>2012</p>
+<p><span class="label">Established Date: </span>March 2012</p>
 
-<br/>
-<p><b>March 2012 - Evangelistic Ministry began</b><br />
-<br />
-Tokyo is the capital of Japan. It is the place where most Chinese gather in Japan. Although there are a lot of churches there, there are still a lot of lost souls who have yet to receive the gospel. Sister Lin Yun Fang and her husband moved from Osaka to a place nearby Tokyo (about a 40 minutes ride away) about three years ago. After they arrived, they looked for a church hoping to get spiritually fed. But they still felt spiritually hungry. So they prayed to God earnestly hoping that CEM will open up a church in Tokyo. In March 2012, after Sister Lin and her husband purchased a new house, they opened their house for the Lord&rsquo;s use. They told Ev. Fong about their conviction; and Ev. Fong in turn told Rev. Yang. So by the end of April 2012, Rev. Yang went to Tokyo to start the first family service.
+<p>
+CEC Tokyo has grown from ten people in the beginning to over a hundred people in Sunday worship attendance. Sunday school and infants’ room are held in the homes of nearby believers. The church urgently needs to purchase a building for our worship services. Due to the high population density and limited space in Tokyo, a suitable building has yet to be found. May the Lord have mercy and open the way. We are grateful that the members of this church are willing to serve wholeheartedly, carrying the mission of the gospel, seizing opportunities to spread the good news, and leading many Japanese people to believe in the Lord.
 </p>
-<br/>
-
-<p><b>June 2012 - CEM Church established</b><br />
-<br />
-Rev. Yang asked the Lord for a sign that there would be at least 20 people in the first meeting. And Ev. Fong also asked for sign that there would be at least three people received Christ in the first meeting. It turned out that both signs came true. There were 24 adults and 6 children; and five of them were unbelievers. That day three people received Christ. Thank the Lord that CEM in Tokyo was officially established. On June 2012, Rev. Yang sent Ev. Fong temporarily to Sister Lin&rsquo;s house once a month to lead worship service there. In August 2013, we rented an office so the brothers and sisters in Tokyo finally have a spiritual home of our own. On September 29, 2013, Rev. Hosea Chi officiated the Inaugural Thanksgiving Service.</p>
-<br/>
-
-<p><b>Present Situation</b><br />
-<br />
-CEM in Tokyo is in a residential area. The church had about 10 regular members in the beginning when we rented the place. There are many Chinese nearby. Through our prayers and everyone working together, God opens a door for us, and we have new people coming every week.</p>
 </div>
 ');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(52, 'intro', 'zh', '東京基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {
