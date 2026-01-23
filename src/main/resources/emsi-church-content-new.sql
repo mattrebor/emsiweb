@@ -16082,6 +16082,16 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'schedule', 'en', 'ECMSI in Rosemead - Church Services Schedule',
 '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
+		<tr>
+			<td>Sunday Worship Service</br>主日崇拜</td>
+			<td>Sunday </br>星期日上午</td>
+			<td>8:00 am</td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting & Bible Study </br>禱告查經班</td>
+			<td>Tuesday</br> 星期二晚上 </td>
+			<td>6:30 pm</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -16089,6 +16099,16 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ');
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(65, 'schedule', 'zh', '柔似蜜基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
+		<tr>
+			<td>Sunday Worship Service</br>主日崇拜</td>
+			<td>Sunday </br>星期日上午</td>
+			<td>8:00 am</td>
+		</tr>
+		<tr>
+			<td>Prayer Meeting & Bible Study </br>禱告查經班</td>
+			<td>Tuesday</br> 星期二晚上 </td>
+			<td>6:30 pm</td>
+		</tr>
 	</tbody>
 </table>
 
