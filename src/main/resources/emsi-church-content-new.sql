@@ -12529,8 +12529,7 @@ Christian Evangelical Mission Church in Towaco
 	and page_id = 'contactus';
 
 update church_content set body = '<table border="1" cellpadding="5">
-    <b>Ministries and Fellowships </b>
-	<tbody>
+    <tbody>
 		<tr>
 			<td><b>聚會  Services </b></td>
 			<td><b>時間 Time</b></td>
@@ -12539,14 +12538,14 @@ update church_content set body = '<table border="1" cellpadding="5">
 		<tr>
 			<td>國語崇拜(英語翻譯)  <br />
 			Mandarin Worship (English Translation)</td>
-			<td>每主日早上10:30 <br>
+			<td>每主日早上 10:30 <br>
 			Every Sunday at 10:30 am</td>
 			<td>楊牧師</td>
 		</tr>
 		<tr>
 			<td>英語崇拜   <br />
 			English Worship (no translation)</td>
-			<td>每月第二、三、四主日早上10:30 <br>
+			<td>每月第二、三、四主日早上 10:30 <br>
 			Every 2nd, 3rd and 4th Sunday at 10:30am</td>
 			<td>Rev. Yang</td>
 		</tr>
@@ -12559,36 +12558,29 @@ update church_content set body = '<table border="1" cellpadding="5">
 			Christine Chuang</td>
 		</tr>
 		<tr>
-			<td>週一英語查經班<br />
-			 Monday English Bible Study</td>
-			<td>每月第二、四週一晚上8:00<br />
-			    Every 2nd & 4th Monday at 8 pm</td>
-			<td>Darrin Chien</td>
-		</tr>
-		<tr>
 			<td>週三國語查經禱告會<br />
 			 Wed. Mandarin Bible Study</td>
-			<td>每月第二、四週三晚上7:30<br />
-			    Every 2nd & 4th Wed at 7:30pm</td>
+			<td>每月第三週三晚上 7:30<br />
+			    Every 3rd Wed at 7:30pm</td>
 			<td>楊牧師</td>
 		</tr>
 		<tr>
 			<td>週五英語少年團契<br />
 			 FNF Youth/Junior</td>
-			<td>每週五晚上8:00<br />
+			<td>每週五晚上 8:00<br />
 			    Every Friday at 8:00 pm</td>
-			<td>Travis Chu</td>
+			<td>Jordan Chu</td>
 		</tr>
 		<tr>
 			<td>週五英語青年團契<br />
 			 Towaco Young Adult Fellowship</td>
-			<td>每週五晚上8:00<br />
+			<td>每週五晚上 8:00<br />
 			    Every Friday at 8:00 pm</td>
-			<td>Tiffany Leung</td>
+			<td>Matthew Wing</td>
 		</tr>		<tr>
 			<td>週五英語中青團契<br />
 			 English JOY Fellowship</td>
-			<td>每週五晚上8:00<br />
+			<td>每週五晚上 8:00<br />
 			    Every Friday at 8:00 pm</td>
 			<td>Daniel Lee</td>
 		</tr>
@@ -12596,7 +12588,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 		<tr>
 			<td>週五英語成人網上團契<br />
 			 Online English Adult Fellowship</td>
-			<td>每月第一、三週五晚上8:00<br />
+			<td>每月第一、三週五晚上 8:00<br />
 			    Every 1st & 3rd Friday at 8 pm <br/>
 				 https://discord.gg/hKVMmKZYbU</td>
 			<td>Ev. Patty Chien</td>
@@ -12612,7 +12604,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 
 
 update church_content set body = '<table border="1" cellpadding="5">
-	<tbody>
+<tbody>
 		<tr>
 			<td><b>聚會  Services </b></td>
 			<td><b>時間 Time</b></td>
@@ -12621,56 +12613,49 @@ update church_content set body = '<table border="1" cellpadding="5">
 		<tr>
 			<td>國語崇拜(英語翻譯)  <br />
 			Mandarin Worship (English Translation)</td>
-			<td>每主日早上10:30 <br>
+			<td>每主日早上 10:30 <br>
 			Every Sunday at 10:30 am</td>
 			<td>楊牧師</td>
 		</tr>
 		<tr>
 			<td>英語崇拜   <br />
 			English Worship (no translation)</td>
-			<td>每月第二、三、四主日早上10:30 <br>
+			<td>每月第二、三、四主日早上 10:30 <br>
 			Every 2nd, 3rd and 4th Sunday at 10:30am</td>
 			<td>Rev. Yang</td>
 		</tr>
 		<tr>
 			<td>兒童主日學<br />
-			 Children&#39; s  Sunday School</td>
+			 Children&#39;s  Sunday School</td>
 			<td>每主日早上 10:30<br />
 			    Every Sunday 10:30am</td>
 			<td>Anita Lee and <br />
 			Christine Chuang</td>
 		</tr>
 		<tr>
-			<td>週一英語查經班<br />
-			 Monday English Bible Study</td>
-			<td>每月第二、四週一晚上8:00<br />
-			    Every 2nd & 4th Monday at 8 pm</td>
-			<td>Darrin Chien</td>
-		</tr>
-		<tr>
 			<td>週三國語查經禱告會<br />
 			 Wed. Mandarin Bible Study</td>
-			<td>每月第二、四週三晚上7:30<br />
-			    Every 2nd & 4th Wed at 7:30pm</td>
+			<td>每月第三週三晚上 7:30<br />
+			    Every 3rd Wed at 7:30pm</td>
 			<td>楊牧師</td>
 		</tr>
 		<tr>
 			<td>週五英語少年團契<br />
 			 FNF Youth/Junior</td>
-			<td>每週五晚上8:00<br />
+			<td>每週五晚上 8:00<br />
 			    Every Friday at 8:00 pm</td>
-			<td>Travis Chu</td>
+			<td>Jordan Chu</td>
 		</tr>
 		<tr>
 			<td>週五英語青年團契<br />
 			 Towaco Young Adult Fellowship</td>
-			<td>每週五晚上8:00<br />
+			<td>每週五晚上 8:00<br />
 			    Every Friday at 8:00 pm</td>
-			<td>Tiffany Leung</td>
+			<td>Matthew Wing</td>
 		</tr>		<tr>
 			<td>週五英語中青團契<br />
 			 English JOY Fellowship</td>
-			<td>每週五晚上8:00<br />
+			<td>每週五晚上 8:00<br />
 			    Every Friday at 8:00 pm</td>
 			<td>Daniel Lee</td>
 		</tr>
@@ -12678,7 +12663,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 		<tr>
 			<td>週五英語成人網上團契<br />
 			 Online English Adult Fellowship</td>
-			<td>每月第一、三週五晚上8:00<br />
+			<td>每月第一、三週五晚上 8:00<br />
 			    Every 1st & 3rd Friday at 8 pm <br/>
 				 https://discord.gg/hKVMmKZYbU</td>
 			<td>Ev. Patty Chien</td>
@@ -16084,12 +16069,12 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	<tbody>
 		<tr>
 			<td>Sunday Worship Service</br>主日崇拜</td>
-			<td>Sunday </br>星期日上午</td>
+			<td>Every Sunday </br>每主日早上</td>
 			<td>8:00 am</td>
 		</tr>
 		<tr>
-			<td>Prayer Meeting & Bible Study </br>禱告查經班</td>
-			<td>Tuesday</br> 星期二晚上 </td>
+			<td>Bible Study & Prayer Meeting </br>禱告查經班</td>
+			<td>Every Tuesday</br>每星期二晚上</td>
 			<td>6:30 pm</td>
 		</tr>
 	</tbody>
@@ -16101,12 +16086,12 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 	<tbody>
 		<tr>
 			<td>Sunday Worship Service</br>主日崇拜</td>
-			<td>Sunday </br>星期日上午</td>
+			<td>Every Sunday </br>每主日早上</td>
 			<td>8:00 am</td>
 		</tr>
 		<tr>
-			<td>Prayer Meeting & Bible Study </br>禱告查經班</td>
-			<td>Tuesday</br> 星期二晚上 </td>
+			<td>Bible Study & Prayer Meeting </br>禱告查經班</td>
+			<td>Every Tuesday</br>每星期二晚上</td>
 			<td>6:30 pm</td>
 		</tr>
 	</tbody>
