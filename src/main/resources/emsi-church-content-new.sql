@@ -2490,56 +2490,73 @@ p span.label {font-weight: bold;}
 
 
 
-update church_content set body = '
-<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+update church_content set body = '<table border="1" cellpadding="5">
+
 	<tbody>
 		<tr>
 			<td>早堂崇拜</br>Morning Worship Service</td>
-			<td>主日上午 10:00 am</br>Sunday 10:00 am</td>
+			<td>主日上午</br>Sunday</td>
+			<td>10:00 am</td>
 		</tr>
 		<tr>
 			<td>主日學</br>Sunday School</td>
-			<td>主日上午 10:00 am</br>Sunday 10:00 am</td>
+			<td>主日上午</br>Sunday</td>
+			<td>10:00 am</td>
 		</tr>
 		<tr>
 			<td>午堂崇拜</br>Afternoon Worship Service</td>
-			<td>主日下午 5:15 pm</br>Sunday 10:00 am</td>
+			<td>主日下午</br>Sunday</td>
+			<td>5:15 pm</td>
 		</tr>
 		<tr>
 			<td>主日學</br>Sunday School</td>
-			<td>主日下午 1:30 pm</br>Sunday 1:30 pm</td>
+			<td>主日下午</br>Sunday</td>
+			<td>5:15 pm</td>
 		</tr>
 		<tr>
 			<td>中文學校</br>Chinese School</td>
-			<td>主日下午 1:30 pm</br>Sunday 1:30 pm</td>
+			<td>主日下午</br>Sunday</td>
+			<td>1:30 pm</td>
 		</tr>
 		<tr>
-			<td>少年團契、學生團契、</br>弟兄團契、姊妹團契</br>
+			<td>青少年團契、、學生團契、</br>弟兄團契、姊妹團契</br>
 			Youth/Junior Fellowship、</br>
 			Student Fellowship,</br>
 			Brothers Fellowship、</br>
 			Sisters Fellowship</td>
-			<td>每月第三主日晚上 7:30</br>Every 3rd Sunday of the month at 7:30 pm</td>
+			<td>每月第三主日晚上</br>Every 3rd Sunday of the month</td>
+			<td>7:15 pm</td>
 		</tr>
 		<tr>
-			<td>成人西語班</br>Adult Spanish Class</td>
-			<td>星期三上午 10:00 am</br>Wednesday 10:00 am </td>
+			<td>弟兄團契線上聚會</br>Men’s Fellowship Online</td>
+			<td>星期一晚上</br>Monday</td>
+			<td>9:30 pm</td>
 		</tr>
 		<tr>
 			<td>禱告會</br>Prayer Meeting</td>
-			<td>星期四下午 8:00 pm</br> Thursday 8:00 pm</td>
+			<td>星期四晚上</br> Thursday</td>
+			<td>8:00 pm</td>
 		</tr>
 		<tr>
-			<td>學生團契</br>Student Fellowship</td>
-			<td>星期五下午 6:45 pm</br> Friday 6:45 pm</td>
+			<td>學生團契, 青年團契</br>Student Fellowship, </br>
+			Young Adult Fellowship</td>
+			<td>星期五下午</br> Friday</td>
+			<td>5:30 pm</td>
 		</tr>
 		<tr>
-			<td>對外漢語班</br>Mandarin Class</td>
-			<td>星期六下午 5:30 pm</br> Saturday 5:30 pm</td>
+			<td>少年聖經班 </br>Youth Bible Class</td>
+			<td>星期五下午</br> Friday</td>
+			<td>6:00 pm</td>
 		</tr>
 		<tr>
-			<td>詩班練唱</br>Choir Practice</td>
-			<td>星期六下午 6:45 pm</br>Saturday 6:45 pm</td>
+			<td>少年團契線上聚會</br>Youth Fellowship Online</td>
+			<td>星期六上午</br> Saturday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>查經班、詩班</br>Bible Study, Choir Practice</td>
+			<td>星期六下午</br>Saturday</td>
+			<td>5:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -2552,51 +2569,68 @@ update church_content set body = '<table border="1" cellpadding="1" cellspacing=
 	<tbody>
 		<tr>
 			<td>早堂崇拜</br>Morning Worship Service</td>
-			<td>主日上午 10:00 am</br>Sunday 10:00 am</td>
+			<td>主日上午</br>Sunday</td>
+			<td>10:00 am</td>
 		</tr>
 		<tr>
 			<td>主日學</br>Sunday School</td>
-			<td>主日上午 10:00 am</br>Sunday 10:00 am</td>
+			<td>主日上午</br>Sunday</td>
+			<td>10:00 am</td>
 		</tr>
 		<tr>
 			<td>午堂崇拜</br>Afternoon Worship Service</td>
-			<td>主日下午 5:15 pm</br>Sunday 10:00 am</td>
+			<td>主日下午</br>Sunday</td>
+			<td>5:15 pm</td>
 		</tr>
 		<tr>
 			<td>主日學</br>Sunday School</td>
-			<td>主日下午 1:30 pm</br>Sunday 1:30 pm</td>
+			<td>主日下午</br>Sunday</td>
+			<td>5:15 pm</td>
 		</tr>
 		<tr>
 			<td>中文學校</br>Chinese School</td>
-			<td>主日下午 1:30 pm</br>Sunday 1:30 pm</td>
+			<td>主日下午</br>Sunday</td>
+			<td>1:30 pm</td>
 		</tr>
 		<tr>
-			<td>少年團契、學生團契、</br>弟兄團契、姊妹團契</br>
+			<td>青少年團契、、學生團契、</br>弟兄團契、姊妹團契</br>
 			Youth/Junior Fellowship、</br>
 			Student Fellowship,</br>
 			Brothers Fellowship、</br>
 			Sisters Fellowship</td>
-			<td>每月第三主日晚上 7:30</br>Every 3rd Sunday of the month at 7:30 pm</td>
+			<td>每月第三主日晚上</br>Every 3rd Sunday of the month</td>
+			<td>7:15 pm</td>
 		</tr>
 		<tr>
-			<td>成人西語班</br>Adult Spanish Class</td>
-			<td>星期三上午 10:00 am</br>Wednesday 10:00 am </td>
+			<td>弟兄團契線上聚會</br>Men’s Fellowship Online</td>
+			<td>星期一晚上</br>Monday</td>
+			<td>9:30 pm</td>
 		</tr>
 		<tr>
 			<td>禱告會</br>Prayer Meeting</td>
-			<td>星期四下午 8:00 pm</br> Thursday 8:00 pm</td>
+			<td>星期四晚上</br> Thursday</td>
+			<td>8:00 pm</td>
 		</tr>
 		<tr>
-			<td>學生團契</br>Student Fellowship</td>
-			<td>星期五下午 6:45 pm</br> Friday 6:45 pm</td>
+			<td>學生團契, 青年團契</br>Student Fellowship, </br>
+			Young Adult Fellowship</td>
+			<td>星期五下午</br> Friday</td>
+			<td>5:30 pm</td>
 		</tr>
 		<tr>
-			<td>對外漢語班</br>Mandarin Class</td>
-			<td>星期六下午 5:30 pm</br> Saturday 5:30 pm</td>
+			<td>少年聖經班 </br>Youth Bible Class</td>
+			<td>星期五下午</br> Friday</td>
+			<td>6:00 pm</td>
 		</tr>
 		<tr>
-			<td>詩班練唱</br>Choir Practice</td>
-			<td>星期六下午 6:45 pm</br>Saturday 6:45 pm</td>
+			<td>少年團契線上聚會</br>Youth Fellowship Online</td>
+			<td>星期六上午</br> Saturday</td>
+			<td>10:30 am</td>
+		</tr>
+		<tr>
+			<td>查經班、詩班</br>Bible Study, Choir Practice</td>
+			<td>星期六下午</br>Saturday</td>
+			<td>5:30 pm</td>
 		</tr>
 	</tbody>
 </table>
@@ -10818,11 +10852,11 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 <table cellPadding="0" cellSpacing="0">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelists:</td>
-			<td>Ev. Ruo Shu Chen, +34-618-521-400</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Ruo Shu Chen, +34-618-521-400</td>
 		</tr>
 		<tr>
-			<td class="label"></td>
+			<td class="label">Evangelist:</td>
 			<td>Ev. Na Li, +34-654-836-884</td>
 		</tr>
 	</tbody>
@@ -10840,6 +10874,12 @@ BORDER-RIGHT-WIDTH: 0px; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER
 			<td class="label">Tel#:</td>
 			<td>34-965-123-563</td>
 		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">Email:</td>
+			<td><a href="mailto:cecalicante@gmail.com">cecalicante@gmail.com</a></td>
+		</tr>
+
 	</tbody>
 </table>
 </div>
@@ -10877,11 +10917,11 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>陳若抒 傳道, +34-618-521-400</td>
+			<td class=\"label\">牧師:</td>
+			<td>陳若抒 牧師, +34-618-521-400</td>
 		</tr>
 		<tr>
-			<td class=\"label\"></td>
+			<td class=\"label\">傳道:</td>
 			<td>李娜 傳道, +34-654-836-884</td>
 		</tr>
 	</tbody>
@@ -10899,6 +10939,12 @@ p span.label {font-weight: bold;}
 			<td class=\"label\">電話:</td>
 			<td> 34-965-123-563 </td>
 		</tr>
+		<tr>
+			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
+			<td class="label">電郵:</td>
+			<td><a href="mailto:cecalicante@gmail.com">cecalicante@gmail.com</a></td>
+		</tr>
+
 	</tbody>
 </table>
 </div>
@@ -10929,17 +10975,19 @@ p span.label {font-weight: bold;}
 update church_content set body = STRINGDECODE('<p>
 <p>
 <p>
-<b>Evangelists: </b>
+<b>Pastor: </b>Rev. Ruo Shu Chen, +34-618-521-400
 </p>
-<p style="padding-left: 55px;">Ev. Ruo Shu Chen, +34-618-521-400
-</p>
-<p style="padding-left: 55px;">Ev. Na Li, +34-654-836-884
+<p>
+<b>Evangelist: </b>Ev. Na Li, +34-654-836-884
 </p>
 <p>
 <b>Address: </b>Rigoberto Ferrer 18, 03006 Alicante, Spain
 </p>
 <p>
 <b>Tel #: </b>34-965-123-563
+</p>
+<p>
+<b>Email: </b>cecalicante@gmail.com
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3129.2229724060794!2d-0.5004546853825683!3d38.34382098698975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd62364590a46c9f%3A0x9b466eda206f1d0e!2sC.%20Rigoberto%20Ferrer%2C%2018%2C%2003006%20Alicante%20(Alacant)%2C%20Alicante%2C%20Spain!5e0!3m2!1sen!2sus!4v1670639696032!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
@@ -10951,16 +10999,19 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 陳若抒 傳道, +34-618-521-400
+<b>牧師:</b> 陳若抒 牧師, +34-618-521-400
 </p>
-<p style="padding-left: 40px;">
-李娜 傳道, +34-654-836-884
+<p>
+<b>傳道:</b> 李娜 傳道, +34-654-836-884
 </p>
 <p>
 <b>地址: </b>Rigoberto Ferrer 18, 03006 Alicante, Spain
 </p>
 <p>
 <b>電話:</b> 34-965-123-563
+</p>
+<p>
+<b>電郵:</b> cecalicante@gmail.com
 </p>
 
 <p>
@@ -15517,8 +15568,8 @@ p span.label {font-weight: bold;}
 <table cellpadding="0px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label">Evangelist:</td>
-			<td>Guo Li</td>
+			<td class="label">Pastor:</td>
+			<td>Rev. Guo Li</td>
 		</tr>
 	</tbody>
 </table>
@@ -15582,8 +15633,8 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"0\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\">傳道:</td>
-			<td>郭莉</td>
+			<td class=\"label\">牧師:</td>
+			<td>郭莉 牧師</td>
 		</tr>
 	</tbody>
 </table>
@@ -15645,7 +15696,7 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b> Guo Li
+<b>Pastor: </b>Rev. Guo Li
 </p>
 <p>
 <b>Address: </b>94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa
@@ -15670,7 +15721,7 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道: </b>郭莉
+<b>牧師: </b>郭莉 牧師
 </p>
 <p>
 <b>地址: </b>94 Camp Ground Road, Rondebosch, Cape Town 7700, South Africa
