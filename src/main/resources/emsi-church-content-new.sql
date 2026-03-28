@@ -2522,8 +2522,8 @@ update church_content set body = '<table border="1" cellpadding="5">
 			<td>青少年團契、、學生團契、</br>弟兄團契、姊妹團契</br>
 			Youth/Junior Fellowship、</br>
 			Student Fellowship,</br>
-			Brothers Fellowship、</br>
-			Sisters Fellowship</td>
+			Men’s Fellowship、</br>
+			Women’s Fellowship</td>
 			<td>每月第三主日晚上</br>Every 3rd Sunday of the month</td>
 			<td>7:15 pm</td>
 		</tr>
@@ -2596,8 +2596,8 @@ update church_content set body = '<table border="1" cellpadding="1" cellspacing=
 			<td>青少年團契、、學生團契、</br>弟兄團契、姊妹團契</br>
 			Youth/Junior Fellowship、</br>
 			Student Fellowship,</br>
-			Brothers Fellowship、</br>
-			Sisters Fellowship</td>
+			Men’s Fellowship、</br>
+			Women’s Fellowship</td>
 			<td>每月第三主日晚上</br>Every 3rd Sunday of the month</td>
 			<td>7:15 pm</td>
 		</tr>
