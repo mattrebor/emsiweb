@@ -4384,7 +4384,15 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class="label">Chief Pastor:</td>
-			<td>Rev. Yue Ping Chen, (cell) 351-963-333-777</td>
+			<td>Rev. Yue Ping Chen</td>
+		</tr>
+		<tr>
+			<td class="label">Senior Pastor:</td>
+			<td>Rev. Yue Ping Chen, (cell) 351-963-333-777, (Wechat) cheyueping</td>
+		</tr>
+		<tr>
+			<td class="label">Assistant Pastor:</td>
+			<td>Rev. Jian Pan, 351-962-222-221, (Wechat) panjian_789</td>
 		</tr>
 	</tbody>
 </table>
@@ -4392,19 +4400,9 @@ p span.label {font-weight: bold;}
 <table cellpadding="1px" cellspacing="0px">
 	<tbody class="borderless-table">
 		<tr>
-			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
-			<td class="label">CEM Portugal Address:</td>
-			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
-		</tr>
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
-			<td class="label">Church Address:</td>
-			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
-		</tr>
-		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> (cell) 351-963-333-777</td>
+			<td>351-962-222-221, (Wechat) panjian_789</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
@@ -4418,9 +4416,14 @@ p span.label {font-weight: bold;}
 			</td>
 		</tr>
 		<tr>
-			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">WeChat:</td>
-			<td>cheyueping</td>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">CEM Portugal Address:</td>
+			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
+		</tr>
+		<tr>
+			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
+			<td class="label">Church Address:</td>
+			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
 		</tr>
 	</tbody>
 </table>
@@ -4462,7 +4465,15 @@ p span.label {font-weight: bold;}
 		</tr>
 		<tr>
 			<td class=\"label\">會牧:</td>
-			<td>陳岳平 牧師, (手機) 351-963-333-777</td>
+			<td>陳岳平 牧師</td>
+		</tr>
+		<tr>
+			<td class=\"label\">主任牧師::</td>
+			<td>陳岳平 牧師, (手機) 351-963-333-777, (微信) cheyueping</td>
+		</tr>
+		<tr>
+			<td class=\"label\">助理牧師:</td>
+			<td>潘建 牧師, 351-962-222-221, (微信) panjian_789</td>
 		</tr>
 	</tbody>
 </table>
@@ -4470,19 +4481,9 @@ p span.label {font-weight: bold;}
 <table cellpadding=\"1\" cellspacing=\"0\">
 	<tbody class=\"borderless-table\">
 		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">佈道會地址:</td>
-			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
-		</tr>
-		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">教會地址:</td>
-			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
-		</tr>
-		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> (手機) 351-963-333-777 </td>
+			<td>351-962-222-221, (微信) panjian_789 </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
@@ -4495,9 +4496,14 @@ p span.label {font-weight: bold;}
 			<td><a href=\"mailto: emsilisboa@hotmail.com"> emsilisboa@hotmail.com</a></td>
 		</tr>
 		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">微信:</td>
-			<td>cheyueping</td>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">佈道會地址:</td>
+			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
+		</tr>
+		<tr>
+			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
+			<td class=\"label\">教會地址:</td>
+			<td> Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal</td>
 		</tr>
 	</tbody>
 </table>
@@ -4541,16 +4547,16 @@ update church_content set body = STRINGDECODE('<p>
 <b>Bishop: </b>Rev. Moses Yang
 </p>
 <p>
-<b>Chief Pastor: </b>Rev. Yue Ping Chen, (cell) 351-963-333-777
+<b>Chief Pastor: </b>Rev. Yue Ping Chen
 </p>
 <p>
-<b>CEM Portugal Address: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+<b>Senior Pastor: </b>Rev. Yue Ping Chen, (cell) 351-963-333-777, (Wechat) cheyueping
 </p>
 <p>
-<b>Church Address: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+<b>Assistant Pastor: </b>Rev. Jian Pan, (cell) 351-962-222-221, (Wechat) panjian_789
 </p>
 <p>
-<b>Tel #: </b>(cell) 351-963-333-777
+<b>Tel #: </b>351-962-222-221, (Wechat) panjian_789
 </p>
 <p>
 <b>Fax #: </b>351-218-868-370
@@ -4559,7 +4565,10 @@ update church_content set body = STRINGDECODE('<p>
 <b>Email: </b>emsilisboa@hotmail.com
 </p>
 <p>
-<b>WeChat: </b>cheyueping
+<b>CEM Portugal Address: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+</p>
+<p>
+<b>Church Address: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -4575,16 +4584,16 @@ update church_content set body = STRINGDECODE('<p>
 <b>監督:</b> 楊摩西  牧師
 </p>
 <p>
-<b>會牧:</b> 陳岳平 牧師,(手機) 351-963-333-777
+<b>會牧:</b> 陳岳平   牧師
 </p>
 <p>
-<b>佈道地址: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+<b>主任牧師:</b> 陳岳平 牧師,(手機) 351-963-333-777, (微信) cheyueping
 </p>
 <p>
-<b>教會地址: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+<b>助理牧師:</b> 潘建 牧師,351-962-222-221, (微信) panjian_789
 </p>
 <p>
-<b>電話:</b> (手機) 351-963-333-777
+<b>電話:</b> 351-962-222-221, (微信) panjian_789
 </p>
 <p>
 <b>傳真: </b>351-218-868-370
@@ -4593,7 +4602,10 @@ update church_content set body = STRINGDECODE('<p>
 <b>電郵: </b>emsilisboa@hotmail.com
 </p>
 <p>
-<b>微信: </b>cheyueping
+<b>佈道會地址: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
+</p>
+<p>
+<b>教會地址: </b>Rua Francisco Sanches 17, Loja-D, 1170-141 Lisbon, Portugal
 </p>
 <p>
 <iframe height=\"480\" scrolling=\"no\" width=\"640\" frameBorder=\"0\" src=\"http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A&amp;output=embed\" marginHeight=\"0\" marginWidth=\"0\"></iframe><br />\r\n<small><a href=\"http://maps.google.com/maps?f=q&amp;source=embed&amp;hl=en&amp;geocode=&amp;q=Rua+Francisco+Sanches+17,+Loja-D,+1170-141+Lisbon,+Portugal&amp;sll=51.026593,3.710005&amp;sspn=0.009609,0.027831&amp;ie=UTF8&amp;hq=&amp;hnear=R.+Francisco+Sanches+17,+Lisboa,+Portugal&amp;ll=38.731155,-9.133608&amp;spn=0.008035,0.013733&amp;z=16&amp;iwloc=A\" style=\"color: #0000ff; text-align: left\">View Larger Map</a></small>
@@ -4606,9 +4618,40 @@ update church_content set body = STRINGDECODE('<p>
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(36, 'schedule', 'en', 'CEC in Lisbon - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜 Worship Service</td>
-			<td>星期日 Sunday</td>
-			<td>16:15  – 18:00</td>
+			<td>主日崇拜</br> Worship Service</td>
+			<td>星期日</br> Sunday</td>
+			<td>16:00 – 19:00</td>
+			<td>教會並網絡線上</br> Church/Online</td>
+		</tr>
+		<tr>
+			<td>查經班</br> Bible Study</td>
+			<td>星期三</br> Wednesday</td>
+			<td>16:30 – 23:00</td>
+			<td>教會並網絡線上</br> Church/Online</td>
+		</tr>
+		<tr>
+			<td>詩班練習及禱告會</br> Choir Practice & Prayer Meeting</td>
+			<td>星期六</br> Saturday</td>
+			<td>14:00 – 23:00</td>
+			<td>教會</br> Church</td>
+		</tr>
+		<tr>
+			<td>教會開放</br> Church Open</td>
+			<td>星期二</br> Tuesday</td>
+			<td>14:00 - 18:00</td>
+			<td>教會</br> Church</td>
+		</tr>
+		<tr>
+			<td>教會開放</br> Church Open</td>
+			<td>星期四</br> Thursday</td>
+			<td>14:00 - 18:00</td>
+			<td>教會</br> Church</td>
+		</tr>
+		<tr>
+			<td>教會開放</br> Church Open</td>
+			<td>星期五</br> Friday</td>
+			<td>14:00 - 18:00</td>
+			<td>教會</br> Church</td>
 		</tr>
 	</tbody>
 </table>
@@ -4618,9 +4661,40 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(36, 'schedule', 'zh', '里斯本基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜 Worship Service</td>
-			<td>星期日 Sunday</td>
-			<td>16:15  – 18:00</td>
+			<td>主日崇拜</br> Worship Service</td>
+			<td>星期日</br> Sunday</td>
+			<td>16:00 – 19:00</td>
+			<td>教會並網絡線上</br> Church/Online</td>
+		</tr>
+		<tr>
+			<td>查經班</br> Bible Study</td>
+			<td>星期三</br> Wednesday</td>
+			<td>16:30 – 23:00</td>
+			<td>教會並網絡線上</br> Church/Online</td>
+		</tr>
+		<tr>
+			<td>詩班練習及禱告會</br> Choir Practice & Prayer Meeting</td>
+			<td>星期六</br> Saturday</td>
+			<td>14:00 – 23:00</td>
+			<td>教會</br> Church</td>
+		</tr>
+		<tr>
+			<td>教會開放</br> Church Open</td>
+			<td>星期二</br> Tuesday</td>
+			<td>14:00 - 18:00</td>
+			<td>教會</br> Church</td>
+		</tr>
+		<tr>
+			<td>教會開放</br> Church Open</td>
+			<td>星期四</br> Thursday</td>
+			<td>14:00 - 18:00</td>
+			<td>教會</br> Church</td>
+		</tr>
+		<tr>
+			<td>教會開放</br> Church Open</td>
+			<td>星期五</br> Friday</td>
+			<td>14:00 - 18:00</td>
+			<td>教會</br> Church</td>
 		</tr>
 	</tbody>
 </table>
@@ -10787,11 +10861,6 @@ update church_content set body = '<table border="1" cellpadding="5">
 			<td>11:00 am</td>
 		</tr>
 		<tr>
-			<td>主日崇拜 - 晚堂 Worship Service - Night</td>
-			<td>星期日  Sunday</td>
-			<td>11:00 pm</td>
-		</tr>
-		<tr>
 			<td>查經 - 下午 Bible Study - Afternoon</td>
 			<td>星期三  Wednesday</td>
 			<td>4:00 pm</td>
@@ -10816,11 +10885,6 @@ update church_content set body = '<table border="1" cellpadding="5">
 			<td>主日崇拜 - 早堂 Worship Service - Morning</td>
 			<td>星期日  Sunday</td>
 			<td>11:00 am</td>
-		</tr>
-		<tr>
-			<td>主日崇拜 - 晚堂 Worship Service - Night</td>
-			<td>星期日  Sunday</td>
-			<td>11:00 pm</td>
 		</tr>
 		<tr>
 			<td>查經 - 下午 Bible Study - Afternoon</td>
@@ -11810,7 +11874,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td></td>
+				<td>emsifuencheng@gmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -11879,7 +11943,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td></td>
+				<td>emsifuencheng@gmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -11972,6 +12036,9 @@ update church_content set body = STRINGDECODE('
 <b>Tel #: </b> 0034-62-0-630-901
 </p>
 <p>
+<b>Email: </b> emsifuencheng@gmail.com
+</p>
+<p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.2153567068754!2d-3.717106950328421!3d40.3819193792679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227a52d5b0a79%3A0xf59ca884dd43a35f!2sCalle%20de%20Santo%C3%B1a%2C%207%2C%2028026%20Madrid%2C%20Spain!5e0!3m2!1sen!2sus!4v1592964253444!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>	</p>
 ') where church_id = (select church_id from church where church_path = 'usera')
 	and locale = 'en'
@@ -11983,6 +12050,9 @@ update church_content set body = STRINGDECODE('<p>
 </p>
 <p>
 <b>電 話: </b>0034-62-0-630-901
+</p>
+<p>
+<b>電 郵: </b>emsifuencheng@gmail.com
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3039.2153567068754!2d-3.717106950328421!3d40.3819193792679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4227a52d5b0a79%3A0xf59ca884dd43a35f!2sCalle%20de%20Santo%C3%B1a%2C%207%2C%2028026%20Madrid%2C%20Spain!5e0!3m2!1sen!2sus!4v1592964253444!5m2!1sen!2sus" width="640" height="480" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></p>
