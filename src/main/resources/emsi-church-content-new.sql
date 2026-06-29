@@ -11127,8 +11127,8 @@ update church_content set body = STRINGDECODE('<p>
 		</tr>
 		<tr>
 			<td>查經班 Bible Study</td>
-			<td>星期五上午 Friday</td>
-			<td>10:30 am </td>
+			<td>星期一下午 Monday</td>
+			<td>5:45 pm </td>
 		</tr>
 		<tr>
 			<td>青少年團契 Youth/Junior Fellowship </td>
@@ -11168,8 +11168,8 @@ update church_content set body = '<table border="1" cellpadding="5">
 		</tr>
 		<tr>
 			<td>查經班 Bible Study</td>
-			<td>星期五上午 Friday</td>
-			<td>10:30 am </td>
+			<td>星期一下午 Monday</td>
+			<td>5:45 pm </td>
 		</tr>
 		<tr>
 			<td>青少年團契 Youth/Junior Fellowship </td>
