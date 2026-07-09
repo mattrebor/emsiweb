@@ -4910,7 +4910,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. Jian Pan, (Cell) 351-962-222-221</td>
+			<td>Rev. DeGang Yang, (cell) 351-939-782-996</td>
 		</tr>
 	</tbody>
 </table>
@@ -4920,17 +4920,17 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> Rua B 60, 4480-620 Arvore, Portugal</td>
+			<td> Zona Industrial Árvore Rua B 60, 4480-620 Árvore, Portugal</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td> 351-962-222-221</td>
+			<td> 351-939-782-996</td>
 		</tr>
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">WeChat:</td>
-			<td>panjian_789</td>
+			<td>Yang degang</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -4970,7 +4970,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class="label">牧師:</td>
-			<td>潘建 牧師, (手機) 351-962-222-221</td>
+			<td>楊德剛 牧師 手機:351-939-782-996</td>
 		</tr>
 
 	</tbody>
@@ -4982,17 +4982,17 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> Rua B 60, 4480-620 Arvore, Portugal</td>
+			<td> Zona Industrial Árvore Rua B 60, 4480-620 Árvore, Portugal</td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td> 351-962-222-221 </td>
+			<td> 351-939-782-996 </td>
 		</tr>
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">微信:</td>
-			<td> panjian_789 </td>
+			<td> Yang degang </td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -5033,16 +5033,16 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor:</b> Rev. Jian Pan, (cell) 351-962-222-221
+<b>Pastor:</b> Rev. DeGang Yang, (cell) 351-939-782-996
 </p>
 <p>
-<b>Address: </b>Zona Industrial Arvore Rua B60, 4480-620 Arvore, Portugal
+<b>Address: </b>Zona Industrial Árvore Rua B 60, 4480-620 Árvore, Portugal
 </p>
 <p>
-<b>Tel #: </b> 351-962-222-221
+<b>Tel #: </b> 351-939-782-996
 </p>
 <p>
-<b>WeChat: </b>panjian_789
+<b>WeChat: </b>Yang degang
 </p>
 <p>
 <b>Email: </b>emsimindelo@hotmail.com
@@ -5058,15 +5058,15 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p><p>
-<b>牧師:</b> 潘建 牧師, (手機) 351-962-222-221
+<b>牧師:</b> 楊德剛 牧師 手機:351-939-782-996 
 </p>
-<b>地址: </b>Zona Industrial Arvore Rua B60, 4480-620 Arvore, Portugal
-</p>
-<p>
-<b>電話:</b> 351-962-222-221
+<b>地址: </b>Zona Industrial Árvore Rua B 60, 4480-620 Árvore, Portugal
 </p>
 <p>
-<b>微信: </b> panjian_789
+<b>電話:</b> 351-939-782-996
+</p>
+<p>
+<b>微信: </b> Yang degang
 </p>
 <p>
 <b>電郵: </b>emsimindelo@hotmail.com
@@ -5083,9 +5083,16 @@ update church_content set body = STRINGDECODE('<p>
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(38, 'schedule', 'en', 'CEC in Mindelo - Church Services Schedule', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜 Worship Service</td>
+			<td>主日崇拜 </br>
+			Worship Service</td>
 			<td>星期日 Sunday</td>
-			<td>20:30 – 22:30</td>
+			<td>19:00 – 22:00</td>
+		</tr>
+		<tr>
+			<td>查經班與禱告會 </br>
+			Bible Study & Prayer Meeting</td>
+			<td>星期五 Friday</td>
+			<td>20:00 – 22:00</td>
 		</tr>
 	</tbody>
 </table>
@@ -5095,9 +5102,16 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(38, 'schedule', 'zh', '明德路基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>主日崇拜 Worship Service</td>
+			<td>主日崇拜 </br>
+			Worship Service</td>
 			<td>星期日 Sunday</td>
-			<td>20:30 – 22:30</td>
+			<td>19:00 – 22:00</td>
+		</tr>
+		<tr>
+			<td>查經班與禱告會 </br>
+			Bible Study & Prayer Meeting</td>
+			<td>星期五 Friday</td>
+			<td>20:00 – 22:00</td>
 		</tr>
 	</tbody>
 </table>
