@@ -4620,19 +4620,19 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		<tr>
 			<td>主日崇拜</br> Worship Service</td>
 			<td>星期日</br> Sunday</td>
-			<td>16:00 – 19:00</td>
-			<td>教會並網絡線上</br> Church/Online</td>
+			<td>14:00 – 20:00</td>
+			<td>教會</br> Church</td>
 		</tr>
 		<tr>
 			<td>查經班</br> Bible Study</td>
 			<td>星期三</br> Wednesday</td>
-			<td>16:30 – 23:00</td>
+			<td>16:00 – 23:00</td>
 			<td>教會並網絡線上</br> Church/Online</td>
 		</tr>
 		<tr>
 			<td>詩班練習及禱告會</br> Choir Practice & Prayer Meeting</td>
 			<td>星期六</br> Saturday</td>
-			<td>14:00 – 23:00</td>
+			<td>16:00 – 22:30</td>
 			<td>教會</br> Church</td>
 		</tr>
 		<tr>
@@ -4663,19 +4663,19 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		<tr>
 			<td>主日崇拜</br> Worship Service</td>
 			<td>星期日</br> Sunday</td>
-			<td>16:00 – 19:00</td>
-			<td>教會並網絡線上</br> Church/Online</td>
+			<td>14:00 – 20:00</td>
+			<td>教會</br> Church</td>
 		</tr>
 		<tr>
 			<td>查經班</br> Bible Study</td>
 			<td>星期三</br> Wednesday</td>
-			<td>16:30 – 23:00</td>
+			<td>16:00 – 23:00</td>
 			<td>教會並網絡線上</br> Church/Online</td>
 		</tr>
 		<tr>
 			<td>詩班練習及禱告會</br> Choir Practice & Prayer Meeting</td>
 			<td>星期六</br> Saturday</td>
-			<td>14:00 – 23:00</td>
+			<td>16:00 – 22:30</td>
 			<td>教會</br> Church</td>
 		</tr>
 		<tr>
@@ -4724,7 +4724,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class=\"label\">Pastor:</td>
-			<td>Rev. Jian Pan, (C) 962-222-221, WeChat: panjian_789</td>
+			<td>Rev. DeGang Yang, © 351-939-782-996, WeChat : Yang degang</td>
 		</tr>
 	</tbody>
 </table>
@@ -4737,20 +4737,10 @@ p span.label {font-weight: bold;}
 			<td> Rua do Amial 698, 4200-053 Porto, Portugal</td>
 		</tr>
 		<tr>
-			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">Tel#:</td>
-			<td> 962-222-221, WeChat: panjian_789 </td>
-		</tr>
-		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
 			<td class="label">Email:</td>
 			<td><a href="mailto:emsiPorto_1@hotmail.com">emsiPorto_1@hotmail.com</a><br />
 			</td>
-		</tr>
-		<tr>
-			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
-			<td class="label">Church QQ:</td>
-			<td> 310 103 12</td>
 		</tr>
 	</tbody>
 </table>
@@ -4787,7 +4777,7 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧師:</td>
-			<td>潘建 牧師, (手機) 962-222-221, 微信: panjian_789</td>
+			<td>楊德剛牧師, © , 351-939-782-996, 微信: : Yang degang</td>
 		</tr>
 	</tbody>
 </table>
@@ -4800,19 +4790,9 @@ p span.label {font-weight: bold;}
 			<td> Rua do Amial 698, 4200-053 Porto, Portugal</td>
 		</tr>
 		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">電話:</td>
-			<td>962-222-221, 微信: panjian_789</td>
-		</tr>
-		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電郵:</td>
 			<td><a href=\"mailto: emsiPorto_1@hotmail.com">emsiPorto_1@hotmail.com</a></td>
-		</tr>
-		<tr>
-			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
-			<td class=\"label\">教會QQ:群號:</td>
-			<td> 310 103 12 </td>
 		</tr>
 	</tbody>
 </table>
@@ -4853,19 +4833,13 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Pastor:</b> Rev. Jian Pan, (C) 962-222-221, WeChat: panjian_789
+<b>Pastor:</b> Rev. DeGang Yang, © 351-939-782-996, WeChat : Yang degang
 </p>
 <p>
 <b>Address: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
 <p>
-<b>Tel #: </b> (c) 962-222-221, WeChat: panjian_789
-</p>
-<p>
 <b>Email #: </b> emsiPorto_1@hotmail.com
-</p>
-<p>
-<b>Church QQ: </b> 310 103 12
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.9619421941993!2d-8.616034784580663!3d41.17899727928379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464357d7708af%3A0x3f1595d11819de60!2sRua+do+Amial+698%2C+4200-062+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1476580063460" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe></p>
@@ -4877,20 +4851,14 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師:</b> 潘建 牧師,(手機) 962-222-221, 微信: panjian_789
+<b>牧師:</b> 楊德剛牧師, © , 351-939-782-996, 微信: : Yang degang
 </p>
 <p>
 <b>地址: </b>Rua do Amial 698, 4200-053 Porto, Portugal
 </p>
 <p>
-<b>電話:</b> 962-222-221, 微信: panjian_789
-</p>
-<p>
 <b>電郵:</b> emsiPorto_1@hotmail.com
 </p>
-<p>
-<b>教會QQ: 群號</b> 310 103 12
-</p
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3002.9619421941993!2d-8.616034784580663!3d41.17899727928379!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2464357d7708af%3A0x3f1595d11819de60!2sRua+do+Amial+698%2C+4200-062+Porto%2C+Portugal!5e0!3m2!1sen!2sus!4v1476580063460" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
 </p>')	where church_id = (select church_id from church where church_path = 'porto')
@@ -4902,7 +4870,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		<tr>
 			<td>崇拜 Worship Service </td>
 			<td>星期六 Saturday</td>
-			<td>21:00 – 22:30</td>
+			<td>20:00 – 22:30</td>
 		</tr>
 	</tbody>
 </table>
@@ -4915,7 +4883,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		<tr>
 			<td>崇拜 Worship Service </td>
 			<td>星期六 Saturday</td>
-			<td>21:00 – 22:30</td>
+			<td>20:00 – 22:30</td>
 		</tr>
 	</tbody>
 </table>
