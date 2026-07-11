@@ -53,7 +53,7 @@ update church set address='Carrer dOlzinelles, 91, 08014 Barcelona, Spain', lati
 update church set address='Calle Matarrosa 30, 28947 Fuenlabrada Madrid, Spain', latitude = 40.2646057, longitude = -3.7542281 where church_path = 'fuenlabrada';
 update church set address='Rua da Papoila lote 6, 2135-085, Samora Correia, Portugal', latitude = 38.92276, longitude = -8.8774 where church_path = 'portoalto';
 update church set address='Rua Francisco Sanches 17, 1170-140 Lisbon, Portugal', latitude = 38.7306258, longitude = -9.1339151 where church_path = 'lisbon';
-update church set address='Rua do Amial 698, 4200-053 Porto, Portugal', latitude = 41.1789973, longitude = -8.6160348 where church_path = 'porto';
+update church set address='Rua do Amial 698, 4200-055 Porto, Portugal', latitude = 41.1789973, longitude = -8.6160348 where church_path = 'porto';
 update church set address='Zona Industrial Arvore Rua B60, 4480-620 Arvore, Portugal', latitude = 41.331837889307224, longitude = -8.719326764470782 where church_path = 'mindelo';
 update church set address='73 Avenue de Verdun, 94200 Ivry-sur-Seine, Paris, France', latitude = 48.8135227, longitude = 2.3702061 where church_path = 'paris';
 update church set address='Franklin Rooseveltplein 12 Bus 10, 2060 Antwerpen, Belgium', latitude = 51.219508, longitude = 4.417894 where church_path = 'antwerpen';
@@ -4734,7 +4734,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_googlemap.gif" height="16" width="16" /></td>
 			<td class="label">Address:</td>
-			<td> Rua do Amial 698, 4200-053 Porto, Portugal</td>
+			<td> Rua do Amial 698, 4200-055 Porto, Portugal</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -4787,7 +4787,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_googlemap.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">地址:</td>
-			<td> Rua do Amial 698, 4200-053 Porto, Portugal</td>
+			<td> Rua do Amial 698, 4200-055 Porto, Portugal</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -4836,7 +4836,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>Pastor:</b> Rev. DeGang Yang, © 351-939-782-996, WeChat : Yang degang
 </p>
 <p>
-<b>Address: </b>Rua do Amial 698, 4200-053 Porto, Portugal
+<b>Address: </b>Rua do Amial 698, 4200-055 Porto, Portugal
 </p>
 <p>
 <b>Email #: </b> emsiPorto_1@hotmail.com
@@ -4854,7 +4854,7 @@ update church_content set body = STRINGDECODE('<p>
 <b>牧師:</b> 楊德剛牧師, © , 351-939-782-996, 微信: : Yang degang
 </p>
 <p>
-<b>地址: </b>Rua do Amial 698, 4200-053 Porto, Portugal
+<b>地址: </b>Rua do Amial 698, 4200-055 Porto, Portugal
 </p>
 <p>
 <b>電郵:</b> emsiPorto_1@hotmail.com
