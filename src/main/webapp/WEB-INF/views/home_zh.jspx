@@ -69,10 +69,10 @@
 				<img src="${whats_up_image_url}" alt="" width="430" height="65" />
 
 				<ul>
+          			<li>8/15/26 美東區生命堂運動會<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li> 
 					<li>6/14/26 活石園基督教生命堂獻]堂二十週年慶<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>
 					<li>5/22/26 - 5/25/26 美東區生命堂家庭退修會<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li>
           			<li>3/15/26 馬德里生命堂三十週年慶<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li> 
-          			<li>12/26/25 - 12/29/25 美東區生命堂青少年冬令會<br/><a href="${newsUrl}"><i>詳情</i>  &#9656;</a></li> 
 					<li>請看生命 之泉第 318 期。<br/><a href="https://drive.google.com/file/d/1LRurxDzW5J97NHfd4GyJ72mwo3D41wqw/view?usp=sharing"><i>詳情</i>  &#9656;</a></li>
 				</ul>
 			</div>
