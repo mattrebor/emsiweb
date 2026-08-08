@@ -5144,7 +5144,7 @@ p span.label {font-weight: bold;}
 		<tbody class="borderless-table">
 			<tr>
 				<td class="label">Pastor:</td>
-				<td>Rev. DeGang Yang</td>
+				<td>Rev. Jian Pan</td>
 			</tr>
 
 		</tbody>
@@ -5156,12 +5156,12 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">Address:</td>
-				<td>Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal</td>
+				<td>Av Alberto I Príncipe Do Mónaco Nº5 9500-237 Ponta Delgada Açores, Portugal</td>
 			</tr>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">Tel#:</td>
-				<td>  (cell) 351-939-782-996 </td>
+				<td> 351-962-222-221</td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -5215,7 +5215,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">牧師:</td>
-			<td>楊德剛牧師</td>
+			<td>潘建 牧師</td>
 		</tr>
 	</tbody>
 </table>
@@ -5227,12 +5227,12 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
 				<td class="label">地址:</td>
-				<td>Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal</td>
+				<td>Av Alberto I Príncipe Do Mónaco Nº5 9500-237 Ponta Delgada Açores, Portugal</td>
 			</tr>
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">電話:</td>
-				<td> 351-939-782-996</td>
+				<td>351-962-222-221</td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -5289,7 +5289,17 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		<tr>
 			<td>崇拜 Worship Service </td>
 			<td>星期六 Saturday</td>
-			<td>21:15 – 22:30</td>
+			<td>21:00 – 22:30</td>
+		</tr>
+		<tr>
+			<td>查經班 Bible Study </td>
+			<td>星期四 Thursday</td>
+			<td>21:00 – 22:00</td>
+		</tr>
+		<tr>
+			<td>禱告會 Prayer Meeting </td>
+			<td>星期四 Thursday</td>
+			<td>22:00 – 22:30</td>
 		</tr>
 	</tbody>
 </table>
@@ -5301,7 +5311,17 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 		<tr>
 			<td>崇拜 Worship Service </td>
 			<td>星期六 Saturday</td>
-			<td>21:15 – 22:30</td>
+			<td>21:00 – 22:30</td>
+		</tr>
+		<tr>
+			<td>查經班 Bible Study </td>
+			<td>星期四 Thursday</td>
+			<td>21:00 – 22:00</td>
+		</tr>
+		<tr>
+			<td>禱告會 Prayer Meeting </td>
+			<td>星期四 Thursday</td>
+			<td>22:00 – 22:30</td>
 		</tr>
 	</tbody>
 </table>
@@ -5310,18 +5330,18 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 ');
 
 
-update church set address='Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal', latitude = 37.7419884, longitude = -25.6883702 where church_path = 'azores';
+update church set address='Av Alberto I Príncipe Do Mónaco Nº5 9500-237 Ponta Delgada Açores, Portugal', latitude = 37.7419884, longitude = -25.6883702 where church_path = 'azores';
 
 update church_content set body = STRINGDECODE('
 <style>
 .indentation {margin:20px;}
 </style>
 <p>
-<b>Pastor: </b>Rev. DeGang Yang</p>
+<b>Pastor: </b>Rev. Jian Pan</p>
 <p>
-<b>Address: </b>Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal</p>
+<b>Address: </b>Av Alberto I Príncipe Do Mónaco Nº5 9500-237 Ponta Delgada Açores, Portugal</p>
 <p>
-<b>Tel #: </b> 351-939-782-996</p>
+<b>Tel #: </b> 351-962-222-221</p>
 <p>
 <b>Email: </b> emsiacores@hotmail.com</p>
 
@@ -5333,10 +5353,10 @@ update church_content set body = STRINGDECODE('
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師: </b> 楊德剛牧師</p>
-<p><b>地址: </b>Av Alberto I Príncipe Do Mónaco Nº5 9500-234 Ponta Delgada Açores, Portugal</p>
+<b>牧師: </b> 潘建 牧師</p>
+<p><b>地址: </b>Av Alberto I Príncipe Do Mónaco Nº5 9500-237 Ponta Delgada Açores, Portugal</p>
 <p>
-<b>電話: </b>351-939-782-996</p>
+<b>電話: </b>351-962-222-221</p>
 <p>
 <b>電郵: </b>emsiacores@hotmail.com</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3155.0492678658356!2d-25.6905588867643!3d37.741988379765374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzfCsDQ0JzMxLjIiTiAyNcKwNDEnMTguMSJX!5e0!3m2!1sen!2sus!4v1476749807515" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -5367,11 +5387,11 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor:</td>
-			<td>Rev. Yong Yong Guo, (Cell) 351-965-333-777</td>
+			<td>Rev. Yong Yong Guo, (Cell) 351-965-333-777, (WeChat) 965333777</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Hai Xia Wang, (cell) 351-965-077-777</td>
+			<td>Ev. Hai Xia Wang, (cell) 351-965-077-777, (WeChat) whx965077777</td>
 		</tr>
 	</tbody>
 </table>
@@ -5387,7 +5407,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">Tel#:</td>
-				<td> (cell) 351-965-333-777</td>
+				<td> (cell) 351-965-333-777, (cell) 351-965-077-777</td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -5423,11 +5443,11 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">牧師: </td>
-			<td>郭永勇 牧師, (手機) 351-965-333-777</td>
+			<td>郭永勇 牧師, (手機) 351-965-333-777, (微信) 965333777</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>王海霞傳道, (手機) 351-965-077-777</td>
+			<td>王海霞 傳道, (手機) 351-965-077-777, (微信) whx965077777</td>
 		</tr>
 	</tbody>
 </table>
@@ -5443,7 +5463,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
 				<td class="label">電話:</td>
-				<td> (手機) 351-965-333-777</td>
+				<td> (手機) 351-965-333-777, (手機) 351-965-077-777</td>
 			</tr>
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
@@ -5516,15 +5536,15 @@ update church_content set body = STRINGDECODE('
 .indentation {margin:20px;}
 </style>
 <p>
-<b>Pastor: </b> Rev. Yong Yong Guo, (Cell) 351-965-333-777
+<b>Pastor: </b> Rev. Yong Yong Guo, (Cell) 351-965-333-777, (WeChat) 965333777
 </p>
 <p>
-<b>Evangelist: </b> Ev. Hai Xia Wang, (cell) 351-965-077-777
+<b>Evangelist: </b> Ev. Hai Xia Wang, (cell) 351-965-077-777, (WeChat) whx965077777
 </p>
 <p>
 <b>Address: </b>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</p>
 <p>
-<b>Tel #: </b> (cell) 351-965-333-777</p>
+<b>Tel #: </b> (cell) 351-965-333-777, (cell) 351-965-077-777</p>
 <p>
 <b>Email: </b>emsisetubal@hotmail.com </p>
 
@@ -5536,14 +5556,14 @@ update church_content set body = STRINGDECODE('
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師: </b>郭永勇 牧師, (手機) 351-965-333-777
+<b>牧師: </b>郭永勇 牧師, (手機) 351-965-333-777, (微信) 965333777
 </p>
 <p>
-<b>傳道: </b>王海霞傳道, (手機) 351-965-077-777
+<b>傳道: </b>王海霞 傳道, (手機) 351-965-077-777, (微信) whx965077777
 </p>
 <p><b>地 址: </b>Rua Camilo Castelo Branco 163 Loja G 2910-450 Setúbal, Portugal</p>
 <p>
-<b>電 話: </b>(手機) 351-965-333-777</p>
+<b>電 話: </b>(手機) 351-965-333-777, (手機) 351-965-077-777</p>
 <p>
 <b>電 郵: </b>emsisetubal@hotmail.com</p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3121.291716680683!2d-8.884325184660526!3d38.527043179629395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1943aae93372c1%3A0x96997d85c0181d50!2sR.+Camilo+Castelo+Branco+163%2C+2910-448+Set%C3%BAbal%2C+Portugal!5e0!3m2!1sen!2sus!4v1476592748025" width="640" height="480" frameborder="0" style="border:0" allowfullscreen></iframe>
@@ -5883,7 +5903,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Pastor: </td>
-			<td>Rev. DeGang Yang
+			<td>Rev. Jian Pan
 
 	</tbody>
 </table>
@@ -5935,7 +5955,7 @@ p span.label {font-weight: bold;}
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">牧師: </td>
-			<td>楊德剛牧師</td>
+			<td>潘建 牧師</td>
 		</tr>
 	</tbody>
 </table>
@@ -6018,7 +6038,7 @@ update church_content set body = STRINGDECODE('
 .indentation {margin:20px;}
 </style>
 <p>
-<b>Pastor: </b> Rev. DeGang Yang
+<b>Pastor: </b> Rev. Jian Pan
 </p>
 <p>
 <b>Address: </b>Rua da Carreira 244 r/c c 9000-042 Funchal, Portugal
@@ -6037,7 +6057,7 @@ update church_content set body = STRINGDECODE('
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>牧師: </b>楊德剛牧師
+<b>牧師: </b>潘建 牧師
 </p>
 <p>
 <b>地址: </b>Rua da Carreira 244 r/c c 9000-042 Funchal, Portugal
