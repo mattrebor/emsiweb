@@ -15663,7 +15663,7 @@ update church_content set body = '<table border="1" cellpadding="5">
 		</tr>
 
 	</tbody>
-	</tbody>
+	
 </table>
 
 <p>&nbsp;</p>
@@ -15867,6 +15867,68 @@ update church_content set body = STRINGDECODE('<p>
 ')	where church_id = (select church_id from church where church_path = 'capetown')
 	and locale = 'zh'
 	and page_id = 'contactus';
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(50, 'schedule', 'en', 'CEC in Cape Town - Church Services Schedule',
+'<table border="1" cellpadding="5">
+
+    <tbody>
+        <tr>
+            <td>詩班練習</br>Choir Practice</td>
+            <td>星期日 早上</br>Sunday</td>
+            <td>9:30 am</td>
+        </tr>
+        <tr>
+            <td>主日崇拜</br>Sunday Worship </td>
+            <td>星期日 早上</br>Sunday</td>
+            <td>10:30 am</td>
+        </tr>
+        <tr>
+            <td>主日學</br>Children’s Sunday School</td>
+            <td>星期日 早上</br>Sunday</td>
+            <td>10:30 am</td>
+        </tr>
+        <tr>
+            <td>禱告會</br>Prayer Meeting</td>
+            <td>星期日 </br>Sunday</td>
+            <td>12:00 pm</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>&nbsp;</p>
+');
+
+update church_content set body = STRINGDECODE('<p>
+<table border="1" cellpadding="5">
+
+    <tbody>
+        <tr>
+            <td>詩班練習</br>Choir Practice</td>
+            <td>星期日 早上</br>Sunday</td>
+            <td>9:30 am</td>
+        </tr>
+        <tr>
+            <td>主日崇拜</br>Sunday Worship </td>
+            <td>星期日 早上</br>Sunday</td>
+            <td>10:30 am</td>
+        </tr>
+        <tr>
+            <td>主日學</br>Children’s Sunday School</td>
+            <td>星期日 早上</br>Sunday</td>
+            <td>10:30 am</td>
+        </tr>
+        <tr>
+            <td>禱告會</br>Prayer Meeting</td>
+            <td>星期日 </br>Sunday</td>
+            <td>12:00 pm</td>
+        </tr>
+    </tbody>
+</table>
+
+<p>&nbsp;</p>
+')	where church_id = (select church_id from church where church_path = 'capetown')
+	and locale = 'zh'
+	and page_id = 'schedule';
 
 ----------------  ends  Africa - Cape Town
 
