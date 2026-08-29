@@ -16365,7 +16365,7 @@ update church_content set body = STRINGDECODE('
 <b>Email: </b> ecmsirm@gmail.com
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.3232631870414!2d-118.0813262!3d34.086858299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2da933780a9e7%3A0x88902f0454ba1a41!2s8618%20Mission%20Dr%2C%20Rosemead%2C%20CA%2091770!5e0!3m2!1sen!2sus!4v1753666737815!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.3232631870414!2d-118.0813262!3d34.086858299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2da933780a9e7%3A0x88902f0454ba1a41!2s8618%20Mission%20Dr%2C%20Rosemead%2C%20CA%2091770!5e0!3m2!1sen!2sus!4v1753666737815!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 ')	where church_id = (select church_id from church where church_path = 'rosemead')
 	and locale = 'en'
 	and page_id = 'contactus';
@@ -16387,7 +16387,7 @@ update church_content set body = STRINGDECODE('
 <b>電郵: </b>ecmsirm@gmail.com
 </p>
 <p>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.3232631870414!2d-118.0813262!3d34.086858299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2da933780a9e7%3A0x88902f0454ba1a41!2s8618%20Mission%20Dr%2C%20Rosemead%2C%20CA%2091770!5e0!3m2!1sen!2sus!4v1753666737815!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3304.3232631870414!2d-118.0813262!3d34.086858299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2da933780a9e7%3A0x88902f0454ba1a41!2s8618%20Mission%20Dr%2C%20Rosemead%2C%20CA%2091770!5e0!3m2!1sen!2sus!4v1753666737815!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </p>
 ')	where church_id = (select church_id from church where church_path = 'rosemead')
 	and locale = 'zh'
@@ -16395,3 +16395,184 @@ update church_content set body = STRINGDECODE('
 
 -----------------------end Rosemead West Coast
 
+---------- Barcelona-Arc de Triomf  New church Aug 2026 arcDeTriomf ---------
+INSERT INTO CHURCH(CHURCH_ID, CHURCH_PATH, ENABLED, SORT_ORDER, VERSION) VALUES(66, 'arcDeTriomf', 1, 10, 0);
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(66, 'en', 'menu_name', 'CEC in Barcelona-Arc de Triomf');
+INSERT INTO PUBLIC.CHURCH_DETAIL(CHURCH_ID, LOCALE, KEY, VALUE) VALUES(66, 'zh', 'menu_name', '巴塞凱旋門基督教生命堂');
+INSERT INTO PUBLIC.CHURCH_HIERARCHY(PARENT_ENTITY_ID, CHURCH_ORG_ID, CHURCH_ID) VALUES(8, NULL, 66);
+update church set address='C. de Sicília, 200, Eixample, 08013 Barcelona, Spain', latitude = 41.397454, longitude = 2.179586 where church_path = 'arcDeTriomf';
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(66, 'intro', 'en', 'CEC in Barcelona-Arc de Triomf  - Brief History', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif;}
+.contact-content td {font-size: small; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0px" cellspacing="0px">
+	<tbody class="borderless-table">
+		<tr>
+			<td class="label">Evangelist: </td>
+			<td>Ev. Saite Ye</td>
+		</tr>
+
+	</tbody>
+</table>
+
+<div style="margin-left: 20px">
+	<table cellpadding="1px" cellspacing="0px">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">Address:</td>
+				<td>C. de Sicília, 200, Eixample, 08013 Barcelona, Spain</td>
+			</tr>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">Tel#:</td>
+				<td>+34-605-076-751</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">Email:</td>
+				<td>saiteye1990@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+	<p><span class="label">Established Date: Aug 2026</span></p>
+<p>
+</p>
+</div>
+');
+
+
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(66, 'intro', 'zh', '巴塞凱旋門基督教生命堂 - 教會簡介', '<style type="text/css">.contact-content {font-family: Arial,helvetica,sans-serif,新細明體 ;}
+.contact-content td {font-size: 14px; padding: 2px; 3px;}
+td.label {font-weight: bold; width: 1%; white-space: nowrap;}
+p span.label {font-weight: bold;}
+.main-content {font-family: Arial, MingLiU, Helvetica, san-serif, 新細明體; font-size: 13px; color: #333;}
+.borderless-table {border-width: 0px;}
+</style>
+<div class="contact-content">
+<div style="color: #000000; font-size: small">
+<table cellpadding="0" cellspacing="0">
+	<tbody class="borderless-table">
+			<tr>
+				<td class="label">傳道: </td>
+				<td>葉賽特 傳道</td>
+			</tr>
+	</tbody>
+</table>
+&nbsp;
+
+<div style="margin-left: 20px">
+	<table cellpadding="1" cellspacing="0">
+		<tbody class="borderless-table">
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_googlemap.gif" width="16" /></td>
+				<td class="label">地址:</td>
+				<td>C. de Sicília, 200, Eixample, 08013 Barcelona, Spain</td>
+			<tr>
+				<td class="label"><img height="16" src="/emsiweb/images/emsi/icon_phone.gif" width="16" /></td>
+				<td class="label">電話:</td>
+				<td>+34-605-076-751</td>
+			</tr>
+			<tr>
+				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
+				<td class="label">電郵:</td>
+				<td>saiteye1990@gmail.com</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+</div>
+
+<hr align="center" size="1" width="100%" /></div>
+
+<div class="main-content">
+<p>
+<b>成立日期:</b> 2026年 8月
+</p>
+<p>
+<span class=\"label\">簡史: </span>
+</p>
+<p>
+</p>
+</div>');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(66, 'contactus', 'en', 'CEC in Barcelona-Arc de Triomf - Contact Us',
+
+'<style>
+.indentation {margin:20px;}
+</style>
+<p>
+<b>Evangelist: </b>Ev. Saite Ye
+</p>
+<p>
+<b>Address: </b>C. de Sicília, 200, Eixample, 08013 Barcelona, Spain
+</p>
+<p>
+<b>Tel #: </b>+34-605-076-751
+</p>
+<p>
+<b>Email: </b> saiteye1990@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6527.622807868189!2d2.174976210336503!3d41.39736579595997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2e1337eaaab%3A0xd551b5871e18f226!2sC.%20de%20Sic%C3%ADlia%2C%20200%2C%20Eixample%2C%2008013%20Barcelona%2C%20Spain!5e0!3m2!1sen!2sus!4v1787959840378!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(66, 'contactus', 'zh', '巴塞凱旋門基督教生命堂  - 連絡我們',
+
+'
+<p>
+<b>傳道: </b> 葉賽特 傳道
+</p>
+<p>
+<b>地址: </b>C. de Sicília, 200, Eixample, 08013 Barcelona, Spain
+</p>
+<p>
+<b>電話: </b>+34-605-076-751
+</p>
+<p>
+<b>電郵: </b>saiteye1990@gmail.com
+</p>
+<p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6527.622807868189!2d2.174976210336503!3d41.39736579595997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2e1337eaaab%3A0xd551b5871e18f226!2sC.%20de%20Sic%C3%ADlia%2C%20200%2C%20Eixample%2C%2008013%20Barcelona%2C%20Spain!5e0!3m2!1sen!2sus!4v1787959840378!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</p>
+');
+
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(66, 'schedule', 'en', 'CEC in Barcelona-Arc de Triomf - Church Services Schedule',
+'<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Worship Service</br>崇拜</td>
+
+		</tr>
+
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');
+INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(66, 'schedule', 'zh', '巴塞凱旋門基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
+	<tbody>
+		<tr>
+			<td>Worship Service</br>崇拜</td>
+
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+');
+
+-----------------------end Barcelona-arc de Triomf
