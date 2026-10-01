@@ -16554,10 +16554,15 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>Worship Service</br>崇拜</td>
-
+			<td>Sunday Worship Service</br>主日崇拜</td>
+			<td>Sunday </br>星期日 下午</td>
+			<td>5:30 pm – 7:00 pm</td>
 		</tr>
-
+		<tr>
+			<td>Bible Study & Prayer Meeting </br>查經禱告會</td>
+			<td>Wednesday</br>星期三 下午</td>
+			<td>5:30 pm – 7:00 pm</td>
+		</tr>
 	</tbody>
 </table>
 
@@ -16566,8 +16571,14 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUES(66, 'schedule', 'zh', '巴塞凱旋門基督教生命堂  - 聚會日程', '<table border="1" cellpadding="1" cellspacing="1" style="width: 500px;">
 	<tbody>
 		<tr>
-			<td>Worship Service</br>崇拜</td>
-
+			<td>Sunday Worship Service</br>主日崇拜</td>
+			<td>Sunday </br>星期日 下午</td>
+			<td>5:30 pm – 7:00 pm</td>
+		</tr>
+		<tr>
+			<td>Bible Study & Prayer Meeting </br>查經禱告會</td>
+			<td>Wednesday</br>星期三 下午</td>
+			<td>5:30 pm – 7:00 pm</td>
 		</tr>
 	</tbody>
 </table>
