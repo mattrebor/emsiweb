@@ -16437,7 +16437,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">Email:</td>
-				<td>saiteye1990@gmail.com</td>
+				<td>emsi2026arcdetriomf@gmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -16489,7 +16489,7 @@ p span.label {font-weight: bold;}
 			<tr>
 				<td><img height="16" src="/emsiweb/images/emsi/icon_email.gif" width="16" /></td>
 				<td class="label">電郵:</td>
-				<td>saiteye1990@gmail.com</td>
+				<td>emsi2026arcdetriomf@gmail.com</td>
 			</tr>
 		</tbody>
 	</table>
@@ -16524,7 +16524,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <b>Tel #: </b>+34-605-076-751
 </p>
 <p>
-<b>Email: </b> saiteye1990@gmail.com
+<b>Email: </b> emsi2026arcdetriomf@gmail.com
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6527.622807868189!2d2.174976210336503!3d41.39736579595997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2e1337eaaab%3A0xd551b5871e18f226!2sC.%20de%20Sic%C3%ADlia%2C%20200%2C%20Eixample%2C%2008013%20Barcelona%2C%20Spain!5e0!3m2!1sen!2sus!4v1787959840378!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
@@ -16543,7 +16543,7 @@ INSERT INTO PUBLIC.CHURCH_CONTENT(CHURCH_ID, PAGE_ID, LOCALE, TITLE, BODY) VALUE
 <b>電話: </b>+34-605-076-751
 </p>
 <p>
-<b>電郵: </b>saiteye1990@gmail.com
+<b>電郵: </b>emsi2026arcdetriomf@gmail.com
 </p>
 <p>
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6527.622807868189!2d2.174976210336503!3d41.39736579595997!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12a4a2e1337eaaab%3A0xd551b5871e18f226!2sC.%20de%20Sic%C3%ADlia%2C%20200%2C%20Eixample%2C%2008013%20Barcelona%2C%20Spain!5e0!3m2!1sen!2sus!4v1787959840378!5m2!1sen!2sus" width="640" height="480" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
