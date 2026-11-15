@@ -8958,11 +8958,11 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 	<tbody class="borderless-table">
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Chun Yu Lau, +31-(0)61-357-4829</td>
+			<td>Ev. Chun Yu Lau, 31-(0)61-357-4829</td>
 		</tr>
 		<tr>
 			<td class="label">Evangelist:</td>
-			<td>Ev. Candice Lau-Lee, +31-(0)62-884-7813</td>
+			<td>Ev. Candice Lau-Lee, 31-(0)62-884-7813</td>
 		</tr>
 	</tbody>
 </table>
@@ -8977,7 +8977,7 @@ border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; border
 		<tr>
 			<td class="label"><img src="/emsi/images/icon_phone.gif" height="16" width="16" /></td>
 			<td class="label">Tel#:</td>
-			<td>+31-(0)50-571-8040</td>
+			<td>31-0(61)-357-4829</td>
 		</tr>
 		<tr>
 			<td><img src="/emsi/images/icon_email.gif" height="16" width="16" /></td>
@@ -9024,11 +9024,11 @@ p span.label {font-weight: bold;}
 	<tbody class=\"borderless-table\">
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>劉震宇傳道, +31-(0)61-357-4829</td>
+			<td>劉震宇傳道, 31-(0)61-357-4829</td>
 		</tr>
 		<tr>
 			<td class=\"label\">傳道:</td>
-			<td>劉李嘉欣傳道, +31-(0)62-884-7813</td>
+			<td>劉李嘉欣傳道, 31-(0)62-884-7813</td>
 		</tr>
 	</tbody>
 </table>
@@ -9043,7 +9043,7 @@ p span.label {font-weight: bold;}
 		<tr>
 			<td class=\"label\"><img src=\"/emsi/images/icon_phone.gif\" height=\"16\" width=\"16\" /></td>
 			<td class=\"label\">電話:</td>
-			<td>+31-(0)50-571-8040</td>
+			<td>31-0(61)-357-4829</td>
 		</tr>
 		<tr>
 			<td><img src=\"/emsi/images/icon_email.gif\" height=\"16\" width=\"16\" /></td>
@@ -9080,16 +9080,16 @@ p span.label {font-weight: bold;}
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>Evangelist: </b>Ev. Chun Yu Lau, +31-(0)61-357-4829
+<b>Evangelist: </b>Ev. Chun Yu Lau, 31-(0)61-357-4829
 </p>
 <p>
-<b>Evangelist: </b>Ev. Candice Lau-Lee, +31-(0)62-884-7813
+<b>Evangelist: </b>Ev. Candice Lau-Lee, 31-(0)62-884-7813
 </p>
 <p>
 <b>Address: </b>Korreweg 37, 9714 AB Groningen, The Netherlands
 </p>
 <p>
-<b>Tel #: </b>+31-(0)50-571-8040
+<b>Tel #: </b>31-0(61)-357-4829
 <p>
 <b>Email: </b>ceme.groningen@emsi.nl
 </p>
@@ -9105,16 +9105,16 @@ update church_content set body = STRINGDECODE('<p>
 
 update church_content set body = STRINGDECODE('<p>
 <p>
-<b>傳道:</b> 劉震宇傳道, +31-(0)61-357-4829
+<b>傳道:</b> 劉震宇傳道, 31-(0)61-357-4829
 </p>
 <p>
-<b>傳道:</b> 劉李嘉欣傳道, +31-(0)62-884-7813
+<b>傳道:</b> 劉李嘉欣傳道, 31-(0)62-884-7813
 </p>
 <p>
 <b>地址: </b>Korreweg 37, 9714 AB Groningen, The Netherlands
 </p>
 <p>
-<b>電話:</b> +31-(0)50-571-8040
+<b>電話:</b> 31-0(61)-357-4829
 </p>
 <p>
 <b>電郵: </b>ceme.groningen@emsi.nl
